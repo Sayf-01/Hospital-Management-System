@@ -13,7 +13,6 @@ All data is synthetic and created for coursework. No real patients, staff or rec
 ```
 schema/schema.sql         Tables, constraints, indexes, foreign keys and the radiology_exam_details view
 data/data.sql             Sample data for all 15 tables
-data/fix_sequences.sql    Moves each ID counter past the loaded data (run after data.sql)
 queries/                  The 20 project queries (query01.sql to query20.sql)
 docs/er-diagram.png       ER diagram
 ```
@@ -27,13 +26,9 @@ so run them with `psql`, not the pgAdmin Query Tool.
 createdb -U postgres hospital_management
 psql -U postgres -d hospital_management -f schema/schema.sql
 psql -U postgres -d hospital_management -f data/data.sql
-psql -U postgres -d hospital_management -f data/fix_sequences.sql
 ```
 
 On Windows, `psql` and `createdb` are in `C:\Program Files\PostgreSQL\18\bin\`.
-
-`fix_sequences.sql` is needed because the sample data is inserted with explicit IDs.
-Without it, the next `INSERT` that leaves out the ID starts at 1 and fails with a duplicate-key error.
 
 ## Tables
 
