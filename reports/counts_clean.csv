@@ -1,0 +1,2 @@
+source,entity,rows_in,rows_out,quarantined,duplicates_removed
+B,patients,51,50,0,1

@@ -1,0 +1,7 @@
+source_code,entity,source_local_id,line,problem_type,column,raw_value,cleaned_value
+B,patients,19,20,missing_value,health_insurance_number,,
+B,patients,11,12,missing_value,phone_number,,
+B,patients,1,2,text_normalization,first_name,GivenB0001,Givenb0001
+B,patients,2,3,text_normalization,first_name,GivenB0002,Givenb0002
+B,patients,12,13,timestamp,date_of_death,28.06.2026 03:00,2026-06-28T01:00:00+00:00
+B,patients,51,52,duplicate_patient,health_insurance_number/date_of_birth,"{""patient_no"": ""51"", ""given_name"": ""GivenB0038"", ""family_name"": "" PATIENTB0038 "", ""birth_date"": ""21.10.1974"", ""sex"": ""Female"", ""insurance_no"": ""P2-B-00038"", ""address"": ""Synthetic address B-38"", ""phone_number"": ""555-0138"", ""emergency_contact_info"": ""Synthetic contact 38"", ""life_status"": ""Alive"", ""date_of_death"": null}",removed; kept source-local ID 38

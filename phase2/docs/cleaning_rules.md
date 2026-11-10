@@ -254,3 +254,20 @@ The source-specific exact labels below map to the Phase 1 value shown. `value_ma
 | `procedure_datetime` | Yes | A local ISO; B day-first; C offset ISO; D epoch/string | Convert to UTC; quarantine if after linked admission discharge and not certainly repairable. | Quarantine and flag. |
 | `operating_room` | No | A `OPERATING_ROOM`; B-D `operating_room`/`operatingRoom` | Trim; preserve as text. | `NULL`; keep and flag. |
 | `procedure_notes` | No | A `PROCEDURE_NOTES`; B-D `procedure_notes`/`procedureNotes`; free text | Trim; preserve text. | `NULL`; keep and flag. |
+
+## Initial CSV cleaner
+
+Run the pandas-based sample cleaner from the repository root:
+
+```sh
+.venv/bin/python phase2/clean.py
+```
+
+The initial vertical slice reads `data/raw/sample/B_patients.csv` directly because
+the shared `pipeline.load` module is not present yet. It writes the normalized
+patient sample to `data/clean/patients.csv`, rejected rows to
+`data/quarantine/patients.csv`, and row counts/examples to `reports/`. To clean a
+different mapped CSV, pass `--source`, `--entity`, and `--input`; repeated runs
+replace that source/entity's output while preserving other sources already
+stacked in the files. XML/JSON loader integration and cross-entity reference
+validation remain outside this CSV-only first slice.
