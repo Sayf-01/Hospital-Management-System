@@ -1,0 +1,9 @@
+# Synthetic hospital data: source A, radiology_reports
+REPORT_ID|RADIOLOGY_ID|RADIOLOGIST_ID|REPORT_DATETIME|FINDINGS|IMPRESSION
+1|1|4|2026-01-06 09:40|Synthetic imaging findings|Synthetic impression
+2|2|4|2026-01-23 09:40|Synthetic imaging findings|Synthetic impression
+3|3|4|2026-01-26 09:40|Synthetic imaging findings|Synthetic impression
+4|4|4|2026-02-15 09:40|Synthetic imaging findings|Synthetic impression
+5|5|4|2026-03-07 09:40|Synthetic imaging findings|Synthetic impression
+6|6|4|2026-01-07 09:40|Synthetic imaging findings|Synthetic impression
+7|7|4|2026-01-27 09:40|Synthetic imaging findings|Synthetic impression
