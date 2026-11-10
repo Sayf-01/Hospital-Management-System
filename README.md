@@ -22,6 +22,22 @@ docs/er-diagram.png       ER diagram
 Requires PostgreSQL 18. The dump files contain `\restrict` lines that only `psql` understands,
 so run them with `psql`, not the pgAdmin Query Tool.
 
+## Development setup
+
+Create and activate a virtual environment, then install the project dependencies:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+cp .env.example .env
+```
+
+On Windows PowerShell, activate with `.venv\Scripts\Activate.ps1` and copy the example
+with `Copy-Item .env.example .env`. Update `.env` with your database credentials when
+the Neon database is available. The checked-in `.env.example` contains placeholders;
+`.env` is ignored by Git.
+
 ```bash
 createdb -U postgres hospital_management
 psql -U postgres -d hospital_management -f schema/schema.sql
