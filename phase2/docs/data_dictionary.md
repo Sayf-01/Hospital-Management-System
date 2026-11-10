@@ -18,7 +18,7 @@ For D, day-first dates stay day-first even when the day and month could be swapp
 A and B store the parent IDs in the headers listed below. In C and D, the loader supplies the listed `source_*` fields from ancestors. These are **flattened keys**, not fields to emit in XML or JSON. All non-nesting references, such as `unitId`, staff IDs and ICD-9 codes, are explicit fields.
 
 - Example: C patient `@id=125` → admission `@id=501` → diagnosis `@id=701` supplies `source_patient_id=125` and `source_admission_id=501` for that diagnosis. The D structure gives the same links through `patientId` and `admissionId`.
-- Local IDs are source-scoped and entity-scoped; retain the source on every flattened record. Loader metadata such as `_source`, `_file` and `_line` is separate from the column renaming map.
+- Local IDs are source-scoped and entity-scoped; retain the source on every flattened record. Loader metadata such as `_source`, `_file` and `_line` is separate from the column renaming map. During loading, generate target primary keys (using the Phase 1 identity columns) and maintain a durable crosswalk from `(source, entity, local ID)` to target ID. Resolve every foreign key through that crosswalk rather than inserting source IDs directly; retain enough lineage to recover the source time zone for date-based reporting.
 - Each entity instance is one record. XML tags and JSON containers are not extra records. For malformed A/B lines, keep a raw-row count and account for those rows in the malformed log. Never read the injection log as an input to the cleaner.
 
 ## Planned clean counts before injections
@@ -64,7 +64,9 @@ Percentages refer to eligible rows, not all rows in a source. The generator shou
 | icd9 format | 0% | 5% | 0% | 5% | Diagnosis rows with an eligible code representation; record dictionary variants separately if injected. |
 | missing primary | 0.5% | 0.5% | 0.5% | 0.5% | Completed admissions; remove the primary diagnosis without converting the secondary diagnosis. |
 
-Start local IDs at 1 in each source to produce natural ID collisions. Across A↔B and C↔D combined, plan about 25 true patient matches, 10 same-name nonmatches and 10 uncertain cases. Confirm with Sayf and Dany how the shared fictional insurance identifier will survive normalization across sources. Keep true matches distinct from the ordinary local insurance IDs used to test collisions. Keep cases that cannot be repaired under about 5% overall, including the downstream effect of rejecting a parent.
+Start local IDs at 1 in each source to produce natural ID collisions. Across A↔B and C↔D combined, plan about 25 true patient matches, 10 same-name nonmatches and 10 uncertain cases. Give each true match the same designated synthetic insurance number in both sources, distinct from ordinary local insurance numbers. Merge only when that identifier, normalized first and last names, and DOB all agree. Keep same-name nonmatches separate; keep uncertain cases separate and flag them for review. Keep cases that cannot be repaired under about 5% overall, including the downstream effect of rejecting a parent.
+
+The loader must preserve source/entity/local-ID to target-ID lineage for every loaded record, including aliases created by within-source deduplication and patient merges. Multiple source patient IDs may resolve to the same target patient ID only for a verified match. Local IDs never become target IDs directly, and all child foreign keys must be resolved through the crosswalk. Calendar-day comparisons use the UTC date of stored timestamps unless a query explicitly specifies another time zone; Q20 compares UTC calendar dates.
 
 ## Field mappings
 
@@ -332,4 +334,3 @@ Each row maps one Phase 1 column to four raw fields. The PostgreSQL type and req
 | `procedure_datetime` | timestamp without time zone | Yes | `PROCEDURE_DATETIME` · `2026-05-01 09:00` | `procedure_datetime` · `01.05.2026 09:00` | `procedureDatetime` · `2026-05-01T09:00:00+09:00` | `procedureDatetime` · `01/05/2026 9:00 AM` |
 | `operating_room` | character varying(20) | No | `OPERATING_ROOM` · `OR-2` | `operating_room` · `OR-2` | `operatingRoom` · `OR-2` | `operatingRoom` · `OR-2` |
 | `procedure_notes` | text | No | `PROCEDURE_NOTES` · `Example text` | `procedure_notes` · `Example text` | `procedureNotes` · `Example text` | `procedureNotes` · `Example text` |
-

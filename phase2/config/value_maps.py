@@ -10,8 +10,13 @@ VALUE_MAPS: dict[str, dict[str, dict[str, str]]] = {
             " ELECTIVE ": "Elective",
             "Outpatient": "Outpatient",
             " OUTPATIENT ": "Outpatient",
+            "Newborn": "Newborn",
         },
         "B": {
+            "Emergency": "Emergency",
+            "Urgent": "Urgent",
+            "Elective": "Elective",
+            "Outpatient": "Outpatient",
             "Notfall": "Emergency",
             " NOTFALL ": "Emergency",
             "Dringend": "Urgent",
@@ -19,6 +24,7 @@ VALUE_MAPS: dict[str, dict[str, dict[str, str]]] = {
             "Geplant": "Elective",
             " GEPLANT ": "Elective",
             "Ambulant": "Outpatient",
+            "Newborn": "Newborn",
         },
         "C": {
             "Emergency": "Emergency",
@@ -28,6 +34,7 @@ VALUE_MAPS: dict[str, dict[str, dict[str, str]]] = {
             "Elective": "Elective",
             "ELECTIVE": "Elective",
             "Outpatient": "Outpatient",
+            "Newborn": "Newborn",
         },
         "D": {
             "Emergency": "Emergency",
@@ -36,12 +43,16 @@ VALUE_MAPS: dict[str, dict[str, dict[str, str]]] = {
             " URGENT ": "Urgent",
             "Elective": "Elective",
             "Outpatient": "Outpatient",
+            "Newborn": "Newborn",
         },
     },
     "admission_source": {
         source: {
             "Emergency Department": "Emergency Department",
             "Referral": "Referral",
+            "Transfer from Another Hospital": "Transfer from Another Hospital",
+            "Walk-in": "Walk-in",
+            "Other": "Other",
         }
         for source in "ABCD"
     },
@@ -55,6 +66,9 @@ VALUE_MAPS: dict[str, dict[str, dict[str, str]]] = {
     },
     "priority_level": {
         "A": {
+            "High-Priority Emergency": "High-Priority Emergency",
+            "Urgent": "Urgent",
+            "Non-Urgent": "Non-Urgent",
             "1": "High-Priority Emergency",
             "2": "High-Priority Emergency",
             "3": "Urgent",
@@ -62,23 +76,37 @@ VALUE_MAPS: dict[str, dict[str, dict[str, str]]] = {
             "5": "Non-Urgent",
         },
         "B": {
+            "High-Priority Emergency": "High-Priority Emergency",
+            "Urgent": "Urgent",
+            "Non-Urgent": "Non-Urgent",
             "P1": "High-Priority Emergency",
             "P2": "Urgent",
             "P3": "Non-Urgent",
         },
         "C": {
+            "High-Priority Emergency": "High-Priority Emergency",
+            "Urgent": "Urgent",
+            "Non-Urgent": "Non-Urgent",
             "Red": "High-Priority Emergency",
             "Yellow": "Urgent",
             "Green": "Non-Urgent",
         },
         "D": {
+            "High-Priority Emergency": "High-Priority Emergency",
+            "Urgent": "Urgent",
+            "Non-Urgent": "Non-Urgent",
             "1": "High-Priority Emergency",
             "2": "Urgent",
             "3": "Non-Urgent",
         },
     },
     "gender": {
-        "A": {"M": "Male", "F": "Female"},
+        "A": {
+            "M": "Male",
+            "F": "Female",
+            "Male": "Male",
+            "Female": "Female",
+        },
         **{
             source: {"Male": "Male", "Female": "Female"}
             for source in "BCD"
@@ -113,7 +141,13 @@ VALUE_MAPS: dict[str, dict[str, dict[str, str]]] = {
         for source in "ABCD"
     },
     "discharge_condition": {
-        source: {"Improved": "Improved", "Deceased": "Deceased"}
+        source: {
+            "Improved": "Improved",
+            "Stable": "Stable",
+            "Unchanged": "Unchanged",
+            "Deteriorated": "Deteriorated",
+            "Deceased": "Deceased",
+        }
         for source in "ABCD"
     },
     "role": {
