@@ -50,7 +50,7 @@ class CleaningHelpersTests(unittest.TestCase):
         parsed, invalid = parse_timestamps(frame, "B", ["assessment_datetime"])
         self.assertEqual(
             parsed.at[0, "assessment_datetime"],
-            pd.Timestamp("2026-06-15 06:10:00", tz="UTC"),
+            pd.Timestamp("2026-06-15 06:10:00"),
         )
         self.assertFalse(invalid.at[0, "assessment_datetime"])
 

@@ -228,6 +228,7 @@ def parse_timestamps(
                 ).dt.tz_convert("UTC")
             else:
                 parsed = parsed.dt.tz_convert("UTC")
+        parsed = parsed.dt.tz_localize(None)
         invalid[column] = supplied & parsed.isna()
         result[column] = parsed
     return result, invalid
