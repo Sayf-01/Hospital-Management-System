@@ -1,7 +1,0 @@
-# Synthetic hospital data: source A, healthcare_professionals
-STAFF_ID|FNAME|LNAME|ROLE|SPECIALTY
-1|StaffA001|ProviderA001|Physician|NULL
-2|StaffA002|ProviderA002|Surgeon|-
-3|StaffA003|ProviderA003|Nurse|
-4|StaffA004|ProviderA004|Radiologist|NULL
-5|StaffA005|ProviderA005|Technician|-
