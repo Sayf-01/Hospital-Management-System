@@ -1,0 +1,12 @@
+# Synthetic hospital data: source A, surgical_procedures
+PROCEDURE_ID|ADM_ID|SURGEON_ID|PROCEDURE_NAME|PROCEDURE_DATETIME|OPERATING_ROOM|PROCEDURE_NOTES
+1|1|2|Coronary artery bypass grafting|2026-01-06 09:00|OR-1|Synthetic procedure note
+2|2|2|Laparoscopic appendectomy|2026-01-26 09:00|OR-1|Synthetic procedure note
+3|3|2|Internal fixation of femoral neck fracture|2026-02-15 09:00|OR-1|Synthetic procedure note
+4|4|2|Coronary artery bypass grafting|2026-03-07 09:00|OR-1|Synthetic procedure note
+5|5|2|Laparoscopic appendectomy|2026-01-07 09:00|OR-1|Synthetic procedure note
+6|6|2|Internal fixation of femoral neck fracture|2026-01-27 09:00|OR-1|Synthetic procedure note
+7|8|2|Coronary artery bypass grafting|2026-01-09 09:00|OR-1|Synthetic procedure note
+8|9|2|Laparoscopic appendectomy|2026-01-29 09:00|OR-1|Synthetic procedure note
+9|10|2|Internal fixation of femoral neck fracture|2026-01-10 09:00|OR-1|Synthetic procedure note
+10|11|2|Coronary artery bypass grafting|2026-01-11 09:00|OR-1|Synthetic procedure note

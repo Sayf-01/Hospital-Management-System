@@ -1,0 +1,17 @@
+﻿examination_id;order_id;performed_by_id;examination_type;examination_datetime;examination_status;result_summary
+1;1;5;Chest X-Ray;15.06.2026 08:40;Completed;Synthetic result
+2;2;5;CT Chest;03.07.2026 08:40;Completed;Synthetic result
+3;3;5;MRI Brain;05.07.2026 08:40;Completed;Synthetic result
+4;4;5;Chest X-Ray;25.07.2026 08:40;Completed;Synthetic result
+5;5;5;CT Chest;14.08.2026 08:40;Completed;Synthetic result
+6;6;5;MRI Brain;16.06.2026 08:40;Completed;Synthetic result
+7;7;5;Chest X-Ray;18.06.2026 08:40;Completed;Synthetic result
+8;8;5;CT Chest;19.06.2026 08:40;Completed;Synthetic result
+9;9;5;Blood Test;09.07.2026 08:40;Completed;Synthetic result
+10;10;5;Blood Test;20.06.2026 08:40;Completed;Synthetic result
+11;11;5;Blood Test;10.07.2026 08:40;Completed;Synthetic result
+12;12;5;Blood Test;21.06.2026 08:40;Completed;Synthetic result
+13;13;5;Blood Test;11.07.2026 08:40;Completed;Synthetic result
+14;14;5;Blood Test;22.06.2026 08:40;Completed;Synthetic result
+15;15;5;Blood Test;12.07.2026 08:40;Completed;Synthetic result
+16;16;5;Blood Test;23.06.2026 08:40;Completed;Synthetic result
