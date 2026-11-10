@@ -75,10 +75,12 @@ class CleaningHelpersTests(unittest.TestCase):
 
     def test_duplicate_helpers(self):
         records = pd.DataFrame(
-            {"source_local_id": ["1", "1"], "line": [2, 3], "value": ["x", "x"]}
+            {"source_local_id": ["1", "1"], "line": [2, 3], "value": ["x", "x"]},
+            index=[5, 5],
         )
         unique, removed = drop_exact_duplicates(records)
         self.assertEqual((len(unique), removed), (1, 1))
+        self.assertEqual(unique.iloc[0]["line"], 2)
 
         patients = pd.DataFrame(
             {

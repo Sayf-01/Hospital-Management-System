@@ -110,13 +110,13 @@ def _is_missing(value: object) -> bool:
 
 def normalize_missing(df: pd.DataFrame) -> pd.DataFrame:
     """Replace common source null markers with Python ``None`` values."""
-    result = df.copy().astype(object)
+    result = df.copy()
     for column in result.columns:
-        result[column] = pd.Series(
-            [None if _is_missing(value) else value for value in result[column]],
-            index=result.index,
-            dtype=object,
-        )
+        values = result[column].map(
+            lambda value: None if _is_missing(value) else value
+        ).astype(object)
+        values.loc[values.isna()] = None
+        result[column] = values
     return result
 
 
@@ -128,14 +128,14 @@ def normalize_text(df: pd.DataFrame, cols: Iterable[str]) -> pd.DataFrame:
             continue
         for index, value in result[column].items():
             if _is_missing(value):
-                result.at[index, column] = None
+                result.loc[index, column] = None
                 continue
             text = " ".join(str(value).split())
             if column in {"first_name", "last_name"}:
                 text = text.title()
             elif column == "code" or column.endswith("_code"):
                 text = text.upper()
-            result.at[index, column] = text
+            result.loc[index, column] = text
     return result
 
 
@@ -184,7 +184,7 @@ def map_categories(
                 )
             except ValueError:
                 values[result.index.get_loc(index)] = None
-                flags.at[index, field] = True
+                flags.loc[index, field] = True
         result[field] = pd.Series(values, index=result.index, dtype=object)
     return result, flags
 
@@ -278,8 +278,8 @@ def drop_exact_duplicates(df: pd.DataFrame) -> tuple[pd.DataFrame, int]:
     """Drop exact row duplicates while ignoring internal line/raw-value columns."""
     ignored = [column for column in ("line", "_raw_values") if column in df]
     comparable = df.drop(columns=ignored)
-    keep = ~comparable.duplicated(keep="first")
-    return df.loc[keep].copy(), int((~keep).sum())
+    unique_rows = comparable.reset_index(drop=True).drop_duplicates(keep="first")
+    return df.iloc[unique_rows.index].copy(), len(df) - len(unique_rows)
 
 
 def merge_duplicate_patients(patients: pd.DataFrame) -> tuple[pd.DataFrame, int]:
@@ -462,19 +462,19 @@ def clean_csv(
                 normalized.loc[index],
                 "missing_value",
                 clean_column,
-                before.at[index],
+                before.loc[index],
                 None,
             )
         if clean_column in {"first_name", "last_name"} and raw_column in original:
             for index in before.index[before.astype(str) != after.astype(str)]:
-                if not _is_missing(before.at[index]):
+                if not _is_missing(before.loc[index]):
                     _example(
                         examples,
                         normalized.loc[index],
                         "text_normalization",
                         clean_column,
-                        before.at[index],
-                        after.at[index],
+                        before.loc[index],
+                        after.loc[index],
                     )
 
     text_columns = [
@@ -495,8 +495,8 @@ def clean_csv(
                 normalized.loc[index],
                 "text_normalization",
                 column,
-                text_before.at[index, column],
-                normalized.at[index, column],
+                text_before.loc[index, column],
+                normalized.loc[index, column],
             )
 
     normalized, category_flags = map_categories(normalized, source, entity)
@@ -507,7 +507,7 @@ def clean_csv(
                 normalized.loc[index],
                 "unknown_category",
                 field,
-                original_by_line.loc[normalized.at[index, "line"]].get(field),
+                original_by_line.loc[normalized.loc[index, "line"]].get(field),
                 None,
             )
 
@@ -519,7 +519,7 @@ def clean_csv(
                 normalized.loc[index],
                 "invalid_date",
                 "date_of_birth",
-                original_by_line.loc[normalized.at[index, "line"]].get(
+                original_by_line.loc[normalized.loc[index, "line"]].get(
                     next(
                         (
                             raw_column
@@ -529,7 +529,7 @@ def clean_csv(
                         "",
                     )
                 ),
-                normalized.at[index, "date_of_birth"],
+                normalized.loc[index, "date_of_birth"],
             )
 
     timestamp_columns = [
@@ -544,12 +544,12 @@ def clean_csv(
     for column in timestamp_columns:
         changed = timestamp_before[column].astype(str) != normalized[column].astype(str)
         for index in normalized.index[changed]:
-            raw_value = timestamp_before.at[index, column]
+            raw_value = timestamp_before.loc[index, column]
             if _is_missing(raw_value):
                 continue
             problem = (
                 "invalid_date"
-                if timestamp_invalid_by_column.at[index, column]
+                if timestamp_invalid_by_column.loc[index, column]
                 else "timestamp"
             )
             _example(
@@ -558,7 +558,7 @@ def clean_csv(
                 problem,
                 column,
                 raw_value,
-                normalized.at[index, column],
+                normalized.loc[index, column],
             )
 
     number_before = normalized.copy()
@@ -571,8 +571,8 @@ def clean_csv(
                 normalized.loc[index],
                 "numeric",
                 column,
-                number_before.at[index, column],
-                normalized.at[index, column],
+                number_before.loc[index, column],
+                normalized.loc[index, column],
             )
 
     if "icd9_code" in normalized:
@@ -585,8 +585,8 @@ def clean_csv(
                 normalized.loc[index],
                 "icd9_format",
                 "icd9_code",
-                before.at[index],
-                normalized.at[index, "icd9_code"],
+                before.loc[index],
+                normalized.loc[index, "icd9_code"],
             )
 
     reasons = pd.Series("", index=normalized.index, dtype=object)
