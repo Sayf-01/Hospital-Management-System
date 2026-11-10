@@ -1,0 +1,8 @@
+﻿report_id;radiology_id;radiologist_id;report_datetime;findings;impression
+1;1;4;15.06.2026 09:40;Synthetic imaging findings;Synthetic impression
+2;2;4;03.07.2026 09:40;Synthetic imaging findings;Synthetic impression
+3;3;4;05.07.2026 09:40;Synthetic imaging findings;Synthetic impression
+4;4;4;25.07.2026 09:40;Synthetic imaging findings;Synthetic impression
+5;5;4;14.08.2026 09:40;Synthetic imaging findings;Synthetic impression
+6;6;4;16.06.2026 09:40;Synthetic imaging findings;Synthetic impression
+7;7;4;18.06.2026 09:40;Synthetic imaging findings;Synthetic impression
