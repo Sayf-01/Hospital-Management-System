@@ -1,0 +1,3 @@
+source,entity,file,line,reason,raw_record
+A,clinical_notes,A_clinical_notes.txt,17,"expected 6 fields, got 5",15|16|1|Progress Note|2026-01-14 08:30
+B,clinical_notes,B_clinical_notes.csv,16,"expected 6 fields, got 5",15;16;1;Progress Note;23.06.2026 08:30
