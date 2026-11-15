@@ -272,23 +272,57 @@ class CleaningLog:
     def __init__(self) -> None:
         self.rows: list[dict] = []
 
-    def add(self, source, entity, local_id, line, stage, problem, column,
-            raw_value, cleaned_value, action) -> None:
-        self.rows.append({
-            "source_code": source,
-            "entity": entity,
-            "source_local_id": local_id,
-            "source_line": line,
-            "stage": stage,
-            "problem_type": problem,
-            "column": column,
-            "raw_value": None if is_missing(raw_value) else str(raw_value),
-            "cleaned_value": None if is_missing(cleaned_value) else str(cleaned_value),
-            "action": action,
-        })
+    def add_rows(self, records: pd.DataFrame) -> None:
+        """Add a table of log lines (one per value), keeping their order."""
+        records = records[LOG_COLUMNS].copy()
+        for column in ("raw_value", "cleaned_value"):
+            records[column] = records[column].map(lambda value: None if is_missing(value) else str(value))
+        self.rows.extend(records.to_dict("records"))
 
     def frame(self) -> pd.DataFrame:
         return pd.DataFrame(self.rows, columns=LOG_COLUMNS)
+
+
+def log_records(log: CleaningLog, source: str, entity: str, rows: pd.DataFrame, stage: str,
+                problem, column: str, raw_values, cleaned_values, action) -> None:
+    """Log one line for each row in `rows`. problem/raw/cleaned/action: one value or a column."""
+    if rows.empty:
+        return
+    log.add_rows(pd.DataFrame({
+        "source_code": source,
+        "entity": entity,
+        "source_local_id": rows["source_local_id"],
+        "source_line": rows["_line"],
+        "stage": stage,
+        "problem_type": problem,
+        "column": column,
+        "raw_value": raw_values,
+        "cleaned_value": cleaned_values,
+        "action": action,
+    }))
+
+
+def add_quarantine(quarantine_rows: list, rows: pd.DataFrame, entity: str, stage: str, reason) -> None:
+    """Copy rejected rows (with their untouched raw values) into the quarantine list."""
+    if rows.empty:
+        return
+    table = pd.DataFrame({
+        "source_code": rows["source_code"],
+        "entity": entity,
+        "source_local_id": rows["source_local_id"],
+        "source_line": rows["_line"],
+        "stage": stage,
+        "reason": reason,
+        "raw_values": rows["_raw_values"],
+    })
+    quarantine_rows.extend(table.to_dict("records"))
+
+
+def add_reason(reasons: pd.Series, mask: pd.Series, text) -> pd.Series:
+    """Append a rejection reason to the rows in `mask` (text: one string or a column)."""
+    reasons = reasons.copy()
+    reasons.loc[mask] = (reasons[mask] + "; " + text).str.lstrip("; ")
+    return reasons
 
 
 # --------------------------------------------------------------------------
@@ -485,40 +519,39 @@ def find_exact_duplicates(raw: pd.DataFrame) -> pd.Series:
     """True for every repeated copy of a row (all fields equal after trimming)."""
     compared = [column for column in raw.columns if column not in ("_source", "_file", "_line")]
     trimmed = raw[compared].map(lambda value: None if value is None else str(value).strip())
-    return trimmed.duplicated(keep="first")
-
-
-def patient_identity_key(row: pd.Series) -> tuple | None:
-    """Names: collapse spaces + ignore case. Insurance: trim + ignore case. No insurance, no match."""
-    if is_missing(row["health_insurance_number"]):
-        return None
-    return (
-        " ".join(str(row["first_name"]).split()).casefold(),
-        " ".join(str(row["last_name"]).split()).casefold(),
-        row["date_of_birth"],
-        str(row["health_insurance_number"]).strip().casefold(),
-    )
+    kept = trimmed.drop_duplicates(keep="first")
+    return pd.Series(~raw.index.isin(kept.index), index=raw.index)
 
 
 def merge_duplicate_patients(patients: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
     """Keep the lowest local ID for each identity inside one source.
 
+    Identity = first name + last name (spaces collapsed, case ignored), date of
+    birth, and insurance number (trimmed, case ignored). No insurance, no match.
     Returns (kept patients, remap table with old_patient_id -> kept_patient_id).
     """
     if patients.empty:
         return patients.copy(), pd.DataFrame(columns=["source_code", "old_patient_id", "kept_patient_id"])
     patients = patients.reset_index(drop=True)
     work = patients.copy()
-    work["_key"] = work.apply(patient_identity_key, axis=1)
+    work["_first"] = work["first_name"].map(lambda name: " ".join(str(name).split()).casefold())
+    work["_last"] = work["last_name"].map(lambda name: " ".join(str(name).split()).casefold())
+    work["_insurance"] = work["health_insurance_number"].map(
+        lambda number: None if is_missing(number) else str(number).strip().casefold())
     work["_order"] = work["source_local_id"].astype(int)
     work = work.sort_values(["source_code", "_order"], kind="stable")
-    keyed = work[work["_key"].notna()]
-    first_id = keyed.groupby(["source_code", "_key"])["source_local_id"].transform("first")
-    duplicate = keyed[keyed["source_local_id"] != first_id]
+    keyed = work[work["_insurance"].notna()]
+
+    key = ["source_code", "_first", "_last", "date_of_birth", "_insurance"]
+    lowest = keyed.drop_duplicates(subset=key, keep="first")[key + ["source_local_id"]]
+    lowest = lowest.rename(columns={"source_local_id": "kept_patient_id"})
+    matched = pd.merge(keyed.reset_index(), lowest, on=key, how="left").set_index("index")
+    duplicate = matched[matched["source_local_id"] != matched["kept_patient_id"]]
+
     remap = pd.DataFrame({
         "source_code": duplicate["source_code"],
         "old_patient_id": duplicate["source_local_id"],
-        "kept_patient_id": first_id[duplicate.index],
+        "kept_patient_id": duplicate["kept_patient_id"],
     })
     kept = patients.drop(index=duplicate.index)
     return kept, remap.reset_index(drop=True)
@@ -536,6 +569,61 @@ def rename_fields(df: pd.DataFrame, source: str, entity: str) -> pd.DataFrame:
         raise ValueError(f"Unmapped columns for {source} {entity}: {', '.join(sorted(unmapped))}")
     result = df.rename(columns=field_map)
     return result.rename(columns={column: clean_column_name(entity, column) for column in field_map.values()})
+
+
+def clean_value(value: str, column: str, spec: dict, source: str, entity: str,
+                dictionary_codes: set[str]) -> tuple[str | None, str | None, str | None]:
+    """Clean one value that is present, using its Phase 1 type.
+
+    Returns (cleaned value, problem, event). A problem means the value is unusable;
+    an event names a correction or conversion that goes in the log.
+    """
+    event = None
+    if spec["type"] == "integer" and column.endswith("_id"):
+        cleaned, problem = clean_id(value)
+    elif column in NUMERIC_RANGES:
+        cleaned, problem, event = clean_measurement(value, source, column)
+    elif spec["type"] == "timestamp":
+        cleaned, problem, event = parse_timestamp(value, source)
+    elif spec["type"] == "date":
+        cleaned, problem, event = parse_date(value, source)
+    elif column == "icd9_code" and entity == "icd9_dictionary":
+        cleaned = str(value).strip().upper()
+        problem = None if ICD9_PATTERN.fullmatch(cleaned) else "invalid_icd9_format"
+    elif column == "icd9_code":
+        cleaned, problem = fix_icd9(value, dictionary_codes)
+        if problem is None and cleaned != str(value).strip():
+            event = "icd9_format_repaired"
+    elif column in VALUE_MAPS:
+        cleaned, problem = clean_category(value, source, column)
+        tidy_labels = {label for label in VALUE_MAPS[column][source] if label == " ".join(label.split())}
+        if problem is None and str(value) not in tidy_labels:
+            event = "category_case_or_space"
+        elif problem is None and str(value) != cleaned:
+            event = "category_mapped"
+    elif column == "blood_pressure":
+        cleaned, problem = clean_blood_pressure(value)
+    else:
+        cleaned, problem = clean_text(value, spec["type"], spec["length"])
+        if problem is None and cleaned != value:
+            event = "whitespace_trimmed"
+    if problem is None and cleaned is not None and spec["length"] and len(cleaned) > spec["length"]:
+        problem = "text_too_long"
+    if problem is not None:
+        return None, problem, None
+    if event is None and spec["type"] == "timestamp":
+        event = "timestamp_to_utc"          # routine: used for before/after examples
+    elif event is None and spec["type"] == "date" and cleaned != value:
+        event = "date_reformatted"          # routine: used for before/after examples
+    return cleaned, None, event
+
+
+def event_action(event: str) -> str:
+    if event.startswith("ambiguous"):
+        return "kept, assumption logged"
+    if event in ("timestamp_to_utc", "date_reformatted"):
+        return "converted"
+    return "corrected"
 
 
 def clean_entity(raw: pd.DataFrame, source: str, entity: str, schema: dict,
@@ -557,15 +645,11 @@ def clean_entity(raw: pd.DataFrame, source: str, entity: str, schema: dict,
     if entity == "icd9_dictionary":
         df["source_local_id"] = df["icd9_code"].map(lambda value: None if value is None else str(value).strip())
 
-    def note(index, stage, problem, column, raw_value, cleaned_value, action):
-        log.add(source, entity, df.at[index, "source_local_id"], df.at[index, "_line"],
-                stage, problem, column, raw_value, cleaned_value, action)
-
     # Item 2: exact duplicate rows (compared on the raw values, trimmed).
     duplicate = find_exact_duplicates(raw)
-    for index in df.index[duplicate]:
-        note(index, "clean", "exact_duplicate", "(row)", df.at[index, "_raw_values"], None, "removed")
-    df = df.loc[~duplicate].copy()
+    log_records(log, source, entity, df[duplicate], "clean", "exact_duplicate", "(row)",
+                df.loc[duplicate, "_raw_values"], None, "removed")
+    df = df[~duplicate].copy()
     counts["exact_duplicates"] = int(duplicate.sum())
 
     # Item 1: one representation for "no value".
@@ -573,103 +657,69 @@ def clean_entity(raw: pd.DataFrame, source: str, entity: str, schema: dict,
     value_columns = [clean_column_name(entity, column) for column in columns]
     df[value_columns] = normalize_missing(df[value_columns])
 
-    reasons = {index: [] for index in df.index}
+    reasons = pd.Series("", index=df.index, dtype=object)
 
     # Items 3-6, one column at a time, using its Phase 1 type.
     for column, spec in columns.items():
         name = clean_column_name(entity, column)
         required = spec["required"]
-        for index in df.index:
-            value = df.at[index, name]
-            if is_missing(value):
-                df.at[index, name] = None
-                # raw_value shows how the source wrote "nothing": "", NULL, N/A, a missing key...
-                raw_value = before_missing.at[index, name]
-                raw_value = "(absent)" if raw_value is None else repr(str(raw_value))
-                if required:
-                    reasons[index].append(f"missing required {column}")
-                    note(index, "clean", "missing_required", column, raw_value, None, "quarantined")
-                else:
-                    note(index, "clean", "missing_optional", column, raw_value, None, "kept as NULL")
-                continue
-            note_text = None
-            if spec["type"] == "integer" and column.endswith("_id"):
-                cleaned, problem = clean_id(value)
-            elif column in NUMERIC_RANGES:
-                cleaned, problem, note_text = clean_measurement(value, source, column)
-            elif spec["type"] == "timestamp":
-                cleaned, problem, note_text = parse_timestamp(value, source)
-            elif spec["type"] == "date":
-                cleaned, problem, note_text = parse_date(value, source)
-            elif column == "icd9_code" and entity == "icd9_dictionary":
-                cleaned = str(value).strip().upper()
-                problem = None if ICD9_PATTERN.fullmatch(cleaned) else "invalid_icd9_format"
-            elif column == "icd9_code":
-                cleaned, problem = fix_icd9(value, dictionary_codes)
-                if problem is None and cleaned != str(value).strip():
-                    note_text = "icd9_format_repaired"
-            elif column in VALUE_MAPS:
-                cleaned, problem = clean_category(value, source, column)
-                tidy_labels = {label for label in VALUE_MAPS[column][source] if label == " ".join(label.split())}
-                if problem is None and str(value) not in tidy_labels:
-                    note_text = "category_case_or_space"
-                elif problem is None and str(value) != cleaned:
-                    note_text = "category_mapped"
-            elif column == "blood_pressure":
-                cleaned, problem = clean_blood_pressure(value)
-            else:
-                cleaned, problem = clean_text(value, spec["type"], spec["length"])
-                if problem is None and cleaned != value:
-                    note_text = "whitespace_trimmed"
-            if problem is None and cleaned is not None and spec["length"] and len(cleaned) > spec["length"]:
-                cleaned, problem = None, "text_too_long"
+        values = df[name]
+        missing = values.isna()
+        results = values.apply(
+            lambda value: (None, None, None) if is_missing(value)
+            else clean_value(value, column, spec, source, entity, dictionary_codes))
+        cleaned = results.map(lambda result: result[0])
+        problem = results.map(lambda result: result[1])
+        event = results.map(lambda result: result[2])
+        has_problem = problem.notna()
+        has_event = event.notna()
+        df[name] = cleaned.astype(object)          # NULL where missing or unusable
 
-            if problem is not None:
-                df.at[index, name] = None
-                if required:
-                    reasons[index].append(f"{problem} in required {column}")
-                    note(index, "clean", problem, column, value, None, "quarantined")
-                else:
-                    note(index, "clean", problem, column, value, None, "set to NULL")
-                continue
-            df.at[index, name] = cleaned
-            if note_text is not None:
-                action = "kept, assumption logged" if note_text.startswith("ambiguous") else "corrected"
-                note(index, "clean", note_text, column, value, cleaned, action)
-            elif spec["type"] == "timestamp":
-                # Routine conversion; kept for before/after examples, not in the problem log.
-                note(index, "clean", "timestamp_to_utc", column, value, cleaned, "converted")
-            elif spec["type"] == "date" and cleaned != value:
-                note(index, "clean", "date_reformatted", column, value, cleaned, "converted")
+        # One log line per value that was missing, unusable, corrected or converted.
+        # raw_value shows how the source wrote "nothing": "", NULL, N/A, a missing key...
+        log_table = pd.DataFrame(index=df.index, columns=["problem_type", "raw_value", "cleaned_value", "action"],
+                                 dtype=object)
+        log_table.loc[missing, "problem_type"] = "missing_required" if required else "missing_optional"
+        log_table.loc[missing, "action"] = "quarantined" if required else "kept as NULL"
+        log_table.loc[missing, "raw_value"] = before_missing.loc[missing, name].map(
+            lambda value: "(absent)" if value is None else repr(str(value)))
+        log_table.loc[has_problem, "problem_type"] = problem[has_problem]
+        log_table.loc[has_problem, "action"] = "quarantined" if required else "set to NULL"
+        log_table.loc[has_problem, "raw_value"] = values[has_problem]
+        log_table.loc[has_event, "problem_type"] = event[has_event]
+        log_table.loc[has_event, "action"] = event[has_event].map(event_action)
+        log_table.loc[has_event, "raw_value"] = values[has_event]
+        log_table.loc[has_event, "cleaned_value"] = cleaned[has_event]
+        logged = log_table[log_table["problem_type"].notna()]
+        log_records(log, source, entity, df.loc[logged.index], "clean", logged["problem_type"], column,
+                    logged["raw_value"], logged["cleaned_value"], logged["action"])
+
+        if required:
+            reasons = add_reason(reasons, missing, f"missing required {column}")
+            reasons = add_reason(reasons, has_problem, problem[has_problem] + f" in required {column}")
 
     # Status pairs enforced by Phase 1 CHECK constraints (rules doc).
     if entity == "patients":
-        for index in df.index:
-            status, death = df.at[index, "life_status"], df.at[index, "date_of_death"]
-            if status == "Deceased" and is_missing(death):
-                reasons[index].append("Deceased patient without a valid date_of_death")
-            if status == "Alive" and not is_missing(death):
-                reasons[index].append("Alive patient with a date_of_death")
+        status, death = df["life_status"], df["date_of_death"]
+        reasons = add_reason(reasons, status.eq("Deceased") & death.isna(),
+                             "Deceased patient without a valid date_of_death")
+        reasons = add_reason(reasons, status.eq("Alive") & death.notna(), "Alive patient with a date_of_death")
     if entity == "admissions":
-        for index in df.index:
-            status, discharge = df.at[index, "admission_status"], df.at[index, "discharge_datetime"]
-            if status == "Admitted" and not is_missing(discharge):
-                reasons[index].append("Admitted admission with a discharge time")
-            if status in ("Discharged", "Deceased") and is_missing(discharge):
-                reasons[index].append(f"{status} admission without a valid discharge time")
+        status, discharge = df["admission_status"], df["discharge_datetime"]
+        reasons = add_reason(reasons, status.eq("Admitted") & discharge.notna(),
+                             "Admitted admission with a discharge time")
+        closed = status.isin(["Discharged", "Deceased"]) & discharge.isna()
+        reasons = add_reason(reasons, closed, status[closed] + " admission without a valid discharge time")
 
     # Two different records claiming the same source ID cannot both be right.
     ids = df[id_column]
     clash = ids.notna() & ids.duplicated(keep=False)
-    for index in df.index[clash]:
-        reasons[index].append(f"conflicting records share source ID {ids[index]}")
+    reasons = add_reason(reasons, clash, "conflicting records share source ID " + ids[clash])
 
-    rejected = pd.Series({index: bool(reasons[index]) for index in df.index}, dtype=bool)
-    quarantined = df.loc[rejected].copy() if len(df) else df.copy()
-    quarantined["reason"] = [
-        "; ".join(dict.fromkeys(reasons[index])) for index in quarantined.index
-    ]
-    clean = df.loc[~rejected].copy() if len(df) else df.copy()
+    rejected = reasons.ne("")
+    quarantined = df[rejected].copy()
+    quarantined["reason"] = reasons[rejected]
+    clean = df[~rejected].copy()
     order = ["source_code", "source_local_id"] + [
         clean_column_name(entity, column) for column in columns
         if clean_column_name(entity, column) != "source_local_id"
@@ -683,29 +733,25 @@ def clean_entity(raw: pd.DataFrame, source: str, entity: str, schema: dict,
 # Stage 3: relationships (item 7)
 # --------------------------------------------------------------------------
 
-def reject(tables: dict, quarantine_rows: list, log: CleaningLog, source: str,
-           entity: str, mask: pd.Series, reason: str, stage: str, column: str) -> int:
-    """Move the masked rows of one table to quarantine with a reason."""
+def reject(tables: dict, quarantine_rows: list, log: CleaningLog, source: str, entity: str,
+           mask, reason, stage: str, column: str, problem: str | None = None) -> int:
+    """Move the masked rows of one table to quarantine with a reason (one string or a column)."""
     frame = tables[source][entity]
-    selected = frame.loc[mask]
-    for index, row in selected.iterrows():
-        quarantine_rows.append(quarantine_record(row, entity, stage, reason))
-        log.add(source, entity, row["source_local_id"], row["_line"], stage,
-                reason.split(":")[0], column, row.get(column), None, "quarantined")
-    tables[source][entity] = frame.loc[~mask].copy()
+    selected = frame[mask]
+    problem = problem or reason.split(":")[0]
+    add_quarantine(quarantine_rows, selected, entity, stage, reason)
+    log_records(log, source, entity, selected, stage, problem, column, selected[column], None, "quarantined")
+    tables[source][entity] = frame[~mask].copy()
     return len(selected)
 
 
-def quarantine_record(row: pd.Series, entity: str, stage: str, reason: str) -> dict:
-    return {
-        "source_code": row["source_code"],
-        "entity": entity,
-        "source_local_id": row["source_local_id"],
-        "source_line": row["_line"],
-        "stage": stage,
-        "reason": reason,
-        "raw_values": row["_raw_values"],
-    }
+def set_null_and_log(tables: dict, log: CleaningLog, source: str, entity: str, mask,
+                     column: str, stage: str, problem: str) -> None:
+    """Optional value that cannot be right: keep the record, set the value to NULL, log it."""
+    frame = tables[source][entity]
+    log_records(log, source, entity, frame[mask], stage, problem, column, frame.loc[mask, column], None, "set to NULL")
+    frame.loc[mask, column] = None
+    tables[source][entity] = frame
 
 
 def check_relationships(tables: dict, quarantine_rows: list, log: CleaningLog) -> None:
@@ -720,37 +766,23 @@ def check_relationships(tables: dict, quarantine_rows: list, log: CleaningLog) -
         changed = False
         for source in SOURCES:
             for entity, references in REFERENCES.items():
-                frame = tables[source][entity]
-                if frame.empty:
+                if tables[source][entity].empty:
                     continue
                 for column, parent, required in references:
-                    parent_frame = tables[source][parent]
                     parent_key = "icd9_code" if parent == "icd9_dictionary" else "source_local_id"
-                    known = set(parent_frame[parent_key])
+                    known = tables[source][parent][parent_key]
                     frame = tables[source][entity]
                     broken = frame[column].notna() & ~frame[column].isin(known)
                     if not broken.any():
                         continue
                     if required:
-                        reason = f"missing parent: {column} {{}} not found in {parent}"
-                        for index in frame.index[broken]:
-                            row = frame.loc[index]
-                            quarantine_rows.append(quarantine_record(
-                                row, entity, "relationships",
-                                reason.format(row[column])))
-                            log.add(source, entity, row["source_local_id"], row["_line"],
-                                    "relationships", "missing_parent", column,
-                                    row[column], None, "quarantined")
-                        tables[source][entity] = frame.loc[~broken].copy()
+                        reason = f"missing parent: {column} " + frame.loc[broken, column] + f" not found in {parent}"
+                        reject(tables, quarantine_rows, log, source, entity, broken, reason,
+                               "relationships", column, problem="missing_parent")
                         changed = True
                     else:
-                        for index in frame.index[broken]:
-                            log.add(source, entity, frame.at[index, "source_local_id"],
-                                    frame.at[index, "_line"], "relationships",
-                                    "broken_optional_reference", column,
-                                    frame.at[index, column], None, "set to NULL")
-                        frame.loc[broken, column] = None
-                        tables[source][entity] = frame
+                        set_null_and_log(tables, log, source, entity, broken, column,
+                                         "relationships", "broken_optional_reference")
 
             # Inconsistent references: the patient stored on a diagnosis or an
             # order must be the patient of its admission.
@@ -837,6 +869,11 @@ def admission_window(tables: dict, source: str) -> pd.DataFrame:
     })
 
 
+def with_admission_window(frame: pd.DataFrame, window: pd.DataFrame) -> pd.DataFrame:
+    """LEFT JOIN each row to its admission's start and end (rows keep their index)."""
+    return pd.merge(frame.reset_index(), window, on="source_admission_id", how="left").set_index("index")
+
+
 def check_chronology(tables: dict, quarantine_rows: list, log: CleaningLog) -> None:
     """Impossible orderings: a wrong required time rejects the record (it cannot be
     repaired without inventing a time); a wrong optional time becomes NULL (rules doc)."""
@@ -865,22 +902,17 @@ def check_chronology(tables: dict, quarantine_rows: list, log: CleaningLog) -> N
         if not stays.empty:
             entry, exit_ = as_time(stays["entry_datetime"]), as_time(stays["exit_datetime"])
             bad_exit = exit_.notna() & (exit_ <= entry)
-            for index in stays.index[bad_exit]:
-                log.add(source, "unit_stays", stays.at[index, "source_local_id"], stays.at[index, "_line"],
-                        "chronology", "exit_not_after_entry", "exit_datetime",
-                        stays.at[index, "exit_datetime"], None, "set to NULL")
-            stays.loc[bad_exit, "exit_datetime"] = None
-            joined = pd.merge(stays.reset_index(), window, on="source_admission_id", how="left").set_index("index")
+            set_null_and_log(tables, log, source, "unit_stays", bad_exit, "exit_datetime",
+                             "chronology", "exit_not_after_entry")
+            stays = tables[source]["unit_stays"]
+            joined = with_admission_window(stays, window)
             entry = as_time(joined["entry_datetime"])
             exit_ = as_time(joined["exit_datetime"])
             outside = (entry < joined["_admitted"]) | (joined["_discharged"].notna() & (entry > joined["_discharged"]))
             exit_late = exit_.notna() & joined["_discharged"].notna() & (exit_ > joined["_discharged"])
-            for index in joined.index[exit_late & ~outside]:
-                log.add(source, "unit_stays", stays.at[index, "source_local_id"], stays.at[index, "_line"],
-                        "chronology", "exit_after_discharge", "exit_datetime",
-                        stays.at[index, "exit_datetime"], None, "set to NULL")
-            stays.loc[joined.index[exit_late & ~outside], "exit_datetime"] = None
-            tables[source]["unit_stays"] = stays
+            set_null_and_log(tables, log, source, "unit_stays", stays.index.isin(joined.index[exit_late & ~outside]),
+                             "exit_datetime", "chronology", "exit_after_discharge")
+            stays = tables[source]["unit_stays"]
             reject(tables, quarantine_rows, log, source, "unit_stays", stays.index.isin(joined.index[outside]),
                    "chronology: entry_datetime is outside the admission period",
                    "chronology", "entry_datetime")
@@ -888,6 +920,7 @@ def check_chronology(tables: dict, quarantine_rows: list, log: CleaningLog) -> N
             ordered = stays.assign(_entry=as_time(stays["entry_datetime"]),
                                    _exit=as_time(stays["exit_datetime"]))
             ordered = ordered.sort_values(["source_admission_id", "_entry"])
+            # groupby + shift(1): the exit time of the previous stay in the same admission.
             previous_exit = ordered.groupby("source_admission_id")["_exit"].shift(1)
             overlap = previous_exit.notna() & (ordered["_entry"] < previous_exit)
             reject(tables, quarantine_rows, log, source, "unit_stays", stays.index.isin(ordered.index[overlap]),
@@ -899,7 +932,7 @@ def check_chronology(tables: dict, quarantine_rows: list, log: CleaningLog) -> N
             frame = tables[source][entity]
             if frame.empty:
                 continue
-            joined = pd.merge(frame.reset_index(), window, on="source_admission_id", how="left").set_index("index")
+            joined = with_admission_window(frame, window)
             when = as_time(joined[column])
             outside = (when < joined["_admitted"]) | (joined["_discharged"].notna() & (when > joined["_discharged"]))
             reject(tables, quarantine_rows, log, source, entity, frame.index.isin(joined.index[outside]),
@@ -908,7 +941,7 @@ def check_chronology(tables: dict, quarantine_rows: list, log: CleaningLog) -> N
         # Triage: not after discharge and at most 24 h before the admission opens.
         frame = tables[source]["triage_assessments"]
         if not frame.empty:
-            joined = pd.merge(frame.reset_index(), window, on="source_admission_id", how="left").set_index("index")
+            joined = with_admission_window(frame, window)
             when = as_time(joined["assessment_datetime"])
             outside = (when < joined["_admitted"] - TRIAGE_BEFORE_ADMISSION) | (
                 joined["_discharged"].notna() & (when > joined["_discharged"]))
@@ -953,14 +986,10 @@ def check_chronology(tables: dict, quarantine_rows: list, log: CleaningLog) -> N
         # Follow-up appointment (optional) cannot be before the discharge.
         frame = tables[source]["discharge_records"]
         if not frame.empty:
-            joined = pd.merge(frame.reset_index(), window, on="source_admission_id", how="left").set_index("index")
+            joined = with_admission_window(frame, window)
             early = as_time(joined["follow_up_appointment_datetime"]) < joined["_discharged"]
-            for index in joined.index[early]:
-                log.add(source, "discharge_records", frame.at[index, "source_local_id"], frame.at[index, "_line"],
-                        "chronology", "follow_up_before_discharge", "follow_up_appointment_datetime",
-                        frame.at[index, "follow_up_appointment_datetime"], None, "set to NULL")
-            frame.loc[joined.index[early], "follow_up_appointment_datetime"] = None
-            tables[source]["discharge_records"] = frame
+            set_null_and_log(tables, log, source, "discharge_records", frame.index.isin(joined.index[early]),
+                             "follow_up_appointment_datetime", "chronology", "follow_up_before_discharge")
 
 
 def flag_missing_primary(tables: dict, log: CleaningLog) -> None:
@@ -968,13 +997,11 @@ def flag_missing_primary(tables: dict, log: CleaningLog) -> None:
     for source in SOURCES:
         admissions = tables[source]["admissions"]
         diagnoses = tables[source]["diagnoses"]
-        with_primary = set(diagnoses.loc[diagnoses["diagnosis_type"].eq("Primary"), "source_admission_id"])
+        with_primary = diagnoses.loc[diagnoses["diagnosis_type"] == "Primary", "source_admission_id"]
         completed = admissions["admission_status"].isin(["Discharged", "Deceased"])
         missing = completed & ~admissions["source_local_id"].isin(with_primary)
-        for index in admissions.index[missing]:
-            log.add(source, "admissions", admissions.at[index, "source_local_id"], admissions.at[index, "_line"],
-                    "relationships", "missing_primary_diagnosis", "diagnosis_type", None, None,
-                    "kept, flagged for review")
+        log_records(log, source, "admissions", admissions[missing], "relationships",
+                    "missing_primary_diagnosis", "diagnosis_type", None, None, "kept, flagged for review")
 
 
 # --------------------------------------------------------------------------
@@ -990,15 +1017,28 @@ def clean_all(data: dict, malformed: pd.DataFrame | None = None, schema: dict | 
     counts = {}
 
     # Records the loader could not read at all are rejected here too.
-    if malformed is not None:
-        for row in malformed.itertuples(index=False):
-            quarantine_rows.append({
-                "source_code": row.source, "entity": row.entity, "source_local_id": None,
-                "source_line": row.line, "stage": "load", "reason": f"malformed record: {row.reason}",
-                "raw_values": row.raw_record,
-            })
-            log.add(row.source, row.entity, None, row.line, "load", "malformed_record",
-                    "(row)", row.raw_record, None, "quarantined")
+    if malformed is not None and not malformed.empty:
+        quarantine_rows.extend(pd.DataFrame({
+            "source_code": malformed["source"],
+            "entity": malformed["entity"],
+            "source_local_id": None,
+            "source_line": malformed["line"],
+            "stage": "load",
+            "reason": "malformed record: " + malformed["reason"],
+            "raw_values": malformed["raw_record"],
+        }).to_dict("records"))
+        log.add_rows(pd.DataFrame({
+            "source_code": malformed["source"],
+            "entity": malformed["entity"],
+            "source_local_id": None,
+            "source_line": malformed["line"],
+            "stage": "load",
+            "problem_type": "malformed_record",
+            "column": "(row)",
+            "raw_value": malformed["raw_record"],
+            "cleaned_value": None,
+            "action": "quarantined",
+        }))
 
     for source in SOURCES:
         dictionary_codes: set[str] = set()
@@ -1007,8 +1047,7 @@ def clean_all(data: dict, malformed: pd.DataFrame | None = None, schema: dict | 
                 data[source][entity], source, entity, schema, dictionary_codes, log)
             if entity == "icd9_dictionary":
                 dictionary_codes = set(clean["icd9_code"])
-            for _, row in rejected.iterrows():
-                quarantine_rows.append(quarantine_record(row, entity, "clean", row["reason"]))
+            add_quarantine(quarantine_rows, rejected, entity, "clean", rejected["reason"])
             tables[source][entity] = clean
             counts[(source, entity)] = entity_counts
 
@@ -1017,24 +1056,24 @@ def clean_all(data: dict, malformed: pd.DataFrame | None = None, schema: dict | 
     _, remap = merge_duplicate_patients(all_patients)
     for source in SOURCES:
         source_remap = remap[remap["source_code"] == source]
-        removed = tables[source]["patients"]["source_local_id"].isin(source_remap["old_patient_id"])
-        for index in tables[source]["patients"].index[removed]:
-            row = tables[source]["patients"].loc[index]
-            kept_id = source_remap.loc[source_remap["old_patient_id"] == row["source_local_id"], "kept_patient_id"].iloc[0]
-            log.add(source, "patients", row["source_local_id"], row["_line"], "clean",
-                    "duplicate_patient", "source_local_id", row["source_local_id"], kept_id,
-                    f"merged into patient {kept_id}")
-        tables[source]["patients"] = tables[source]["patients"].loc[~removed].copy()
+        patients = tables[source]["patients"]
+        removed = patients["source_local_id"].isin(source_remap["old_patient_id"])
+        merged = pd.merge(patients[removed].reset_index(), source_remap, how="left",
+                          left_on="source_local_id", right_on="old_patient_id").set_index("index")
+        log_records(log, source, "patients", patients[removed], "clean", "duplicate_patient",
+                    "source_local_id", patients.loc[removed, "source_local_id"], merged["kept_patient_id"],
+                    "merged into patient " + merged["kept_patient_id"])
+        tables[source]["patients"] = patients[~removed].copy()
         counts[(source, "patients")]["duplicate_patients_merged"] = int(removed.sum())
-        lookup = dict(zip(source_remap["old_patient_id"], source_remap["kept_patient_id"]))
+
+        lookup = source_remap.set_index("old_patient_id")["kept_patient_id"]
         for entity in ("admissions", "diagnoses", "diagnostic_orders"):
             frame = tables[source][entity]
-            repoint = frame["source_patient_id"].isin(lookup)
-            for index in frame.index[repoint]:
-                old = frame.at[index, "source_patient_id"]
-                log.add(source, entity, frame.at[index, "source_local_id"], frame.at[index, "_line"],
-                        "clean", "repointed_to_kept_patient", "source_patient_id", old, lookup[old], "corrected")
-            frame.loc[repoint, "source_patient_id"] = frame.loc[repoint, "source_patient_id"].map(lookup)
+            repoint = frame["source_patient_id"].isin(lookup.index)
+            new_ids = frame.loc[repoint, "source_patient_id"].map(lookup)
+            log_records(log, source, entity, frame[repoint], "clean", "repointed_to_kept_patient",
+                        "source_patient_id", frame.loc[repoint, "source_patient_id"], new_ids, "corrected")
+            frame.loc[repoint, "source_patient_id"] = new_ids
             tables[source][entity] = frame
 
     # Items 7 and 8. Relationships run again after chronology so that children
