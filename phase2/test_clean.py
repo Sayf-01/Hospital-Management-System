@@ -213,5 +213,43 @@ class WholeSample(unittest.TestCase):
                     self.assertEqual(path.read_bytes(), (second_dir / path.name).read_bytes(), path.name)
 
 
+class DeathChecks(unittest.TestCase):
+    """YO-2: a date of death must match a Deceased admission. The sample has no such
+    problems, so three are planted in a copy of source A (the repo is not touched)."""
+
+    def test_death_problems_are_quarantined_with_their_children(self):
+        import shutil
+        with TemporaryDirectory() as folder:
+            raw = Path(folder) / "raw"
+            shutil.copytree(SAMPLE_DIR, raw)
+            admissions = raw / "A_admissions.txt"
+            text = admissions.read_text(encoding="utf-8")
+            # 1. Admission 1 belongs to patient 1, who is Alive: mark it Deceased.
+            text = text.replace(
+                "1|1|1|2026-01-06 08:00|2026-01-14 08:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged",
+                "1|1|1|2026-01-06 08:00|2026-01-14 08:00|Emergency|Emergency Department|Synthetic encounter|-|-|Deceased")
+            # 3. Patient 7 will die on Jan 20; move admission 13 to Jan 25-26 (after the death).
+            text = text.replace("13|7|1|2026-01-12 08:00|2026-01-15 13:00", "13|7|1|2026-01-25 08:00|2026-01-26 13:00")
+            admissions.write_text(text, encoding="utf-8")
+            patients = raw / "A_patients.txt"
+            # 2. Patient 7's death moves to Jan 20, outside Deceased admission 14 (Feb 1-2).
+            patients.write_text(patients.read_text(encoding="utf-8").replace(
+                "|Deceased|2026-02-02 04:00", "|Deceased|2026-01-20 04:00"), encoding="utf-8")
+
+            out = Path(folder)
+            counts = run(raw, out / "clean", out / "quarantine", out / "reports")
+            rejected = pd.read_csv(out / "quarantine" / "admissions.csv", dtype=str, keep_default_na=False)
+            rejected = rejected[rejected["source_code"] == "A"].set_index("source_local_id")["reason"]
+            triage = pd.read_csv(out / "quarantine" / "triage_assessments.csv", dtype=str, keep_default_na=False)
+
+        self.assertIn("life_status is not Deceased", rejected["1"])
+        self.assertIn("date_of_death is outside this Deceased admission", rejected["14"])
+        self.assertIn("after the patient's date_of_death", rejected["13"])
+        self.assertEqual(sorted(rejected.index), ["1", "13", "14"])
+        # Their children follow (triage of admission 1 points to a rejected parent).
+        self.assertTrue(triage["reason"].str.contains("source_admission_id 1 not found in admissions").any())
+        self.assertTrue(counts["reconciles"].all())
+
+
 if __name__ == "__main__":
     unittest.main()

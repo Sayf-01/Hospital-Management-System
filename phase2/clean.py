@@ -874,6 +874,44 @@ def with_admission_window(frame: pd.DataFrame, window: pd.DataFrame) -> pd.DataF
     return pd.merge(frame.reset_index(), window, on="source_admission_id", how="left").set_index("index")
 
 
+def check_deaths(tables: dict, quarantine_rows: list, log: CleaningLog, source: str) -> None:
+    """The patient's date of death must match their Deceased admission (YO-2).
+
+    1. A Deceased admission belongs to a patient whose life_status is Deceased.
+    2. That patient's date_of_death falls inside the admission (admission to discharge).
+    3. No admission starts after the patient's date_of_death.
+    Which record is wrong cannot be known, so the admission is quarantined (its
+    children follow on the next relationships pass). A Deceased patient with no
+    Deceased admission is allowed: the death may have happened outside the hospital.
+    """
+    patients = tables[source]["patients"][["source_local_id", "life_status", "date_of_death"]]
+    patients = patients.rename(columns={"source_local_id": "source_patient_id"})
+    admissions = tables[source]["admissions"]
+    if admissions.empty:
+        return
+    joined = pd.merge(admissions.reset_index(), patients, on="source_patient_id", how="left").set_index("index")
+    deceased_admission = joined["admission_status"] == "Deceased"
+
+    not_deceased = deceased_admission & joined["life_status"].ne("Deceased")
+    reject(tables, quarantine_rows, log, source, "admissions", admissions.index.isin(joined.index[not_deceased]),
+           "inconsistent reference: Deceased admission but the patient's life_status is not Deceased",
+           "relationships", "admission_status")
+
+    died = as_time(joined["date_of_death"])
+    death_outside = deceased_admission & ~not_deceased & (
+        (died < as_time(joined["admission_datetime"])) | (died > as_time(joined["discharge_datetime"])))
+    after_death = died.notna() & (as_time(joined["admission_datetime"]) > died)
+    admissions = tables[source]["admissions"]
+    reject(tables, quarantine_rows, log, source, "admissions", admissions.index.isin(joined.index[death_outside]),
+           "chronology: the patient's date_of_death is outside this Deceased admission",
+           "chronology", "discharge_datetime")
+    admissions = tables[source]["admissions"]
+    reject(tables, quarantine_rows, log, source, "admissions",
+           admissions.index.isin(joined.index[after_death & ~death_outside]),
+           "chronology: admission_datetime is after the patient's date_of_death",
+           "chronology", "admission_datetime")
+
+
 def check_chronology(tables: dict, quarantine_rows: list, log: CleaningLog) -> None:
     """Impossible orderings: a wrong required time rejects the record (it cannot be
     repaired without inventing a time); a wrong optional time becomes NULL (rules doc)."""
@@ -894,6 +932,7 @@ def check_chronology(tables: dict, quarantine_rows: list, log: CleaningLog) -> N
             reject(tables, quarantine_rows, log, source, "admissions", before_birth,
                    "chronology: admission_datetime is before the patient's date_of_birth",
                    "chronology", "admission_datetime")
+            check_deaths(tables, quarantine_rows, log, source)
 
         window = admission_window(tables, source)
 
