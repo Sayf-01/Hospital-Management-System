@@ -1,0 +1,22 @@
+stage,problem_type,action,A,B,C,D,total
+chronology,exit_not_after_entry,set to NULL,1,1,1,1,4
+clean,missing_optional,kept as NULL,716,716,715,716,2863
+clean,timestamp_to_utc,converted,662,662,663,661,2648
+clean,category_mapped,corrected,130,158,79,79,446
+clean,date_reformatted,converted,0,51,0,29,80
+clean,fahrenheit_to_celsius,corrected,79,0,0,0,79
+clean,ambiguous_day_first_assumed,"kept, assumption logged",0,0,0,24,24
+clean,category_case_or_space,corrected,4,4,4,4,16
+clean,icd9_format_repaired,corrected,0,6,0,6,12
+clean,exact_duplicate,removed,2,4,2,2,10
+clean,icd9_not_in_dictionary,quarantined,1,1,1,1,4
+clean,invalid_timestamp,quarantined,1,1,1,1,4
+clean,missing_required,quarantined,1,1,1,1,4
+clean,out_of_range,set to NULL,1,1,1,1,4
+clean,whitespace_trimmed,corrected,1,1,1,1,4
+clean,duplicate_patient,merged into patient 35,0,0,0,1,1
+clean,duplicate_patient,merged into patient 38,0,1,0,0,1
+clean,duplicate_patient,merged into patient 39,0,0,1,0,1
+clean,duplicate_patient,merged into patient 44,1,0,0,0,1
+load,malformed_record,quarantined,1,1,0,0,2
+relationships,missing_primary_diagnosis,"kept, flagged for review",1,2,1,2,6

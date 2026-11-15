@@ -1,0 +1,33 @@
+source_code,source_local_id,unit_name,unit_type,source_line
+A,1,Emergency 1,Emergency,3
+A,2,ICU 2,ICU,4
+A,3,CCU 3,CCU,5
+A,4,MICU 4,MICU,6
+A,5,SICU 5,SICU,7
+A,6,General Ward 6,General Ward,8
+A,7,Other 7,Other,9
+A,8,General Ward 8,General Ward,10
+B,1,Emergency 1,Emergency,2
+B,2,ICU 2,ICU,3
+B,3,CCU 3,CCU,4
+B,4,MICU 4,MICU,5
+B,5,SICU 5,SICU,6
+B,6,General Ward 6,General Ward,7
+B,7,Other 7,Other,8
+B,8,General Ward 8,General Ward,9
+C,1,Emergency 1,Emergency,6283
+C,2,ICU 2,ICU,6287
+C,3,CCU 3,CCU,6291
+C,4,MICU 4,MICU,6295
+C,5,SICU 5,SICU,6299
+C,6,General Ward 6,General Ward,6303
+C,7,Other 7,Other,6307
+C,8,General Ward 8,General Ward,6311
+D,1,Emergency 1,Emergency,$[0]
+D,2,ICU 2,ICU,$[1]
+D,3,CCU 3,CCU,$[2]
+D,4,MICU 4,MICU,$[3]
+D,5,SICU 5,SICU,$[4]
+D,6,General Ward 6,General Ward,$[5]
+D,7,Other 7,Other,$[6]
+D,8,General Ward 8,General Ward,$[7]

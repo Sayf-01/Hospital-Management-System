@@ -1,0 +1,41 @@
+source_code,source_local_id,source_admission_id,source_surgeon_id,procedure_name,procedure_datetime,operating_room,procedure_notes,source_line
+A,1,1,2,Coronary artery bypass grafting,2026-01-06 14:00:00,OR-1,Synthetic procedure note,3
+A,2,2,2,Laparoscopic appendectomy,2026-01-26 14:00:00,OR-1,Synthetic procedure note,4
+A,3,3,2,Internal fixation of femoral neck fracture,2026-02-15 14:00:00,OR-1,Synthetic procedure note,5
+A,4,4,2,Coronary artery bypass grafting,2026-03-07 14:00:00,OR-1,Synthetic procedure note,6
+A,5,5,2,Laparoscopic appendectomy,2026-01-07 14:00:00,OR-1,Synthetic procedure note,7
+A,6,6,2,Internal fixation of femoral neck fracture,2026-01-27 14:00:00,OR-1,Synthetic procedure note,8
+A,7,8,2,Coronary artery bypass grafting,2026-01-09 14:00:00,OR-1,Synthetic procedure note,9
+A,8,9,2,Laparoscopic appendectomy,2026-01-29 14:00:00,OR-1,Synthetic procedure note,10
+A,9,10,2,Internal fixation of femoral neck fracture,2026-01-10 14:00:00,OR-1,Synthetic procedure note,11
+A,10,11,2,Coronary artery bypass grafting,2026-01-11 14:00:00,OR-1,Synthetic procedure note,12
+B,1,1,2,Coronary artery bypass grafting,2026-06-15 07:00:00,OR-1,Synthetic procedure note,2
+B,2,2,2,Laparoscopic appendectomy,2026-07-05 07:00:00,OR-1,Synthetic procedure note,3
+B,3,3,2,Internal fixation of femoral neck fracture,2026-07-25 07:00:00,OR-1,Synthetic procedure note,4
+B,4,4,2,Coronary artery bypass grafting,2026-08-14 07:00:00,OR-1,Synthetic procedure note,5
+B,5,5,2,Laparoscopic appendectomy,2026-06-16 07:00:00,OR-1,Synthetic procedure note,6
+B,6,7,2,Internal fixation of femoral neck fracture,2026-06-18 07:00:00,OR-1,Synthetic procedure note,7
+B,7,8,2,Coronary artery bypass grafting,2026-06-19 07:00:00,OR-1,Synthetic procedure note,8
+B,8,9,2,Laparoscopic appendectomy,2026-07-09 07:00:00,OR-1,Synthetic procedure note,9
+B,9,10,2,Internal fixation of femoral neck fracture,2026-06-20 07:00:00,OR-1,Synthetic procedure note,10
+B,10,11,2,Coronary artery bypass grafting,2026-07-10 07:00:00,OR-1,Synthetic procedure note,11
+C,1,1,2,Coronary artery bypass grafting,2026-01-06 00:00:00,OR-1,Synthetic procedure note,134
+C,2,2,2,Laparoscopic appendectomy,2026-01-26 00:00:00,OR-1,Synthetic procedure note,243
+C,3,3,2,Internal fixation of femoral neck fracture,2026-02-15 00:00:00,OR-1,Synthetic procedure note,356
+C,4,4,2,Coronary artery bypass grafting,2026-03-07 00:00:00,OR-1,Synthetic procedure note,471
+C,5,5,2,Laparoscopic appendectomy,2026-01-07 00:00:00,OR-1,Synthetic procedure note,600
+C,6,6,2,Internal fixation of femoral neck fracture,2026-01-27 00:00:00,OR-1,Synthetic procedure note,722
+C,7,7,2,Coronary artery bypass grafting,2026-01-08 00:00:00,OR-1,Synthetic procedure note,835
+C,8,8,2,Laparoscopic appendectomy,2026-01-09 00:00:00,OR-1,Synthetic procedure note,944
+C,9,9,2,Internal fixation of femoral neck fracture,2026-01-29 00:00:00,OR-1,Synthetic procedure note,1050
+C,10,10,2,Coronary artery bypass grafting,2026-01-10 00:00:00,OR-1,Synthetic procedure note,1168
+D,1,1,2,Coronary artery bypass grafting,2026-06-14 23:00:00,OR-1,Synthetic procedure note,$[0].admissions[0].procedures[0]
+D,2,2,2,Laparoscopic appendectomy,2026-07-04 23:00:00,OR-1,Synthetic procedure note,$[0].admissions[1].procedures[0]
+D,3,3,2,Internal fixation of femoral neck fracture,2026-07-24 23:00:00,OR-1,Synthetic procedure note,$[0].admissions[2].procedures[0]
+D,4,4,2,Coronary artery bypass grafting,2026-08-13 23:00:00,OR-1,Synthetic procedure note,$[0].admissions[3].procedures[0]
+D,5,5,2,Laparoscopic appendectomy,2026-06-15 23:00:00,OR-1,Synthetic procedure note,$[1].admissions[0].procedures[0]
+D,6,6,2,Internal fixation of femoral neck fracture,2026-07-05 23:00:00,OR-1,Synthetic procedure note,$[1].admissions[1].procedures[0]
+D,7,7,2,Coronary artery bypass grafting,2026-06-16 23:00:00,OR-1,Synthetic procedure note,$[2].admissions[0].procedures[0]
+D,8,8,2,Laparoscopic appendectomy,2026-07-06 23:00:00,OR-1,Synthetic procedure note,$[2].admissions[1].procedures[0]
+D,9,9,2,Internal fixation of femoral neck fracture,2026-06-17 23:00:00,OR-1,Synthetic procedure note,$[3].admissions[0].procedures[0]
+D,10,10,2,Coronary artery bypass grafting,2026-06-18 23:00:00,OR-1,Synthetic procedure note,$[4].admissions[0].procedures[0]

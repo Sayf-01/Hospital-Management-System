@@ -1,0 +1,317 @@
+source_code,source_local_id,source_admission_id,source_nurse_id,assessment_datetime,priority_level,blood_pressure,heart_rate,respiratory_rate,body_temperature,oxygen_saturation,pain_level,reported_symptoms,known_allergies,current_medications,source_line
+A,1,1,3,2026-01-06 13:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,0,Synthetic triage presentation,,,3
+A,2,2,3,2026-01-26 13:10:00,Urgent,120/80,73,16,36.5,98.0,1,Synthetic triage presentation,,,4
+A,3,3,3,2026-02-15 13:10:00,Non-Urgent,120/80,74,16,36.6,98.0,2,Synthetic triage presentation,,,5
+A,4,4,3,2026-03-07 13:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,3,Synthetic triage presentation,,,6
+A,5,5,3,2026-01-07 13:10:00,Urgent,120/80,76,16,36.8,98.0,4,Synthetic triage presentation,,,7
+A,6,6,3,2026-01-27 13:10:00,Non-Urgent,120/80,77,16,36.9,98.0,5,Synthetic triage presentation,,,8
+A,7,7,3,2026-01-08 13:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,6,Synthetic triage presentation,,,9
+A,8,8,3,2026-01-09 13:10:00,Urgent,120/80,79,16,37.1,98.0,7,Synthetic triage presentation,,,10
+A,9,9,3,2026-01-29 13:10:00,Non-Urgent,120/80,80,16,37.2,98.0,0,Synthetic triage presentation,,,11
+A,10,10,3,2026-01-10 13:10:00,High-Priority Emergency,120/80,81,16,36.4,98.0,1,Synthetic triage presentation,,,12
+A,11,11,3,2026-01-11 13:10:00,Urgent,120/80,82,16,36.5,98.0,2,Synthetic triage presentation,,,13
+A,12,12,3,2026-01-31 13:10:00,Non-Urgent,120/80,83,16,36.6,98.0,3,Synthetic triage presentation,,,14
+A,13,13,3,2026-01-12 13:10:00,High-Priority Emergency,120/80,84,16,36.7,98.0,4,Synthetic triage presentation,,,15
+A,14,14,3,2026-02-01 13:10:00,Urgent,120/80,85,16,36.8,98.0,5,Synthetic triage presentation,,,16
+A,15,15,3,2026-01-13 13:10:00,Non-Urgent,120/80,86,16,36.9,98.0,6,Synthetic triage presentation,,,17
+A,16,16,3,2026-01-14 13:10:00,High-Priority Emergency,120/80,87,16,37.0,98.0,7,Synthetic triage presentation,,,18
+A,17,17,3,2026-01-15 13:10:00,Urgent,120/80,88,16,37.1,98.0,0,Synthetic triage presentation,,,19
+A,18,18,3,2026-01-16 13:10:00,Non-Urgent,120/80,89,16,37.2,98.0,1,Synthetic triage presentation,,,20
+A,19,19,3,2026-02-05 13:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,2,Synthetic triage presentation,,,21
+A,20,20,3,2026-01-17 13:10:00,Urgent,120/80,73,16,36.5,98.0,3,Synthetic triage presentation,,,22
+A,21,21,3,2026-02-06 13:10:00,Non-Urgent,120/80,74,16,36.6,98.0,4,Synthetic triage presentation,,,23
+A,22,22,3,2026-01-18 13:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,5,Synthetic triage presentation,,,24
+A,23,23,3,2026-02-07 13:10:00,Urgent,120/80,76,16,36.8,98.0,6,Synthetic triage presentation,,,25
+A,24,24,3,2026-01-19 13:10:00,Non-Urgent,120/80,77,16,36.9,98.0,7,Synthetic triage presentation,,,26
+A,25,25,3,2026-02-08 13:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,0,Synthetic triage presentation,,,27
+A,26,26,3,2026-01-20 13:10:00,Urgent,120/80,79,16,37.1,98.0,1,Synthetic triage presentation,,,28
+A,27,27,3,2026-02-09 13:10:00,Non-Urgent,120/80,80,16,37.2,98.0,2,Synthetic triage presentation,,,29
+A,28,28,3,2026-01-21 13:10:00,High-Priority Emergency,120/80,81,16,36.4,98.0,3,Synthetic triage presentation,,,30
+A,29,29,3,2026-02-10 13:10:00,Urgent,120/80,82,16,36.5,98.0,4,Synthetic triage presentation,,,31
+A,30,30,3,2026-01-22 13:10:00,Non-Urgent,120/80,83,16,36.6,98.0,5,Synthetic triage presentation,,,32
+A,31,31,3,2026-02-11 13:10:00,High-Priority Emergency,120/80,84,16,36.7,98.0,6,Synthetic triage presentation,,,33
+A,32,32,3,2026-01-23 13:10:00,Urgent,120/80,85,16,36.8,98.0,7,Synthetic triage presentation,,,34
+A,33,33,3,2026-01-24 13:10:00,Non-Urgent,120/80,86,16,36.9,98.0,0,Synthetic triage presentation,,,35
+A,34,34,3,2026-02-13 13:10:00,High-Priority Emergency,120/80,87,16,37.0,98.0,1,Synthetic triage presentation,,,36
+A,35,35,3,2026-01-25 13:10:00,Urgent,120/80,88,16,37.1,98.0,2,Synthetic triage presentation,,,37
+A,36,36,3,2026-02-14 13:10:00,Non-Urgent,120/80,89,16,37.2,98.0,3,Synthetic triage presentation,,,38
+A,37,37,3,2026-01-26 13:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,4,Synthetic triage presentation,,,39
+A,38,38,3,2026-02-15 13:10:00,Urgent,120/80,73,16,36.5,98.0,5,Synthetic triage presentation,,,40
+A,39,39,3,2026-01-27 13:10:00,Non-Urgent,120/80,74,16,36.6,98.0,6,Synthetic triage presentation,,,41
+A,40,40,3,2026-02-16 13:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,7,Synthetic triage presentation,,,42
+A,41,41,3,2026-01-28 13:10:00,Urgent,120/80,76,16,36.8,98.0,0,Synthetic triage presentation,,,43
+A,42,42,3,2026-01-29 13:10:00,Non-Urgent,120/80,77,16,36.9,98.0,1,Synthetic triage presentation,,,44
+A,43,43,3,2026-02-18 13:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,2,Synthetic triage presentation,,,45
+A,44,44,3,2026-01-30 13:10:00,Urgent,120/80,79,16,37.1,98.0,3,Synthetic triage presentation,,,46
+A,45,45,3,2026-02-19 13:10:00,Non-Urgent,120/80,80,16,37.2,98.0,4,Synthetic triage presentation,,,47
+A,46,46,3,2026-01-31 13:10:00,High-Priority Emergency,120/80,81,16,36.4,98.0,5,Synthetic triage presentation,,,48
+A,47,47,3,2026-02-20 13:10:00,Urgent,120/80,82,16,36.5,98.0,6,Synthetic triage presentation,,,49
+A,48,48,3,2026-02-01 13:10:00,Non-Urgent,120/80,83,16,36.6,98.0,7,Synthetic triage presentation,,,50
+A,49,49,3,2026-02-21 13:10:00,High-Priority Emergency,120/80,84,16,36.7,98.0,0,Synthetic triage presentation,,,51
+A,50,50,3,2026-02-02 13:10:00,Urgent,120/80,85,16,36.8,98.0,1,Synthetic triage presentation,,,52
+A,51,51,3,2026-02-22 13:10:00,Non-Urgent,120/80,86,16,36.9,98.0,2,Synthetic triage presentation,,,53
+A,52,52,3,2026-02-03 13:10:00,High-Priority Emergency,120/80,87,16,37.0,98.0,3,Synthetic triage presentation,,,54
+A,53,53,3,2026-02-23 13:10:00,Urgent,120/80,88,16,37.1,98.0,4,Synthetic triage presentation,,,55
+A,54,54,3,2026-02-04 13:10:00,Non-Urgent,120/80,89,16,37.2,98.0,5,Synthetic triage presentation,,,56
+A,55,55,3,2026-02-24 13:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,6,Synthetic triage presentation,,,57
+A,56,56,3,2026-02-05 13:10:00,Urgent,120/80,73,16,36.5,98.0,7,Synthetic triage presentation,,,58
+A,57,57,3,2026-02-25 13:10:00,Non-Urgent,120/80,74,16,36.6,98.0,0,Synthetic triage presentation,,,59
+A,58,58,3,2026-02-06 13:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,1,Synthetic triage presentation,,,60
+A,59,59,3,2026-02-07 13:10:00,Urgent,120/80,76,16,36.8,98.0,2,Synthetic triage presentation,,,61
+A,60,60,3,2026-02-27 13:10:00,Non-Urgent,120/80,77,16,36.9,98.0,,Synthetic triage presentation,,,62
+A,61,61,3,2026-02-08 13:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,4,Synthetic triage presentation,,,63
+A,62,62,3,2026-02-09 13:10:00,Urgent,120/80,79,16,37.1,98.0,5,Synthetic triage presentation,,,64
+A,63,63,3,2026-02-10 13:10:00,Non-Urgent,120/80,80,16,37.2,98.0,6,Synthetic triage presentation,,,65
+A,64,64,3,2026-03-02 13:10:00,High-Priority Emergency,120/80,81,16,36.4,98.0,7,Synthetic triage presentation,,,66
+A,65,65,3,2026-02-11 13:10:00,Urgent,120/80,82,16,36.5,98.0,0,Synthetic triage presentation,,,67
+A,66,66,3,2026-02-12 13:10:00,Non-Urgent,120/80,83,16,36.6,98.0,1,Synthetic triage presentation,,,68
+A,67,67,3,2026-03-04 13:10:00,High-Priority Emergency,120/80,84,16,36.7,98.0,2,Synthetic triage presentation,,,69
+A,68,68,3,2026-02-13 13:10:00,Urgent,120/80,85,16,36.8,98.0,3,Synthetic triage presentation,,,70
+A,69,69,3,2026-03-05 13:10:00,Non-Urgent,120/80,86,16,36.9,98.0,4,Synthetic triage presentation,,,71
+A,70,70,3,2026-02-14 13:10:00,High-Priority Emergency,120/80,87,16,37.0,98.0,5,Synthetic triage presentation,,,72
+A,71,71,3,2026-02-15 13:10:00,Urgent,120/80,88,16,37.1,98.0,6,Synthetic triage presentation,,,73
+A,72,72,3,2026-02-16 13:10:00,Non-Urgent,120/80,89,16,37.2,98.0,7,Synthetic triage presentation,,,74
+A,73,73,3,2026-03-08 12:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,0,Synthetic triage presentation,,,75
+A,74,74,3,2026-02-17 13:10:00,Urgent,120/80,73,16,36.5,98.0,1,Synthetic triage presentation,,,76
+A,75,75,3,2026-03-09 12:10:00,Non-Urgent,120/80,74,16,36.6,98.0,2,Synthetic triage presentation,,,77
+A,76,76,3,2026-02-18 13:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,3,Synthetic triage presentation,,,78
+A,77,77,3,2026-02-19 13:10:00,Urgent,120/80,76,16,36.8,98.0,4,Synthetic triage presentation,,,79
+A,78,78,3,2026-02-20 13:10:00,Non-Urgent,120/80,77,16,36.9,98.0,5,Synthetic triage presentation,,,80
+A,79,79,3,2026-03-12 12:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,6,Synthetic triage presentation,,,81
+B,1,1,3,2026-06-15 06:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,0,Synthetic triage presentation,,,2
+B,2,2,3,2026-07-05 06:10:00,Urgent,120/80,73,16,36.5,98.0,1,Synthetic triage presentation,,,3
+B,3,3,3,2026-07-25 06:10:00,Non-Urgent,120/80,74,16,36.6,98.0,2,Synthetic triage presentation,,,4
+B,4,4,3,2026-08-14 06:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,3,Synthetic triage presentation,,,5
+B,5,5,3,2026-06-16 06:10:00,Urgent,120/80,76,16,36.8,98.0,4,Synthetic triage presentation,,,6
+B,6,6,3,2026-06-17 06:10:00,Non-Urgent,120/80,77,16,36.9,98.0,5,Synthetic triage presentation,,,7
+B,7,7,3,2026-06-18 06:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,6,Synthetic triage presentation,,,8
+B,8,8,3,2026-06-19 06:10:00,Urgent,120/80,79,16,37.1,98.0,7,Synthetic triage presentation,,,9
+B,9,9,3,2026-07-09 06:10:00,Non-Urgent,120/80,80,16,37.2,98.0,0,Synthetic triage presentation,,,10
+B,10,10,3,2026-06-20 06:10:00,High-Priority Emergency,120/80,81,16,36.4,98.0,1,Synthetic triage presentation,,,11
+B,11,11,3,2026-07-10 06:10:00,Urgent,120/80,82,16,36.5,98.0,2,Synthetic triage presentation,,,12
+B,12,12,3,2026-06-21 06:10:00,Non-Urgent,120/80,83,16,36.6,98.0,3,Synthetic triage presentation,,,13
+B,13,13,3,2026-07-11 06:10:00,High-Priority Emergency,120/80,84,16,36.7,98.0,4,Synthetic triage presentation,,,14
+B,14,14,3,2026-06-22 06:10:00,Urgent,120/80,85,16,36.8,98.0,5,Synthetic triage presentation,,,15
+B,15,15,3,2026-07-12 06:10:00,Non-Urgent,120/80,86,16,36.9,98.0,6,Synthetic triage presentation,,,16
+B,16,16,3,2026-06-23 06:10:00,High-Priority Emergency,120/80,87,16,37.0,98.0,7,Synthetic triage presentation,,,17
+B,17,17,3,2026-07-13 06:10:00,Urgent,120/80,88,16,37.1,98.0,0,Synthetic triage presentation,,,18
+B,18,18,3,2026-06-24 06:10:00,Non-Urgent,120/80,89,16,37.2,98.0,1,Synthetic triage presentation,,,19
+B,19,19,3,2026-06-25 06:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,2,Synthetic triage presentation,,,20
+B,20,20,3,2026-07-15 06:10:00,Urgent,120/80,73,16,36.5,98.0,3,Synthetic triage presentation,,,21
+B,21,21,3,2026-06-26 06:10:00,Non-Urgent,120/80,74,16,36.6,98.0,4,Synthetic triage presentation,,,22
+B,22,22,3,2026-06-27 06:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,5,Synthetic triage presentation,,,23
+B,23,23,3,2026-07-17 06:10:00,Urgent,120/80,76,16,36.8,98.0,6,Synthetic triage presentation,,,24
+B,24,24,3,2026-06-28 06:10:00,Non-Urgent,120/80,77,16,36.9,98.0,7,Synthetic triage presentation,,,25
+B,25,25,3,2026-06-29 06:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,0,Synthetic triage presentation,,,26
+B,26,26,3,2026-06-30 06:10:00,Urgent,120/80,79,16,37.1,98.0,1,Synthetic triage presentation,,,27
+B,27,27,3,2026-07-20 06:10:00,Non-Urgent,120/80,80,16,37.2,98.0,2,Synthetic triage presentation,,,28
+B,28,28,3,2026-07-01 06:10:00,High-Priority Emergency,120/80,81,16,36.4,98.0,3,Synthetic triage presentation,,,29
+B,29,29,3,2026-07-21 06:10:00,Urgent,120/80,82,16,36.5,98.0,4,Synthetic triage presentation,,,30
+B,30,30,3,2026-07-02 06:10:00,Non-Urgent,120/80,83,16,36.6,98.0,5,Synthetic triage presentation,,,31
+B,31,31,3,2026-07-22 06:10:00,High-Priority Emergency,120/80,84,16,36.7,98.0,6,Synthetic triage presentation,,,32
+B,32,32,3,2026-07-03 06:10:00,Urgent,120/80,85,16,36.8,98.0,7,Synthetic triage presentation,,,33
+B,33,33,3,2026-07-23 06:10:00,Non-Urgent,120/80,86,16,36.9,98.0,0,Synthetic triage presentation,,,34
+B,34,34,3,2026-07-04 06:10:00,High-Priority Emergency,120/80,87,16,37.0,98.0,1,Synthetic triage presentation,,,35
+B,35,35,3,2026-07-05 06:10:00,Urgent,120/80,88,16,37.1,98.0,2,Synthetic triage presentation,,,36
+B,36,36,3,2026-07-25 06:10:00,Non-Urgent,120/80,89,16,37.2,98.0,3,Synthetic triage presentation,,,37
+B,37,37,3,2026-07-06 06:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,4,Synthetic triage presentation,,,38
+B,38,38,3,2026-07-26 06:10:00,Urgent,120/80,73,16,36.5,98.0,5,Synthetic triage presentation,,,39
+B,39,39,3,2026-07-07 06:10:00,Non-Urgent,120/80,74,16,36.6,98.0,6,Synthetic triage presentation,,,40
+B,40,40,3,2026-07-27 06:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,7,Synthetic triage presentation,,,41
+B,41,41,3,2026-07-08 06:10:00,Urgent,120/80,76,16,36.8,98.0,0,Synthetic triage presentation,,,42
+B,42,42,3,2026-07-09 06:10:00,Non-Urgent,120/80,77,16,36.9,98.0,1,Synthetic triage presentation,,,43
+B,43,43,3,2026-07-29 06:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,2,Synthetic triage presentation,,,44
+B,44,44,3,2026-07-10 06:10:00,Urgent,120/80,79,16,37.1,98.0,3,Synthetic triage presentation,,,45
+B,45,45,3,2026-07-30 06:10:00,Non-Urgent,120/80,80,16,37.2,98.0,4,Synthetic triage presentation,,,46
+B,46,46,3,2026-07-11 06:10:00,High-Priority Emergency,120/80,81,16,36.4,98.0,5,Synthetic triage presentation,,,47
+B,47,47,3,2026-07-31 06:10:00,Urgent,120/80,82,16,36.5,98.0,6,Synthetic triage presentation,,,48
+B,48,48,3,2026-07-12 06:10:00,Non-Urgent,120/80,83,16,36.6,98.0,7,Synthetic triage presentation,,,49
+B,49,49,3,2026-08-01 06:10:00,High-Priority Emergency,120/80,84,16,36.7,98.0,0,Synthetic triage presentation,,,50
+B,50,50,3,2026-07-13 06:10:00,Urgent,120/80,85,16,36.8,98.0,1,Synthetic triage presentation,,,51
+B,51,51,3,2026-08-02 06:10:00,Non-Urgent,120/80,86,16,36.9,98.0,2,Synthetic triage presentation,,,52
+B,52,52,3,2026-07-14 06:10:00,High-Priority Emergency,120/80,87,16,37.0,98.0,,Synthetic triage presentation,,,53
+B,53,53,3,2026-08-03 06:10:00,Urgent,120/80,88,16,37.1,98.0,4,Synthetic triage presentation,,,54
+B,54,54,3,2026-07-15 06:10:00,Non-Urgent,120/80,89,16,37.2,98.0,5,Synthetic triage presentation,,,55
+B,55,55,3,2026-08-04 06:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,6,Synthetic triage presentation,,,56
+B,56,56,3,2026-07-16 06:10:00,Urgent,120/80,73,16,36.5,98.0,7,Synthetic triage presentation,,,57
+B,57,57,3,2026-08-05 06:10:00,Non-Urgent,120/80,74,16,36.6,98.0,0,Synthetic triage presentation,,,58
+B,58,58,3,2026-07-17 06:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,1,Synthetic triage presentation,,,59
+B,59,59,3,2026-07-18 06:10:00,Urgent,120/80,76,16,36.8,98.0,2,Synthetic triage presentation,,,60
+B,60,60,3,2026-08-07 06:10:00,Non-Urgent,120/80,77,16,36.9,98.0,3,Synthetic triage presentation,,,61
+B,61,61,3,2026-07-19 06:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,4,Synthetic triage presentation,,,62
+B,62,62,3,2026-08-08 06:10:00,Urgent,120/80,79,16,37.1,98.0,5,Synthetic triage presentation,,,63
+B,63,63,3,2026-07-20 06:10:00,Non-Urgent,120/80,80,16,37.2,98.0,6,Synthetic triage presentation,,,64
+B,64,64,3,2026-07-21 06:10:00,High-Priority Emergency,120/80,81,16,36.4,98.0,7,Synthetic triage presentation,,,65
+B,65,65,3,2026-08-10 06:10:00,Urgent,120/80,82,16,36.5,98.0,0,Synthetic triage presentation,,,66
+B,66,66,3,2026-07-22 06:10:00,Non-Urgent,120/80,83,16,36.6,98.0,1,Synthetic triage presentation,,,67
+B,67,67,3,2026-07-23 06:10:00,High-Priority Emergency,120/80,84,16,36.7,98.0,2,Synthetic triage presentation,,,68
+B,68,68,3,2026-08-12 06:10:00,Urgent,120/80,85,16,36.8,98.0,3,Synthetic triage presentation,,,69
+B,69,69,3,2026-07-24 06:10:00,Non-Urgent,120/80,86,16,36.9,98.0,4,Synthetic triage presentation,,,70
+B,70,70,3,2026-08-13 06:10:00,High-Priority Emergency,120/80,87,16,37.0,98.0,5,Synthetic triage presentation,,,71
+B,71,71,3,2026-07-25 06:10:00,Urgent,120/80,88,16,37.1,98.0,6,Synthetic triage presentation,,,72
+B,72,72,3,2026-08-14 06:10:00,Non-Urgent,120/80,89,16,37.2,98.0,7,Synthetic triage presentation,,,73
+B,73,73,3,2026-07-26 06:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,0,Synthetic triage presentation,,,74
+B,74,74,3,2026-07-27 06:10:00,Urgent,120/80,73,16,36.5,98.0,1,Synthetic triage presentation,,,75
+B,75,75,3,2026-08-16 06:10:00,Non-Urgent,120/80,74,16,36.6,98.0,2,Synthetic triage presentation,,,76
+B,76,76,3,2026-07-28 06:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,3,Synthetic triage presentation,,,77
+B,77,77,3,2026-08-17 06:10:00,Urgent,120/80,76,16,36.8,98.0,4,Synthetic triage presentation,,,78
+B,78,78,3,2026-07-29 06:10:00,Non-Urgent,120/80,77,16,36.9,98.0,5,Synthetic triage presentation,,,79
+B,79,79,3,2026-07-30 06:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,6,Synthetic triage presentation,,,80
+C,1,1,3,2026-01-05 23:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,0,Synthetic triage presentation,,,26
+C,2,2,3,2026-01-25 23:10:00,Urgent,120/80,73,16,36.5,98.0,1,Synthetic triage presentation,,,152
+C,3,3,3,2026-02-14 23:10:00,Non-Urgent,120/80,74,16,36.6,98.0,2,Synthetic triage presentation,,,263
+C,4,4,3,2026-03-06 23:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,3,Synthetic triage presentation,,,376
+C,5,5,3,2026-01-06 23:10:00,Urgent,120/80,76,16,36.8,98.0,4,Synthetic triage presentation,,,501
+C,6,6,3,2026-01-26 23:10:00,Non-Urgent,120/80,77,16,36.9,98.0,5,Synthetic triage presentation,,,620
+C,7,7,3,2026-01-07 23:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,6,Synthetic triage presentation,,,755
+C,8,8,3,2026-01-08 23:10:00,Urgent,120/80,79,16,37.1,98.0,7,Synthetic triage presentation,,,866
+C,9,9,3,2026-01-28 23:10:00,Non-Urgent,120/80,80,16,37.2,98.0,0,Synthetic triage presentation,,,964
+C,10,10,3,2026-01-09 23:10:00,High-Priority Emergency,120/80,81,16,36.4,98.0,1,Synthetic triage presentation,,,1082
+C,11,11,3,2026-01-29 23:10:00,Urgent,120/80,82,16,36.5,98.0,2,Synthetic triage presentation,,,1186
+C,12,12,3,2026-01-10 23:10:00,Non-Urgent,120/80,83,16,36.6,98.0,3,Synthetic triage presentation,,,1294
+C,13,13,3,2026-01-30 23:10:00,High-Priority Emergency,120/80,84,16,36.7,98.0,4,Synthetic triage presentation,,,1391
+C,14,14,3,2026-01-11 23:10:00,Urgent,120/80,85,16,36.8,98.0,5,Synthetic triage presentation,,,1493
+C,15,15,3,2026-01-31 23:10:00,Non-Urgent,120/80,86,16,36.9,98.0,6,Synthetic triage presentation,,,1588
+C,16,16,3,2026-01-12 23:10:00,High-Priority Emergency,120/80,87,16,37.0,98.0,7,Synthetic triage presentation,,,1697
+C,17,17,3,2026-01-13 23:10:00,Urgent,120/80,88,16,37.1,98.0,0,Synthetic triage presentation,,,1790
+C,18,18,3,2026-02-02 23:10:00,Non-Urgent,120/80,89,16,37.2,98.0,1,Synthetic triage presentation,,,1866
+C,19,19,3,2026-01-14 23:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,2,Synthetic triage presentation,,,1957
+C,20,20,3,2026-01-15 23:10:00,Urgent,120/80,73,16,36.5,98.0,3,Synthetic triage presentation,,,2051
+C,21,21,3,2026-02-04 23:10:00,Non-Urgent,120/80,74,16,36.6,98.0,4,Synthetic triage presentation,,,2127
+C,22,22,3,2026-01-16 23:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,5,Synthetic triage presentation,,,2212
+C,23,23,3,2026-02-05 23:10:00,Urgent,120/80,76,16,36.8,98.0,6,Synthetic triage presentation,,,2282
+C,24,24,3,2026-01-17 23:10:00,Non-Urgent,120/80,77,16,36.9,98.0,7,Synthetic triage presentation,,,2371
+C,25,25,3,2026-02-06 23:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,0,Synthetic triage presentation,,,2443
+C,26,26,3,2026-01-18 23:10:00,Urgent,120/80,79,16,37.1,98.0,1,Synthetic triage presentation,,,2525
+C,27,27,3,2026-02-07 23:10:00,Non-Urgent,120/80,80,16,37.2,98.0,2,Synthetic triage presentation,,,2601
+C,28,28,3,2026-01-19 23:10:00,High-Priority Emergency,120/80,81,16,36.4,98.0,3,Synthetic triage presentation,,,2695
+C,29,29,3,2026-01-20 23:10:00,Urgent,120/80,82,16,36.5,98.0,4,Synthetic triage presentation,,,2752
+C,30,30,3,2026-01-21 23:10:00,Non-Urgent,120/80,83,16,36.6,98.0,5,Synthetic triage presentation,,,2835
+C,31,31,3,2026-02-10 23:10:00,High-Priority Emergency,120/80,84,16,36.7,98.0,6,Synthetic triage presentation,,,2905
+C,32,32,3,2026-01-22 23:10:00,Urgent,120/80,85,16,36.8,98.0,7,Synthetic triage presentation,,,2995
+C,33,33,3,2026-02-11 23:10:00,Non-Urgent,120/80,86,16,36.9,98.0,0,Synthetic triage presentation,,,3092
+C,34,34,3,2026-01-23 23:10:00,High-Priority Emergency,120/80,87,16,37.0,98.0,1,Synthetic triage presentation,,,3167
+C,35,35,3,2026-01-24 23:10:00,Urgent,120/80,88,16,37.1,98.0,2,Synthetic triage presentation,,,3232
+C,36,36,3,2026-02-13 23:10:00,Non-Urgent,120/80,89,16,37.2,98.0,3,Synthetic triage presentation,,,3292
+C,37,37,3,2026-01-25 23:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,4,Synthetic triage presentation,,,3359
+C,38,38,3,2026-02-14 23:10:00,Urgent,120/80,73,16,36.5,98.0,5,Synthetic triage presentation,,,3412
+C,39,39,3,2026-01-26 23:10:00,Non-Urgent,120/80,74,16,36.6,98.0,6,Synthetic triage presentation,,,3485
+C,40,40,3,2026-01-27 23:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,7,Synthetic triage presentation,,,3551
+C,41,41,3,2026-02-16 23:10:00,Urgent,120/80,76,16,36.8,98.0,0,Synthetic triage presentation,,,3604
+C,42,42,3,2026-01-28 23:10:00,Non-Urgent,120/80,77,16,36.9,98.0,1,Synthetic triage presentation,,,3671
+C,43,43,3,2026-02-17 23:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,2,Synthetic triage presentation,,,3731
+C,44,44,3,2026-01-29 23:10:00,Urgent,120/80,79,16,37.1,98.0,3,Synthetic triage presentation,,,3797
+C,45,45,3,2026-01-30 23:10:00,Non-Urgent,120/80,80,16,37.2,98.0,4,Synthetic triage presentation,,,3870
+C,46,46,3,2026-02-19 23:10:00,High-Priority Emergency,120/80,81,16,36.4,98.0,5,Synthetic triage presentation,,,3930
+C,47,47,3,2026-01-31 23:10:00,Urgent,120/80,82,16,36.5,98.0,6,Synthetic triage presentation,,,3995
+C,48,48,3,2026-02-20 23:10:00,Non-Urgent,120/80,83,16,36.6,98.0,7,Synthetic triage presentation,,,4055
+C,49,49,3,2026-02-01 23:10:00,High-Priority Emergency,120/80,84,16,36.7,98.0,0,Synthetic triage presentation,,,4128
+C,50,50,3,2026-02-02 23:10:00,Urgent,120/80,85,16,36.8,98.0,1,Synthetic triage presentation,,,4193
+C,51,51,3,2026-02-22 23:10:00,Non-Urgent,120/80,86,16,36.9,98.0,2,Synthetic triage presentation,,,4247
+C,52,52,3,2026-02-03 23:10:00,High-Priority Emergency,120/80,87,16,37.0,98.0,3,Synthetic triage presentation,,,4294
+C,53,53,3,2026-02-23 23:10:00,Urgent,120/80,88,16,37.1,98.0,4,Synthetic triage presentation,,,4347
+C,54,54,3,2026-02-04 23:10:00,Non-Urgent,120/80,89,16,37.2,98.0,5,Synthetic triage presentation,,,4414
+C,55,55,3,2026-02-24 23:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,6,Synthetic triage presentation,,,4474
+C,56,56,3,2026-02-05 23:10:00,Urgent,120/80,73,16,36.5,98.0,7,Synthetic triage presentation,,,4519
+C,57,57,3,2026-02-06 23:10:00,Non-Urgent,120/80,74,16,36.6,98.0,0,Synthetic triage presentation,,,4592
+C,58,58,3,2026-02-26 23:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,1,Synthetic triage presentation,,,4646
+C,59,59,3,2026-02-07 23:10:00,Urgent,120/80,76,16,36.8,98.0,2,Synthetic triage presentation,,,4717
+C,60,60,3,2026-02-08 23:10:00,Non-Urgent,120/80,77,16,36.9,98.0,,Synthetic triage presentation,,,4789
+C,61,61,3,2026-02-28 23:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,4,Synthetic triage presentation,,,4843
+C,62,62,3,2026-02-09 23:10:00,Urgent,120/80,79,16,37.1,98.0,5,Synthetic triage presentation,,,4909
+C,63,63,3,2026-03-01 23:10:00,Non-Urgent,120/80,80,16,37.2,98.0,6,Synthetic triage presentation,,,4969
+C,64,64,3,2026-02-10 23:10:00,High-Priority Emergency,120/80,81,16,36.4,98.0,7,Synthetic triage presentation,,,5042
+C,65,65,3,2026-03-02 23:10:00,Urgent,120/80,82,16,36.5,98.0,0,Synthetic triage presentation,,,5095
+C,66,66,3,2026-02-11 23:10:00,Non-Urgent,120/80,83,16,36.6,98.0,1,Synthetic triage presentation,,,5161
+C,67,67,3,2026-03-03 23:10:00,High-Priority Emergency,120/80,84,16,36.7,98.0,2,Synthetic triage presentation,,,5221
+C,68,68,3,2026-02-12 23:10:00,Urgent,120/80,85,16,36.8,98.0,3,Synthetic triage presentation,,,5293
+C,69,69,3,2026-03-04 23:10:00,Non-Urgent,120/80,86,16,36.9,98.0,4,Synthetic triage presentation,,,5353
+C,70,70,3,2026-02-13 23:10:00,High-Priority Emergency,120/80,87,16,37.0,98.0,5,Synthetic triage presentation,,,5426
+C,71,71,3,2026-02-14 23:10:00,Urgent,120/80,88,16,37.1,98.0,6,Synthetic triage presentation,,,5491
+C,72,72,3,2026-02-15 23:10:00,Non-Urgent,120/80,89,16,37.2,98.0,7,Synthetic triage presentation,,,5564
+C,73,73,3,2026-03-07 23:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,0,Synthetic triage presentation,,,5624
+C,74,74,3,2026-02-16 23:10:00,Urgent,120/80,73,16,36.5,98.0,1,Synthetic triage presentation,,,5690
+C,75,75,3,2026-03-08 23:10:00,Non-Urgent,120/80,74,16,36.6,98.0,2,Synthetic triage presentation,,,5750
+C,76,76,3,2026-02-17 23:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,3,Synthetic triage presentation,,,5816
+C,77,77,3,2026-03-09 23:10:00,Urgent,120/80,76,16,36.8,98.0,4,Synthetic triage presentation,,,5869
+C,78,78,3,2026-02-18 23:10:00,Non-Urgent,120/80,77,16,36.9,98.0,5,Synthetic triage presentation,,,5936
+C,79,79,3,2026-02-19 23:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,6,Synthetic triage presentation,,,6009
+D,1,1,3,2026-06-14 22:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,0,Synthetic triage presentation,,,$[0].admissions[0].triage[0]
+D,2,2,3,2026-07-04 22:10:00,Urgent,120/80,73,16,36.5,98.0,1,Synthetic triage presentation,,,$[0].admissions[1].triage[0]
+D,3,3,3,2026-07-24 22:10:00,Non-Urgent,120/80,74,16,36.6,98.0,2,Synthetic triage presentation,,,$[0].admissions[2].triage[0]
+D,4,4,3,2026-08-13 22:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,3,Synthetic triage presentation,,,$[0].admissions[3].triage[0]
+D,5,5,3,2026-06-15 22:10:00,Urgent,120/80,76,16,36.8,98.0,4,Synthetic triage presentation,,,$[1].admissions[0].triage[0]
+D,6,6,3,2026-07-05 22:10:00,Non-Urgent,120/80,77,16,36.9,98.0,5,Synthetic triage presentation,,,$[1].admissions[1].triage[0]
+D,7,7,3,2026-06-16 22:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,6,Synthetic triage presentation,,,$[2].admissions[0].triage[0]
+D,8,8,3,2026-07-06 22:10:00,Urgent,120/80,79,16,37.1,98.0,7,Synthetic triage presentation,,,$[2].admissions[1].triage[0]
+D,9,9,3,2026-06-17 22:10:00,Non-Urgent,120/80,80,16,37.2,98.0,0,Synthetic triage presentation,,,$[3].admissions[0].triage[0]
+D,10,10,3,2026-06-18 22:10:00,High-Priority Emergency,120/80,81,16,36.4,98.0,1,Synthetic triage presentation,,,$[4].admissions[0].triage[0]
+D,11,11,3,2026-07-08 22:10:00,Urgent,120/80,82,16,36.5,98.0,2,Synthetic triage presentation,,,$[4].admissions[1].triage[0]
+D,12,12,3,2026-06-19 22:10:00,Non-Urgent,120/80,83,16,36.6,98.0,3,Synthetic triage presentation,,,$[5].admissions[0].triage[0]
+D,13,13,3,2026-07-09 22:10:00,High-Priority Emergency,120/80,84,16,36.7,98.0,4,Synthetic triage presentation,,,$[5].admissions[1].triage[0]
+D,14,14,3,2026-06-20 22:10:00,Urgent,120/80,85,16,36.8,98.0,5,Synthetic triage presentation,,,$[6].admissions[0].triage[0]
+D,15,15,3,2026-07-10 22:10:00,Non-Urgent,120/80,86,16,36.9,98.0,6,Synthetic triage presentation,,,$[6].admissions[1].triage[0]
+D,16,16,3,2026-06-21 22:10:00,High-Priority Emergency,120/80,87,16,37.0,98.0,7,Synthetic triage presentation,,,$[7].admissions[0].triage[0]
+D,17,17,3,2026-06-22 22:10:00,Urgent,120/80,88,16,37.1,98.0,0,Synthetic triage presentation,,,$[8].admissions[0].triage[0]
+D,18,18,3,2026-07-12 22:10:00,Non-Urgent,120/80,89,16,37.2,98.0,1,Synthetic triage presentation,,,$[8].admissions[1].triage[0]
+D,19,19,3,2026-06-23 22:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,2,Synthetic triage presentation,,,$[9].admissions[0].triage[0]
+D,20,20,3,2026-06-24 22:10:00,Urgent,120/80,73,16,36.5,98.0,3,Synthetic triage presentation,,,$[10].admissions[0].triage[0]
+D,21,21,3,2026-07-14 22:10:00,Non-Urgent,120/80,74,16,36.6,98.0,4,Synthetic triage presentation,,,$[10].admissions[1].triage[0]
+D,22,22,3,2026-06-25 22:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,5,Synthetic triage presentation,,,$[11].admissions[0].triage[0]
+D,23,23,3,2026-06-26 22:10:00,Urgent,120/80,76,16,36.8,98.0,,Synthetic triage presentation,,,$[12].admissions[0].triage[0]
+D,24,24,3,2026-07-16 22:10:00,Non-Urgent,120/80,77,16,36.9,98.0,7,Synthetic triage presentation,,,$[12].admissions[1].triage[0]
+D,25,25,3,2026-06-27 22:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,0,Synthetic triage presentation,,,$[13].admissions[0].triage[0]
+D,26,26,3,2026-07-17 22:10:00,Urgent,120/80,79,16,37.1,98.0,1,Synthetic triage presentation,,,$[13].admissions[1].triage[0]
+D,27,27,3,2026-06-28 22:10:00,Non-Urgent,120/80,80,16,37.2,98.0,2,Synthetic triage presentation,,,$[14].admissions[0].triage[0]
+D,28,28,3,2026-07-18 22:10:00,High-Priority Emergency,120/80,81,16,36.4,98.0,3,Synthetic triage presentation,,,$[14].admissions[1].triage[0]
+D,29,29,3,2026-06-29 22:10:00,Urgent,120/80,82,16,36.5,98.0,4,Synthetic triage presentation,,,$[15].admissions[0].triage[0]
+D,30,30,3,2026-07-19 22:10:00,Non-Urgent,120/80,83,16,36.6,98.0,5,Synthetic triage presentation,,,$[15].admissions[1].triage[0]
+D,31,31,3,2026-06-30 22:10:00,High-Priority Emergency,120/80,84,16,36.7,98.0,6,Synthetic triage presentation,,,$[16].admissions[0].triage[0]
+D,32,32,3,2026-07-20 22:10:00,Urgent,120/80,85,16,36.8,98.0,7,Synthetic triage presentation,,,$[16].admissions[1].triage[0]
+D,33,33,3,2026-07-01 22:10:00,Non-Urgent,120/80,86,16,36.9,98.0,0,Synthetic triage presentation,,,$[17].admissions[0].triage[0]
+D,34,34,3,2026-07-21 22:10:00,High-Priority Emergency,120/80,87,16,37.0,98.0,1,Synthetic triage presentation,,,$[17].admissions[1].triage[0]
+D,35,35,3,2026-07-02 22:10:00,Urgent,120/80,88,16,37.1,98.0,2,Synthetic triage presentation,,,$[18].admissions[0].triage[0]
+D,36,36,3,2026-07-03 22:10:00,Non-Urgent,120/80,89,16,37.2,98.0,3,Synthetic triage presentation,,,$[19].admissions[0].triage[0]
+D,37,37,3,2026-07-23 22:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,4,Synthetic triage presentation,,,$[19].admissions[1].triage[0]
+D,38,38,3,2026-07-04 22:10:00,Urgent,120/80,73,16,36.5,98.0,5,Synthetic triage presentation,,,$[20].admissions[0].triage[0]
+D,39,39,3,2026-07-05 22:10:00,Non-Urgent,120/80,74,16,36.6,98.0,6,Synthetic triage presentation,,,$[21].admissions[0].triage[0]
+D,40,40,3,2026-07-25 22:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,7,Synthetic triage presentation,,,$[21].admissions[1].triage[0]
+D,41,41,3,2026-07-06 22:10:00,Urgent,120/80,76,16,36.8,98.0,0,Synthetic triage presentation,,,$[22].admissions[0].triage[0]
+D,42,42,3,2026-07-26 22:10:00,Non-Urgent,120/80,77,16,36.9,98.0,1,Synthetic triage presentation,,,$[22].admissions[1].triage[0]
+D,43,43,3,2026-07-07 22:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,2,Synthetic triage presentation,,,$[23].admissions[0].triage[0]
+D,44,44,3,2026-07-08 22:10:00,Urgent,120/80,79,16,37.1,98.0,3,Synthetic triage presentation,,,$[24].admissions[0].triage[0]
+D,45,45,3,2026-07-09 22:10:00,Non-Urgent,120/80,80,16,37.2,98.0,4,Synthetic triage presentation,,,$[25].admissions[0].triage[0]
+D,46,46,3,2026-07-29 22:10:00,High-Priority Emergency,120/80,81,16,36.4,98.0,5,Synthetic triage presentation,,,$[25].admissions[1].triage[0]
+D,47,47,3,2026-07-10 22:10:00,Urgent,120/80,82,16,36.5,98.0,6,Synthetic triage presentation,,,$[26].admissions[0].triage[0]
+D,48,48,3,2026-07-30 22:10:00,Non-Urgent,120/80,83,16,36.6,98.0,7,Synthetic triage presentation,,,$[26].admissions[1].triage[0]
+D,49,49,3,2026-07-11 22:10:00,High-Priority Emergency,120/80,84,16,36.7,98.0,0,Synthetic triage presentation,,,$[27].admissions[0].triage[0]
+D,50,50,3,2026-07-31 22:10:00,Urgent,120/80,85,16,36.8,98.0,1,Synthetic triage presentation,,,$[27].admissions[1].triage[0]
+D,51,51,3,2026-07-12 22:10:00,Non-Urgent,120/80,86,16,36.9,98.0,2,Synthetic triage presentation,,,$[28].admissions[0].triage[0]
+D,52,52,3,2026-08-01 22:10:00,High-Priority Emergency,120/80,87,16,37.0,98.0,3,Synthetic triage presentation,,,$[28].admissions[1].triage[0]
+D,53,53,3,2026-07-13 22:10:00,Urgent,120/80,88,16,37.1,98.0,4,Synthetic triage presentation,,,$[29].admissions[0].triage[0]
+D,54,54,3,2026-08-02 22:10:00,Non-Urgent,120/80,89,16,37.2,98.0,5,Synthetic triage presentation,,,$[29].admissions[1].triage[0]
+D,55,55,3,2026-07-14 22:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,6,Synthetic triage presentation,,,$[30].admissions[0].triage[0]
+D,56,56,3,2026-07-15 22:10:00,Urgent,120/80,73,16,36.5,98.0,7,Synthetic triage presentation,,,$[31].admissions[0].triage[0]
+D,57,57,3,2026-08-04 22:10:00,Non-Urgent,120/80,74,16,36.6,98.0,0,Synthetic triage presentation,,,$[31].admissions[1].triage[0]
+D,58,58,3,2026-07-16 22:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,1,Synthetic triage presentation,,,$[32].admissions[0].triage[0]
+D,59,59,3,2026-08-05 22:10:00,Urgent,120/80,76,16,36.8,98.0,2,Synthetic triage presentation,,,$[32].admissions[1].triage[0]
+D,60,60,3,2026-07-17 22:10:00,Non-Urgent,120/80,77,16,36.9,98.0,3,Synthetic triage presentation,,,$[33].admissions[0].triage[0]
+D,61,61,3,2026-08-06 22:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,4,Synthetic triage presentation,,,$[33].admissions[1].triage[0]
+D,62,62,3,2026-07-18 22:10:00,Urgent,120/80,79,16,37.1,98.0,5,Synthetic triage presentation,,,$[34].admissions[0].triage[0]
+D,63,63,3,2026-08-07 22:10:00,Non-Urgent,120/80,80,16,37.2,98.0,6,Synthetic triage presentation,,,$[34].admissions[1].triage[0]
+D,64,64,3,2026-07-19 22:10:00,High-Priority Emergency,120/80,81,16,36.4,98.0,7,Synthetic triage presentation,,,$[35].admissions[0].triage[0]
+D,65,65,3,2026-07-20 22:10:00,Urgent,120/80,82,16,36.5,98.0,0,Synthetic triage presentation,,,$[36].admissions[0].triage[0]
+D,66,66,3,2026-07-21 22:10:00,Non-Urgent,120/80,83,16,36.6,98.0,1,Synthetic triage presentation,,,$[37].admissions[0].triage[0]
+D,67,67,3,2026-08-10 22:10:00,High-Priority Emergency,120/80,84,16,36.7,98.0,2,Synthetic triage presentation,,,$[37].admissions[1].triage[0]
+D,68,68,3,2026-07-22 22:10:00,Urgent,120/80,85,16,36.8,98.0,3,Synthetic triage presentation,,,$[38].admissions[0].triage[0]
+D,69,69,3,2026-08-11 22:10:00,Non-Urgent,120/80,86,16,36.9,98.0,4,Synthetic triage presentation,,,$[38].admissions[1].triage[0]
+D,70,70,3,2026-07-23 22:10:00,High-Priority Emergency,120/80,87,16,37.0,98.0,5,Synthetic triage presentation,,,$[39].admissions[0].triage[0]
+D,71,71,3,2026-07-24 22:10:00,Urgent,120/80,88,16,37.1,98.0,6,Synthetic triage presentation,,,$[40].admissions[0].triage[0]
+D,72,72,3,2026-08-13 22:10:00,Non-Urgent,120/80,89,16,37.2,98.0,7,Synthetic triage presentation,,,$[40].admissions[1].triage[0]
+D,73,73,3,2026-07-25 22:10:00,High-Priority Emergency,120/80,72,16,36.4,98.0,0,Synthetic triage presentation,,,$[41].admissions[0].triage[0]
+D,74,74,3,2026-08-14 22:10:00,Urgent,120/80,73,16,36.5,98.0,1,Synthetic triage presentation,,,$[41].admissions[1].triage[0]
+D,75,75,3,2026-07-26 22:10:00,Non-Urgent,120/80,74,16,36.6,98.0,2,Synthetic triage presentation,,,$[42].admissions[0].triage[0]
+D,76,76,3,2026-07-27 22:10:00,High-Priority Emergency,120/80,75,16,36.7,98.0,3,Synthetic triage presentation,,,$[43].admissions[0].triage[0]
+D,77,77,3,2026-08-16 22:10:00,Urgent,120/80,76,16,36.8,98.0,4,Synthetic triage presentation,,,$[43].admissions[1].triage[0]
+D,78,78,3,2026-07-28 22:10:00,Non-Urgent,120/80,77,16,36.9,98.0,5,Synthetic triage presentation,,,$[44].admissions[0].triage[0]
+D,79,79,3,2026-08-17 22:10:00,High-Priority Emergency,120/80,78,16,37.0,98.0,6,Synthetic triage presentation,,,$[44].admissions[1].triage[0]
