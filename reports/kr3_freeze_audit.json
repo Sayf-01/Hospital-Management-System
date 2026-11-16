@@ -1,0 +1,64 @@
+{
+  "seed": 363,
+  "source_totals": {
+    "A": 7144,
+    "B": 7840,
+    "C": 7366,
+    "D": 7741
+  },
+  "total_raw_records": 30091,
+  "malformed_rows_included": 2,
+  "reproduced_full_files": 35,
+  "all_60_count_rows_verified": true,
+  "ground_truth_log_entries": 1035,
+  "issue_log_entries_by_type": {
+    "ambiguous_day_first": 12,
+    "broken_reference": 38,
+    "case_or_space": 199,
+    "chronology": 51,
+    "cross_source_name_only": 20,
+    "cross_source_true_match": 50,
+    "cross_source_uncertain": 20,
+    "exact_duplicate_admissions_and_diagnoses": 126,
+    "icd9_format": 155,
+    "invalid_date": 16,
+    "invalid_numeric": 38,
+    "malformed_rows": 2,
+    "missing_optional": 225,
+    "missing_primary": 20,
+    "missing_required": 16,
+    "within_source_duplicate_patients": 47
+  },
+  "risk_scope": "Conservative exposure from planted problems, including descendants of admissions losing a primary diagnosis; not an observed rejection count.",
+  "risk_by_source": [
+    {
+      "source": "A",
+      "raw_records": 7144,
+      "conservative_at_risk_records": 83,
+      "percent_at_risk": 1.162
+    },
+    {
+      "source": "B",
+      "raw_records": 7840,
+      "conservative_at_risk_records": 109,
+      "percent_at_risk": 1.39
+    },
+    {
+      "source": "C",
+      "raw_records": 7366,
+      "conservative_at_risk_records": 97,
+      "percent_at_risk": 1.317
+    },
+    {
+      "source": "D",
+      "raw_records": 7741,
+      "conservative_at_risk_records": 98,
+      "percent_at_risk": 1.266
+    }
+  ],
+  "limitations": [
+    "The audit covers generator reproducibility and planted-risk exposure.",
+    "Loaders, cleaners and final SQL integrity validation must independently report outcomes.",
+    "Read-only permissions are local protection; Git does not preserve them on checkout."
+  ]
+}

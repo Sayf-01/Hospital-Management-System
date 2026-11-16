@@ -1,0 +1,1062 @@
+﻿admission_no;patient_no;admitting_professional_id;arrival_time;departure_time;admission_type;admission_source;reason_for_admission;current_condition;insurance_info;admission_status
+1;1;26;15.06.2026 08:00;23.06.2026 08:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+2;1;1;05.07.2026 08:00;12.07.2026 08:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+3;1;21;25.07.2026 08:00;26.07.2026 09:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+4;1;46;14.08.2026 08:00;16.08.2026 13:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+5;2;6;16.06.2026 08:00;20.06.2026 21:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+6;2;51;06.07.2026 08:00;06.07.2026 23:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+7;3;31;17.06.2026 08:00;20.06.2026 20:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+8;4;46;18.06.2026 08:00;22.06.2026 07:00;Dringend;Referral;Synthetic encounter;;;Discharged
+9;4;6;08.07.2026 08:00;12.07.2026 13:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+10;5;1;19.06.2026 08:00;20.06.2026 14:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+11;5;41;09.07.2026 08:00;11.07.2026 01:00;Dringend;Referral;Synthetic encounter;;;Discharged
+12;6;36;20.06.2026 08:00;24.06.2026 20:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+13;6;16;10.07.2026 08:00;10.07.2026 17:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+14;7;16;21.06.2026 08:00;26.06.2026 03:00;Geplant;Referral;Synthetic encounter;;;Discharged
+15;7;26;11.07.2026 08:00;N/A;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Admitted
+16;8;46;22.06.2026 08:00;23.06.2026 19:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+17;9;11;23.06.2026 08:00;27.06.2026 02:00;Dringend;Referral;Synthetic encounter;;;Discharged
+18;9;1;13.07.2026 08:00;13.07.2026 20:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+19;10;36;24.06.2026 08:00;28.06.2026 07:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+20;11;26;25.06.2026 08:00;28.06.2026 01:00;Dringend;Referral;Synthetic encounter;;;Discharged
+21;12;51;26.06.2026 08:00;26.06.2026 18:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+22;13;41;27.06.2026 08:00;01.07.2026 09:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+23;13;36;17.07.2026 08:00;20.07.2026 22:00;Geplant;Referral;Synthetic encounter;;;Deceased
+24;14;21;28.06.2026 08:00;01.07.2026 09:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+25;14;1;18.07.2026 08:00;?;Geplant;Referral;Synthetic encounter;?;?;Admitted
+26;15;21;29.06.2026 08:00;02.07.2026 22:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+27;16;16;30.06.2026 08:00;03.07.2026 05:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+28;16;6;20.07.2026 08:00;23.07.2026 04:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+29;17;1;01.07.2026 08:00;04.07.2026 02:00;Dringend;Referral;Synthetic encounter;;;Discharged
+30;18;6;02.07.2026 08:00;04.07.2026 07:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+31;18;36;22.07.2026 08:00;25.07.2026 06:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+32;19;46;03.07.2026 08:00;07.07.2026 23:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+33;20;51;04.07.2026 08:00;08.07.2026 16:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+34;21;6;05.07.2026 08:00;06.07.2026 03:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+35;21;26;25.07.2026 08:00;30.07.2026 00:00;Dringend;Referral;Synthetic encounter;;;Discharged
+36;22;41;06.07.2026 08:00;07.07.2026 18:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+37;22;21;26.07.2026 08:00;27.07.2026 23:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+38;23;16;07.07.2026 08:00;11.07.2026 07:00;Dringend;Referral;Synthetic encounter;;;Discharged
+39;23;36;27.07.2026 08:00;31.07.2026 23:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+40;24;31;08.07.2026 08:00;09.07.2026 21:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+41;24;31;28.07.2026 08:00;29.07.2026 17:00; NOTFALL ;Emergency Department;Synthetic encounter;;;Discharged
+42;25;36;09.07.2026 08:00;12.07.2026 01:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+43;26;31;10.07.2026 08:00;11.07.2026 17:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+44;26;36;30.07.2026 08:00;03.08.2026 16:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+45;27;6;11.07.2026 08:00;11.07.2026 18:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+46;27;36;31.07.2026 08:00;?;Geplant;Referral;Synthetic encounter;?;?;Admitted
+47;28;31;12.07.2026 08:00;14.07.2026 01:00;Dringend;Referral;Synthetic encounter;;;Discharged
+48;29;51;13.07.2026 08:00;15.07.2026 04:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+49;30;51;14.07.2026 08:00;18.07.2026 22:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+50;30;6;03.08.2026 08:00;07.08.2026 08:00; GEPLANT ;Referral;Synthetic encounter;;;Discharged
+51;31;21;15.07.2026 08:00;20.07.2026 07:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+52;31;11;04.08.2026 08:00;05.08.2026 11:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+53;32;36;16.07.2026 08:00;19.07.2026 11:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+54;32;21;05.08.2026 08:00;06.08.2026 23:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+55;33;21;17.07.2026 08:00;19.07.2026 09:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+56;33;41;06.08.2026 08:00;07.08.2026 20:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+57;34;41;18.07.2026 08:00;N/A;Geplant;Referral;Synthetic encounter;N/A;N/A;Admitted
+58;35;26;19.07.2026 08:00;21.07.2026 22:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+59;36;36;20.07.2026 08:00;20.07.2026 18:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+60;36;36;09.08.2026 08:00;13.08.2026 16:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+61;37;36;21.07.2026 08:00;25.07.2026 17:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+62;37;16;10.08.2026 08:00;13.08.2026 02:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+63;38;1;22.07.2026 08:00;23.07.2026 08:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+64;38;51;11.08.2026 08:00;15.08.2026 17:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+65;39;31;23.07.2026 08:00;28.07.2026 00:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+66;39;41;12.08.2026 08:00;14.08.2026 17:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+67;40;21;24.07.2026 08:00;27.07.2026 05:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+68;40;36;13.08.2026 08:00;17.08.2026 16:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+69;41;41;25.07.2026 08:00;30.07.2026 00:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+70;41;46;14.08.2026 08:00;16.08.2026 12:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+71;42;31;26.07.2026 08:00;30.07.2026 05:00;Geplant;Referral;Synthetic encounter;;;Discharged
+72;42;51;15.08.2026 08:00;16.08.2026 16:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+73;43;46;27.07.2026 08:00;31.07.2026 12:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+74;44;6;28.07.2026 08:00;01.08.2026 01:00;Dringend;Referral;Synthetic encounter;;;Discharged
+75;45;1;29.07.2026 08:00;29.07.2026 21:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+76;45;46;18.08.2026 08:00;20.08.2026 17:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+77;46;41;30.07.2026 08:00;31.07.2026 15:00;Geplant;Referral;Synthetic encounter;;;Discharged
+78;46;11;19.08.2026 08:00;20.08.2026 11:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+79;47;26;31.07.2026 08:00;01.08.2026 00:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+80;48;36;01.08.2026 08:00;05.08.2026 05:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+81;48;51;21.08.2026 08:00;22.08.2026 14:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+82;49;26;02.08.2026 08:00;03.08.2026 01:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+83;49;41;22.08.2026 08:00;24.08.2026 02:00;Geplant;Referral;Synthetic encounter;;;Discharged
+84;50;36;03.08.2026 08:00;05.08.2026 20:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+85;50;31;23.08.2026 08:00;25.08.2026 16:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+86;51;1;04.08.2026 08:00;06.08.2026 15:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+87;51;26;24.08.2026 08:00;26.08.2026 13:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+88;52;41;05.08.2026 08:00;08.08.2026 15:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+89;52;36;25.08.2026 08:00;27.08.2026 23:00;Geplant;Referral;Synthetic encounter;;;Discharged
+90;53;46;06.08.2026 08:00;N/A;Ambulant;Referral;Synthetic encounter;N/A;N/A;Admitted
+91;54;41;07.08.2026 08:00;11.08.2026 05:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+92;54;46;27.08.2026 08:00;31.08.2026 03:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+93;55;16;08.08.2026 08:00;13.08.2026 06:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+94;55;31;28.08.2026 08:00;02.09.2026 07:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+95;56;26;09.08.2026 08:00;10.08.2026 06:00;Geplant;Referral;Synthetic encounter;;;Discharged
+96;56;31;29.08.2026 08:00;29.08.2026 15:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+97;57;31;10.08.2026 08:00;?;Notfall;Emergency Department;Synthetic encounter;?;?;Admitted
+98;58;51;11.08.2026 08:00;13.08.2026 16:00;Dringend;Referral;Synthetic encounter;;;Discharged
+99;59;6;12.08.2026 08:00;16.08.2026 22:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+100;59;11;01.09.2026 08:00;01.09.2026 16:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+101;60;6;13.08.2026 08:00;15.08.2026 19:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+102;61;11;14.08.2026 08:00;16.08.2026 02:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+103;61;26;03.09.2026 08:00;04.09.2026 19:00; NOTFALL ;Emergency Department;Synthetic encounter;?;?;Discharged
+104;62;26;15.08.2026 08:00;18.08.2026 06:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+105;62;16;04.09.2026 08:00;06.09.2026 08:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+106;63;16;16.08.2026 08:00;18.08.2026 13:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+107;63;31;05.09.2026 08:00;06.09.2026 12:00;Dringend;Referral;Synthetic encounter;;;Deceased
+108;64;6;17.08.2026 08:00;17.08.2026 22:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+109;64;46;06.09.2026 08:00;10.09.2026 14:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+110;65;46;18.08.2026 08:00;21.08.2026 07:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+111;65;31;07.09.2026 08:00;09.09.2026 08:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+112;66;11;19.08.2026 08:00;21.08.2026 23:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+113;66;11;08.09.2026 08:00;09.09.2026 10:00;Dringend;Referral;Synthetic encounter;;;Discharged
+114;67;51;20.08.2026 08:00;25.08.2026 05:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+115;67;1;09.09.2026 08:00;14.09.2026 07:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+116;68;21;21.08.2026 08:00;24.08.2026 02:00;Dringend;Referral;Synthetic encounter;;;Discharged
+117;68;26;10.09.2026 08:00;14.09.2026 03:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+118;69;6;22.08.2026 08:00;25.08.2026 20:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+119;69;21;11.09.2026 08:00;15.09.2026 06:00; GEPLANT ;Referral;Synthetic encounter;;;Discharged
+120;70;16;23.08.2026 08:00;25.08.2026 15:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+121;70;21;12.09.2026 08:00;16.09.2026 13:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+122;71;51;24.08.2026 08:00;24.08.2026 22:00;Dringend;Referral;Synthetic encounter;;;Discharged
+123;71;41;13.09.2026 08:00;14.09.2026 06:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+124;72;46;25.08.2026 08:00;?;Geplant;Referral;Synthetic encounter;?;?;Admitted
+125;73;41;26.08.2026 08:00;29.08.2026 20:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+126;73;31;15.09.2026 08:00;16.09.2026 10:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+127;74;41;27.08.2026 08:00;31.08.2026 09:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+128;74;6;16.09.2026 08:00;17.09.2026 22:00;Dringend;Referral;Synthetic encounter;;;Discharged
+129;75;21;28.08.2026 08:00;30.08.2026 03:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+130;75;21;17.09.2026 08:00;18.09.2026 14:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+131;76;21;29.08.2026 08:00;01.09.2026 08:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+132;77;41;30.08.2026 08:00;04.09.2026 07:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+133;78;6;31.08.2026 08:00;01.09.2026 05:00;Notfall;Emergency Department;Synthetic encounter;?;?;Deceased
+134;79;11;01.09.2026 08:00;02.09.2026 02:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+135;79;6;21.09.2026 08:00;24.09.2026 03:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+136;80;1;02.09.2026 08:00;05.09.2026 01:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+137;80;11;22.09.2026 08:00;24.09.2026 10:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+138;81;41;03.09.2026 08:00;05.09.2026 09:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+139;81;46;23.09.2026 08:00;25.09.2026 16:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+140;82;1;04.09.2026 08:00;06.09.2026 10:00;Geplant;Referral;Synthetic encounter;;;Discharged
+141;82;41;24.09.2026 08:00;25.09.2026 13:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+142;83;6;05.09.2026 08:00;08.09.2026 17:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+143;83;6;25.09.2026 08:00;28.09.2026 22:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+144;84;46;06.09.2026 08:00;06.09.2026 20:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+145;85;1;07.09.2026 08:00;07.09.2026 19:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+146;85;31;27.09.2026 08:00;28.09.2026 20:00;Geplant;Referral;Synthetic encounter;;;Discharged
+147;86;6;08.09.2026 08:00;08.09.2026 16:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+148;86;1;28.09.2026 08:00;02.10.2026 15:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+149;87;16;09.09.2026 08:00;11.09.2026 07:00;Geplant;Referral;Synthetic encounter;;;Discharged
+150;88;51;10.09.2026 08:00;N/A;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Admitted
+151;89;1;11.09.2026 08:00;14.09.2026 15:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+152;90;1;12.09.2026 08:00;12.09.2026 21:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+153;90;36;02.10.2026 08:00;04.10.2026 03:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+154;91;16;13.09.2026 08:00;17.09.2026 23:00; AMBULANT ;Referral;Synthetic encounter;?;?;Discharged
+155;91;41;03.10.2026 08:00;06.10.2026 13:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+156;92;11;14.09.2026 08:00;16.09.2026 03:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+157;92;6;04.10.2026 08:00;07.10.2026 07:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+158;93;41;15.09.2026 08:00;16.09.2026 07:00;Dringend;Referral;Synthetic encounter;;;Discharged
+159;93;36;05.10.2026 08:00;05.10.2026 23:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+160;94;1;16.09.2026 08:00;21.09.2026 01:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+161;94;31;06.10.2026 08:00;;Dringend;Referral;Synthetic encounter;;;Admitted
+162;95;1;17.09.2026 08:00;17.09.2026 16:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+163;95;51;07.10.2026 08:00;09.10.2026 18:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+164;96;1;18.09.2026 08:00;19.09.2026 21:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+165;96;21;08.10.2026 08:00;09.10.2026 12:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+166;97;51;19.09.2026 08:00;22.09.2026 18:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+167;97;11;09.10.2026 08:00;09.10.2026 16:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+168;98;21;20.09.2026 08:00;22.09.2026 01:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+169;98;11;10.10.2026 08:00;14.10.2026 05:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+170;99;31;21.09.2026 08:00;25.09.2026 22:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+171;100;21;14.06.2026 08:00;16.06.2026 00:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+172;100;41;04.07.2026 08:00;08.07.2026 02:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+173;101;6;15.06.2026 08:00;17.06.2026 03:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+174;101;11;05.07.2026 08:00;06.07.2026 01:00; AMBULANT ;Referral;Synthetic encounter;N/A;N/A;Discharged
+175;102;31;16.06.2026 08:00;19.06.2026 02:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+176;102;51;06.07.2026 08:00;09.07.2026 13:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+177;103;31;17.06.2026 08:00;18.06.2026 17:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+178;104;26;18.06.2026 08:00;18.06.2026 22:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+179;104;36;08.07.2026 08:00;13.07.2026 03:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+180;105;16;19.06.2026 08:00;20.06.2026 20:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+181;106;11;20.06.2026 08:00;20.06.2026 19:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+182;106;16;10.07.2026 08:00;13.07.2026 08:00;Geplant;Referral;Synthetic encounter;;;Discharged
+183;107;21;21.06.2026 08:00;25.06.2026 11:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+184;107;6;11.07.2026 08:00;12.07.2026 07:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+185;108;36;22.06.2026 08:00;23.06.2026 15:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+186;108;11;12.07.2026 08:00;14.07.2026 23:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+187;109;41;23.06.2026 08:00;23.06.2026 21:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+188;109;51;13.07.2026 08:00;14.07.2026 20:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+189;110;46;24.06.2026 08:00;28.06.2026 01:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+190;110;46;14.07.2026 08:00;16.07.2026 01:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+191;111;46;25.06.2026 08:00;27.06.2026 04:00;Geplant;Referral;Synthetic encounter;;;Discharged
+192;112;11;26.06.2026 08:00;27.06.2026 16:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+193;112;21;16.07.2026 08:00;18.07.2026 06:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+194;113;36;27.06.2026 08:00;29.06.2026 07:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+195;113;46;17.07.2026 08:00;20.07.2026 02:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+196;114;16;28.06.2026 08:00;30.06.2026 06:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+197;115;26;29.06.2026 08:00;30.06.2026 21:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+198;116;6;30.06.2026 08:00;05.07.2026 03:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+199;117;31;01.07.2026 08:00;03.07.2026 05:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+200;117;26;21.07.2026 08:00;24.07.2026 13:00;Dringend;Referral;Synthetic encounter;;;Discharged
+201;118;26;02.07.2026 08:00;06.07.2026 14:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+202;119;51;03.07.2026 08:00;06.07.2026 10:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+203;119;11;23.07.2026 08:00;28.07.2026 08:00;Geplant;Referral;Synthetic encounter;;;Discharged
+204;120;51;04.07.2026 08:00;07.07.2026 17:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+205;120;21;24.07.2026 08:00;26.07.2026 13:00; AMBULANT ;Referral;Synthetic encounter;?;?;Discharged
+206;121;1;05.07.2026 08:00;09.07.2026 14:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+207;121;16;25.07.2026 08:00;29.07.2026 20:00; NOTFALL ;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+208;122;11;06.07.2026 08:00;07.07.2026 15:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+209;122;21;26.07.2026 08:00;31.07.2026 07:00;Geplant;Referral;Synthetic encounter;;;Discharged
+210;123;26;07.07.2026 08:00;12.07.2026 08:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+211;123;46;27.07.2026 08:00;28.07.2026 20:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+212;124;11;08.07.2026 08:00;11.07.2026 03:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+213;125;16;09.07.2026 08:00;13.07.2026 04:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+214;125;21;29.07.2026 08:00;?;Ambulant;Referral;Synthetic encounter;?;?;Admitted
+215;126;6;10.07.2026 08:00;13.07.2026 04:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+216;126;26;30.07.2026 08:00;01.08.2026 16:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+217;127;36;11.07.2026 08:00;15.07.2026 09:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+218;127;26;31.07.2026 08:00;02.08.2026 21:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+219;128;46;12.07.2026 08:00;13.07.2026 16:00; AMBULANT ;Referral;Synthetic encounter;N/A;N/A;Discharged
+220;128;51;01.08.2026 08:00;04.08.2026 08:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+221;129;6;13.07.2026 08:00;17.07.2026 01:00;Dringend;Referral;Synthetic encounter;;;Discharged
+222;129;41;02.08.2026 08:00;04.08.2026 09:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+223;130;11;14.07.2026 08:00;18.07.2026 08:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+224;130;46;03.08.2026 08:00;05.08.2026 10:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+225;131;21;15.07.2026 08:00;17.07.2026 03:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+226;131;46;04.08.2026 08:00;05.08.2026 18:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+227;132;51;16.07.2026 08:00;19.07.2026 06:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+228;132;21;05.08.2026 08:00;09.08.2026 02:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+229;133;26;17.07.2026 08:00;19.07.2026 12:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+230;133;36;06.08.2026 08:00;07.08.2026 15:00;Dringend;Referral;Synthetic encounter;;;Discharged
+231;134;31;18.07.2026 08:00;N/A;Ambulant;Referral;Synthetic encounter;N/A;N/A;Admitted
+232;135;6;19.07.2026 08:00;20.07.2026 13:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+233;135;21;08.08.2026 08:00;;Geplant;Referral;Synthetic encounter;;;Admitted
+234;136;21;20.07.2026 08:00;21.07.2026 18:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+235;137;36;21.07.2026 08:00;22.07.2026 09:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+236;137;36;10.08.2026 08:00;13.08.2026 03:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+237;138;26;22.07.2026 08:00;26.07.2026 23:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+238;138;16;11.08.2026 08:00;16.08.2026 07:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+239;139;21;23.07.2026 08:00;24.07.2026 03:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+240;139;41;12.08.2026 08:00;14.08.2026 01:00; NOTFALL ;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+241;140;41;24.07.2026 08:00;?;Notfall;Emergency Department;Synthetic encounter;?;?;Admitted
+242;141;46;25.07.2026 08:00;29.07.2026 23:00;Geplant;Referral;Synthetic encounter;;;Discharged
+243;142;46;26.07.2026 08:00;27.07.2026 04:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+244;142;31;15.08.2026 08:00;19.08.2026 16:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+245;143;16;27.07.2026 08:00;29.07.2026 00:00; DRINGEND ;Referral;Synthetic encounter;;;Discharged
+246;144;41;28.07.2026 08:00;29.07.2026 11:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+247;145;26;29.07.2026 08:00;?;Ambulant;Referral;Synthetic encounter;?;?;Admitted
+248;146;31;30.07.2026 08:00;03.08.2026 21:00;Dringend;Referral;Synthetic encounter;;;Discharged
+249;147;6;31.07.2026 08:00;02.08.2026 10:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+250;148;36;01.08.2026 08:00;05.08.2026 21:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+251;149;11;02.08.2026 08:00;05.08.2026 10:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+252;149;16;22.08.2026 08:00;23.08.2026 05:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+253;150;36;03.08.2026 08:00;06.08.2026 02:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+254;150;46;23.08.2026 08:00;28.08.2026 00:00;Dringend;Referral;Synthetic encounter;;;Discharged
+255;151;36;04.08.2026 08:00;06.08.2026 16:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+256;151;16;24.08.2026 08:00;27.08.2026 08:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+257;152;16;05.08.2026 08:00;05.08.2026 21:00; GEPLANT ;Referral;Synthetic encounter;;;Discharged
+258;152;41;25.08.2026 08:00;25.08.2026 21:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+259;153;36;06.08.2026 08:00;10.08.2026 10:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+260;153;11;26.08.2026 08:00;;Ambulant;Referral;Synthetic encounter;;;Admitted
+261;154;21;07.08.2026 08:00;08.08.2026 23:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+262;154;6;27.08.2026 08:00;30.08.2026 18:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+263;155;6;08.08.2026 08:00;08.08.2026 17:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+264;155;26;28.08.2026 08:00;30.08.2026 00:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+265;156;21;09.08.2026 08:00;12.08.2026 19:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+266;156;36;29.08.2026 08:00;29.08.2026 23:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+267;157;26;10.08.2026 08:00;14.08.2026 01:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+268;157;21;30.08.2026 08:00;?;Geplant;Referral;Synthetic encounter;?;?;Admitted
+269;158;31;11.08.2026 08:00;;Ambulant;Referral;Synthetic encounter;;;Admitted
+270;159;46;12.08.2026 08:00;16.08.2026 23:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+271;159;11;01.09.2026 08:00;02.09.2026 13:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+272;160;21;13.08.2026 08:00;15.08.2026 08:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+273;160;26;02.09.2026 08:00;05.09.2026 15:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+274;161;26;14.08.2026 08:00;18.08.2026 17:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+275;161;36;03.09.2026 08:00;05.09.2026 08:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+276;162;6;15.08.2026 08:00;19.08.2026 03:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+277;163;21;16.08.2026 08:00;18.08.2026 16:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+278;163;26;05.09.2026 08:00;08.09.2026 02:00;Geplant;Referral;Synthetic encounter;;;Discharged
+279;164;31;17.08.2026 08:00;20.08.2026 04:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+280;164;46;06.09.2026 08:00;07.09.2026 14:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+281;165;6;18.08.2026 08:00;22.08.2026 17:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+282;165;31;07.09.2026 08:00;11.09.2026 02:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+283;166;31;19.08.2026 08:00;22.08.2026 06:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+284;166;21;08.09.2026 08:00;12.09.2026 03:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+285;167;1;20.08.2026 08:00;22.08.2026 23:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+286;168;46;21.08.2026 08:00;24.08.2026 16:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+287;168;21;10.09.2026 08:00;10.09.2026 15:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+288;169;51;22.08.2026 08:00;24.08.2026 10:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+289;169;26;11.09.2026 08:00;15.09.2026 23:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+290;170;41;23.08.2026 08:00;28.08.2026 04:00;Dringend;Referral;Synthetic encounter;;;Discharged
+291;171;21;24.08.2026 08:00;27.08.2026 12:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+292;171;51;13.09.2026 08:00;16.09.2026 02:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+293;172;31;25.08.2026 08:00;28.08.2026 23:00;Geplant;Referral;Synthetic encounter;;;Discharged
+294;172;51;14.09.2026 08:00;15.09.2026 23:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+295;173;51;26.08.2026 08:00;26.08.2026 14:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+296;173;6;15.09.2026 08:00;16.09.2026 01:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+297;174;41;27.08.2026 08:00;29.08.2026 04:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+298;175;1;28.08.2026 08:00;?;Geplant;Referral;Synthetic encounter;?;?;Admitted
+299;176;41;29.08.2026 08:00;01.09.2026 02:00;Geplant;Referral;Synthetic encounter;;;Discharged
+300;177;6;30.08.2026 08:00;30.08.2026 18:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+301;177;11;19.09.2026 08:00;21.09.2026 12:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+302;178;21;31.08.2026 08:00;03.09.2026 12:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+303;178;21;20.09.2026 08:00;21.09.2026 18:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+304;179;21;01.09.2026 08:00;03.09.2026 23:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+305;179;51;21.09.2026 08:00;24.09.2026 20:00;Dringend;Referral;Synthetic encounter;;;Discharged
+306;180;46;02.09.2026 08:00;03.09.2026 13:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+307;180;46;22.09.2026 08:00;23.09.2026 03:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+308;181;46;03.09.2026 08:00;07.09.2026 06:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+309;181;16;23.09.2026 08:00;24.09.2026 00:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+310;182;41;04.09.2026 08:00;05.09.2026 21:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+311;183;6;05.09.2026 08:00;09.09.2026 14:00;Dringend;Referral;Synthetic encounter;;;Discharged
+312;183;46;25.09.2026 08:00;N/A;Dringend;Referral;Synthetic encounter;N/A;N/A;Admitted
+313;184;31;06.09.2026 08:00;07.09.2026 02:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+314;184;11;26.09.2026 08:00;27.09.2026 03:00;Dringend;Referral;Synthetic encounter;;;Discharged
+315;185;6;07.09.2026 08:00;08.09.2026 02:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+316;186;16;08.09.2026 08:00;12.09.2026 16:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+317;187;16;09.09.2026 08:00;10.09.2026 10:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+318;188;11;10.09.2026 08:00;12.09.2026 13:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+319;188;31;30.09.2026 08:00;01.10.2026 09:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+320;189;1;11.09.2026 08:00;12.09.2026 01:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+321;189;36;01.10.2026 08:00;05.10.2026 12:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+322;190;16;12.09.2026 08:00;16.09.2026 11:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+323;191;31;13.09.2026 08:00;16.09.2026 08:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+324;191;26;03.10.2026 08:00;07.10.2026 00:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+325;192;16;14.09.2026 08:00;15.09.2026 22:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+326;193;31;15.09.2026 08:00;20.09.2026 02:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+327;193;51;05.10.2026 08:00;N/A;Ambulant;Referral;Synthetic encounter;N/A;N/A;Admitted
+328;194;46;16.09.2026 08:00;20.09.2026 08:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+329;194;51;06.10.2026 08:00;06.10.2026 15:00;Dringend;Referral;Synthetic encounter;;;Discharged
+330;195;41;17.09.2026 08:00;20.09.2026 01:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+331;195;31;07.10.2026 08:00;11.10.2026 04:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+332;196;6;18.09.2026 08:00;21.09.2026 12:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+333;197;36;19.09.2026 08:00;22.09.2026 20:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+334;197;31;09.10.2026 08:00;10.10.2026 07:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+335;198;51;20.09.2026 08:00;20.09.2026 17:00;Geplant;Referral;Synthetic encounter;;;Discharged
+336;199;41;21.09.2026 08:00;23.09.2026 13:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+337;199;6;11.10.2026 08:00;13.10.2026 05:00; AMBULANT ;Referral;Synthetic encounter;?;?;Discharged
+338;200;31;14.06.2026 08:00;19.06.2026 08:00; GEPLANT ;Referral;Synthetic encounter;;;Discharged
+339;200;46;04.07.2026 08:00;07.07.2026 00:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+340;201;21;15.06.2026 08:00;19.06.2026 15:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+341;202;26;16.06.2026 08:00;20.06.2026 05:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+342;202;1;06.07.2026 08:00;11.07.2026 01:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+343;203;21;17.06.2026 08:00;20.06.2026 13:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+344;203;46;07.07.2026 08:00;08.07.2026 23:00;Dringend;Referral;Synthetic encounter;;;Discharged
+345;204;26;18.06.2026 08:00;18.06.2026 17:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+346;205;51;19.06.2026 08:00;20.06.2026 16:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+347;205;26;09.07.2026 08:00;09.07.2026 19:00;Dringend;Referral;Synthetic encounter;;;Deceased
+348;206;41;20.06.2026 08:00;22.06.2026 18:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+349;207;16;21.06.2026 08:00;25.06.2026 14:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+350;208;51;22.06.2026 08:00;25.06.2026 06:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+351;209;31;23.06.2026 08:00;24.06.2026 11:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+352;209;16;13.07.2026 08:00;15.07.2026 10:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+353;210;41;24.06.2026 08:00;25.06.2026 08:00;Dringend;Referral;Synthetic encounter;;;Discharged
+354;210;21;14.07.2026 08:00;15.07.2026 17:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+355;211;16;25.06.2026 08:00;27.06.2026 06:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+356;211;36;15.07.2026 08:00;17.07.2026 18:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+357;212;31;26.06.2026 08:00;26.06.2026 18:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+358;212;31;16.07.2026 08:00;19.07.2026 06:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+359;213;26;27.06.2026 08:00;01.07.2026 12:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+360;213;21;17.07.2026 08:00;19.07.2026 07:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+361;214;6;28.06.2026 08:00;29.06.2026 01:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+362;214;36;18.07.2026 08:00;22.07.2026 15:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+363;215;16;29.06.2026 08:00;01.07.2026 21:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+364;216;16;30.06.2026 08:00;01.07.2026 22:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+365;217;36;01.07.2026 08:00;02.07.2026 16:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+366;217;51;21.07.2026 08:00;23.07.2026 02:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+367;218;26;02.07.2026 08:00;07.07.2026 03:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+368;219;41;03.07.2026 08:00;07.07.2026 15:00;Geplant;Referral;Synthetic encounter;;;Discharged
+369;219;21;23.07.2026 08:00;27.07.2026 20:00; DRINGEND ;Referral;Synthetic encounter;N/A;N/A;Deceased
+370;220;16;04.07.2026 08:00;07.07.2026 13:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+371;220;51;24.07.2026 08:00;27.07.2026 20:00;Dringend;Referral;Synthetic encounter;;;Discharged
+372;221;26;05.07.2026 08:00;N/A;Dringend;Referral;Synthetic encounter;N/A;N/A;Admitted
+373;222;31;06.07.2026 08:00;11.07.2026 02:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+374;223;1;07.07.2026 08:00;07.07.2026 16:00;Dringend;Referral;Synthetic encounter;;;Discharged
+375;224;11;08.07.2026 08:00;09.07.2026 20:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+376;225;31;09.07.2026 08:00;13.07.2026 12:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+377;225;16;29.07.2026 08:00;;Notfall;Emergency Department;Synthetic encounter;;;Admitted
+378;226;21;10.07.2026 08:00;13.07.2026 20:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+379;226;21;30.07.2026 08:00;02.08.2026 21:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+380;227;31;11.07.2026 08:00;15.07.2026 03:00;Dringend;Referral;Synthetic encounter;;;Discharged
+381;227;41;31.07.2026 08:00;05.08.2026 08:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+382;228;36;12.07.2026 08:00;16.07.2026 02:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+383;229;36;13.07.2026 08:00;15.07.2026 20:00;Dringend;Referral;Synthetic encounter;;;Discharged
+384;229;31;02.08.2026 08:00;04.08.2026 01:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+385;230;11;14.07.2026 08:00;14.07.2026 17:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+386;230;11;03.08.2026 08:00;04.08.2026 06:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+387;231;11;15.07.2026 08:00;N/A;Geplant;Referral;Synthetic encounter;N/A;N/A;Admitted
+388;232;41;16.07.2026 08:00;?;Geplant;Referral;Synthetic encounter;?;?;Admitted
+389;233;36;17.07.2026 08:00;22.07.2026 00:00;Dringend;Referral;Synthetic encounter;;;Discharged
+390;233;31;06.08.2026 08:00;08.08.2026 13:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+391;234;6;18.07.2026 08:00;18.07.2026 21:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+392;235;11;19.07.2026 08:00;23.07.2026 16:00;Dringend;Referral;Synthetic encounter;;;Discharged
+393;236;6;20.07.2026 08:00;24.07.2026 22:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+394;236;36;09.08.2026 08:00;10.08.2026 17:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+395;237;36;21.07.2026 08:00;21.07.2026 18:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+396;237;31;10.08.2026 08:00;11.08.2026 23:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+397;238;1;22.07.2026 08:00;26.07.2026 09:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+398;239;6;23.07.2026 08:00;27.07.2026 14:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+399;239;1;12.08.2026 08:00;13.08.2026 12:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+400;240;31;24.07.2026 08:00;28.07.2026 18:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+401;241;41;25.07.2026 08:00;26.07.2026 08:00;Dringend;Referral;Synthetic encounter;;;Discharged
+402;241;26;14.08.2026 08:00;18.08.2026 23:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+403;242;36;26.07.2026 08:00;28.07.2026 01:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+404;243;51;27.07.2026 08:00;29.07.2026 23:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+405;244;26;28.07.2026 08:00;01.08.2026 13:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+406;245;46;29.07.2026 08:00;30.07.2026 12:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+407;245;21;18.08.2026 08:00;22.08.2026 00:00;Geplant;Referral;Synthetic encounter;;;Discharged
+408;246;31;30.07.2026 08:00;30.07.2026 19:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+409;246;36;19.08.2026 08:00;23.08.2026 12:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+410;247;36;31.07.2026 08:00;04.08.2026 06:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+411;248;1;01.08.2026 08:00;N/A;Geplant;Referral;Synthetic encounter;N/A;N/A;Admitted
+412;249;11;02.08.2026 08:00;04.08.2026 15:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+413;250;46;03.08.2026 08:00;05.08.2026 22:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+414;251;51;04.08.2026 08:00;04.08.2026 16:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+415;251;6;24.08.2026 08:00;?;Geplant;Referral;Synthetic encounter;?;?;Admitted
+416;252;31;05.08.2026 08:00;06.08.2026 20:00;Geplant;Referral;Synthetic encounter;;;Discharged
+417;252;21;25.08.2026 08:00;29.08.2026 05:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+418;253;26;06.08.2026 08:00;11.08.2026 01:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+419;254;6;07.08.2026 08:00;09.08.2026 10:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+420;254;41;27.08.2026 08:00;31.08.2026 22:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+421;255;26;08.08.2026 08:00;11.08.2026 12:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+422;255;51;28.08.2026 08:00;31.08.2026 20:00;Geplant;Referral;Synthetic encounter;;;Discharged
+423;256;46;09.08.2026 08:00;13.08.2026 19:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+424;256;36;29.08.2026 08:00;31.08.2026 16:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+425;257;51;10.08.2026 08:00;14.08.2026 08:00; NOTFALL ;Emergency Department;Synthetic encounter;;;Discharged
+426;257;46;30.08.2026 08:00;02.09.2026 18:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+427;258;26;11.08.2026 08:00;15.08.2026 14:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+428;258;21;31.08.2026 08:00;05.09.2026 04:00;Geplant;Referral;Synthetic encounter;;;Discharged
+429;259;26;12.08.2026 08:00;16.08.2026 15:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+430;259;1;01.09.2026 08:00;02.09.2026 12:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+431;260;36;13.08.2026 08:00;16.08.2026 20:00;Dringend;Referral;Synthetic encounter;;;Discharged
+432;260;51;02.09.2026 08:00;04.09.2026 09:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+433;261;46;14.08.2026 08:00;17.08.2026 04:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+434;262;36;15.08.2026 08:00;15.08.2026 16:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+435;262;36;04.09.2026 08:00;08.09.2026 09:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+436;263;51;16.08.2026 08:00;17.08.2026 13:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+437;264;11;17.08.2026 08:00;18.08.2026 21:00;Dringend;Referral;Synthetic encounter;;;Discharged
+438;265;11;18.08.2026 08:00;20.08.2026 14:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+439;265;26;07.09.2026 08:00;07.09.2026 18:00;Dringend;Referral;Synthetic encounter;?;?;Deceased
+440;266;16;19.08.2026 08:00;22.08.2026 16:00;Dringend;Referral;Synthetic encounter;;;Discharged
+441;266;46;08.09.2026 08:00;13.09.2026 07:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+442;267;51;20.08.2026 08:00;22.08.2026 08:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+443;268;21;21.08.2026 08:00;22.08.2026 17:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+444;268;26;10.09.2026 08:00;14.09.2026 20:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+445;269;51;22.08.2026 08:00;25.08.2026 19:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+446;270;16;23.08.2026 08:00;26.08.2026 05:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+447;270;16;12.09.2026 08:00;17.09.2026 06:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+448;271;36;24.08.2026 08:00;26.08.2026 19:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+449;272;36;25.08.2026 08:00;26.08.2026 23:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+450;272;21;14.09.2026 08:00;18.09.2026 16:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+451;273;46;26.08.2026 08:00;30.08.2026 13:00;Dringend;Referral;Synthetic encounter;?;?;Deceased
+452;274;6;27.08.2026 08:00;29.08.2026 14:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+453;274;46;16.09.2026 08:00;17.09.2026 03:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+454;275;31;28.08.2026 08:00;29.08.2026 02:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+455;276;36;29.08.2026 08:00;31.08.2026 18:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+456;276;46;18.09.2026 08:00;20.09.2026 01:00; GEPLANT ;Referral;Synthetic encounter;N/A;N/A;Discharged
+457;277;51;30.08.2026 08:00;31.08.2026 04:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+458;277;26;19.09.2026 08:00;21.09.2026 03:00;Dringend;Referral;Synthetic encounter;;;Discharged
+459;278;41;31.08.2026 08:00;01.09.2026 12:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+460;278;46;20.09.2026 08:00;?;Geplant;Referral;Synthetic encounter;?;?;Admitted
+461;279;26;01.09.2026 08:00;05.09.2026 06:00;Dringend;Referral;Synthetic encounter;;;Discharged
+462;279;1;21.09.2026 08:00;25.09.2026 08:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+463;280;1;02.09.2026 08:00;03.09.2026 07:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+464;280;16;22.09.2026 08:00;24.09.2026 13:00; NOTFALL ;Emergency Department;Synthetic encounter;;;Discharged
+465;281;26;03.09.2026 08:00;04.09.2026 09:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+466;281;21;23.09.2026 08:00;25.09.2026 07:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+467;282;16;04.09.2026 08:00;06.09.2026 17:00;Dringend;Referral;Synthetic encounter;;;Discharged
+468;282;1;24.09.2026 08:00;N/A;Dringend;Referral;Synthetic encounter;N/A;N/A;Admitted
+469;283;6;05.09.2026 08:00;09.09.2026 18:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+470;284;51;06.09.2026 08:00;10.09.2026 19:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+471;284;51;26.09.2026 08:00;30.09.2026 20:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+472;285;1;07.09.2026 08:00;07.09.2026 16:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+473;285;6;27.09.2026 08:00;29.09.2026 01:00;Dringend;Referral;Synthetic encounter;;;Discharged
+474;286;46;08.09.2026 08:00;09.09.2026 11:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+475;286;16;28.09.2026 08:00;30.09.2026 19:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+476;287;36;09.09.2026 08:00;10.09.2026 02:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+477;287;46;29.09.2026 08:00;04.10.2026 04:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+478;288;51;10.09.2026 08:00;13.09.2026 04:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+479;289;41;11.09.2026 08:00;14.09.2026 19:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+480;290;46;12.09.2026 08:00;16.09.2026 05:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+481;290;36;02.10.2026 08:00;05.10.2026 18:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+482;291;46;13.09.2026 08:00;16.09.2026 11:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+483;292;16;14.09.2026 08:00;15.09.2026 19:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+484;292;51;04.10.2026 08:00;05.10.2026 12:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+485;293;6;15.09.2026 08:00;18.09.2026 16:00;Notfall;Emergency Department;Synthetic encounter;;;Deceased
+486;294;46;16.09.2026 08:00;19.09.2026 07:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+487;294;16;06.10.2026 08:00;10.10.2026 06:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+488;295;31;17.09.2026 08:00;19.09.2026 14:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+489;295;36;07.10.2026 08:00;10.10.2026 04:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+490;296;11;18.09.2026 08:00;23.09.2026 02:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+491;296;26;08.10.2026 08:00;10.10.2026 14:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+492;297;16;19.09.2026 08:00;21.09.2026 22:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+493;297;21;09.10.2026 08:00;11.10.2026 09:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+494;298;21;20.09.2026 08:00;22.09.2026 04:00; DRINGEND ;Referral;Synthetic encounter;;;Discharged
+495;298;16;10.10.2026 08:00;13.10.2026 23:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+496;299;16;21.09.2026 08:00;24.09.2026 15:00;Geplant;Referral;Synthetic encounter;?;?;Deceased
+497;300;6;14.06.2026 08:00;16.06.2026 06:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+498;300;41;04.07.2026 08:00;08.07.2026 03:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+499;301;21;15.06.2026 08:00;16.06.2026 12:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+500;301;26;05.07.2026 08:00;06.07.2026 16:00;Geplant;Referral;Synthetic encounter;;;Discharged
+501;302;51;16.06.2026 08:00;18.06.2026 15:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+502;302;41;06.07.2026 08:00;?;Geplant;Referral;Synthetic encounter;?;?;Admitted
+503;303;31;17.06.2026 08:00;21.06.2026 20:00; GEPLANT ;Referral;Synthetic encounter;;;Discharged
+504;303;11;07.07.2026 08:00;08.07.2026 15:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+505;304;36;18.06.2026 08:00;20.06.2026 01:00; DRINGEND ;Referral;Synthetic encounter;?;?;Discharged
+506;304;51;08.07.2026 08:00;;Geplant;Referral;Synthetic encounter;;;Admitted
+507;305;36;19.06.2026 08:00;21.06.2026 13:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+508;305;36;09.07.2026 08:00;11.07.2026 05:00; DRINGEND ;Referral;Synthetic encounter;?;?;Discharged
+509;306;31;20.06.2026 08:00;21.06.2026 14:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+510;306;36;10.07.2026 08:00;14.07.2026 06:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+511;307;41;21.06.2026 08:00;25.06.2026 08:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+512;308;1;22.06.2026 08:00;25.06.2026 23:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+513;308;41;12.07.2026 08:00;14.07.2026 00:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+514;309;51;23.06.2026 08:00;26.06.2026 22:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+515;310;31;24.06.2026 08:00;28.06.2026 15:00;Dringend;Referral;Synthetic encounter;;;Discharged
+516;310;6;14.07.2026 08:00;15.07.2026 22:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+517;311;26;25.06.2026 08:00;25.06.2026 22:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+518;311;6;15.07.2026 08:00;;Notfall;Emergency Department;Synthetic encounter;;;Admitted
+519;312;31;26.06.2026 08:00;28.06.2026 06:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+520;312;51;16.07.2026 08:00;19.07.2026 06:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+521;313;26;27.06.2026 08:00;01.07.2026 03:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+522;313;6;17.07.2026 08:00;19.07.2026 04:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+523;314;31;28.06.2026 08:00;?;Notfall;Emergency Department;Synthetic encounter;?;?;Admitted
+524;315;46;29.06.2026 08:00;01.07.2026 01:00; GEPLANT ;Referral;Synthetic encounter;;;Discharged
+525;316;26;30.06.2026 08:00;02.07.2026 04:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+526;316;1;20.07.2026 08:00;21.07.2026 11:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+527;317;1;01.07.2026 08:00;03.07.2026 13:00;Geplant;Referral;Synthetic encounter;;;Discharged
+528;317;31;21.07.2026 08:00;24.07.2026 02:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+529;318;16;02.07.2026 08:00;06.07.2026 07:00; GEPLANT ;Referral;Synthetic encounter;?;?;Discharged
+530;318;11;22.07.2026 08:00;24.07.2026 08:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+531;319;41;03.07.2026 08:00;05.07.2026 00:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+532;320;16;04.07.2026 08:00;08.07.2026 21:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+533;320;46;24.07.2026 08:00;;Ambulant;Referral;Synthetic encounter;;;Admitted
+534;321;11;05.07.2026 08:00;08.07.2026 20:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+535;321;6;25.07.2026 08:00;30.07.2026 08:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+536;322;41;06.07.2026 08:00;07.07.2026 16:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+537;323;31;07.07.2026 08:00;10.07.2026 10:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+538;323;6;27.07.2026 08:00;31.07.2026 10:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+539;324;26;08.07.2026 08:00;12.07.2026 14:00;Geplant;Referral;Synthetic encounter;;;Discharged
+540;324;36;28.07.2026 08:00;28.07.2026 13:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+541;325;36;09.07.2026 08:00;10.07.2026 21:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+542;325;16;29.07.2026 08:00;30.07.2026 07:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+543;326;51;10.07.2026 08:00;14.07.2026 00:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+544;326;26;30.07.2026 08:00;02.08.2026 09:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+545;327;31;11.07.2026 08:00;13.07.2026 13:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+546;327;31;31.07.2026 08:00;31.07.2026 23:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+547;328;16;12.07.2026 08:00;15.07.2026 11:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+548;328;21;01.08.2026 08:00;05.08.2026 20:00;Geplant;Referral;Synthetic encounter;;;Discharged
+549;329;41;13.07.2026 08:00;14.07.2026 15:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+550;329;6;02.08.2026 08:00;05.08.2026 17:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+551;330;11;14.07.2026 08:00;16.07.2026 22:00;Geplant;Referral;Synthetic encounter;;;Discharged
+552;330;41;03.08.2026 08:00;04.08.2026 17:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+553;331;1;15.07.2026 08:00;18.07.2026 19:00; GEPLANT ;Referral;Synthetic encounter;?;?;Discharged
+554;331;21;04.08.2026 08:00;07.08.2026 15:00;Dringend;Referral;Synthetic encounter;;;Discharged
+555;332;6;16.07.2026 08:00;17.07.2026 19:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+556;333;16;17.07.2026 08:00;18.07.2026 21:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+557;333;6;06.08.2026 08:00;07.08.2026 13:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+558;334;21;18.07.2026 08:00;21.07.2026 14:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+559;335;31;19.07.2026 08:00;20.07.2026 04:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+560;336;26;20.07.2026 08:00;23.07.2026 19:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+561;337;51;21.07.2026 08:00;23.07.2026 23:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+562;338;21;22.07.2026 08:00;26.07.2026 01:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+563;338;6;11.08.2026 08:00;16.08.2026 07:00;Dringend;Referral;Synthetic encounter;;;Discharged
+564;339;31;23.07.2026 08:00;27.07.2026 03:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+565;339;6;12.08.2026 08:00;14.08.2026 01:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+566;340;41;24.07.2026 08:00;27.07.2026 13:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+567;340;6;13.08.2026 08:00;15.08.2026 08:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+568;341;11;25.07.2026 08:00;27.07.2026 01:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+569;341;1;14.08.2026 08:00;15.08.2026 17:00; NOTFALL ;Emergency Department;Synthetic encounter;;;Discharged
+570;342;21;26.07.2026 08:00;28.07.2026 07:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+571;343;41;27.07.2026 08:00;01.08.2026 01:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+572;344;26;28.07.2026 08:00;31.07.2026 05:00; NOTFALL ;Emergency Department;Synthetic encounter;;;Discharged
+573;345;41;29.07.2026 08:00;01.08.2026 02:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+574;346;6;30.07.2026 08:00;01.08.2026 01:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+575;346;26;19.08.2026 08:00;23.08.2026 10:00;Geplant;Referral;Synthetic encounter;;;Discharged
+576;347;31;31.07.2026 08:00;31.07.2026 15:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+577;347;6;20.08.2026 08:00;22.08.2026 14:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+578;348;1;01.08.2026 08:00;05.08.2026 18:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+579;348;36;21.08.2026 08:00;21.08.2026 16:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+580;349;51;02.08.2026 08:00;06.08.2026 12:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+581;350;6;03.08.2026 08:00;06.08.2026 03:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+582;351;6;04.08.2026 08:00;05.08.2026 13:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+583;351;11;24.08.2026 08:00;25.08.2026 00:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+584;352;21;05.08.2026 08:00;08.08.2026 13:00;Geplant;Referral;Synthetic encounter;;;Discharged
+585;352;1;25.08.2026 08:00;27.08.2026 13:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+586;353;6;06.08.2026 08:00;07.08.2026 11:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+587;353;1;26.08.2026 08:00;31.08.2026 00:00;Geplant;Referral;Synthetic encounter;;;Discharged
+588;354;16;07.08.2026 08:00;07.08.2026 16:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+589;354;36;27.08.2026 08:00;28.08.2026 11:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+590;355;31;08.08.2026 08:00;11.08.2026 00:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+591;355;31;28.08.2026 08:00;01.09.2026 09:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+592;356;36;09.08.2026 08:00;12.08.2026 00:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+593;356;26;29.08.2026 08:00;01.09.2026 20:00;Dringend;Referral;Synthetic encounter;;;Discharged
+594;357;51;10.08.2026 08:00;11.08.2026 02:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+595;357;51;30.08.2026 08:00;02.09.2026 01:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+596;358;51;11.08.2026 08:00;12.08.2026 06:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+597;358;46;31.08.2026 08:00;N/A;Ambulant;Referral;Synthetic encounter;N/A;N/A;Admitted
+598;359;11;12.08.2026 08:00;15.08.2026 20:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+599;359;51;01.09.2026 08:00;05.09.2026 08:00;Dringend;Referral;Synthetic encounter;;;Discharged
+600;360;11;13.08.2026 08:00;16.08.2026 19:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+601;360;11;02.09.2026 08:00;06.09.2026 07:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+602;361;21;14.08.2026 08:00;17.08.2026 11:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+603;361;1;03.09.2026 08:00;07.09.2026 07:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+604;362;31;15.08.2026 08:00;?;Geplant;Referral;Synthetic encounter;?;?;Admitted
+605;363;16;16.08.2026 08:00;17.08.2026 12:00;Dringend;Referral;Synthetic encounter;;;Discharged
+606;363;51;05.09.2026 08:00;08.09.2026 04:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+607;364;31;17.08.2026 08:00;18.08.2026 12:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+608;365;21;18.08.2026 08:00;22.08.2026 20:00;Geplant;Referral;Synthetic encounter;;;Discharged
+609;365;31;07.09.2026 08:00;11.09.2026 02:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+610;366;41;19.08.2026 08:00;19.08.2026 23:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+611;366;51;08.09.2026 08:00;12.09.2026 06:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+612;367;41;20.08.2026 08:00;21.08.2026 23:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+613;367;31;09.09.2026 08:00;13.09.2026 02:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+614;368;36;21.08.2026 08:00;23.08.2026 23:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+615;369;46;22.08.2026 08:00;23.08.2026 10:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+616;369;1;11.09.2026 08:00;11.09.2026 14:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+617;370;41;23.08.2026 08:00;28.08.2026 00:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+618;370;11;12.09.2026 08:00;17.09.2026 03:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+619;371;16;24.08.2026 08:00;27.08.2026 20:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+620;371;11;13.09.2026 08:00;16.09.2026 11:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+621;372;21;25.08.2026 08:00;26.08.2026 17:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+622;373;21;26.08.2026 08:00;28.08.2026 18:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+623;373;6;15.09.2026 08:00;18.09.2026 05:00; DRINGEND ;Referral;Synthetic encounter;;;Discharged
+624;374;41;27.08.2026 08:00;27.08.2026 21:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+625;374;41;16.09.2026 08:00;19.09.2026 08:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+626;375;11;28.08.2026 08:00;02.09.2026 00:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+627;375;1;17.09.2026 08:00;21.09.2026 16:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+628;376;21;29.08.2026 08:00;01.09.2026 16:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+629;376;21;18.09.2026 08:00;20.09.2026 06:00;Geplant;Referral;Synthetic encounter;;;Discharged
+630;377;36;30.08.2026 08:00;02.09.2026 20:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+631;377;11;19.09.2026 08:00;21.09.2026 06:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+632;378;6;31.08.2026 08:00;31.08.2026 23:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+633;378;31;20.09.2026 08:00;22.09.2026 16:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+634;379;16;01.09.2026 08:00;03.09.2026 07:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+635;379;46;21.09.2026 08:00;25.09.2026 14:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+636;380;1;02.09.2026 08:00;07.09.2026 06:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+637;380;1;22.09.2026 08:00;25.09.2026 12:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+638;381;46;03.09.2026 08:00;04.09.2026 19:00;Geplant;Referral;Synthetic encounter;;;Discharged
+639;382;1;04.09.2026 08:00;07.09.2026 06:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+640;382;31;24.09.2026 08:00;26.09.2026 07:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+641;383;41;05.09.2026 08:00;10.09.2026 04:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+642;383;41;25.09.2026 08:00;30.09.2026 07:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+643;384;26;06.09.2026 08:00;08.09.2026 14:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+644;385;1;07.09.2026 08:00;10.09.2026 10:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+645;385;16;27.09.2026 08:00;29.09.2026 03:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+646;386;36;08.09.2026 08:00;12.09.2026 03:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+647;386;11;28.09.2026 08:00;02.10.2026 14:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+648;387;46;09.09.2026 08:00;10.09.2026 02:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+649;388;46;10.09.2026 08:00;13.09.2026 10:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+650;388;21;30.09.2026 08:00;30.09.2026 20:00;Dringend;Referral;Synthetic encounter;;;Discharged
+651;389;36;11.09.2026 08:00;13.09.2026 02:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+652;390;16;12.09.2026 08:00;13.09.2026 11:00; GEPLANT ;Referral;Synthetic encounter;?;?;Discharged
+653;390;51;02.10.2026 08:00;04.10.2026 01:00;Dringend;Referral;Synthetic encounter;;;Discharged
+654;391;26;13.09.2026 08:00;14.09.2026 12:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+655;391;51;03.10.2026 08:00;05.10.2026 00:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+656;392;31;14.09.2026 08:00;18.09.2026 05:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+657;392;11;04.10.2026 08:00;08.10.2026 17:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+658;393;21;15.09.2026 08:00;20.09.2026 03:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+659;394;51;16.09.2026 08:00;16.09.2026 18:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+660;394;31;06.10.2026 08:00;07.10.2026 09:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+661;395;41;17.09.2026 08:00;20.09.2026 05:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+662;395;26;07.10.2026 08:00;;Notfall;Emergency Department;Synthetic encounter;;;Admitted
+663;396;36;18.09.2026 08:00;23.09.2026 00:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+664;397;41;19.09.2026 08:00;20.09.2026 16:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+665;398;16;20.09.2026 08:00;22.09.2026 00:00; GEPLANT ;Referral;Synthetic encounter;;;Discharged
+666;398;21;10.10.2026 08:00;12.10.2026 01:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+667;399;31;21.09.2026 08:00;24.09.2026 19:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+668;399;41;11.10.2026 08:00;12.10.2026 00:00;Dringend;Referral;Synthetic encounter;;;Discharged
+669;400;1;14.06.2026 08:00;18.06.2026 22:00; AMBULANT ;Referral;Synthetic encounter;N/A;N/A;Discharged
+670;400;46;04.07.2026 08:00;09.07.2026 07:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+671;401;21;15.06.2026 08:00;16.06.2026 16:00; GEPLANT ;Referral;Synthetic encounter;;;Discharged
+672;401;11;05.07.2026 08:00;09.07.2026 04:00; NOTFALL ;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+673;402;41;16.06.2026 08:00;19.06.2026 11:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+674;403;1;17.06.2026 08:00;21.06.2026 02:00;Geplant;Referral;Synthetic encounter;;;Discharged
+675;403;6;07.07.2026 08:00;08.07.2026 17:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+676;404;51;18.06.2026 08:00;19.06.2026 09:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+677;405;11;19.06.2026 08:00;21.06.2026 10:00;Dringend;Referral;Synthetic encounter;;;Discharged
+678;405;26;09.07.2026 08:00;11.07.2026 13:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+679;406;51;20.06.2026 08:00;23.06.2026 19:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+680;407;6;21.06.2026 08:00;25.06.2026 17:00;Dringend;Referral;Synthetic encounter;;;Discharged
+681;407;41;11.07.2026 08:00;15.07.2026 01:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+682;408;1;22.06.2026 08:00;27.06.2026 01:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+683;409;6;23.06.2026 08:00;23.06.2026 15:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+684;409;51;13.07.2026 08:00;15.07.2026 20:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+685;410;46;24.06.2026 08:00;25.06.2026 11:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+686;411;1;25.06.2026 08:00;28.06.2026 09:00;Dringend;Referral;Synthetic encounter;;;Discharged
+687;411;31;15.07.2026 08:00;17.07.2026 13:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+688;412;6;26.06.2026 08:00;29.06.2026 03:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+689;412;21;16.07.2026 08:00;20.07.2026 10:00;Geplant;Referral;Synthetic encounter;;;Discharged
+690;413;11;27.06.2026 08:00;01.07.2026 02:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+691;413;16;17.07.2026 08:00;22.07.2026 04:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+692;414;31;28.06.2026 08:00;02.07.2026 07:00;Dringend;Referral;Synthetic encounter;;;Discharged
+693;415;6;29.06.2026 08:00;30.06.2026 15:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+694;415;36;19.07.2026 08:00;20.07.2026 23:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+695;416;1;30.06.2026 08:00;03.07.2026 23:00;Dringend;Referral;Synthetic encounter;;;Discharged
+696;417;1;01.07.2026 08:00;02.07.2026 01:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+697;418;1;02.07.2026 08:00;03.07.2026 05:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+698;419;46;03.07.2026 08:00;04.07.2026 12:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+699;419;6;23.07.2026 08:00;25.07.2026 11:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+700;420;11;04.07.2026 08:00;05.07.2026 19:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+701;420;21;24.07.2026 08:00;24.07.2026 16:00;Dringend;Referral;Synthetic encounter;;;Discharged
+702;421;51;05.07.2026 08:00;07.07.2026 15:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+703;421;46;25.07.2026 08:00;29.07.2026 08:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+704;422;51;06.07.2026 08:00;09.07.2026 19:00;Geplant;Referral;Synthetic encounter;;;Discharged
+705;422;41;26.07.2026 08:00;30.07.2026 13:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+706;423;11;07.07.2026 08:00;11.07.2026 08:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+707;423;36;27.07.2026 08:00;28.07.2026 18:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+708;424;41;08.07.2026 08:00;10.07.2026 02:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+709;424;6;28.07.2026 08:00;01.08.2026 20:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+710;425;51;09.07.2026 08:00;10.07.2026 19:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+711;426;11;10.07.2026 08:00;10.07.2026 18:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+712;426;21;30.07.2026 08:00;01.08.2026 18:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+713;427;26;11.07.2026 08:00;13.07.2026 02:00;Dringend;Referral;Synthetic encounter;;;Discharged
+714;427;46;31.07.2026 08:00;02.08.2026 19:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+715;428;11;12.07.2026 08:00;14.07.2026 00:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+716;428;21;01.08.2026 08:00;02.08.2026 04:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+717;429;36;13.07.2026 08:00;16.07.2026 06:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+718;430;31;14.07.2026 08:00;?;Notfall;Emergency Department;Synthetic encounter;?;?;Admitted
+719;431;1;15.07.2026 08:00;16.07.2026 16:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+720;432;31;16.07.2026 08:00;17.07.2026 02:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+721;432;6;05.08.2026 08:00;05.08.2026 21:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+722;433;51;17.07.2026 08:00;;Ambulant;Referral;Synthetic encounter;;;Admitted
+723;434;16;18.07.2026 08:00;19.07.2026 10:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+724;434;21;07.08.2026 08:00;08.08.2026 02:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+725;435;46;19.07.2026 08:00;20.07.2026 10:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+726;436;21;20.07.2026 08:00;25.07.2026 07:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+727;436;21;09.08.2026 08:00;13.08.2026 18:00; AMBULANT ;Referral;Synthetic encounter;?;?;Discharged
+728;437;41;21.07.2026 08:00;25.07.2026 05:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+729;437;41;10.08.2026 08:00;12.08.2026 08:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+730;438;51;22.07.2026 08:00;27.07.2026 07:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+731;438;36;11.08.2026 08:00;15.08.2026 15:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+732;439;11;23.07.2026 08:00;23.07.2026 17:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+733;440;31;24.07.2026 08:00;26.07.2026 22:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+734;440;31;13.08.2026 08:00;14.08.2026 00:00;Ambulant;Referral;Synthetic encounter;;;Deceased
+735;441;46;25.07.2026 08:00;29.07.2026 06:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+736;442;46;26.07.2026 08:00;27.07.2026 11:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+737;442;51;15.08.2026 08:00;18.08.2026 02:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+738;443;21;27.07.2026 08:00;30.07.2026 19:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+739;443;21;16.08.2026 08:00;18.08.2026 04:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+740;444;51;28.07.2026 08:00;28.07.2026 17:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+741;444;11;17.08.2026 08:00;N/A;Geplant;Referral;Synthetic encounter;N/A;N/A;Admitted
+742;445;36;29.07.2026 08:00;31.07.2026 16:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+743;445;11;18.08.2026 08:00;20.08.2026 09:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+744;446;1;30.07.2026 08:00;30.07.2026 22:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+745;447;16;31.07.2026 08:00;31.07.2026 20:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+746;447;46;20.08.2026 08:00;24.08.2026 04:00;Dringend;Referral;Synthetic encounter;;;Discharged
+747;448;36;01.08.2026 08:00;03.08.2026 11:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+748;448;46;21.08.2026 08:00;23.08.2026 13:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+749;449;1;02.08.2026 08:00;06.08.2026 16:00;Dringend;Referral;Synthetic encounter;;;Discharged
+750;449;46;22.08.2026 08:00;25.08.2026 18:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+751;450;41;03.08.2026 08:00;07.08.2026 06:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+752;450;21;23.08.2026 08:00;23.08.2026 22:00; NOTFALL ;Emergency Department;Synthetic encounter;;;Discharged
+753;451;51;04.08.2026 08:00;09.08.2026 01:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+754;451;16;24.08.2026 08:00;?;Dringend;Referral;Synthetic encounter;?;?;Admitted
+755;452;31;05.08.2026 08:00;08.08.2026 23:00;Dringend;Referral;Synthetic encounter;;;Discharged
+756;452;31;25.08.2026 08:00;26.08.2026 09:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+757;453;26;06.08.2026 08:00;07.08.2026 14:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+758;453;41;26.08.2026 08:00;30.08.2026 18:00;Dringend;Referral;Synthetic encounter;;;Discharged
+759;454;46;07.08.2026 08:00;N/A;Ambulant;Referral;Synthetic encounter;N/A;N/A;Admitted
+760;455;16;08.08.2026 08:00;10.08.2026 05:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+761;456;31;09.08.2026 08:00;;Notfall;Emergency Department;Synthetic encounter;;;Admitted
+762;457;1;10.08.2026 08:00;12.08.2026 06:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+763;457;46;30.08.2026 08:00;02.09.2026 12:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+764;458;11;11.08.2026 08:00;14.08.2026 14:00;Dringend;Referral;Synthetic encounter;;;Discharged
+765;459;21;12.08.2026 08:00;15.08.2026 22:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+766;460;6;13.08.2026 08:00;16.08.2026 03:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+767;460;21;02.09.2026 08:00;06.09.2026 00:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+768;461;6;14.08.2026 08:00;19.08.2026 07:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+769;461;36;03.09.2026 08:00;03.09.2026 22:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+770;462;21;15.08.2026 08:00;15.08.2026 19:00;Geplant;Referral;Synthetic encounter;;;Discharged
+771;462;31;04.09.2026 08:00;07.09.2026 15:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+772;463;26;16.08.2026 08:00;20.08.2026 08:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+773;464;46;17.08.2026 08:00;19.08.2026 01:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+774;464;36;06.09.2026 08:00;11.09.2026 05:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+775;465;1;18.08.2026 08:00;21.08.2026 17:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+776;466;26;19.08.2026 08:00;23.08.2026 05:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+777;467;1;20.08.2026 08:00;22.08.2026 09:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+778;467;11;09.09.2026 08:00;13.09.2026 11:00; AMBULANT ;Referral;Synthetic encounter;?;?;Deceased
+779;468;51;21.08.2026 08:00;23.08.2026 11:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+780;469;11;22.08.2026 08:00;26.08.2026 01:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+781;469;21;11.09.2026 08:00;12.09.2026 23:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+782;470;6;23.08.2026 08:00;26.08.2026 06:00;Geplant;Referral;Synthetic encounter;;;Discharged
+783;470;26;12.09.2026 08:00;15.09.2026 01:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+784;471;26;24.08.2026 08:00;27.08.2026 07:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+785;471;51;13.09.2026 08:00;16.09.2026 02:00;Geplant;Referral;Synthetic encounter;;;Discharged
+786;472;26;25.08.2026 08:00;30.08.2026 00:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+787;472;11;14.09.2026 08:00;17.09.2026 12:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+788;473;6;26.08.2026 08:00;28.08.2026 03:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+789;473;51;15.09.2026 08:00;17.09.2026 08:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+790;474;41;27.08.2026 08:00;01.09.2026 00:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+791;474;16;16.09.2026 08:00;17.09.2026 08:00;Dringend;Referral;Synthetic encounter;;;Discharged
+792;475;46;28.08.2026 08:00;28.08.2026 16:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+793;476;16;29.08.2026 08:00;31.08.2026 05:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+794;476;26;18.09.2026 08:00;20.09.2026 04:00;Geplant;Referral;Synthetic encounter;;;Discharged
+795;477;51;30.08.2026 08:00;01.09.2026 21:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+796;478;11;31.08.2026 08:00;03.09.2026 20:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+797;479;51;01.09.2026 08:00;05.09.2026 04:00;Dringend;Referral;Synthetic encounter;;;Discharged
+798;479;11;21.09.2026 08:00;24.09.2026 11:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+799;480;36;02.09.2026 08:00;02.09.2026 20:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+800;480;21;22.09.2026 08:00;24.09.2026 13:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+801;481;16;03.09.2026 08:00;05.09.2026 16:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+802;481;6;23.09.2026 08:00;27.09.2026 00:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+803;482;26;04.09.2026 08:00;07.09.2026 05:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+804;483;1;05.09.2026 08:00;05.09.2026 17:00; NOTFALL ;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+805;483;6;25.09.2026 08:00;27.09.2026 19:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+806;484;41;06.09.2026 08:00;10.09.2026 18:00;Dringend;Referral;Synthetic encounter;;;Discharged
+807;484;41;26.09.2026 08:00;27.09.2026 07:00; GEPLANT ;Referral;Synthetic encounter;N/A;N/A;Discharged
+808;485;31;07.09.2026 08:00;08.09.2026 18:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+809;486;6;08.09.2026 08:00;09.09.2026 02:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+810;486;46;28.09.2026 08:00;N/A;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Admitted
+811;487;46;09.09.2026 08:00;12.09.2026 16:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+812;487;11;29.09.2026 08:00;30.09.2026 16:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+813;488;26;10.09.2026 08:00;13.09.2026 06:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+814;488;41;30.09.2026 08:00;04.10.2026 02:00;Ambulant;Referral;Synthetic encounter;?;?;Deceased
+815;489;1;11.09.2026 08:00;16.09.2026 04:00;Dringend;Referral;Synthetic encounter;;;Discharged
+816;489;16;01.10.2026 08:00;02.10.2026 16:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+817;490;26;12.09.2026 08:00;17.09.2026 01:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+818;490;36;02.10.2026 08:00;03.10.2026 05:00;Dringend;Referral;Synthetic encounter;;;Discharged
+819;491;31;13.09.2026 08:00;17.09.2026 20:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+820;491;46;03.10.2026 08:00;04.10.2026 14:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+821;492;36;14.09.2026 08:00;18.09.2026 08:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+822;492;11;04.10.2026 08:00;06.10.2026 09:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+823;493;6;15.09.2026 08:00;19.09.2026 22:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+824;493;36;05.10.2026 08:00;06.10.2026 21:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+825;494;6;16.09.2026 08:00;19.09.2026 20:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+826;494;11;06.10.2026 08:00;10.10.2026 17:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+827;495;11;17.09.2026 08:00;19.09.2026 21:00;Geplant;Referral;Synthetic encounter;;;Discharged
+828;496;26;18.09.2026 08:00;19.09.2026 05:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+829;496;46;08.10.2026 08:00;?;Ambulant;Referral;Synthetic encounter;?;?;Admitted
+830;497;26;19.09.2026 08:00;19.09.2026 19:00;Geplant;Referral;Synthetic encounter;;;Discharged
+831;497;31;09.10.2026 08:00;N/A;Ambulant;Referral;Synthetic encounter;N/A;N/A;Admitted
+832;498;6;20.09.2026 08:00;25.09.2026 02:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+833;499;6;21.09.2026 08:00;23.09.2026 06:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+834;500;6;14.06.2026 08:00;15.06.2026 00:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+835;500;31;04.07.2026 08:00;07.07.2026 08:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+836;501;51;15.06.2026 08:00;19.06.2026 09:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+837;502;51;16.06.2026 08:00;20.06.2026 07:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+838;502;6;06.07.2026 08:00;07.07.2026 23:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+839;503;26;17.06.2026 08:00;20.06.2026 04:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+840;504;46;18.06.2026 08:00;21.06.2026 22:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+841;504;16;08.07.2026 08:00;?;Dringend;Referral;Synthetic encounter;?;?;Admitted
+842;505;31;19.06.2026 08:00;22.06.2026 08:00; AMBULANT ;Referral;Synthetic encounter;;;Discharged
+843;505;46;09.07.2026 08:00;11.07.2026 22:00; AMBULANT ;Referral;Synthetic encounter;N/A;N/A;Discharged
+844;506;51;20.06.2026 08:00;21.06.2026 20:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+845;506;31;10.07.2026 08:00;13.07.2026 12:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+846;507;6;21.06.2026 08:00;21.06.2026 13:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+847;507;41;11.07.2026 08:00;16.07.2026 05:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+848;508;41;22.06.2026 08:00;24.06.2026 04:00;Dringend;Referral;Synthetic encounter;;;Discharged
+849;508;6;12.07.2026 08:00;12.07.2026 21:00; GEPLANT ;Referral;Synthetic encounter;N/A;N/A;Discharged
+850;509;46;23.06.2026 08:00;25.06.2026 16:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+851;509;31;13.07.2026 08:00;16.07.2026 16:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+852;510;26;24.06.2026 08:00;26.06.2026 21:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+853;510;36;14.07.2026 08:00;14.07.2026 15:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+854;511;6;25.06.2026 08:00;27.06.2026 16:00;Geplant;Referral;Synthetic encounter;;;Discharged
+855;511;31;15.07.2026 08:00;16.07.2026 13:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+856;512;36;26.06.2026 08:00;27.06.2026 17:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+857;513;16;27.06.2026 08:00;01.07.2026 22:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+858;513;46;17.07.2026 08:00;21.07.2026 22:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+859;514;16;28.06.2026 08:00;30.06.2026 02:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+860;514;31;18.07.2026 08:00;20.07.2026 08:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+861;515;11;29.06.2026 08:00;04.07.2026 06:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+862;515;6;19.07.2026 08:00;21.07.2026 14:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+863;516;21;30.06.2026 08:00;05.07.2026 03:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+864;517;11;01.07.2026 08:00;05.07.2026 11:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+865;517;26;21.07.2026 08:00;22.07.2026 20:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+866;518;46;02.07.2026 08:00;07.07.2026 01:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+867;518;11;22.07.2026 08:00;24.07.2026 07:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+868;519;41;03.07.2026 08:00;06.07.2026 17:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+869;519;11;23.07.2026 08:00;24.07.2026 23:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+870;520;51;04.07.2026 08:00;07.07.2026 12:00; AMBULANT ;Referral;Synthetic encounter;N/A;N/A;Discharged
+871;520;31;24.07.2026 08:00;28.07.2026 18:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+872;521;41;05.07.2026 08:00;08.07.2026 22:00;Dringend;Referral;Synthetic encounter;;;Discharged
+873;521;46;25.07.2026 08:00;25.07.2026 17:00; DRINGEND ;Referral;Synthetic encounter;N/A;N/A;Discharged
+874;522;1;06.07.2026 08:00;07.07.2026 20:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+875;522;46;26.07.2026 08:00;29.07.2026 21:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+876;523;6;07.07.2026 08:00;11.07.2026 18:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+877;523;41;27.07.2026 08:00;30.07.2026 18:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+878;524;51;08.07.2026 08:00;10.07.2026 05:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+879;524;11;28.07.2026 08:00;31.07.2026 22:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+880;525;41;09.07.2026 08:00;13.07.2026 17:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+881;525;31;29.07.2026 08:00;02.08.2026 13:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+882;526;6;10.07.2026 08:00;11.07.2026 18:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+883;526;16;30.07.2026 08:00;31.07.2026 16:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+884;527;46;11.07.2026 08:00;14.07.2026 09:00;Geplant;Referral;Synthetic encounter;;;Discharged
+885;528;31;12.07.2026 08:00;13.07.2026 21:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+886;528;6;01.08.2026 08:00;04.08.2026 19:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+887;529;26;13.07.2026 08:00;15.07.2026 17:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+888;530;26;14.07.2026 08:00;17.07.2026 01:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+889;530;1;03.08.2026 08:00;05.08.2026 02:00;Geplant;Referral;Synthetic encounter;?;?;Deceased
+890;531;11;15.07.2026 08:00;17.07.2026 10:00;Geplant;Referral;Synthetic encounter;;;Discharged
+891;531;36;04.08.2026 08:00;06.08.2026 17:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+892;532;46;16.07.2026 08:00;19.07.2026 22:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+893;533;16;17.07.2026 08:00;21.07.2026 06:00;Geplant;Referral;Synthetic encounter;;;Discharged
+894;534;41;18.07.2026 08:00;21.07.2026 00:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+895;534;16;07.08.2026 08:00;08.08.2026 04:00; DRINGEND ;Referral;Synthetic encounter;?;?;Discharged
+896;535;51;19.07.2026 08:00;21.07.2026 04:00;Geplant;Referral;Synthetic encounter;;;Discharged
+897;536;46;20.07.2026 08:00;23.07.2026 00:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+898;536;16;09.08.2026 08:00;10.08.2026 16:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+899;537;41;21.07.2026 08:00;25.07.2026 11:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+900;537;41;10.08.2026 08:00;12.08.2026 18:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+901;538;1;22.07.2026 08:00;25.07.2026 22:00; GEPLANT ;Referral;Synthetic encounter;?;?;Discharged
+902;538;51;11.08.2026 08:00;12.08.2026 23:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+903;539;21;23.07.2026 08:00;28.07.2026 02:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+904;540;11;24.07.2026 08:00;27.07.2026 09:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+905;540;11;13.08.2026 08:00;17.08.2026 00:00;Dringend;Referral;Synthetic encounter;;;Discharged
+906;541;16;25.07.2026 08:00;26.07.2026 16:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+907;542;6;26.07.2026 08:00;29.07.2026 04:00; AMBULANT ;Referral;Synthetic encounter;?;?;Discharged
+908;543;36;27.07.2026 08:00;29.07.2026 14:00;Geplant;Referral;Synthetic encounter;;;Discharged
+909;543;41;16.08.2026 08:00;16.08.2026 23:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+910;544;46;28.07.2026 08:00;01.08.2026 06:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+911;544;26;17.08.2026 08:00;21.08.2026 04:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+912;545;46;29.07.2026 08:00;31.07.2026 21:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+913;545;16;18.08.2026 08:00;21.08.2026 00:00; DRINGEND ;Referral;Synthetic encounter;?;?;Discharged
+914;546;41;30.07.2026 08:00;30.07.2026 16:00;Geplant;Referral;Synthetic encounter;;;Discharged
+915;546;6;19.08.2026 08:00;21.08.2026 18:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+916;547;51;31.07.2026 08:00;02.08.2026 06:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+917;548;11;01.08.2026 08:00;03.08.2026 11:00;Dringend;Referral;Synthetic encounter;;;Discharged
+918;548;6;21.08.2026 08:00;24.08.2026 08:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+919;549;31;02.08.2026 08:00;03.08.2026 20:00; NOTFALL ;Emergency Department;Synthetic encounter;?;?;Discharged
+920;549;21;22.08.2026 08:00;25.08.2026 14:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+921;550;6;03.08.2026 08:00;04.08.2026 15:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+922;551;1;04.08.2026 08:00;08.08.2026 04:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+923;551;31;24.08.2026 08:00;27.08.2026 10:00;Geplant;Referral;Synthetic encounter;;;Discharged
+924;552;6;05.08.2026 08:00;07.08.2026 18:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+925;552;36;25.08.2026 08:00;29.08.2026 06:00; DRINGEND ;Referral;Synthetic encounter;?;?;Discharged
+926;553;36;06.08.2026 08:00;07.08.2026 15:00; AMBULANT ;Referral;Synthetic encounter;;;Discharged
+927;553;6;26.08.2026 08:00;30.08.2026 15:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+928;554;31;07.08.2026 08:00;09.08.2026 05:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+929;554;26;27.08.2026 08:00;28.08.2026 23:00;Dringend;Referral;Synthetic encounter;;;Discharged
+930;555;21;08.08.2026 08:00;N/A;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Admitted
+931;556;51;09.08.2026 08:00;11.08.2026 11:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+932;556;41;29.08.2026 08:00;30.08.2026 11:00;Dringend;Referral;Synthetic encounter;;;Discharged
+933;557;6;10.08.2026 08:00;15.08.2026 04:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+934;558;51;11.08.2026 08:00;11.08.2026 13:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+935;558;51;31.08.2026 08:00;02.09.2026 16:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+936;559;51;12.08.2026 08:00;17.08.2026 05:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+937;559;11;01.09.2026 08:00;04.09.2026 11:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+938;560;51;13.08.2026 08:00;15.08.2026 11:00;Dringend;Referral;Synthetic encounter;;;Discharged
+939;560;16;02.09.2026 08:00;07.09.2026 06:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+940;561;41;14.08.2026 08:00;18.08.2026 07:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+941;561;46;03.09.2026 08:00;04.09.2026 04:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+942;562;31;15.08.2026 08:00;18.08.2026 15:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+943;562;26;04.09.2026 08:00;08.09.2026 12:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+944;563;11;16.08.2026 08:00;17.08.2026 15:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+945;564;21;17.08.2026 08:00;20.08.2026 16:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+946;564;16;06.09.2026 08:00;11.09.2026 01:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+947;565;1;18.08.2026 08:00;;Notfall;Emergency Department;Synthetic encounter;;;Admitted
+948;566;26;19.08.2026 08:00;19.08.2026 23:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+949;566;11;08.09.2026 08:00;09.09.2026 02:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+950;567;6;20.08.2026 08:00;20.08.2026 20:00;Dringend;Referral;Synthetic encounter;;;Discharged
+951;567;16;09.09.2026 08:00;N/A;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Admitted
+952;568;16;21.08.2026 08:00;25.08.2026 14:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+953;568;36;10.09.2026 08:00;12.09.2026 10:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+954;569;31;22.08.2026 08:00;25.08.2026 19:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+955;570;26;23.08.2026 08:00;25.08.2026 20:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+956;570;6;12.09.2026 08:00;14.09.2026 07:00;Geplant;Referral;Synthetic encounter;;;Discharged
+957;571;16;24.08.2026 08:00;26.08.2026 10:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+958;571;11;13.09.2026 08:00;?;Ambulant;Referral;Synthetic encounter;?;?;Admitted
+959;572;6;25.08.2026 08:00;25.08.2026 16:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+960;572;11;14.09.2026 08:00;15.09.2026 13:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+961;573;1;26.08.2026 08:00;28.08.2026 06:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+962;573;51;15.09.2026 08:00;18.09.2026 19:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+963;574;1;27.08.2026 08:00;30.08.2026 22:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+964;575;31;28.08.2026 08:00;31.08.2026 13:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+965;575;46;17.09.2026 08:00;22.09.2026 05:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+966;576;36;29.08.2026 08:00;02.09.2026 06:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+967;577;46;30.08.2026 08:00;02.09.2026 22:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+968;578;26;31.08.2026 08:00;01.09.2026 06:00;Dringend;Referral;Synthetic encounter;;;Discharged
+969;578;41;20.09.2026 08:00;22.09.2026 15:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+970;579;21;01.09.2026 08:00;05.09.2026 13:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+971;580;6;02.09.2026 08:00;04.09.2026 00:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+972;580;36;22.09.2026 08:00;26.09.2026 23:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+973;581;1;03.09.2026 08:00;08.09.2026 06:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+974;581;11;23.09.2026 08:00;23.09.2026 15:00;Geplant;Referral;Synthetic encounter;;;Discharged
+975;582;46;04.09.2026 08:00;06.09.2026 13:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+976;582;51;24.09.2026 08:00;29.09.2026 00:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+977;583;46;05.09.2026 08:00;07.09.2026 11:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+978;583;11;25.09.2026 08:00;28.09.2026 11:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+979;584;6;06.09.2026 08:00;07.09.2026 22:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+980;584;36;26.09.2026 08:00;01.10.2026 02:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+981;585;11;07.09.2026 08:00;10.09.2026 08:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+982;585;21;27.09.2026 08:00;29.09.2026 04:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+983;586;26;08.09.2026 08:00;08.09.2026 23:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+984;586;51;28.09.2026 08:00;29.09.2026 06:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+985;587;1;09.09.2026 08:00;13.09.2026 06:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+986;588;6;10.09.2026 08:00;12.09.2026 05:00;Geplant;Referral;Synthetic encounter;;;Discharged
+987;589;11;11.09.2026 08:00;N/A;Ambulant;Referral;Synthetic encounter;N/A;N/A;Admitted
+988;590;46;12.09.2026 08:00;15.09.2026 12:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+989;590;1;02.10.2026 08:00;03.10.2026 13:00;Geplant;Referral;Synthetic encounter;;;Discharged
+990;591;46;13.09.2026 08:00;17.09.2026 07:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+991;591;41;03.10.2026 08:00;05.10.2026 14:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+992;592;11;14.09.2026 08:00;17.09.2026 03:00;Geplant;Referral;Synthetic encounter;;;Discharged
+993;592;16;04.10.2026 08:00;N/A;Dringend;Referral;Synthetic encounter;N/A;N/A;Admitted
+994;593;41;15.09.2026 08:00;16.09.2026 23:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+995;593;46;05.10.2026 08:00;07.10.2026 10:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+996;594;41;16.09.2026 08:00;16.09.2026 20:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+997;594;21;06.10.2026 08:00;09.10.2026 02:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+998;595;26;17.09.2026 08:00;19.09.2026 23:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+999;595;26;07.10.2026 08:00;11.10.2026 06:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+1000;596;6;18.09.2026 08:00;19.09.2026 18:00; DRINGEND ;Referral;Synthetic encounter;?;?;Discharged
+1001;597;6;19.09.2026 08:00;23.09.2026 23:00;Geplant;Referral;Synthetic encounter;;;Discharged
+1002;597;31;09.10.2026 08:00;13.10.2026 11:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+1003;598;46;20.09.2026 08:00;22.09.2026 06:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+1004;598;11;10.10.2026 08:00;13.10.2026 13:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+1005;599;6;21.09.2026 08:00;22.09.2026 23:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+1006;600;1;14.06.2026 08:00;19.06.2026 03:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+1007;600;41;04.07.2026 08:00;06.07.2026 09:00;Geplant;Referral;Synthetic encounter;;;Discharged
+1008;601;46;15.06.2026 08:00;17.06.2026 04:00; GEPLANT ;Referral;Synthetic encounter;N/A;N/A;Discharged
+1009;602;46;16.06.2026 08:00;17.06.2026 14:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+1010;603;51;17.06.2026 08:00;20.06.2026 07:00;Geplant;Referral;Synthetic encounter;;;Discharged
+1011;604;11;18.06.2026 08:00;21.06.2026 21:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+1012;605;6;19.06.2026 08:00;21.06.2026 21:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+1013;605;51;09.07.2026 08:00;10.07.2026 23:00;Geplant;Referral;Synthetic encounter;;;Discharged
+1014;606;46;20.06.2026 08:00;22.06.2026 18:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+1015;607;21;21.06.2026 08:00;24.06.2026 15:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+1016;607;41;11.07.2026 08:00;12.07.2026 00:00;Geplant;Referral;Synthetic encounter;;;Discharged
+1017;608;51;22.06.2026 08:00;25.06.2026 02:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+1018;609;11;23.06.2026 08:00;24.06.2026 17:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+1019;610;51;24.06.2026 08:00;24.06.2026 18:00;Dringend;Referral;Synthetic encounter;;;Discharged
+1020;610;21;14.07.2026 08:00;17.07.2026 09:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+1021;611;21;25.06.2026 08:00;29.06.2026 18:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+1022;611;46;15.07.2026 08:00;19.07.2026 12:00;Dringend;Referral;Synthetic encounter;;;Discharged
+1023;612;6;26.06.2026 08:00;01.07.2026 05:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+1024;612;51;16.07.2026 08:00;21.07.2026 01:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+1025;613;46;27.06.2026 08:00;30.06.2026 20:00;Dringend;Referral;Synthetic encounter;;;Discharged
+1026;613;1;17.07.2026 08:00;20.07.2026 15:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+1027;614;31;28.06.2026 08:00;29.06.2026 12:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+1028;614;41;18.07.2026 08:00;21.07.2026 05:00;Geplant;Referral;Synthetic encounter;;;Discharged
+1029;615;46;29.06.2026 08:00;03.07.2026 15:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+1030;616;51;30.06.2026 08:00;01.07.2026 19:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+1031;617;26;01.07.2026 08:00;02.07.2026 19:00;Dringend;Referral;Synthetic encounter;;;Discharged
+1032;617;21;21.07.2026 08:00;22.07.2026 15:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+1033;618;31;02.07.2026 08:00;04.07.2026 19:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+1034;618;21;22.07.2026 08:00;24.07.2026 23:00;Ambulant;Referral;Synthetic encounter;;;Discharged
+1035;619;51;03.07.2026 08:00;06.07.2026 08:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+1036;620;11;04.07.2026 08:00;07.07.2026 06:00;Ambulant;Referral;Synthetic encounter;?;?;Discharged
+1037;621;11;05.07.2026 08:00;06.07.2026 19:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+1038;621;36;25.07.2026 08:00;25.07.2026 22:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+1039;622;41;06.07.2026 08:00;10.07.2026 03:00;Dringend;Referral;Synthetic encounter;?;?;Discharged
+1040;622;6;26.07.2026 08:00;30.07.2026 15:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+675;403;6;07.07.2026 08:00;08.07.2026 17:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+401;241;41;25.07.2026 08:00;26.07.2026 08:00;Dringend;Referral;Synthetic encounter;;;Discharged
+501;302;51;16.06.2026 08:00;18.06.2026 15:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+595;357;51;30.08.2026 08:00;02.09.2026 01:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+1037;621;11;05.07.2026 08:00;06.07.2026 19:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+755;452;31;05.08.2026 08:00;08.08.2026 23:00;Dringend;Referral;Synthetic encounter;;;Discharged
+947;565;1;18.08.2026 08:00;;Notfall;Emergency Department;Synthetic encounter;;;Admitted
+917;548;11;01.08.2026 08:00;03.08.2026 11:00;Dringend;Referral;Synthetic encounter;;;Discharged
+921;550;6;03.08.2026 08:00;04.08.2026 15:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+489;295;36;07.10.2026 08:00;10.10.2026 04:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+128;74;6;16.09.2026 08:00;17.09.2026 22:00;Dringend;Referral;Synthetic encounter;;;Discharged
+959;572;6;25.08.2026 08:00;25.08.2026 16:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged
+171;100;21;14.06.2026 08:00;16.06.2026 00:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+1038;621;36;25.07.2026 08:00;25.07.2026 22:00;Ambulant;Referral;Synthetic encounter;N/A;N/A;Discharged
+66;39;41;12.08.2026 08:00;14.08.2026 17:00;Notfall;Emergency Department;Synthetic encounter;N/A;N/A;Discharged
+856;512;36;26.06.2026 08:00;27.06.2026 17:00;Notfall;Emergency Department;Synthetic encounter;?;?;Discharged
+458;277;26;19.09.2026 08:00;21.09.2026 03:00;Dringend;Referral;Synthetic encounter;;;Discharged
+526;316;1;20.07.2026 08:00;21.07.2026 11:00;Geplant;Referral;Synthetic encounter;?;?;Discharged
+354;210;21;14.07.2026 08:00;15.07.2026 17:00;Geplant;Referral;Synthetic encounter;N/A;N/A;Discharged
+822;492;11;04.10.2026 08:00;06.10.2026 09:00;Dringend;Referral;Synthetic encounter;N/A;N/A;Discharged
+710;425;51;09.07.2026 08:00;10.07.2026 19:00;Notfall;Emergency Department;Synthetic encounter;;;Discharged

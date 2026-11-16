@@ -1,0 +1,962 @@
+# Synthetic hospital data: source A, admissions
+ADM_ID|PAT_ID|ADMITTING_PROFESSIONAL_ID|ADMIT_AT|DISCHARGE_AT|ADMISSION_TYPE|ADMISSION_SOURCE|REASON_FOR_ADMISSION|CURRENT_CONDITION|INSURANCE_INFO|ADMISSION_STATUS
+1|1|6|2026-01-06 08:00|2026-01-14 08:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+2|1|11|2026-01-26 08:00|2026-02-02 08:00|Outpatient|Referral|Synthetic encounter|||Discharged
+3|1|31|2026-02-15 08:00|2026-02-19 02:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+4|1|21|2026-03-07 08:00|2026-03-09 20:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+5|2|41|2026-01-07 08:00|2026-01-11 11:00|Elective|Referral|Synthetic encounter|||Discharged
+6|2|36|2026-01-27 08:00|2026-01-30 13:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+7|3|16|2026-01-08 08:00|2026-01-12 07:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+8|3|41|2026-01-28 08:00|2026-02-02 01:00|Elective|Referral|Synthetic encounter|||Discharged
+9|4|31|2026-01-09 08:00|2026-01-14 00:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+10|4|26|2026-01-29 08:00|2026-01-31 13:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+11|5|16|2026-01-10 08:00|2026-01-11 19:00|Urgent|Referral|Synthetic encounter|||Discharged
+12|5|16|2026-01-30 08:00|2026-02-02 04:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+13|6|41|2026-01-11 08:00|2026-01-15 13:00| EMERGENCY |Emergency Department|Synthetic encounter|-|-|Discharged
+14|7|46|2026-01-12 08:00|2026-01-16 10:00|Urgent|Referral|Synthetic encounter|||Discharged
+15|8|21|2026-01-13 08:00|2026-01-17 10:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+16|8|36|2026-02-02 08:00|2026-02-06 00:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+17|9|46|2026-01-14 08:00|2026-01-17 17:00|Urgent|Referral|Synthetic encounter|||Discharged
+18|10|21|2026-01-15 08:00|2026-01-17 02:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+19|10|46|2026-02-04 08:00|2026-02-06 02:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+20|11|1|2026-01-16 08:00|2026-01-18 20:00|Urgent|Referral|Synthetic encounter|||Discharged
+21|11|11|2026-02-05 08:00|NULL|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Admitted
+22|12|26|2026-01-17 08:00|2026-01-19 23:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+23|13|31|2026-01-18 08:00|2026-01-18 16:00|Elective|Referral|Synthetic encounter|||Discharged
+24|13|26|2026-02-07 08:00|NULL|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Admitted
+25|14|16|2026-01-19 08:00|2026-01-20 07:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+26|14|36|2026-02-08 08:00|2026-02-10 19:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+27|15|6|2026-01-20 08:00|2026-01-23 19:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+28|15|31|2026-02-09 08:00|-| EMERGENCY |Emergency Department|Synthetic encounter|-|-|Admitted
+29|16|6|2026-01-21 08:00|2026-01-22 09:00|Outpatient|Referral|Synthetic encounter|||Discharged
+30|16|1|2026-02-10 08:00|2026-02-11 06:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+31|17|26|2026-01-22 08:00|2026-01-26 12:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+32|18|21|2026-01-23 08:00|2026-01-27 15:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+33|19|41|2026-01-24 08:00|2026-01-26 15:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+34|19|26|2026-02-13 08:00|2026-02-13 18:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+35|20|41|2026-01-25 08:00|2026-01-27 00:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+36|20|21|2026-02-14 08:00|2026-02-18 15:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+37|21|6|2026-01-26 08:00|2026-01-31 01:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+38|21|1|2026-02-15 08:00|2026-02-19 14:00|Outpatient|Referral|Synthetic encounter|||Discharged
+39|22|41|2026-01-27 08:00|2026-01-28 22:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+40|22|16|2026-02-16 08:00|2026-02-16 16:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+41|23|26|2026-01-28 08:00|2026-01-29 11:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+42|23|41|2026-02-17 08:00|2026-02-20 04:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+43|24|31|2026-01-29 08:00|2026-01-31 13:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+44|24|46|2026-02-18 08:00|2026-02-21 02:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+45|25|21|2026-01-30 08:00|2026-01-30 22:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+46|26|16|2026-01-31 08:00|2026-01-31 20:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+47|26|31|2026-02-20 08:00|2026-02-20 17:00|Elective|Referral|Synthetic encounter|||Deceased
+48|27|26|2026-02-01 08:00|NULL|Urgent|Referral|Synthetic encounter|NULL|NULL|Admitted
+49|28|21|2026-02-02 08:00|2026-02-04 19:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+50|28|26|2026-02-22 08:00|2026-02-26 11:00|Elective|Referral|Synthetic encounter|||Discharged
+51|29|6|2026-02-03 08:00|2026-02-05 03:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+52|29|46|2026-02-23 08:00|2026-02-23 17:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+53|30|1|2026-02-04 08:00|2026-02-08 08:00|Elective|Referral|Synthetic encounter|||Discharged
+54|30|11|2026-02-24 08:00|2026-02-27 00:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+55|31|31|2026-02-05 08:00|2026-02-07 20:00| URGENT |Referral|Synthetic encounter|-|-|Discharged
+56|31|41|2026-02-25 08:00|2026-02-28 14:00|Elective|Referral|Synthetic encounter|||Discharged
+57|32|16|2026-02-06 08:00|2026-02-07 02:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+58|32|11|2026-02-26 08:00|2026-03-01 18:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+59|33|26|2026-02-07 08:00|2026-02-08 21:00|Outpatient|Referral|Synthetic encounter|||Discharged
+60|33|21|2026-02-27 08:00|2026-03-04 02:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+61|34|36|2026-02-08 08:00|2026-02-10 21:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+62|35|41|2026-02-09 08:00|2026-02-14 06:00|Elective|Referral|Synthetic encounter|||Discharged
+63|35|26|2026-03-01 08:00|2026-03-01 13:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+64|36|6|2026-02-10 08:00|2026-02-10 15:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+65|36|16|2026-03-02 08:00|2026-03-05 07:00|Urgent|Referral|Synthetic encounter|||Discharged
+66|37|41|2026-02-11 08:00|2026-02-13 18:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+67|37|11|2026-03-03 08:00|2026-03-04 21:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+68|38|26|2026-02-12 08:00|2026-02-17 08:00|Outpatient|Referral|Synthetic encounter|||Discharged
+69|38|16|2026-03-04 08:00|2026-03-09 08:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+70|39|36|2026-02-13 08:00|2026-02-17 13:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+71|39|1|2026-03-05 08:00|2026-03-10 04:00|Elective|Referral|Synthetic encounter|||Discharged
+72|40|6|2026-02-14 08:00|2026-02-16 04:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+73|40|6|2026-03-06 08:00|2026-03-09 15:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+74|41|46|2026-02-15 08:00|2026-02-18 21:00|Outpatient|Referral|Synthetic encounter|||Discharged
+75|41|36|2026-03-07 08:00|2026-03-09 13:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+76|42|1|2026-02-16 08:00|2026-02-20 00:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+77|42|1|2026-03-08 08:00|2026-03-09 10:00|Urgent|Referral|Synthetic encounter|||Discharged
+78|43|6|2026-02-17 08:00|2026-02-20 13:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+79|43|46|2026-03-09 08:00|-|Elective|Referral|Synthetic encounter|-|-|Admitted
+80|44|21|2026-02-18 08:00|2026-02-19 01:00|Urgent|Referral|Synthetic encounter|||Discharged
+81|45|1|2026-02-19 08:00|2026-02-21 12:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+82|46|11|2026-02-20 08:00|2026-02-24 16:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+83|46|16|2026-03-12 08:00|2026-03-12 15:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+84|47|26|2026-02-21 08:00|2026-02-24 09:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+85|47|36|2026-03-13 08:00|2026-03-16 17:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+86|48|41|2026-02-22 08:00|2026-02-26 14:00|Outpatient|Referral|Synthetic encounter|||Discharged
+87|48|16|2026-03-14 08:00|2026-03-16 02:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+88|49|31|2026-02-23 08:00|2026-02-25 12:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+89|49|46|2026-03-15 08:00|2026-03-16 21:00|Elective|Referral|Synthetic encounter|||Discharged
+90|50|6|2026-02-24 08:00|2026-02-24 15:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+91|50|21|2026-03-16 08:00|2026-03-18 15:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+92|51|11|2026-02-25 08:00|2026-02-27 07:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+93|51|26|2026-03-17 08:00|2026-03-19 04:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+94|52|31|2026-02-26 08:00|2026-02-28 18:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+95|52|36|2026-03-18 08:00|2026-03-22 14:00|Elective|Referral|Synthetic encounter|||Discharged
+96|53|16|2026-02-27 08:00|2026-02-28 08:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+97|53|21|2026-03-19 08:00|2026-03-22 23:00| EMERGENCY |Emergency Department|Synthetic encounter|-|-|Discharged
+98|54|46|2026-02-28 08:00|2026-03-05 01:00|Urgent|Referral|Synthetic encounter|||Discharged
+99|54|46|2026-03-20 08:00|2026-03-23 20:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+100|55|41|2026-03-01 08:00|2026-03-04 05:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+101|56|26|2026-03-02 08:00|2026-03-06 08:00|Urgent|Referral|Synthetic encounter|||Discharged
+102|56|26|2026-03-22 08:00|2026-03-27 03:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+103|57|36|2026-03-03 08:00|2026-03-06 16:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+104|58|36|2026-03-04 08:00|2026-03-08 10:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+105|59|26|2026-03-05 08:00|2026-03-08 23:00| EMERGENCY |Emergency Department|Synthetic encounter|NULL|NULL|Deceased
+106|60|1|2026-03-06 08:00|2026-03-08 03:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+107|61|26|2026-03-07 08:00|2026-03-11 01:00|Outpatient|Referral|Synthetic encounter|||Discharged
+108|61|11|2026-03-27 08:00|2026-03-28 16:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+109|62|31|2026-03-08 08:00|2026-03-08 21:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+110|63|1|2026-03-09 08:00|2026-03-13 23:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+111|63|16|2026-03-29 08:00|2026-04-02 13:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+112|64|36|2026-03-10 08:00|2026-03-10 16:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+113|64|41|2026-03-30 08:00|2026-04-04 03:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+114|65|11|2026-03-11 08:00|2026-03-13 02:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+115|65|16|2026-03-31 08:00|2026-04-01 05:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+116|66|36|2026-03-12 08:00|2026-03-16 10:00|Outpatient|Referral|Synthetic encounter|||Discharged
+117|66|11|2026-04-01 08:00|2026-04-04 23:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+118|67|31|2026-03-13 08:00|2026-03-16 22:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+119|67|6|2026-04-02 08:00|2026-04-02 14:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+120|68|1|2026-03-14 08:00|2026-03-16 12:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+121|68|1|2026-04-03 08:00|2026-04-05 20:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+122|69|21|2026-03-15 08:00|2026-03-17 17:00|Elective|Referral|Synthetic encounter|||Discharged
+123|69|11|2026-04-04 08:00|NULL|Elective|Referral|Synthetic encounter|NULL|NULL|Admitted
+124|70|46|2026-03-16 08:00|2026-03-21 08:00| OUTPATIENT |Referral|Synthetic encounter|-|-|Discharged
+125|70|21|2026-04-05 08:00|2026-04-10 03:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+126|71|31|2026-03-17 08:00|2026-03-20 19:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+127|71|41|2026-04-06 08:00|2026-04-07 16:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+128|72|36|2026-03-18 08:00|2026-03-19 09:00|Urgent|Referral|Synthetic encounter|||Discharged
+129|72|31|2026-04-07 08:00|2026-04-10 03:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+130|73|31|2026-03-19 08:00|2026-03-21 14:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+131|73|21|2026-04-08 08:00|2026-04-11 11:00|Urgent|Referral|Synthetic encounter|||Discharged
+132|74|26|2026-03-20 08:00|2026-03-24 19:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+133|74|46|2026-04-09 08:00|-|Elective|Referral|Synthetic encounter|-|-|Admitted
+134|75|1|2026-03-21 08:00|2026-03-23 22:00| ELECTIVE |Referral|Synthetic encounter|||Discharged
+135|75|36|2026-04-10 08:00|2026-04-15 05:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+136|76|46|2026-03-22 08:00|2026-03-22 13:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+137|76|41|2026-04-11 08:00|2026-04-16 08:00|Elective|Referral|Synthetic encounter|||Discharged
+138|77|46|2026-03-23 08:00|2026-03-24 09:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+139|77|41|2026-04-12 08:00|2026-04-15 13:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+140|78|41|2026-03-24 08:00|2026-03-27 02:00|Urgent|Referral|Synthetic encounter|||Discharged
+141|78|41|2026-04-13 08:00|NULL|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Admitted
+142|79|41|2026-03-25 08:00|2026-03-26 07:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+143|79|6|2026-04-14 08:00|| ELECTIVE |Referral|Synthetic encounter|||Admitted
+144|80|31|2026-03-26 08:00|2026-03-26 15:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+145|81|21|2026-03-27 08:00|2026-03-30 12:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+146|81|26|2026-04-16 08:00|2026-04-20 22:00|Outpatient|Referral|Synthetic encounter|||Discharged
+147|82|46|2026-03-28 08:00|2026-03-30 11:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+148|83|41|2026-03-29 08:00|2026-03-31 20:00| OUTPATIENT |Referral|Synthetic encounter|-|-|Discharged
+149|83|16|2026-04-18 08:00|2026-04-20 04:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+150|84|46|2026-03-30 08:00|2026-04-02 19:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+151|85|11|2026-03-31 08:00|2026-04-03 10:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+152|85|1|2026-04-20 08:00|2026-04-22 03:00| URGENT |Referral|Synthetic encounter|||Discharged
+153|86|46|2026-04-01 08:00|2026-04-06 02:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+154|86|41|2026-04-21 08:00|2026-04-23 15:00| OUTPATIENT |Referral|Synthetic encounter|-|-|Discharged
+155|87|31|2026-04-02 08:00|2026-04-07 08:00|Outpatient|Referral|Synthetic encounter|||Discharged
+156|87|16|2026-04-22 08:00|2026-04-22 21:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+157|88|21|2026-04-03 08:00|2026-04-08 02:00|Urgent|Referral|Synthetic encounter|-|-|Deceased
+158|89|6|2026-04-04 08:00|2026-04-05 14:00| URGENT |Referral|Synthetic encounter|||Discharged
+159|89|26|2026-04-24 08:00|2026-04-26 18:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+160|90|11|2026-04-05 08:00|2026-04-07 01:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+161|90|6|2026-04-25 08:00|2026-04-28 21:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+162|91|41|2026-04-06 08:00|2026-04-10 09:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+163|91|26|2026-04-26 08:00|2026-04-29 06:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+164|92|41|2026-04-07 08:00|2026-04-10 18:00|Elective|Referral|Synthetic encounter|||Discharged
+165|93|36|2026-04-08 08:00|2026-04-12 07:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+166|93|1|2026-04-28 08:00|2026-05-01 03:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+167|94|11|2026-04-09 08:00|2026-04-12 11:00|Outpatient|Referral|Synthetic encounter|||Discharged
+168|94|26|2026-04-29 08:00|2026-04-30 00:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+169|95|41|2026-04-10 08:00|2026-04-11 05:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+170|95|26|2026-04-30 08:00|2026-05-02 16:00|Urgent|Referral|Synthetic encounter|||Discharged
+171|96|1|2026-04-11 08:00|2026-04-16 01:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+172|96|6|2026-05-01 08:00|2026-05-05 07:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+173|97|41|2026-04-12 08:00|2026-04-13 21:00|Elective|Referral|Synthetic encounter|||Discharged
+174|98|1|2026-04-13 08:00|NULL|Urgent|Referral|Synthetic encounter|NULL|NULL|Admitted
+175|99|46|2026-04-14 08:00|2026-04-18 22:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+176|99|46|2026-05-04 08:00|2026-05-08 12:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+177|100|46|2026-01-05 08:00|2026-01-08 07:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+178|100|36|2026-01-25 08:00|2026-01-28 05:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+179|101|16|2026-01-06 08:00|2026-01-09 11:00|Urgent|Referral|Synthetic encounter|||Discharged
+180|101|1|2026-01-26 08:00|2026-01-29 09:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+181|102|21|2026-01-07 08:00|2026-01-09 22:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+182|102|21|2026-01-27 08:00|2026-01-31 21:00|Urgent|Referral|Synthetic encounter|||Discharged
+183|103|36|2026-01-08 08:00|2026-01-11 14:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+184|104|11|2026-01-09 08:00|2026-01-12 14:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+185|104|26|2026-01-29 08:00|2026-01-31 08:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+186|105|11|2026-01-10 08:00|2026-01-13 03:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+187|105|36|2026-01-30 08:00|-|Outpatient|Referral|Synthetic encounter|-|-|Admitted
+188|106|11|2026-01-11 08:00|2026-01-12 13:00|Outpatient|Referral|Synthetic encounter|||Discharged
+189|107|6|2026-01-12 08:00|2026-01-14 11:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+190|107|6|2026-02-01 08:00|2026-02-05 22:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+191|108|6|2026-01-13 08:00|2026-01-14 02:00|Urgent|Referral|Synthetic encounter|||Discharged
+192|108|11|2026-02-02 08:00|2026-02-05 08:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+193|109|26|2026-01-14 08:00|-|Elective|Referral|Synthetic encounter|-|-|Admitted
+194|110|36|2026-01-15 08:00|2026-01-19 21:00|Elective|Referral|Synthetic encounter|||Discharged
+195|110|6|2026-02-04 08:00|2026-02-05 17:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+196|111|41|2026-01-16 08:00|2026-01-21 01:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+197|112|36|2026-01-17 08:00|2026-01-19 23:00| OUTPATIENT |Referral|Synthetic encounter|||Discharged
+198|113|6|2026-01-18 08:00|2026-01-20 10:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+199|114|6|2026-01-19 08:00|2026-01-24 08:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+200|115|16|2026-01-20 08:00|2026-01-23 23:00|Elective|Referral|Synthetic encounter|||Discharged
+201|115|11|2026-02-09 08:00|2026-02-10 10:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+202|116|1|2026-01-21 08:00|2026-01-22 02:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+203|117|46|2026-01-22 08:00|2026-01-26 23:00|Urgent|Referral|Synthetic encounter|||Discharged
+204|118|1|2026-01-23 08:00|2026-01-25 19:00| URGENT |Referral|Synthetic encounter|NULL|NULL|Discharged
+205|118|11|2026-02-12 08:00|2026-02-13 15:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+206|119|31|2026-01-24 08:00||Elective|Referral|Synthetic encounter|||Admitted
+207|120|11|2026-01-25 08:00|2026-01-27 15:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+208|120|16|2026-02-14 08:00|2026-02-18 19:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+209|121|26|2026-01-26 08:00|2026-01-26 18:00|Outpatient|Referral|Synthetic encounter|||Discharged
+210|122|46|2026-01-27 08:00|2026-01-27 20:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+211|122|11|2026-02-16 08:00|2026-02-16 13:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+212|123|1|2026-01-28 08:00|2026-01-31 05:00|Outpatient|Referral|Synthetic encounter|||Discharged
+213|123|6|2026-02-17 08:00|2026-02-18 18:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+214|124|6|2026-01-29 08:00|2026-01-30 05:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+215|124|46|2026-02-18 08:00|2026-02-22 19:00|Outpatient|Referral|Synthetic encounter|||Discharged
+216|125|31|2026-01-30 08:00|2026-02-04 00:00| EMERGENCY |Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+217|126|16|2026-01-31 08:00|2026-02-01 18:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+218|126|11|2026-02-20 08:00|2026-02-24 00:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+219|127|46|2026-02-01 08:00|2026-02-06 06:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+220|128|31|2026-02-02 08:00|2026-02-04 06:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+221|128|31|2026-02-22 08:00|2026-02-25 22:00|Urgent|Referral|Synthetic encounter|||Discharged
+222|129|11|2026-02-03 08:00|2026-02-05 09:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+223|129|41|2026-02-23 08:00|2026-02-26 15:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+224|130|1|2026-02-04 08:00|2026-02-06 19:00|Outpatient|Referral|Synthetic encounter|||Discharged
+225|130|6|2026-02-24 08:00|2026-02-28 12:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+226|131|1|2026-02-05 08:00|2026-02-09 10:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+227|131|26|2026-02-25 08:00||Elective|Referral|Synthetic encounter|||Admitted
+228|132|41|2026-02-06 08:00|2026-02-08 01:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+229|132|11|2026-02-26 08:00|2026-03-02 23:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+230|133|36|2026-02-07 08:00|2026-02-08 16:00|Elective|Referral|Synthetic encounter|||Discharged
+231|133|11|2026-02-27 08:00|2026-03-01 08:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+232|134|36|2026-02-08 08:00|2026-02-08 19:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+233|135|31|2026-02-09 08:00||Elective|Referral|Synthetic encounter|||Admitted
+234|136|11|2026-02-10 08:00|2026-02-11 00:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+235|136|31|2026-03-02 08:00|2026-03-03 15:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+236|137|36|2026-02-11 08:00|2026-02-16 03:00|Elective|Referral|Synthetic encounter|||Discharged
+237|137|31|2026-03-03 08:00|2026-03-03 18:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+238|138|16|2026-02-12 08:00|2026-02-16 18:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+239|138|11|2026-03-04 08:00|2026-03-05 21:00|Elective|Referral|Synthetic encounter|||Discharged
+240|139|46|2026-02-13 08:00|2026-02-15 16:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+241|140|11|2026-02-14 08:00|2026-02-15 09:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+242|141|36|2026-02-15 08:00|2026-02-19 03:00|Urgent|Referral|Synthetic encounter|||Discharged
+243|141|31|2026-03-07 08:00|2026-03-08 15:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+244|142|11|2026-02-16 08:00|2026-02-19 02:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+245|142|16|2026-03-08 08:00|2026-03-12 06:00|Elective|Referral|Synthetic encounter|||Discharged
+246|143|11|2026-02-17 08:00|2026-02-19 14:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+247|143|1|2026-03-09 08:00|2026-03-10 21:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+248|144|26|2026-02-18 08:00|2026-02-22 18:00|Elective|Referral|Synthetic encounter|||Discharged
+249|144|6|2026-03-10 08:00|2026-03-14 10:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+250|145|36|2026-02-19 08:00|2026-02-23 04:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+251|145|36|2026-03-11 08:00|2026-03-12 16:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+252|146|41|2026-02-20 08:00|2026-02-24 10:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+253|146|1|2026-03-12 08:00|2026-03-15 02:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+254|147|11|2026-02-21 08:00|2026-02-23 11:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+255|147|41|2026-03-13 08:00|2026-03-13 22:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+256|148|11|2026-02-22 08:00|2026-02-25 07:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+257|149|26|2026-02-23 08:00|2026-02-24 16:00|Outpatient|Referral|Synthetic encounter|||Discharged
+258|149|36|2026-03-15 08:00|2026-03-19 15:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+259|150|6|2026-02-24 08:00|2026-02-26 18:00|Elective|Referral|Synthetic encounter|-|-|Deceased
+260|151|26|2026-02-25 08:00|2026-02-27 07:00|Urgent|Referral|Synthetic encounter|||Discharged
+261|151|1|2026-03-17 08:00|2026-03-18 22:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+262|152|41|2026-02-26 08:00|2026-02-28 01:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+263|153|41|2026-02-27 08:00|2026-03-01 17:00|Elective|Referral|Synthetic encounter|||Discharged
+264|153|21|2026-03-19 08:00|NULL|Outpatient|Referral|Synthetic encounter|NULL|NULL|Admitted
+265|154|26|2026-02-28 08:00|2026-03-04 22:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+266|154|16|2026-03-20 08:00|2026-03-23 05:00|Outpatient|Referral|Synthetic encounter|||Discharged
+267|155|31|2026-03-01 08:00|2026-03-02 18:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+268|155|1|2026-03-21 08:00|-|Elective|Referral|Synthetic encounter|-|-|Admitted
+269|156|21|2026-03-02 08:00|2026-03-04 22:00|Elective|Referral|Synthetic encounter|||Discharged
+270|156|1|2026-03-22 08:00|2026-03-24 20:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+271|157|36|2026-03-03 08:00|2026-03-05 03:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+272|158|31|2026-03-04 08:00|2026-03-07 01:00|Outpatient|Referral|Synthetic encounter|||Discharged
+273|158|31|2026-03-24 08:00|2026-03-24 13:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+274|159|46|2026-03-05 08:00|2026-03-06 23:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+275|159|31|2026-03-25 08:00|2026-03-28 10:00|Urgent|Referral|Synthetic encounter|||Discharged
+276|160|6|2026-03-06 08:00|2026-03-09 06:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+277|161|21|2026-03-07 08:00|2026-03-10 11:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+278|161|41|2026-03-27 08:00|2026-03-29 19:00|Urgent|Referral|Synthetic encounter|||Discharged
+279|162|16|2026-03-08 08:00|2026-03-09 04:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+280|162|31|2026-03-28 08:00|2026-04-01 18:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+281|163|36|2026-03-09 08:00|2026-03-13 04:00|Urgent|Referral|Synthetic encounter|||Discharged
+282|164|26|2026-03-10 08:00|2026-03-10 15:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+283|164|46|2026-03-30 08:00|2026-04-02 15:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+284|165|36|2026-03-11 08:00|2026-03-16 00:00|Urgent|Referral|Synthetic encounter|||Discharged
+285|165|41|2026-03-31 08:00|2026-03-31 20:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+286|166|1|2026-03-12 08:00|2026-03-17 08:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+287|166|36|2026-04-01 08:00|2026-04-05 23:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+288|167|6|2026-03-13 08:00|2026-03-16 20:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+289|167|31|2026-04-02 08:00|2026-04-05 08:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+290|168|16|2026-03-14 08:00|2026-03-19 07:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+291|169|6|2026-03-15 08:00|2026-03-20 04:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+292|169|1|2026-04-04 08:00|2026-04-08 01:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+293|170|31|2026-03-16 08:00|2026-03-17 12:00|Outpatient|Referral|Synthetic encounter|||Discharged
+294|170|6|2026-04-05 08:00|2026-04-10 04:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+295|171|41|2026-03-17 08:00|2026-03-19 09:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+296|172|11|2026-03-18 08:00|2026-03-19 12:00|Outpatient|Referral|Synthetic encounter|||Discharged
+297|172|11|2026-04-07 08:00|2026-04-09 12:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+298|173|26|2026-03-19 08:00|2026-03-21 19:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+299|174|26|2026-03-20 08:00|2026-03-22 11:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+300|175|41|2026-03-21 08:00|2026-03-25 19:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+301|176|41|2026-03-22 08:00|2026-03-26 09:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+302|177|16|2026-03-23 08:00|2026-03-23 23:00|Urgent|Referral|Synthetic encounter|||Discharged
+303|178|41|2026-03-24 08:00|2026-03-27 01:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+304|178|16|2026-04-13 08:00|2026-04-15 13:00|Elective|Referral|Synthetic encounter|-|-|Deceased
+305|179|46|2026-03-25 08:00|2026-03-29 20:00|Elective|Referral|Synthetic encounter|||Discharged
+306|179|36|2026-04-14 08:00|2026-04-17 15:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+307|180|26|2026-03-26 08:00|2026-03-29 16:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+308|180|6|2026-04-15 08:00|2026-04-19 01:00|Outpatient|Referral|Synthetic encounter|||Discharged
+309|181|21|2026-03-27 08:00|2026-03-29 08:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+310|181|41|2026-04-16 08:00|2026-04-19 11:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+311|182|21|2026-03-28 08:00|2026-04-01 15:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+312|182|26|2026-04-17 08:00|2026-04-18 18:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+313|183|26|2026-03-29 08:00|2026-04-02 04:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+314|184|6|2026-03-30 08:00|2026-03-30 19:00|Outpatient|Referral|Synthetic encounter|||Discharged
+315|184|26|2026-04-19 08:00|2026-04-23 18:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+316|185|46|2026-03-31 08:00|2026-04-03 16:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+317|186|6|2026-04-01 08:00|2026-04-02 12:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+318|186|36|2026-04-21 08:00|2026-04-21 21:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+319|187|46|2026-04-02 08:00|2026-04-04 12:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+320|187|16|2026-04-22 08:00|2026-04-24 11:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+321|188|16|2026-04-03 08:00|2026-04-07 18:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+322|188|21|2026-04-23 08:00|2026-04-25 09:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+323|189|11|2026-04-04 08:00||Outpatient|Referral|Synthetic encounter|||Admitted
+324|190|26|2026-04-05 08:00|2026-04-06 02:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+325|190|16|2026-04-25 08:00|2026-04-26 02:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+326|191|6|2026-04-06 08:00|2026-04-07 17:00|Urgent|Referral|Synthetic encounter|||Discharged
+327|192|26|2026-04-07 08:00|2026-04-08 17:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+328|192|16|2026-04-27 08:00|2026-04-29 04:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+329|193|31|2026-04-08 08:00|2026-04-09 12:00|Elective|Referral|Synthetic encounter|||Discharged
+330|194|26|2026-04-09 08:00|2026-04-10 12:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+331|195|26|2026-04-10 08:00|2026-04-12 12:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+332|195|21|2026-04-30 08:00|2026-05-04 08:00|Elective|Referral|Synthetic encounter|||Discharged
+333|196|1|2026-04-11 08:00|NULL|Outpatient|Referral|Synthetic encounter|NULL|NULL|Admitted
+334|197|11|2026-04-12 08:00|2026-04-14 03:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+335|197|21|2026-05-02 08:00|2026-05-05 03:00|Outpatient|Referral|Synthetic encounter|||Discharged
+336|198|31|2026-04-13 08:00|2026-04-17 17:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+337|199|41|2026-04-14 08:00|2026-04-16 01:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+338|199|1|2026-05-04 08:00|2026-05-05 04:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+339|200|16|2026-01-05 08:00|2026-01-09 15:00| OUTPATIENT |Referral|Synthetic encounter|NULL|NULL|Discharged
+340|201|26|2026-01-06 08:00|2026-01-10 03:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+341|201|6|2026-01-26 08:00|2026-01-29 16:00|Outpatient|Referral|Synthetic encounter|||Discharged
+342|202|21|2026-01-07 08:00|2026-01-08 03:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+343|203|36|2026-01-08 08:00|2026-01-13 06:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+344|204|41|2026-01-09 08:00|2026-01-11 23:00|Elective|Referral|Synthetic encounter|||Discharged
+345|205|21|2026-01-10 08:00|2026-01-12 09:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+346|205|36|2026-01-30 08:00|2026-01-31 20:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+347|206|21|2026-01-11 08:00|2026-01-15 21:00|Elective|Referral|Synthetic encounter|||Discharged
+348|206|21|2026-01-31 08:00|NULL|Outpatient|Referral|Synthetic encounter|NULL|NULL|Admitted
+349|207|41|2026-01-12 08:00|2026-01-15 04:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+350|207|6|2026-02-01 08:00|2026-02-03 08:00|Urgent|Referral|Synthetic encounter|||Discharged
+351|208|21|2026-01-13 08:00|2026-01-14 21:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+352|208|26|2026-02-02 08:00|2026-02-06 04:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+353|209|31|2026-01-14 08:00|2026-01-18 01:00|Elective|Referral|Synthetic encounter|||Discharged
+354|209|11|2026-02-03 08:00|2026-02-05 06:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+355|210|46|2026-01-15 08:00|2026-01-16 13:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+356|210|46|2026-02-04 08:00|2026-02-08 15:00|Elective|Referral|Synthetic encounter|||Discharged
+357|211|26|2026-01-16 08:00|2026-01-18 11:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+358|212|1|2026-01-17 08:00|2026-01-17 20:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+359|212|21|2026-02-06 08:00|2026-02-11 00:00|Elective|Referral|Synthetic encounter|||Discharged
+360|213|36|2026-01-18 08:00|2026-01-23 01:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+361|214|26|2026-01-19 08:00|2026-01-21 09:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+362|214|46|2026-02-08 08:00|2026-02-08 15:00|Outpatient|Referral|Synthetic encounter|||Discharged
+363|215|1|2026-01-20 08:00|2026-01-21 07:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+364|215|16|2026-02-09 08:00|2026-02-13 11:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+365|216|31|2026-01-21 08:00|2026-01-24 08:00|Outpatient|Referral|Synthetic encounter|||Discharged
+366|217|41|2026-01-22 08:00|2026-01-24 00:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+367|217|26|2026-02-11 08:00|2026-02-12 20:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+368|218|41|2026-01-23 08:00|2026-01-26 15:00|Outpatient|Referral|Synthetic encounter|||Discharged
+369|218|6|2026-02-12 08:00|2026-02-14 10:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+370|219|11|2026-01-24 08:00|2026-01-26 23:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+371|220|16|2026-01-25 08:00|2026-01-27 23:00|Outpatient|Referral|Synthetic encounter|||Discharged
+372|220|31|2026-02-14 08:00|2026-02-15 09:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+373|221|6|2026-01-26 08:00|2026-01-28 05:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+374|221|11|2026-02-15 08:00||Outpatient|Referral|Synthetic encounter|||Admitted
+375|222|41|2026-01-27 08:00|2026-02-01 00:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+376|222|41|2026-02-16 08:00|2026-02-17 10:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+377|223|41|2026-01-28 08:00|2026-01-30 01:00|Elective|Referral|Synthetic encounter|||Discharged
+378|223|36|2026-02-17 08:00|2026-02-18 00:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+379|224|36|2026-01-29 08:00|2026-02-02 11:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+380|224|31|2026-02-18 08:00|2026-02-20 15:00|Urgent|Referral|Synthetic encounter|||Discharged
+381|225|26|2026-01-30 08:00|2026-02-03 17:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+382|225|46|2026-02-19 08:00|2026-02-21 22:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+383|226|26|2026-01-31 08:00|2026-02-01 15:00|Outpatient|Referral|Synthetic encounter|||Discharged
+384|226|26|2026-02-20 08:00|2026-02-23 22:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+385|227|21|2026-02-01 08:00|2026-02-01 13:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+386|227|26|2026-02-21 08:00|2026-02-26 00:00|Elective|Referral|Synthetic encounter|||Discharged
+387|228|21|2026-02-02 08:00|2026-02-04 23:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+388|229|31|2026-02-03 08:00|2026-02-07 00:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+389|229|26|2026-02-23 08:00|2026-02-27 15:00|Outpatient|Referral|Synthetic encounter|||Discharged
+390|230|21|2026-02-04 08:00|2026-02-09 00:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+391|230|46|2026-02-24 08:00|2026-02-26 08:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+392|231|1|2026-02-05 08:00|2026-02-08 03:00|Outpatient|Referral|Synthetic encounter|||Discharged
+393|231|21|2026-02-25 08:00|2026-02-28 00:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+394|232|16|2026-02-06 08:00|2026-02-06 14:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+395|232|31|2026-02-26 08:00|2026-03-01 10:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+396|233|16|2026-02-07 08:00|2026-02-08 23:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+397|234|41|2026-02-08 08:00|2026-02-11 03:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+398|234|6|2026-02-28 08:00|2026-03-02 03:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+399|235|46|2026-02-09 08:00|2026-02-11 07:00| OUTPATIENT |Referral|Synthetic encounter|NULL|NULL|Discharged
+400|235|11|2026-03-01 08:00|2026-03-04 07:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+401|236|21|2026-02-10 08:00|2026-02-14 21:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+402|236|41|2026-03-02 08:00|2026-03-04 08:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+403|237|36|2026-02-11 08:00|2026-02-14 08:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+404|237|31|2026-03-03 08:00||Urgent|Referral|Synthetic encounter|||Admitted
+405|238|1|2026-02-12 08:00|2026-02-16 05:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+406|238|36|2026-03-04 08:00|2026-03-08 18:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+407|239|1|2026-02-13 08:00||Urgent|Referral|Synthetic encounter|||Admitted
+408|240|41|2026-02-14 08:00|2026-02-14 23:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+409|240|26|2026-03-06 08:00|2026-03-09 19:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+410|241|1|2026-02-15 08:00|2026-02-18 04:00|Outpatient|Referral|Synthetic encounter|||Discharged
+411|241|46|2026-03-07 08:00|2026-03-07 14:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+412|242|41|2026-02-16 08:00|2026-02-18 18:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+413|242|36|2026-03-08 08:00|2026-03-10 07:00|Elective|Referral|Synthetic encounter|||Discharged
+414|243|46|2026-02-17 08:00|2026-02-18 03:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+415|243|11|2026-03-09 08:00|2026-03-12 20:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+416|244|11|2026-02-18 08:00|2026-02-18 16:00|Elective|Referral|Synthetic encounter|||Discharged
+417|244|6|2026-03-10 08:00|2026-03-12 14:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+418|245|11|2026-02-19 08:00|2026-02-22 07:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+419|245|16|2026-03-11 08:00|2026-03-14 16:00|Outpatient|Referral|Synthetic encounter|||Discharged
+420|246|11|2026-02-20 08:00|2026-02-24 12:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+421|246|41|2026-03-12 08:00|2026-03-16 14:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+422|247|6|2026-02-21 08:00|2026-02-23 01:00|Urgent|Referral|Synthetic encounter|||Discharged
+423|247|46|2026-03-13 08:00|2026-03-15 00:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+424|248|11|2026-02-22 08:00|2026-02-22 16:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+425|248|31|2026-03-14 08:00|2026-03-19 03:00| OUTPATIENT |Referral|Synthetic encounter|||Discharged
+426|249|41|2026-02-23 08:00|2026-02-27 12:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+427|250|41|2026-02-24 08:00|2026-02-26 03:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+428|251|46|2026-02-25 08:00|2026-02-28 14:00| URGENT |Referral|Synthetic encounter|||Discharged
+429|251|26|2026-03-17 08:00|NULL|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Admitted
+430|252|1|2026-02-26 08:00|2026-02-28 14:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+431|252|21|2026-03-18 08:00|2026-03-19 13:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+432|253|31|2026-02-27 08:00|2026-03-03 01:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+433|253|31|2026-03-19 08:00|2026-03-24 07:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+434|254|11|2026-02-28 08:00|2026-03-04 12:00|Urgent|Referral|Synthetic encounter|||Discharged
+435|254|46|2026-03-20 08:00|2026-03-23 08:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+436|255|11|2026-03-01 08:00|2026-03-04 20:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+437|256|46|2026-03-02 08:00|2026-03-03 18:00|Outpatient|Referral|Synthetic encounter|||Discharged
+438|257|21|2026-03-03 08:00|2026-03-07 11:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+439|258|1|2026-03-04 08:00|2026-03-06 10:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+440|259|26|2026-03-05 08:00|2026-03-08 20:00|Urgent|Referral|Synthetic encounter|||Discharged
+441|260|26|2026-03-06 08:00|2026-03-10 06:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+442|260|31|2026-03-26 08:00|2026-03-30 12:00| ELECTIVE |Referral|Synthetic encounter|-|-|Discharged
+443|261|21|2026-03-07 08:00|2026-03-10 08:00|Urgent|Referral|Synthetic encounter|||Discharged
+444|261|26|2026-03-27 08:00|2026-03-30 19:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+445|262|31|2026-03-08 08:00|2026-03-13 07:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+446|262|6|2026-03-28 08:00|2026-03-28 22:00|Elective|Referral|Synthetic encounter|||Discharged
+447|263|46|2026-03-09 08:00|2026-03-13 01:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+448|263|41|2026-03-29 08:00|-|Outpatient|Referral|Synthetic encounter|-|-|Admitted
+449|264|21|2026-03-10 08:00|2026-03-14 04:00|Outpatient|Referral|Synthetic encounter|||Discharged
+450|264|21|2026-03-30 08:00|2026-04-01 21:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+451|265|31|2026-03-11 08:00|2026-03-15 17:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+452|265|21|2026-03-31 08:00|2026-04-02 18:00| ELECTIVE |Referral|Synthetic encounter|||Discharged
+453|266|1|2026-03-12 08:00|2026-03-14 10:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+454|266|11|2026-04-01 08:00|2026-04-03 20:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+455|267|31|2026-03-13 08:00|2026-03-15 14:00|Elective|Referral|Synthetic encounter|||Discharged
+456|267|6|2026-04-02 08:00|2026-04-03 19:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+457|268|11|2026-03-14 08:00|2026-03-15 22:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+458|269|41|2026-03-15 08:00|2026-03-17 19:00|Urgent|Referral|Synthetic encounter|||Discharged
+459|269|16|2026-04-04 08:00|2026-04-04 15:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+460|270|6|2026-03-16 08:00|2026-03-21 06:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+461|270|11|2026-04-05 08:00|2026-04-09 17:00|Urgent|Referral|Synthetic encounter|||Discharged
+462|271|11|2026-03-17 08:00|2026-03-18 18:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+463|271|36|2026-04-06 08:00|2026-04-08 10:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+464|272|31|2026-03-18 08:00|2026-03-20 09:00|Outpatient|Referral|Synthetic encounter|||Discharged
+465|273|41|2026-03-19 08:00|2026-03-22 19:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+466|273|26|2026-04-08 08:00|2026-04-12 22:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+467|274|11|2026-03-20 08:00|2026-03-25 04:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+468|274|41|2026-04-09 08:00|2026-04-13 03:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+469|275|11|2026-03-21 08:00|2026-03-24 10:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+470|276|1|2026-03-22 08:00|2026-03-25 05:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+471|277|11|2026-03-23 08:00|2026-03-24 04:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+472|278|46|2026-03-24 08:00|2026-03-26 08:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+473|278|36|2026-04-13 08:00|2026-04-17 18:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+474|279|11|2026-03-25 08:00|2026-03-27 11:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+475|279|36|2026-04-14 08:00|2026-04-16 13:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+476|280|16|2026-03-26 08:00|2026-03-26 21:00|Elective|Referral|Synthetic encounter|||Discharged
+477|280|16|2026-04-15 08:00|2026-04-16 13:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+478|281|6|2026-03-27 08:00|2026-03-28 09:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+479|282|31|2026-03-28 08:00|2026-03-30 23:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+480|282|1|2026-04-17 08:00|2026-04-21 10:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+481|283|16|2026-03-29 08:00|2026-04-02 21:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+482|283|31|2026-04-18 08:00|2026-04-20 05:00|Elective|Referral|Synthetic encounter|||Deceased
+483|284|36|2026-03-30 08:00|2026-04-03 00:00| EMERGENCY |Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+484|285|31|2026-03-31 08:00|2026-04-02 19:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+485|285|31|2026-04-20 08:00|2026-04-24 22:00|Urgent|Referral|Synthetic encounter|||Discharged
+486|286|26|2026-04-01 08:00|2026-04-04 07:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+487|286|6|2026-04-21 08:00|2026-04-24 20:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+488|287|46|2026-04-02 08:00|2026-04-04 03:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+489|287|11|2026-04-22 08:00|2026-04-27 08:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+490|288|6|2026-04-03 08:00|2026-04-07 17:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+491|288|6|2026-04-23 08:00|2026-04-27 02:00|Urgent|Referral|Synthetic encounter|||Discharged
+492|289|21|2026-04-04 08:00|2026-04-05 01:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+493|290|6|2026-04-05 08:00|-|Elective|Referral|Synthetic encounter|-|-|Admitted
+494|291|31|2026-04-06 08:00|2026-04-08 23:00| URGENT |Referral|Synthetic encounter|||Discharged
+495|291|1|2026-04-26 08:00|2026-04-30 04:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+496|292|46|2026-04-07 08:00|2026-04-10 14:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+497|292|21|2026-04-27 08:00|2026-05-02 02:00|Outpatient|Referral|Synthetic encounter|||Discharged
+498|293|6|2026-04-08 08:00|2026-04-09 01:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+499|294|41|2026-04-09 08:00|2026-04-13 03:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+500|294|36|2026-04-29 08:00|2026-05-03 09:00|Elective|Referral|Synthetic encounter|||Discharged
+501|295|1|2026-04-10 08:00|2026-04-13 11:00| OUTPATIENT |Referral|Synthetic encounter|NULL|NULL|Discharged
+502|295|36|2026-04-30 08:00|2026-05-04 12:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+503|296|16|2026-04-11 08:00|2026-04-15 06:00|Outpatient|Referral|Synthetic encounter|||Discharged
+504|297|6|2026-04-12 08:00|2026-04-15 08:00| OUTPATIENT |Referral|Synthetic encounter|NULL|NULL|Discharged
+505|298|21|2026-04-13 08:00|2026-04-14 13:00| OUTPATIENT |Referral|Synthetic encounter|-|-|Discharged
+506|298|1|2026-05-03 08:00|2026-05-05 23:00|Urgent|Referral|Synthetic encounter|||Discharged
+507|299|36|2026-04-14 08:00|2026-04-16 17:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+508|300|41|2026-01-05 08:00|2026-01-06 17:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+509|300|41|2026-01-25 08:00|2026-01-25 13:00|Elective|Referral|Synthetic encounter|||Discharged
+510|301|21|2026-01-06 08:00|2026-01-10 20:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+511|302|6|2026-01-07 08:00|2026-01-09 21:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+512|303|46|2026-01-08 08:00|2026-01-09 10:00|Urgent|Referral|Synthetic encounter|||Discharged
+513|304|1|2026-01-09 08:00|2026-01-11 18:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+514|305|6|2026-01-10 08:00|2026-01-15 02:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+515|305|36|2026-01-30 08:00||Emergency|Emergency Department|Synthetic encounter|||Admitted
+516|306|6|2026-01-11 08:00|2026-01-12 19:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+517|306|11|2026-01-31 08:00|2026-02-05 05:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+518|307|21|2026-01-12 08:00|2026-01-16 10:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+519|307|11|2026-02-01 08:00|2026-02-05 08:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+520|308|46|2026-01-13 08:00|2026-01-16 21:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+521|308|41|2026-02-02 08:00|2026-02-04 20:00|Urgent|Referral|Synthetic encounter|||Discharged
+522|309|16|2026-01-14 08:00|2026-01-17 17:00| ELECTIVE |Referral|Synthetic encounter|NULL|NULL|Discharged
+523|309|6|2026-02-03 08:00|2026-02-05 02:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+524|310|46|2026-01-15 08:00|2026-01-19 01:00|Urgent|Referral|Synthetic encounter|||Discharged
+525|311|36|2026-01-16 08:00|NULL|Elective|Referral|Synthetic encounter|NULL|NULL|Admitted
+526|312|16|2026-01-17 08:00|2026-01-19 01:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+527|313|46|2026-01-18 08:00|2026-01-21 07:00|Urgent|Referral|Synthetic encounter|||Discharged
+528|314|26|2026-01-19 08:00|2026-01-19 16:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+529|314|41|2026-02-08 08:00|2026-02-11 22:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+530|315|41|2026-01-20 08:00|2026-01-24 13:00|Elective|Referral|Synthetic encounter|||Discharged
+531|315|21|2026-02-09 08:00|2026-02-11 13:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+532|316|1|2026-01-21 08:00|2026-01-23 21:00| URGENT |Referral|Synthetic encounter|-|-|Discharged
+533|316|6|2026-02-10 08:00|2026-02-15 00:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+534|317|46|2026-01-22 08:00|2026-01-26 00:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+535|317|16|2026-02-11 08:00|2026-02-15 20:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+536|318|16|2026-01-23 08:00|2026-01-27 00:00|Outpatient|Referral|Synthetic encounter|||Discharged
+537|319|6|2026-01-24 08:00|2026-01-27 03:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+538|319|16|2026-02-13 08:00|2026-02-16 07:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+539|320|31|2026-01-25 08:00|2026-01-26 14:00|Elective|Referral|Synthetic encounter|||Discharged
+540|320|41|2026-02-14 08:00|2026-02-15 09:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+541|321|1|2026-01-26 08:00|2026-01-29 16:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+542|322|41|2026-01-27 08:00|2026-01-27 13:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+543|323|31|2026-01-28 08:00|2026-02-01 10:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+544|324|21|2026-01-29 08:00|2026-02-02 17:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+545|324|11|2026-02-18 08:00|2026-02-18 22:00|Elective|Referral|Synthetic encounter|||Discharged
+546|325|6|2026-01-30 08:00|2026-01-31 21:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+547|325|21|2026-02-19 08:00|2026-02-23 06:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+548|326|46|2026-01-31 08:00|2026-02-04 05:00|Elective|Referral|Synthetic encounter|||Discharged
+549|326|11|2026-02-20 08:00|2026-02-21 04:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+550|327|11|2026-02-01 08:00|2026-02-06 01:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+551|328|6|2026-02-02 08:00|2026-02-05 23:00|Urgent|Referral|Synthetic encounter|||Discharged
+552|328|46|2026-02-22 08:00|2026-02-23 15:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+553|329|1|2026-02-03 08:00|2026-02-04 00:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+554|329|41|2026-02-23 08:00||Emergency|Emergency Department|Synthetic encounter|||Admitted
+555|330|21|2026-02-04 08:00|2026-02-05 08:00| ELECTIVE |Referral|Synthetic encounter|NULL|NULL|Discharged
+556|331|11|2026-02-05 08:00|2026-02-08 09:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+557|332|46|2026-02-06 08:00|2026-02-09 04:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+558|332|41|2026-02-26 08:00|2026-02-27 20:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+559|333|6|2026-02-07 08:00|2026-02-08 13:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+560|333|16|2026-02-27 08:00|2026-02-27 14:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+561|334|41|2026-02-08 08:00|2026-02-09 07:00| OUTPATIENT |Referral|Synthetic encounter|NULL|NULL|Discharged
+562|335|11|2026-02-09 08:00|2026-02-12 06:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+563|335|36|2026-03-01 08:00||Emergency|Emergency Department|Synthetic encounter|||Admitted
+564|336|31|2026-02-10 08:00|2026-02-12 20:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+565|337|21|2026-02-11 08:00|2026-02-13 11:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+566|338|1|2026-02-12 08:00||Outpatient|Referral|Synthetic encounter|||Admitted
+567|339|36|2026-02-13 08:00|2026-02-16 11:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+568|339|11|2026-03-05 08:00|2026-03-07 08:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+569|340|31|2026-02-14 08:00|2026-02-18 02:00| EMERGENCY |Emergency Department|Synthetic encounter|||Discharged
+570|340|36|2026-03-06 08:00|2026-03-10 20:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+571|341|1|2026-02-15 08:00|2026-02-18 00:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+572|341|21|2026-03-07 08:00|2026-03-08 23:00|Outpatient|Referral|Synthetic encounter|||Discharged
+573|342|21|2026-02-16 08:00|2026-02-18 08:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+574|343|41|2026-02-17 08:00|2026-02-17 16:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+575|343|26|2026-03-09 08:00|2026-03-11 06:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+576|344|46|2026-02-18 08:00|2026-02-20 16:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+577|345|1|2026-02-19 08:00|2026-02-20 13:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+578|345|11|2026-03-11 08:00|2026-03-15 12:00|Urgent|Referral|Synthetic encounter|||Discharged
+579|346|21|2026-02-20 08:00|2026-02-25 08:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+580|346|46|2026-03-12 08:00|-|Outpatient|Referral|Synthetic encounter|-|-|Admitted
+581|347|6|2026-02-21 08:00|2026-02-23 16:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+582|348|26|2026-02-22 08:00|2026-02-24 06:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+583|348|6|2026-03-14 08:00|2026-03-15 10:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+584|349|6|2026-02-23 08:00|2026-02-25 16:00|Outpatient|Referral|Synthetic encounter|||Discharged
+585|349|16|2026-03-15 08:00|2026-03-17 10:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+586|350|31|2026-02-24 08:00|2026-03-01 07:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+587|350|21|2026-03-16 08:00|2026-03-21 05:00|Elective|Referral|Synthetic encounter|||Discharged
+588|351|21|2026-02-25 08:00|2026-02-28 05:00| EMERGENCY |Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+589|352|46|2026-02-26 08:00|2026-03-02 03:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+590|353|31|2026-02-27 08:00|2026-03-01 16:00|Outpatient|Referral|Synthetic encounter|||Discharged
+591|353|41|2026-03-19 08:00|2026-03-20 15:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+592|354|31|2026-02-28 08:00|2026-02-28 23:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+593|354|46|2026-03-20 08:00|2026-03-21 15:00|Elective|Referral|Synthetic encounter|||Discharged
+594|355|41|2026-03-01 08:00|2026-03-05 02:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+595|355|1|2026-03-21 08:00|2026-03-23 17:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+596|356|16|2026-03-02 08:00|2026-03-03 03:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+597|356|41|2026-03-22 08:00|2026-03-25 15:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+598|357|41|2026-03-03 08:00|2026-03-07 10:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+599|358|11|2026-03-04 08:00|2026-03-08 06:00|Outpatient|Referral|Synthetic encounter|||Discharged
+600|358|1|2026-03-24 08:00|2026-03-26 18:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+601|359|41|2026-03-05 08:00|2026-03-06 13:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+602|359|41|2026-03-25 08:00|2026-03-28 11:00|Outpatient|Referral|Synthetic encounter|||Discharged
+603|360|26|2026-03-06 08:00|2026-03-11 01:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+604|360|6|2026-03-26 08:00|2026-03-27 17:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+605|361|26|2026-03-07 08:00|2026-03-11 22:00|Urgent|Referral|Synthetic encounter|||Discharged
+606|362|31|2026-03-08 08:00|2026-03-11 10:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+607|363|46|2026-03-09 08:00|2026-03-13 02:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+608|364|41|2026-03-10 08:00|2026-03-14 07:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+609|365|31|2026-03-11 08:00|2026-03-15 12:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+610|365|21|2026-03-31 08:00|2026-04-03 19:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+611|366|21|2026-03-12 08:00|2026-03-13 07:00|Elective|Referral|Synthetic encounter|||Discharged
+612|366|16|2026-04-01 08:00|2026-04-05 14:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+613|367|36|2026-03-13 08:00|2026-03-18 02:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+614|367|36|2026-04-02 08:00|2026-04-04 11:00|Elective|Referral|Synthetic encounter|||Discharged
+615|368|1|2026-03-14 08:00|2026-03-17 13:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+616|369|46|2026-03-15 08:00|2026-03-19 01:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+617|369|31|2026-04-04 08:00|2026-04-06 22:00|Urgent|Referral|Synthetic encounter|||Discharged
+618|370|21|2026-03-16 08:00|2026-03-16 13:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+619|370|46|2026-04-05 08:00|2026-04-07 11:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+620|371|1|2026-03-17 08:00|2026-03-20 04:00|Urgent|Referral|Synthetic encounter|||Discharged
+621|371|46|2026-04-06 08:00|2026-04-07 02:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+622|372|46|2026-03-18 08:00|2026-03-22 15:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+623|372|21|2026-04-07 08:00|2026-04-11 11:00|Elective|Referral|Synthetic encounter|||Discharged
+624|373|1|2026-03-19 08:00|2026-03-19 13:00| EMERGENCY |Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+625|373|41|2026-04-08 08:00|2026-04-09 05:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+626|374|36|2026-03-20 08:00||Elective|Referral|Synthetic encounter|||Admitted
+627|375|6|2026-03-21 08:00|2026-03-23 02:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+628|375|31|2026-04-10 08:00|2026-04-13 10:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+629|376|36|2026-03-22 08:00|2026-03-26 10:00|Elective|Referral|Synthetic encounter|||Discharged
+630|376|31|2026-04-11 08:00|2026-04-14 15:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+631|377|11|2026-03-23 08:00|2026-03-27 07:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+632|377|26|2026-04-12 08:00|2026-04-16 15:00|Elective|Referral|Synthetic encounter|||Discharged
+633|378|26|2026-03-24 08:00|2026-03-24 21:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+634|379|31|2026-03-25 08:00|2026-03-28 15:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+635|379|6|2026-04-14 08:00||Outpatient|Referral|Synthetic encounter|||Admitted
+636|380|26|2026-03-26 08:00|2026-03-29 16:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+637|380|6|2026-04-15 08:00|2026-04-20 05:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+638|381|36|2026-03-27 08:00|2026-03-30 14:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+639|382|46|2026-03-28 08:00|2026-04-01 17:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+640|382|36|2026-04-17 08:00|2026-04-19 06:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+641|383|16|2026-03-29 08:00|2026-03-31 08:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+642|384|11|2026-03-30 08:00|2026-03-30 19:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+643|384|1|2026-04-19 08:00|2026-04-23 09:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+644|385|16|2026-03-31 08:00|2026-04-02 09:00|Outpatient|Referral|Synthetic encounter|||Discharged
+645|385|11|2026-04-20 08:00|2026-04-23 05:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+646|386|11|2026-04-01 08:00|2026-04-03 09:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+647|386|31|2026-04-21 08:00|2026-04-25 12:00|Elective|Referral|Synthetic encounter|||Discharged
+648|387|21|2026-04-02 08:00|2026-04-06 03:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+649|388|46|2026-04-03 08:00|2026-04-05 17:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+650|389|21|2026-04-04 08:00|2026-04-05 00:00| OUTPATIENT |Referral|Synthetic encounter|||Discharged
+651|390|26|2026-04-05 08:00|2026-04-10 07:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+652|391|21|2026-04-06 08:00|2026-04-07 06:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+653|391|31|2026-04-26 08:00|2026-04-29 02:00|Outpatient|Referral|Synthetic encounter|||Discharged
+654|392|1|2026-04-07 08:00|2026-04-11 10:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+655|392|36|2026-04-27 08:00|2026-04-28 06:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+656|393|11|2026-04-08 08:00|2026-04-13 05:00|Elective|Referral|Synthetic encounter|||Discharged
+657|393|21|2026-04-28 08:00|2026-04-30 00:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+658|394|1|2026-04-09 08:00|2026-04-13 11:00|Outpatient|Referral|Synthetic encounter|-|-|Deceased
+659|395|46|2026-04-10 08:00|2026-04-13 01:00|Elective|Referral|Synthetic encounter|||Discharged
+660|395|31|2026-04-30 08:00|2026-05-05 02:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+661|396|46|2026-04-11 08:00|2026-04-13 09:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+662|396|31|2026-05-01 08:00|2026-05-02 16:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+663|397|16|2026-04-12 08:00|2026-04-16 17:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+664|398|6|2026-04-13 08:00|-|Emergency|Emergency Department|Synthetic encounter|-|-|Admitted
+665|399|1|2026-04-14 08:00|2026-04-16 05:00|Outpatient|Referral|Synthetic encounter|||Discharged
+666|399|16|2026-05-04 08:00|2026-05-06 16:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+667|400|31|2026-01-05 08:00|2026-01-10 07:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+668|401|26|2026-01-06 08:00|2026-01-06 19:00|Elective|Referral|Synthetic encounter|||Deceased
+669|402|41|2026-01-07 08:00|2026-01-11 08:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+670|402|1|2026-01-27 08:00|2026-01-30 17:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+671|403|21|2026-01-08 08:00|2026-01-09 23:00|Elective|Referral|Synthetic encounter|||Discharged
+672|403|1|2026-01-28 08:00|2026-02-01 22:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+673|404|21|2026-01-09 08:00|2026-01-12 20:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+674|404|26|2026-01-29 08:00|2026-01-30 20:00|Outpatient|Referral|Synthetic encounter|||Discharged
+675|405|26|2026-01-10 08:00|2026-01-13 23:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+676|405|1|2026-01-30 08:00|2026-01-31 11:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+677|406|26|2026-01-11 08:00|2026-01-11 15:00|Urgent|Referral|Synthetic encounter|||Discharged
+678|406|11|2026-01-31 08:00|2026-01-31 15:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+679|407|36|2026-01-12 08:00|2026-01-16 16:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+680|407|21|2026-02-01 08:00|2026-02-03 08:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+681|408|36|2026-01-13 08:00|2026-01-14 14:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+682|409|6|2026-01-14 08:00|2026-01-15 11:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+683|410|36|2026-01-15 08:00|2026-01-16 02:00|Urgent|Referral|Synthetic encounter|||Discharged
+684|410|6|2026-02-04 08:00|2026-02-05 07:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+685|411|16|2026-01-16 08:00|2026-01-21 00:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+686|411|21|2026-02-05 08:00|2026-02-08 13:00|Elective|Referral|Synthetic encounter|||Discharged
+687|412|26|2026-01-17 08:00|NULL|Urgent|Referral|Synthetic encounter|NULL|NULL|Admitted
+688|413|16|2026-01-18 08:00|2026-01-20 12:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+689|413|36|2026-02-07 08:00|2026-02-09 02:00| OUTPATIENT |Referral|Synthetic encounter|||Discharged
+690|414|26|2026-01-19 08:00|2026-01-24 08:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+691|414|46|2026-02-08 08:00|2026-02-11 14:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+692|415|26|2026-01-20 08:00|2026-01-22 06:00| OUTPATIENT |Referral|Synthetic encounter|||Discharged
+693|415|21|2026-02-09 08:00|2026-02-13 20:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+694|416|21|2026-01-21 08:00|2026-01-23 11:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+695|417|6|2026-01-22 08:00|2026-01-26 08:00|Outpatient|Referral|Synthetic encounter|||Discharged
+696|418|31|2026-01-23 08:00|2026-01-28 06:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+697|418|16|2026-02-12 08:00|2026-02-16 09:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+698|419|46|2026-01-24 08:00|2026-01-28 07:00|Urgent|Referral|Synthetic encounter|||Discharged
+699|420|21|2026-01-25 08:00|2026-01-26 11:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+700|420|11|2026-02-14 08:00|2026-02-17 14:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+701|421|11|2026-01-26 08:00|2026-01-26 19:00|Urgent|Referral|Synthetic encounter|||Discharged
+702|422|41|2026-01-27 08:00|2026-01-27 15:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+703|423|11|2026-01-28 08:00|2026-02-01 06:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+704|424|16|2026-01-29 08:00|2026-01-30 07:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+705|424|21|2026-02-18 08:00|2026-02-20 21:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+706|425|36|2026-01-30 08:00|2026-02-02 05:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+707|425|21|2026-02-19 08:00|2026-02-21 19:00|Elective|Referral|Synthetic encounter|||Discharged
+708|426|6|2026-01-31 08:00|2026-02-04 23:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+709|427|46|2026-02-01 08:00|2026-02-02 16:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+710|427|1|2026-02-21 08:00|2026-02-22 18:00|Outpatient|Referral|Synthetic encounter|||Discharged
+711|428|31|2026-02-02 08:00|2026-02-04 23:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+712|428|31|2026-02-22 08:00|2026-02-25 08:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+713|429|6|2026-02-03 08:00|2026-02-05 18:00|Elective|Referral|Synthetic encounter|||Discharged
+714|429|1|2026-02-23 08:00|2026-02-24 02:00| ELECTIVE |Referral|Synthetic encounter|NULL|NULL|Discharged
+715|430|31|2026-02-04 08:00|2026-02-07 20:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+716|430|41|2026-02-24 08:00|2026-02-25 05:00|Outpatient|Referral|Synthetic encounter|||Discharged
+717|431|1|2026-02-05 08:00|2026-02-07 04:00|Elective|Referral|Synthetic encounter|NULL|NULL|Deceased
+718|432|1|2026-02-06 08:00|2026-02-09 11:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+719|432|1|2026-02-26 08:00|2026-03-02 21:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+720|433|21|2026-02-07 08:00|2026-02-11 20:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+721|433|6|2026-02-27 08:00|2026-03-01 09:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+722|434|26|2026-02-08 08:00|2026-02-12 08:00|Elective|Referral|Synthetic encounter|||Discharged
+723|435|11|2026-02-09 08:00|2026-02-10 09:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+724|435|11|2026-03-01 08:00|2026-03-04 22:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+725|436|21|2026-02-10 08:00|2026-02-12 08:00|Elective|Referral|Synthetic encounter|||Discharged
+726|436|41|2026-03-02 08:00|2026-03-03 19:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+727|437|21|2026-02-11 08:00|2026-02-14 14:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+728|437|31|2026-03-03 08:00|2026-03-05 11:00|Outpatient|Referral|Synthetic encounter|||Discharged
+729|438|6|2026-02-12 08:00|2026-02-16 10:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+730|438|16|2026-03-04 08:00|-|Urgent|Referral|Synthetic encounter|-|-|Admitted
+731|439|31|2026-02-13 08:00|2026-02-14 05:00|Outpatient|Referral|Synthetic encounter|||Discharged
+732|440|36|2026-02-14 08:00|2026-02-19 08:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+733|440|41|2026-03-06 08:00|2026-03-07 01:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+734|441|36|2026-02-15 08:00|2026-02-18 07:00|Urgent|Referral|Synthetic encounter|||Discharged
+735|441|11|2026-03-07 08:00|2026-03-08 13:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+736|442|31|2026-02-16 08:00|2026-02-20 07:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+737|442|41|2026-03-08 08:00|2026-03-09 22:00|Urgent|Referral|Synthetic encounter|||Discharged
+738|443|36|2026-02-17 08:00|2026-02-19 10:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+739|443|21|2026-03-09 08:00|2026-03-12 14:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+740|444|26|2026-02-18 08:00|2026-02-20 14:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+741|445|1|2026-02-19 08:00|2026-02-21 20:00| URGENT |Referral|Synthetic encounter|NULL|NULL|Discharged
+742|445|36|2026-03-11 08:00|2026-03-15 01:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+743|446|21|2026-02-20 08:00|2026-02-20 13:00|Elective|Referral|Synthetic encounter|||Discharged
+744|447|26|2026-02-21 08:00|2026-02-24 06:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+745|448|31|2026-02-22 08:00|2026-02-24 13:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+746|448|36|2026-03-14 08:00|2026-03-16 21:00|Outpatient|Referral|Synthetic encounter|||Discharged
+747|449|26|2026-02-23 08:00|2026-02-27 21:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+748|449|11|2026-03-15 08:00|2026-03-20 01:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+749|450|26|2026-02-24 08:00|2026-02-25 11:00|Urgent|Referral|Synthetic encounter|||Discharged
+750|450|31|2026-03-16 08:00|2026-03-18 04:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+751|451|36|2026-02-25 08:00|2026-02-26 00:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+752|452|6|2026-02-26 08:00|2026-03-03 00:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+753|452|26|2026-03-18 08:00|2026-03-20 18:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+754|453|6|2026-02-27 08:00|2026-03-03 01:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+755|454|16|2026-02-28 08:00|2026-03-02 06:00|Urgent|Referral|Synthetic encounter|||Discharged
+756|454|1|2026-03-20 08:00|2026-03-21 09:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+757|455|26|2026-03-01 08:00|2026-03-03 13:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+758|456|16|2026-03-02 08:00|2026-03-03 06:00|Urgent|Referral|Synthetic encounter|||Discharged
+759|457|36|2026-03-03 08:00|2026-03-05 02:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+760|457|36|2026-03-23 08:00|2026-03-26 12:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+761|458|11|2026-03-04 08:00|2026-03-05 10:00|Outpatient|Referral|Synthetic encounter|||Discharged
+762|458|21|2026-03-24 08:00|2026-03-25 10:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+763|459|11|2026-03-05 08:00|2026-03-09 19:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+764|460|16|2026-03-06 08:00|2026-03-07 01:00|Elective|Referral|Synthetic encounter|||Discharged
+765|460|1|2026-03-26 08:00|2026-03-26 17:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+766|461|16|2026-03-07 08:00|2026-03-10 03:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+767|461|1|2026-03-27 08:00|2026-03-30 05:00|Outpatient|Referral|Synthetic encounter|||Discharged
+768|462|16|2026-03-08 08:00|2026-03-11 03:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+769|463|21|2026-03-09 08:00|2026-03-11 16:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+770|463|31|2026-03-29 08:00|2026-04-01 09:00|Elective|Referral|Synthetic encounter|||Discharged
+771|464|46|2026-03-10 08:00|2026-03-14 18:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+772|464|16|2026-03-30 08:00|2026-04-02 12:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+773|465|26|2026-03-11 08:00|2026-03-12 19:00|Elective|Referral|Synthetic encounter|||Discharged
+774|466|31|2026-03-12 08:00|2026-03-14 02:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+775|467|31|2026-03-13 08:00|2026-03-16 00:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+776|467|21|2026-04-02 08:00||Emergency|Emergency Department|Synthetic encounter|||Admitted
+777|468|21|2026-03-14 08:00|2026-03-15 15:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+778|468|6|2026-04-03 08:00|2026-04-06 07:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+779|469|31|2026-03-15 08:00|2026-03-17 05:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+780|469|26|2026-04-04 08:00|2026-04-07 11:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+781|470|11|2026-03-16 08:00|2026-03-18 23:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+782|470|6|2026-04-05 08:00|2026-04-06 00:00|Outpatient|Referral|Synthetic encounter|||Discharged
+783|471|41|2026-03-17 08:00|2026-03-19 02:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+784|471|46|2026-04-06 08:00|-|Emergency|Emergency Department|Synthetic encounter|-|-|Admitted
+785|472|26|2026-03-18 08:00|2026-03-23 04:00|Elective|Referral|Synthetic encounter|||Discharged
+786|472|26|2026-04-07 08:00|2026-04-12 01:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+787|473|31|2026-03-19 08:00|2026-03-22 19:00|Urgent|Referral|Synthetic encounter|-|-|Deceased
+788|474|16|2026-03-20 08:00|2026-03-22 10:00|Elective|Referral|Synthetic encounter|||Discharged
+789|474|41|2026-04-09 08:00|2026-04-13 22:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+790|475|41|2026-03-21 08:00|2026-03-22 13:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+791|476|6|2026-03-22 08:00|2026-03-23 14:00|Urgent|Referral|Synthetic encounter|||Discharged
+792|476|31|2026-04-11 08:00|NULL|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Admitted
+793|477|21|2026-03-23 08:00|2026-03-25 03:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+794|477|16|2026-04-12 08:00|2026-04-17 04:00|Elective|Referral|Synthetic encounter|||Discharged
+795|478|31|2026-03-24 08:00|2026-03-27 04:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+796|479|16|2026-03-25 08:00|2026-03-26 09:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+797|480|1|2026-03-26 08:00|2026-03-27 04:00|Urgent|Referral|Synthetic encounter|||Discharged
+798|481|21|2026-03-27 08:00|2026-03-27 20:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+799|481|6|2026-04-16 08:00|2026-04-18 08:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+800|482|41|2026-03-28 08:00|2026-03-30 22:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+801|482|31|2026-04-17 08:00|2026-04-19 14:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+802|483|36|2026-03-29 08:00|2026-03-31 21:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+803|484|1|2026-03-30 08:00|2026-03-31 15:00|Elective|Referral|Synthetic encounter|||Discharged
+804|484|6|2026-04-19 08:00|2026-04-24 01:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+805|485|11|2026-03-31 08:00|2026-04-04 20:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+806|485|16|2026-04-20 08:00|2026-04-24 20:00|Urgent|Referral|Synthetic encounter|||Discharged
+807|486|46|2026-04-01 08:00|2026-04-03 14:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+808|486|31|2026-04-21 08:00|2026-04-25 12:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+809|487|46|2026-04-02 08:00|2026-04-05 15:00|Elective|Referral|Synthetic encounter|||Discharged
+810|487|36|2026-04-22 08:00|2026-04-27 02:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+811|488|36|2026-04-03 08:00|2026-04-04 21:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+812|489|6|2026-04-04 08:00|2026-04-06 23:00|Outpatient|Referral|Synthetic encounter|||Discharged
+813|489|26|2026-04-24 08:00|2026-04-25 06:00| ELECTIVE |Referral|Synthetic encounter|NULL|NULL|Discharged
+814|490|11|2026-04-05 08:00|2026-04-06 01:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+815|491|11|2026-04-06 08:00|2026-04-10 18:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+816|491|46|2026-04-26 08:00|2026-04-29 17:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+817|492|26|2026-04-07 08:00|2026-04-11 03:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+818|492|11|2026-04-27 08:00|2026-04-28 14:00|Outpatient|Referral|Synthetic encounter|||Discharged
+819|493|36|2026-04-08 08:00|2026-04-11 19:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+820|493|21|2026-04-28 08:00|2026-04-30 00:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+821|494|11|2026-04-09 08:00|2026-04-12 22:00|Elective|Referral|Synthetic encounter|||Discharged
+822|494|41|2026-04-29 08:00|2026-05-02 14:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+823|495|21|2026-04-10 08:00|2026-04-11 04:00| ELECTIVE |Referral|Synthetic encounter|-|-|Discharged
+824|495|31|2026-04-30 08:00|2026-05-02 14:00|Elective|Referral|Synthetic encounter|||Discharged
+825|496|31|2026-04-11 08:00|2026-04-15 19:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+826|496|21|2026-05-01 08:00|2026-05-01 22:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+827|497|26|2026-04-12 08:00|2026-04-13 07:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+828|497|1|2026-05-02 08:00|2026-05-05 12:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+829|498|6|2026-04-13 08:00|2026-04-15 07:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+830|498|31|2026-05-03 08:00|2026-05-03 16:00|Elective|Referral|Synthetic encounter|||Discharged
+831|499|6|2026-04-14 08:00|2026-04-18 08:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+832|499|36|2026-05-04 08:00|2026-05-07 19:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+833|500|16|2026-01-05 08:00|2026-01-05 18:00|Urgent|Referral|Synthetic encounter|||Discharged
+834|501|1|2026-01-06 08:00|2026-01-09 04:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+835|501|21|2026-01-26 08:00|2026-01-28 17:00|Urgent|Referral|Synthetic encounter|-|-|Deceased
+836|502|41|2026-01-07 08:00|2026-01-08 12:00|Outpatient|Referral|Synthetic encounter|||Discharged
+837|502|21|2026-01-27 08:00|2026-01-31 06:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+838|503|1|2026-01-08 08:00|2026-01-10 23:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+839|504|36|2026-01-09 08:00|2026-01-13 17:00|Outpatient|Referral|Synthetic encounter|||Discharged
+840|504|36|2026-01-29 08:00|2026-02-01 11:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+841|505|16|2026-01-10 08:00|2026-01-14 22:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+842|505|16|2026-01-30 08:00|2026-02-04 01:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+843|506|31|2026-01-11 08:00|2026-01-15 13:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+844|506|6|2026-01-31 08:00|2026-02-03 23:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+845|507|26|2026-01-12 08:00|2026-01-17 08:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+846|508|21|2026-01-13 08:00|2026-01-16 08:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+847|508|36|2026-02-02 08:00|2026-02-06 05:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+848|509|16|2026-01-14 08:00|2026-01-15 16:00|Elective|Referral|Synthetic encounter|||Discharged
+849|509|46|2026-02-03 08:00|2026-02-07 01:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+850|510|46|2026-01-15 08:00|2026-01-16 18:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+851|511|11|2026-01-16 08:00|2026-01-16 21:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+852|511|1|2026-02-05 08:00|2026-02-05 16:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+853|512|16|2026-01-17 08:00|2026-01-20 23:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+854|512|41|2026-02-06 08:00|2026-02-07 08:00|Elective|Referral|Synthetic encounter|||Discharged
+855|513|21|2026-01-18 08:00|2026-01-19 11:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+856|513|41|2026-02-07 08:00|2026-02-07 17:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+857|514|41|2026-01-19 08:00|2026-01-21 11:00|Urgent|Referral|Synthetic encounter|||Discharged
+858|514|46|2026-02-08 08:00|2026-02-10 22:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+859|515|31|2026-01-20 08:00|2026-01-22 17:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+860|516|41|2026-01-21 08:00|2026-01-24 16:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+861|517|36|2026-01-22 08:00|2026-01-25 19:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+862|518|21|2026-01-23 08:00|2026-01-24 20:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+863|518|11|2026-02-12 08:00|2026-02-16 07:00|Urgent|Referral|Synthetic encounter|||Discharged
+864|519|6|2026-01-24 08:00|2026-01-27 04:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+865|519|36|2026-02-13 08:00|2026-02-14 22:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+866|520|41|2026-01-25 08:00|2026-01-27 05:00|Outpatient|Referral|Synthetic encounter|||Discharged
+867|520|26|2026-02-14 08:00|2026-02-18 10:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+868|521|21|2026-01-26 08:00|2026-01-30 08:00| URGENT |Referral|Synthetic encounter|-|-|Discharged
+869|521|31|2026-02-15 08:00|2026-02-19 04:00|Outpatient|Referral|Synthetic encounter|||Discharged
+870|522|26|2026-01-27 08:00|2026-01-31 05:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+871|522|41|2026-02-16 08:00|2026-02-20 08:00| OUTPATIENT |Referral|Synthetic encounter|-|-|Discharged
+872|523|26|2026-01-28 08:00||Urgent|Referral|Synthetic encounter|||Admitted
+873|524|31|2026-01-29 08:00|2026-01-29 14:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+874|524|26|2026-02-18 08:00|2026-02-22 00:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+875|525|21|2026-01-30 08:00|2026-02-03 00:00|Outpatient|Referral|Synthetic encounter|||Discharged
+876|525|36|2026-02-19 08:00|NULL|Outpatient|Referral|Synthetic encounter|NULL|NULL|Admitted
+877|526|26|2026-01-31 08:00|2026-02-01 21:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+878|527|6|2026-02-01 08:00|2026-02-02 14:00|Elective|Referral|Synthetic encounter|||Discharged
+879|527|36|2026-02-21 08:00|2026-02-21 16:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+880|528|6|2026-02-02 08:00|2026-02-03 18:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+881|528|31|2026-02-22 08:00|2026-02-24 14:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+882|529|46|2026-02-03 08:00|2026-02-07 22:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+883|530|46|2026-02-04 08:00|2026-02-06 11:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+884|530|6|2026-02-24 08:00||Outpatient|Referral|Synthetic encounter|||Admitted
+885|531|26|2026-02-05 08:00|2026-02-08 12:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+886|531|16|2026-02-25 08:00|2026-02-26 13:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+887|532|36|2026-02-06 08:00|2026-02-07 19:00|Outpatient|Referral|Synthetic encounter|||Discharged
+888|533|16|2026-02-07 08:00|2026-02-10 18:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+889|533|41|2026-02-27 08:00|2026-03-01 05:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+890|534|11|2026-02-08 08:00|2026-02-10 00:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+891|534|6|2026-02-28 08:00|NULL|Elective|Referral|Synthetic encounter|NULL|NULL|Admitted
+892|535|41|2026-02-09 08:00|2026-02-12 20:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+893|535|41|2026-03-01 08:00|2026-03-04 06:00|Outpatient|Referral|Synthetic encounter|||Discharged
+894|536|1|2026-02-10 08:00|2026-02-13 06:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+895|537|26|2026-02-11 08:00|2026-02-13 03:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+896|537|41|2026-03-03 08:00|2026-03-04 10:00|Elective|Referral|Synthetic encounter|||Discharged
+897|538|36|2026-02-12 08:00|2026-02-14 11:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+898|539|16|2026-02-13 08:00|2026-02-14 18:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+899|539|11|2026-03-05 08:00|2026-03-10 07:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+900|540|6|2026-02-14 08:00|2026-02-17 15:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+901|540|6|2026-03-06 08:00|2026-03-11 02:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+902|541|31|2026-02-15 08:00|2026-02-19 17:00|Outpatient|Referral|Synthetic encounter|||Discharged
+903|542|31|2026-02-16 08:00|2026-02-16 22:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+904|542|1|2026-03-08 08:00|2026-03-09 23:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+905|543|31|2026-02-17 08:00|2026-02-19 21:00| URGENT |Referral|Synthetic encounter|||Discharged
+906|544|36|2026-02-18 08:00|2026-02-21 10:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+907|544|16|2026-03-10 08:00|2026-03-13 19:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+908|545|11|2026-02-19 08:00|2026-02-23 14:00|Outpatient|Referral|Synthetic encounter|||Discharged
+909|545|6|2026-03-11 08:00|2026-03-11 14:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+910|546|36|2026-02-20 08:00|2026-02-21 18:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+911|547|26|2026-02-21 08:00|2026-02-23 09:00|Outpatient|Referral|Synthetic encounter|||Discharged
+912|547|26|2026-03-13 08:00|2026-03-18 07:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+913|548|6|2026-02-22 08:00|2026-02-27 07:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+914|548|6|2026-03-14 08:00|2026-03-18 03:00|Elective|Referral|Synthetic encounter|||Discharged
+915|549|21|2026-02-23 08:00|2026-02-24 19:00|Urgent|Referral|Synthetic encounter|NULL|NULL|Discharged
+916|549|6|2026-03-15 08:00|2026-03-15 13:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+917|550|1|2026-02-24 08:00|2026-02-27 11:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+918|550|41|2026-03-16 08:00|NULL|Urgent|Referral|Synthetic encounter|NULL|NULL|Admitted
+919|551|16|2026-02-25 08:00|2026-03-01 17:00| OUTPATIENT |Referral|Synthetic encounter|-|-|Discharged
+920|551|16|2026-03-17 08:00|2026-03-17 15:00|Urgent|Referral|Synthetic encounter|||Discharged
+921|552|26|2026-02-26 08:00|2026-03-03 08:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+922|552|46|2026-03-18 08:00|2026-03-21 22:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+923|553|1|2026-02-27 08:00|2026-02-28 12:00|Outpatient|Referral|Synthetic encounter|||Discharged
+924|554|6|2026-02-28 08:00|2026-03-01 04:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+925|554|46|2026-03-20 08:00|2026-03-25 02:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+926|555|36|2026-03-01 08:00|2026-03-04 11:00|Urgent|Referral|Synthetic encounter|||Discharged
+927|556|16|2026-03-02 08:00|2026-03-04 22:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+928|556|16|2026-03-22 08:00|2026-03-25 14:00| URGENT |Referral|Synthetic encounter|-|-|Discharged
+929|557|36|2026-03-03 08:00|2026-03-03 15:00|Emergency|Emergency Department|Synthetic encounter|||Discharged
+930|557|1|2026-03-23 08:00|2026-03-28 02:00|Outpatient|Referral|Synthetic encounter|NULL|NULL|Discharged
+931|558|26|2026-03-04 08:00|2026-03-05 06:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+932|558|16|2026-03-24 08:00|2026-03-29 03:00|Outpatient|Referral|Synthetic encounter|||Discharged
+933|559|26|2026-03-05 08:00|NULL|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Admitted
+934|560|36|2026-03-06 08:00|2026-03-10 02:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+935|560|46|2026-03-26 08:00|| OUTPATIENT |Referral|Synthetic encounter|||Admitted
+936|561|36|2026-03-07 08:00|2026-03-09 01:00| URGENT |Referral|Synthetic encounter|NULL|NULL|Discharged
+937|561|1|2026-03-27 08:00|2026-03-30 06:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+938|562|11|2026-03-08 08:00|2026-03-13 03:00|Outpatient|Referral|Synthetic encounter|||Discharged
+939|562|6|2026-03-28 08:00|2026-03-31 22:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+940|563|36|2026-03-09 08:00|2026-03-10 04:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+941|563|31|2026-03-29 08:00|2026-03-29 15:00|Urgent|Referral|Synthetic encounter|||Discharged
+942|564|36|2026-03-10 08:00|2026-03-13 22:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+943|565|6|2026-03-11 08:00|2026-03-13 12:00|Elective|Referral|Synthetic encounter|-|-|Discharged
+944|565|26|2026-03-31 08:00|2026-04-01 04:00|Urgent|Referral|Synthetic encounter|||Discharged
+945|566|41|2026-03-12 08:00|2026-03-13 07:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+946|566|1|2026-04-01 08:00|2026-04-03 17:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+947|567|41|2026-03-13 08:00|2026-03-17 03:00|Urgent|Referral|Synthetic encounter|||Discharged
+948|567|46|2026-04-02 08:00|2026-04-03 07:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+949|568|16|2026-03-14 08:00|2026-03-15 10:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+950|568|26|2026-04-03 08:00|2026-04-07 22:00|Elective|Referral|Synthetic encounter|||Discharged
+156|87|16|2026-04-22 08:00|2026-04-22 21:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged
+679|407|36|2026-01-12 08:00|2026-01-16 16:00|Urgent|Referral|Synthetic encounter|-|-|Discharged
+414|243|46|2026-02-17 08:00|2026-02-18 03:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+295|171|41|2026-03-17 08:00|2026-03-19 09:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+585|349|16|2026-03-15 08:00|2026-03-17 10:00|Elective|Referral|Synthetic encounter|NULL|NULL|Discharged
+817|492|26|2026-04-07 08:00|2026-04-11 03:00|Emergency|Emergency Department|Synthetic encounter|-|-|Discharged
+764|460|16|2026-03-06 08:00|2026-03-07 01:00|Elective|Referral|Synthetic encounter|||Discharged
+316|185|46|2026-03-31 08:00|2026-04-03 16:00|Outpatient|Referral|Synthetic encounter|-|-|Discharged
+746|448|36|2026-03-14 08:00|2026-03-16 21:00|Outpatient|Referral|Synthetic encounter|||Discharged
+651|390|26|2026-04-05 08:00|2026-04-10 07:00|Emergency|Emergency Department|Synthetic encounter|NULL|NULL|Discharged

@@ -1,0 +1,1036 @@
+source,entity,local_id,issue,field,original_value,planted_value,status,details
+A,patients,301,cross_source_true_match,(identity),{},{},applied,Counterpart: B patient 381
+B,patients,381,cross_source_true_match,(identity),"{""first_name"": ""GivenB0381"", ""last_name"": ""PatientB0381"", ""date_of_birth"": ""1998-05-09"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-B-00381""}","{""first_name"": ""GivenA0301"", ""last_name"": ""PatientA0301"", ""date_of_birth"": ""1947-11-06"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-A-00301""}",applied,Counterpart: A patient 301
+A,patients,422,cross_source_true_match,(identity),{},{},applied,Counterpart: B patient 329
+B,patients,329,cross_source_true_match,(identity),"{""first_name"": ""GivenB0329"", ""last_name"": ""PatientB0329"", ""date_of_birth"": ""1973-05-01"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-B-00329""}","{""first_name"": ""GivenA0422"", ""last_name"": ""PatientA0422"", ""date_of_birth"": ""2004-06-19"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-A-00422""}",applied,Counterpart: A patient 422
+A,patients,497,cross_source_true_match,(identity),{},{},applied,Counterpart: B patient 9
+B,patients,9,cross_source_true_match,(identity),"{""first_name"": ""GivenB0009"", ""last_name"": ""PatientB0009"", ""date_of_birth"": ""2006-06-10"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-B-00009""}","{""first_name"": ""GivenA0497"", ""last_name"": ""PatientA0497"", ""date_of_birth"": ""2008-11-04"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-A-00497""}",applied,Counterpart: A patient 497
+A,patients,461,cross_source_true_match,(identity),{},{},applied,Counterpart: B patient 220
+B,patients,220,cross_source_true_match,(identity),"{""first_name"": ""GivenB0220"", ""last_name"": ""PatientB0220"", ""date_of_birth"": ""2010-02-11"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-B-00220""}","{""first_name"": ""GivenA0461"", ""last_name"": ""PatientA0461"", ""date_of_birth"": ""1962-03-07"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-A-00461""}",applied,Counterpart: A patient 461
+A,patients,179,cross_source_true_match,(identity),{},{},applied,Counterpart: B patient 96
+B,patients,96,cross_source_true_match,(identity),"{""first_name"": ""GivenB0096"", ""last_name"": ""PatientB0096"", ""date_of_birth"": ""1983-09-12"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-B-00096""}","{""first_name"": ""GivenA0179"", ""last_name"": ""PatientA0179"", ""date_of_birth"": ""1974-05-15"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-A-00179""}",applied,Counterpart: A patient 179
+A,patients,371,cross_source_true_match,(identity),{},{},applied,Counterpart: B patient 511
+B,patients,511,cross_source_true_match,(identity),"{""first_name"": ""GivenB0511"", ""last_name"": ""PatientB0511"", ""date_of_birth"": ""1980-04-24"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-B-00511""}","{""first_name"": ""GivenA0371"", ""last_name"": ""PatientA0371"", ""date_of_birth"": ""2003-06-25"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-A-00371""}",applied,Counterpart: A patient 371
+A,patients,4,cross_source_true_match,(identity),{},{},applied,Counterpart: B patient 547
+B,patients,547,cross_source_true_match,(identity),"{""first_name"": ""GivenB0547"", ""last_name"": ""PatientB0547"", ""date_of_birth"": ""1992-03-21"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-B-00547""}","{""first_name"": ""GivenA0004"", ""last_name"": ""PatientA0004"", ""date_of_birth"": ""1947-06-14"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-A-00004""}",applied,Counterpart: A patient 4
+A,patients,103,cross_source_true_match,(identity),{},{},applied,Counterpart: B patient 525
+B,patients,525,cross_source_true_match,(identity),"{""first_name"": ""GivenB0525"", ""last_name"": ""PatientB0525"", ""date_of_birth"": ""1964-03-16"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-B-00525""}","{""first_name"": ""GivenA0103"", ""last_name"": ""PatientA0103"", ""date_of_birth"": ""2003-03-31"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-A-00103""}",applied,Counterpart: A patient 103
+A,patients,541,cross_source_true_match,(identity),{},{},applied,Counterpart: B patient 564
+B,patients,564,cross_source_true_match,(identity),"{""first_name"": ""GivenB0564"", ""last_name"": ""PatientB0564"", ""date_of_birth"": ""1991-10-31"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-B-00564""}","{""first_name"": ""GivenA0541"", ""last_name"": ""PatientA0541"", ""date_of_birth"": ""1962-03-04"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-A-00541""}",applied,Counterpart: A patient 541
+A,patients,466,cross_source_true_match,(identity),{},{},applied,Counterpart: B patient 528
+B,patients,528,cross_source_true_match,(identity),"{""first_name"": ""GivenB0528"", ""last_name"": ""PatientB0528"", ""date_of_birth"": ""2005-12-29"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-B-00528""}","{""first_name"": ""GivenA0466"", ""last_name"": ""PatientA0466"", ""date_of_birth"": ""1947-02-17"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-A-00466""}",applied,Counterpart: A patient 466
+A,patients,537,cross_source_true_match,(identity),{},{},applied,Counterpart: B patient 259
+B,patients,259,cross_source_true_match,(identity),"{""first_name"": ""GivenB0259"", ""last_name"": ""PatientB0259"", ""date_of_birth"": ""1963-01-17"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-B-00259""}","{""first_name"": ""GivenA0537"", ""last_name"": ""PatientA0537"", ""date_of_birth"": ""1947-02-09"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-A-00537""}",applied,Counterpart: A patient 537
+A,patients,42,cross_source_true_match,(identity),{},{},applied,Counterpart: B patient 31
+B,patients,31,cross_source_true_match,(identity),"{""first_name"": ""GivenB0031"", ""last_name"": ""PatientB0031"", ""date_of_birth"": ""1962-08-31"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-B-00031""}","{""first_name"": ""GivenA0042"", ""last_name"": ""PatientA0042"", ""date_of_birth"": ""1965-12-24"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-A-00042""}",applied,Counterpart: A patient 42
+A,patients,524,cross_source_true_match,(identity),{},{},applied,Counterpart: B patient 19
+B,patients,19,cross_source_true_match,(identity),"{""first_name"": ""GivenB0019"", ""last_name"": ""PatientB0019"", ""date_of_birth"": ""2001-05-03"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-B-00019""}","{""first_name"": ""GivenA0524"", ""last_name"": ""PatientA0524"", ""date_of_birth"": ""2007-01-11"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-A-00524""}",applied,Counterpart: A patient 524
+A,patients,217,cross_source_name_only,(identity),{},{},applied,Counterpart: B patient 617
+B,patients,617,cross_source_name_only,(identity),"{""first_name"": ""GivenB0617"", ""last_name"": ""PatientB0617""}","{""first_name"": ""GivenA0217"", ""last_name"": ""PatientA0217""}",applied,Counterpart: A patient 217
+A,patients,214,cross_source_name_only,(identity),{},{},applied,Counterpart: B patient 310
+B,patients,310,cross_source_name_only,(identity),"{""first_name"": ""GivenB0310"", ""last_name"": ""PatientB0310""}","{""first_name"": ""GivenA0214"", ""last_name"": ""PatientA0214""}",applied,Counterpart: A patient 214
+A,patients,142,cross_source_name_only,(identity),{},{},applied,Counterpart: B patient 409
+B,patients,409,cross_source_name_only,(identity),"{""first_name"": ""GivenB0409"", ""last_name"": ""PatientB0409""}","{""first_name"": ""GivenA0142"", ""last_name"": ""PatientA0142""}",applied,Counterpart: A patient 142
+A,patients,264,cross_source_name_only,(identity),{},{},applied,Counterpart: B patient 3
+B,patients,3,cross_source_name_only,(identity),"{""first_name"": ""GivenB0003"", ""last_name"": ""PatientB0003""}","{""first_name"": ""GivenA0264"", ""last_name"": ""PatientA0264""}",applied,Counterpart: A patient 264
+A,patients,83,cross_source_name_only,(identity),{},{},applied,Counterpart: B patient 171
+B,patients,171,cross_source_name_only,(identity),"{""first_name"": ""GivenB0171"", ""last_name"": ""PatientB0171""}","{""first_name"": ""GivenA0083"", ""last_name"": ""PatientA0083""}",applied,Counterpart: A patient 83
+A,patients,349,cross_source_uncertain,(identity),"{""health_insurance_number"": ""P2-A-00349""}","{""health_insurance_number"": null}",applied,Counterpart: B patient 23
+B,patients,23,cross_source_uncertain,(identity),"{""first_name"": ""GivenB0023"", ""last_name"": ""PatientB0023"", ""date_of_birth"": ""1966-03-01"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-B-00023""}","{""first_name"": ""GivenA0349"", ""last_name"": ""PatientA0349"", ""date_of_birth"": ""1940-02-02"", ""gender"": ""Male"", ""health_insurance_number"": null}",applied,Counterpart: A patient 349
+A,patients,478,cross_source_uncertain,(identity),"{""health_insurance_number"": ""P2-A-00478""}","{""health_insurance_number"": null}",applied,Counterpart: B patient 618
+B,patients,618,cross_source_uncertain,(identity),"{""first_name"": ""GivenB0618"", ""last_name"": ""PatientB0618"", ""date_of_birth"": ""2000-03-18"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-B-00618""}","{""first_name"": ""GivenA0478"", ""last_name"": ""PatientA0478"", ""date_of_birth"": ""1988-11-02"", ""gender"": ""Female"", ""health_insurance_number"": null}",applied,Counterpart: A patient 478
+A,patients,345,cross_source_uncertain,(identity),"{""health_insurance_number"": ""P2-A-00345""}","{""health_insurance_number"": null}",applied,Counterpart: B patient 509
+B,patients,509,cross_source_uncertain,(identity),"{""first_name"": ""GivenB0509"", ""last_name"": ""PatientB0509"", ""date_of_birth"": ""1960-05-31"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-B-00509""}","{""first_name"": ""GivenA0345"", ""last_name"": ""PatientA0345"", ""date_of_birth"": ""1966-07-14"", ""gender"": ""Female"", ""health_insurance_number"": null}",applied,Counterpart: A patient 345
+A,patients,402,cross_source_uncertain,(identity),"{""health_insurance_number"": ""P2-A-00402""}","{""health_insurance_number"": null}",applied,Counterpart: B patient 226
+B,patients,226,cross_source_uncertain,(identity),"{""first_name"": ""GivenB0226"", ""last_name"": ""PatientB0226"", ""date_of_birth"": ""2010-05-04"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-B-00226""}","{""first_name"": ""GivenA0402"", ""last_name"": ""PatientA0402"", ""date_of_birth"": ""1955-06-04"", ""gender"": ""Female"", ""health_insurance_number"": null}",applied,Counterpart: A patient 402
+A,patients,356,cross_source_uncertain,(identity),"{""health_insurance_number"": ""P2-A-00356""}","{""health_insurance_number"": null}",applied,Counterpart: B patient 499
+B,patients,499,cross_source_uncertain,(identity),"{""first_name"": ""GivenB0499"", ""last_name"": ""PatientB0499"", ""date_of_birth"": ""1993-08-09"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-B-00499""}","{""first_name"": ""GivenA0356"", ""last_name"": ""PatientA0356"", ""date_of_birth"": ""1963-01-25"", ""gender"": ""Male"", ""health_insurance_number"": null}",applied,Counterpart: A patient 356
+C,patients,331,cross_source_true_match,(identity),{},{},applied,Counterpart: D patient 586
+D,patients,586,cross_source_true_match,(identity),"{""first_name"": ""GivenD0586"", ""last_name"": ""PatientD0586"", ""date_of_birth"": ""1979-03-31"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-D-00586""}","{""first_name"": ""GivenC0331"", ""last_name"": ""PatientC0331"", ""date_of_birth"": ""1989-12-05"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-C-00331""}",applied,Counterpart: C patient 331
+C,patients,228,cross_source_true_match,(identity),{},{},applied,Counterpart: D patient 409
+D,patients,409,cross_source_true_match,(identity),"{""first_name"": ""GivenD0409"", ""last_name"": ""PatientD0409"", ""date_of_birth"": ""1970-08-09"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-D-00409""}","{""first_name"": ""GivenC0228"", ""last_name"": ""PatientC0228"", ""date_of_birth"": ""1979-04-16"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-C-00228""}",applied,Counterpart: C patient 228
+C,patients,382,cross_source_true_match,(identity),{},{},applied,Counterpart: D patient 309
+D,patients,309,cross_source_true_match,(identity),"{""first_name"": ""GivenD0309"", ""last_name"": ""PatientD0309"", ""date_of_birth"": ""1965-08-01"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-D-00309""}","{""first_name"": ""GivenC0382"", ""last_name"": ""PatientC0382"", ""date_of_birth"": ""1973-01-18"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-C-00382""}",applied,Counterpart: C patient 382
+C,patients,64,cross_source_true_match,(identity),{},{},applied,Counterpart: D patient 96
+D,patients,96,cross_source_true_match,(identity),"{""first_name"": ""GivenD0096"", ""last_name"": ""PatientD0096"", ""date_of_birth"": ""2004-04-25"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-D-00096""}","{""first_name"": ""GivenC0064"", ""last_name"": ""PatientC0064"", ""date_of_birth"": ""1965-09-14"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-C-00064""}",applied,Counterpart: C patient 64
+C,patients,354,cross_source_true_match,(identity),{},{},applied,Counterpart: D patient 242
+D,patients,242,cross_source_true_match,(identity),"{""first_name"": ""GivenD0242"", ""last_name"": ""PatientD0242"", ""date_of_birth"": ""1968-01-16"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-D-00242""}","{""first_name"": ""GivenC0354"", ""last_name"": ""PatientC0354"", ""date_of_birth"": ""1989-10-16"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-C-00354""}",applied,Counterpart: C patient 354
+C,patients,497,cross_source_true_match,(identity),{},{},applied,Counterpart: D patient 156
+D,patients,156,cross_source_true_match,(identity),"{""first_name"": ""GivenD0156"", ""last_name"": ""PatientD0156"", ""date_of_birth"": ""1979-07-09"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-D-00156""}","{""first_name"": ""GivenC0497"", ""last_name"": ""PatientC0497"", ""date_of_birth"": ""1994-07-07"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-C-00497""}",applied,Counterpart: C patient 497
+C,patients,412,cross_source_true_match,(identity),{},{},applied,Counterpart: D patient 429
+D,patients,429,cross_source_true_match,(identity),"{""first_name"": ""GivenD0429"", ""last_name"": ""PatientD0429"", ""date_of_birth"": ""1963-03-23"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-D-00429""}","{""first_name"": ""GivenC0412"", ""last_name"": ""PatientC0412"", ""date_of_birth"": ""1955-05-11"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-C-00412""}",applied,Counterpart: C patient 412
+C,patients,315,cross_source_true_match,(identity),{},{},applied,Counterpart: D patient 589
+D,patients,589,cross_source_true_match,(identity),"{""first_name"": ""GivenD0589"", ""last_name"": ""PatientD0589"", ""date_of_birth"": ""1944-11-28"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-D-00589""}","{""first_name"": ""GivenC0315"", ""last_name"": ""PatientC0315"", ""date_of_birth"": ""1946-11-30"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-C-00315""}",applied,Counterpart: C patient 315
+C,patients,159,cross_source_true_match,(identity),{},{},applied,Counterpart: D patient 269
+D,patients,269,cross_source_true_match,(identity),"{""first_name"": ""GivenD0269"", ""last_name"": ""PatientD0269"", ""date_of_birth"": ""1981-12-11"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-D-00269""}","{""first_name"": ""GivenC0159"", ""last_name"": ""PatientC0159"", ""date_of_birth"": ""1985-06-18"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-C-00159""}",applied,Counterpart: C patient 159
+C,patients,202,cross_source_true_match,(identity),{},{},applied,Counterpart: D patient 270
+D,patients,270,cross_source_true_match,(identity),"{""first_name"": ""GivenD0270"", ""last_name"": ""PatientD0270"", ""date_of_birth"": ""1950-04-29"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-D-00270""}","{""first_name"": ""GivenC0202"", ""last_name"": ""PatientC0202"", ""date_of_birth"": ""1961-02-18"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-C-00202""}",applied,Counterpart: C patient 202
+C,patients,101,cross_source_true_match,(identity),{},{},applied,Counterpart: D patient 70
+D,patients,70,cross_source_true_match,(identity),"{""first_name"": ""GivenD0070"", ""last_name"": ""PatientD0070"", ""date_of_birth"": ""2012-11-05"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-D-00070""}","{""first_name"": ""GivenC0101"", ""last_name"": ""PatientC0101"", ""date_of_birth"": ""1978-05-11"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-C-00101""}",applied,Counterpart: C patient 101
+C,patients,203,cross_source_true_match,(identity),{},{},applied,Counterpart: D patient 213
+D,patients,213,cross_source_true_match,(identity),"{""first_name"": ""GivenD0213"", ""last_name"": ""PatientD0213"", ""date_of_birth"": ""1982-05-23"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-D-00213""}","{""first_name"": ""GivenC0203"", ""last_name"": ""PatientC0203"", ""date_of_birth"": ""1963-11-16"", ""gender"": ""Female"", ""health_insurance_number"": ""P2-C-00203""}",applied,Counterpart: C patient 203
+C,patients,547,cross_source_name_only,(identity),{},{},applied,Counterpart: D patient 65
+D,patients,65,cross_source_name_only,(identity),"{""first_name"": ""GivenD0065"", ""last_name"": ""PatientD0065""}","{""first_name"": ""GivenC0547"", ""last_name"": ""PatientC0547""}",applied,Counterpart: C patient 547
+C,patients,264,cross_source_name_only,(identity),{},{},applied,Counterpart: D patient 479
+D,patients,479,cross_source_name_only,(identity),"{""first_name"": ""GivenD0479"", ""last_name"": ""PatientD0479""}","{""first_name"": ""GivenC0264"", ""last_name"": ""PatientC0264""}",applied,Counterpart: C patient 264
+C,patients,294,cross_source_name_only,(identity),{},{},applied,Counterpart: D patient 76
+D,patients,76,cross_source_name_only,(identity),"{""first_name"": ""GivenD0076"", ""last_name"": ""PatientD0076""}","{""first_name"": ""GivenC0294"", ""last_name"": ""PatientC0294""}",applied,Counterpart: C patient 294
+C,patients,23,cross_source_name_only,(identity),{},{},applied,Counterpart: D patient 5
+D,patients,5,cross_source_name_only,(identity),"{""first_name"": ""GivenD0005"", ""last_name"": ""PatientD0005""}","{""first_name"": ""GivenC0023"", ""last_name"": ""PatientC0023""}",applied,Counterpart: C patient 23
+C,patients,215,cross_source_name_only,(identity),{},{},applied,Counterpart: D patient 562
+D,patients,562,cross_source_name_only,(identity),"{""first_name"": ""GivenD0562"", ""last_name"": ""PatientD0562""}","{""first_name"": ""GivenC0215"", ""last_name"": ""PatientC0215""}",applied,Counterpart: C patient 215
+C,patients,183,cross_source_uncertain,(identity),"{""health_insurance_number"": ""P2-C-00183""}","{""health_insurance_number"": null}",applied,Counterpart: D patient 509
+D,patients,509,cross_source_uncertain,(identity),"{""first_name"": ""GivenD0509"", ""last_name"": ""PatientD0509"", ""date_of_birth"": ""1963-04-24"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-D-00509""}","{""first_name"": ""GivenC0183"", ""last_name"": ""PatientC0183"", ""date_of_birth"": ""1997-12-29"", ""gender"": ""Female"", ""health_insurance_number"": null}",applied,Counterpart: C patient 183
+C,patients,468,cross_source_uncertain,(identity),"{""health_insurance_number"": ""P2-C-00468""}","{""health_insurance_number"": null}",applied,Counterpart: D patient 461
+D,patients,461,cross_source_uncertain,(identity),"{""first_name"": ""GivenD0461"", ""last_name"": ""PatientD0461"", ""date_of_birth"": ""1959-09-12"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-D-00461""}","{""first_name"": ""GivenC0468"", ""last_name"": ""PatientC0468"", ""date_of_birth"": ""1989-01-10"", ""gender"": ""Female"", ""health_insurance_number"": null}",applied,Counterpart: C patient 468
+C,patients,580,cross_source_uncertain,(identity),"{""health_insurance_number"": ""P2-C-00580""}","{""health_insurance_number"": null}",applied,Counterpart: D patient 94
+D,patients,94,cross_source_uncertain,(identity),"{""first_name"": ""GivenD0094"", ""last_name"": ""PatientD0094"", ""date_of_birth"": ""1956-06-17"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-D-00094""}","{""first_name"": ""GivenC0580"", ""last_name"": ""PatientC0580"", ""date_of_birth"": ""1954-09-19"", ""gender"": ""Female"", ""health_insurance_number"": null}",applied,Counterpart: C patient 580
+C,patients,419,cross_source_uncertain,(identity),"{""health_insurance_number"": ""P2-C-00419""}","{""health_insurance_number"": null}",applied,Counterpart: D patient 311
+D,patients,311,cross_source_uncertain,(identity),"{""first_name"": ""GivenD0311"", ""last_name"": ""PatientD0311"", ""date_of_birth"": ""1979-07-06"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-D-00311""}","{""first_name"": ""GivenC0419"", ""last_name"": ""PatientC0419"", ""date_of_birth"": ""2003-02-21"", ""gender"": ""Male"", ""health_insurance_number"": null}",applied,Counterpart: C patient 419
+C,patients,523,cross_source_uncertain,(identity),"{""health_insurance_number"": ""P2-C-00523""}","{""health_insurance_number"": null}",applied,Counterpart: D patient 82
+D,patients,82,cross_source_uncertain,(identity),"{""first_name"": ""GivenD0082"", ""last_name"": ""PatientD0082"", ""date_of_birth"": ""1949-10-23"", ""gender"": ""Male"", ""health_insurance_number"": ""P2-D-00082""}","{""first_name"": ""GivenC0523"", ""last_name"": ""PatientC0523"", ""date_of_birth"": ""2000-02-20"", ""gender"": ""Female"", ""health_insurance_number"": null}",applied,Counterpart: C patient 523
+A,patients,571,within_source_duplicate_patients,patient_id,132,571,applied,Same insurance number and date of birth
+A,patients,572,within_source_duplicate_patients,patient_id,472,572,applied,Same insurance number and date of birth
+A,patients,573,within_source_duplicate_patients,patient_id,109,573,applied,Same insurance number and date of birth
+A,patients,574,within_source_duplicate_patients,patient_id,560,574,applied,Same insurance number and date of birth
+A,patients,575,within_source_duplicate_patients,patient_id,348,575,applied,Same insurance number and date of birth
+A,patients,576,within_source_duplicate_patients,patient_id,106,576,applied,Same insurance number and date of birth
+A,patients,577,within_source_duplicate_patients,patient_id,544,577,applied,Same insurance number and date of birth
+A,patients,578,within_source_duplicate_patients,patient_id,450,578,applied,Same insurance number and date of birth
+A,patients,579,within_source_duplicate_patients,patient_id,459,579,applied,Same insurance number and date of birth
+A,patients,580,within_source_duplicate_patients,patient_id,216,580,applied,Same insurance number and date of birth
+A,patients,581,within_source_duplicate_patients,patient_id,491,581,applied,Same insurance number and date of birth
+A,clinical_notes,162,missing_required,note_contents,"""Follow-up documented in synthetic summary.""",null,applied,
+A,clinical_notes,371,missing_required,note_contents,"""Recovery mentioned in synthetic progress note.""",null,applied,
+A,clinical_notes,191,missing_required,note_contents,"""Recovery mentioned in synthetic progress note.""",null,applied,
+A,clinical_notes,293,missing_required,note_contents,"""Recovery documented in synthetic summary.""",null,applied,
+A,patients,198,missing_optional,phone_number,"""555-0198""",null,applied,
+A,patients,178,missing_optional,phone_number,"""555-0178""",null,applied,
+A,patients,65,missing_optional,phone_number,"""555-0165""",null,applied,
+A,patients,30,missing_optional,phone_number,"""555-0130""",null,applied,
+A,patients,125,missing_optional,phone_number,"""555-0125""",null,applied,
+A,patients,300,missing_optional,phone_number,"""555-0100""",null,applied,
+A,patients,464,missing_optional,phone_number,"""555-0164""",null,applied,
+A,patients,99,missing_optional,phone_number,"""555-0199""",null,applied,
+A,patients,511,missing_optional,phone_number,"""555-0111""",null,applied,
+A,patients,157,missing_optional,phone_number,"""555-0157""",null,applied,
+A,patients,481,missing_optional,phone_number,"""555-0181""",null,applied,
+A,patients,342,missing_optional,phone_number,"""555-0142""",null,applied,
+A,patients,175,missing_optional,phone_number,"""555-0175""",null,applied,
+A,patients,102,missing_optional,phone_number,"""555-0102""",null,applied,
+A,patients,188,missing_optional,phone_number,"""555-0188""",null,applied,
+A,patients,530,missing_optional,phone_number,"""555-0130""",null,applied,
+A,patients,131,missing_optional,phone_number,"""555-0131""",null,applied,
+A,patients,494,missing_optional,phone_number,"""555-0194""",null,applied,
+A,patients,250,missing_optional,phone_number,"""555-0150""",null,applied,
+A,patients,56,missing_optional,phone_number,"""555-0156""",null,applied,
+A,patients,247,missing_optional,phone_number,"""555-0147""",null,applied,
+A,patients,276,missing_optional,phone_number,"""555-0176""",null,applied,
+A,patients,134,missing_optional,phone_number,"""555-0134""",null,applied,
+A,patients,194,missing_optional,phone_number,"""555-0194""",null,applied,
+A,patients,54,missing_optional,phone_number,"""555-0154""",null,applied,
+A,patients,305,missing_optional,phone_number,"""555-0105""",null,applied,
+A,patients,3,missing_optional,phone_number,"""555-0103""",null,applied,
+A,patients,122,missing_optional,phone_number,"""555-0122""",null,applied,
+A,patients,367,missing_optional,phone_number,"""555-0167""",null,applied,
+A,patients,79,missing_optional,phone_number,"""555-0179""",null,applied,
+A,patients,8,missing_optional,phone_number,"""555-0108""",null,applied,
+A,patients,64,missing_optional,phone_number,"""555-0164""",null,applied,
+A,patients,527,missing_optional,phone_number,"""555-0127""",null,applied,
+A,patients,498,missing_optional,phone_number,"""555-0198""",null,applied,
+A,patients,546,missing_optional,phone_number,"""555-0146""",null,applied,
+A,patients,442,missing_optional,phone_number,"""555-0142""",null,applied,
+A,patients,150,missing_optional,phone_number,"""555-0150""",null,applied,
+A,patients,418,missing_optional,phone_number,"""555-0118""",null,applied,
+A,patients,322,missing_optional,phone_number,"""555-0122""",null,applied,
+A,patients,233,missing_optional,phone_number,"""555-0133""",null,applied,
+A,patients,39,missing_optional,phone_number,"""555-0139""",null,applied,
+A,patients,294,missing_optional,phone_number,"""555-0194""",null,applied,
+A,patients,273,missing_optional,phone_number,"""555-0173""",null,applied,
+A,patients,384,missing_optional,phone_number,"""555-0184""",null,applied,
+A,patients,32,missing_optional,phone_number,"""555-0132""",null,applied,
+A,patients,377,missing_optional,phone_number,"""555-0177""",null,applied,
+A,patients,443,missing_optional,phone_number,"""555-0143""",null,applied,
+A,patients,502,missing_optional,phone_number,"""555-0102""",null,applied,
+A,patients,40,missing_optional,phone_number,"""555-0140""",null,applied,
+A,patients,167,missing_optional,phone_number,"""555-0167""",null,applied,
+A,patients,201,missing_optional,phone_number,"""555-0101""",null,applied,
+A,patients,73,missing_optional,phone_number,"""555-0173""",null,applied,
+A,patients,31,missing_optional,phone_number,"""555-0131""",null,applied,
+A,admissions,714,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+A,admissions,55,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+A,admissions,588,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+A,admissions,871,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+A,admissions,28,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+A,admissions,692,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+A,admissions,442,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+A,admissions,425,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+A,admissions,105,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+A,admissions,152,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+A,admissions,741,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+A,admissions,935,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+A,admissions,689,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+A,admissions,868,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+A,admissions,339,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+A,admissions,134,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+A,admissions,494,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+A,admissions,158,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+A,admissions,905,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+A,admissions,561,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+A,admissions,124,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+A,admissions,505,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+A,admissions,97,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+A,admissions,624,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+A,admissions,452,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+A,admissions,483,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+A,admissions,919,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+A,admissions,504,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+A,admissions,399,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+A,admissions,13,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+A,admissions,823,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+A,admissions,428,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+A,admissions,532,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+A,admissions,154,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+A,admissions,148,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+A,admissions,928,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+A,admissions,143,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+A,admissions,555,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+A,admissions,197,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+A,admissions,936,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+A,admissions,522,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+A,admissions,569,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+A,admissions,650,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+A,admissions,501,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+A,admissions,204,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+A,admissions,813,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+A,admissions,216,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+A,clinical_notes,97,invalid_date,note_datetime,"""2026-03-27T03:00:00""","""2026-02-30T09:00:00""",applied,
+A,clinical_notes,55,invalid_date,note_datetime,"""2026-02-07T08:30:00""","""2026-02-30T09:00:00""",applied,
+A,clinical_notes,114,invalid_date,note_datetime,"""2026-04-02T14:00:00""","""2026-02-30T09:00:00""",applied,
+A,clinical_notes,234,invalid_date,note_datetime,"""2026-03-14T10:00:00""","""2026-02-30T09:00:00""",applied,
+A,triage_assessments,152,invalid_numeric,pain_level,7,15,applied,
+A,triage_assessments,276,invalid_numeric,pain_level,3,15,applied,
+A,triage_assessments,488,invalid_numeric,pain_level,7,15,applied,
+A,triage_assessments,303,invalid_numeric,pain_level,6,15,applied,
+A,triage_assessments,533,invalid_numeric,pain_level,4,15,applied,
+A,triage_assessments,363,invalid_numeric,pain_level,2,15,applied,
+A,triage_assessments,362,invalid_numeric,pain_level,1,15,applied,
+A,triage_assessments,895,invalid_numeric,pain_level,6,15,applied,
+A,triage_assessments,724,invalid_numeric,pain_level,3,15,applied,
+A,diagnoses,495,broken_reference,icd9_code,"""466.0""","""999.99""",applied,
+A,diagnoses,1040,broken_reference,icd9_code,"""276.51""","""999.99""",applied,
+A,diagnoses,1086,broken_reference,icd9_code,"""486""","""999.99""",applied,
+A,diagnoses,666,broken_reference,icd9_code,"""820.8""","""999.99""",applied,
+A,diagnoses,780,broken_reference,icd9_code,"""401.9""","""999.99""",applied,
+A,diagnoses,149,broken_reference,icd9_code,"""466.0""","""999.99""",applied,
+A,diagnoses,493,broken_reference,icd9_code,"""003.0""","""999.99""",applied,
+A,unit_stays,135,chronology,exit_datetime,"""2026-02-16T04:00:00""","""2026-02-14T10:25:00""",applied,
+A,unit_stays,532,chronology,exit_datetime,"""2026-03-11T10:30:00""","""2026-03-11T07:55:00""",applied,
+A,unit_stays,732,chronology,exit_datetime,"""2026-03-15T00:00:00""","""2026-03-13T07:55:00""",applied,
+A,unit_stays,140,chronology,exit_datetime,"""2026-03-07T10:30:00""","""2026-03-07T07:55:00""",applied,
+A,unit_stays,25,chronology,exit_datetime,"""2026-01-15T13:00:00""","""2026-01-11T10:25:00""",applied,
+A,unit_stays,253,chronology,exit_datetime,"""2026-03-23T22:00:00""","""2026-03-21T10:25:00""",applied,
+A,unit_stays,342,chronology,exit_datetime,"""2026-01-27T10:30:00""","""2026-01-27T07:55:00""",applied,
+A,unit_stays,745,chronology,exit_datetime,"""2026-03-03T18:00:00""","""2026-03-02T07:55:00""",applied,
+A,unit_stays,747,chronology,exit_datetime,"""2026-03-06T10:00:00""","""2026-03-04T07:55:00""",applied,
+A,unit_stays,675,chronology,exit_datetime,"""2026-01-21T07:00:00""","""2026-01-20T07:55:00""",applied,
+A,unit_stays,105,chronology,exit_datetime,"""2026-02-07T02:00:00""","""2026-02-06T10:25:00""",applied,
+A,unit_stays,387,chronology,exit_datetime,"""2026-01-27T15:00:00""","""2026-01-25T10:25:00""",applied,
+A,diagnoses,417,missing_primary,(record),"{""diagnosis_id"": 417, ""patient_id"": 244, ""admission_id"": 417, ""icd9_code"": ""414.01"", ""diagnosing_physician_id"": 41, ""diagnosis_datetime"": ""2026-03-10T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 417 retains a secondary diagnosis
+A,diagnoses,313,missing_primary,(record),"{""diagnosis_id"": 313, ""patient_id"": 183, ""admission_id"": 313, ""icd9_code"": ""414.01"", ""diagnosing_physician_id"": 26, ""diagnosis_datetime"": ""2026-03-29T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 313 retains a secondary diagnosis
+A,diagnoses,775,missing_primary,(record),"{""diagnosis_id"": 775, ""patient_id"": 467, ""admission_id"": 775, ""icd9_code"": ""789.00"", ""diagnosing_physician_id"": 46, ""diagnosis_datetime"": ""2026-03-13T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 775 retains a secondary diagnosis
+A,diagnoses,430,missing_primary,(record),"{""diagnosis_id"": 430, ""patient_id"": 252, ""admission_id"": 430, ""icd9_code"": ""466.0"", ""diagnosing_physician_id"": 46, ""diagnosis_datetime"": ""2026-02-26T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 430 retains a secondary diagnosis
+A,diagnoses,65,missing_primary,(record),"{""diagnosis_id"": 65, ""patient_id"": 36, ""admission_id"": 65, ""icd9_code"": ""571.5"", ""diagnosing_physician_id"": 16, ""diagnosis_datetime"": ""2026-03-02T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 65 retains a secondary diagnosis
+A,clinical_notes,237,malformed_rows,(line),"""237|252|11|Discharge Summary|2026-02-24 10:00|Recovery documented in synthetic summary.""","""237|252|11|Discharge Summary|2026-02-24 10:00""",applied,A_clinical_notes.txt:239: final field removed
+A,admissions,156,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 156, ""patient_id"": 87, ""admitting_professional_id"": 16, ""admission_datetime"": ""2026-04-22T08:00:00"", ""discharge_datetime"": ""2026-04-22T21:00:00"", ""admission_type"": ""Emergency"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 951
+A,admissions,679,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 679, ""patient_id"": 407, ""admitting_professional_id"": 36, ""admission_datetime"": ""2026-01-12T08:00:00"", ""discharge_datetime"": ""2026-01-16T16:00:00"", ""admission_type"": ""Urgent"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 952
+A,admissions,414,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 414, ""patient_id"": 243, ""admitting_professional_id"": 46, ""admission_datetime"": ""2026-02-17T08:00:00"", ""discharge_datetime"": ""2026-02-18T03:00:00"", ""admission_type"": ""Elective"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 953
+A,admissions,295,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 295, ""patient_id"": 171, ""admitting_professional_id"": 41, ""admission_datetime"": ""2026-03-17T08:00:00"", ""discharge_datetime"": ""2026-03-19T09:00:00"", ""admission_type"": ""Outpatient"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 954
+A,admissions,585,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 585, ""patient_id"": 349, ""admitting_professional_id"": 16, ""admission_datetime"": ""2026-03-15T08:00:00"", ""discharge_datetime"": ""2026-03-17T10:00:00"", ""admission_type"": ""Elective"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 955
+A,admissions,817,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 817, ""patient_id"": 492, ""admitting_professional_id"": 26, ""admission_datetime"": ""2026-04-07T08:00:00"", ""discharge_datetime"": ""2026-04-11T03:00:00"", ""admission_type"": ""Emergency"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 956
+A,admissions,764,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 764, ""patient_id"": 460, ""admitting_professional_id"": 16, ""admission_datetime"": ""2026-03-06T08:00:00"", ""discharge_datetime"": ""2026-03-07T01:00:00"", ""admission_type"": ""Elective"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 957
+A,admissions,316,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 316, ""patient_id"": 185, ""admitting_professional_id"": 46, ""admission_datetime"": ""2026-03-31T08:00:00"", ""discharge_datetime"": ""2026-04-03T16:00:00"", ""admission_type"": ""Outpatient"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 958
+A,admissions,746,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 746, ""patient_id"": 448, ""admitting_professional_id"": 36, ""admission_datetime"": ""2026-03-14T08:00:00"", ""discharge_datetime"": ""2026-03-16T21:00:00"", ""admission_type"": ""Outpatient"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 959
+A,admissions,651,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 651, ""patient_id"": 390, ""admitting_professional_id"": 26, ""admission_datetime"": ""2026-04-05T08:00:00"", ""discharge_datetime"": ""2026-04-10T07:00:00"", ""admission_type"": ""Emergency"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 960
+A,diagnoses,1150,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1150, ""patient_id"": 548, ""admission_id"": 914, ""icd9_code"": ""465.9"", ""diagnosing_physician_id"": 1, ""diagnosis_datetime"": ""2026-03-14T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1421
+A,diagnoses,377,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 377, ""patient_id"": 223, ""admission_id"": 377, ""icd9_code"": ""780.2"", ""diagnosing_physician_id"": 26, ""diagnosis_datetime"": ""2026-01-28T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1422
+A,diagnoses,1073,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1073, ""patient_id"": 199, ""admission_id"": 338, ""icd9_code"": ""041.11"", ""diagnosing_physician_id"": 1, ""diagnosis_datetime"": ""2026-05-04T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1423
+A,diagnoses,1084,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1084, ""patient_id"": 385, ""admission_id"": 645, ""icd9_code"": ""789.00"", ""diagnosing_physician_id"": 46, ""diagnosis_datetime"": ""2026-04-20T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1424
+A,diagnoses,168,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 168, ""patient_id"": 94, ""admission_id"": 168, ""icd9_code"": ""038.9"", ""diagnosing_physician_id"": 21, ""diagnosis_datetime"": ""2026-04-29T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1425
+A,diagnoses,944,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 944, ""patient_id"": 565, ""admission_id"": 944, ""icd9_code"": ""427.31"", ""diagnosing_physician_id"": 46, ""diagnosis_datetime"": ""2026-03-31T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1426
+A,diagnoses,861,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 861, ""patient_id"": 517, ""admission_id"": 861, ""icd9_code"": ""780.60"", ""diagnosing_physician_id"": 11, ""diagnosis_datetime"": ""2026-01-22T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1427
+A,diagnoses,925,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 925, ""patient_id"": 554, ""admission_id"": 925, ""icd9_code"": ""428.0"", ""diagnosing_physician_id"": 1, ""diagnosis_datetime"": ""2026-03-20T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1428
+A,diagnoses,686,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 686, ""patient_id"": 411, ""admission_id"": 686, ""icd9_code"": ""584.9"", ""diagnosing_physician_id"": 11, ""diagnosis_datetime"": ""2026-02-05T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1429
+A,diagnoses,1081,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1081, ""patient_id"": 172, ""admission_id"": 296, ""icd9_code"": ""008.45"", ""diagnosing_physician_id"": 31, ""diagnosis_datetime"": ""2026-03-18T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1430
+A,diagnoses,18,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 18, ""patient_id"": 10, ""admission_id"": 18, ""icd9_code"": ""465.9"", ""diagnosing_physician_id"": 46, ""diagnosis_datetime"": ""2026-01-15T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1431
+A,diagnoses,1079,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1079, ""patient_id"": 234, ""admission_id"": 398, ""icd9_code"": ""466.0"", ""diagnosing_physician_id"": 31, ""diagnosis_datetime"": ""2026-02-28T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1432
+A,diagnoses,270,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 270, ""patient_id"": 156, ""admission_id"": 270, ""icd9_code"": ""272.4"", ""diagnosing_physician_id"": 11, ""diagnosis_datetime"": ""2026-03-22T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1433
+A,diagnoses,169,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 169, ""patient_id"": 95, ""admission_id"": 169, ""icd9_code"": ""715.90"", ""diagnosing_physician_id"": 31, ""diagnosis_datetime"": ""2026-04-10T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1434
+B,patients,625,within_source_duplicate_patients,patient_id,548,625,applied,Same insurance number and date of birth
+B,patients,626,within_source_duplicate_patients,patient_id,496,626,applied,Same insurance number and date of birth
+B,patients,627,within_source_duplicate_patients,patient_id,615,627,applied,Same insurance number and date of birth
+B,patients,628,within_source_duplicate_patients,patient_id,147,628,applied,Same insurance number and date of birth
+B,patients,629,within_source_duplicate_patients,patient_id,437,629,applied,Same insurance number and date of birth
+B,patients,630,within_source_duplicate_patients,patient_id,446,630,applied,Same insurance number and date of birth
+B,patients,631,within_source_duplicate_patients,patient_id,137,631,applied,Same insurance number and date of birth
+B,patients,632,within_source_duplicate_patients,patient_id,428,632,applied,Same insurance number and date of birth
+B,patients,633,within_source_duplicate_patients,patient_id,54,633,applied,Same insurance number and date of birth
+B,patients,634,within_source_duplicate_patients,patient_id,119,634,applied,Same insurance number and date of birth
+B,patients,635,within_source_duplicate_patients,patient_id,398,635,applied,Same insurance number and date of birth
+B,patients,636,within_source_duplicate_patients,patient_id,404,636,applied,Same insurance number and date of birth
+B,clinical_notes,366,missing_required,note_contents,"""Follow-up documented in synthetic summary.""",null,applied,
+B,clinical_notes,68,missing_required,note_contents,"""Synthetic initial evaluation.""",null,applied,
+B,clinical_notes,297,missing_required,note_contents,"""Recovery documented in synthetic summary.""",null,applied,
+B,clinical_notes,322,missing_required,note_contents,"""Follow-up documented in synthetic summary.""",null,applied,
+B,patients,345,missing_optional,phone_number,"""555-0145""",null,applied,
+B,patients,337,missing_optional,phone_number,"""555-0137""",null,applied,
+B,patients,93,missing_optional,phone_number,"""555-0193""",null,applied,
+B,patients,382,missing_optional,phone_number,"""555-0182""",null,applied,
+B,patients,190,missing_optional,phone_number,"""555-0190""",null,applied,
+B,patients,439,missing_optional,phone_number,"""555-0139""",null,applied,
+B,patients,555,missing_optional,phone_number,"""555-0155""",null,applied,
+B,patients,461,missing_optional,phone_number,"""555-0161""",null,applied,
+B,patients,242,missing_optional,phone_number,"""555-0142""",null,applied,
+B,patients,253,missing_optional,phone_number,"""555-0153""",null,applied,
+B,patients,442,missing_optional,phone_number,"""555-0142""",null,applied,
+B,patients,456,missing_optional,phone_number,"""555-0156""",null,applied,
+B,patients,430,missing_optional,phone_number,"""555-0130""",null,applied,
+B,patients,331,missing_optional,phone_number,"""555-0131""",null,applied,
+B,patients,61,missing_optional,phone_number,"""555-0161""",null,applied,
+B,patients,447,missing_optional,phone_number,"""555-0147""",null,applied,
+B,patients,151,missing_optional,phone_number,"""555-0151""",null,applied,
+B,patients,544,missing_optional,phone_number,"""555-0144""",null,applied,
+B,patients,273,missing_optional,phone_number,"""555-0173""",null,applied,
+B,patients,448,missing_optional,phone_number,"""555-0148""",null,applied,
+B,patients,500,missing_optional,phone_number,"""555-0100""",null,applied,
+B,patients,178,missing_optional,phone_number,"""555-0178""",null,applied,
+B,patients,63,missing_optional,phone_number,"""555-0163""",null,applied,
+B,patients,117,missing_optional,phone_number,"""555-0117""",null,applied,
+B,patients,303,missing_optional,phone_number,"""555-0103""",null,applied,
+B,patients,424,missing_optional,phone_number,"""555-0124""",null,applied,
+B,patients,268,missing_optional,phone_number,"""555-0168""",null,applied,
+B,patients,167,missing_optional,phone_number,"""555-0167""",null,applied,
+B,patients,289,missing_optional,phone_number,"""555-0189""",null,applied,
+B,patients,29,missing_optional,phone_number,"""555-0129""",null,applied,
+B,patients,306,missing_optional,phone_number,"""555-0106""",null,applied,
+B,patients,43,missing_optional,phone_number,"""555-0143""",null,applied,
+B,patients,103,missing_optional,phone_number,"""555-0103""",null,applied,
+B,patients,321,missing_optional,phone_number,"""555-0121""",null,applied,
+B,patients,261,missing_optional,phone_number,"""555-0161""",null,applied,
+B,patients,165,missing_optional,phone_number,"""555-0165""",null,applied,
+B,patients,369,missing_optional,phone_number,"""555-0169""",null,applied,
+B,patients,592,missing_optional,phone_number,"""555-0192""",null,applied,
+B,patients,195,missing_optional,phone_number,"""555-0195""",null,applied,
+B,patients,513,missing_optional,phone_number,"""555-0113""",null,applied,
+B,patients,279,missing_optional,phone_number,"""555-0179""",null,applied,
+B,patients,173,missing_optional,phone_number,"""555-0173""",null,applied,
+B,patients,464,missing_optional,phone_number,"""555-0164""",null,applied,
+B,patients,251,missing_optional,phone_number,"""555-0151""",null,applied,
+B,patients,578,missing_optional,phone_number,"""555-0178""",null,applied,
+B,patients,258,missing_optional,phone_number,"""555-0158""",null,applied,
+B,patients,613,missing_optional,phone_number,"""555-0113""",null,applied,
+B,patients,469,missing_optional,phone_number,"""555-0169""",null,applied,
+B,patients,498,missing_optional,phone_number,"""555-0198""",null,applied,
+B,patients,26,missing_optional,phone_number,"""555-0126""",null,applied,
+B,patients,202,missing_optional,phone_number,"""555-0102""",null,applied,
+B,patients,11,missing_optional,phone_number,"""555-0111""",null,applied,
+B,patients,567,missing_optional,phone_number,"""555-0167""",null,applied,
+B,patients,609,missing_optional,phone_number,"""555-0109""",null,applied,
+B,patients,232,missing_optional,phone_number,"""555-0132""",null,applied,
+B,patients,16,missing_optional,phone_number,"""555-0116""",null,applied,
+B,patients,407,missing_optional,phone_number,"""555-0107""",null,applied,
+B,patients,134,missing_optional,phone_number,"""555-0134""",null,applied,
+B,patients,68,missing_optional,phone_number,"""555-0168""",null,applied,
+B,admissions,338,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+B,admissions,913,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+B,admissions,926,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+B,admissions,842,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+B,admissions,154,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+B,admissions,1000,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+B,admissions,494,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+B,admissions,257,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+B,admissions,804,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+B,admissions,572,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+B,admissions,895,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+B,admissions,665,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+B,admissions,529,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+B,admissions,849,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+B,admissions,671,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+B,admissions,669,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+B,admissions,1008,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+B,admissions,873,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+B,admissions,727,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+B,admissions,569,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+B,admissions,337,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+B,admissions,807,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+B,admissions,456,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+B,admissions,907,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+B,admissions,778,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+B,admissions,425,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+B,admissions,524,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+B,admissions,623,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+B,admissions,119,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+B,admissions,901,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+B,admissions,652,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+B,admissions,369,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+B,admissions,103,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+B,admissions,245,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+B,admissions,870,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+B,admissions,843,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+B,admissions,925,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+B,admissions,205,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+B,admissions,672,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+B,admissions,41,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+B,admissions,503,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+B,admissions,505,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+B,admissions,50,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+B,admissions,508,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+B,admissions,752,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+B,admissions,919,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+B,admissions,219,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+B,admissions,240,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+B,admissions,464,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+B,admissions,174,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+B,admissions,553,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+B,admissions,207,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+B,clinical_notes,63,invalid_date,note_datetime,"""2026-07-24T08:30:00""","""2026-02-30T09:00:00""",applied,
+B,clinical_notes,107,invalid_date,note_datetime,"""2026-09-08T08:30:00""","""2026-02-30T09:00:00""",applied,
+B,clinical_notes,176,invalid_date,note_datetime,"""2026-06-22T08:30:00""","""2026-02-30T09:00:00""",applied,
+B,clinical_notes,209,invalid_date,note_datetime,"""2026-07-13T16:00:00""","""2026-02-30T09:00:00""",applied,
+B,triage_assessments,700,invalid_numeric,pain_level,3,15,applied,
+B,triage_assessments,507,invalid_numeric,pain_level,2,15,applied,
+B,triage_assessments,579,invalid_numeric,pain_level,2,15,applied,
+B,triage_assessments,746,invalid_numeric,pain_level,1,15,applied,
+B,triage_assessments,674,invalid_numeric,pain_level,1,15,applied,
+B,triage_assessments,591,invalid_numeric,pain_level,6,15,applied,
+B,triage_assessments,966,invalid_numeric,pain_level,5,15,applied,
+B,triage_assessments,13,invalid_numeric,pain_level,4,15,applied,
+B,triage_assessments,546,invalid_numeric,pain_level,1,15,applied,
+B,triage_assessments,349,invalid_numeric,pain_level,4,15,applied,
+B,diagnoses,644,broken_reference,icd9_code,"""401.9""","""999.99""",applied,
+B,diagnoses,1374,broken_reference,icd9_code,"""564.00""","""999.99""",applied,
+B,diagnoses,513,broken_reference,icd9_code,"""493.90""","""999.99""",applied,
+B,diagnoses,157,broken_reference,icd9_code,"""300.00""","""999.99""",applied,
+B,diagnoses,764,broken_reference,icd9_code,"""041.11""","""999.99""",applied,
+B,diagnoses,856,broken_reference,icd9_code,"""518.81""","""999.99""",applied,
+B,diagnoses,1182,broken_reference,icd9_code,"""276.51""","""999.99""",applied,
+B,diagnoses,1260,broken_reference,icd9_code,"""410.91""","""999.99""",applied,
+B,diagnoses,298,broken_reference,icd9_code,"""493.90""","""999.99""",applied,
+B,diagnoses,431,broken_reference,icd9_code,"""535.50""","""999.99""",applied,
+B,diagnoses,1132,broken_reference,icd9_code,"""465.9""","""999.99""",applied,
+B,diagnoses,1059,broken_reference,icd9_code,"""438.20""","""999.99""",applied,
+B,unit_stays,1232,chronology,exit_datetime,"""2026-07-30T16:00:00""","""2026-07-30T07:55:00""",applied,
+B,unit_stays,545,chronology,exit_datetime,"""2026-08-28T04:00:00""","""2026-08-23T10:25:00""",applied,
+B,unit_stays,786,chronology,exit_datetime,"""2026-08-26T19:00:00""","""2026-08-24T07:55:00""",applied,
+B,unit_stays,990,chronology,exit_datetime,"""2026-09-20T05:00:00""","""2026-09-17T07:55:00""",applied,
+B,unit_stays,1318,chronology,exit_datetime,"""2026-06-19T03:00:00""","""2026-06-14T07:55:00""",applied,
+B,unit_stays,733,chronology,exit_datetime,"""2026-07-24T22:00:00""","""2026-07-20T07:55:00""",applied,
+B,unit_stays,268,chronology,exit_datetime,"""2026-09-05T10:30:00""","""2026-09-05T07:55:00""",applied,
+B,unit_stays,605,chronology,exit_datetime,"""2026-09-16T11:00:00""","""2026-09-12T10:25:00""",applied,
+B,unit_stays,333,chronology,exit_datetime,"""2026-07-09T13:00:00""","""2026-07-06T10:25:00""",applied,
+B,unit_stays,771,chronology,exit_datetime,"""2026-08-17T04:00:00""","""2026-08-14T07:55:00""",applied,
+B,unit_stays,1314,chronology,exit_datetime,"""2026-10-13T11:00:00""","""2026-10-09T07:55:00""",applied,
+B,unit_stays,1074,chronology,exit_datetime,"""2026-08-06T16:00:00""","""2026-08-02T07:55:00""",applied,
+B,unit_stays,1255,chronology,exit_datetime,"""2026-08-15T11:00:00""","""2026-08-13T07:55:00""",applied,
+B,diagnoses,1089,icd9_format,icd9_code,"""003.0""","""0030""",applied,
+B,diagnoses,496,icd9_format,icd9_code,"""780.60""","""78060""",applied,
+B,diagnoses,649,icd9_format,icd9_code,"""820.8""","""8208""",applied,
+B,diagnoses,724,icd9_format,icd9_code,"""434.91""","""43491""",applied,
+B,diagnoses,467,icd9_format,icd9_code,"""530.81""","""53081""",applied,
+B,diagnoses,1128,icd9_format,icd9_code,"""414.01""","""41401""",applied,
+B,diagnoses,1191,icd9_format,icd9_code,"""584.9""","""5849""",applied,
+B,diagnoses,77,icd9_format,icd9_code,"""564.00""","""56400""",applied,
+B,diagnoses,372,icd9_format,icd9_code,"""427.31""","""42731""",applied,
+B,diagnoses,486,icd9_format,icd9_code,"""584.9""","""5849""",applied,
+B,diagnoses,657,icd9_format,icd9_code,"""584.9""","""5849""",applied,
+B,diagnoses,246,icd9_format,icd9_code,"""410.91""","""41091""",applied,
+B,diagnoses,316,icd9_format,icd9_code,"""285.9""","""2859""",applied,
+B,diagnoses,231,icd9_format,icd9_code,"""008.45""","""00845""",applied,
+B,diagnoses,491,icd9_format,icd9_code,"""518.81""","""51881""",applied,
+B,diagnoses,346,icd9_format,icd9_code,"""564.00""","""56400""",applied,
+B,diagnoses,192,icd9_format,icd9_code,"""466.0""","""4660""",applied,
+B,diagnoses,278,icd9_format,icd9_code,"""438.20""","""43820""",applied,
+B,diagnoses,223,icd9_format,icd9_code,"""438.20""","""43820""",applied,
+B,diagnoses,589,icd9_format,icd9_code,"""466.0""","""4660""",applied,
+B,diagnoses,20,icd9_format,icd9_code,"""414.01""","""41401""",applied,
+B,diagnoses,775,icd9_format,icd9_code,"""466.0""","""4660""",applied,
+B,diagnoses,1064,icd9_format,icd9_code,"""272.4""","""2724""",applied,
+B,diagnoses,428,icd9_format,icd9_code,"""571.5""","""5715""",applied,
+B,diagnoses,160,icd9_format,icd9_code,"""070.54""","""07054""",applied,
+B,diagnoses,953,icd9_format,icd9_code,"""715.90""","""71590""",applied,
+B,diagnoses,661,icd9_format,icd9_code,"""003.0""","""0030""",applied,
+B,diagnoses,1253,icd9_format,icd9_code,"""038.9""","""0389""",applied,
+B,diagnoses,1550,icd9_format,icd9_code,"""428.0""","""4280""",applied,
+B,diagnoses,600,icd9_format,icd9_code,"""070.54""","""07054""",applied,
+B,diagnoses,1087,icd9_format,icd9_code,"""466.0""","""4660""",applied,
+B,diagnoses,1458,icd9_format,icd9_code,"""564.00""","""56400""",applied,
+B,diagnoses,287,icd9_format,icd9_code,"""285.9""","""2859""",applied,
+B,diagnoses,315,icd9_format,icd9_code,"""276.51""","""27651""",applied,
+B,diagnoses,89,icd9_format,icd9_code,"""250.00""","""25000""",applied,
+B,diagnoses,1237,icd9_format,icd9_code,"""008.45""","""00845""",applied,
+B,diagnoses,56,icd9_format,icd9_code,"""493.90""","""49390""",applied,
+B,diagnoses,1370,icd9_format,icd9_code,"""300.00""","""30000""",applied,
+B,diagnoses,338,icd9_format,icd9_code,"""003.0""","""0030""",applied,
+B,diagnoses,148,icd9_format,icd9_code,"""008.45""","""00845""",applied,
+B,diagnoses,930,icd9_format,icd9_code,"""789.00""","""78900""",applied,
+B,diagnoses,479,icd9_format,icd9_code,"""465.9""","""4659""",applied,
+B,diagnoses,641,icd9_format,icd9_code,"""820.8""","""8208""",applied,
+B,diagnoses,756,icd9_format,icd9_code,"""715.90""","""71590""",applied,
+B,diagnoses,221,icd9_format,icd9_code,"""414.01""","""41401""",applied,
+B,diagnoses,368,icd9_format,icd9_code,"""584.9""","""5849""",applied,
+B,diagnoses,992,icd9_format,icd9_code,"""427.31""","""42731""",applied,
+B,diagnoses,178,icd9_format,icd9_code,"""300.00""","""30000""",applied,
+B,diagnoses,332,icd9_format,icd9_code,"""820.8""","""8208""",applied,
+B,diagnoses,895,icd9_format,icd9_code,"""438.20""","""43820""",applied,
+B,diagnoses,70,icd9_format,icd9_code,"""003.0""","""0030""",applied,
+B,diagnoses,757,icd9_format,icd9_code,"""003.0""","""0030""",applied,
+B,diagnoses,458,icd9_format,icd9_code,"""272.4""","""2724""",applied,
+B,diagnoses,1049,icd9_format,icd9_code,"""789.00""","""78900""",applied,
+B,diagnoses,25,icd9_format,icd9_code,"""250.00""","""25000""",applied,
+B,diagnoses,1317,icd9_format,icd9_code,"""585.3""","""5853""",applied,
+B,diagnoses,666,icd9_format,icd9_code,"""571.5""","""5715""",applied,
+B,diagnoses,1021,icd9_format,icd9_code,"""518.81""","""51881""",applied,
+B,diagnoses,920,icd9_format,icd9_code,"""491.21""","""49121""",applied,
+B,diagnoses,451,icd9_format,icd9_code,"""564.00""","""56400""",applied,
+B,diagnoses,793,icd9_format,icd9_code,"""466.0""","""4660""",applied,
+B,diagnoses,1104,icd9_format,icd9_code,"""789.00""","""78900""",applied,
+B,diagnoses,1225,icd9_format,icd9_code,"""724.2""","""7242""",applied,
+B,diagnoses,120,icd9_format,icd9_code,"""599.0""","""5990""",applied,
+B,diagnoses,299,icd9_format,icd9_code,"""585.3""","""5853""",applied,
+B,diagnoses,1286,icd9_format,icd9_code,"""300.00""","""30000""",applied,
+B,diagnoses,373,icd9_format,icd9_code,"""008.45""","""00845""",applied,
+B,diagnoses,1093,icd9_format,icd9_code,"""428.0""","""4280""",applied,
+B,diagnoses,347,icd9_format,icd9_code,"""786.50""","""78650""",applied,
+B,diagnoses,815,icd9_format,icd9_code,"""414.01""","""41401""",applied,
+B,diagnoses,495,icd9_format,icd9_code,"""571.5""","""5715""",applied,
+B,diagnoses,710,icd9_format,icd9_code,"""493.90""","""49390""",applied,
+B,diagnoses,1192,icd9_format,icd9_code,"""466.0""","""4660""",applied,
+B,diagnoses,171,icd9_format,icd9_code,"""427.31""","""42731""",applied,
+B,diagnoses,860,icd9_format,icd9_code,"""008.45""","""00845""",applied,
+B,diagnoses,410,icd9_format,icd9_code,"""300.00""","""30000""",applied,
+B,diagnoses,86,icd9_format,icd9_code,"""427.31""","""42731""",applied,
+B,diagnoses,926,icd9_format,icd9_code,"""820.8""","""8208""",applied,
+B,diagnoses,130,missing_primary,(record),"{""diagnosis_id"": 130, ""patient_id"": 75, ""admission_id"": 130, ""icd9_code"": ""410.91"", ""diagnosing_physician_id"": 41, ""diagnosis_datetime"": ""2026-09-17T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 130 retains a secondary diagnosis
+B,diagnoses,790,missing_primary,(record),"{""diagnosis_id"": 790, ""patient_id"": 474, ""admission_id"": 790, ""icd9_code"": ""715.90"", ""diagnosing_physician_id"": 26, ""diagnosis_datetime"": ""2026-08-27T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 790 retains a secondary diagnosis
+B,diagnoses,17,missing_primary,(record),"{""diagnosis_id"": 17, ""patient_id"": 9, ""admission_id"": 17, ""icd9_code"": ""438.20"", ""diagnosing_physician_id"": 1, ""diagnosis_datetime"": ""2026-06-23T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 17 retains a secondary diagnosis
+B,diagnoses,351,missing_primary,(record),"{""diagnosis_id"": 351, ""patient_id"": 209, ""admission_id"": 351, ""icd9_code"": ""311"", ""diagnosing_physician_id"": 31, ""diagnosis_datetime"": ""2026-06-23T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 351 retains a secondary diagnosis
+B,diagnoses,391,missing_primary,(record),"{""diagnosis_id"": 391, ""patient_id"": 234, ""admission_id"": 391, ""icd9_code"": ""820.8"", ""diagnosing_physician_id"": 6, ""diagnosis_datetime"": ""2026-07-18T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 391 retains a secondary diagnosis
+B,clinical_notes,145,malformed_rows,(line),"""145;153;51;Discharge Summary;04.10.2026 03:00;Recovery documented in synthetic summary.""","""145;153;51;Discharge Summary;04.10.2026 03:00""",applied,B_clinical_notes.csv:146: final field removed
+B,admissions,675,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 675, ""patient_id"": 403, ""admitting_professional_id"": 6, ""admission_datetime"": ""2026-07-07T08:00:00"", ""discharge_datetime"": ""2026-07-08T17:00:00"", ""admission_type"": ""Emergency"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1041
+B,admissions,401,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 401, ""patient_id"": 241, ""admitting_professional_id"": 41, ""admission_datetime"": ""2026-07-25T08:00:00"", ""discharge_datetime"": ""2026-07-26T08:00:00"", ""admission_type"": ""Urgent"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1042
+B,admissions,501,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 501, ""patient_id"": 302, ""admitting_professional_id"": 51, ""admission_datetime"": ""2026-06-16T08:00:00"", ""discharge_datetime"": ""2026-06-18T15:00:00"", ""admission_type"": ""Urgent"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1043
+B,admissions,595,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 595, ""patient_id"": 357, ""admitting_professional_id"": 51, ""admission_datetime"": ""2026-08-30T08:00:00"", ""discharge_datetime"": ""2026-09-02T01:00:00"", ""admission_type"": ""Elective"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1044
+B,admissions,1037,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 1037, ""patient_id"": 621, ""admitting_professional_id"": 11, ""admission_datetime"": ""2026-07-05T08:00:00"", ""discharge_datetime"": ""2026-07-06T19:00:00"", ""admission_type"": ""Emergency"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1045
+B,admissions,755,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 755, ""patient_id"": 452, ""admitting_professional_id"": 31, ""admission_datetime"": ""2026-08-05T08:00:00"", ""discharge_datetime"": ""2026-08-08T23:00:00"", ""admission_type"": ""Urgent"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1046
+B,admissions,947,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 947, ""patient_id"": 565, ""admitting_professional_id"": 1, ""admission_datetime"": ""2026-08-18T08:00:00"", ""discharge_datetime"": null, ""admission_type"": ""Emergency"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Admitted""}",applied,Duplicate occurrence appended at position 1047
+B,admissions,917,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 917, ""patient_id"": 548, ""admitting_professional_id"": 11, ""admission_datetime"": ""2026-08-01T08:00:00"", ""discharge_datetime"": ""2026-08-03T11:00:00"", ""admission_type"": ""Urgent"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1048
+B,admissions,921,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 921, ""patient_id"": 550, ""admitting_professional_id"": 6, ""admission_datetime"": ""2026-08-03T08:00:00"", ""discharge_datetime"": ""2026-08-04T15:00:00"", ""admission_type"": ""Urgent"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1049
+B,admissions,489,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 489, ""patient_id"": 295, ""admitting_professional_id"": 36, ""admission_datetime"": ""2026-10-07T08:00:00"", ""discharge_datetime"": ""2026-10-10T04:00:00"", ""admission_type"": ""Emergency"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1050
+B,admissions,128,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 128, ""patient_id"": 74, ""admitting_professional_id"": 6, ""admission_datetime"": ""2026-09-16T08:00:00"", ""discharge_datetime"": ""2026-09-17T22:00:00"", ""admission_type"": ""Urgent"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1051
+B,admissions,959,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 959, ""patient_id"": 572, ""admitting_professional_id"": 6, ""admission_datetime"": ""2026-08-25T08:00:00"", ""discharge_datetime"": ""2026-08-25T16:00:00"", ""admission_type"": ""Emergency"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1052
+B,admissions,171,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 171, ""patient_id"": 100, ""admitting_professional_id"": 21, ""admission_datetime"": ""2026-06-14T08:00:00"", ""discharge_datetime"": ""2026-06-16T00:00:00"", ""admission_type"": ""Emergency"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1053
+B,admissions,1038,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 1038, ""patient_id"": 621, ""admitting_professional_id"": 36, ""admission_datetime"": ""2026-07-25T08:00:00"", ""discharge_datetime"": ""2026-07-25T22:00:00"", ""admission_type"": ""Outpatient"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1054
+B,admissions,66,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 66, ""patient_id"": 39, ""admitting_professional_id"": 41, ""admission_datetime"": ""2026-08-12T08:00:00"", ""discharge_datetime"": ""2026-08-14T17:00:00"", ""admission_type"": ""Emergency"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1055
+B,admissions,856,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 856, ""patient_id"": 512, ""admitting_professional_id"": 36, ""admission_datetime"": ""2026-06-26T08:00:00"", ""discharge_datetime"": ""2026-06-27T17:00:00"", ""admission_type"": ""Emergency"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1056
+B,admissions,458,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 458, ""patient_id"": 277, ""admitting_professional_id"": 26, ""admission_datetime"": ""2026-09-19T08:00:00"", ""discharge_datetime"": ""2026-09-21T03:00:00"", ""admission_type"": ""Urgent"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1057
+B,admissions,526,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 526, ""patient_id"": 316, ""admitting_professional_id"": 1, ""admission_datetime"": ""2026-07-20T08:00:00"", ""discharge_datetime"": ""2026-07-21T11:00:00"", ""admission_type"": ""Elective"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1058
+B,admissions,354,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 354, ""patient_id"": 210, ""admitting_professional_id"": 21, ""admission_datetime"": ""2026-07-14T08:00:00"", ""discharge_datetime"": ""2026-07-15T17:00:00"", ""admission_type"": ""Elective"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1059
+B,admissions,822,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 822, ""patient_id"": 492, ""admitting_professional_id"": 11, ""admission_datetime"": ""2026-10-04T08:00:00"", ""discharge_datetime"": ""2026-10-06T09:00:00"", ""admission_type"": ""Urgent"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1060
+B,admissions,710,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 710, ""patient_id"": 425, ""admitting_professional_id"": 51, ""admission_datetime"": ""2026-07-09T08:00:00"", ""discharge_datetime"": ""2026-07-10T19:00:00"", ""admission_type"": ""Emergency"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1061
+B,diagnoses,22,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 22, ""patient_id"": 13, ""admission_id"": 22, ""icd9_code"": ""724.2"", ""diagnosing_physician_id"": 6, ""diagnosis_datetime"": ""2026-06-27T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1556
+B,diagnoses,994,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 994, ""patient_id"": 593, ""admission_id"": 994, ""icd9_code"": ""780.2"", ""diagnosing_physician_id"": 6, ""diagnosis_datetime"": ""2026-09-15T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1557
+B,diagnoses,984,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 984, ""patient_id"": 586, ""admission_id"": 984, ""icd9_code"": ""789.00"", ""diagnosing_physician_id"": 21, ""diagnosis_datetime"": ""2026-09-28T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1558
+B,diagnoses,220,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 220, ""patient_id"": 128, ""admission_id"": 220, ""icd9_code"": ""491.21"", ""diagnosing_physician_id"": 36, ""diagnosis_datetime"": ""2026-08-01T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1559
+B,diagnoses,732,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 732, ""patient_id"": 439, ""admission_id"": 732, ""icd9_code"": ""311"", ""diagnosing_physician_id"": 36, ""diagnosis_datetime"": ""2026-07-23T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1560
+B,diagnoses,580,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 580, ""patient_id"": 349, ""admission_id"": 580, ""icd9_code"": ""300.00"", ""diagnosing_physician_id"": 41, ""diagnosis_datetime"": ""2026-08-02T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1561
+B,diagnoses,1495,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1495, ""patient_id"": 24, ""admission_id"": 40, ""icd9_code"": ""438.20"", ""diagnosing_physician_id"": 6, ""diagnosis_datetime"": ""2026-07-08T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1562
+B,diagnoses,383,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 383, ""patient_id"": 229, ""admission_id"": 383, ""icd9_code"": ""414.01"", ""diagnosing_physician_id"": 21, ""diagnosis_datetime"": ""2026-07-13T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1563
+B,diagnoses,1135,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1135, ""patient_id"": 137, ""admission_id"": 236, ""icd9_code"": ""465.9"", ""diagnosing_physician_id"": 26, ""diagnosis_datetime"": ""2026-08-10T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1564
+B,diagnoses,1034,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1034, ""patient_id"": 618, ""admission_id"": 1034, ""icd9_code"": ""571.5"", ""diagnosing_physician_id"": 11, ""diagnosis_datetime"": ""2026-07-22T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1565
+B,diagnoses,237,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 237, ""patient_id"": 138, ""admission_id"": 237, ""icd9_code"": ""496"", ""diagnosing_physician_id"": 46, ""diagnosis_datetime"": ""2026-07-22T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1566
+B,diagnoses,1264,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1264, ""patient_id"": 230, ""admission_id"": 386, ""icd9_code"": ""465.9"", ""diagnosing_physician_id"": 31, ""diagnosis_datetime"": ""2026-08-03T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1567
+B,diagnoses,64,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 64, ""patient_id"": 38, ""admission_id"": 64, ""icd9_code"": ""493.90"", ""diagnosing_physician_id"": 36, ""diagnosis_datetime"": ""2026-08-11T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1568
+B,diagnoses,688,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 688, ""patient_id"": 412, ""admission_id"": 688, ""icd9_code"": ""780.60"", ""diagnosing_physician_id"": 6, ""diagnosis_datetime"": ""2026-06-26T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1569
+B,diagnoses,1383,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1383, ""patient_id"": 226, ""admission_id"": 378, ""icd9_code"": ""438.20"", ""diagnosing_physician_id"": 31, ""diagnosis_datetime"": ""2026-07-10T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1570
+B,diagnoses,716,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 716, ""patient_id"": 428, ""admission_id"": 716, ""icd9_code"": ""780.2"", ""diagnosing_physician_id"": 1, ""diagnosis_datetime"": ""2026-08-01T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1571
+B,diagnoses,761,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 761, ""patient_id"": 456, ""admission_id"": 761, ""icd9_code"": ""438.20"", ""diagnosing_physician_id"": 21, ""diagnosis_datetime"": ""2026-08-09T09:00:00"", ""diagnosis_type"": ""Preliminary""}",applied,Duplicate occurrence appended at position 1572
+B,diagnoses,438,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 438, ""patient_id"": 265, ""admission_id"": 438, ""icd9_code"": ""486"", ""diagnosing_physician_id"": 11, ""diagnosis_datetime"": ""2026-08-18T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1573
+B,diagnoses,1016,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1016, ""patient_id"": 607, ""admission_id"": 1016, ""icd9_code"": ""535.50"", ""diagnosing_physician_id"": 16, ""diagnosis_datetime"": ""2026-07-11T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1574
+B,diagnoses,284,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 284, ""patient_id"": 166, ""admission_id"": 284, ""icd9_code"": ""401.9"", ""diagnosing_physician_id"": 31, ""diagnosis_datetime"": ""2026-09-08T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1575
+B,diagnoses,1523,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1523, ""patient_id"": 111, ""admission_id"": 191, ""icd9_code"": ""496"", ""diagnosing_physician_id"": 51, ""diagnosis_datetime"": ""2026-06-25T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1576
+B,diagnoses,625,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 625, ""patient_id"": 374, ""admission_id"": 625, ""icd9_code"": ""466.0"", ""diagnosing_physician_id"": 51, ""diagnosis_datetime"": ""2026-09-16T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1577
+B,diagnoses,1024,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1024, ""patient_id"": 612, ""admission_id"": 1024, ""icd9_code"": ""530.81"", ""diagnosing_physician_id"": 21, ""diagnosis_datetime"": ""2026-07-16T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1578
+B,diagnoses,1422,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1422, ""patient_id"": 380, ""admission_id"": 636, ""icd9_code"": ""285.9"", ""diagnosing_physician_id"": 31, ""diagnosis_datetime"": ""2026-09-02T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1579
+B,diagnoses,319,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 319, ""patient_id"": 188, ""admission_id"": 319, ""icd9_code"": ""008.45"", ""diagnosing_physician_id"": 31, ""diagnosis_datetime"": ""2026-09-30T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1580
+B,diagnoses,1115,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1115, ""patient_id"": 490, ""admission_id"": 817, ""icd9_code"": ""715.90"", ""diagnosing_physician_id"": 1, ""diagnosis_datetime"": ""2026-09-12T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1581
+B,diagnoses,971,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 971, ""patient_id"": 580, ""admission_id"": 971, ""icd9_code"": ""465.9"", ""diagnosing_physician_id"": 11, ""diagnosis_datetime"": ""2026-09-02T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1582
+B,diagnoses,502,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 502, ""patient_id"": 302, ""admission_id"": 502, ""icd9_code"": ""003.0"", ""diagnosing_physician_id"": 6, ""diagnosis_datetime"": ""2026-07-06T09:00:00"", ""diagnosis_type"": ""Preliminary""}",applied,Duplicate occurrence appended at position 1583
+B,diagnoses,632,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 632, ""patient_id"": 378, ""admission_id"": 632, ""icd9_code"": ""466.0"", ""diagnosing_physician_id"": 36, ""diagnosis_datetime"": ""2026-08-31T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1584
+B,diagnoses,1324,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1324, ""patient_id"": 385, ""admission_id"": 644, ""icd9_code"": ""530.81"", ""diagnosing_physician_id"": 1, ""diagnosis_datetime"": ""2026-09-07T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1585
+B,diagnoses,434,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 434, ""patient_id"": 262, ""admission_id"": 434, ""icd9_code"": ""401.9"", ""diagnosing_physician_id"": 36, ""diagnosis_datetime"": ""2026-08-15T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1586
+C,patients,589,within_source_duplicate_patients,patient_id,556,589,applied,Same insurance number and date of birth
+C,patients,590,within_source_duplicate_patients,patient_id,243,590,applied,Same insurance number and date of birth
+C,patients,591,within_source_duplicate_patients,patient_id,539,591,applied,Same insurance number and date of birth
+C,patients,592,within_source_duplicate_patients,patient_id,475,592,applied,Same insurance number and date of birth
+C,patients,593,within_source_duplicate_patients,patient_id,399,593,applied,Same insurance number and date of birth
+C,patients,594,within_source_duplicate_patients,patient_id,242,594,applied,Same insurance number and date of birth
+C,patients,595,within_source_duplicate_patients,patient_id,526,595,applied,Same insurance number and date of birth
+C,patients,596,within_source_duplicate_patients,patient_id,274,596,applied,Same insurance number and date of birth
+C,patients,597,within_source_duplicate_patients,patient_id,87,597,applied,Same insurance number and date of birth
+C,patients,598,within_source_duplicate_patients,patient_id,460,598,applied,Same insurance number and date of birth
+C,patients,599,within_source_duplicate_patients,patient_id,272,599,applied,Same insurance number and date of birth
+C,patients,600,within_source_duplicate_patients,patient_id,171,600,applied,Same insurance number and date of birth
+C,clinical_notes,109,missing_required,note_contents,"""Recovery documented in synthetic summary.""",null,applied,
+C,clinical_notes,54,missing_required,note_contents,"""Follow-up documented in synthetic summary.""",null,applied,
+C,clinical_notes,388,missing_required,note_contents,"""Synthetic initial evaluation.""",null,applied,
+C,clinical_notes,76,missing_required,note_contents,"""Synthetic initial evaluation.""",null,applied,
+C,patients,522,missing_optional,phone_number,"""555-0122""",null,applied,
+C,patients,393,missing_optional,phone_number,"""555-0193""",null,applied,
+C,patients,537,missing_optional,phone_number,"""555-0137""",null,applied,
+C,patients,329,missing_optional,phone_number,"""555-0129""",null,applied,
+C,patients,150,missing_optional,phone_number,"""555-0150""",null,applied,
+C,patients,177,missing_optional,phone_number,"""555-0177""",null,applied,
+C,patients,280,missing_optional,phone_number,"""555-0180""",null,applied,
+C,patients,141,missing_optional,phone_number,"""555-0141""",null,applied,
+C,patients,175,missing_optional,phone_number,"""555-0175""",null,applied,
+C,patients,486,missing_optional,phone_number,"""555-0186""",null,applied,
+C,patients,36,missing_optional,phone_number,"""555-0136""",null,applied,
+C,patients,62,missing_optional,phone_number,"""555-0162""",null,applied,
+C,patients,453,missing_optional,phone_number,"""555-0153""",null,applied,
+C,patients,253,missing_optional,phone_number,"""555-0153""",null,applied,
+C,patients,452,missing_optional,phone_number,"""555-0152""",null,applied,
+C,patients,39,missing_optional,phone_number,"""555-0139""",null,applied,
+C,patients,133,missing_optional,phone_number,"""555-0133""",null,applied,
+C,patients,312,missing_optional,phone_number,"""555-0112""",null,applied,
+C,patients,247,missing_optional,phone_number,"""555-0147""",null,applied,
+C,patients,108,missing_optional,phone_number,"""555-0108""",null,applied,
+C,patients,455,missing_optional,phone_number,"""555-0155""",null,applied,
+C,patients,137,missing_optional,phone_number,"""555-0137""",null,applied,
+C,patients,199,missing_optional,phone_number,"""555-0199""",null,applied,
+C,patients,51,missing_optional,phone_number,"""555-0151""",null,applied,
+C,patients,571,missing_optional,phone_number,"""555-0171""",null,applied,
+C,patients,458,missing_optional,phone_number,"""555-0158""",null,applied,
+C,patients,275,missing_optional,phone_number,"""555-0175""",null,applied,
+C,patients,21,missing_optional,phone_number,"""555-0121""",null,applied,
+C,patients,388,missing_optional,phone_number,"""555-0188""",null,applied,
+C,patients,31,missing_optional,phone_number,"""555-0131""",null,applied,
+C,patients,234,missing_optional,phone_number,"""555-0134""",null,applied,
+C,patients,287,missing_optional,phone_number,"""555-0187""",null,applied,
+C,patients,15,missing_optional,phone_number,"""555-0115""",null,applied,
+C,patients,105,missing_optional,phone_number,"""555-0105""",null,applied,
+C,patients,119,missing_optional,phone_number,"""555-0119""",null,applied,
+C,patients,420,missing_optional,phone_number,"""555-0120""",null,applied,
+C,patients,445,missing_optional,phone_number,"""555-0145""",null,applied,
+C,patients,541,missing_optional,phone_number,"""555-0141""",null,applied,
+C,patients,240,missing_optional,phone_number,"""555-0140""",null,applied,
+C,patients,208,missing_optional,phone_number,"""555-0108""",null,applied,
+C,patients,418,missing_optional,phone_number,"""555-0118""",null,applied,
+C,patients,85,missing_optional,phone_number,"""555-0185""",null,applied,
+C,patients,307,missing_optional,phone_number,"""555-0107""",null,applied,
+C,patients,440,missing_optional,phone_number,"""555-0140""",null,applied,
+C,patients,35,missing_optional,phone_number,"""555-0135""",null,applied,
+C,patients,276,missing_optional,phone_number,"""555-0176""",null,applied,
+C,patients,156,missing_optional,phone_number,"""555-0156""",null,applied,
+C,patients,293,missing_optional,phone_number,"""555-0193""",null,applied,
+C,patients,256,missing_optional,phone_number,"""555-0156""",null,applied,
+C,patients,67,missing_optional,phone_number,"""555-0167""",null,applied,
+C,patients,535,missing_optional,phone_number,"""555-0135""",null,applied,
+C,patients,570,missing_optional,phone_number,"""555-0170""",null,applied,
+C,patients,343,missing_optional,phone_number,"""555-0143""",null,applied,
+C,patients,17,missing_optional,phone_number,"""555-0117""",null,applied,
+C,patients,185,missing_optional,phone_number,"""555-0185""",null,applied,
+C,admissions,612,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+C,admissions,682,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+C,admissions,595,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+C,admissions,621,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+C,admissions,313,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+C,admissions,857,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+C,admissions,59,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+C,admissions,952,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+C,admissions,466,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+C,admissions,752,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+C,admissions,828,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+C,admissions,836,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+C,admissions,893,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+C,admissions,444,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+C,admissions,614,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+C,admissions,38,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+C,admissions,696,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+C,admissions,43,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+C,admissions,972,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+C,admissions,343,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+C,admissions,477,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+C,admissions,569,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+C,admissions,655,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+C,admissions,68,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+C,admissions,651,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+C,admissions,421,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+C,admissions,86,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+C,admissions,54,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+C,admissions,484,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+C,admissions,975,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+C,admissions,644,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+C,admissions,512,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+C,admissions,545,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+C,admissions,58,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+C,admissions,305,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+C,admissions,188,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+C,admissions,155,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+C,admissions,927,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+C,admissions,625,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+C,admissions,951,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+C,admissions,259,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+C,admissions,518,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+C,admissions,689,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+C,admissions,67,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+C,admissions,215,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+C,admissions,143,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+C,admissions,495,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+C,admissions,511,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+C,admissions,299,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+C,clinical_notes,254,invalid_date,note_datetime,"""2026-03-23T19:00:00""","""2026-02-30T09:00:00""",applied,
+C,clinical_notes,146,invalid_date,note_datetime,"""2026-04-21T16:00:00""","""2026-02-30T09:00:00""",applied,
+C,clinical_notes,383,invalid_date,note_datetime,"""2026-02-13T08:30:00""","""2026-02-30T09:00:00""",applied,
+C,clinical_notes,347,invalid_date,note_datetime,"""2026-02-12T08:30:00""","""2026-02-30T09:00:00""",applied,
+C,triage_assessments,914,invalid_numeric,pain_level,1,15,applied,
+C,triage_assessments,331,invalid_numeric,pain_level,2,15,applied,
+C,triage_assessments,215,invalid_numeric,pain_level,6,15,applied,
+C,triage_assessments,682,invalid_numeric,pain_level,1,15,applied,
+C,triage_assessments,609,invalid_numeric,pain_level,0,15,applied,
+C,triage_assessments,561,invalid_numeric,pain_level,0,15,applied,
+C,triage_assessments,177,invalid_numeric,pain_level,0,15,applied,
+C,triage_assessments,432,invalid_numeric,pain_level,7,15,applied,
+C,triage_assessments,809,invalid_numeric,pain_level,0,15,applied,
+C,diagnoses,591,broken_reference,icd9_code,"""493.90""","""999.99""",applied,
+C,diagnoses,366,broken_reference,icd9_code,"""250.00""","""999.99""",applied,
+C,diagnoses,217,broken_reference,icd9_code,"""535.50""","""999.99""",applied,
+C,diagnoses,310,broken_reference,icd9_code,"""496""","""999.99""",applied,
+C,diagnoses,8,broken_reference,icd9_code,"""518.81""","""999.99""",applied,
+C,diagnoses,1318,broken_reference,icd9_code,"""070.54""","""999.99""",applied,
+C,diagnoses,579,broken_reference,icd9_code,"""780.60""","""999.99""",applied,
+C,unit_stays,571,chronology,exit_datetime,"""2026-03-25T07:00:00""","""2026-03-23T10:25:00""",applied,
+C,unit_stays,1187,chronology,exit_datetime,"""2026-02-06T20:00:00""","""2026-02-06T07:55:00""",applied,
+C,unit_stays,558,chronology,exit_datetime,"""2026-03-20T10:30:00""","""2026-03-20T07:55:00""",applied,
+C,unit_stays,971,chronology,exit_datetime,"""2026-04-13T23:00:00""","""2026-04-11T07:55:00""",applied,
+C,unit_stays,337,chronology,exit_datetime,"""2026-01-08T15:00:00""","""2026-01-05T10:25:00""",applied,
+C,unit_stays,1087,chronology,exit_datetime,"""2026-04-04T04:00:00""","""2026-04-03T07:55:00""",applied,
+C,unit_stays,750,chronology,exit_datetime,"""2026-03-02T15:00:00""","""2026-02-27T07:55:00""",applied,
+C,unit_stays,873,chronology,exit_datetime,"""2026-02-22T17:00:00""","""2026-02-21T07:55:00""",applied,
+C,unit_stays,72,chronology,exit_datetime,"""2026-01-27T10:30:00""","""2026-01-27T07:55:00""",applied,
+C,unit_stays,718,chronology,exit_datetime,"""2026-02-12T22:00:00""","""2026-02-08T07:55:00""",applied,
+C,unit_stays,906,chronology,exit_datetime,"""2026-02-28T08:00:00""","""2026-02-24T07:55:00""",applied,
+C,unit_stays,89,chronology,exit_datetime,"""2026-02-05T00:00:00""","""2026-01-31T10:25:00""",applied,
+C,unit_stays,41,chronology,exit_datetime,"""2026-01-19T21:00:00""","""2026-01-17T10:25:00""",applied,
+C,diagnoses,408,missing_primary,(record),"{""diagnosis_id"": 408, ""patient_id"": 242, ""admission_id"": 408, ""icd9_code"": ""410.91"", ""diagnosing_physician_id"": 11, ""diagnosis_datetime"": ""2026-02-16T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 408 retains a secondary diagnosis
+C,diagnoses,632,missing_primary,(record),"{""diagnosis_id"": 632, ""patient_id"": 377, ""admission_id"": 632, ""icd9_code"": ""724.2"", ""diagnosing_physician_id"": 11, ""diagnosis_datetime"": ""2026-04-12T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 632 retains a secondary diagnosis
+C,diagnoses,935,missing_primary,(record),"{""diagnosis_id"": 935, ""patient_id"": 560, ""admission_id"": 935, ""icd9_code"": ""599.0"", ""diagnosing_physician_id"": 1, ""diagnosis_datetime"": ""2026-03-06T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 935 retains a secondary diagnosis
+C,diagnoses,9,missing_primary,(record),"{""diagnosis_id"": 9, ""patient_id"": 5, ""admission_id"": 9, ""icd9_code"": ""493.90"", ""diagnosing_physician_id"": 31, ""diagnosis_datetime"": ""2026-01-10T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 9 retains a secondary diagnosis
+C,diagnoses,395,missing_primary,(record),"{""diagnosis_id"": 395, ""patient_id"": 234, ""admission_id"": 395, ""icd9_code"": ""715.90"", ""diagnosing_physician_id"": 41, ""diagnosis_datetime"": ""2026-02-08T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 395 retains a secondary diagnosis
+C,admissions,341,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 341, ""patient_id"": 202, ""admitting_professional_id"": 41, ""admission_datetime"": ""2026-01-07T08:00:00"", ""discharge_datetime"": ""2026-01-12T07:00:00"", ""admission_type"": ""Emergency"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 981
+C,admissions,962,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 962, ""patient_id"": 576, ""admitting_professional_id"": 31, ""admission_datetime"": ""2026-03-22T08:00:00"", ""discharge_datetime"": ""2026-03-26T07:00:00"", ""admission_type"": ""Urgent"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 982
+C,admissions,88,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 88, ""patient_id"": 50, ""admitting_professional_id"": 36, ""admission_datetime"": ""2026-02-24T08:00:00"", ""discharge_datetime"": ""2026-02-27T11:00:00"", ""admission_type"": ""Outpatient"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 983
+C,admissions,126,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 126, ""patient_id"": 71, ""admitting_professional_id"": 6, ""admission_datetime"": ""2026-04-06T08:00:00"", ""discharge_datetime"": ""2026-04-09T07:00:00"", ""admission_type"": ""Outpatient"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 984
+C,admissions,859,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 859, ""patient_id"": 515, ""admitting_professional_id"": 41, ""admission_datetime"": ""2026-01-20T08:00:00"", ""discharge_datetime"": ""2026-01-21T08:00:00"", ""admission_type"": ""Outpatient"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 985
+C,admissions,394,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 394, ""patient_id"": 233, ""admitting_professional_id"": 36, ""admission_datetime"": ""2026-02-27T08:00:00"", ""discharge_datetime"": ""2026-03-02T22:00:00"", ""admission_type"": ""Outpatient"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 986
+C,admissions,825,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 825, ""patient_id"": 496, ""admitting_professional_id"": 6, ""admission_datetime"": ""2026-04-11T08:00:00"", ""discharge_datetime"": ""2026-04-11T13:00:00"", ""admission_type"": ""Outpatient"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 987
+C,admissions,457,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 457, ""patient_id"": 269, ""admitting_professional_id"": 46, ""admission_datetime"": ""2026-04-04T08:00:00"", ""discharge_datetime"": ""2026-04-07T12:00:00"", ""admission_type"": ""Urgent"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 988
+C,admissions,144,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 144, ""patient_id"": 81, ""admitting_professional_id"": 41, ""admission_datetime"": ""2026-03-27T08:00:00"", ""discharge_datetime"": ""2026-03-29T23:00:00"", ""admission_type"": ""Emergency"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 989
+C,admissions,111,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 111, ""patient_id"": 63, ""admitting_professional_id"": 16, ""admission_datetime"": ""2026-03-09T08:00:00"", ""discharge_datetime"": null, ""admission_type"": ""Outpatient"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Admitted""}",applied,Duplicate occurrence appended at position 990
+C,diagnoses,355,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 355, ""patient_id"": 210, ""admission_id"": 355, ""icd9_code"": ""311"", ""diagnosing_physician_id"": 46, ""diagnosis_datetime"": ""2026-02-04T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1466
+C,diagnoses,1026,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1026, ""patient_id"": 533, ""admission_id"": 891, ""icd9_code"": ""491.21"", ""diagnosing_physician_id"": 16, ""diagnosis_datetime"": ""2026-02-07T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1467
+C,diagnoses,69,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 69, ""patient_id"": 38, ""admission_id"": 69, ""icd9_code"": ""789.00"", ""diagnosing_physician_id"": 26, ""diagnosis_datetime"": ""2026-02-12T09:00:00"", ""diagnosis_type"": ""Preliminary""}",applied,Duplicate occurrence appended at position 1468
+C,diagnoses,472,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 472, ""patient_id"": 278, ""admission_id"": 472, ""icd9_code"": ""585.3"", ""diagnosing_physician_id"": 16, ""diagnosis_datetime"": ""2026-04-13T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1469
+C,diagnoses,478,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 478, ""patient_id"": 282, ""admission_id"": 478, ""icd9_code"": ""438.20"", ""diagnosing_physician_id"": 46, ""diagnosis_datetime"": ""2026-03-28T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1470
+C,diagnoses,496,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 496, ""patient_id"": 292, ""admission_id"": 496, ""icd9_code"": ""008.45"", ""diagnosing_physician_id"": 31, ""diagnosis_datetime"": ""2026-04-27T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1471
+C,diagnoses,1258,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1258, ""patient_id"": 391, ""admission_id"": 653, ""icd9_code"": ""518.81"", ""diagnosing_physician_id"": 41, ""diagnosis_datetime"": ""2026-04-06T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1472
+C,diagnoses,1067,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1067, ""patient_id"": 23, ""admission_id"": 41, ""icd9_code"": ""276.51"", ""diagnosing_physician_id"": 6, ""diagnosis_datetime"": ""2026-02-17T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1473
+C,diagnoses,547,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 547, ""patient_id"": 323, ""admission_id"": 547, ""icd9_code"": ""410.91"", ""diagnosing_physician_id"": 41, ""diagnosis_datetime"": ""2026-01-28T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1474
+C,diagnoses,791,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 791, ""patient_id"": 474, ""admission_id"": 791, ""icd9_code"": ""780.60"", ""diagnosing_physician_id"": 26, ""diagnosis_datetime"": ""2026-03-20T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1475
+C,diagnoses,138,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 138, ""patient_id"": 77, ""admission_id"": 138, ""icd9_code"": ""724.2"", ""diagnosing_physician_id"": 41, ""diagnosis_datetime"": ""2026-04-12T09:00:00"", ""diagnosis_type"": ""Preliminary""}",applied,Duplicate occurrence appended at position 1476
+C,diagnoses,998,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 998, ""patient_id"": 564, ""admission_id"": 942, ""icd9_code"": ""493.90"", ""diagnosing_physician_id"": 31, ""diagnosis_datetime"": ""2026-03-30T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1477
+C,diagnoses,699,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 699, ""patient_id"": 418, ""admission_id"": 699, ""icd9_code"": ""300.00"", ""diagnosing_physician_id"": 6, ""diagnosis_datetime"": ""2026-02-12T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1478
+C,diagnoses,520,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 520, ""patient_id"": 307, ""admission_id"": 520, ""icd9_code"": ""434.91"", ""diagnosing_physician_id"": 46, ""diagnosis_datetime"": ""2026-01-12T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1479
+C,diagnoses,441,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 441, ""patient_id"": 259, ""admission_id"": 441, ""icd9_code"": ""250.00"", ""diagnosing_physician_id"": 26, ""diagnosis_datetime"": ""2026-03-05T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1480
+D,patients,619,within_source_duplicate_patients,patient_id,487,619,applied,Same insurance number and date of birth
+D,patients,620,within_source_duplicate_patients,patient_id,402,620,applied,Same insurance number and date of birth
+D,patients,621,within_source_duplicate_patients,patient_id,463,621,applied,Same insurance number and date of birth
+D,patients,622,within_source_duplicate_patients,patient_id,304,622,applied,Same insurance number and date of birth
+D,patients,623,within_source_duplicate_patients,patient_id,533,623,applied,Same insurance number and date of birth
+D,patients,624,within_source_duplicate_patients,patient_id,17,624,applied,Same insurance number and date of birth
+D,patients,625,within_source_duplicate_patients,patient_id,582,625,applied,Same insurance number and date of birth
+D,patients,626,within_source_duplicate_patients,patient_id,590,626,applied,Same insurance number and date of birth
+D,patients,627,within_source_duplicate_patients,patient_id,357,627,applied,Same insurance number and date of birth
+D,patients,628,within_source_duplicate_patients,patient_id,135,628,applied,Same insurance number and date of birth
+D,patients,629,within_source_duplicate_patients,patient_id,53,629,applied,Same insurance number and date of birth
+D,patients,630,within_source_duplicate_patients,patient_id,154,630,applied,Same insurance number and date of birth
+D,clinical_notes,202,missing_required,note_contents,"""Follow-up documented in synthetic summary.""",null,applied,
+D,clinical_notes,327,missing_required,note_contents,"""Recovery mentioned in synthetic progress note.""",null,applied,
+D,clinical_notes,244,missing_required,note_contents,"""Synthetic initial evaluation.""",null,applied,
+D,clinical_notes,301,missing_required,note_contents,"""Recovery documented in synthetic summary.""",null,applied,
+D,patients,273,missing_optional,phone_number,"""555-0173""",null,applied,
+D,patients,21,missing_optional,phone_number,"""555-0121""",null,applied,
+D,patients,128,missing_optional,phone_number,"""555-0128""",null,applied,
+D,patients,292,missing_optional,phone_number,"""555-0192""",null,applied,
+D,patients,112,missing_optional,phone_number,"""555-0112""",null,applied,
+D,patients,330,missing_optional,phone_number,"""555-0130""",null,applied,
+D,patients,170,missing_optional,phone_number,"""555-0170""",null,applied,
+D,patients,187,missing_optional,phone_number,"""555-0187""",null,applied,
+D,patients,295,missing_optional,phone_number,"""555-0195""",null,applied,
+D,patients,593,missing_optional,phone_number,"""555-0193""",null,applied,
+D,patients,455,missing_optional,phone_number,"""555-0155""",null,applied,
+D,patients,399,missing_optional,phone_number,"""555-0199""",null,applied,
+D,patients,312,missing_optional,phone_number,"""555-0112""",null,applied,
+D,patients,560,missing_optional,phone_number,"""555-0160""",null,applied,
+D,patients,99,missing_optional,phone_number,"""555-0199""",null,applied,
+D,patients,339,missing_optional,phone_number,"""555-0139""",null,applied,
+D,patients,233,missing_optional,phone_number,"""555-0133""",null,applied,
+D,patients,49,missing_optional,phone_number,"""555-0149""",null,applied,
+D,patients,145,missing_optional,phone_number,"""555-0145""",null,applied,
+D,patients,26,missing_optional,phone_number,"""555-0126""",null,applied,
+D,patients,573,missing_optional,phone_number,"""555-0173""",null,applied,
+D,patients,13,missing_optional,phone_number,"""555-0113""",null,applied,
+D,patients,57,missing_optional,phone_number,"""555-0157""",null,applied,
+D,patients,18,missing_optional,phone_number,"""555-0118""",null,applied,
+D,patients,198,missing_optional,phone_number,"""555-0198""",null,applied,
+D,patients,50,missing_optional,phone_number,"""555-0150""",null,applied,
+D,patients,403,missing_optional,phone_number,"""555-0103""",null,applied,
+D,patients,205,missing_optional,phone_number,"""555-0105""",null,applied,
+D,patients,280,missing_optional,phone_number,"""555-0180""",null,applied,
+D,patients,501,missing_optional,phone_number,"""555-0101""",null,applied,
+D,patients,531,missing_optional,phone_number,"""555-0131""",null,applied,
+D,patients,237,missing_optional,phone_number,"""555-0137""",null,applied,
+D,patients,475,missing_optional,phone_number,"""555-0175""",null,applied,
+D,patients,39,missing_optional,phone_number,"""555-0139""",null,applied,
+D,patients,457,missing_optional,phone_number,"""555-0157""",null,applied,
+D,patients,462,missing_optional,phone_number,"""555-0162""",null,applied,
+D,patients,396,missing_optional,phone_number,"""555-0196""",null,applied,
+D,patients,544,missing_optional,phone_number,"""555-0144""",null,applied,
+D,patients,277,missing_optional,phone_number,"""555-0177""",null,applied,
+D,patients,517,missing_optional,phone_number,"""555-0117""",null,applied,
+D,patients,454,missing_optional,phone_number,"""555-0154""",null,applied,
+D,patients,576,missing_optional,phone_number,"""555-0176""",null,applied,
+D,patients,278,missing_optional,phone_number,"""555-0178""",null,applied,
+D,patients,421,missing_optional,phone_number,"""555-0121""",null,applied,
+D,patients,262,missing_optional,phone_number,"""555-0162""",null,applied,
+D,patients,93,missing_optional,phone_number,"""555-0193""",null,applied,
+D,patients,467,missing_optional,phone_number,"""555-0167""",null,applied,
+D,patients,595,missing_optional,phone_number,"""555-0195""",null,applied,
+D,patients,177,missing_optional,phone_number,"""555-0177""",null,applied,
+D,patients,445,missing_optional,phone_number,"""555-0145""",null,applied,
+D,patients,413,missing_optional,phone_number,"""555-0113""",null,applied,
+D,patients,511,missing_optional,phone_number,"""555-0111""",null,applied,
+D,patients,500,missing_optional,phone_number,"""555-0100""",null,applied,
+D,patients,348,missing_optional,phone_number,"""555-0148""",null,applied,
+D,patients,548,missing_optional,phone_number,"""555-0148""",null,applied,
+D,patients,493,missing_optional,phone_number,"""555-0193""",null,applied,
+D,patients,491,missing_optional,phone_number,"""555-0191""",null,applied,
+D,patients,452,missing_optional,phone_number,"""555-0152""",null,applied,
+D,admissions,652,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+D,admissions,340,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+D,admissions,659,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+D,admissions,425,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+D,admissions,714,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+D,admissions,255,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+D,admissions,362,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+D,admissions,573,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+D,admissions,958,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+D,admissions,598,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+D,admissions,782,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+D,admissions,445,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+D,admissions,698,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+D,admissions,971,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+D,admissions,439,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+D,admissions,596,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+D,admissions,447,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+D,admissions,30,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+D,admissions,432,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+D,admissions,1018,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+D,admissions,158,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+D,admissions,216,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+D,admissions,877,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+D,admissions,867,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+D,admissions,748,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+D,admissions,622,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+D,admissions,238,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+D,admissions,554,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+D,admissions,91,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+D,admissions,82,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+D,admissions,521,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+D,admissions,538,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+D,admissions,758,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+D,admissions,893,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+D,admissions,575,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+D,admissions,544,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+D,admissions,919,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+D,admissions,959,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+D,admissions,52,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+D,admissions,1013,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+D,admissions,193,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+D,admissions,430,case_or_space,admission_type,"""Outpatient""",""" OUTPATIENT """,applied,
+D,admissions,210,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+D,admissions,370,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+D,admissions,678,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+D,admissions,804,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+D,admissions,685,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+D,admissions,600,case_or_space,admission_type,"""Urgent""",""" URGENT """,applied,
+D,admissions,863,case_or_space,admission_type,"""Emergency""",""" EMERGENCY """,applied,
+D,admissions,850,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+D,admissions,840,case_or_space,admission_type,"""Elective""",""" ELECTIVE """,applied,
+D,clinical_notes,38,invalid_date,note_datetime,"""2026-07-28T00:00:00""","""2026-02-30T09:00:00""",applied,
+D,clinical_notes,272,invalid_date,note_datetime,"""2026-09-08T08:30:00""","""2026-02-30T09:00:00""",applied,
+D,clinical_notes,95,invalid_date,note_datetime,"""2026-08-28T08:30:00""","""2026-02-30T09:00:00""",applied,
+D,clinical_notes,293,invalid_date,note_datetime,"""2026-09-23T01:00:00""","""2026-02-30T09:00:00""",applied,
+D,triage_assessments,146,invalid_numeric,pain_level,1,15,applied,
+D,triage_assessments,416,invalid_numeric,pain_level,7,15,applied,
+D,triage_assessments,303,invalid_numeric,pain_level,6,15,applied,
+D,triage_assessments,72,invalid_numeric,pain_level,7,15,applied,
+D,triage_assessments,114,invalid_numeric,pain_level,1,15,applied,
+D,triage_assessments,135,invalid_numeric,pain_level,6,15,applied,
+D,triage_assessments,488,invalid_numeric,pain_level,7,15,applied,
+D,triage_assessments,16,invalid_numeric,pain_level,7,15,applied,
+D,triage_assessments,279,invalid_numeric,pain_level,6,15,applied,
+D,triage_assessments,906,invalid_numeric,pain_level,1,15,applied,
+D,diagnoses,987,broken_reference,icd9_code,"""496""","""999.99""",applied,
+D,diagnoses,1309,broken_reference,icd9_code,"""465.9""","""999.99""",applied,
+D,diagnoses,1012,broken_reference,icd9_code,"""599.0""","""999.99""",applied,
+D,diagnoses,459,broken_reference,icd9_code,"""438.20""","""999.99""",applied,
+D,diagnoses,654,broken_reference,icd9_code,"""530.81""","""999.99""",applied,
+D,diagnoses,62,broken_reference,icd9_code,"""465.9""","""999.99""",applied,
+D,diagnoses,1237,broken_reference,icd9_code,"""434.91""","""999.99""",applied,
+D,diagnoses,1460,broken_reference,icd9_code,"""466.0""","""999.99""",applied,
+D,diagnoses,617,broken_reference,icd9_code,"""571.5""","""999.99""",applied,
+D,diagnoses,880,broken_reference,icd9_code,"""599.0""","""999.99""",applied,
+D,diagnoses,1280,broken_reference,icd9_code,"""486""","""999.99""",applied,
+D,diagnoses,1362,broken_reference,icd9_code,"""715.90""","""999.99""",applied,
+D,unit_stays,715,chronology,exit_datetime,"""2026-07-25T04:00:00""","""2026-07-24T10:25:00""",applied,
+D,unit_stays,517,chronology,exit_datetime,"""2026-09-03T15:00:00""","""2026-09-01T10:25:00""",applied,
+D,unit_stays,544,chronology,exit_datetime,"""2026-08-20T10:30:00""","""2026-08-20T07:55:00""",applied,
+D,unit_stays,61,chronology,exit_datetime,"""2026-07-04T00:00:00""","""2026-07-01T10:25:00""",applied,
+D,unit_stays,231,chronology,exit_datetime,"""2026-09-14T20:00:00""","""2026-09-12T10:25:00""",applied,
+D,unit_stays,747,chronology,exit_datetime,"""2026-07-27T22:00:00""","""2026-07-24T07:55:00""",applied,
+D,unit_stays,307,chronology,exit_datetime,"""2026-10-06T21:00:00""","""2026-10-05T10:25:00""",applied,
+D,unit_stays,924,chronology,exit_datetime,"""2026-08-09T20:00:00""","""2026-08-06T07:55:00""",applied,
+D,unit_stays,1238,chronology,exit_datetime,"""2026-08-08T10:00:00""","""2026-08-06T07:55:00""",applied,
+D,unit_stays,878,chronology,exit_datetime,"""2026-07-29T23:00:00""","""2026-07-28T07:55:00""",applied,
+D,unit_stays,858,chronology,exit_datetime,"""2026-07-21T07:00:00""","""2026-07-17T07:55:00""",applied,
+D,unit_stays,114,chronology,exit_datetime,"""2026-08-04T10:30:00""","""2026-08-04T07:55:00""",applied,
+D,unit_stays,764,chronology,exit_datetime,"""2026-08-24T14:00:00""","""2026-08-24T07:55:00""",applied,
+D,diagnoses,186,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,280,icd9_format,icd9_code,"""008.45""","""8.45""",applied,
+D,diagnoses,538,icd9_format,icd9_code,"""008.45""","""8.45""",applied,
+D,diagnoses,259,icd9_format,icd9_code,"""041.11""","""41.11""",applied,
+D,diagnoses,1040,icd9_format,icd9_code,"""003.0""","""3.0""",applied,
+D,diagnoses,911,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,1316,icd9_format,icd9_code,"""041.11""","""41.11""",applied,
+D,diagnoses,846,icd9_format,icd9_code,"""003.0""","""3.0""",applied,
+D,diagnoses,399,icd9_format,icd9_code,"""008.45""","""8.45""",applied,
+D,diagnoses,307,icd9_format,icd9_code,"""003.0""","""3.0""",applied,
+D,diagnoses,17,icd9_format,icd9_code,"""041.11""","""41.11""",applied,
+D,diagnoses,437,icd9_format,icd9_code,"""070.54""","""70.54""",applied,
+D,diagnoses,575,icd9_format,icd9_code,"""008.45""","""8.45""",applied,
+D,diagnoses,264,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,353,icd9_format,icd9_code,"""003.0""","""3.0""",applied,
+D,diagnoses,1478,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,557,icd9_format,icd9_code,"""070.54""","""70.54""",applied,
+D,diagnoses,655,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,230,icd9_format,icd9_code,"""008.45""","""8.45""",applied,
+D,diagnoses,348,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,977,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,645,icd9_format,icd9_code,"""008.45""","""8.45""",applied,
+D,diagnoses,194,icd9_format,icd9_code,"""003.0""","""3.0""",applied,
+D,diagnoses,1183,icd9_format,icd9_code,"""041.11""","""41.11""",applied,
+D,diagnoses,919,icd9_format,icd9_code,"""003.0""","""3.0""",applied,
+D,diagnoses,874,icd9_format,icd9_code,"""003.0""","""3.0""",applied,
+D,diagnoses,211,icd9_format,icd9_code,"""070.54""","""70.54""",applied,
+D,diagnoses,827,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,821,icd9_format,icd9_code,"""070.54""","""70.54""",applied,
+D,diagnoses,331,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,909,icd9_format,icd9_code,"""003.0""","""3.0""",applied,
+D,diagnoses,969,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,303,icd9_format,icd9_code,"""008.45""","""8.45""",applied,
+D,diagnoses,481,icd9_format,icd9_code,"""041.11""","""41.11""",applied,
+D,diagnoses,610,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,619,icd9_format,icd9_code,"""008.45""","""8.45""",applied,
+D,diagnoses,1398,icd9_format,icd9_code,"""008.45""","""8.45""",applied,
+D,diagnoses,427,icd9_format,icd9_code,"""003.0""","""3.0""",applied,
+D,diagnoses,261,icd9_format,icd9_code,"""070.54""","""70.54""",applied,
+D,diagnoses,251,icd9_format,icd9_code,"""003.0""","""3.0""",applied,
+D,diagnoses,1115,icd9_format,icd9_code,"""041.11""","""41.11""",applied,
+D,diagnoses,1173,icd9_format,icd9_code,"""070.54""","""70.54""",applied,
+D,diagnoses,1348,icd9_format,icd9_code,"""041.11""","""41.11""",applied,
+D,diagnoses,678,icd9_format,icd9_code,"""070.54""","""70.54""",applied,
+D,diagnoses,521,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,692,icd9_format,icd9_code,"""003.0""","""3.0""",applied,
+D,diagnoses,1147,icd9_format,icd9_code,"""003.0""","""3.0""",applied,
+D,diagnoses,204,icd9_format,icd9_code,"""041.11""","""41.11""",applied,
+D,diagnoses,1049,icd9_format,icd9_code,"""041.11""","""41.11""",applied,
+D,diagnoses,596,icd9_format,icd9_code,"""008.45""","""8.45""",applied,
+D,diagnoses,123,icd9_format,icd9_code,"""003.0""","""3.0""",applied,
+D,diagnoses,537,icd9_format,icd9_code,"""041.11""","""41.11""",applied,
+D,diagnoses,298,icd9_format,icd9_code,"""008.45""","""8.45""",applied,
+D,diagnoses,1447,icd9_format,icd9_code,"""070.54""","""70.54""",applied,
+D,diagnoses,1279,icd9_format,icd9_code,"""003.0""","""3.0""",applied,
+D,diagnoses,76,icd9_format,icd9_code,"""003.0""","""3.0""",applied,
+D,diagnoses,433,icd9_format,icd9_code,"""070.54""","""70.54""",applied,
+D,diagnoses,852,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,593,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,1001,icd9_format,icd9_code,"""003.0""","""3.0""",applied,
+D,diagnoses,1011,icd9_format,icd9_code,"""008.45""","""8.45""",applied,
+D,diagnoses,904,icd9_format,icd9_code,"""070.54""","""70.54""",applied,
+D,diagnoses,1426,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,1302,icd9_format,icd9_code,"""070.54""","""70.54""",applied,
+D,diagnoses,391,icd9_format,icd9_code,"""008.45""","""8.45""",applied,
+D,diagnoses,1015,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,38,icd9_format,icd9_code,"""070.54""","""70.54""",applied,
+D,diagnoses,55,icd9_format,icd9_code,"""070.54""","""70.54""",applied,
+D,diagnoses,1339,icd9_format,icd9_code,"""041.11""","""41.11""",applied,
+D,diagnoses,523,icd9_format,icd9_code,"""003.0""","""3.0""",applied,
+D,diagnoses,1257,icd9_format,icd9_code,"""008.45""","""8.45""",applied,
+D,diagnoses,825,icd9_format,icd9_code,"""041.11""","""41.11""",applied,
+D,diagnoses,1303,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,1310,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,787,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,643,icd9_format,icd9_code,"""038.9""","""38.9""",applied,
+D,diagnoses,483,icd9_format,icd9_code,"""070.54""","""70.54""",applied,
+D,diagnoses,725,missing_primary,(record),"{""diagnosis_id"": 725, ""patient_id"": 431, ""admission_id"": 725, ""icd9_code"": ""410.91"", ""diagnosing_physician_id"": 6, ""diagnosis_datetime"": ""2026-08-04T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 725 retains a secondary diagnosis
+D,diagnoses,687,missing_primary,(record),"{""diagnosis_id"": 687, ""patient_id"": 410, ""admission_id"": 687, ""icd9_code"": ""780.2"", ""diagnosing_physician_id"": 36, ""diagnosis_datetime"": ""2026-07-14T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 687 retains a secondary diagnosis
+D,diagnoses,340,missing_primary,(record),"{""diagnosis_id"": 340, ""patient_id"": 198, ""admission_id"": 340, ""icd9_code"": ""038.9"", ""diagnosing_physician_id"": 11, ""diagnosis_datetime"": ""2026-10-10T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 340 retains a secondary diagnosis
+D,diagnoses,407,missing_primary,(record),"{""diagnosis_id"": 407, ""patient_id"": 241, ""admission_id"": 407, ""icd9_code"": ""414.01"", ""diagnosing_physician_id"": 26, ""diagnosis_datetime"": ""2026-07-25T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 407 retains a secondary diagnosis
+D,diagnoses,726,missing_primary,(record),"{""diagnosis_id"": 726, ""patient_id"": 432, ""admission_id"": 726, ""icd9_code"": ""571.5"", ""diagnosing_physician_id"": 26, ""diagnosis_datetime"": ""2026-07-16T09:00:00"", ""diagnosis_type"": ""Primary""}",null,applied,Admission 726 retains a secondary diagnosis
+D,clinical_notes,334,ambiguous_day_first,note_datetime,"""2026-07-10T19:00:00""","""10/07/2026 7:00 PM""",applied,D_patients.json: day-first local string with two plausible readings
+D,clinical_notes,296,ambiguous_day_first,note_datetime,"""2026-09-03T08:30:00""","""03/09/2026 8:30 AM""",applied,D_patients.json: day-first local string with two plausible readings
+D,clinical_notes,22,ambiguous_day_first,note_datetime,"""2026-07-01T07:00:00""","""01/07/2026 7:00 AM""",applied,D_patients.json: day-first local string with two plausible readings
+D,clinical_notes,321,ambiguous_day_first,note_datetime,"""2026-10-08T13:00:00""","""08/10/2026 1:00 PM""",applied,D_patients.json: day-first local string with two plausible readings
+D,clinical_notes,268,ambiguous_day_first,note_datetime,"""2026-09-06T08:30:00""","""06/09/2026 8:30 AM""",applied,D_patients.json: day-first local string with two plausible readings
+D,clinical_notes,397,ambiguous_day_first,note_datetime,"""2026-08-02T12:00:00""","""02/08/2026 12:00 PM""",applied,D_patients.json: day-first local string with two plausible readings
+D,clinical_notes,243,ambiguous_day_first,note_datetime,"""2026-08-03T08:30:00""","""03/08/2026 8:30 AM""",applied,D_patients.json: day-first local string with two plausible readings
+D,clinical_notes,300,ambiguous_day_first,note_datetime,"""2026-09-06T08:30:00""","""06/09/2026 8:30 AM""",applied,D_patients.json: day-first local string with two plausible readings
+D,clinical_notes,160,ambiguous_day_first,note_datetime,"""2026-10-09T08:30:00""","""09/10/2026 8:30 AM""",applied,D_patients.json: day-first local string with two plausible readings
+D,clinical_notes,208,ambiguous_day_first,note_datetime,"""2026-08-01T08:30:00""","""01/08/2026 8:30 AM""",applied,D_patients.json: day-first local string with two plausible readings
+D,clinical_notes,62,ambiguous_day_first,note_datetime,"""2026-08-09T14:00:00""","""09/08/2026 2:00 PM""",applied,D_patients.json: day-first local string with two plausible readings
+D,clinical_notes,359,ambiguous_day_first,note_datetime,"""2026-07-05T08:30:00""","""05/07/2026 8:30 AM""",applied,D_patients.json: day-first local string with two plausible readings
+D,admissions,5,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 5, ""patient_id"": 2, ""admitting_professional_id"": 31, ""admission_datetime"": ""2026-06-16T08:00:00"", ""discharge_datetime"": ""2026-06-17T10:00:00"", ""admission_type"": ""Emergency"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1031
+D,admissions,984,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 984, ""patient_id"": 589, ""admitting_professional_id"": 6, ""admission_datetime"": ""2026-10-01T08:00:00"", ""discharge_datetime"": ""2026-10-04T13:00:00"", ""admission_type"": ""Emergency"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1032
+D,admissions,679,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 679, ""patient_id"": 405, ""admitting_professional_id"": 36, ""admission_datetime"": ""2026-06-19T08:00:00"", ""discharge_datetime"": ""2026-06-19T17:00:00"", ""admission_type"": ""Urgent"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1033
+D,admissions,463,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 463, ""patient_id"": 275, ""admitting_professional_id"": 36, ""admission_datetime"": ""2026-08-28T08:00:00"", ""discharge_datetime"": ""2026-08-30T04:00:00"", ""admission_type"": ""Outpatient"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1034
+D,admissions,201,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 201, ""patient_id"": 118, ""admitting_professional_id"": 1, ""admission_datetime"": ""2026-07-22T08:00:00"", ""discharge_datetime"": ""2026-07-25T05:00:00"", ""admission_type"": ""Emergency"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1035
+D,admissions,988,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 988, ""patient_id"": 592, ""admitting_professional_id"": 26, ""admission_datetime"": ""2026-09-14T08:00:00"", ""discharge_datetime"": ""2026-09-15T19:00:00"", ""admission_type"": ""Urgent"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1036
+D,admissions,386,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 386, ""patient_id"": 227, ""admitting_professional_id"": 21, ""admission_datetime"": ""2026-07-11T08:00:00"", ""discharge_datetime"": ""2026-07-12T09:00:00"", ""admission_type"": ""Urgent"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1037
+D,admissions,609,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 609, ""patient_id"": 363, ""admitting_professional_id"": 36, ""admission_datetime"": ""2026-08-16T08:00:00"", ""discharge_datetime"": ""2026-08-21T03:00:00"", ""admission_type"": ""Outpatient"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1038
+D,admissions,514,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 514, ""patient_id"": 308, ""admitting_professional_id"": 1, ""admission_datetime"": ""2026-07-12T08:00:00"", ""discharge_datetime"": ""2026-07-12T14:00:00"", ""admission_type"": ""Outpatient"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1039
+D,admissions,937,exact_duplicate_admissions_and_diagnoses,(record),null,"{""admission_id"": 937, ""patient_id"": 561, ""admitting_professional_id"": 51, ""admission_datetime"": ""2026-08-14T08:00:00"", ""discharge_datetime"": ""2026-08-14T23:00:00"", ""admission_type"": ""Urgent"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": null, ""insurance_info"": null, ""admission_status"": ""Discharged""}",applied,Duplicate occurrence appended at position 1040
+D,diagnoses,506,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 506, ""patient_id"": 303, ""admission_id"": 506, ""icd9_code"": ""414.01"", ""diagnosing_physician_id"": 1, ""diagnosis_datetime"": ""2026-07-07T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1541
+D,diagnoses,1471,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1471, ""patient_id"": 71, ""admission_id"": 123, ""icd9_code"": ""465.9"", ""diagnosing_physician_id"": 26, ""diagnosis_datetime"": ""2026-08-24T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1542
+D,diagnoses,936,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 936, ""patient_id"": 560, ""admission_id"": 936, ""icd9_code"": ""571.5"", ""diagnosing_physician_id"": 16, ""diagnosis_datetime"": ""2026-09-02T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1543
+D,diagnoses,1443,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 1443, ""patient_id"": 252, ""admission_id"": 426, ""icd9_code"": ""789.00"", ""diagnosing_physician_id"": 11, ""diagnosis_datetime"": ""2026-08-25T10:00:00"", ""diagnosis_type"": ""Secondary""}",applied,Duplicate occurrence appended at position 1544
+D,diagnoses,614,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 614, ""patient_id"": 365, ""admission_id"": 614, ""icd9_code"": ""715.90"", ""diagnosing_physician_id"": 36, ""diagnosis_datetime"": ""2026-09-07T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1545
+D,diagnoses,41,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 41, ""patient_id"": 21, ""admission_id"": 41, ""icd9_code"": ""584.9"", ""diagnosing_physician_id"": 36, ""diagnosis_datetime"": ""2026-07-25T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1546
+D,diagnoses,922,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 922, ""patient_id"": 551, ""admission_id"": 922, ""icd9_code"": ""038.9"", ""diagnosing_physician_id"": 11, ""diagnosis_datetime"": ""2026-08-24T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1547
+D,diagnoses,695,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 695, ""patient_id"": 415, ""admission_id"": 695, ""icd9_code"": ""250.00"", ""diagnosing_physician_id"": 46, ""diagnosis_datetime"": ""2026-06-29T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1548
+D,diagnoses,549,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 549, ""patient_id"": 329, ""admission_id"": 549, ""icd9_code"": ""584.9"", ""diagnosing_physician_id"": 21, ""diagnosis_datetime"": ""2026-07-13T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1549
+D,diagnoses,525,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 525, ""patient_id"": 315, ""admission_id"": 525, ""icd9_code"": ""401.9"", ""diagnosing_physician_id"": 36, ""diagnosis_datetime"": ""2026-06-29T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1550
+D,diagnoses,608,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 608, ""patient_id"": 362, ""admission_id"": 608, ""icd9_code"": ""491.21"", ""diagnosing_physician_id"": 26, ""diagnosis_datetime"": ""2026-09-04T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1551
+D,diagnoses,396,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 396, ""patient_id"": 234, ""admission_id"": 396, ""icd9_code"": ""465.9"", ""diagnosing_physician_id"": 26, ""diagnosis_datetime"": ""2026-08-07T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1552
+D,diagnoses,926,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 926, ""patient_id"": 553, ""admission_id"": 926, ""icd9_code"": ""401.9"", ""diagnosing_physician_id"": 1, ""diagnosis_datetime"": ""2026-08-26T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1553
+D,diagnoses,197,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 197, ""patient_id"": 116, ""admission_id"": 197, ""icd9_code"": ""493.90"", ""diagnosing_physician_id"": 46, ""diagnosis_datetime"": ""2026-06-30T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1554
+D,diagnoses,707,exact_duplicate_admissions_and_diagnoses,(record),null,"{""diagnosis_id"": 707, ""patient_id"": 421, ""admission_id"": 707, ""icd9_code"": ""276.51"", ""diagnosing_physician_id"": 6, ""diagnosis_datetime"": ""2026-07-05T09:00:00"", ""diagnosis_type"": ""Primary""}",applied,Duplicate occurrence appended at position 1555
