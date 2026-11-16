@@ -1,0 +1,333 @@
+source_code,source_local_id,source_patient_id,source_admitting_professional_id,admission_datetime,discharge_datetime,admission_type,admission_source,reason_for_admission,current_condition,insurance_info,admission_status,source_line
+A,1,1,1,2026-01-06 13:00:00,2026-01-14 13:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,3
+A,2,1,1,2026-01-26 13:00:00,2026-02-02 13:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,4
+A,3,1,1,2026-02-15 13:00:00,2026-02-17 12:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,5
+A,4,1,1,2026-03-07 13:00:00,2026-03-07 19:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,6
+A,5,2,1,2026-01-07 13:00:00,2026-01-09 04:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,7
+A,6,2,1,2026-01-27 13:00:00,2026-01-27 19:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,8
+A,7,3,1,2026-01-08 13:00:00,,Emergency,Emergency Department,Synthetic encounter,,,Admitted,9
+A,8,4,1,2026-01-09 13:00:00,2026-01-14 08:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,10
+A,9,4,1,2026-01-29 13:00:00,2026-01-30 23:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,11
+A,10,5,1,2026-01-10 13:00:00,2026-01-13 03:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,12
+A,11,6,1,2026-01-11 13:00:00,2026-01-16 07:00:00,Elective,Referral,Synthetic encounter,,,Discharged,13
+A,12,6,1,2026-01-31 13:00:00,2026-02-01 03:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,14
+A,13,7,1,2026-01-12 13:00:00,2026-01-15 18:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,15
+A,14,7,1,2026-02-01 13:00:00,2026-02-02 09:00:00,Urgent,Referral,Synthetic encounter,,,Deceased,16
+A,15,8,1,2026-01-13 13:00:00,2026-01-16 02:00:00,Elective,Referral,Synthetic encounter,,,Discharged,17
+A,16,9,1,2026-01-14 13:00:00,2026-01-18 12:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,18
+A,17,10,1,2026-01-15 13:00:00,2026-01-20 10:00:00,Elective,Referral,Synthetic encounter,,,Discharged,19
+A,18,11,1,2026-01-16 13:00:00,2026-01-20 12:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,20
+A,19,11,1,2026-02-05 13:00:00,2026-02-09 23:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,21
+A,20,12,1,2026-01-17 13:00:00,2026-01-22 06:00:00,Elective,Referral,Synthetic encounter,,,Discharged,22
+A,21,12,1,2026-02-06 13:00:00,2026-02-09 05:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,23
+A,22,13,1,2026-01-18 13:00:00,2026-01-20 23:00:00,Elective,Referral,Synthetic encounter,,,Discharged,24
+A,23,13,1,2026-02-07 13:00:00,2026-02-08 01:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,25
+A,24,14,1,2026-01-19 13:00:00,2026-01-20 06:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,26
+A,25,14,1,2026-02-08 13:00:00,2026-02-11 00:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,27
+A,26,15,1,2026-01-20 13:00:00,2026-01-23 01:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,28
+A,27,15,1,2026-02-09 13:00:00,2026-02-13 03:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,29
+A,28,16,1,2026-01-21 13:00:00,2026-01-22 02:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,30
+A,29,16,1,2026-02-10 13:00:00,2026-02-10 22:00:00,Elective,Referral,Synthetic encounter,,,Discharged,31
+A,30,17,1,2026-01-22 13:00:00,2026-01-26 14:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,32
+A,31,17,1,2026-02-11 13:00:00,2026-02-15 12:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,33
+A,32,18,1,2026-01-23 13:00:00,2026-01-24 23:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,34
+A,33,19,1,2026-01-24 13:00:00,2026-01-26 05:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,35
+A,34,19,1,2026-02-13 13:00:00,2026-02-18 13:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,36
+A,35,20,1,2026-01-25 13:00:00,2026-01-29 00:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,37
+A,36,20,1,2026-02-14 13:00:00,2026-02-17 18:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,38
+A,37,21,1,2026-01-26 13:00:00,2026-01-28 00:00:00,Elective,Referral,Synthetic encounter,,,Discharged,39
+A,38,21,1,2026-02-15 13:00:00,2026-02-16 18:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,40
+A,39,22,1,2026-01-27 13:00:00,2026-01-30 22:00:00,Elective,Referral,Synthetic encounter,,,Discharged,41
+A,40,22,1,2026-02-16 13:00:00,2026-02-19 18:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,42
+A,41,23,1,2026-01-28 13:00:00,2026-02-01 11:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,43
+A,42,24,1,2026-01-29 13:00:00,2026-02-02 02:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,44
+A,43,24,1,2026-02-18 13:00:00,,Urgent,Referral,Synthetic encounter,,,Admitted,45
+A,44,25,1,2026-01-30 13:00:00,2026-01-31 10:00:00,Elective,Referral,Synthetic encounter,,,Discharged,46
+A,45,25,1,2026-02-19 13:00:00,2026-02-24 12:00:00,Elective,Referral,Synthetic encounter,,,Discharged,47
+A,46,26,1,2026-01-31 13:00:00,2026-02-02 15:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,48
+A,47,26,1,2026-02-20 13:00:00,,Elective,Referral,Synthetic encounter,,,Admitted,49
+A,48,27,1,2026-02-01 13:00:00,2026-02-02 19:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,50
+A,49,27,1,2026-02-21 13:00:00,2026-02-24 04:00:00,Elective,Referral,Synthetic encounter,,,Discharged,51
+A,50,28,1,2026-02-02 13:00:00,2026-02-05 07:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,52
+A,51,28,1,2026-02-22 13:00:00,2026-02-23 22:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,53
+A,52,29,1,2026-02-03 13:00:00,2026-02-07 21:00:00,Elective,Referral,Synthetic encounter,,,Discharged,54
+A,53,29,1,2026-02-23 13:00:00,2026-02-25 02:00:00,Elective,Referral,Synthetic encounter,,,Discharged,55
+A,54,30,1,2026-02-04 13:00:00,2026-02-08 21:00:00,Elective,Referral,Synthetic encounter,,,Discharged,56
+A,55,30,1,2026-02-24 13:00:00,2026-02-25 06:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,57
+A,56,31,1,2026-02-05 13:00:00,2026-02-10 01:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,58
+A,57,31,1,2026-02-25 13:00:00,2026-02-26 02:00:00,Elective,Referral,Synthetic encounter,,,Discharged,59
+A,58,32,1,2026-02-06 13:00:00,,Outpatient,Referral,Synthetic encounter,,,Admitted,60
+A,59,33,1,2026-02-07 13:00:00,2026-02-12 08:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,61
+A,60,33,1,2026-02-27 13:00:00,2026-03-02 09:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,62
+A,61,34,1,2026-02-08 13:00:00,2026-02-08 18:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,63
+A,62,35,1,2026-02-09 13:00:00,2026-02-10 12:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,64
+A,63,36,1,2026-02-10 13:00:00,2026-02-13 06:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,65
+A,64,36,1,2026-03-02 13:00:00,2026-03-05 05:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,66
+A,65,37,1,2026-02-11 13:00:00,2026-02-14 13:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,67
+A,66,38,1,2026-02-12 13:00:00,2026-02-15 18:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,68
+A,67,38,1,2026-03-04 13:00:00,2026-03-08 16:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,69
+A,68,39,1,2026-02-13 13:00:00,2026-02-17 14:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,70
+A,69,39,1,2026-03-05 13:00:00,2026-03-09 16:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,71
+A,70,40,1,2026-02-14 13:00:00,2026-02-17 16:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,72
+A,71,41,1,2026-02-15 13:00:00,2026-02-19 19:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,73
+A,72,42,1,2026-02-16 13:00:00,2026-02-20 22:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,74
+A,73,42,1,2026-03-08 12:00:00,2026-03-12 11:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,75
+A,74,43,1,2026-02-17 13:00:00,2026-02-19 20:00:00,Elective,Referral,Synthetic encounter,,,Discharged,76
+A,75,43,1,2026-03-09 12:00:00,2026-03-10 09:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,77
+A,76,44,1,2026-02-18 13:00:00,2026-02-23 00:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,78
+A,77,45,1,2026-02-19 13:00:00,2026-02-23 17:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,79
+A,78,46,1,2026-02-20 13:00:00,2026-02-22 19:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,80
+A,79,46,1,2026-03-12 12:00:00,2026-03-13 02:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,81
+A,80,47,1,2026-02-21 13:00:00,2026-02-24 09:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,82
+A,81,47,1,2026-03-13 12:00:00,2026-03-17 08:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,83
+A,82,48,1,2026-02-22 13:00:00,2026-02-23 14:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,84
+A,83,48,1,2026-03-14 12:00:00,2026-03-17 05:00:00,Elective,Referral,Synthetic encounter,,,Discharged,85
+B,1,1,1,2026-06-15 06:00:00,2026-06-23 06:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,2
+B,2,1,1,2026-07-05 06:00:00,2026-07-12 06:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,3
+B,3,1,1,2026-07-25 06:00:00,2026-07-29 23:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,4
+B,4,1,1,2026-08-14 06:00:00,2026-08-15 06:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,5
+B,5,2,1,2026-06-16 06:00:00,2026-06-20 06:00:00,Elective,Referral,Synthetic encounter,,,Discharged,6
+B,6,3,1,2026-06-17 06:00:00,,Elective,Referral,Synthetic encounter,,,Admitted,7
+B,7,4,1,2026-06-18 06:00:00,2026-06-18 13:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,8
+B,8,5,1,2026-06-19 06:00:00,2026-06-19 14:00:00,Elective,Referral,Synthetic encounter,,,Discharged,9
+B,9,5,1,2026-07-09 06:00:00,2026-07-11 16:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,10
+B,10,6,1,2026-06-20 06:00:00,2026-06-21 03:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,11
+B,11,6,1,2026-07-10 06:00:00,2026-07-11 11:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,12
+B,12,7,1,2026-06-21 06:00:00,2026-06-22 19:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,13
+B,13,7,1,2026-07-11 06:00:00,2026-07-13 17:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,14
+B,14,8,1,2026-06-22 06:00:00,2026-06-23 15:00:00,Elective,Referral,Synthetic encounter,,,Discharged,15
+B,15,8,1,2026-07-12 06:00:00,2026-07-17 06:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,16
+B,16,9,1,2026-06-23 06:00:00,2026-06-24 21:00:00,Elective,Referral,Synthetic encounter,,,Discharged,17
+B,17,9,1,2026-07-13 06:00:00,2026-07-18 04:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,18
+B,18,10,1,2026-06-24 06:00:00,2026-06-28 03:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,19
+B,19,11,1,2026-06-25 06:00:00,2026-06-28 20:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,20
+B,20,11,1,2026-07-15 06:00:00,2026-07-17 22:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,21
+B,21,12,1,2026-06-26 06:00:00,2026-06-28 01:00:00,Elective,Referral,Synthetic encounter,,,Deceased,22
+B,22,13,1,2026-06-27 06:00:00,2026-07-01 22:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,23
+B,23,13,1,2026-07-17 06:00:00,2026-07-22 00:00:00,Elective,Referral,Synthetic encounter,,,Discharged,24
+B,24,14,1,2026-06-28 06:00:00,2026-06-29 23:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,25
+B,25,15,1,2026-06-29 06:00:00,2026-07-03 16:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,26
+B,26,16,1,2026-06-30 06:00:00,2026-07-04 03:00:00,Elective,Referral,Synthetic encounter,,,Discharged,27
+B,27,16,1,2026-07-20 06:00:00,2026-07-23 21:00:00,Elective,Referral,Synthetic encounter,,,Discharged,28
+B,28,17,1,2026-07-01 06:00:00,2026-07-04 01:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,29
+B,29,17,1,2026-07-21 06:00:00,2026-07-22 09:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,30
+B,30,18,1,2026-07-02 06:00:00,2026-07-03 00:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,31
+B,31,18,1,2026-07-22 06:00:00,2026-07-24 15:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,32
+B,32,19,1,2026-07-03 06:00:00,2026-07-07 18:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,33
+B,33,19,1,2026-07-23 06:00:00,2026-07-24 13:00:00,Elective,Referral,Synthetic encounter,,,Discharged,34
+B,34,20,1,2026-07-04 06:00:00,2026-07-06 04:00:00,Elective,Referral,Synthetic encounter,,,Discharged,35
+B,35,21,1,2026-07-05 06:00:00,2026-07-07 21:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,36
+B,36,21,1,2026-07-25 06:00:00,2026-07-28 11:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,37
+B,37,22,1,2026-07-06 06:00:00,2026-07-09 23:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,38
+B,38,22,1,2026-07-26 06:00:00,2026-07-28 17:00:00,Elective,Referral,Synthetic encounter,,,Discharged,39
+B,39,23,1,2026-07-07 06:00:00,2026-07-10 06:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,40
+B,40,23,1,2026-07-27 06:00:00,2026-07-28 03:00:00,Elective,Referral,Synthetic encounter,,,Discharged,41
+B,41,24,1,2026-07-08 06:00:00,2026-07-11 08:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,42
+B,42,25,1,2026-07-09 06:00:00,2026-07-13 12:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,43
+B,43,25,1,2026-07-29 06:00:00,2026-08-02 17:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,44
+B,44,26,1,2026-07-10 06:00:00,2026-07-11 05:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,45
+B,45,26,1,2026-07-30 06:00:00,,Emergency,Emergency Department,Synthetic encounter,,,Admitted,46
+B,46,27,1,2026-07-11 06:00:00,2026-07-14 18:00:00,Elective,Referral,Synthetic encounter,,,Discharged,47
+B,47,27,1,2026-07-31 06:00:00,2026-07-31 16:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,48
+B,48,28,1,2026-07-12 06:00:00,2026-07-13 01:00:00,Elective,Referral,Synthetic encounter,,,Discharged,49
+B,49,28,1,2026-08-01 06:00:00,2026-08-06 00:00:00,Elective,Referral,Synthetic encounter,,,Discharged,50
+B,50,29,1,2026-07-13 06:00:00,2026-07-16 02:00:00,Elective,Referral,Synthetic encounter,,,Discharged,51
+B,51,29,1,2026-08-02 06:00:00,,Urgent,Referral,Synthetic encounter,,,Admitted,52
+B,52,30,1,2026-07-14 06:00:00,2026-07-17 07:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,53
+B,53,30,1,2026-08-03 06:00:00,2026-08-05 14:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,54
+B,54,31,1,2026-07-15 06:00:00,2026-07-15 13:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,55
+B,55,31,1,2026-08-04 06:00:00,2026-08-05 08:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,56
+B,56,32,1,2026-07-16 06:00:00,2026-07-18 21:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,57
+B,57,32,1,2026-08-05 06:00:00,2026-08-09 08:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,58
+B,58,33,1,2026-07-17 06:00:00,2026-07-17 19:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,59
+B,59,34,1,2026-07-18 06:00:00,2026-07-23 00:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,60
+B,60,34,1,2026-08-07 06:00:00,2026-08-08 05:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,61
+B,61,35,1,2026-07-19 06:00:00,2026-07-22 20:00:00,Elective,Referral,Synthetic encounter,,,Discharged,62
+B,62,35,1,2026-08-08 06:00:00,2026-08-11 10:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,63
+B,63,36,1,2026-07-20 06:00:00,2026-07-21 04:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,64
+B,64,37,1,2026-07-21 06:00:00,2026-07-22 02:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,65
+B,65,37,1,2026-08-10 06:00:00,2026-08-13 13:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,66
+B,66,38,1,2026-07-22 06:00:00,2026-07-24 22:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,67
+B,67,39,1,2026-07-23 06:00:00,2026-07-25 17:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,68
+B,68,39,1,2026-08-12 06:00:00,2026-08-16 12:00:00,Elective,Referral,Synthetic encounter,,,Discharged,69
+B,69,40,1,2026-07-24 06:00:00,2026-07-28 16:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,70
+B,70,40,1,2026-08-13 06:00:00,2026-08-16 09:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,71
+B,71,41,1,2026-07-25 06:00:00,2026-07-27 21:00:00,Elective,Referral,Synthetic encounter,,,Discharged,72
+B,72,41,1,2026-08-14 06:00:00,,Emergency,Emergency Department,Synthetic encounter,,,Admitted,73
+B,73,42,1,2026-07-26 06:00:00,2026-07-28 13:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,74
+B,74,43,1,2026-07-27 06:00:00,2026-07-30 04:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,75
+B,75,43,1,2026-08-16 06:00:00,2026-08-17 13:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,76
+B,76,44,1,2026-07-28 06:00:00,2026-08-02 01:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,77
+B,77,44,1,2026-08-17 06:00:00,2026-08-21 23:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,78
+B,78,45,1,2026-07-29 06:00:00,2026-08-02 17:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,79
+B,79,46,1,2026-07-30 06:00:00,2026-08-02 09:00:00,Elective,Referral,Synthetic encounter,,,Discharged,80
+B,80,46,1,2026-08-19 06:00:00,2026-08-22 09:00:00,Elective,Referral,Synthetic encounter,,,Discharged,81
+B,81,47,1,2026-07-31 06:00:00,2026-08-04 02:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,82
+B,82,47,1,2026-08-20 06:00:00,2026-08-22 13:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,83
+B,83,48,1,2026-08-01 06:00:00,2026-08-02 04:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,84
+C,1,1,1,2026-01-05 23:00:00,2026-01-13 23:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,15
+C,2,1,1,2026-01-25 23:00:00,2026-02-01 23:00:00,Elective,Referral,Synthetic encounter,,,Discharged,143
+C,3,1,1,2026-02-14 23:00:00,2026-02-18 06:00:00,Elective,Referral,Synthetic encounter,,,Discharged,252
+C,4,1,1,2026-03-06 23:00:00,2026-03-07 20:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,365
+C,5,2,1,2026-01-06 23:00:00,2026-01-07 12:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,492
+C,6,2,1,2026-01-26 23:00:00,2026-01-28 16:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,609
+C,7,3,1,2026-01-07 23:00:00,2026-01-10 22:00:00,Elective,Referral,Synthetic encounter,,,Discharged,744
+C,8,4,1,2026-01-08 23:00:00,2026-01-12 11:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,857
+C,9,4,1,2026-01-28 23:00:00,2026-02-01 22:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,953
+C,10,5,1,2026-01-09 23:00:00,2026-01-14 14:00:00,Elective,Referral,Synthetic encounter,,,Discharged,1071
+C,11,5,1,2026-01-29 23:00:00,2026-02-03 12:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,1177
+C,12,6,1,2026-01-10 23:00:00,2026-01-15 21:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,1283
+C,13,6,1,2026-01-30 23:00:00,2026-02-02 12:00:00,Elective,Referral,Synthetic encounter,,,Discharged,1380
+C,14,7,1,2026-01-11 23:00:00,2026-01-14 02:00:00,Elective,Referral,Synthetic encounter,,,Discharged,1484
+C,15,7,1,2026-01-31 23:00:00,2026-02-02 03:00:00,Elective,Referral,Synthetic encounter,,,Discharged,1577
+C,16,8,1,2026-01-12 23:00:00,2026-01-13 11:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,1686
+C,17,9,1,2026-01-13 23:00:00,2026-01-17 20:00:00,Elective,Referral,Synthetic encounter,,,Discharged,1781
+C,18,9,1,2026-02-02 23:00:00,2026-02-06 18:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,1855
+C,19,10,1,2026-01-14 23:00:00,2026-01-18 04:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,1946
+C,20,11,1,2026-01-15 23:00:00,2026-01-19 18:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,2042
+C,21,11,1,2026-02-04 23:00:00,2026-02-07 12:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,2116
+C,22,12,1,2026-01-16 23:00:00,2026-01-18 09:00:00,Elective,Referral,Synthetic encounter,,,Discharged,2201
+C,23,12,1,2026-02-05 23:00:00,2026-02-08 23:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,2273
+C,24,13,1,2026-01-17 23:00:00,2026-01-22 12:00:00,Elective,Referral,Synthetic encounter,,,Discharged,2360
+C,25,13,1,2026-02-06 23:00:00,2026-02-08 16:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,2432
+C,26,14,1,2026-01-18 23:00:00,2026-01-19 05:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,2516
+C,27,14,1,2026-02-07 23:00:00,2026-02-10 10:00:00,Elective,Referral,Synthetic encounter,,,Discharged,2590
+C,28,15,1,2026-01-19 23:00:00,,Elective,Referral,Synthetic encounter,,,Admitted,2684
+C,29,16,1,2026-01-20 23:00:00,2026-01-21 10:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,2743
+C,30,17,1,2026-01-21 23:00:00,2026-01-25 15:00:00,Elective,Referral,Synthetic encounter,,,Discharged,2824
+C,31,17,1,2026-02-10 23:00:00,2026-02-14 16:00:00,Elective,Referral,Synthetic encounter,,,Discharged,2894
+C,32,18,1,2026-01-22 23:00:00,2026-01-27 15:00:00,Elective,Referral,Synthetic encounter,,,Discharged,2986
+C,33,18,1,2026-02-11 23:00:00,2026-02-12 10:00:00,Elective,Referral,Synthetic encounter,,,Discharged,3081
+C,34,19,1,2026-01-23 23:00:00,2026-01-26 13:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,3156
+C,35,20,1,2026-01-24 23:00:00,2026-01-28 01:00:00,Elective,Referral,Synthetic encounter,,,Discharged,3223
+C,36,20,1,2026-02-13 23:00:00,2026-02-16 05:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,3281
+C,37,21,1,2026-01-25 23:00:00,2026-01-28 15:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,3348
+C,38,21,1,2026-02-14 23:00:00,2026-02-17 14:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,3403
+C,39,22,1,2026-01-26 23:00:00,2026-01-28 11:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,3474
+C,40,23,1,2026-01-27 23:00:00,2026-02-01 00:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,3540
+C,41,23,1,2026-02-16 23:00:00,2026-02-20 15:00:00,Elective,Referral,Synthetic encounter,,,Discharged,3595
+C,42,24,1,2026-01-28 23:00:00,2026-01-30 18:00:00,Elective,Referral,Synthetic encounter,,,Discharged,3660
+C,43,24,1,2026-02-17 23:00:00,2026-02-18 10:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,3720
+C,44,25,1,2026-01-29 23:00:00,2026-01-30 08:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,3788
+C,45,26,1,2026-01-30 23:00:00,2026-02-03 11:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,3859
+C,46,26,1,2026-02-19 23:00:00,2026-02-23 02:00:00,Emergency,Emergency Department,Synthetic encounter,,,Deceased,3919
+C,47,27,1,2026-01-31 23:00:00,2026-02-03 11:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,3986
+C,48,27,1,2026-02-20 23:00:00,2026-02-22 20:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,4044
+C,49,28,1,2026-02-01 23:00:00,2026-02-05 21:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,4117
+C,50,29,1,2026-02-02 23:00:00,2026-02-04 05:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,4184
+C,51,29,1,2026-02-22 23:00:00,,Urgent,Referral,Synthetic encounter,,,Admitted,4236
+C,52,30,1,2026-02-03 23:00:00,2026-02-08 18:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,4283
+C,53,30,1,2026-02-23 23:00:00,2026-02-25 13:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,4338
+C,54,31,1,2026-02-04 23:00:00,2026-02-07 16:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,4403
+C,55,31,1,2026-02-24 23:00:00,,Elective,Referral,Synthetic encounter,,,Admitted,4463
+C,56,32,1,2026-02-05 23:00:00,2026-02-09 04:00:00,Elective,Referral,Synthetic encounter,,,Discharged,4510
+C,57,33,1,2026-02-06 23:00:00,2026-02-11 22:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,4581
+C,58,33,1,2026-02-26 23:00:00,2026-02-27 13:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,4635
+C,59,34,1,2026-02-07 23:00:00,2026-02-12 12:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,4708
+C,60,35,1,2026-02-08 23:00:00,2026-02-11 21:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,4778
+C,61,35,1,2026-02-28 23:00:00,2026-03-04 22:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,4832
+C,62,36,1,2026-02-09 23:00:00,2026-02-11 17:00:00,Elective,Referral,Synthetic encounter,,,Discharged,4900
+C,63,36,1,2026-03-01 23:00:00,2026-03-04 11:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,4958
+C,64,37,1,2026-02-10 23:00:00,2026-02-11 05:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,5031
+C,65,37,1,2026-03-02 23:00:00,2026-03-05 14:00:00,Elective,Referral,Synthetic encounter,,,Discharged,5086
+C,66,38,1,2026-02-11 23:00:00,2026-02-15 11:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,5150
+C,67,38,1,2026-03-03 23:00:00,2026-03-05 16:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,5210
+C,68,39,1,2026-02-12 23:00:00,2026-02-14 18:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,5284
+C,69,39,1,2026-03-04 23:00:00,2026-03-08 15:00:00,Elective,Referral,Synthetic encounter,,,Discharged,5342
+C,70,40,1,2026-02-13 23:00:00,2026-02-15 07:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,5415
+C,71,41,1,2026-02-14 23:00:00,2026-02-18 23:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,5482
+C,72,42,1,2026-02-15 23:00:00,2026-02-19 02:00:00,Elective,Referral,Synthetic encounter,,,Discharged,5553
+C,73,42,1,2026-03-07 23:00:00,2026-03-12 18:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,5613
+C,74,43,1,2026-02-16 23:00:00,2026-02-17 19:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,5681
+C,75,43,1,2026-03-08 23:00:00,2026-03-09 21:00:00,Elective,Referral,Synthetic encounter,,,Discharged,5739
+C,76,44,1,2026-02-17 23:00:00,2026-02-22 09:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,5805
+C,77,44,1,2026-03-09 23:00:00,2026-03-14 23:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,5860
+C,78,45,1,2026-02-18 23:00:00,2026-02-23 18:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,5925
+C,79,46,1,2026-02-19 23:00:00,2026-02-22 11:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,5998
+C,80,46,1,2026-03-11 23:00:00,2026-03-16 08:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,6053
+C,81,47,1,2026-02-20 23:00:00,2026-02-21 07:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,6108
+C,82,47,1,2026-03-12 23:00:00,2026-03-14 21:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,6147
+C,83,48,1,2026-02-21 23:00:00,,Elective,Referral,Synthetic encounter,,,Admitted,6205
+D,1,1,1,2026-06-14 22:00:00,2026-06-22 22:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[0].admissions[0]
+D,2,1,1,2026-07-04 22:00:00,2026-07-11 22:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[0].admissions[1]
+D,3,1,1,2026-07-24 22:00:00,2026-07-27 13:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[0].admissions[2]
+D,4,1,1,2026-08-13 22:00:00,2026-08-17 03:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[0].admissions[3]
+D,5,2,1,2026-06-15 22:00:00,2026-06-19 23:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[1].admissions[0]
+D,6,2,1,2026-07-05 22:00:00,2026-07-08 07:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[1].admissions[1]
+D,7,3,1,2026-06-16 22:00:00,2026-06-21 20:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[2].admissions[0]
+D,8,3,1,2026-07-06 22:00:00,2026-07-08 16:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[2].admissions[1]
+D,9,4,1,2026-06-17 22:00:00,2026-06-20 12:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[3].admissions[0]
+D,10,5,1,2026-06-18 22:00:00,2026-06-20 15:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[4].admissions[0]
+D,11,5,1,2026-07-08 22:00:00,2026-07-09 16:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[4].admissions[1]
+D,12,6,1,2026-06-19 22:00:00,2026-06-22 05:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[5].admissions[0]
+D,13,6,1,2026-07-09 22:00:00,2026-07-14 06:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[5].admissions[1]
+D,14,7,1,2026-06-20 22:00:00,2026-06-21 05:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[6].admissions[0]
+D,15,7,1,2026-07-10 22:00:00,2026-07-13 07:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[6].admissions[1]
+D,16,8,1,2026-06-21 22:00:00,,Emergency,Emergency Department,Synthetic encounter,,,Admitted,$[7].admissions[0]
+D,17,9,1,2026-06-22 22:00:00,2026-06-27 13:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[8].admissions[0]
+D,18,9,1,2026-07-12 22:00:00,2026-07-17 02:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[8].admissions[1]
+D,19,10,1,2026-06-23 22:00:00,2026-06-25 04:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[9].admissions[0]
+D,20,11,1,2026-06-24 22:00:00,2026-06-29 05:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[10].admissions[0]
+D,21,11,1,2026-07-14 22:00:00,2026-07-19 20:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[10].admissions[1]
+D,22,12,1,2026-06-25 22:00:00,2026-06-27 20:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[11].admissions[0]
+D,23,13,1,2026-06-26 22:00:00,2026-06-27 13:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[12].admissions[0]
+D,24,13,1,2026-07-16 22:00:00,2026-07-21 14:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[12].admissions[1]
+D,25,14,1,2026-06-27 22:00:00,2026-06-29 02:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[13].admissions[0]
+D,26,14,1,2026-07-17 22:00:00,2026-07-22 14:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[13].admissions[1]
+D,27,15,1,2026-06-28 22:00:00,2026-07-02 22:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[14].admissions[0]
+D,28,15,1,2026-07-18 22:00:00,2026-07-21 12:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[14].admissions[1]
+D,29,16,1,2026-06-29 22:00:00,2026-07-04 13:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[15].admissions[0]
+D,30,16,1,2026-07-19 22:00:00,,Elective,Referral,Synthetic encounter,,,Admitted,$[15].admissions[1]
+D,31,17,1,2026-06-30 22:00:00,2026-07-03 12:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[16].admissions[0]
+D,32,17,1,2026-07-20 22:00:00,2026-07-24 21:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[16].admissions[1]
+D,33,18,1,2026-07-01 22:00:00,2026-07-05 22:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[17].admissions[0]
+D,34,18,1,2026-07-21 22:00:00,2026-07-24 00:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[17].admissions[1]
+D,35,19,1,2026-07-02 22:00:00,2026-07-05 18:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[18].admissions[0]
+D,36,20,1,2026-07-03 22:00:00,2026-07-06 23:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[19].admissions[0]
+D,37,20,1,2026-07-23 22:00:00,2026-07-28 10:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[19].admissions[1]
+D,38,21,1,2026-07-04 22:00:00,2026-07-07 23:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[20].admissions[0]
+D,39,22,1,2026-07-05 22:00:00,2026-07-08 22:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[21].admissions[0]
+D,40,22,1,2026-07-25 22:00:00,,Elective,Referral,Synthetic encounter,,,Admitted,$[21].admissions[1]
+D,41,23,1,2026-07-06 22:00:00,2026-07-11 07:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[22].admissions[0]
+D,42,23,1,2026-07-26 22:00:00,2026-07-28 20:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[22].admissions[1]
+D,43,24,1,2026-07-07 22:00:00,2026-07-11 14:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[23].admissions[0]
+D,44,25,1,2026-07-08 22:00:00,2026-07-10 15:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[24].admissions[0]
+D,45,26,1,2026-07-09 22:00:00,2026-07-12 00:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[25].admissions[0]
+D,46,26,1,2026-07-29 22:00:00,2026-08-02 21:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[25].admissions[1]
+D,47,27,1,2026-07-10 22:00:00,2026-07-12 12:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[26].admissions[0]
+D,48,27,1,2026-07-30 22:00:00,2026-08-04 04:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[26].admissions[1]
+D,49,28,1,2026-07-11 22:00:00,2026-07-14 21:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[27].admissions[0]
+D,50,28,1,2026-07-31 22:00:00,2026-08-02 22:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[27].admissions[1]
+D,51,29,1,2026-07-12 22:00:00,2026-07-14 21:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[28].admissions[0]
+D,52,29,1,2026-08-01 22:00:00,2026-08-03 03:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[28].admissions[1]
+D,53,30,1,2026-07-13 22:00:00,2026-07-15 00:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[29].admissions[0]
+D,54,30,1,2026-08-02 22:00:00,2026-08-03 10:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[29].admissions[1]
+D,55,31,1,2026-07-14 22:00:00,2026-07-15 13:00:00,Urgent,Referral,Synthetic encounter,,,Deceased,$[30].admissions[0]
+D,56,32,1,2026-07-15 22:00:00,2026-07-18 18:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[31].admissions[0]
+D,57,32,1,2026-08-04 22:00:00,,Outpatient,Referral,Synthetic encounter,,,Admitted,$[31].admissions[1]
+D,58,33,1,2026-07-16 22:00:00,2026-07-17 12:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[32].admissions[0]
+D,59,33,1,2026-08-05 22:00:00,2026-08-07 07:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[32].admissions[1]
+D,60,34,1,2026-07-17 22:00:00,2026-07-21 23:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[33].admissions[0]
+D,61,34,1,2026-08-06 22:00:00,2026-08-11 12:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[33].admissions[1]
+D,62,35,1,2026-07-18 22:00:00,2026-07-23 10:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[34].admissions[0]
+D,63,35,1,2026-08-07 22:00:00,2026-08-12 04:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[34].admissions[1]
+D,64,36,1,2026-07-19 22:00:00,2026-07-22 18:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[35].admissions[0]
+D,65,37,1,2026-07-20 22:00:00,2026-07-23 15:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[36].admissions[0]
+D,66,38,1,2026-07-21 22:00:00,2026-07-24 13:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[37].admissions[0]
+D,67,38,1,2026-08-10 22:00:00,2026-08-11 03:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[37].admissions[1]
+D,68,39,1,2026-07-22 22:00:00,2026-07-24 06:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[38].admissions[0]
+D,69,39,1,2026-08-11 22:00:00,2026-08-13 17:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[38].admissions[1]
+D,70,40,1,2026-07-23 22:00:00,2026-07-26 22:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[39].admissions[0]
+D,71,41,1,2026-07-24 22:00:00,2026-07-29 02:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[40].admissions[0]
+D,72,41,1,2026-08-13 22:00:00,2026-08-16 05:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[40].admissions[1]
+D,73,42,1,2026-07-25 22:00:00,2026-07-29 02:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[41].admissions[0]
+D,74,42,1,2026-08-14 22:00:00,2026-08-15 20:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[41].admissions[1]
+D,75,43,1,2026-07-26 22:00:00,2026-07-30 15:00:00,Urgent,Referral,Synthetic encounter,,,Discharged,$[42].admissions[0]
+D,76,44,1,2026-07-27 22:00:00,2026-07-30 09:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[43].admissions[0]
+D,77,44,1,2026-08-16 22:00:00,2026-08-21 01:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[43].admissions[1]
+D,78,45,1,2026-07-28 22:00:00,2026-07-31 05:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[44].admissions[0]
+D,79,45,1,2026-08-17 22:00:00,2026-08-19 18:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[44].admissions[1]
+D,80,46,1,2026-07-29 22:00:00,2026-07-31 13:00:00,Outpatient,Referral,Synthetic encounter,,,Discharged,$[45].admissions[0]
+D,81,46,1,2026-08-18 22:00:00,2026-08-22 02:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[45].admissions[1]
+D,82,47,1,2026-07-30 22:00:00,2026-08-04 22:00:00,Emergency,Emergency Department,Synthetic encounter,,,Discharged,$[46].admissions[0]
+D,83,48,1,2026-07-31 22:00:00,2026-08-02 02:00:00,Elective,Referral,Synthetic encounter,,,Discharged,$[47].admissions[0]
