@@ -32,12 +32,13 @@ not delete or regenerate a frozen source without coordinating with the team.
 - data/raw/checksums.txt: SHA-256 for the 35 full and 35 existing sample files.
 - phase2/generator/freeze_sources.py: checks, read-only permissions and later verification.
 
-The generator and sample writer remain unchanged from KR-2. Existing samples
-are included in the checksum manifest exactly as they exist on the freezing
-machine. Stage the entire data/raw/ folder with the Git attribute in the same
-commit so committed bytes agree with the manifest, even if Windows previously
-checked out the samples with CRLF. A fresh checkout does not retain local
-read-only permissions; use the manifest to verify bytes on every machine.
+The generator and sample writer remain unchanged from KR-2. The sample files
+are kept byte-for-byte as they were on main (LF line endings), and their
+checksums were computed from those committed bytes. The Git attribute
+(`data/raw/** -text`) stops Git from converting line endings, so a fresh
+checkout on Windows, macOS or Linux matches the manifest. A fresh checkout does
+not retain local read-only permissions; use the manifest to verify bytes on
+every machine.
 
 ## Verified full counts
 
