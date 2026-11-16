@@ -1,8 +1,8 @@
 """SA-3: clean and standardize the four raw sources (Task 2, items 1-8).
 
 Run from the repository root:
-    python phase2/clean.py                 # sample data (data/raw/sample)
-    python phase2/clean.py --scale full    # full data (data/raw/full)
+    python phase2/clean.py                 # full frozen data (data/raw/full), the real run
+    python phase2/clean.py --scale sample  # small sample (data/raw/sample), for quick checks
 
 Input:  LA-1's load_all() -> {"A": {entity: DataFrame}, ...}, every value as raw text.
 Output (every run rebuilds them from scratch, so a rerun gives identical files):
@@ -1101,7 +1101,7 @@ def clean_all(data: dict, malformed: pd.DataFrame | None = None, schema: dict | 
                           left_on="source_local_id", right_on="old_patient_id").set_index("index")
         log_records(log, source, "patients", patients[removed], "clean", "duplicate_patient",
                     "source_local_id", patients.loc[removed, "source_local_id"], merged["kept_patient_id"],
-                    "merged into patient " + merged["kept_patient_id"])
+                    "merged into kept patient")
         tables[source]["patients"] = patients[~removed].copy()
         counts[(source, "patients")]["duplicate_patients_merged"] = int(removed.sum())
 
@@ -1207,7 +1207,7 @@ def run(raw_dir: Path | None = None, output_dir: Path = OUTPUT_DIR,
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    parser.add_argument("--scale", choices=("sample", "full"), default="sample")
+    parser.add_argument("--scale", choices=("sample", "full"), default="full")
     parser.add_argument("--raw-dir", type=Path, help="Default: data/raw/<scale>")
     args = parser.parse_args()
     raw_dir = args.raw_dir or ROOT / "data" / "raw" / args.scale

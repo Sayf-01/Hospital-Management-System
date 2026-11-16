@@ -1,89 +1,119 @@
 source_code,entity,source_local_id,source_line,stage,problem_type,column,raw_value,cleaned_value,action
-D,clinical_notes,6,$[1].admissions[1].clinicalNotes[0],clean,ambiguous_day_first_assumed,note_datetime,08/07/2026 5:00 PM,2026-07-08 07:00:00,"kept, assumption logged"
-D,clinical_notes,15,$[6].admissions[1].clinicalNotes[0],clean,ambiguous_day_first_assumed,note_datetime,11/07/2026 8:30 AM,2026-07-10 22:30:00,"kept, assumption logged"
-A,admissions,17,19,clean,category_case_or_space,admission_type, ELECTIVE ,Elective,corrected
-A,admissions,46,48,clean,category_case_or_space,admission_type, URGENT ,Urgent,corrected
-B,admissions,10,11,clean,category_case_or_space,admission_type, NOTFALL ,Emergency,corrected
-B,admissions,21,22,clean,category_case_or_space,admission_type, GEPLANT ,Elective,corrected
-C,admissions,15,1577,clean,category_case_or_space,admission_type, ELECTIVE ,Elective,corrected
-C,admissions,33,3081,clean,category_case_or_space,admission_type, ELECTIVE ,Elective,corrected
-D,admissions,11,$[4].admissions[1],clean,category_case_or_space,admission_type, EMERGENCY ,Emergency,corrected
-D,admissions,20,$[10].admissions[0],clean,category_case_or_space,admission_type, EMERGENCY ,Emergency,corrected
+D,clinical_notes,22,$[11].admissions[0].clinicalNotes[0],clean,ambiguous_day_first_assumed,note_datetime,01/07/2026 7:00 AM,2026-06-30 21:00:00,"kept, assumption logged"
+D,clinical_notes,62,$[33].admissions[1].clinicalNotes[0],clean,ambiguous_day_first_assumed,note_datetime,09/08/2026 2:00 PM,2026-08-09 04:00:00,"kept, assumption logged"
+A,admissions,13,15,clean,category_case_or_space,admission_type, EMERGENCY ,Emergency,corrected
+A,admissions,28,30,clean,category_case_or_space,admission_type, EMERGENCY ,Emergency,corrected
+B,admissions,41,42,clean,category_case_or_space,admission_type, NOTFALL ,Emergency,corrected
+B,admissions,50,51,clean,category_case_or_space,admission_type, GEPLANT ,Elective,corrected
+C,admissions,38,4520,clean,category_case_or_space,admission_type, ELECTIVE ,Elective,corrected
+C,admissions,43,5132,clean,category_case_or_space,admission_type, URGENT ,Urgent,corrected
+D,admissions,30,$[15].admissions[0],clean,category_case_or_space,admission_type, URGENT ,Urgent,corrected
+D,admissions,52,$[26].admissions[1],clean,category_case_or_space,admission_type, URGENT ,Urgent,corrected
 A,patients,1,3,clean,category_mapped,gender,M,Male,corrected
 A,patients,2,4,clean,category_mapped,gender,M,Male,corrected
 B,admissions,1,2,clean,category_mapped,admission_type,Notfall,Emergency,corrected
-B,admissions,2,3,clean,category_mapped,admission_type,Ambulant,Outpatient,corrected
+B,admissions,2,3,clean,category_mapped,admission_type,Notfall,Emergency,corrected
 C,triage_assessments,1,26,clean,category_mapped,priority_level,Red,High-Priority Emergency,corrected
-C,triage_assessments,2,152,clean,category_mapped,priority_level,Yellow,Urgent,corrected
+C,triage_assessments,2,146,clean,category_mapped,priority_level,Yellow,Urgent,corrected
 D,triage_assessments,1,$[0].admissions[0].triage[0],clean,category_mapped,priority_level,1,High-Priority Emergency,corrected
 D,triage_assessments,2,$[0].admissions[1].triage[0],clean,category_mapped,priority_level,2,Urgent,corrected
 B,patients,1,2,clean,date_reformatted,date_of_birth,04.05.2010,2010-05-04,converted
 B,patients,2,3,clean,date_reformatted,date_of_birth,01.04.1948,1948-04-01,converted
 D,patients,4,$[3],clean,date_reformatted,date_of_birth,21/05/2001,2001-05-21,converted
 D,patients,5,$[4],clean,date_reformatted,date_of_birth,18/07/1970,1970-07-18,converted
-A,patients,51,53,clean,duplicate_patient,source_local_id,51,44,merged into patient 44
-B,patients,51,52,clean,duplicate_patient,source_local_id,51,38,merged into patient 38
-C,patients,51,6244,clean,duplicate_patient,source_local_id,51,39,merged into patient 39
-D,patients,51,$[50],clean,duplicate_patient,source_local_id,51,35,merged into patient 35
-A,admissions,53,86,clean,exact_duplicate,(row),"{""ADM_ID"": ""53"", ""PAT_ID"": ""29"", ""ADMITTING_PROFESSIONAL_ID"": ""1"", ""ADMIT_AT"": ""2026-02-23 08:00"", ""DISCHARGE_AT"": ""2026-02-24 21:00"", ""ADMISSION_TYPE"": ""Elective"", ""ADMISSION_SOURCE"": ""Referral"", ""REASON_FOR_ADMISSION"": ""Synthetic encounter"", ""CURRENT_CONDITION"": """", ""INSURANCE_INFO"": """", ""ADMISSION_STATUS"": ""Discharged""}",,removed
-A,diagnoses,78,127,clean,exact_duplicate,(row),"{""DIAG_ID"": ""78"", ""PAT_ID"": ""46"", ""ADM_ID"": ""78"", ""ICD9_CODE"": ""272.4"", ""DIAGNOSING_PHYSICIAN_ID"": ""1"", ""DIAGNOSIS_DATETIME"": ""2026-02-20 09:00"", ""DIAGNOSIS_TYPE"": ""Primary""}",,removed
-B,admissions,16,85,clean,exact_duplicate,(row),"{""admission_no"": ""16"", ""patient_no"": ""9"", ""admitting_professional_id"": ""1"", ""arrival_time"": ""23.06.2026 08:00"", ""departure_time"": ""24.06.2026 23:00"", ""admission_type"": ""Geplant"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": ""?"", ""insurance_info"": ""?"", ""admission_status"": ""Discharged""}",,removed
-B,admissions,52,86,clean,exact_duplicate,(row),"{""admission_no"": ""52"", ""patient_no"": ""30"", ""admitting_professional_id"": ""1"", ""arrival_time"": ""14.07.2026 08:00"", ""departure_time"": ""17.07.2026 09:00"", ""admission_type"": ""Notfall"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": ""?"", ""insurance_info"": ""?"", ""admission_status"": ""Discharged""}",,removed
-C,admissions,26,2662,clean,exact_duplicate,(row),"{""@id"": ""26"", ""source_patient_id"": ""14"", ""admittingProfessionalId"": ""1"", ""admissionDatetime"": ""2026-01-19T08:00:00+09:00"", ""dischargeDatetime"": ""2026-01-19T14:00:00+09:00"", ""admissionType"": ""Emergency"", ""admissionSource"": ""Emergency Department"", ""reasonForAdmission"": ""Synthetic encounter"", ""currentCondition"": null, ""insuranceInfo"": null, ""admissionStatus"": ""Discharged""}",,removed
-C,diagnoses,125,2005,clean,exact_duplicate,(row),"{""@id"": ""125"", ""source_patient_id"": ""10"", ""source_admission_id"": ""19"", ""icd9Code"": ""438.20"", ""diagnosingPhysicianId"": ""1"", ""diagnosisDatetime"": ""2026-01-15T10:00:00+09:00"", ""diagnosisType"": ""Secondary""}",,removed
-D,admissions,26,$[13].admissions[2],clean,exact_duplicate,(row),"{""admissionId"": ""26"", ""source_patient_id"": ""14"", ""admittingProfessionalId"": ""1"", ""admissionDatetime"": ""1784325600"", ""dischargeDatetime"": ""23/07/2026 12:00 AM"", ""admissionType"": ""Urgent"", ""admissionSource"": ""Referral"", ""reasonForAdmission"": ""Synthetic encounter"", ""currentCondition"": null, ""insuranceInfo"": null, ""admissionStatus"": ""Discharged""}",,removed
-D,diagnoses,28,$[14].admissions[1].diagnoses[1],clean,exact_duplicate,(row),"{""diagnosisId"": ""28"", ""source_patient_id"": ""15"", ""source_admission_id"": ""28"", ""icd9Code"": ""571.5"", ""diagnosingPhysicianId"": ""1"", ""diagnosisDatetime"": ""1784415600"", ""diagnosisType"": ""Primary""}",,removed
-A,unit_stays,33,35,chronology,exit_not_after_entry,exit_datetime,2026-01-16 15:25:00,,set to NULL
-B,unit_stays,98,99,chronology,exit_not_after_entry,exit_datetime,2026-07-26 05:55:00,,set to NULL
-C,unit_stays,91,5110,chronology,exit_not_after_entry,exit_datetime,2026-03-02 22:55:00,,set to NULL
-D,unit_stays,88,$[34].admissions[1].unitStays[0],chronology,exit_not_after_entry,exit_datetime,2026-08-07 21:55:00,,set to NULL
+A,patients,571,573,clean,duplicate_patient,source_local_id,571,132,merged into kept patient
+A,patients,572,574,clean,duplicate_patient,source_local_id,572,472,merged into kept patient
+B,patients,625,626,clean,duplicate_patient,source_local_id,625,548,merged into kept patient
+B,patients,626,627,clean,duplicate_patient,source_local_id,626,496,merged into kept patient
+C,patients,589,73643,clean,duplicate_patient,source_local_id,589,556,merged into kept patient
+C,patients,590,73654,clean,duplicate_patient,source_local_id,590,243,merged into kept patient
+D,patients,619,$[618],clean,duplicate_patient,source_local_id,619,487,merged into kept patient
+D,patients,620,$[619],clean,duplicate_patient,source_local_id,620,402,merged into kept patient
+A,admissions,156,953,clean,exact_duplicate,(row),"{""ADM_ID"": ""156"", ""PAT_ID"": ""87"", ""ADMITTING_PROFESSIONAL_ID"": ""16"", ""ADMIT_AT"": ""2026-04-22 08:00"", ""DISCHARGE_AT"": ""2026-04-22 21:00"", ""ADMISSION_TYPE"": ""Emergency"", ""ADMISSION_SOURCE"": ""Emergency Department"", ""REASON_FOR_ADMISSION"": ""Synthetic encounter"", ""CURRENT_CONDITION"": ""NULL"", ""INSURANCE_INFO"": ""NULL"", ""ADMISSION_STATUS"": ""Discharged""}",,removed
+A,admissions,679,954,clean,exact_duplicate,(row),"{""ADM_ID"": ""679"", ""PAT_ID"": ""407"", ""ADMITTING_PROFESSIONAL_ID"": ""36"", ""ADMIT_AT"": ""2026-01-12 08:00"", ""DISCHARGE_AT"": ""2026-01-16 16:00"", ""ADMISSION_TYPE"": ""Urgent"", ""ADMISSION_SOURCE"": ""Referral"", ""REASON_FOR_ADMISSION"": ""Synthetic encounter"", ""CURRENT_CONDITION"": ""-"", ""INSURANCE_INFO"": ""-"", ""ADMISSION_STATUS"": ""Discharged""}",,removed
+B,admissions,675,1042,clean,exact_duplicate,(row),"{""admission_no"": ""675"", ""patient_no"": ""403"", ""admitting_professional_id"": ""6"", ""arrival_time"": ""07.07.2026 08:00"", ""departure_time"": ""08.07.2026 17:00"", ""admission_type"": ""Notfall"", ""admission_source"": ""Emergency Department"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": ""N/A"", ""insurance_info"": ""N/A"", ""admission_status"": ""Discharged""}",,removed
+B,admissions,401,1043,clean,exact_duplicate,(row),"{""admission_no"": ""401"", ""patient_no"": ""241"", ""admitting_professional_id"": ""41"", ""arrival_time"": ""25.07.2026 08:00"", ""departure_time"": ""26.07.2026 08:00"", ""admission_type"": ""Dringend"", ""admission_source"": ""Referral"", ""reason_for_admission"": ""Synthetic encounter"", ""current_condition"": """", ""insurance_info"": """", ""admission_status"": ""Discharged""}",,removed
+C,admissions,88,10730,clean,exact_duplicate,(row),"{""@id"": ""88"", ""source_patient_id"": ""50"", ""admittingProfessionalId"": ""36"", ""admissionDatetime"": ""2026-02-24T08:00:00+09:00"", ""dischargeDatetime"": ""2026-02-27T11:00:00+09:00"", ""admissionType"": ""Outpatient"", ""admissionSource"": ""Referral"", ""reasonForAdmission"": ""Synthetic encounter"", ""currentCondition"": """", ""insuranceInfo"": """", ""admissionStatus"": ""Discharged""}",,removed
+C,admissions,111,13087,clean,exact_duplicate,(row),"{""@id"": ""111"", ""source_patient_id"": ""63"", ""admittingProfessionalId"": ""16"", ""admissionDatetime"": ""2026-03-09T08:00:00+09:00"", ""dischargeDatetime"": """", ""admissionType"": ""Outpatient"", ""admissionSource"": ""Referral"", ""reasonForAdmission"": ""Synthetic encounter"", ""currentCondition"": """", ""insuranceInfo"": """", ""admissionStatus"": ""Admitted""}",,removed
+D,admissions,5,$[1].admissions[1],clean,exact_duplicate,(row),"{""admissionId"": ""5"", ""source_patient_id"": ""2"", ""admittingProfessionalId"": ""31"", ""admissionDatetime"": ""1781560800"", ""dischargeDatetime"": ""1781654400"", ""admissionType"": ""Emergency"", ""admissionSource"": ""Emergency Department"", ""reasonForAdmission"": ""Synthetic encounter"", ""currentCondition"": null, ""insuranceInfo"": null, ""admissionStatus"": ""Discharged""}",,removed
+D,admissions,201,$[117].admissions[2],clean,exact_duplicate,(row),"{""admissionId"": ""201"", ""source_patient_id"": ""118"", ""admittingProfessionalId"": ""1"", ""admissionDatetime"": ""22/07/2026 8:00 AM"", ""dischargeDatetime"": ""1784919600"", ""admissionType"": ""Emergency"", ""admissionSource"": ""Emergency Department"", ""reasonForAdmission"": ""Synthetic encounter"", ""currentCondition"": null, ""insuranceInfo"": null, ""admissionStatus"": ""Discharged""}",,removed
+A,unit_stays,25,27,chronology,exit_not_after_entry,exit_datetime,2026-01-11 15:25:00,,set to NULL
+A,unit_stays,105,107,chronology,exit_not_after_entry,exit_datetime,2026-02-06 15:25:00,,set to NULL
+B,unit_stays,268,269,chronology,exit_not_after_entry,exit_datetime,2026-09-05 05:55:00,,set to NULL
+B,unit_stays,333,334,chronology,exit_not_after_entry,exit_datetime,2026-07-06 08:25:00,,set to NULL
+C,unit_stays,41,2528,chronology,exit_not_after_entry,exit_datetime,2026-01-17 01:25:00,,set to NULL
+C,unit_stays,72,4544,chronology,exit_not_after_entry,exit_datetime,2026-01-26 22:55:00,,set to NULL
+D,unit_stays,61,$[16].admissions[0].unitStays[1],chronology,exit_not_after_entry,exit_datetime,2026-07-01 00:25:00,,set to NULL
+D,unit_stays,114,$[30].admissions[1].unitStays[0],chronology,exit_not_after_entry,exit_datetime,2026-08-03 21:55:00,,set to NULL
 A,triage_assessments,1,3,clean,fahrenheit_to_celsius,body_temperature,97.5,36.4,corrected
 A,triage_assessments,2,4,clean,fahrenheit_to_celsius,body_temperature,97.7,36.5,corrected
-B,diagnoses,20,21,clean,icd9_format_repaired,icd9_code,42731,427.31,corrected
-B,diagnoses,82,82,clean,icd9_format_repaired,icd9_code,53081,530.81,corrected
-D,diagnoses,5,$[1].admissions[0].diagnoses[0],clean,icd9_format_repaired,icd9_code,3.0,003.0,corrected
-D,diagnoses,17,$[8].admissions[0].diagnoses[0],clean,icd9_format_repaired,icd9_code,38.9,038.9,corrected
-A,diagnoses,94,95,clean,icd9_not_in_dictionary,icd9_code,999.99,,quarantined
-B,diagnoses,53,53,clean,icd9_not_in_dictionary,icd9_code,999.99,,quarantined
-C,diagnoses,85,5192,clean,icd9_not_in_dictionary,icd9_code,999.99,,quarantined
-D,diagnoses,54,$[29].admissions[1].diagnoses[0],clean,icd9_not_in_dictionary,icd9_code,999.99,,quarantined
-A,clinical_notes,25,27,clean,invalid_timestamp,note_datetime,2026-02-30T09:00:00,,quarantined
-B,clinical_notes,8,9,clean,invalid_timestamp,note_datetime,2026-02-30T09:00:00,,quarantined
-C,clinical_notes,32,3126,clean,invalid_timestamp,note_datetime,2026-02-30T09:00:00,,quarantined
-D,clinical_notes,32,$[17].admissions[1].clinicalNotes[0],clean,invalid_timestamp,note_datetime,2026-02-30T09:00:00,,quarantined
-A,clinical_notes,,17,load,malformed_record,(row),15|16|1|Progress Note|2026-01-14 08:30,,quarantined
-B,clinical_notes,,16,load,malformed_record,(row),15;16;1;Progress Note;23.06.2026 08:30,,quarantined
-A,admissions,7,9,clean,missing_optional,discharge_datetime,'-',,kept as NULL
-A,admissions,43,45,clean,missing_optional,discharge_datetime,'-',,kept as NULL
-B,admissions,6,7,clean,missing_optional,discharge_datetime,'N/A',,kept as NULL
-B,admissions,45,46,clean,missing_optional,discharge_datetime,'N/A',,kept as NULL
-C,admissions,28,2684,clean,missing_optional,discharge_datetime,'',,kept as NULL
-C,admissions,51,4236,clean,missing_optional,discharge_datetime,'',,kept as NULL
-D,admissions,16,$[7].admissions[0],clean,missing_optional,discharge_datetime,(absent),,kept as NULL
-D,admissions,30,$[15].admissions[1],clean,missing_optional,discharge_datetime,(absent),,kept as NULL
-A,admissions,62,64,relationships,missing_primary_diagnosis,diagnosis_type,,,"kept, flagged for review"
-B,admissions,46,47,relationships,missing_primary_diagnosis,diagnosis_type,,,"kept, flagged for review"
-B,admissions,53,54,relationships,missing_primary_diagnosis,diagnosis_type,,,"kept, flagged for review"
-C,admissions,37,3348,relationships,missing_primary_diagnosis,diagnosis_type,,,"kept, flagged for review"
-D,admissions,44,$[24].admissions[0],relationships,missing_primary_diagnosis,diagnosis_type,,,"kept, flagged for review"
-D,admissions,54,$[29].admissions[1],relationships,missing_primary_diagnosis,diagnosis_type,,,"kept, flagged for review"
-A,clinical_notes,8,10,clean,missing_required,note_contents,'NULL',,quarantined
-B,clinical_notes,20,21,clean,missing_required,note_contents,'N/A',,quarantined
-C,clinical_notes,24,2414,clean,missing_required,note_contents,'',,quarantined
-D,clinical_notes,17,$[8].admissions[1].clinicalNotes[0],clean,missing_required,note_contents,(absent),,quarantined
-A,triage_assessments,60,62,clean,out_of_range,pain_level,15,,set to NULL
-B,triage_assessments,52,53,clean,out_of_range,pain_level,15,,set to NULL
-C,triage_assessments,60,4789,clean,out_of_range,pain_level,15,,set to NULL
-D,triage_assessments,23,$[12].admissions[0].triage[0],clean,out_of_range,pain_level,15,,set to NULL
+B,diagnoses,20,20,clean,icd9_format_repaired,icd9_code,41401,414.01,corrected
+B,diagnoses,25,25,clean,icd9_format_repaired,icd9_code,25000,250.00,corrected
+D,diagnoses,17,$[8].admissions[0].diagnoses[0],clean,icd9_format_repaired,icd9_code,41.11,041.11,corrected
+D,diagnoses,38,$[19].admissions[0].diagnoses[0],clean,icd9_format_repaired,icd9_code,70.54,070.54,corrected
+A,diagnoses,149,150,clean,icd9_not_in_dictionary,icd9_code,999.99,,quarantined
+A,diagnoses,493,491,clean,icd9_not_in_dictionary,icd9_code,999.99,,quarantined
+B,diagnoses,157,156,clean,icd9_not_in_dictionary,icd9_code,999.99,,quarantined
+B,diagnoses,298,297,clean,icd9_not_in_dictionary,icd9_code,999.99,,quarantined
+C,diagnoses,8,904,clean,icd9_not_in_dictionary,icd9_code,999.99,,quarantined
+C,diagnoses,217,23240,clean,icd9_not_in_dictionary,icd9_code,999.99,,quarantined
+D,diagnoses,62,$[33].admissions[0].diagnoses[0],clean,icd9_not_in_dictionary,icd9_code,999.99,,quarantined
+D,diagnoses,1237,$[204].admissions[0].diagnoses[1],clean,icd9_not_in_dictionary,icd9_code,999.99,,quarantined
+A,clinical_notes,55,57,clean,invalid_timestamp,note_datetime,2026-02-30T09:00:00,,quarantined
+A,clinical_notes,97,99,clean,invalid_timestamp,note_datetime,2026-02-30T09:00:00,,quarantined
+B,clinical_notes,63,64,clean,invalid_timestamp,note_datetime,2026-02-30T09:00:00,,quarantined
+B,clinical_notes,107,108,clean,invalid_timestamp,note_datetime,2026-02-30T09:00:00,,quarantined
+C,clinical_notes,146,17265,clean,invalid_timestamp,note_datetime,2026-02-30T09:00:00,,quarantined
+C,clinical_notes,254,27219,clean,invalid_timestamp,note_datetime,2026-02-30T09:00:00,,quarantined
+D,clinical_notes,38,$[19].admissions[1].clinicalNotes[0],clean,invalid_timestamp,note_datetime,2026-02-30T09:00:00,,quarantined
+D,clinical_notes,95,$[54].admissions[1].clinicalNotes[0],clean,invalid_timestamp,note_datetime,2026-02-30T09:00:00,,quarantined
+A,clinical_notes,,239,load,malformed_record,(row),237|252|11|Discharge Summary|2026-02-24 10:00,,quarantined
+B,clinical_notes,,146,load,malformed_record,(row),145;153;51;Discharge Summary;04.10.2026 03:00,,quarantined
+A,admissions,21,23,clean,missing_optional,discharge_datetime,'NULL',,kept as NULL
+A,admissions,24,26,clean,missing_optional,discharge_datetime,'NULL',,kept as NULL
+B,admissions,15,16,clean,missing_optional,discharge_datetime,'N/A',,kept as NULL
+B,admissions,25,26,clean,missing_optional,discharge_datetime,'?',,kept as NULL
+C,admissions,32,3848,clean,missing_optional,discharge_datetime,(absent),,kept as NULL
+C,admissions,69,8354,clean,missing_optional,discharge_datetime,'',,kept as NULL
+D,admissions,16,$[7].admissions[1],clean,missing_optional,discharge_datetime,(absent),,kept as NULL
+D,admissions,71,$[37].admissions[1],clean,missing_optional,discharge_datetime,(absent),,kept as NULL
+A,admissions,65,67,relationships,missing_primary_diagnosis,diagnosis_type,,,"kept, flagged for review"
+A,admissions,149,151,relationships,missing_primary_diagnosis,diagnosis_type,,,"kept, flagged for review"
+B,admissions,17,18,relationships,missing_primary_diagnosis,diagnosis_type,,,"kept, flagged for review"
+B,admissions,130,131,relationships,missing_primary_diagnosis,diagnosis_type,,,"kept, flagged for review"
+C,admissions,8,861,relationships,missing_primary_diagnosis,diagnosis_type,,,"kept, flagged for review"
+C,admissions,9,990,relationships,missing_primary_diagnosis,diagnosis_type,,,"kept, flagged for review"
+D,admissions,62,$[33].admissions[0],relationships,missing_primary_diagnosis,diagnosis_type,,,"kept, flagged for review"
+D,admissions,340,$[197].admissions[1],relationships,missing_primary_diagnosis,diagnosis_type,,,"kept, flagged for review"
+A,clinical_notes,162,164,clean,missing_required,note_contents,'-',,quarantined
+A,clinical_notes,191,193,clean,missing_required,note_contents,'NULL',,quarantined
+B,clinical_notes,68,69,clean,missing_required,note_contents,'N/A',,quarantined
+B,clinical_notes,297,298,clean,missing_required,note_contents,'?',,quarantined
+C,clinical_notes,54,6677,clean,missing_required,note_contents,'',,quarantined
+C,clinical_notes,76,9480,clean,missing_required,note_contents,(absent),,quarantined
+D,clinical_notes,202,$[123].admissions[1].clinicalNotes[0],clean,missing_required,note_contents,(absent),,quarantined
+D,clinical_notes,244,$[150].admissions[0].clinicalNotes[0],clean,missing_required,note_contents,(absent),,quarantined
+A,triage_assessments,152,154,clean,out_of_range,pain_level,15,,set to NULL
+A,triage_assessments,276,278,clean,out_of_range,pain_level,15,,set to NULL
+B,triage_assessments,13,14,clean,out_of_range,pain_level,15,,set to NULL
+B,triage_assessments,349,350,clean,out_of_range,pain_level,15,,set to NULL
+C,triage_assessments,177,19643,clean,out_of_range,pain_level,15,,set to NULL
+C,triage_assessments,215,23044,clean,out_of_range,pain_level,15,,set to NULL
+D,triage_assessments,16,$[7].admissions[1].triage[0],clean,out_of_range,pain_level,15,,set to NULL
+D,triage_assessments,72,$[38].admissions[0].triage[0],clean,out_of_range,pain_level,15,,set to NULL
 A,admissions,1,3,clean,timestamp_to_utc,admission_datetime,2026-01-06 08:00,2026-01-06 13:00:00,converted
 A,admissions,2,4,clean,timestamp_to_utc,admission_datetime,2026-01-26 08:00,2026-01-26 13:00:00,converted
 B,admissions,1,2,clean,timestamp_to_utc,admission_datetime,15.06.2026 08:00,2026-06-15 06:00:00,converted
 B,admissions,2,3,clean,timestamp_to_utc,admission_datetime,05.07.2026 08:00,2026-07-05 06:00:00,converted
 C,admissions,1,15,clean,timestamp_to_utc,admission_datetime,2026-01-06T08:00:00+09:00,2026-01-05 23:00:00,converted
-C,admissions,2,143,clean,timestamp_to_utc,admission_datetime,2026-01-26T08:00:00+09:00,2026-01-25 23:00:00,converted
+C,admissions,2,137,clean,timestamp_to_utc,admission_datetime,2026-01-26T08:00:00+09:00,2026-01-25 23:00:00,converted
 D,admissions,1,$[0].admissions[0],clean,timestamp_to_utc,admission_datetime,1781474400,2026-06-14 22:00:00,converted
 D,admissions,2,$[0].admissions[1],clean,timestamp_to_utc,admission_datetime,1783202400,2026-07-04 22:00:00,converted
-A,patients,51,53,clean,whitespace_trimmed,last_name, PATIENTA0044 ,PATIENTA0044,corrected
-B,patients,51,52,clean,whitespace_trimmed,last_name, PATIENTB0038 ,PATIENTB0038,corrected
-C,patients,51,6244,clean,whitespace_trimmed,last_name, PATIENTC0039 ,PATIENTC0039,corrected
-D,patients,51,$[50],clean,whitespace_trimmed,last_name, PATIENTD0035 ,PATIENTD0035,corrected
+A,patients,571,573,clean,whitespace_trimmed,last_name, PATIENTA0132 ,PATIENTA0132,corrected
+A,patients,572,574,clean,whitespace_trimmed,last_name, PATIENTA0472 ,PATIENTA0472,corrected
+B,patients,625,626,clean,whitespace_trimmed,last_name, PATIENTB0548 ,PATIENTB0548,corrected
+B,patients,626,627,clean,whitespace_trimmed,last_name, PATIENTB0496 ,PATIENTB0496,corrected
+C,patients,589,73643,clean,whitespace_trimmed,last_name, PATIENTC0556 ,PATIENTC0556,corrected
+C,patients,590,73654,clean,whitespace_trimmed,last_name, PATIENTC0243 ,PATIENTC0243,corrected
+D,patients,619,$[618],clean,whitespace_trimmed,last_name, PATIENTD0487 ,PATIENTD0487,corrected
+D,patients,620,$[619],clean,whitespace_trimmed,last_name, PATIENTD0402 ,PATIENTD0402,corrected

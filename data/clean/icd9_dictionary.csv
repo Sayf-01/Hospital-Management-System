@@ -79,46 +79,46 @@ B,789.00,789.00,"Abdominal pain, unspecified site",,,38
 B,041.11,041.11,Methicillin susceptible Staphylococcus aureus in conditions classified elsewhere and of unspecified site,,,39
 B,820.8,820.8,Closed fracture of unspecified part of neck of femur,,,40
 B,070.54,070.54,Chronic hepatitis C without mention of hepatic coma,,,41
-C,038.9,038.9,Unspecified septicemia,,,6317
-C,250.00,250.00,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",,,6321
-C,272.4,272.4,Other and unspecified hyperlipidemia,,,6325
-C,276.51,276.51,Dehydration,,,6330
-C,285.9,285.9,"Anemia, unspecified",,,6335
-C,300.00,300.00,"Anxiety state, unspecified",,,6340
-C,003.0,003.0,Salmonella gastroenteritis,,,6345
-C,311,311,"Depressive disorder, not elsewhere classified",,,6350
-C,401.9,401.9,Unspecified essential hypertension,,,6354
-C,410.91,410.91,"Acute myocardial infarction of unspecified site, initial episode of care",,,6358
-C,414.01,414.01,Coronary atherosclerosis of native coronary artery,,,6363
-C,427.31,427.31,Atrial fibrillation,,,6367
-C,428.0,428.0,"Congestive heart failure, unspecified",,,6371
-C,434.91,434.91,"Cerebral artery occlusion, unspecified with cerebral infarction",,,6375
-C,438.20,438.20,"Late effects of cerebrovascular disease, hemiplegia affecting unspecified side",,,6380
-C,465.9,465.9,Acute upper respiratory infections of unspecified site,,,6384
-C,466.0,466.0,Acute bronchitis,,,6389
-C,486,486,"Pneumonia, organism unspecified",,,6393
-C,491.21,491.21,Obstructive chronic bronchitis with (acute) exacerbation,,,6397
-C,493.90,493.90,"Asthma, unspecified type, unspecified",,,6401
-C,496,496,"Chronic airway obstruction, not elsewhere classified",,,6405
-C,518.81,518.81,Acute respiratory failure,,,6410
-C,530.81,530.81,Esophageal reflux,,,6414
-C,535.50,535.50,"Unspecified gastritis and gastroduodenitis, without mention of hemorrhage",,,6418
-C,564.00,564.00,"Constipation, unspecified",,,6423
-C,571.5,571.5,Cirrhosis of liver without mention of alcohol,,,6428
-C,584.9,584.9,"Acute kidney failure, unspecified",,,6433
-C,585.3,585.3,"Chronic kidney disease, Stage III (moderate)",,,6437
-C,599.0,599.0,"Urinary tract infection, site not specified",,,6442
-C,715.90,715.90,"Osteoarthrosis, unspecified whether generalized or localized, site unspecified",,,6446
-C,724.2,724.2,Lumbago,,,6450
-C,780.2,780.2,Syncope and collapse,,,6455
-C,780.60,780.60,"Fever, unspecified",,,6459
-C,008.45,008.45,Intestinal infection due to Clostridium difficile,,,6464
-C,786.05,786.05,Shortness of breath,,,6468
-C,786.50,786.50,"Chest pain, unspecified",,,6472
-C,789.00,789.00,"Abdominal pain, unspecified site",,,6476
-C,041.11,041.11,Methicillin susceptible Staphylococcus aureus in conditions classified elsewhere and of unspecified site,,,6481
-C,820.8,820.8,Closed fracture of unspecified part of neck of femur,,,6485
-C,070.54,070.54,Chronic hepatitis C without mention of hepatic coma,,,6490
+C,038.9,038.9,Unspecified septicemia,,,74038
+C,250.00,250.00,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",,,74042
+C,272.4,272.4,Other and unspecified hyperlipidemia,,,74046
+C,276.51,276.51,Dehydration,,,74051
+C,285.9,285.9,"Anemia, unspecified",,,74056
+C,300.00,300.00,"Anxiety state, unspecified",,,74061
+C,003.0,003.0,Salmonella gastroenteritis,,,74066
+C,311,311,"Depressive disorder, not elsewhere classified",,,74071
+C,401.9,401.9,Unspecified essential hypertension,,,74075
+C,410.91,410.91,"Acute myocardial infarction of unspecified site, initial episode of care",,,74079
+C,414.01,414.01,Coronary atherosclerosis of native coronary artery,,,74084
+C,427.31,427.31,Atrial fibrillation,,,74088
+C,428.0,428.0,"Congestive heart failure, unspecified",,,74092
+C,434.91,434.91,"Cerebral artery occlusion, unspecified with cerebral infarction",,,74096
+C,438.20,438.20,"Late effects of cerebrovascular disease, hemiplegia affecting unspecified side",,,74101
+C,465.9,465.9,Acute upper respiratory infections of unspecified site,,,74105
+C,466.0,466.0,Acute bronchitis,,,74110
+C,486,486,"Pneumonia, organism unspecified",,,74114
+C,491.21,491.21,Obstructive chronic bronchitis with (acute) exacerbation,,,74118
+C,493.90,493.90,"Asthma, unspecified type, unspecified",,,74122
+C,496,496,"Chronic airway obstruction, not elsewhere classified",,,74126
+C,518.81,518.81,Acute respiratory failure,,,74131
+C,530.81,530.81,Esophageal reflux,,,74135
+C,535.50,535.50,"Unspecified gastritis and gastroduodenitis, without mention of hemorrhage",,,74139
+C,564.00,564.00,"Constipation, unspecified",,,74144
+C,571.5,571.5,Cirrhosis of liver without mention of alcohol,,,74149
+C,584.9,584.9,"Acute kidney failure, unspecified",,,74154
+C,585.3,585.3,"Chronic kidney disease, Stage III (moderate)",,,74158
+C,599.0,599.0,"Urinary tract infection, site not specified",,,74163
+C,715.90,715.90,"Osteoarthrosis, unspecified whether generalized or localized, site unspecified",,,74167
+C,724.2,724.2,Lumbago,,,74171
+C,780.2,780.2,Syncope and collapse,,,74176
+C,780.60,780.60,"Fever, unspecified",,,74180
+C,008.45,008.45,Intestinal infection due to Clostridium difficile,,,74185
+C,786.05,786.05,Shortness of breath,,,74189
+C,786.50,786.50,"Chest pain, unspecified",,,74193
+C,789.00,789.00,"Abdominal pain, unspecified site",,,74197
+C,041.11,041.11,Methicillin susceptible Staphylococcus aureus in conditions classified elsewhere and of unspecified site,,,74202
+C,820.8,820.8,Closed fracture of unspecified part of neck of femur,,,74206
+C,070.54,070.54,Chronic hepatitis C without mention of hepatic coma,,,74211
 D,038.9,038.9,Unspecified septicemia,,,$[0]
 D,250.00,250.00,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",,,$[1]
 D,272.4,272.4,Other and unspecified hyperlipidemia,,,$[2]
