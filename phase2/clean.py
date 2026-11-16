@@ -193,7 +193,7 @@ LOG_COLUMNS = [
 ]
 QUARANTINE_COLUMNS = [
     "source_code", "entity", "source_local_id", "source_line", "stage",
-    "reason", "raw_values",
+    "reason", "raw_record",
 ]
 
 
@@ -313,7 +313,7 @@ def add_quarantine(quarantine_rows: list, rows: pd.DataFrame, entity: str, stage
         "source_line": rows["_line"],
         "stage": stage,
         "reason": reason,
-        "raw_values": rows["_raw_values"],
+        "raw_record": rows["_raw_values"],
     })
     quarantine_rows.extend(table.to_dict("records"))
 
@@ -1064,7 +1064,7 @@ def clean_all(data: dict, malformed: pd.DataFrame | None = None, schema: dict | 
             "source_line": malformed["line"],
             "stage": "load",
             "reason": "malformed record: " + malformed["reason"],
-            "raw_values": malformed["raw_record"],
+            "raw_record": malformed["raw_record"],
         }).to_dict("records"))
         log.add_rows(pd.DataFrame({
             "source_code": malformed["source"],
