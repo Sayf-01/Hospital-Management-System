@@ -1,0 +1,58 @@
+issue,source,planted,detected,missed,detected_as,action
+ambiguous_day_first,D,12,12,0,ambiguous_day_first_assumed,"kept, assumption logged"
+broken_reference,A,7,7,0,icd9_not_in_dictionary,quarantined
+broken_reference,B,12,12,0,icd9_not_in_dictionary,quarantined
+broken_reference,C,7,7,0,icd9_not_in_dictionary,quarantined
+broken_reference,D,12,12,0,icd9_not_in_dictionary,quarantined
+case_or_space,A,47,47,0,category_case_or_space,corrected
+case_or_space,B,52,52,0,category_case_or_space,corrected
+case_or_space,C,49,49,0,category_case_or_space,corrected
+case_or_space,D,51,51,0,category_case_or_space,corrected
+chronology,A,12,12,0,exit_not_after_entry,set to NULL
+chronology,B,13,13,0,exit_not_after_entry,set to NULL
+chronology,C,13,13,0,exit_not_after_entry,set to NULL
+chronology,D,13,13,0,exit_not_after_entry,set to NULL
+exact_duplicate_admissions_and_diagnoses,A,24,24,0,exact_duplicate,removed
+exact_duplicate_admissions_and_diagnoses,B,52,52,0,exact_duplicate,removed
+exact_duplicate_admissions_and_diagnoses,C,25,25,0,exact_duplicate,removed
+exact_duplicate_admissions_and_diagnoses,D,25,25,0,exact_duplicate,removed
+icd9_format,B,78,78,0,icd9_format_repaired,corrected
+icd9_format,D,77,77,0,icd9_format_repaired,corrected
+invalid_date,A,4,4,0,invalid_timestamp,quarantined
+invalid_date,B,4,4,0,invalid_timestamp,quarantined
+invalid_date,C,4,4,0,invalid_timestamp,quarantined
+invalid_date,D,4,4,0,invalid_timestamp,quarantined
+invalid_numeric,A,9,9,0,out_of_range,set to NULL
+invalid_numeric,B,10,10,0,out_of_range,set to NULL
+invalid_numeric,C,9,9,0,out_of_range,set to NULL
+invalid_numeric,D,10,10,0,out_of_range,set to NULL
+malformed_rows,A,1,1,0,malformed_record,quarantined
+malformed_rows,B,1,1,0,malformed_record,quarantined
+missing_optional,A,53,53,0,missing_optional,kept as NULL
+missing_optional,B,59,59,0,missing_optional,kept as NULL
+missing_optional,C,55,55,0,missing_optional,kept as NULL
+missing_optional,D,58,58,0,missing_optional,kept as NULL
+missing_primary,A,5,5,0,missing_primary_diagnosis,"kept, flagged for review"
+missing_primary,B,5,5,0,missing_primary_diagnosis,"kept, flagged for review"
+missing_primary,C,5,5,0,missing_primary_diagnosis,"kept, flagged for review"
+missing_primary,D,5,5,0,missing_primary_diagnosis,"kept, flagged for review"
+missing_required,A,4,4,0,missing_required,quarantined
+missing_required,B,4,4,0,missing_required,quarantined
+missing_required,C,4,4,0,missing_required,quarantined
+missing_required,D,4,4,0,missing_required,quarantined
+within_source_duplicate_patients,A,11,11,0,duplicate_patient,merged into kept patient
+within_source_duplicate_patients,B,12,12,0,duplicate_patient,merged into kept patient
+within_source_duplicate_patients,C,12,12,0,duplicate_patient,merged into kept patient
+within_source_duplicate_patients,D,12,12,0,duplicate_patient,merged into kept patient
+cross_source_name_only,A,5,,,not a cleaning problem: matched across hospitals in DA-3,
+cross_source_name_only,B,5,,,not a cleaning problem: matched across hospitals in DA-3,
+cross_source_name_only,C,5,,,not a cleaning problem: matched across hospitals in DA-3,
+cross_source_name_only,D,5,,,not a cleaning problem: matched across hospitals in DA-3,
+cross_source_true_match,A,13,,,not a cleaning problem: matched across hospitals in DA-3,
+cross_source_true_match,B,13,,,not a cleaning problem: matched across hospitals in DA-3,
+cross_source_true_match,C,12,,,not a cleaning problem: matched across hospitals in DA-3,
+cross_source_true_match,D,12,,,not a cleaning problem: matched across hospitals in DA-3,
+cross_source_uncertain,A,5,,,not a cleaning problem: matched across hospitals in DA-3,
+cross_source_uncertain,B,5,,,not a cleaning problem: matched across hospitals in DA-3,
+cross_source_uncertain,C,5,,,not a cleaning problem: matched across hospitals in DA-3,
+cross_source_uncertain,D,5,,,not a cleaning problem: matched across hospitals in DA-3,

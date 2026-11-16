@@ -1,123 +1,1567 @@
 source_code,source_local_id,source_admission_id,source_author_id,note_type,note_datetime,note_contents,source_line
-A,1,1,1,Discharge Summary,2026-01-14 13:00:00,Recovery documented in synthetic summary.,3
-A,2,2,1,Discharge Summary,2026-02-02 13:00:00,Follow-up documented in synthetic summary.,4
-A,3,3,1,Progress Note,2026-02-15 13:30:00,Recovery mentioned in synthetic progress note.,5
-A,4,4,1,Initial Assessment,2026-03-07 13:30:00,Synthetic initial evaluation.,6
-A,5,5,1,Discharge Summary,2026-01-09 04:00:00,Recovery documented in synthetic summary.,7
-A,6,6,1,Discharge Summary,2026-01-27 19:00:00,Follow-up documented in synthetic summary.,8
-A,7,8,1,Progress Note,2026-01-09 13:30:00,Recovery mentioned in synthetic progress note.,9
-A,9,10,1,Discharge Summary,2026-01-13 03:00:00,Recovery documented in synthetic summary.,11
-A,10,11,1,Discharge Summary,2026-01-16 07:00:00,Follow-up documented in synthetic summary.,12
-A,11,12,1,Progress Note,2026-01-31 13:30:00,Recovery mentioned in synthetic progress note.,13
-A,12,13,1,Initial Assessment,2026-01-12 13:30:00,Synthetic initial evaluation.,14
-A,13,14,1,Discharge Summary,2026-02-02 09:00:00,Recovery documented in synthetic summary.,15
-A,14,15,1,Discharge Summary,2026-01-16 02:00:00,Follow-up documented in synthetic summary.,16
-A,16,17,1,Initial Assessment,2026-01-15 13:30:00,Synthetic initial evaluation.,18
-A,17,18,1,Discharge Summary,2026-01-20 12:00:00,Recovery documented in synthetic summary.,19
-A,18,19,1,Discharge Summary,2026-02-09 23:00:00,Follow-up documented in synthetic summary.,20
-A,19,20,1,Progress Note,2026-01-17 13:30:00,Recovery mentioned in synthetic progress note.,21
-A,20,21,1,Initial Assessment,2026-02-06 13:30:00,Synthetic initial evaluation.,22
-A,21,22,1,Discharge Summary,2026-01-20 23:00:00,Recovery documented in synthetic summary.,23
-A,22,23,1,Discharge Summary,2026-02-08 01:00:00,Follow-up documented in synthetic summary.,24
-A,23,24,1,Progress Note,2026-01-19 13:30:00,Recovery mentioned in synthetic progress note.,25
-A,24,25,1,Initial Assessment,2026-02-08 13:30:00,Synthetic initial evaluation.,26
-A,26,27,1,Discharge Summary,2026-02-13 03:00:00,Follow-up documented in synthetic summary.,28
-A,27,28,1,Progress Note,2026-01-21 13:30:00,Recovery mentioned in synthetic progress note.,29
-A,28,29,1,Initial Assessment,2026-02-10 13:30:00,Synthetic initial evaluation.,30
-A,29,30,1,Discharge Summary,2026-01-26 14:00:00,Recovery documented in synthetic summary.,31
-A,30,31,1,Discharge Summary,2026-02-15 12:00:00,Follow-up documented in synthetic summary.,32
-A,31,32,1,Progress Note,2026-01-23 13:30:00,Recovery mentioned in synthetic progress note.,33
-A,32,33,1,Initial Assessment,2026-01-24 13:30:00,Synthetic initial evaluation.,34
-A,33,1,1,Discharge Summary,2026-01-14 13:00:00,Synthetic discharge addendum with revised follow-up.,35
-B,1,1,1,Discharge Summary,2026-06-23 06:00:00,Recovery documented in synthetic summary.,2
-B,2,2,1,Discharge Summary,2026-07-12 06:00:00,Follow-up documented in synthetic summary.,3
-B,3,3,1,Progress Note,2026-07-25 06:30:00,Recovery mentioned in synthetic progress note.,4
-B,4,4,1,Initial Assessment,2026-08-14 06:30:00,Synthetic initial evaluation.,5
-B,5,5,1,Discharge Summary,2026-06-20 06:00:00,Recovery documented in synthetic summary.,6
-B,6,7,1,Discharge Summary,2026-06-18 13:00:00,Follow-up documented in synthetic summary.,7
-B,7,8,1,Progress Note,2026-06-19 06:30:00,Recovery mentioned in synthetic progress note.,8
-B,9,10,1,Discharge Summary,2026-06-21 03:00:00,Recovery documented in synthetic summary.,10
-B,10,11,1,Discharge Summary,2026-07-11 11:00:00,Follow-up documented in synthetic summary.,11
-B,11,12,1,Progress Note,2026-06-21 06:30:00,Recovery mentioned in synthetic progress note.,12
-B,12,13,1,Initial Assessment,2026-07-11 06:30:00,Synthetic initial evaluation.,13
-B,13,14,1,Discharge Summary,2026-06-23 15:00:00,Recovery documented in synthetic summary.,14
-B,14,15,1,Discharge Summary,2026-07-17 06:00:00,Follow-up documented in synthetic summary.,15
-B,16,17,1,Initial Assessment,2026-07-13 06:30:00,Synthetic initial evaluation.,17
-B,17,18,1,Discharge Summary,2026-06-28 03:00:00,Recovery documented in synthetic summary.,18
-B,18,19,1,Discharge Summary,2026-06-28 20:00:00,Follow-up documented in synthetic summary.,19
-B,19,20,1,Progress Note,2026-07-15 06:30:00,Recovery mentioned in synthetic progress note.,20
-B,21,22,1,Discharge Summary,2026-07-01 22:00:00,Recovery documented in synthetic summary.,22
-B,22,23,1,Discharge Summary,2026-07-22 00:00:00,Follow-up documented in synthetic summary.,23
-B,23,24,1,Progress Note,2026-06-28 06:30:00,Recovery mentioned in synthetic progress note.,24
-B,24,25,1,Initial Assessment,2026-06-29 06:30:00,Synthetic initial evaluation.,25
-B,25,26,1,Discharge Summary,2026-07-04 03:00:00,Recovery documented in synthetic summary.,26
-B,26,27,1,Discharge Summary,2026-07-23 21:00:00,Follow-up documented in synthetic summary.,27
-B,27,28,1,Progress Note,2026-07-01 06:30:00,Recovery mentioned in synthetic progress note.,28
-B,28,29,1,Initial Assessment,2026-07-21 06:30:00,Synthetic initial evaluation.,29
-B,29,30,1,Discharge Summary,2026-07-03 00:00:00,Recovery documented in synthetic summary.,30
-B,30,31,1,Discharge Summary,2026-07-24 15:00:00,Follow-up documented in synthetic summary.,31
-B,31,32,1,Progress Note,2026-07-03 06:30:00,Recovery mentioned in synthetic progress note.,32
-B,32,33,1,Initial Assessment,2026-07-23 06:30:00,Synthetic initial evaluation.,33
-B,33,1,1,Discharge Summary,2026-06-23 06:00:00,Synthetic discharge addendum with revised follow-up.,34
-C,1,1,1,Discharge Summary,2026-01-13 23:00:00,Recovery documented in synthetic summary.,76
-C,33,1,1,Discharge Summary,2026-01-13 23:00:00,Synthetic discharge addendum with revised follow-up.,82
-C,2,2,1,Discharge Summary,2026-02-01 23:00:00,Follow-up documented in synthetic summary.,192
-C,3,3,1,Progress Note,2026-02-14 23:30:00,Recovery mentioned in synthetic progress note.,303
-C,4,4,1,Initial Assessment,2026-03-06 23:30:00,Synthetic initial evaluation.,419
-C,5,5,1,Discharge Summary,2026-01-07 12:00:00,Recovery documented in synthetic summary.,549
-C,6,6,1,Discharge Summary,2026-01-28 16:00:00,Follow-up documented in synthetic summary.,669
-C,7,7,1,Progress Note,2026-01-07 23:30:00,Recovery mentioned in synthetic progress note.,799
-C,8,8,1,Initial Assessment,2026-01-08 23:30:00,Synthetic initial evaluation.,908
-C,9,9,1,Discharge Summary,2026-02-01 22:00:00,Recovery documented in synthetic summary.,1013
-C,10,10,1,Discharge Summary,2026-01-14 14:00:00,Follow-up documented in synthetic summary.,1132
-C,11,11,1,Progress Note,2026-01-29 23:30:00,Recovery mentioned in synthetic progress note.,1234
-C,12,12,1,Initial Assessment,2026-01-10 23:30:00,Synthetic initial evaluation.,1343
-C,13,13,1,Discharge Summary,2026-02-02 12:00:00,Recovery documented in synthetic summary.,1435
-C,14,14,1,Discharge Summary,2026-01-14 02:00:00,Follow-up documented in synthetic summary.,1541
-C,15,15,1,Progress Note,2026-01-31 23:30:00,Recovery mentioned in synthetic progress note.,1637
-C,16,16,1,Initial Assessment,2026-01-12 23:30:00,Synthetic initial evaluation.,1741
-C,17,17,1,Discharge Summary,2026-01-17 20:00:00,Recovery documented in synthetic summary.,1838
-C,18,18,1,Discharge Summary,2026-02-06 18:00:00,Follow-up documented in synthetic summary.,1915
-C,19,19,1,Progress Note,2026-01-14 23:30:00,Recovery mentioned in synthetic progress note.,2013
-C,20,20,1,Initial Assessment,2026-01-15 23:30:00,Synthetic initial evaluation.,2099
-C,21,21,1,Discharge Summary,2026-02-07 12:00:00,Recovery documented in synthetic summary.,2170
-C,22,22,1,Discharge Summary,2026-01-18 09:00:00,Follow-up documented in synthetic summary.,2256
-C,23,23,1,Progress Note,2026-02-05 23:30:00,Recovery mentioned in synthetic progress note.,2330
-C,25,25,1,Discharge Summary,2026-02-08 16:00:00,Recovery documented in synthetic summary.,2487
-C,26,26,1,Discharge Summary,2026-01-19 05:00:00,Follow-up documented in synthetic summary.,2573
-C,27,27,1,Progress Note,2026-02-07 23:30:00,Recovery mentioned in synthetic progress note.,2644
-C,28,29,1,Initial Assessment,2026-01-20 23:30:00,Synthetic initial evaluation.,2795
-C,29,30,1,Discharge Summary,2026-01-25 15:00:00,Recovery documented in synthetic summary.,2877
-C,30,31,1,Discharge Summary,2026-02-14 16:00:00,Follow-up documented in synthetic summary.,2955
-C,31,32,1,Progress Note,2026-01-22 23:30:00,Recovery mentioned in synthetic progress note.,3029
-D,1,1,1,Discharge Summary,2026-06-22 22:00:00,Recovery documented in synthetic summary.,$[0].admissions[0].clinicalNotes[0]
-D,33,1,1,Discharge Summary,2026-06-22 22:00:00,Synthetic discharge addendum with revised follow-up.,$[0].admissions[0].clinicalNotes[1]
-D,2,2,1,Discharge Summary,2026-07-11 22:00:00,Follow-up documented in synthetic summary.,$[0].admissions[1].clinicalNotes[0]
-D,3,3,1,Progress Note,2026-07-24 22:30:00,Recovery mentioned in synthetic progress note.,$[0].admissions[2].clinicalNotes[0]
-D,4,4,1,Initial Assessment,2026-08-13 22:30:00,Synthetic initial evaluation.,$[0].admissions[3].clinicalNotes[0]
-D,5,5,1,Discharge Summary,2026-06-19 23:00:00,Recovery documented in synthetic summary.,$[1].admissions[0].clinicalNotes[0]
-D,6,6,1,Discharge Summary,2026-07-08 07:00:00,Follow-up documented in synthetic summary.,$[1].admissions[1].clinicalNotes[0]
-D,7,7,1,Progress Note,2026-06-16 22:30:00,Recovery mentioned in synthetic progress note.,$[2].admissions[0].clinicalNotes[0]
-D,8,8,1,Initial Assessment,2026-07-06 22:30:00,Synthetic initial evaluation.,$[2].admissions[1].clinicalNotes[0]
-D,9,9,1,Discharge Summary,2026-06-20 12:00:00,Recovery documented in synthetic summary.,$[3].admissions[0].clinicalNotes[0]
-D,10,10,1,Discharge Summary,2026-06-20 15:00:00,Follow-up documented in synthetic summary.,$[4].admissions[0].clinicalNotes[0]
-D,11,11,1,Progress Note,2026-07-08 22:30:00,Recovery mentioned in synthetic progress note.,$[4].admissions[1].clinicalNotes[0]
-D,12,12,1,Initial Assessment,2026-06-19 22:30:00,Synthetic initial evaluation.,$[5].admissions[0].clinicalNotes[0]
-D,13,13,1,Discharge Summary,2026-07-14 06:00:00,Recovery documented in synthetic summary.,$[5].admissions[1].clinicalNotes[0]
-D,14,14,1,Discharge Summary,2026-06-21 05:00:00,Follow-up documented in synthetic summary.,$[6].admissions[0].clinicalNotes[0]
-D,15,15,1,Progress Note,2026-07-10 22:30:00,Recovery mentioned in synthetic progress note.,$[6].admissions[1].clinicalNotes[0]
-D,16,17,1,Initial Assessment,2026-06-22 22:30:00,Synthetic initial evaluation.,$[8].admissions[0].clinicalNotes[0]
-D,18,19,1,Discharge Summary,2026-06-25 04:00:00,Follow-up documented in synthetic summary.,$[9].admissions[0].clinicalNotes[0]
-D,19,20,1,Progress Note,2026-06-24 22:30:00,Recovery mentioned in synthetic progress note.,$[10].admissions[0].clinicalNotes[0]
-D,20,21,1,Initial Assessment,2026-07-14 22:30:00,Synthetic initial evaluation.,$[10].admissions[1].clinicalNotes[0]
-D,21,22,1,Discharge Summary,2026-06-27 20:00:00,Recovery documented in synthetic summary.,$[11].admissions[0].clinicalNotes[0]
-D,22,23,1,Discharge Summary,2026-06-27 13:00:00,Follow-up documented in synthetic summary.,$[12].admissions[0].clinicalNotes[0]
-D,23,24,1,Progress Note,2026-07-16 22:30:00,Recovery mentioned in synthetic progress note.,$[12].admissions[1].clinicalNotes[0]
-D,24,25,1,Initial Assessment,2026-06-27 22:30:00,Synthetic initial evaluation.,$[13].admissions[0].clinicalNotes[0]
-D,25,26,1,Discharge Summary,2026-07-22 14:00:00,Recovery documented in synthetic summary.,$[13].admissions[1].clinicalNotes[0]
-D,26,27,1,Discharge Summary,2026-07-02 22:00:00,Follow-up documented in synthetic summary.,$[14].admissions[0].clinicalNotes[0]
-D,27,28,1,Progress Note,2026-07-18 22:30:00,Recovery mentioned in synthetic progress note.,$[14].admissions[1].clinicalNotes[0]
-D,28,29,1,Initial Assessment,2026-06-29 22:30:00,Synthetic initial evaluation.,$[15].admissions[0].clinicalNotes[0]
-D,29,31,1,Discharge Summary,2026-07-03 12:00:00,Recovery documented in synthetic summary.,$[16].admissions[0].clinicalNotes[0]
-D,30,32,1,Discharge Summary,2026-07-24 21:00:00,Follow-up documented in synthetic summary.,$[16].admissions[1].clinicalNotes[0]
-D,31,33,1,Progress Note,2026-07-01 22:30:00,Recovery mentioned in synthetic progress note.,$[17].admissions[0].clinicalNotes[0]
+A,1,1,41,Discharge Summary,2026-01-14 13:00:00,Recovery documented in synthetic summary.,3
+A,2,2,11,Discharge Summary,2026-02-02 13:00:00,Follow-up documented in synthetic summary.,4
+A,3,3,11,Progress Note,2026-02-15 13:30:00,Recovery mentioned in synthetic progress note.,5
+A,4,4,31,Initial Assessment,2026-03-07 13:30:00,Synthetic initial evaluation.,6
+A,5,5,26,Discharge Summary,2026-01-11 16:00:00,Recovery documented in synthetic summary.,7
+A,6,6,26,Discharge Summary,2026-01-30 18:00:00,Follow-up documented in synthetic summary.,8
+A,7,7,16,Progress Note,2026-01-08 13:30:00,Recovery mentioned in synthetic progress note.,9
+A,8,8,16,Initial Assessment,2026-01-28 13:30:00,Synthetic initial evaluation.,10
+A,9,9,46,Discharge Summary,2026-01-14 05:00:00,Recovery documented in synthetic summary.,11
+A,10,10,6,Discharge Summary,2026-01-31 18:00:00,Follow-up documented in synthetic summary.,12
+A,11,11,26,Progress Note,2026-01-10 13:30:00,Recovery mentioned in synthetic progress note.,13
+A,12,12,41,Initial Assessment,2026-01-30 13:30:00,Synthetic initial evaluation.,14
+A,13,13,36,Discharge Summary,2026-01-15 18:00:00,Recovery documented in synthetic summary.,15
+A,14,14,6,Discharge Summary,2026-01-16 15:00:00,Follow-up documented in synthetic summary.,16
+A,15,15,26,Progress Note,2026-01-13 13:30:00,Recovery mentioned in synthetic progress note.,17
+A,16,16,21,Initial Assessment,2026-02-02 13:30:00,Synthetic initial evaluation.,18
+A,17,17,6,Discharge Summary,2026-01-17 22:00:00,Recovery documented in synthetic summary.,19
+A,18,18,31,Discharge Summary,2026-01-17 07:00:00,Follow-up documented in synthetic summary.,20
+A,19,19,6,Progress Note,2026-02-04 13:30:00,Recovery mentioned in synthetic progress note.,21
+A,20,20,36,Initial Assessment,2026-01-16 13:30:00,Synthetic initial evaluation.,22
+A,21,22,31,Discharge Summary,2026-01-20 04:00:00,Recovery documented in synthetic summary.,23
+A,22,23,11,Discharge Summary,2026-01-18 21:00:00,Follow-up documented in synthetic summary.,24
+A,23,25,16,Progress Note,2026-01-19 13:30:00,Recovery mentioned in synthetic progress note.,25
+A,24,26,21,Initial Assessment,2026-02-08 13:30:00,Synthetic initial evaluation.,26
+A,25,27,6,Discharge Summary,2026-01-24 00:00:00,Recovery documented in synthetic summary.,27
+A,26,29,31,Discharge Summary,2026-01-22 14:00:00,Follow-up documented in synthetic summary.,28
+A,27,30,41,Progress Note,2026-02-10 13:30:00,Recovery mentioned in synthetic progress note.,29
+A,28,31,46,Initial Assessment,2026-01-22 13:30:00,Synthetic initial evaluation.,30
+A,29,32,11,Discharge Summary,2026-01-27 20:00:00,Recovery documented in synthetic summary.,31
+A,30,33,1,Discharge Summary,2026-01-26 20:00:00,Follow-up documented in synthetic summary.,32
+A,31,34,41,Progress Note,2026-02-13 13:30:00,Recovery mentioned in synthetic progress note.,33
+A,32,35,31,Initial Assessment,2026-01-25 13:30:00,Synthetic initial evaluation.,34
+A,33,36,26,Discharge Summary,2026-02-18 20:00:00,Recovery documented in synthetic summary.,35
+A,34,37,31,Discharge Summary,2026-01-31 06:00:00,Follow-up documented in synthetic summary.,36
+A,35,38,6,Progress Note,2026-02-15 13:30:00,Recovery mentioned in synthetic progress note.,37
+A,36,39,21,Initial Assessment,2026-01-27 13:30:00,Synthetic initial evaluation.,38
+A,37,40,11,Discharge Summary,2026-02-16 21:00:00,Recovery documented in synthetic summary.,39
+A,38,41,36,Discharge Summary,2026-01-29 16:00:00,Follow-up documented in synthetic summary.,40
+A,39,42,21,Progress Note,2026-02-17 13:30:00,Recovery mentioned in synthetic progress note.,41
+A,40,43,31,Initial Assessment,2026-01-29 13:30:00,Synthetic initial evaluation.,42
+A,41,44,26,Discharge Summary,2026-02-21 07:00:00,Recovery documented in synthetic summary.,43
+A,42,45,46,Discharge Summary,2026-01-31 03:00:00,Follow-up documented in synthetic summary.,44
+A,43,46,31,Progress Note,2026-01-31 13:30:00,Recovery mentioned in synthetic progress note.,45
+A,44,47,1,Initial Assessment,2026-02-20 13:30:00,Synthetic initial evaluation.,46
+A,45,49,26,Discharge Summary,2026-02-05 00:00:00,Recovery documented in synthetic summary.,47
+A,46,50,16,Discharge Summary,2026-02-26 16:00:00,Follow-up documented in synthetic summary.,48
+A,47,51,11,Progress Note,2026-02-03 13:30:00,Recovery mentioned in synthetic progress note.,49
+A,48,52,21,Initial Assessment,2026-02-23 13:30:00,Synthetic initial evaluation.,50
+A,49,53,11,Discharge Summary,2026-02-08 13:00:00,Recovery documented in synthetic summary.,51
+A,50,54,1,Discharge Summary,2026-02-27 05:00:00,Follow-up documented in synthetic summary.,52
+A,51,55,6,Progress Note,2026-02-05 13:30:00,Recovery mentioned in synthetic progress note.,53
+A,52,56,21,Initial Assessment,2026-02-25 13:30:00,Synthetic initial evaluation.,54
+A,53,57,41,Discharge Summary,2026-02-07 07:00:00,Recovery documented in synthetic summary.,55
+A,54,58,41,Discharge Summary,2026-03-01 23:00:00,Follow-up documented in synthetic summary.,56
+A,56,60,21,Initial Assessment,2026-02-27 13:30:00,Synthetic initial evaluation.,58
+A,57,61,6,Discharge Summary,2026-02-11 02:00:00,Recovery documented in synthetic summary.,59
+A,58,62,46,Discharge Summary,2026-02-14 11:00:00,Follow-up documented in synthetic summary.,60
+A,59,63,6,Progress Note,2026-03-01 13:30:00,Recovery mentioned in synthetic progress note.,61
+A,60,64,21,Initial Assessment,2026-02-10 13:30:00,Synthetic initial evaluation.,62
+A,61,65,6,Discharge Summary,2026-03-05 12:00:00,Recovery documented in synthetic summary.,63
+A,62,66,16,Discharge Summary,2026-02-13 23:00:00,Follow-up documented in synthetic summary.,64
+A,63,67,36,Progress Note,2026-03-03 13:30:00,Recovery mentioned in synthetic progress note.,65
+A,64,68,1,Initial Assessment,2026-02-12 13:30:00,Synthetic initial evaluation.,66
+A,65,69,26,Discharge Summary,2026-03-09 12:00:00,Recovery documented in synthetic summary.,67
+A,66,70,31,Discharge Summary,2026-02-17 18:00:00,Follow-up documented in synthetic summary.,68
+A,67,71,46,Progress Note,2026-03-05 13:30:00,Recovery mentioned in synthetic progress note.,69
+A,68,72,1,Initial Assessment,2026-02-14 13:30:00,Synthetic initial evaluation.,70
+A,69,73,16,Discharge Summary,2026-03-09 19:00:00,Recovery documented in synthetic summary.,71
+A,70,74,6,Discharge Summary,2026-02-19 02:00:00,Follow-up documented in synthetic summary.,72
+A,71,75,1,Progress Note,2026-03-07 13:30:00,Recovery mentioned in synthetic progress note.,73
+A,72,76,16,Initial Assessment,2026-02-16 13:30:00,Synthetic initial evaluation.,74
+A,73,77,31,Discharge Summary,2026-03-09 14:00:00,Recovery documented in synthetic summary.,75
+A,74,78,1,Discharge Summary,2026-02-20 18:00:00,Follow-up documented in synthetic summary.,76
+A,75,80,11,Progress Note,2026-02-18 13:30:00,Recovery mentioned in synthetic progress note.,77
+A,76,81,26,Initial Assessment,2026-02-19 13:30:00,Synthetic initial evaluation.,78
+A,77,82,6,Discharge Summary,2026-02-24 21:00:00,Recovery documented in synthetic summary.,79
+A,78,83,31,Discharge Summary,2026-03-12 19:00:00,Follow-up documented in synthetic summary.,80
+A,79,84,6,Progress Note,2026-02-21 13:30:00,Recovery mentioned in synthetic progress note.,81
+A,80,85,46,Initial Assessment,2026-03-13 12:30:00,Synthetic initial evaluation.,82
+A,81,86,46,Discharge Summary,2026-02-26 19:00:00,Recovery documented in synthetic summary.,83
+A,82,87,16,Discharge Summary,2026-03-16 06:00:00,Follow-up documented in synthetic summary.,84
+A,83,88,16,Progress Note,2026-02-23 13:30:00,Recovery mentioned in synthetic progress note.,85
+A,84,89,31,Initial Assessment,2026-03-15 12:30:00,Synthetic initial evaluation.,86
+A,85,90,16,Discharge Summary,2026-02-24 20:00:00,Recovery documented in synthetic summary.,87
+A,86,91,31,Discharge Summary,2026-03-18 19:00:00,Follow-up documented in synthetic summary.,88
+A,87,92,1,Progress Note,2026-02-25 13:30:00,Recovery mentioned in synthetic progress note.,89
+A,88,93,11,Initial Assessment,2026-03-17 12:30:00,Synthetic initial evaluation.,90
+A,89,94,41,Discharge Summary,2026-02-28 23:00:00,Recovery documented in synthetic summary.,91
+A,90,95,46,Discharge Summary,2026-03-22 18:00:00,Follow-up documented in synthetic summary.,92
+A,91,96,1,Progress Note,2026-02-27 13:30:00,Recovery mentioned in synthetic progress note.,93
+A,92,97,16,Initial Assessment,2026-03-19 12:30:00,Synthetic initial evaluation.,94
+A,93,98,21,Discharge Summary,2026-03-05 06:00:00,Recovery documented in synthetic summary.,95
+A,94,99,11,Discharge Summary,2026-03-24 00:00:00,Follow-up documented in synthetic summary.,96
+A,95,100,6,Progress Note,2026-03-01 13:30:00,Recovery mentioned in synthetic progress note.,97
+A,96,101,31,Initial Assessment,2026-03-02 13:30:00,Synthetic initial evaluation.,98
+A,98,103,11,Discharge Summary,2026-03-06 21:00:00,Follow-up documented in synthetic summary.,100
+A,99,104,11,Progress Note,2026-03-04 13:30:00,Recovery mentioned in synthetic progress note.,101
+A,100,105,16,Initial Assessment,2026-03-05 13:30:00,Synthetic initial evaluation.,102
+A,101,106,1,Discharge Summary,2026-03-08 07:00:00,Recovery documented in synthetic summary.,103
+A,102,107,11,Discharge Summary,2026-03-11 05:00:00,Follow-up documented in synthetic summary.,104
+A,103,108,26,Progress Note,2026-03-27 12:30:00,Recovery mentioned in synthetic progress note.,105
+A,104,109,46,Initial Assessment,2026-03-08 12:30:00,Synthetic initial evaluation.,106
+A,105,110,6,Discharge Summary,2026-03-14 03:00:00,Recovery documented in synthetic summary.,107
+A,106,111,46,Discharge Summary,2026-04-02 17:00:00,Follow-up documented in synthetic summary.,108
+A,107,112,16,Progress Note,2026-03-10 12:30:00,Recovery mentioned in synthetic progress note.,109
+A,108,113,6,Initial Assessment,2026-03-30 12:30:00,Synthetic initial evaluation.,110
+A,109,114,1,Discharge Summary,2026-03-13 06:00:00,Recovery documented in synthetic summary.,111
+A,110,115,6,Discharge Summary,2026-04-01 09:00:00,Follow-up documented in synthetic summary.,112
+A,111,116,31,Progress Note,2026-03-12 12:30:00,Recovery mentioned in synthetic progress note.,113
+A,112,117,26,Initial Assessment,2026-04-01 12:30:00,Synthetic initial evaluation.,114
+A,113,118,6,Discharge Summary,2026-03-17 02:00:00,Recovery documented in synthetic summary.,115
+A,115,120,36,Progress Note,2026-03-14 12:30:00,Recovery mentioned in synthetic progress note.,117
+A,116,121,1,Initial Assessment,2026-04-03 12:30:00,Synthetic initial evaluation.,118
+A,117,122,1,Discharge Summary,2026-03-17 21:00:00,Recovery documented in synthetic summary.,119
+A,118,124,31,Discharge Summary,2026-03-21 12:00:00,Follow-up documented in synthetic summary.,120
+A,119,125,31,Progress Note,2026-04-05 12:30:00,Recovery mentioned in synthetic progress note.,121
+A,120,126,46,Initial Assessment,2026-03-17 12:30:00,Synthetic initial evaluation.,122
+A,121,127,1,Discharge Summary,2026-04-07 20:00:00,Recovery documented in synthetic summary.,123
+A,122,128,1,Discharge Summary,2026-03-19 13:00:00,Follow-up documented in synthetic summary.,124
+A,123,129,41,Progress Note,2026-04-07 12:30:00,Recovery mentioned in synthetic progress note.,125
+A,124,130,26,Initial Assessment,2026-03-19 12:30:00,Synthetic initial evaluation.,126
+A,125,131,41,Discharge Summary,2026-04-11 15:00:00,Recovery documented in synthetic summary.,127
+A,126,132,36,Discharge Summary,2026-03-24 23:00:00,Follow-up documented in synthetic summary.,128
+A,127,134,1,Progress Note,2026-03-21 12:30:00,Recovery mentioned in synthetic progress note.,129
+A,128,135,26,Initial Assessment,2026-04-10 12:30:00,Synthetic initial evaluation.,130
+A,129,136,16,Discharge Summary,2026-03-22 17:00:00,Recovery documented in synthetic summary.,131
+A,130,137,6,Discharge Summary,2026-04-16 12:00:00,Follow-up documented in synthetic summary.,132
+A,131,138,46,Progress Note,2026-03-23 12:30:00,Recovery mentioned in synthetic progress note.,133
+A,132,139,46,Initial Assessment,2026-04-12 12:30:00,Synthetic initial evaluation.,134
+A,133,140,11,Discharge Summary,2026-03-27 06:00:00,Recovery documented in synthetic summary.,135
+A,134,142,46,Discharge Summary,2026-03-26 11:00:00,Follow-up documented in synthetic summary.,136
+A,135,144,16,Progress Note,2026-03-26 12:30:00,Recovery mentioned in synthetic progress note.,137
+A,136,145,46,Initial Assessment,2026-03-27 12:30:00,Synthetic initial evaluation.,138
+A,137,146,1,Discharge Summary,2026-04-21 02:00:00,Recovery documented in synthetic summary.,139
+A,138,147,46,Discharge Summary,2026-03-30 15:00:00,Follow-up documented in synthetic summary.,140
+A,139,148,31,Progress Note,2026-03-29 12:30:00,Recovery mentioned in synthetic progress note.,141
+A,140,149,21,Initial Assessment,2026-04-18 12:30:00,Synthetic initial evaluation.,142
+A,141,150,31,Discharge Summary,2026-04-02 23:00:00,Recovery documented in synthetic summary.,143
+A,142,151,31,Discharge Summary,2026-04-03 14:00:00,Follow-up documented in synthetic summary.,144
+A,143,152,26,Progress Note,2026-04-20 12:30:00,Recovery mentioned in synthetic progress note.,145
+A,144,153,36,Initial Assessment,2026-04-01 12:30:00,Synthetic initial evaluation.,146
+A,145,154,36,Discharge Summary,2026-04-23 19:00:00,Recovery documented in synthetic summary.,147
+A,146,155,11,Discharge Summary,2026-04-07 12:00:00,Follow-up documented in synthetic summary.,148
+A,147,156,16,Progress Note,2026-04-22 12:30:00,Recovery mentioned in synthetic progress note.,149
+A,148,157,46,Initial Assessment,2026-04-03 12:30:00,Synthetic initial evaluation.,150
+A,149,158,46,Discharge Summary,2026-04-05 18:00:00,Recovery documented in synthetic summary.,151
+A,150,159,16,Discharge Summary,2026-04-26 22:00:00,Follow-up documented in synthetic summary.,152
+A,151,160,11,Progress Note,2026-04-05 12:30:00,Recovery mentioned in synthetic progress note.,153
+A,152,161,11,Initial Assessment,2026-04-25 12:30:00,Synthetic initial evaluation.,154
+A,153,162,16,Discharge Summary,2026-04-10 13:00:00,Recovery documented in synthetic summary.,155
+A,154,163,11,Discharge Summary,2026-04-29 10:00:00,Follow-up documented in synthetic summary.,156
+A,155,164,21,Progress Note,2026-04-07 12:30:00,Recovery mentioned in synthetic progress note.,157
+A,156,165,1,Initial Assessment,2026-04-08 12:30:00,Synthetic initial evaluation.,158
+A,157,166,36,Discharge Summary,2026-05-01 07:00:00,Recovery documented in synthetic summary.,159
+A,158,167,6,Discharge Summary,2026-04-12 15:00:00,Follow-up documented in synthetic summary.,160
+A,159,168,1,Progress Note,2026-04-29 12:30:00,Recovery mentioned in synthetic progress note.,161
+A,160,169,41,Initial Assessment,2026-04-10 12:30:00,Synthetic initial evaluation.,162
+A,161,170,46,Discharge Summary,2026-05-02 20:00:00,Recovery documented in synthetic summary.,163
+A,163,172,1,Progress Note,2026-05-01 12:30:00,Recovery mentioned in synthetic progress note.,165
+A,164,173,21,Initial Assessment,2026-04-12 12:30:00,Synthetic initial evaluation.,166
+A,165,175,1,Discharge Summary,2026-04-19 02:00:00,Recovery documented in synthetic summary.,167
+A,166,176,46,Discharge Summary,2026-05-08 16:00:00,Follow-up documented in synthetic summary.,168
+A,167,177,11,Progress Note,2026-01-05 13:30:00,Recovery mentioned in synthetic progress note.,169
+A,168,178,36,Initial Assessment,2026-01-25 13:30:00,Synthetic initial evaluation.,170
+A,169,179,1,Discharge Summary,2026-01-09 16:00:00,Recovery documented in synthetic summary.,171
+A,170,180,1,Discharge Summary,2026-01-29 14:00:00,Follow-up documented in synthetic summary.,172
+A,171,181,11,Progress Note,2026-01-07 13:30:00,Recovery mentioned in synthetic progress note.,173
+A,172,182,21,Initial Assessment,2026-01-27 13:30:00,Synthetic initial evaluation.,174
+A,173,183,36,Discharge Summary,2026-01-11 19:00:00,Recovery documented in synthetic summary.,175
+A,174,184,41,Discharge Summary,2026-01-12 19:00:00,Follow-up documented in synthetic summary.,176
+A,175,185,36,Progress Note,2026-01-29 13:30:00,Recovery mentioned in synthetic progress note.,177
+A,176,186,26,Initial Assessment,2026-01-10 13:30:00,Synthetic initial evaluation.,178
+A,177,188,16,Discharge Summary,2026-01-12 18:00:00,Recovery documented in synthetic summary.,179
+A,178,189,36,Discharge Summary,2026-01-14 16:00:00,Follow-up documented in synthetic summary.,180
+A,179,190,41,Progress Note,2026-02-01 13:30:00,Recovery mentioned in synthetic progress note.,181
+A,180,191,11,Initial Assessment,2026-01-13 13:30:00,Synthetic initial evaluation.,182
+A,181,192,41,Discharge Summary,2026-02-05 13:00:00,Recovery documented in synthetic summary.,183
+A,182,194,41,Discharge Summary,2026-01-20 02:00:00,Follow-up documented in synthetic summary.,184
+A,183,195,26,Progress Note,2026-02-04 13:30:00,Recovery mentioned in synthetic progress note.,185
+A,184,196,46,Initial Assessment,2026-01-16 13:30:00,Synthetic initial evaluation.,186
+A,185,197,26,Discharge Summary,2026-01-20 04:00:00,Recovery documented in synthetic summary.,187
+A,186,198,1,Discharge Summary,2026-01-20 15:00:00,Follow-up documented in synthetic summary.,188
+A,187,199,41,Progress Note,2026-01-19 13:30:00,Recovery mentioned in synthetic progress note.,189
+A,188,200,1,Initial Assessment,2026-01-20 13:30:00,Synthetic initial evaluation.,190
+A,189,201,36,Discharge Summary,2026-02-10 15:00:00,Recovery documented in synthetic summary.,191
+A,190,202,46,Discharge Summary,2026-01-22 07:00:00,Follow-up documented in synthetic summary.,192
+A,192,204,41,Initial Assessment,2026-01-23 13:30:00,Synthetic initial evaluation.,194
+A,193,205,41,Discharge Summary,2026-02-13 20:00:00,Recovery documented in synthetic summary.,195
+A,194,207,36,Discharge Summary,2026-01-27 20:00:00,Follow-up documented in synthetic summary.,196
+A,195,208,36,Progress Note,2026-02-14 13:30:00,Recovery mentioned in synthetic progress note.,197
+A,196,209,6,Initial Assessment,2026-01-26 13:30:00,Synthetic initial evaluation.,198
+A,197,210,1,Discharge Summary,2026-01-28 01:00:00,Recovery documented in synthetic summary.,199
+A,198,211,26,Discharge Summary,2026-02-16 18:00:00,Follow-up documented in synthetic summary.,200
+A,199,212,31,Progress Note,2026-01-28 13:30:00,Recovery mentioned in synthetic progress note.,201
+A,200,213,36,Initial Assessment,2026-02-17 13:30:00,Synthetic initial evaluation.,202
+A,201,214,1,Discharge Summary,2026-01-30 10:00:00,Recovery documented in synthetic summary.,203
+A,202,215,6,Discharge Summary,2026-02-23 00:00:00,Follow-up documented in synthetic summary.,204
+A,203,216,11,Progress Note,2026-01-30 13:30:00,Recovery mentioned in synthetic progress note.,205
+A,204,217,16,Initial Assessment,2026-01-31 13:30:00,Synthetic initial evaluation.,206
+A,205,218,1,Discharge Summary,2026-02-24 05:00:00,Recovery documented in synthetic summary.,207
+A,206,219,41,Discharge Summary,2026-02-06 11:00:00,Follow-up documented in synthetic summary.,208
+A,207,220,46,Progress Note,2026-02-02 13:30:00,Recovery mentioned in synthetic progress note.,209
+A,208,221,26,Initial Assessment,2026-02-22 13:30:00,Synthetic initial evaluation.,210
+A,209,222,36,Discharge Summary,2026-02-05 14:00:00,Recovery documented in synthetic summary.,211
+A,210,223,41,Discharge Summary,2026-02-26 20:00:00,Follow-up documented in synthetic summary.,212
+A,211,224,31,Progress Note,2026-02-04 13:30:00,Recovery mentioned in synthetic progress note.,213
+A,212,225,6,Initial Assessment,2026-02-24 13:30:00,Synthetic initial evaluation.,214
+A,213,226,21,Discharge Summary,2026-02-09 15:00:00,Recovery documented in synthetic summary.,215
+A,214,228,11,Discharge Summary,2026-02-08 06:00:00,Follow-up documented in synthetic summary.,216
+A,215,229,41,Progress Note,2026-02-26 13:30:00,Recovery mentioned in synthetic progress note.,217
+A,216,230,1,Initial Assessment,2026-02-07 13:30:00,Synthetic initial evaluation.,218
+A,217,231,31,Discharge Summary,2026-03-01 13:00:00,Recovery documented in synthetic summary.,219
+A,218,232,1,Discharge Summary,2026-02-09 00:00:00,Follow-up documented in synthetic summary.,220
+A,219,234,26,Progress Note,2026-02-10 13:30:00,Recovery mentioned in synthetic progress note.,221
+A,220,235,11,Initial Assessment,2026-03-02 13:30:00,Synthetic initial evaluation.,222
+A,221,236,6,Discharge Summary,2026-02-16 08:00:00,Recovery documented in synthetic summary.,223
+A,222,237,31,Discharge Summary,2026-03-03 23:00:00,Follow-up documented in synthetic summary.,224
+A,223,238,21,Progress Note,2026-02-12 13:30:00,Recovery mentioned in synthetic progress note.,225
+A,224,239,46,Initial Assessment,2026-03-04 13:30:00,Synthetic initial evaluation.,226
+A,225,240,1,Discharge Summary,2026-02-15 21:00:00,Recovery documented in synthetic summary.,227
+A,226,241,11,Discharge Summary,2026-02-15 14:00:00,Follow-up documented in synthetic summary.,228
+A,227,242,41,Progress Note,2026-02-15 13:30:00,Recovery mentioned in synthetic progress note.,229
+A,228,243,31,Initial Assessment,2026-03-07 13:30:00,Synthetic initial evaluation.,230
+A,229,244,11,Discharge Summary,2026-02-19 07:00:00,Recovery documented in synthetic summary.,231
+A,230,245,46,Discharge Summary,2026-03-12 10:00:00,Follow-up documented in synthetic summary.,232
+A,231,246,11,Progress Note,2026-02-17 13:30:00,Recovery mentioned in synthetic progress note.,233
+A,232,247,31,Initial Assessment,2026-03-09 12:30:00,Synthetic initial evaluation.,234
+A,233,248,31,Discharge Summary,2026-02-22 23:00:00,Recovery documented in synthetic summary.,235
+A,235,250,36,Progress Note,2026-02-19 13:30:00,Recovery mentioned in synthetic progress note.,237
+A,236,251,46,Initial Assessment,2026-03-11 12:30:00,Synthetic initial evaluation.,238
+A,238,253,21,Discharge Summary,2026-03-15 06:00:00,Follow-up documented in synthetic summary.,240
+A,239,254,41,Progress Note,2026-02-21 13:30:00,Recovery mentioned in synthetic progress note.,241
+A,240,255,26,Initial Assessment,2026-03-13 12:30:00,Synthetic initial evaluation.,242
+A,241,256,16,Discharge Summary,2026-02-25 12:00:00,Recovery documented in synthetic summary.,243
+A,242,257,46,Discharge Summary,2026-02-24 21:00:00,Follow-up documented in synthetic summary.,244
+A,243,258,46,Progress Note,2026-03-15 12:30:00,Recovery mentioned in synthetic progress note.,245
+A,244,259,6,Initial Assessment,2026-02-24 13:30:00,Synthetic initial evaluation.,246
+A,245,260,31,Discharge Summary,2026-02-27 12:00:00,Recovery documented in synthetic summary.,247
+A,246,261,16,Discharge Summary,2026-03-19 02:00:00,Follow-up documented in synthetic summary.,248
+A,247,262,11,Progress Note,2026-02-26 13:30:00,Recovery mentioned in synthetic progress note.,249
+A,248,263,16,Initial Assessment,2026-02-27 13:30:00,Synthetic initial evaluation.,250
+A,249,265,26,Discharge Summary,2026-03-05 03:00:00,Recovery documented in synthetic summary.,251
+A,250,266,26,Discharge Summary,2026-03-23 09:00:00,Follow-up documented in synthetic summary.,252
+A,251,267,26,Progress Note,2026-03-01 13:30:00,Recovery mentioned in synthetic progress note.,253
+A,252,269,36,Initial Assessment,2026-03-02 13:30:00,Synthetic initial evaluation.,254
+A,253,270,16,Discharge Summary,2026-03-25 00:00:00,Recovery documented in synthetic summary.,255
+A,254,271,41,Discharge Summary,2026-03-05 08:00:00,Follow-up documented in synthetic summary.,256
+A,255,272,6,Progress Note,2026-03-04 13:30:00,Recovery mentioned in synthetic progress note.,257
+A,256,273,21,Initial Assessment,2026-03-24 12:30:00,Synthetic initial evaluation.,258
+A,257,274,21,Discharge Summary,2026-03-07 04:00:00,Recovery documented in synthetic summary.,259
+A,258,275,46,Discharge Summary,2026-03-28 14:00:00,Follow-up documented in synthetic summary.,260
+A,259,276,16,Progress Note,2026-03-06 13:30:00,Recovery mentioned in synthetic progress note.,261
+A,260,277,46,Initial Assessment,2026-03-07 13:30:00,Synthetic initial evaluation.,262
+A,261,278,41,Discharge Summary,2026-03-29 23:00:00,Recovery documented in synthetic summary.,263
+A,262,279,46,Discharge Summary,2026-03-09 08:00:00,Follow-up documented in synthetic summary.,264
+A,263,280,46,Progress Note,2026-03-28 12:30:00,Recovery mentioned in synthetic progress note.,265
+A,264,281,41,Initial Assessment,2026-03-09 12:30:00,Synthetic initial evaluation.,266
+A,265,282,1,Discharge Summary,2026-03-10 19:00:00,Recovery documented in synthetic summary.,267
+A,266,283,46,Discharge Summary,2026-04-02 19:00:00,Follow-up documented in synthetic summary.,268
+A,267,284,36,Progress Note,2026-03-11 12:30:00,Recovery mentioned in synthetic progress note.,269
+A,268,285,16,Initial Assessment,2026-03-31 12:30:00,Synthetic initial evaluation.,270
+A,269,286,41,Discharge Summary,2026-03-17 12:00:00,Recovery documented in synthetic summary.,271
+A,270,287,41,Discharge Summary,2026-04-06 03:00:00,Follow-up documented in synthetic summary.,272
+A,271,288,46,Progress Note,2026-03-13 12:30:00,Recovery mentioned in synthetic progress note.,273
+A,272,289,46,Initial Assessment,2026-04-02 12:30:00,Synthetic initial evaluation.,274
+A,273,290,1,Discharge Summary,2026-03-19 11:00:00,Recovery documented in synthetic summary.,275
+A,274,291,41,Discharge Summary,2026-03-20 08:00:00,Follow-up documented in synthetic summary.,276
+A,275,292,6,Progress Note,2026-04-04 12:30:00,Recovery mentioned in synthetic progress note.,277
+A,276,293,31,Initial Assessment,2026-03-16 12:30:00,Synthetic initial evaluation.,278
+A,277,294,41,Discharge Summary,2026-04-10 08:00:00,Recovery documented in synthetic summary.,279
+A,278,295,6,Discharge Summary,2026-03-19 13:00:00,Follow-up documented in synthetic summary.,280
+A,279,296,26,Progress Note,2026-03-18 12:30:00,Recovery mentioned in synthetic progress note.,281
+A,280,297,26,Initial Assessment,2026-04-07 12:30:00,Synthetic initial evaluation.,282
+A,281,298,1,Discharge Summary,2026-03-21 23:00:00,Recovery documented in synthetic summary.,283
+A,282,299,16,Discharge Summary,2026-03-22 15:00:00,Follow-up documented in synthetic summary.,284
+A,283,300,1,Progress Note,2026-03-21 12:30:00,Recovery mentioned in synthetic progress note.,285
+A,284,301,21,Initial Assessment,2026-03-22 12:30:00,Synthetic initial evaluation.,286
+A,285,302,46,Discharge Summary,2026-03-24 03:00:00,Recovery documented in synthetic summary.,287
+A,286,303,46,Discharge Summary,2026-03-27 05:00:00,Follow-up documented in synthetic summary.,288
+A,287,304,21,Progress Note,2026-04-13 12:30:00,Recovery mentioned in synthetic progress note.,289
+A,288,305,11,Initial Assessment,2026-03-25 12:30:00,Synthetic initial evaluation.,290
+A,289,306,26,Discharge Summary,2026-04-17 19:00:00,Recovery documented in synthetic summary.,291
+A,290,307,26,Discharge Summary,2026-03-29 20:00:00,Follow-up documented in synthetic summary.,292
+A,291,308,26,Progress Note,2026-04-15 12:30:00,Recovery mentioned in synthetic progress note.,293
+A,292,309,6,Initial Assessment,2026-03-27 12:30:00,Synthetic initial evaluation.,294
+A,294,311,16,Discharge Summary,2026-04-01 19:00:00,Follow-up documented in synthetic summary.,296
+A,295,312,46,Progress Note,2026-04-17 12:30:00,Recovery mentioned in synthetic progress note.,297
+A,296,313,21,Initial Assessment,2026-03-29 12:30:00,Synthetic initial evaluation.,298
+A,297,314,26,Discharge Summary,2026-03-30 23:00:00,Recovery documented in synthetic summary.,299
+A,298,315,1,Discharge Summary,2026-04-23 22:00:00,Follow-up documented in synthetic summary.,300
+A,299,316,16,Progress Note,2026-03-31 12:30:00,Recovery mentioned in synthetic progress note.,301
+A,300,317,26,Initial Assessment,2026-04-01 12:30:00,Synthetic initial evaluation.,302
+A,301,318,6,Discharge Summary,2026-04-22 01:00:00,Recovery documented in synthetic summary.,303
+A,302,319,16,Discharge Summary,2026-04-04 16:00:00,Follow-up documented in synthetic summary.,304
+A,303,320,11,Progress Note,2026-04-22 12:30:00,Recovery mentioned in synthetic progress note.,305
+A,304,321,11,Initial Assessment,2026-04-03 12:30:00,Synthetic initial evaluation.,306
+A,305,322,1,Discharge Summary,2026-04-25 13:00:00,Recovery documented in synthetic summary.,307
+A,306,324,41,Discharge Summary,2026-04-06 06:00:00,Follow-up documented in synthetic summary.,308
+A,307,325,31,Progress Note,2026-04-25 12:30:00,Recovery mentioned in synthetic progress note.,309
+A,308,326,11,Initial Assessment,2026-04-06 12:30:00,Synthetic initial evaluation.,310
+A,309,327,31,Discharge Summary,2026-04-08 21:00:00,Recovery documented in synthetic summary.,311
+A,310,328,36,Discharge Summary,2026-04-29 08:00:00,Follow-up documented in synthetic summary.,312
+A,311,329,31,Progress Note,2026-04-08 12:30:00,Recovery mentioned in synthetic progress note.,313
+A,312,330,36,Initial Assessment,2026-04-09 12:30:00,Synthetic initial evaluation.,314
+A,313,331,11,Discharge Summary,2026-04-12 16:00:00,Recovery documented in synthetic summary.,315
+A,314,332,46,Discharge Summary,2026-05-04 12:00:00,Follow-up documented in synthetic summary.,316
+A,315,334,11,Progress Note,2026-04-12 12:30:00,Recovery mentioned in synthetic progress note.,317
+A,316,335,1,Initial Assessment,2026-05-02 12:30:00,Synthetic initial evaluation.,318
+A,317,336,36,Discharge Summary,2026-04-17 21:00:00,Recovery documented in synthetic summary.,319
+A,318,337,21,Discharge Summary,2026-04-16 05:00:00,Follow-up documented in synthetic summary.,320
+A,319,338,46,Progress Note,2026-05-04 12:30:00,Recovery mentioned in synthetic progress note.,321
+A,320,339,46,Initial Assessment,2026-01-05 13:30:00,Synthetic initial evaluation.,322
+A,321,340,1,Discharge Summary,2026-01-10 08:00:00,Recovery documented in synthetic summary.,323
+A,322,341,6,Discharge Summary,2026-01-29 21:00:00,Follow-up documented in synthetic summary.,324
+A,323,342,46,Progress Note,2026-01-07 13:30:00,Recovery mentioned in synthetic progress note.,325
+A,324,343,31,Initial Assessment,2026-01-08 13:30:00,Synthetic initial evaluation.,326
+A,325,344,21,Discharge Summary,2026-01-12 04:00:00,Recovery documented in synthetic summary.,327
+A,326,345,31,Discharge Summary,2026-01-12 14:00:00,Follow-up documented in synthetic summary.,328
+A,327,346,41,Progress Note,2026-01-30 13:30:00,Recovery mentioned in synthetic progress note.,329
+A,328,347,26,Initial Assessment,2026-01-11 13:30:00,Synthetic initial evaluation.,330
+A,329,349,16,Discharge Summary,2026-01-15 09:00:00,Recovery documented in synthetic summary.,331
+A,330,350,41,Discharge Summary,2026-02-03 13:00:00,Follow-up documented in synthetic summary.,332
+A,331,351,36,Progress Note,2026-01-13 13:30:00,Recovery mentioned in synthetic progress note.,333
+A,332,352,46,Initial Assessment,2026-02-02 13:30:00,Synthetic initial evaluation.,334
+A,333,353,31,Discharge Summary,2026-01-18 06:00:00,Recovery documented in synthetic summary.,335
+A,334,354,26,Discharge Summary,2026-02-05 11:00:00,Follow-up documented in synthetic summary.,336
+A,335,355,16,Progress Note,2026-01-15 13:30:00,Recovery mentioned in synthetic progress note.,337
+A,336,356,1,Initial Assessment,2026-02-04 13:30:00,Synthetic initial evaluation.,338
+A,337,357,46,Discharge Summary,2026-01-18 16:00:00,Recovery documented in synthetic summary.,339
+A,338,358,6,Discharge Summary,2026-01-18 01:00:00,Follow-up documented in synthetic summary.,340
+A,339,359,41,Progress Note,2026-02-06 13:30:00,Recovery mentioned in synthetic progress note.,341
+A,340,360,46,Initial Assessment,2026-01-18 13:30:00,Synthetic initial evaluation.,342
+A,341,361,21,Discharge Summary,2026-01-21 14:00:00,Recovery documented in synthetic summary.,343
+A,342,362,21,Discharge Summary,2026-02-08 20:00:00,Follow-up documented in synthetic summary.,344
+A,343,363,36,Progress Note,2026-01-20 13:30:00,Recovery mentioned in synthetic progress note.,345
+A,344,364,1,Initial Assessment,2026-02-09 13:30:00,Synthetic initial evaluation.,346
+A,345,365,36,Discharge Summary,2026-01-24 13:00:00,Recovery documented in synthetic summary.,347
+A,346,366,26,Discharge Summary,2026-01-24 05:00:00,Follow-up documented in synthetic summary.,348
+A,347,367,16,Progress Note,2026-02-11 13:30:00,Recovery mentioned in synthetic progress note.,349
+A,348,368,31,Initial Assessment,2026-01-23 13:30:00,Synthetic initial evaluation.,350
+A,349,369,26,Discharge Summary,2026-02-14 15:00:00,Recovery documented in synthetic summary.,351
+A,350,370,11,Discharge Summary,2026-01-27 04:00:00,Follow-up documented in synthetic summary.,352
+A,351,371,31,Progress Note,2026-01-25 13:30:00,Recovery mentioned in synthetic progress note.,353
+A,352,372,11,Initial Assessment,2026-02-14 13:30:00,Synthetic initial evaluation.,354
+A,353,373,21,Discharge Summary,2026-01-28 10:00:00,Recovery documented in synthetic summary.,355
+A,354,375,11,Discharge Summary,2026-02-01 05:00:00,Follow-up documented in synthetic summary.,356
+A,355,376,21,Progress Note,2026-02-16 13:30:00,Recovery mentioned in synthetic progress note.,357
+A,356,377,46,Initial Assessment,2026-01-28 13:30:00,Synthetic initial evaluation.,358
+A,357,378,6,Discharge Summary,2026-02-18 05:00:00,Recovery documented in synthetic summary.,359
+A,358,379,16,Discharge Summary,2026-02-02 16:00:00,Follow-up documented in synthetic summary.,360
+A,359,380,16,Progress Note,2026-02-18 13:30:00,Recovery mentioned in synthetic progress note.,361
+A,360,381,41,Initial Assessment,2026-01-30 13:30:00,Synthetic initial evaluation.,362
+A,361,382,41,Discharge Summary,2026-02-22 03:00:00,Recovery documented in synthetic summary.,363
+A,362,383,16,Discharge Summary,2026-02-01 20:00:00,Follow-up documented in synthetic summary.,364
+A,363,384,36,Progress Note,2026-02-20 13:30:00,Recovery mentioned in synthetic progress note.,365
+A,364,385,36,Initial Assessment,2026-02-01 13:30:00,Synthetic initial evaluation.,366
+A,365,386,1,Discharge Summary,2026-02-26 05:00:00,Recovery documented in synthetic summary.,367
+A,366,387,36,Discharge Summary,2026-02-05 04:00:00,Follow-up documented in synthetic summary.,368
+A,367,388,31,Progress Note,2026-02-03 13:30:00,Recovery mentioned in synthetic progress note.,369
+A,368,389,21,Initial Assessment,2026-02-23 13:30:00,Synthetic initial evaluation.,370
+A,369,390,1,Discharge Summary,2026-02-09 05:00:00,Recovery documented in synthetic summary.,371
+A,370,391,31,Discharge Summary,2026-02-26 13:00:00,Follow-up documented in synthetic summary.,372
+A,372,393,31,Initial Assessment,2026-02-25 13:30:00,Synthetic initial evaluation.,374
+A,373,394,6,Discharge Summary,2026-02-06 19:00:00,Recovery documented in synthetic summary.,375
+A,374,395,1,Discharge Summary,2026-03-01 15:00:00,Follow-up documented in synthetic summary.,376
+A,375,396,1,Progress Note,2026-02-07 13:30:00,Recovery mentioned in synthetic progress note.,377
+A,376,397,11,Initial Assessment,2026-02-08 13:30:00,Synthetic initial evaluation.,378
+A,377,398,11,Discharge Summary,2026-03-02 08:00:00,Recovery documented in synthetic summary.,379
+A,378,399,1,Discharge Summary,2026-02-11 12:00:00,Follow-up documented in synthetic summary.,380
+A,379,400,21,Progress Note,2026-03-01 13:30:00,Recovery mentioned in synthetic progress note.,381
+A,380,1,41,Discharge Summary,2026-01-14 13:00:00,Synthetic discharge addendum with revised follow-up.,382
+B,1,1,51,Discharge Summary,2026-06-23 06:00:00,Recovery documented in synthetic summary.,2
+B,2,2,31,Discharge Summary,2026-07-12 06:00:00,Follow-up documented in synthetic summary.,3
+B,3,3,51,Progress Note,2026-07-25 06:30:00,Recovery mentioned in synthetic progress note.,4
+B,4,4,51,Initial Assessment,2026-08-14 06:30:00,Synthetic initial evaluation.,5
+B,5,5,6,Discharge Summary,2026-06-20 19:00:00,Recovery documented in synthetic summary.,6
+B,6,6,11,Discharge Summary,2026-07-06 21:00:00,Follow-up documented in synthetic summary.,7
+B,7,7,1,Progress Note,2026-06-17 06:30:00,Recovery mentioned in synthetic progress note.,8
+B,8,8,1,Initial Assessment,2026-06-18 06:30:00,Synthetic initial evaluation.,9
+B,9,9,6,Discharge Summary,2026-07-12 11:00:00,Recovery documented in synthetic summary.,10
+B,10,10,26,Discharge Summary,2026-06-20 12:00:00,Follow-up documented in synthetic summary.,11
+B,11,11,41,Progress Note,2026-07-09 06:30:00,Recovery mentioned in synthetic progress note.,12
+B,12,12,16,Initial Assessment,2026-06-20 06:30:00,Synthetic initial evaluation.,13
+B,13,13,46,Discharge Summary,2026-07-10 15:00:00,Recovery documented in synthetic summary.,14
+B,14,14,1,Discharge Summary,2026-06-26 01:00:00,Follow-up documented in synthetic summary.,15
+B,15,16,51,Progress Note,2026-06-22 06:30:00,Recovery mentioned in synthetic progress note.,16
+B,16,17,31,Initial Assessment,2026-06-23 06:30:00,Synthetic initial evaluation.,17
+B,17,18,1,Discharge Summary,2026-07-13 18:00:00,Recovery documented in synthetic summary.,18
+B,18,19,21,Discharge Summary,2026-06-28 05:00:00,Follow-up documented in synthetic summary.,19
+B,19,20,46,Progress Note,2026-06-25 06:30:00,Recovery mentioned in synthetic progress note.,20
+B,20,21,41,Initial Assessment,2026-06-26 06:30:00,Synthetic initial evaluation.,21
+B,21,22,1,Discharge Summary,2026-07-01 07:00:00,Recovery documented in synthetic summary.,22
+B,22,23,11,Discharge Summary,2026-07-20 20:00:00,Follow-up documented in synthetic summary.,23
+B,23,24,11,Progress Note,2026-06-28 06:30:00,Recovery mentioned in synthetic progress note.,24
+B,24,26,1,Initial Assessment,2026-06-29 06:30:00,Synthetic initial evaluation.,25
+B,25,27,26,Discharge Summary,2026-07-03 03:00:00,Recovery documented in synthetic summary.,26
+B,26,28,26,Discharge Summary,2026-07-23 02:00:00,Follow-up documented in synthetic summary.,27
+B,27,29,6,Progress Note,2026-07-01 06:30:00,Recovery mentioned in synthetic progress note.,28
+B,28,30,21,Initial Assessment,2026-07-02 06:30:00,Synthetic initial evaluation.,29
+B,29,31,36,Discharge Summary,2026-07-25 04:00:00,Recovery documented in synthetic summary.,30
+B,30,32,6,Discharge Summary,2026-07-07 21:00:00,Follow-up documented in synthetic summary.,31
+B,31,33,6,Progress Note,2026-07-04 06:30:00,Recovery mentioned in synthetic progress note.,32
+B,32,34,31,Initial Assessment,2026-07-05 06:30:00,Synthetic initial evaluation.,33
+B,33,35,41,Discharge Summary,2026-07-29 22:00:00,Recovery documented in synthetic summary.,34
+B,34,36,21,Discharge Summary,2026-07-07 16:00:00,Follow-up documented in synthetic summary.,35
+B,35,37,51,Progress Note,2026-07-26 06:30:00,Recovery mentioned in synthetic progress note.,36
+B,36,38,41,Initial Assessment,2026-07-07 06:30:00,Synthetic initial evaluation.,37
+B,37,39,51,Discharge Summary,2026-07-31 21:00:00,Recovery documented in synthetic summary.,38
+B,38,40,31,Discharge Summary,2026-07-09 19:00:00,Follow-up documented in synthetic summary.,39
+B,39,41,6,Progress Note,2026-07-28 06:30:00,Recovery mentioned in synthetic progress note.,40
+B,40,42,11,Initial Assessment,2026-07-09 06:30:00,Synthetic initial evaluation.,41
+B,41,43,21,Discharge Summary,2026-07-11 15:00:00,Recovery documented in synthetic summary.,42
+B,42,44,11,Discharge Summary,2026-08-03 14:00:00,Follow-up documented in synthetic summary.,43
+B,43,45,51,Progress Note,2026-07-11 06:30:00,Recovery mentioned in synthetic progress note.,44
+B,44,47,1,Initial Assessment,2026-07-12 06:30:00,Synthetic initial evaluation.,45
+B,45,48,36,Discharge Summary,2026-07-15 02:00:00,Recovery documented in synthetic summary.,46
+B,46,49,16,Discharge Summary,2026-07-18 20:00:00,Follow-up documented in synthetic summary.,47
+B,47,50,51,Progress Note,2026-08-03 06:30:00,Recovery mentioned in synthetic progress note.,48
+B,48,51,21,Initial Assessment,2026-07-15 06:30:00,Synthetic initial evaluation.,49
+B,49,52,31,Discharge Summary,2026-08-05 09:00:00,Recovery documented in synthetic summary.,50
+B,50,53,36,Discharge Summary,2026-07-19 09:00:00,Follow-up documented in synthetic summary.,51
+B,51,54,6,Progress Note,2026-08-05 06:30:00,Recovery mentioned in synthetic progress note.,52
+B,52,55,41,Initial Assessment,2026-07-17 06:30:00,Synthetic initial evaluation.,53
+B,53,56,51,Discharge Summary,2026-08-07 18:00:00,Recovery documented in synthetic summary.,54
+B,54,58,1,Discharge Summary,2026-07-21 20:00:00,Follow-up documented in synthetic summary.,55
+B,55,59,16,Progress Note,2026-07-20 06:30:00,Recovery mentioned in synthetic progress note.,56
+B,56,60,46,Initial Assessment,2026-08-09 06:30:00,Synthetic initial evaluation.,57
+B,57,61,16,Discharge Summary,2026-07-25 15:00:00,Recovery documented in synthetic summary.,58
+B,58,62,21,Discharge Summary,2026-08-13 00:00:00,Follow-up documented in synthetic summary.,59
+B,59,63,41,Progress Note,2026-07-22 06:30:00,Recovery mentioned in synthetic progress note.,60
+B,60,64,31,Initial Assessment,2026-08-11 06:30:00,Synthetic initial evaluation.,61
+B,61,65,1,Discharge Summary,2026-07-27 22:00:00,Recovery documented in synthetic summary.,62
+B,62,66,6,Discharge Summary,2026-08-14 15:00:00,Follow-up documented in synthetic summary.,63
+B,64,68,26,Initial Assessment,2026-08-13 06:30:00,Synthetic initial evaluation.,65
+B,65,69,36,Discharge Summary,2026-07-29 22:00:00,Recovery documented in synthetic summary.,66
+B,66,70,46,Discharge Summary,2026-08-16 10:00:00,Follow-up documented in synthetic summary.,67
+B,67,71,26,Progress Note,2026-07-26 06:30:00,Recovery mentioned in synthetic progress note.,68
+B,69,73,11,Discharge Summary,2026-07-31 10:00:00,Recovery documented in synthetic summary.,70
+B,70,74,41,Discharge Summary,2026-07-31 23:00:00,Follow-up documented in synthetic summary.,71
+B,71,75,11,Progress Note,2026-07-29 06:30:00,Recovery mentioned in synthetic progress note.,72
+B,72,76,31,Initial Assessment,2026-08-18 06:30:00,Synthetic initial evaluation.,73
+B,73,77,46,Discharge Summary,2026-07-31 13:00:00,Recovery documented in synthetic summary.,74
+B,74,78,51,Discharge Summary,2026-08-20 09:00:00,Follow-up documented in synthetic summary.,75
+B,75,79,36,Progress Note,2026-07-31 06:30:00,Recovery mentioned in synthetic progress note.,76
+B,76,80,21,Initial Assessment,2026-08-01 06:30:00,Synthetic initial evaluation.,77
+B,77,81,41,Discharge Summary,2026-08-22 12:00:00,Recovery documented in synthetic summary.,78
+B,78,82,26,Discharge Summary,2026-08-02 23:00:00,Follow-up documented in synthetic summary.,79
+B,79,83,6,Progress Note,2026-08-22 06:30:00,Recovery mentioned in synthetic progress note.,80
+B,80,84,51,Initial Assessment,2026-08-03 06:30:00,Synthetic initial evaluation.,81
+B,81,85,6,Discharge Summary,2026-08-25 14:00:00,Recovery documented in synthetic summary.,82
+B,82,86,1,Discharge Summary,2026-08-06 13:00:00,Follow-up documented in synthetic summary.,83
+B,83,87,11,Progress Note,2026-08-24 06:30:00,Recovery mentioned in synthetic progress note.,84
+B,84,88,51,Initial Assessment,2026-08-05 06:30:00,Synthetic initial evaluation.,85
+B,85,89,51,Discharge Summary,2026-08-27 21:00:00,Recovery documented in synthetic summary.,86
+B,86,91,31,Discharge Summary,2026-08-11 03:00:00,Follow-up documented in synthetic summary.,87
+B,87,92,16,Progress Note,2026-08-27 06:30:00,Recovery mentioned in synthetic progress note.,88
+B,88,93,31,Initial Assessment,2026-08-08 06:30:00,Synthetic initial evaluation.,89
+B,89,94,36,Discharge Summary,2026-09-02 05:00:00,Recovery documented in synthetic summary.,90
+B,90,95,36,Discharge Summary,2026-08-10 04:00:00,Follow-up documented in synthetic summary.,91
+B,91,96,51,Progress Note,2026-08-29 06:30:00,Recovery mentioned in synthetic progress note.,92
+B,92,98,51,Initial Assessment,2026-08-11 06:30:00,Synthetic initial evaluation.,93
+B,93,99,1,Discharge Summary,2026-08-16 20:00:00,Recovery documented in synthetic summary.,94
+B,94,100,31,Discharge Summary,2026-09-01 14:00:00,Follow-up documented in synthetic summary.,95
+B,95,101,51,Progress Note,2026-08-13 06:30:00,Recovery mentioned in synthetic progress note.,96
+B,96,102,51,Initial Assessment,2026-08-14 06:30:00,Synthetic initial evaluation.,97
+B,97,103,41,Discharge Summary,2026-09-04 17:00:00,Recovery documented in synthetic summary.,98
+B,98,104,6,Discharge Summary,2026-08-18 04:00:00,Follow-up documented in synthetic summary.,99
+B,99,105,36,Progress Note,2026-09-04 06:30:00,Recovery mentioned in synthetic progress note.,100
+B,100,106,31,Initial Assessment,2026-08-16 06:30:00,Synthetic initial evaluation.,101
+B,101,107,6,Discharge Summary,2026-09-06 10:00:00,Recovery documented in synthetic summary.,102
+B,102,108,21,Discharge Summary,2026-08-17 20:00:00,Follow-up documented in synthetic summary.,103
+B,103,109,6,Progress Note,2026-09-06 06:30:00,Recovery mentioned in synthetic progress note.,104
+B,104,110,41,Initial Assessment,2026-08-18 06:30:00,Synthetic initial evaluation.,105
+B,105,111,1,Discharge Summary,2026-09-09 06:00:00,Recovery documented in synthetic summary.,106
+B,106,112,41,Discharge Summary,2026-08-21 21:00:00,Follow-up documented in synthetic summary.,107
+B,108,114,46,Initial Assessment,2026-08-20 06:30:00,Synthetic initial evaluation.,109
+B,109,115,51,Discharge Summary,2026-09-14 05:00:00,Recovery documented in synthetic summary.,110
+B,110,116,1,Discharge Summary,2026-08-24 00:00:00,Follow-up documented in synthetic summary.,111
+B,111,117,31,Progress Note,2026-09-10 06:30:00,Recovery mentioned in synthetic progress note.,112
+B,112,118,16,Initial Assessment,2026-08-22 06:30:00,Synthetic initial evaluation.,113
+B,113,119,16,Discharge Summary,2026-09-15 04:00:00,Recovery documented in synthetic summary.,114
+B,114,120,36,Discharge Summary,2026-08-25 13:00:00,Follow-up documented in synthetic summary.,115
+B,115,121,46,Progress Note,2026-09-12 06:30:00,Recovery mentioned in synthetic progress note.,116
+B,116,122,31,Initial Assessment,2026-08-24 06:30:00,Synthetic initial evaluation.,117
+B,117,123,21,Discharge Summary,2026-09-14 04:00:00,Recovery documented in synthetic summary.,118
+B,118,125,46,Discharge Summary,2026-08-29 18:00:00,Follow-up documented in synthetic summary.,119
+B,119,126,51,Progress Note,2026-09-15 06:30:00,Recovery mentioned in synthetic progress note.,120
+B,120,127,21,Initial Assessment,2026-08-27 06:30:00,Synthetic initial evaluation.,121
+B,121,128,21,Discharge Summary,2026-09-17 20:00:00,Recovery documented in synthetic summary.,122
+B,122,129,46,Discharge Summary,2026-08-30 01:00:00,Follow-up documented in synthetic summary.,123
+B,123,130,6,Progress Note,2026-09-17 06:30:00,Recovery mentioned in synthetic progress note.,124
+B,124,131,6,Initial Assessment,2026-08-29 06:30:00,Synthetic initial evaluation.,125
+B,125,132,26,Discharge Summary,2026-09-04 05:00:00,Recovery documented in synthetic summary.,126
+B,126,133,51,Discharge Summary,2026-09-01 03:00:00,Follow-up documented in synthetic summary.,127
+B,127,134,41,Progress Note,2026-09-01 06:30:00,Recovery mentioned in synthetic progress note.,128
+B,128,135,1,Initial Assessment,2026-09-21 06:30:00,Synthetic initial evaluation.,129
+B,129,136,41,Discharge Summary,2026-09-04 23:00:00,Recovery documented in synthetic summary.,130
+B,130,137,31,Discharge Summary,2026-09-24 08:00:00,Follow-up documented in synthetic summary.,131
+B,131,138,31,Progress Note,2026-09-03 06:30:00,Recovery mentioned in synthetic progress note.,132
+B,132,139,6,Initial Assessment,2026-09-23 06:30:00,Synthetic initial evaluation.,133
+B,133,140,21,Discharge Summary,2026-09-06 08:00:00,Recovery documented in synthetic summary.,134
+B,134,141,21,Discharge Summary,2026-09-25 11:00:00,Follow-up documented in synthetic summary.,135
+B,135,142,6,Progress Note,2026-09-05 06:30:00,Recovery mentioned in synthetic progress note.,136
+B,136,143,46,Initial Assessment,2026-09-25 06:30:00,Synthetic initial evaluation.,137
+B,137,144,1,Discharge Summary,2026-09-06 18:00:00,Recovery documented in synthetic summary.,138
+B,138,145,41,Discharge Summary,2026-09-07 17:00:00,Follow-up documented in synthetic summary.,139
+B,139,146,41,Progress Note,2026-09-27 06:30:00,Recovery mentioned in synthetic progress note.,140
+B,140,147,11,Initial Assessment,2026-09-08 06:30:00,Synthetic initial evaluation.,141
+B,141,148,11,Discharge Summary,2026-10-02 13:00:00,Recovery documented in synthetic summary.,142
+B,142,149,26,Discharge Summary,2026-09-11 05:00:00,Follow-up documented in synthetic summary.,143
+B,143,151,26,Progress Note,2026-09-11 06:30:00,Recovery mentioned in synthetic progress note.,144
+B,144,152,1,Initial Assessment,2026-09-12 06:30:00,Synthetic initial evaluation.,145
+B,146,154,6,Discharge Summary,2026-09-17 21:00:00,Follow-up documented in synthetic summary.,147
+B,147,155,41,Progress Note,2026-10-03 06:30:00,Recovery mentioned in synthetic progress note.,148
+B,148,156,46,Initial Assessment,2026-09-14 06:30:00,Synthetic initial evaluation.,149
+B,149,157,11,Discharge Summary,2026-10-07 05:00:00,Recovery documented in synthetic summary.,150
+B,150,158,21,Discharge Summary,2026-09-16 05:00:00,Follow-up documented in synthetic summary.,151
+B,151,159,6,Progress Note,2026-10-05 06:30:00,Recovery mentioned in synthetic progress note.,152
+B,152,160,41,Initial Assessment,2026-09-16 06:30:00,Synthetic initial evaluation.,153
+B,153,162,41,Discharge Summary,2026-09-17 14:00:00,Recovery documented in synthetic summary.,154
+B,154,163,16,Discharge Summary,2026-10-09 16:00:00,Follow-up documented in synthetic summary.,155
+B,155,164,51,Progress Note,2026-09-18 06:30:00,Recovery mentioned in synthetic progress note.,156
+B,156,165,41,Initial Assessment,2026-10-08 06:30:00,Synthetic initial evaluation.,157
+B,157,166,31,Discharge Summary,2026-09-22 16:00:00,Recovery documented in synthetic summary.,158
+B,158,167,16,Discharge Summary,2026-10-09 14:00:00,Follow-up documented in synthetic summary.,159
+B,159,168,1,Progress Note,2026-09-20 06:30:00,Recovery mentioned in synthetic progress note.,160
+B,160,169,41,Initial Assessment,2026-10-10 06:30:00,Synthetic initial evaluation.,161
+B,161,170,6,Discharge Summary,2026-09-25 20:00:00,Recovery documented in synthetic summary.,162
+B,162,171,1,Discharge Summary,2026-06-15 22:00:00,Follow-up documented in synthetic summary.,163
+B,163,172,16,Progress Note,2026-07-04 06:30:00,Recovery mentioned in synthetic progress note.,164
+B,164,173,46,Initial Assessment,2026-06-15 06:30:00,Synthetic initial evaluation.,165
+B,165,174,51,Discharge Summary,2026-07-05 23:00:00,Recovery documented in synthetic summary.,166
+B,166,175,21,Discharge Summary,2026-06-19 00:00:00,Follow-up documented in synthetic summary.,167
+B,167,176,16,Progress Note,2026-07-06 06:30:00,Recovery mentioned in synthetic progress note.,168
+B,168,177,36,Initial Assessment,2026-06-17 06:30:00,Synthetic initial evaluation.,169
+B,169,178,36,Discharge Summary,2026-06-18 20:00:00,Recovery documented in synthetic summary.,170
+B,170,179,11,Discharge Summary,2026-07-13 01:00:00,Follow-up documented in synthetic summary.,171
+B,171,180,41,Progress Note,2026-06-19 06:30:00,Recovery mentioned in synthetic progress note.,172
+B,172,181,51,Initial Assessment,2026-06-20 06:30:00,Synthetic initial evaluation.,173
+B,173,182,51,Discharge Summary,2026-07-13 06:00:00,Recovery documented in synthetic summary.,174
+B,174,183,16,Discharge Summary,2026-06-25 09:00:00,Follow-up documented in synthetic summary.,175
+B,175,184,26,Progress Note,2026-07-11 06:30:00,Recovery mentioned in synthetic progress note.,176
+B,177,186,31,Discharge Summary,2026-07-14 21:00:00,Recovery documented in synthetic summary.,178
+B,178,187,26,Discharge Summary,2026-06-23 19:00:00,Follow-up documented in synthetic summary.,179
+B,179,188,11,Progress Note,2026-07-13 06:30:00,Recovery mentioned in synthetic progress note.,180
+B,180,189,46,Initial Assessment,2026-06-24 06:30:00,Synthetic initial evaluation.,181
+B,181,190,21,Discharge Summary,2026-07-15 23:00:00,Recovery documented in synthetic summary.,182
+B,182,191,36,Discharge Summary,2026-06-27 02:00:00,Follow-up documented in synthetic summary.,183
+B,183,192,6,Progress Note,2026-06-26 06:30:00,Recovery mentioned in synthetic progress note.,184
+B,184,193,26,Initial Assessment,2026-07-16 06:30:00,Synthetic initial evaluation.,185
+B,185,194,46,Discharge Summary,2026-06-29 05:00:00,Recovery documented in synthetic summary.,186
+B,186,195,11,Discharge Summary,2026-07-20 00:00:00,Follow-up documented in synthetic summary.,187
+B,187,196,6,Progress Note,2026-06-28 06:30:00,Recovery mentioned in synthetic progress note.,188
+B,188,197,16,Initial Assessment,2026-06-29 06:30:00,Synthetic initial evaluation.,189
+B,189,198,1,Discharge Summary,2026-07-05 01:00:00,Recovery documented in synthetic summary.,190
+B,190,199,41,Discharge Summary,2026-07-03 03:00:00,Follow-up documented in synthetic summary.,191
+B,191,200,31,Progress Note,2026-07-21 06:30:00,Recovery mentioned in synthetic progress note.,192
+B,192,201,51,Initial Assessment,2026-07-02 06:30:00,Synthetic initial evaluation.,193
+B,193,202,16,Discharge Summary,2026-07-06 08:00:00,Recovery documented in synthetic summary.,194
+B,194,203,6,Discharge Summary,2026-07-28 06:00:00,Follow-up documented in synthetic summary.,195
+B,195,204,21,Progress Note,2026-07-04 06:30:00,Recovery mentioned in synthetic progress note.,196
+B,196,205,6,Initial Assessment,2026-07-24 06:30:00,Synthetic initial evaluation.,197
+B,197,206,11,Discharge Summary,2026-07-09 12:00:00,Recovery documented in synthetic summary.,198
+B,198,207,36,Discharge Summary,2026-07-29 18:00:00,Follow-up documented in synthetic summary.,199
+B,199,208,46,Progress Note,2026-07-06 06:30:00,Recovery mentioned in synthetic progress note.,200
+B,200,209,1,Initial Assessment,2026-07-26 06:30:00,Synthetic initial evaluation.,201
+B,201,210,26,Discharge Summary,2026-07-12 06:00:00,Recovery documented in synthetic summary.,202
+B,202,211,51,Discharge Summary,2026-07-28 18:00:00,Follow-up documented in synthetic summary.,203
+B,203,212,51,Progress Note,2026-07-08 06:30:00,Recovery mentioned in synthetic progress note.,204
+B,204,213,26,Initial Assessment,2026-07-09 06:30:00,Synthetic initial evaluation.,205
+B,205,215,16,Discharge Summary,2026-07-13 02:00:00,Recovery documented in synthetic summary.,206
+B,206,216,21,Discharge Summary,2026-08-01 14:00:00,Follow-up documented in synthetic summary.,207
+B,207,217,46,Progress Note,2026-07-11 06:30:00,Recovery mentioned in synthetic progress note.,208
+B,208,218,46,Initial Assessment,2026-07-31 06:30:00,Synthetic initial evaluation.,209
+B,210,220,11,Discharge Summary,2026-08-04 06:00:00,Follow-up documented in synthetic summary.,211
+B,211,221,21,Progress Note,2026-07-13 06:30:00,Recovery mentioned in synthetic progress note.,212
+B,212,222,31,Initial Assessment,2026-08-02 06:30:00,Synthetic initial evaluation.,213
+B,213,223,1,Discharge Summary,2026-07-18 06:00:00,Recovery documented in synthetic summary.,214
+B,214,224,11,Discharge Summary,2026-08-05 08:00:00,Follow-up documented in synthetic summary.,215
+B,215,225,31,Progress Note,2026-07-15 06:30:00,Recovery mentioned in synthetic progress note.,216
+B,216,226,51,Initial Assessment,2026-08-04 06:30:00,Synthetic initial evaluation.,217
+B,217,227,21,Discharge Summary,2026-07-19 04:00:00,Recovery documented in synthetic summary.,218
+B,218,228,46,Discharge Summary,2026-08-09 00:00:00,Follow-up documented in synthetic summary.,219
+B,219,229,6,Progress Note,2026-07-17 06:30:00,Recovery mentioned in synthetic progress note.,220
+B,220,230,46,Initial Assessment,2026-08-06 06:30:00,Synthetic initial evaluation.,221
+B,221,232,11,Discharge Summary,2026-07-20 11:00:00,Recovery documented in synthetic summary.,222
+B,222,234,16,Discharge Summary,2026-07-21 16:00:00,Follow-up documented in synthetic summary.,223
+B,223,235,11,Progress Note,2026-07-21 06:30:00,Recovery mentioned in synthetic progress note.,224
+B,224,236,11,Initial Assessment,2026-08-10 06:30:00,Synthetic initial evaluation.,225
+B,225,237,26,Discharge Summary,2026-07-26 21:00:00,Recovery documented in synthetic summary.,226
+B,226,238,51,Discharge Summary,2026-08-16 05:00:00,Follow-up documented in synthetic summary.,227
+B,227,239,26,Progress Note,2026-07-23 06:30:00,Recovery mentioned in synthetic progress note.,228
+B,228,240,31,Initial Assessment,2026-08-12 06:30:00,Synthetic initial evaluation.,229
+B,229,242,41,Discharge Summary,2026-07-29 21:00:00,Recovery documented in synthetic summary.,230
+B,230,243,46,Discharge Summary,2026-07-27 02:00:00,Follow-up documented in synthetic summary.,231
+B,231,244,21,Progress Note,2026-08-15 06:30:00,Recovery mentioned in synthetic progress note.,232
+B,232,245,11,Initial Assessment,2026-07-27 06:30:00,Synthetic initial evaluation.,233
+B,233,246,16,Discharge Summary,2026-07-29 09:00:00,Recovery documented in synthetic summary.,234
+B,234,248,21,Discharge Summary,2026-08-03 19:00:00,Follow-up documented in synthetic summary.,235
+B,235,249,6,Progress Note,2026-07-31 06:30:00,Recovery mentioned in synthetic progress note.,236
+B,236,250,41,Initial Assessment,2026-08-01 06:30:00,Synthetic initial evaluation.,237
+B,237,251,46,Discharge Summary,2026-08-05 08:00:00,Recovery documented in synthetic summary.,238
+B,238,252,21,Discharge Summary,2026-08-23 03:00:00,Follow-up documented in synthetic summary.,239
+B,239,253,26,Progress Note,2026-08-03 06:30:00,Recovery mentioned in synthetic progress note.,240
+B,240,254,36,Initial Assessment,2026-08-23 06:30:00,Synthetic initial evaluation.,241
+B,241,255,1,Discharge Summary,2026-08-06 14:00:00,Recovery documented in synthetic summary.,242
+B,242,256,36,Discharge Summary,2026-08-27 06:00:00,Follow-up documented in synthetic summary.,243
+B,243,257,11,Progress Note,2026-08-05 06:30:00,Recovery mentioned in synthetic progress note.,244
+B,244,258,36,Initial Assessment,2026-08-25 06:30:00,Synthetic initial evaluation.,245
+B,245,259,31,Discharge Summary,2026-08-10 08:00:00,Recovery documented in synthetic summary.,246
+B,246,261,11,Discharge Summary,2026-08-08 21:00:00,Follow-up documented in synthetic summary.,247
+B,247,262,26,Progress Note,2026-08-27 06:30:00,Recovery mentioned in synthetic progress note.,248
+B,248,263,41,Initial Assessment,2026-08-08 06:30:00,Synthetic initial evaluation.,249
+B,249,264,16,Discharge Summary,2026-08-29 22:00:00,Recovery documented in synthetic summary.,250
+B,250,265,46,Discharge Summary,2026-08-12 17:00:00,Follow-up documented in synthetic summary.,251
+B,251,266,16,Progress Note,2026-08-29 06:30:00,Recovery mentioned in synthetic progress note.,252
+B,252,267,51,Initial Assessment,2026-08-10 06:30:00,Synthetic initial evaluation.,253
+B,253,270,6,Discharge Summary,2026-08-16 21:00:00,Recovery documented in synthetic summary.,254
+B,254,271,41,Discharge Summary,2026-09-02 11:00:00,Follow-up documented in synthetic summary.,255
+B,255,272,36,Progress Note,2026-08-13 06:30:00,Recovery mentioned in synthetic progress note.,256
+B,256,273,51,Initial Assessment,2026-09-02 06:30:00,Synthetic initial evaluation.,257
+B,257,274,16,Discharge Summary,2026-08-18 15:00:00,Recovery documented in synthetic summary.,258
+B,258,275,26,Discharge Summary,2026-09-05 06:00:00,Follow-up documented in synthetic summary.,259
+B,259,276,26,Progress Note,2026-08-15 06:30:00,Recovery mentioned in synthetic progress note.,260
+B,260,277,51,Initial Assessment,2026-08-16 06:30:00,Synthetic initial evaluation.,261
+B,261,278,26,Discharge Summary,2026-09-08 00:00:00,Recovery documented in synthetic summary.,262
+B,262,279,31,Discharge Summary,2026-08-20 02:00:00,Follow-up documented in synthetic summary.,263
+B,263,280,41,Progress Note,2026-09-06 06:30:00,Recovery mentioned in synthetic progress note.,264
+B,264,281,31,Initial Assessment,2026-08-18 06:30:00,Synthetic initial evaluation.,265
+B,265,282,36,Discharge Summary,2026-09-11 00:00:00,Recovery documented in synthetic summary.,266
+B,266,283,51,Discharge Summary,2026-08-22 04:00:00,Follow-up documented in synthetic summary.,267
+B,267,284,16,Progress Note,2026-09-08 06:30:00,Recovery mentioned in synthetic progress note.,268
+B,268,285,51,Initial Assessment,2026-08-20 06:30:00,Synthetic initial evaluation.,269
+B,269,286,11,Discharge Summary,2026-08-24 14:00:00,Recovery documented in synthetic summary.,270
+B,270,287,41,Discharge Summary,2026-09-10 13:00:00,Follow-up documented in synthetic summary.,271
+B,271,288,6,Progress Note,2026-08-22 06:30:00,Recovery mentioned in synthetic progress note.,272
+B,272,289,21,Initial Assessment,2026-09-11 06:30:00,Synthetic initial evaluation.,273
+B,273,290,46,Discharge Summary,2026-08-28 02:00:00,Recovery documented in synthetic summary.,274
+B,274,291,46,Discharge Summary,2026-08-27 10:00:00,Follow-up documented in synthetic summary.,275
+B,275,292,36,Progress Note,2026-09-13 06:30:00,Recovery mentioned in synthetic progress note.,276
+B,276,293,21,Initial Assessment,2026-08-25 06:30:00,Synthetic initial evaluation.,277
+B,277,294,41,Discharge Summary,2026-09-15 21:00:00,Recovery documented in synthetic summary.,278
+B,278,295,11,Discharge Summary,2026-08-26 12:00:00,Follow-up documented in synthetic summary.,279
+B,279,296,36,Progress Note,2026-09-15 06:30:00,Recovery mentioned in synthetic progress note.,280
+B,280,297,36,Initial Assessment,2026-08-27 06:30:00,Synthetic initial evaluation.,281
+B,281,299,1,Discharge Summary,2026-09-01 00:00:00,Recovery documented in synthetic summary.,282
+B,282,300,16,Discharge Summary,2026-08-30 16:00:00,Follow-up documented in synthetic summary.,283
+B,283,301,6,Progress Note,2026-09-19 06:30:00,Recovery mentioned in synthetic progress note.,284
+B,284,302,11,Initial Assessment,2026-08-31 06:30:00,Synthetic initial evaluation.,285
+B,285,303,46,Discharge Summary,2026-09-21 16:00:00,Recovery documented in synthetic summary.,286
+B,286,304,46,Discharge Summary,2026-09-03 21:00:00,Follow-up documented in synthetic summary.,287
+B,287,305,21,Progress Note,2026-09-21 06:30:00,Recovery mentioned in synthetic progress note.,288
+B,288,306,31,Initial Assessment,2026-09-02 06:30:00,Synthetic initial evaluation.,289
+B,289,307,26,Discharge Summary,2026-09-23 01:00:00,Recovery documented in synthetic summary.,290
+B,290,308,6,Discharge Summary,2026-09-07 04:00:00,Follow-up documented in synthetic summary.,291
+B,291,309,51,Progress Note,2026-09-23 06:30:00,Recovery mentioned in synthetic progress note.,292
+B,292,310,36,Initial Assessment,2026-09-04 06:30:00,Synthetic initial evaluation.,293
+B,293,311,21,Discharge Summary,2026-09-09 12:00:00,Recovery documented in synthetic summary.,294
+B,294,313,26,Discharge Summary,2026-09-07 00:00:00,Follow-up documented in synthetic summary.,295
+B,295,314,36,Progress Note,2026-09-26 06:30:00,Recovery mentioned in synthetic progress note.,296
+B,296,315,26,Initial Assessment,2026-09-07 06:30:00,Synthetic initial evaluation.,297
+B,298,317,41,Discharge Summary,2026-09-10 08:00:00,Follow-up documented in synthetic summary.,299
+B,299,318,51,Progress Note,2026-09-10 06:30:00,Recovery mentioned in synthetic progress note.,300
+B,300,319,11,Initial Assessment,2026-09-30 06:30:00,Synthetic initial evaluation.,301
+B,301,320,1,Discharge Summary,2026-09-11 23:00:00,Recovery documented in synthetic summary.,302
+B,302,321,16,Discharge Summary,2026-10-05 10:00:00,Follow-up documented in synthetic summary.,303
+B,303,322,51,Progress Note,2026-09-12 06:30:00,Recovery mentioned in synthetic progress note.,304
+B,304,323,31,Initial Assessment,2026-09-13 06:30:00,Synthetic initial evaluation.,305
+B,305,324,21,Discharge Summary,2026-10-06 22:00:00,Recovery documented in synthetic summary.,306
+B,306,325,31,Discharge Summary,2026-09-15 20:00:00,Follow-up documented in synthetic summary.,307
+B,307,326,1,Progress Note,2026-09-15 06:30:00,Recovery mentioned in synthetic progress note.,308
+B,308,328,26,Initial Assessment,2026-09-16 06:30:00,Synthetic initial evaluation.,309
+B,309,329,41,Discharge Summary,2026-10-06 13:00:00,Recovery documented in synthetic summary.,310
+B,310,330,16,Discharge Summary,2026-09-19 23:00:00,Follow-up documented in synthetic summary.,311
+B,311,331,11,Progress Note,2026-10-07 06:30:00,Recovery mentioned in synthetic progress note.,312
+B,312,332,51,Initial Assessment,2026-09-18 06:30:00,Synthetic initial evaluation.,313
+B,313,333,46,Discharge Summary,2026-09-22 18:00:00,Recovery documented in synthetic summary.,314
+B,314,334,26,Discharge Summary,2026-10-10 05:00:00,Follow-up documented in synthetic summary.,315
+B,315,335,6,Progress Note,2026-09-20 06:30:00,Recovery mentioned in synthetic progress note.,316
+B,316,336,6,Initial Assessment,2026-09-21 06:30:00,Synthetic initial evaluation.,317
+B,317,337,16,Discharge Summary,2026-10-13 03:00:00,Recovery documented in synthetic summary.,318
+B,318,338,11,Discharge Summary,2026-06-19 06:00:00,Follow-up documented in synthetic summary.,319
+B,319,339,21,Progress Note,2026-07-04 06:30:00,Recovery mentioned in synthetic progress note.,320
+B,320,340,6,Initial Assessment,2026-06-15 06:30:00,Synthetic initial evaluation.,321
+B,321,341,31,Discharge Summary,2026-06-20 03:00:00,Recovery documented in synthetic summary.,322
+B,323,343,46,Progress Note,2026-06-17 06:30:00,Recovery mentioned in synthetic progress note.,324
+B,324,344,36,Initial Assessment,2026-07-07 06:30:00,Synthetic initial evaluation.,325
+B,325,345,21,Discharge Summary,2026-06-18 15:00:00,Recovery documented in synthetic summary.,326
+B,326,346,21,Discharge Summary,2026-06-20 14:00:00,Follow-up documented in synthetic summary.,327
+B,327,347,41,Progress Note,2026-07-09 06:30:00,Recovery mentioned in synthetic progress note.,328
+B,328,348,51,Initial Assessment,2026-06-20 06:30:00,Synthetic initial evaluation.,329
+B,329,349,51,Discharge Summary,2026-06-25 12:00:00,Recovery documented in synthetic summary.,330
+B,330,350,26,Discharge Summary,2026-06-25 04:00:00,Follow-up documented in synthetic summary.,331
+B,331,351,36,Progress Note,2026-06-23 06:30:00,Recovery mentioned in synthetic progress note.,332
+B,332,352,31,Initial Assessment,2026-07-13 06:30:00,Synthetic initial evaluation.,333
+B,333,353,6,Discharge Summary,2026-06-25 06:00:00,Recovery documented in synthetic summary.,334
+B,334,354,6,Discharge Summary,2026-07-15 15:00:00,Follow-up documented in synthetic summary.,335
+B,335,355,1,Progress Note,2026-06-25 06:30:00,Recovery mentioned in synthetic progress note.,336
+B,336,356,31,Initial Assessment,2026-07-15 06:30:00,Synthetic initial evaluation.,337
+B,337,357,41,Discharge Summary,2026-06-26 16:00:00,Recovery documented in synthetic summary.,338
+B,338,358,1,Discharge Summary,2026-07-19 04:00:00,Follow-up documented in synthetic summary.,339
+B,339,359,11,Progress Note,2026-06-27 06:30:00,Recovery mentioned in synthetic progress note.,340
+B,340,360,31,Initial Assessment,2026-07-17 06:30:00,Synthetic initial evaluation.,341
+B,341,361,26,Discharge Summary,2026-06-28 23:00:00,Recovery documented in synthetic summary.,342
+B,342,362,31,Discharge Summary,2026-07-22 13:00:00,Follow-up documented in synthetic summary.,343
+B,343,363,31,Progress Note,2026-06-29 06:30:00,Recovery mentioned in synthetic progress note.,344
+B,344,364,1,Initial Assessment,2026-06-30 06:30:00,Synthetic initial evaluation.,345
+B,345,365,26,Discharge Summary,2026-07-02 14:00:00,Recovery documented in synthetic summary.,346
+B,346,366,41,Discharge Summary,2026-07-23 00:00:00,Follow-up documented in synthetic summary.,347
+B,347,367,6,Progress Note,2026-07-02 06:30:00,Recovery mentioned in synthetic progress note.,348
+B,348,368,11,Initial Assessment,2026-07-03 06:30:00,Synthetic initial evaluation.,349
+B,349,369,46,Discharge Summary,2026-07-27 18:00:00,Recovery documented in synthetic summary.,350
+B,350,370,46,Discharge Summary,2026-07-07 11:00:00,Follow-up documented in synthetic summary.,351
+B,351,371,46,Progress Note,2026-07-24 06:30:00,Recovery mentioned in synthetic progress note.,352
+B,352,373,21,Initial Assessment,2026-07-06 06:30:00,Synthetic initial evaluation.,353
+B,353,374,6,Discharge Summary,2026-07-07 14:00:00,Recovery documented in synthetic summary.,354
+B,354,375,51,Discharge Summary,2026-07-09 18:00:00,Follow-up documented in synthetic summary.,355
+B,355,376,11,Progress Note,2026-07-09 06:30:00,Recovery mentioned in synthetic progress note.,356
+B,356,378,26,Initial Assessment,2026-07-10 06:30:00,Synthetic initial evaluation.,357
+B,357,379,36,Discharge Summary,2026-08-02 19:00:00,Recovery documented in synthetic summary.,358
+B,358,380,21,Discharge Summary,2026-07-15 01:00:00,Follow-up documented in synthetic summary.,359
+B,359,381,6,Progress Note,2026-07-31 06:30:00,Recovery mentioned in synthetic progress note.,360
+B,360,382,41,Initial Assessment,2026-07-12 06:30:00,Synthetic initial evaluation.,361
+B,361,383,1,Discharge Summary,2026-07-15 18:00:00,Recovery documented in synthetic summary.,362
+B,362,384,1,Discharge Summary,2026-08-03 23:00:00,Follow-up documented in synthetic summary.,363
+B,363,385,26,Progress Note,2026-07-14 06:30:00,Recovery mentioned in synthetic progress note.,364
+B,364,386,31,Initial Assessment,2026-08-03 06:30:00,Synthetic initial evaluation.,365
+B,365,389,31,Discharge Summary,2026-07-21 22:00:00,Recovery documented in synthetic summary.,366
+B,367,391,26,Progress Note,2026-07-18 06:30:00,Recovery mentioned in synthetic progress note.,368
+B,368,392,46,Initial Assessment,2026-07-19 06:30:00,Synthetic initial evaluation.,369
+B,369,393,36,Discharge Summary,2026-07-24 20:00:00,Recovery documented in synthetic summary.,370
+B,370,394,6,Discharge Summary,2026-08-10 15:00:00,Follow-up documented in synthetic summary.,371
+B,371,395,26,Progress Note,2026-07-21 06:30:00,Recovery mentioned in synthetic progress note.,372
+B,372,396,11,Initial Assessment,2026-08-10 06:30:00,Synthetic initial evaluation.,373
+B,373,397,36,Discharge Summary,2026-07-26 07:00:00,Recovery documented in synthetic summary.,374
+B,374,398,26,Discharge Summary,2026-07-27 12:00:00,Follow-up documented in synthetic summary.,375
+B,375,399,21,Progress Note,2026-08-12 06:30:00,Recovery mentioned in synthetic progress note.,376
+B,376,400,31,Initial Assessment,2026-07-24 06:30:00,Synthetic initial evaluation.,377
+B,377,401,16,Discharge Summary,2026-07-26 06:00:00,Recovery documented in synthetic summary.,378
+B,378,402,11,Discharge Summary,2026-08-18 21:00:00,Follow-up documented in synthetic summary.,379
+B,379,403,21,Progress Note,2026-07-26 06:30:00,Recovery mentioned in synthetic progress note.,380
+B,380,404,46,Initial Assessment,2026-07-27 06:30:00,Synthetic initial evaluation.,381
+B,381,405,1,Discharge Summary,2026-08-01 11:00:00,Recovery documented in synthetic summary.,382
+B,382,406,1,Discharge Summary,2026-07-30 10:00:00,Follow-up documented in synthetic summary.,383
+B,383,407,46,Progress Note,2026-08-18 06:30:00,Recovery mentioned in synthetic progress note.,384
+B,384,408,51,Initial Assessment,2026-07-30 06:30:00,Synthetic initial evaluation.,385
+B,385,409,11,Discharge Summary,2026-08-23 10:00:00,Recovery documented in synthetic summary.,386
+B,386,410,16,Discharge Summary,2026-08-04 04:00:00,Follow-up documented in synthetic summary.,387
+B,387,412,31,Progress Note,2026-08-02 06:30:00,Recovery mentioned in synthetic progress note.,388
+B,388,413,1,Initial Assessment,2026-08-03 06:30:00,Synthetic initial evaluation.,389
+B,389,414,46,Discharge Summary,2026-08-04 14:00:00,Recovery documented in synthetic summary.,390
+B,390,416,31,Discharge Summary,2026-08-06 18:00:00,Follow-up documented in synthetic summary.,391
+B,391,417,16,Progress Note,2026-08-25 06:30:00,Recovery mentioned in synthetic progress note.,392
+B,392,418,6,Initial Assessment,2026-08-06 06:30:00,Synthetic initial evaluation.,393
+B,393,419,26,Discharge Summary,2026-08-09 08:00:00,Recovery documented in synthetic summary.,394
+B,394,420,31,Discharge Summary,2026-08-31 20:00:00,Follow-up documented in synthetic summary.,395
+B,395,421,46,Progress Note,2026-08-08 06:30:00,Recovery mentioned in synthetic progress note.,396
+B,396,422,21,Initial Assessment,2026-08-28 06:30:00,Synthetic initial evaluation.,397
+B,397,423,1,Discharge Summary,2026-08-13 17:00:00,Recovery documented in synthetic summary.,398
+B,398,424,6,Discharge Summary,2026-08-31 14:00:00,Follow-up documented in synthetic summary.,399
+B,399,425,41,Progress Note,2026-08-10 06:30:00,Recovery mentioned in synthetic progress note.,400
+B,400,426,31,Initial Assessment,2026-08-30 06:30:00,Synthetic initial evaluation.,401
+B,401,427,51,Discharge Summary,2026-08-15 12:00:00,Recovery documented in synthetic summary.,402
+B,402,428,36,Discharge Summary,2026-09-05 02:00:00,Follow-up documented in synthetic summary.,403
+B,403,429,6,Progress Note,2026-08-12 06:30:00,Recovery mentioned in synthetic progress note.,404
+B,404,430,1,Initial Assessment,2026-09-01 06:30:00,Synthetic initial evaluation.,405
+B,405,431,6,Discharge Summary,2026-08-16 18:00:00,Recovery documented in synthetic summary.,406
+B,406,432,16,Discharge Summary,2026-09-04 07:00:00,Follow-up documented in synthetic summary.,407
+B,407,433,41,Progress Note,2026-08-14 06:30:00,Recovery mentioned in synthetic progress note.,408
+B,408,434,51,Initial Assessment,2026-08-15 06:30:00,Synthetic initial evaluation.,409
+B,409,435,51,Discharge Summary,2026-09-08 07:00:00,Recovery documented in synthetic summary.,410
+B,410,436,11,Discharge Summary,2026-08-17 11:00:00,Follow-up documented in synthetic summary.,411
+B,411,437,26,Progress Note,2026-08-17 06:30:00,Recovery mentioned in synthetic progress note.,412
+B,412,438,26,Initial Assessment,2026-08-18 06:30:00,Synthetic initial evaluation.,413
+B,413,439,16,Discharge Summary,2026-09-07 16:00:00,Recovery documented in synthetic summary.,414
+B,414,440,6,Discharge Summary,2026-08-22 14:00:00,Follow-up documented in synthetic summary.,415
+B,415,441,36,Progress Note,2026-09-08 06:30:00,Recovery mentioned in synthetic progress note.,416
+B,416,1,21,Discharge Summary,2026-06-23 06:00:00,Synthetic discharge addendum with revised follow-up.,417
+C,1,1,26,Discharge Summary,2026-01-13 23:00:00,Recovery documented in synthetic summary.,70
+C,392,1,36,Discharge Summary,2026-01-13 23:00:00,Synthetic discharge addendum with revised follow-up.,76
+C,2,2,31,Discharge Summary,2026-02-01 23:00:00,Follow-up documented in synthetic summary.,180
+C,3,3,46,Progress Note,2026-02-14 23:30:00,Recovery mentioned in synthetic progress note.,285
+C,4,4,26,Initial Assessment,2026-03-06 23:30:00,Synthetic initial evaluation.,401
+C,5,5,6,Discharge Summary,2026-01-10 05:00:00,Recovery documented in synthetic summary.,531
+C,6,6,46,Discharge Summary,2026-01-31 14:00:00,Follow-up documented in synthetic summary.,651
+C,7,7,21,Progress Note,2026-01-07 23:30:00,Recovery mentioned in synthetic progress note.,787
+C,8,8,31,Initial Assessment,2026-01-08 23:30:00,Synthetic initial evaluation.,918
+C,9,9,16,Discharge Summary,2026-01-13 21:00:00,Recovery documented in synthetic summary.,1044
+C,10,10,1,Discharge Summary,2026-01-12 21:00:00,Follow-up documented in synthetic summary.,1180
+C,11,11,31,Progress Note,2026-01-30 23:30:00,Recovery mentioned in synthetic progress note.,1292
+C,12,12,41,Initial Assessment,2026-01-11 23:30:00,Synthetic initial evaluation.,1425
+C,13,13,31,Discharge Summary,2026-02-02 00:00:00,Recovery documented in synthetic summary.,1542
+C,14,14,31,Discharge Summary,2026-01-15 02:00:00,Follow-up documented in synthetic summary.,1672
+C,15,15,26,Progress Note,2026-02-01 23:30:00,Recovery mentioned in synthetic progress note.,1792
+C,16,16,26,Initial Assessment,2026-01-13 23:30:00,Synthetic initial evaluation.,1928
+C,17,17,36,Discharge Summary,2026-02-03 18:00:00,Recovery documented in synthetic summary.,2040
+C,18,18,16,Discharge Summary,2026-01-17 08:00:00,Follow-up documented in synthetic summary.,2173
+C,19,19,36,Progress Note,2026-01-15 23:30:00,Recovery mentioned in synthetic progress note.,2308
+C,20,20,26,Initial Assessment,2026-02-04 23:30:00,Synthetic initial evaluation.,2420
+C,21,21,46,Discharge Summary,2026-01-19 12:00:00,Recovery documented in synthetic summary.,2547
+C,22,22,16,Discharge Summary,2026-02-06 18:00:00,Follow-up documented in synthetic summary.,2664
+C,23,23,6,Progress Note,2026-01-17 23:30:00,Recovery mentioned in synthetic progress note.,2795
+C,24,24,11,Initial Assessment,2026-02-06 23:30:00,Synthetic initial evaluation.,2909
+C,25,25,46,Discharge Summary,2026-01-19 16:00:00,Recovery documented in synthetic summary.,3038
+C,26,26,1,Discharge Summary,2026-02-12 02:00:00,Follow-up documented in synthetic summary.,3150
+C,27,27,6,Progress Note,2026-01-19 23:30:00,Recovery mentioned in synthetic progress note.,3283
+C,28,28,31,Initial Assessment,2026-02-08 23:30:00,Synthetic initial evaluation.,3400
+C,29,29,26,Discharge Summary,2026-01-25 20:00:00,Recovery documented in synthetic summary.,3525
+C,30,30,11,Discharge Summary,2026-01-23 06:00:00,Follow-up documented in synthetic summary.,3657
+C,31,31,16,Progress Note,2026-01-22 23:30:00,Recovery mentioned in synthetic progress note.,3787
+C,32,33,21,Initial Assessment,2026-01-23 23:30:00,Synthetic initial evaluation.,3962
+C,33,34,16,Discharge Summary,2026-02-15 04:00:00,Recovery documented in synthetic summary.,4077
+C,34,35,21,Discharge Summary,2026-01-27 00:00:00,Follow-up documented in synthetic summary.,4203
+C,35,36,46,Progress Note,2026-01-25 23:30:00,Recovery mentioned in synthetic progress note.,4330
+C,36,37,11,Initial Assessment,2026-02-14 23:30:00,Synthetic initial evaluation.,4445
+C,37,38,41,Discharge Summary,2026-01-28 13:00:00,Recovery documented in synthetic summary.,4572
+C,38,39,21,Discharge Summary,2026-02-17 23:00:00,Follow-up documented in synthetic summary.,4686
+C,39,40,11,Progress Note,2026-01-27 23:30:00,Recovery mentioned in synthetic progress note.,4819
+C,40,41,41,Initial Assessment,2026-02-16 23:30:00,Synthetic initial evaluation.,4945
+C,41,42,6,Discharge Summary,2026-02-01 23:00:00,Recovery documented in synthetic summary.,5072
+C,42,43,1,Discharge Summary,2026-02-21 10:00:00,Follow-up documented in synthetic summary.,5193
+C,43,44,31,Progress Note,2026-01-29 23:30:00,Recovery mentioned in synthetic progress note.,5326
+C,44,45,21,Initial Assessment,2026-02-18 23:30:00,Synthetic initial evaluation.,5446
+C,45,46,46,Discharge Summary,2026-02-04 15:00:00,Recovery documented in synthetic summary.,5573
+C,46,47,26,Discharge Summary,2026-02-24 22:00:00,Follow-up documented in synthetic summary.,5687
+C,47,48,26,Progress Note,2026-01-31 23:30:00,Recovery mentioned in synthetic progress note.,5820
+C,48,49,11,Initial Assessment,2026-02-20 23:30:00,Synthetic initial evaluation.,5935
+C,49,50,41,Discharge Summary,2026-02-06 22:00:00,Recovery documented in synthetic summary.,6062
+C,50,51,11,Discharge Summary,2026-02-26 16:00:00,Follow-up documented in synthetic summary.,6176
+C,51,52,46,Progress Note,2026-02-02 23:30:00,Recovery mentioned in synthetic progress note.,6309
+C,52,53,11,Initial Assessment,2026-02-03 23:30:00,Synthetic initial evaluation.,6436
+C,53,54,11,Discharge Summary,2026-02-25 10:00:00,Recovery documented in synthetic summary.,6550
+C,55,56,46,Progress Note,2026-02-24 23:30:00,Recovery mentioned in synthetic progress note.,6797
+C,56,57,6,Initial Assessment,2026-02-05 23:30:00,Synthetic initial evaluation.,6923
+C,57,58,46,Discharge Summary,2026-03-01 02:00:00,Recovery documented in synthetic summary.,7044
+C,58,59,36,Discharge Summary,2026-02-10 06:00:00,Follow-up documented in synthetic summary.,7171
+C,59,60,36,Progress Note,2026-02-26 23:30:00,Recovery mentioned in synthetic progress note.,7285
+C,60,61,41,Initial Assessment,2026-02-07 23:30:00,Synthetic initial evaluation.,7413
+C,61,62,11,Discharge Summary,2026-03-03 10:00:00,Recovery documented in synthetic summary.,7527
+C,62,63,26,Discharge Summary,2026-02-12 22:00:00,Follow-up documented in synthetic summary.,7659
+C,63,64,1,Progress Note,2026-02-28 23:30:00,Recovery mentioned in synthetic progress note.,7780
+C,64,65,36,Initial Assessment,2026-02-09 23:30:00,Synthetic initial evaluation.,7913
+C,65,66,1,Discharge Summary,2026-03-02 07:00:00,Recovery documented in synthetic summary.,8033
+C,66,67,36,Discharge Summary,2026-02-14 04:00:00,Follow-up documented in synthetic summary.,8167
+C,67,68,31,Progress Note,2026-03-02 23:30:00,Recovery mentioned in synthetic progress note.,8281
+C,68,70,46,Initial Assessment,2026-02-12 23:30:00,Synthetic initial evaluation.,8467
+C,69,71,6,Discharge Summary,2026-03-05 21:00:00,Recovery documented in synthetic summary.,8585
+C,70,72,41,Discharge Summary,2026-02-16 20:00:00,Follow-up documented in synthetic summary.,8714
+C,71,73,46,Progress Note,2026-03-05 23:30:00,Recovery mentioned in synthetic progress note.,8835
+C,72,74,36,Initial Assessment,2026-02-14 23:30:00,Synthetic initial evaluation.,8965
+C,73,75,36,Discharge Summary,2026-03-09 18:00:00,Recovery documented in synthetic summary.,9087
+C,74,76,31,Discharge Summary,2026-02-20 12:00:00,Follow-up documented in synthetic summary.,9221
+C,75,77,11,Progress Note,2026-02-16 23:30:00,Recovery mentioned in synthetic progress note.,9352
+C,77,80,21,Discharge Summary,2026-02-22 11:00:00,Recovery documented in synthetic summary.,9645
+C,78,82,46,Discharge Summary,2026-02-24 20:00:00,Follow-up documented in synthetic summary.,9813
+C,79,83,46,Progress Note,2026-02-20 23:30:00,Recovery mentioned in synthetic progress note.,9945
+C,80,84,6,Initial Assessment,2026-02-21 23:30:00,Synthetic initial evaluation.,10078
+C,81,85,16,Discharge Summary,2026-03-15 00:00:00,Recovery documented in synthetic summary.,10193
+C,82,86,41,Discharge Summary,2026-02-25 23:00:00,Follow-up documented in synthetic summary.,10326
+C,83,87,16,Progress Note,2026-03-14 23:30:00,Recovery mentioned in synthetic progress note.,10446
+C,84,88,41,Initial Assessment,2026-02-23 23:30:00,Synthetic initial evaluation.,10565
+C,85,89,11,Discharge Summary,2026-03-16 14:00:00,Recovery documented in synthetic summary.,10677
+C,86,90,11,Discharge Summary,2026-02-27 08:00:00,Follow-up documented in synthetic summary.,10813
+C,87,91,46,Progress Note,2026-02-25 23:30:00,Recovery mentioned in synthetic progress note.,10939
+C,88,92,46,Initial Assessment,2026-02-26 23:30:00,Synthetic initial evaluation.,11057
+C,89,93,6,Discharge Summary,2026-03-21 02:00:00,Recovery documented in synthetic summary.,11155
+C,90,94,46,Discharge Summary,2026-03-03 03:00:00,Follow-up documented in synthetic summary.,11274
+C,91,95,36,Progress Note,2026-03-19 23:30:00,Recovery mentioned in synthetic progress note.,11372
+C,92,96,11,Initial Assessment,2026-02-28 23:30:00,Synthetic initial evaluation.,11483
+C,93,97,11,Discharge Summary,2026-03-06 07:00:00,Recovery documented in synthetic summary.,11601
+C,94,98,16,Discharge Summary,2026-03-24 08:00:00,Follow-up documented in synthetic summary.,11705
+C,95,99,16,Progress Note,2026-03-02 23:30:00,Recovery mentioned in synthetic progress note.,11822
+C,96,100,11,Initial Assessment,2026-03-22 23:30:00,Synthetic initial evaluation.,11922
+C,97,101,21,Discharge Summary,2026-03-07 01:00:00,Recovery documented in synthetic summary.,12039
+C,98,102,31,Discharge Summary,2026-03-26 17:00:00,Follow-up documented in synthetic summary.,12143
+C,99,103,46,Progress Note,2026-03-04 23:30:00,Recovery mentioned in synthetic progress note.,12255
+C,100,104,31,Initial Assessment,2026-03-24 23:30:00,Synthetic initial evaluation.,12359
+C,101,105,26,Discharge Summary,2026-03-06 14:00:00,Recovery documented in synthetic summary.,12470
+C,102,106,21,Discharge Summary,2026-03-26 16:00:00,Follow-up documented in synthetic summary.,12570
+C,103,107,31,Progress Note,2026-03-06 23:30:00,Recovery mentioned in synthetic progress note.,12681
+C,104,108,41,Initial Assessment,2026-03-26 23:30:00,Synthetic initial evaluation.,12779
+C,105,109,46,Discharge Summary,2026-03-11 08:00:00,Recovery documented in synthetic summary.,12891
+C,106,110,6,Discharge Summary,2026-03-31 23:00:00,Follow-up documented in synthetic summary.,12995
+C,107,112,41,Progress Note,2026-03-09 23:30:00,Recovery mentioned in synthetic progress note.,13165
+C,108,113,6,Initial Assessment,2026-03-29 23:30:00,Synthetic initial evaluation.,13268
+C,110,115,41,Discharge Summary,2026-03-31 20:00:00,Follow-up documented in synthetic summary.,13484
+C,111,116,6,Progress Note,2026-03-11 23:30:00,Recovery mentioned in synthetic progress note.,13594
+C,112,117,26,Initial Assessment,2026-03-12 23:30:00,Synthetic initial evaluation.,13706
+C,113,118,1,Discharge Summary,2026-04-02 17:00:00,Recovery documented in synthetic summary.,13811
+C,114,119,1,Discharge Summary,2026-03-14 12:00:00,Follow-up documented in synthetic summary.,13926
+C,115,120,36,Progress Note,2026-04-02 23:30:00,Recovery mentioned in synthetic progress note.,14032
+C,116,121,36,Initial Assessment,2026-03-14 23:30:00,Synthetic initial evaluation.,14144
+C,117,122,6,Discharge Summary,2026-04-04 20:00:00,Recovery documented in synthetic summary.,14241
+C,118,123,1,Discharge Summary,2026-03-20 14:00:00,Follow-up documented in synthetic summary.,14360
+C,119,124,26,Progress Note,2026-04-04 23:30:00,Recovery mentioned in synthetic progress note.,14459
+C,120,125,31,Initial Assessment,2026-03-16 23:30:00,Synthetic initial evaluation.,14559
+C,121,126,31,Discharge Summary,2026-04-08 22:00:00,Recovery documented in synthetic summary.,14650
+C,122,127,16,Discharge Summary,2026-03-19 14:00:00,Follow-up documented in synthetic summary.,14770
+C,123,128,1,Progress Note,2026-04-06 23:30:00,Recovery mentioned in synthetic progress note.,14864
+C,124,129,36,Initial Assessment,2026-03-18 23:30:00,Synthetic initial evaluation.,14968
+C,125,130,41,Discharge Summary,2026-04-08 12:00:00,Recovery documented in synthetic summary.,15064
+C,126,131,11,Discharge Summary,2026-03-21 04:00:00,Follow-up documented in synthetic summary.,15170
+C,127,132,31,Progress Note,2026-04-08 23:30:00,Recovery mentioned in synthetic progress note.,15261
+C,128,133,11,Initial Assessment,2026-03-20 23:30:00,Synthetic initial evaluation.,15364
+C,129,134,21,Discharge Summary,2026-04-14 23:00:00,Recovery documented in synthetic summary.,15452
+C,130,135,41,Discharge Summary,2026-03-22 08:00:00,Follow-up documented in synthetic summary.,15556
+C,131,136,36,Progress Note,2026-04-10 23:30:00,Recovery mentioned in synthetic progress note.,15646
+C,132,137,41,Initial Assessment,2026-03-22 23:30:00,Synthetic initial evaluation.,15752
+C,133,140,11,Discharge Summary,2026-03-29 18:00:00,Recovery documented in synthetic summary.,15948
+C,134,141,21,Discharge Summary,2026-04-15 03:00:00,Follow-up documented in synthetic summary.,16043
+C,135,142,31,Progress Note,2026-03-25 23:30:00,Recovery mentioned in synthetic progress note.,16146
+C,136,143,11,Initial Assessment,2026-04-14 23:30:00,Synthetic initial evaluation.,16235
+C,137,144,26,Discharge Summary,2026-03-29 14:00:00,Recovery documented in synthetic summary.,16337
+C,138,145,11,Discharge Summary,2026-04-17 13:00:00,Follow-up documented in synthetic summary.,16434
+C,139,146,21,Progress Note,2026-03-27 23:30:00,Recovery mentioned in synthetic progress note.,16553
+C,140,147,21,Initial Assessment,2026-04-16 23:30:00,Synthetic initial evaluation.,16648
+C,141,148,26,Discharge Summary,2026-03-31 10:00:00,Recovery documented in synthetic summary.,16757
+C,142,149,41,Discharge Summary,2026-03-30 10:00:00,Follow-up documented in synthetic summary.,16865
+C,143,150,26,Progress Note,2026-04-18 23:30:00,Recovery mentioned in synthetic progress note.,16960
+C,144,151,31,Initial Assessment,2026-03-30 23:30:00,Synthetic initial evaluation.,17063
+C,145,152,26,Discharge Summary,2026-04-05 03:00:00,Recovery documented in synthetic summary.,17170
+C,147,154,16,Progress Note,2026-04-01 23:30:00,Recovery mentioned in synthetic progress note.,17369
+C,148,155,1,Initial Assessment,2026-04-02 23:30:00,Synthetic initial evaluation.,17471
+C,149,156,1,Discharge Summary,2026-04-25 21:00:00,Recovery documented in synthetic summary.,17566
+C,150,157,26,Discharge Summary,2026-04-05 09:00:00,Follow-up documented in synthetic summary.,17675
+C,151,158,21,Progress Note,2026-04-23 23:30:00,Recovery mentioned in synthetic progress note.,17770
+C,152,159,46,Initial Assessment,2026-04-04 23:30:00,Synthetic initial evaluation.,17878
+C,153,160,6,Discharge Summary,2026-04-29 12:00:00,Recovery documented in synthetic summary.,17975
+C,154,161,11,Discharge Summary,2026-04-07 07:00:00,Follow-up documented in synthetic summary.,18077
+C,155,162,16,Progress Note,2026-04-25 23:30:00,Recovery mentioned in synthetic progress note.,18166
+C,156,163,11,Initial Assessment,2026-04-06 23:30:00,Synthetic initial evaluation.,18275
+C,157,164,46,Discharge Summary,2026-05-01 22:00:00,Recovery documented in synthetic summary.,18370
+C,158,165,46,Discharge Summary,2026-04-09 14:00:00,Follow-up documented in synthetic summary.,18478
+C,159,166,6,Progress Note,2026-04-08 23:30:00,Recovery mentioned in synthetic progress note.,18588
+C,160,167,46,Initial Assessment,2026-04-09 23:30:00,Synthetic initial evaluation.,18689
+C,161,168,21,Discharge Summary,2026-05-01 11:00:00,Recovery documented in synthetic summary.,18784
+C,162,169,6,Discharge Summary,2026-04-11 19:00:00,Follow-up documented in synthetic summary.,18894
+C,163,170,41,Progress Note,2026-04-30 23:30:00,Recovery mentioned in synthetic progress note.,18983
+C,164,171,26,Initial Assessment,2026-04-11 23:30:00,Synthetic initial evaluation.,19085
+C,165,172,41,Discharge Summary,2026-05-06 12:00:00,Recovery documented in synthetic summary.,19182
+C,166,173,26,Discharge Summary,2026-04-13 14:00:00,Follow-up documented in synthetic summary.,19289
+C,167,174,6,Progress Note,2026-04-13 23:30:00,Recovery mentioned in synthetic progress note.,19397
+C,168,175,16,Initial Assessment,2026-05-03 23:30:00,Synthetic initial evaluation.,19494
+C,169,176,36,Discharge Summary,2026-01-08 06:00:00,Recovery documented in synthetic summary.,19596
+C,170,177,1,Discharge Summary,2026-01-25 06:00:00,Follow-up documented in synthetic summary.,19685
+C,171,178,1,Progress Note,2026-01-05 23:30:00,Recovery mentioned in synthetic progress note.,19794
+C,172,179,31,Initial Assessment,2026-01-06 23:30:00,Synthetic initial evaluation.,19902
+C,173,180,16,Discharge Summary,2026-01-11 23:00:00,Recovery documented in synthetic summary.,20010
+C,174,181,36,Discharge Summary,2026-02-01 16:00:00,Follow-up documented in synthetic summary.,20107
+C,175,182,26,Progress Note,2026-01-08 23:30:00,Recovery mentioned in synthetic progress note.,20208
+C,176,183,1,Initial Assessment,2026-01-09 23:30:00,Synthetic initial evaluation.,20310
+C,177,184,21,Discharge Summary,2026-01-31 07:00:00,Recovery documented in synthetic summary.,20407
+C,178,185,21,Discharge Summary,2026-01-14 17:00:00,Follow-up documented in synthetic summary.,20515
+C,179,186,41,Progress Note,2026-01-30 23:30:00,Recovery mentioned in synthetic progress note.,20610
+C,180,187,1,Initial Assessment,2026-01-11 23:30:00,Synthetic initial evaluation.,20713
+C,181,188,16,Discharge Summary,2026-02-04 05:00:00,Recovery documented in synthetic summary.,20802
+C,182,189,41,Discharge Summary,2026-01-14 19:00:00,Follow-up documented in synthetic summary.,20910
+C,183,191,11,Progress Note,2026-01-13 23:30:00,Recovery mentioned in synthetic progress note.,21046
+C,184,192,26,Initial Assessment,2026-01-14 23:30:00,Synthetic initial evaluation.,21155
+C,185,194,41,Discharge Summary,2026-01-19 22:00:00,Recovery documented in synthetic summary.,21303
+C,186,195,21,Discharge Summary,2026-02-06 23:00:00,Follow-up documented in synthetic summary.,21399
+C,187,196,31,Progress Note,2026-01-17 23:30:00,Recovery mentioned in synthetic progress note.,21494
+C,188,197,46,Initial Assessment,2026-02-06 23:30:00,Synthetic initial evaluation.,21578
+C,189,198,6,Discharge Summary,2026-01-21 11:00:00,Recovery documented in synthetic summary.,21672
+C,190,199,6,Discharge Summary,2026-02-11 08:00:00,Follow-up documented in synthetic summary.,21761
+C,191,200,36,Progress Note,2026-01-19 23:30:00,Recovery mentioned in synthetic progress note.,21858
+C,192,201,26,Initial Assessment,2026-02-08 23:30:00,Synthetic initial evaluation.,21945
+C,193,202,36,Discharge Summary,2026-01-22 10:00:00,Recovery documented in synthetic summary.,22046
+C,194,203,16,Discharge Summary,2026-01-24 16:00:00,Follow-up documented in synthetic summary.,22137
+C,195,205,46,Progress Note,2026-01-22 23:30:00,Recovery mentioned in synthetic progress note.,22272
+C,196,207,26,Initial Assessment,2026-01-24 23:30:00,Synthetic initial evaluation.,22416
+C,197,208,21,Discharge Summary,2026-01-29 06:00:00,Recovery documented in synthetic summary.,22500
+C,198,209,11,Discharge Summary,2026-01-27 11:00:00,Follow-up documented in synthetic summary.,22581
+C,199,210,6,Progress Note,2026-01-27 23:30:00,Recovery mentioned in synthetic progress note.,22666
+C,200,211,16,Initial Assessment,2026-02-16 23:30:00,Synthetic initial evaluation.,22743
+C,201,212,16,Discharge Summary,2026-02-01 18:00:00,Recovery documented in synthetic summary.,22831
+C,202,213,11,Discharge Summary,2026-01-31 10:00:00,Follow-up documented in synthetic summary.,22915
+C,203,214,31,Progress Note,2026-01-30 23:30:00,Recovery mentioned in synthetic progress note.,23005
+C,204,215,6,Initial Assessment,2026-01-31 23:30:00,Synthetic initial evaluation.,23093
+C,205,216,31,Discharge Summary,2026-02-25 01:00:00,Recovery documented in synthetic summary.,23165
+C,206,217,6,Discharge Summary,2026-02-03 21:00:00,Follow-up documented in synthetic summary.,23254
+C,207,218,1,Progress Note,2026-02-21 23:30:00,Recovery mentioned in synthetic progress note.,23329
+C,208,219,1,Initial Assessment,2026-02-02 23:30:00,Synthetic initial evaluation.,23420
+C,209,220,31,Discharge Summary,2026-02-27 12:00:00,Recovery documented in synthetic summary.,23491
+C,210,221,26,Discharge Summary,2026-02-07 16:00:00,Follow-up documented in synthetic summary.,23573
+C,211,222,31,Progress Note,2026-02-23 23:30:00,Recovery mentioned in synthetic progress note.,23651
+C,212,223,31,Initial Assessment,2026-02-04 23:30:00,Synthetic initial evaluation.,23734
+C,213,224,11,Discharge Summary,2026-02-09 01:00:00,Recovery documented in synthetic summary.,23816
+C,214,225,1,Discharge Summary,2026-02-27 09:00:00,Follow-up documented in synthetic summary.,23888
+C,215,226,41,Progress Note,2026-02-06 23:30:00,Recovery mentioned in synthetic progress note.,23971
+C,216,227,1,Initial Assessment,2026-02-26 23:30:00,Synthetic initial evaluation.,24046
+C,217,228,11,Discharge Summary,2026-02-10 10:00:00,Recovery documented in synthetic summary.,24137
+C,218,229,26,Discharge Summary,2026-03-01 03:00:00,Follow-up documented in synthetic summary.,24208
+C,219,230,26,Progress Note,2026-02-08 23:30:00,Recovery mentioned in synthetic progress note.,24296
+C,220,231,11,Initial Assessment,2026-02-28 23:30:00,Synthetic initial evaluation.,24374
+C,221,232,1,Discharge Summary,2026-02-13 11:00:00,Recovery documented in synthetic summary.,24464
+C,222,233,16,Discharge Summary,2026-03-03 00:00:00,Follow-up documented in synthetic summary.,24539
+C,223,234,31,Progress Note,2026-02-10 23:30:00,Recovery mentioned in synthetic progress note.,24623
+C,224,235,31,Initial Assessment,2026-03-02 23:30:00,Synthetic initial evaluation.,24694
+C,225,236,41,Discharge Summary,2026-02-12 09:00:00,Recovery documented in synthetic summary.,24776
+C,226,237,26,Discharge Summary,2026-02-15 02:00:00,Follow-up documented in synthetic summary.,24867
+C,227,238,21,Progress Note,2026-03-04 23:30:00,Recovery mentioned in synthetic progress note.,24944
+C,228,239,36,Initial Assessment,2026-02-13 23:30:00,Synthetic initial evaluation.,25031
+C,229,240,26,Discharge Summary,2026-03-07 11:00:00,Recovery documented in synthetic summary.,25109
+C,230,241,11,Discharge Summary,2026-02-18 04:00:00,Follow-up documented in synthetic summary.,25193
+C,231,242,1,Progress Note,2026-03-06 23:30:00,Recovery mentioned in synthetic progress note.,25268
+C,232,243,21,Initial Assessment,2026-02-15 23:30:00,Synthetic initial evaluation.,25359
+C,233,244,31,Discharge Summary,2026-03-11 14:00:00,Recovery documented in synthetic summary.,25430
+C,234,245,41,Discharge Summary,2026-02-20 16:00:00,Follow-up documented in synthetic summary.,25517
+C,235,246,41,Progress Note,2026-03-08 23:30:00,Recovery mentioned in synthetic progress note.,25595
+C,236,247,1,Initial Assessment,2026-02-17 23:30:00,Synthetic initial evaluation.,25685
+C,237,248,21,Discharge Summary,2026-03-13 20:00:00,Recovery documented in synthetic summary.,25754
+C,238,250,16,Discharge Summary,2026-02-24 04:00:00,Follow-up documented in synthetic summary.,25886
+C,239,251,16,Progress Note,2026-02-20 23:30:00,Recovery mentioned in synthetic progress note.,25973
+C,240,252,36,Initial Assessment,2026-02-21 23:30:00,Synthetic initial evaluation.,26063
+C,241,253,41,Discharge Summary,2026-03-17 07:00:00,Recovery documented in synthetic summary.,26142
+C,242,254,1,Discharge Summary,2026-02-24 12:00:00,Follow-up documented in synthetic summary.,26228
+C,243,255,26,Progress Note,2026-02-23 23:30:00,Recovery mentioned in synthetic progress note.,26318
+C,244,256,26,Initial Assessment,2026-02-24 23:30:00,Synthetic initial evaluation.,26410
+C,245,257,31,Discharge Summary,2026-03-21 00:00:00,Recovery documented in synthetic summary.,26484
+C,246,258,16,Discharge Summary,2026-02-27 17:00:00,Follow-up documented in synthetic summary.,26573
+C,247,259,1,Progress Note,2026-02-26 23:30:00,Recovery mentioned in synthetic progress note.,26665
+C,248,260,41,Initial Assessment,2026-03-18 23:30:00,Synthetic initial evaluation.,26739
+C,249,261,21,Discharge Summary,2026-03-03 11:00:00,Recovery documented in synthetic summary.,26823
+C,250,262,31,Discharge Summary,2026-03-23 06:00:00,Follow-up documented in synthetic summary.,26902
+C,251,263,46,Progress Note,2026-02-28 23:30:00,Recovery mentioned in synthetic progress note.,26982
+C,252,264,36,Initial Assessment,2026-03-20 23:30:00,Synthetic initial evaluation.,27059
+C,253,265,26,Discharge Summary,2026-03-06 11:00:00,Recovery documented in synthetic summary.,27151
+C,255,268,21,Progress Note,2026-03-03 23:30:00,Recovery mentioned in synthetic progress note.,27356
+C,256,269,31,Initial Assessment,2026-03-23 23:30:00,Synthetic initial evaluation.,27432
+C,257,270,16,Discharge Summary,2026-03-08 09:00:00,Recovery documented in synthetic summary.,27515
+C,258,271,36,Discharge Summary,2026-03-29 02:00:00,Follow-up documented in synthetic summary.,27587
+C,259,272,1,Progress Note,2026-03-05 23:30:00,Recovery mentioned in synthetic progress note.,27676
+C,260,273,6,Initial Assessment,2026-03-06 23:30:00,Synthetic initial evaluation.,27758
+C,261,274,6,Discharge Summary,2026-03-30 13:00:00,Recovery documented in synthetic summary.,27836
+C,262,275,6,Discharge Summary,2026-03-10 06:00:00,Follow-up documented in synthetic summary.,27919
+C,263,277,1,Progress Note,2026-03-08 23:30:00,Recovery mentioned in synthetic progress note.,28043
+C,264,278,31,Initial Assessment,2026-03-09 23:30:00,Synthetic initial evaluation.,28130
+C,265,279,46,Discharge Summary,2026-04-03 01:00:00,Recovery documented in synthetic summary.,28208
+C,266,280,36,Discharge Summary,2026-03-13 07:00:00,Follow-up documented in synthetic summary.,28298
+C,267,281,46,Progress Note,2026-03-11 23:30:00,Recovery mentioned in synthetic progress note.,28386
+C,268,282,41,Initial Assessment,2026-03-12 23:30:00,Synthetic initial evaluation.,28470
+C,269,283,26,Discharge Summary,2026-04-03 22:00:00,Recovery documented in synthetic summary.,28547
+C,270,284,1,Discharge Summary,2026-03-16 02:00:00,Follow-up documented in synthetic summary.,28635
+C,271,286,11,Progress Note,2026-03-14 23:30:00,Recovery mentioned in synthetic progress note.,28755
+C,272,287,46,Initial Assessment,2026-04-03 23:30:00,Synthetic initial evaluation.,28829
+C,273,288,46,Discharge Summary,2026-03-19 20:00:00,Recovery documented in synthetic summary.,28912
+C,274,289,6,Discharge Summary,2026-04-05 20:00:00,Follow-up documented in synthetic summary.,28985
+C,275,290,21,Progress Note,2026-03-16 23:30:00,Recovery mentioned in synthetic progress note.,29066
+C,276,291,41,Initial Assessment,2026-04-05 23:30:00,Synthetic initial evaluation.,29143
+C,277,292,36,Discharge Summary,2026-03-19 21:00:00,Recovery documented in synthetic summary.,29235
+C,278,293,6,Discharge Summary,2026-04-10 11:00:00,Follow-up documented in synthetic summary.,29303
+C,279,294,16,Progress Note,2026-03-18 23:30:00,Recovery mentioned in synthetic progress note.,29392
+C,280,295,36,Initial Assessment,2026-03-19 23:30:00,Synthetic initial evaluation.,29478
+C,281,296,41,Discharge Summary,2026-04-11 11:00:00,Recovery documented in synthetic summary.,29552
+C,282,297,41,Discharge Summary,2026-03-25 01:00:00,Follow-up documented in synthetic summary.,29641
+C,283,298,31,Progress Note,2026-04-09 23:30:00,Recovery mentioned in synthetic progress note.,29714
+C,284,299,41,Initial Assessment,2026-03-21 23:30:00,Synthetic initial evaluation.,29794
+C,285,300,26,Discharge Summary,2026-04-15 03:00:00,Recovery documented in synthetic summary.,29871
+C,286,301,41,Discharge Summary,2026-03-24 22:00:00,Follow-up documented in synthetic summary.,29963
+C,287,302,46,Progress Note,2026-04-11 23:30:00,Recovery mentioned in synthetic progress note.,30037
+C,288,303,16,Initial Assessment,2026-03-23 23:30:00,Synthetic initial evaluation.,30127
+C,289,304,36,Discharge Summary,2026-03-27 08:00:00,Recovery documented in synthetic summary.,30218
+C,290,305,16,Discharge Summary,2026-04-15 03:00:00,Follow-up documented in synthetic summary.,30286
+C,291,306,41,Progress Note,2026-03-25 23:30:00,Recovery mentioned in synthetic progress note.,30376
+C,292,307,16,Initial Assessment,2026-03-26 23:30:00,Synthetic initial evaluation.,30468
+C,293,308,46,Discharge Summary,2026-03-30 13:00:00,Recovery documented in synthetic summary.,30548
+C,294,309,36,Discharge Summary,2026-04-21 20:00:00,Follow-up documented in synthetic summary.,30625
+C,295,310,26,Progress Note,2026-03-28 23:30:00,Recovery mentioned in synthetic progress note.,30717
+C,296,311,46,Initial Assessment,2026-04-17 23:30:00,Synthetic initial evaluation.,30785
+C,297,313,16,Discharge Summary,2026-04-01 18:00:00,Recovery documented in synthetic summary.,30922
+C,298,314,6,Discharge Summary,2026-04-05 09:00:00,Follow-up documented in synthetic summary.,31005
+C,299,315,21,Progress Note,2026-04-20 23:30:00,Recovery mentioned in synthetic progress note.,31075
+C,300,316,46,Initial Assessment,2026-04-01 23:30:00,Synthetic initial evaluation.,31166
+C,301,317,1,Discharge Summary,2026-04-03 13:00:00,Recovery documented in synthetic summary.,31254
+C,302,318,41,Discharge Summary,2026-04-27 20:00:00,Follow-up documented in synthetic summary.,31324
+C,303,319,1,Progress Note,2026-04-03 23:30:00,Recovery mentioned in synthetic progress note.,31409
+C,304,320,1,Initial Assessment,2026-04-04 23:30:00,Synthetic initial evaluation.,31498
+C,305,321,11,Discharge Summary,2026-04-28 10:00:00,Recovery documented in synthetic summary.,31568
+C,306,322,11,Discharge Summary,2026-04-08 08:00:00,Follow-up documented in synthetic summary.,31658
+C,307,323,31,Progress Note,2026-04-06 23:30:00,Recovery mentioned in synthetic progress note.,31747
+C,308,324,6,Initial Assessment,2026-04-26 23:30:00,Synthetic initial evaluation.,31823
+C,309,325,11,Discharge Summary,2026-04-08 10:00:00,Recovery documented in synthetic summary.,31908
+C,310,326,1,Discharge Summary,2026-05-01 18:00:00,Follow-up documented in synthetic summary.,31978
+C,311,327,11,Progress Note,2026-04-08 23:30:00,Recovery mentioned in synthetic progress note.,32060
+C,312,328,1,Initial Assessment,2026-04-28 23:30:00,Synthetic initial evaluation.,32138
+C,313,329,26,Discharge Summary,2026-04-12 02:00:00,Recovery documented in synthetic summary.,32221
+C,314,330,36,Discharge Summary,2026-05-01 17:00:00,Follow-up documented in synthetic summary.,32297
+C,315,331,1,Progress Note,2026-04-10 23:30:00,Recovery mentioned in synthetic progress note.,32388
+C,316,332,41,Initial Assessment,2026-04-11 23:30:00,Synthetic initial evaluation.,32470
+C,317,333,36,Discharge Summary,2026-05-03 02:00:00,Recovery documented in synthetic summary.,32546
+C,318,334,16,Discharge Summary,2026-04-16 04:00:00,Follow-up documented in synthetic summary.,32637
+C,319,335,11,Progress Note,2026-05-02 23:30:00,Recovery mentioned in synthetic progress note.,32707
+C,320,336,11,Initial Assessment,2026-04-13 23:30:00,Synthetic initial evaluation.,32795
+C,321,337,41,Discharge Summary,2026-05-06 13:00:00,Recovery documented in synthetic summary.,32867
+C,322,338,41,Discharge Summary,2026-01-07 15:00:00,Follow-up documented in synthetic summary.,32949
+C,323,340,31,Progress Note,2026-01-05 23:30:00,Recovery mentioned in synthetic progress note.,33073
+C,324,341,26,Initial Assessment,2026-01-06 23:30:00,Synthetic initial evaluation.,33155
+C,325,342,21,Discharge Summary,2026-01-11 00:00:00,Recovery documented in synthetic summary.,33248
+C,326,343,11,Discharge Summary,2026-01-31 03:00:00,Follow-up documented in synthetic summary.,33319
+C,327,344,26,Progress Note,2026-01-08 23:30:00,Recovery mentioned in synthetic progress note.,33407
+C,328,345,41,Initial Assessment,2026-01-28 23:30:00,Synthetic initial evaluation.,33485
+C,329,346,6,Discharge Summary,2026-01-14 08:00:00,Recovery documented in synthetic summary.,33575
+C,330,347,21,Discharge Summary,2026-01-30 04:00:00,Follow-up documented in synthetic summary.,33650
+C,331,348,11,Progress Note,2026-01-10 23:30:00,Recovery mentioned in synthetic progress note.,33740
+C,332,349,26,Initial Assessment,2026-01-11 23:30:00,Synthetic initial evaluation.,33830
+C,333,350,31,Discharge Summary,2026-02-01 21:00:00,Recovery documented in synthetic summary.,33899
+C,334,351,1,Discharge Summary,2026-01-14 22:00:00,Follow-up documented in synthetic summary.,33983
+C,335,353,31,Progress Note,2026-01-13 23:30:00,Recovery mentioned in synthetic progress note.,34104
+C,336,354,21,Initial Assessment,2026-01-14 23:30:00,Synthetic initial evaluation.,34188
+C,337,355,21,Discharge Summary,2026-02-05 14:00:00,Recovery documented in synthetic summary.,34267
+C,338,356,26,Discharge Summary,2026-01-20 19:00:00,Follow-up documented in synthetic summary.,34354
+C,339,358,21,Progress Note,2026-01-17 23:30:00,Recovery mentioned in synthetic progress note.,34485
+C,340,359,16,Initial Assessment,2026-02-06 23:30:00,Synthetic initial evaluation.,34555
+C,341,360,26,Discharge Summary,2026-01-23 05:00:00,Recovery documented in synthetic summary.,34644
+C,342,361,16,Discharge Summary,2026-01-24 10:00:00,Follow-up documented in synthetic summary.,34734
+C,343,362,1,Progress Note,2026-02-08 23:30:00,Recovery mentioned in synthetic progress note.,34804
+C,344,363,31,Initial Assessment,2026-01-20 23:30:00,Synthetic initial evaluation.,34887
+C,345,364,26,Discharge Summary,2026-01-24 05:00:00,Recovery documented in synthetic summary.,34963
+C,346,365,46,Discharge Summary,2026-01-24 05:00:00,Follow-up documented in synthetic summary.,35076
+C,348,367,6,Initial Assessment,2026-01-23 23:30:00,Synthetic initial evaluation.,35220
+C,349,368,46,Discharge Summary,2026-02-13 06:00:00,Recovery documented in synthetic summary.,35280
+C,350,369,26,Discharge Summary,2026-01-26 21:00:00,Follow-up documented in synthetic summary.,35361
+C,351,370,21,Progress Note,2026-02-13 23:30:00,Recovery mentioned in synthetic progress note.,35424
+C,352,371,1,Initial Assessment,2026-01-25 23:30:00,Synthetic initial evaluation.,35496
+C,353,373,46,Discharge Summary,2026-01-29 00:00:00,Recovery documented in synthetic summary.,35606
+C,354,374,1,Discharge Summary,2026-02-19 15:00:00,Follow-up documented in synthetic summary.,35666
+C,355,375,26,Progress Note,2026-01-27 23:30:00,Recovery mentioned in synthetic progress note.,35741
+C,356,376,46,Initial Assessment,2026-02-16 23:30:00,Synthetic initial evaluation.,35804
+C,357,377,31,Discharge Summary,2026-02-01 23:00:00,Recovery documented in synthetic summary.,35882
+C,358,378,46,Discharge Summary,2026-02-19 18:00:00,Follow-up documented in synthetic summary.,35944
+C,359,379,26,Progress Note,2026-01-29 23:30:00,Recovery mentioned in synthetic progress note.,36026
+C,360,380,46,Initial Assessment,2026-01-30 23:30:00,Synthetic initial evaluation.,36105
+C,361,381,16,Discharge Summary,2026-02-24 21:00:00,Recovery documented in synthetic summary.,36173
+C,362,382,21,Discharge Summary,2026-02-01 12:00:00,Follow-up documented in synthetic summary.,36254
+C,363,383,26,Progress Note,2026-02-20 23:30:00,Recovery mentioned in synthetic progress note.,36314
+C,364,384,6,Initial Assessment,2026-02-01 23:30:00,Synthetic initial evaluation.,36389
+C,365,385,36,Discharge Summary,2026-02-06 03:00:00,Recovery documented in synthetic summary.,36471
+C,366,386,6,Discharge Summary,2026-02-24 03:00:00,Follow-up documented in synthetic summary.,36531
+C,367,387,11,Progress Note,2026-02-03 23:30:00,Recovery mentioned in synthetic progress note.,36605
+C,368,388,31,Initial Assessment,2026-02-23 23:30:00,Synthetic initial evaluation.,36674
+C,369,389,31,Discharge Summary,2026-02-09 03:00:00,Recovery documented in synthetic summary.,36753
+C,370,390,16,Discharge Summary,2026-03-01 11:00:00,Follow-up documented in synthetic summary.,36821
+C,371,391,16,Progress Note,2026-02-05 23:30:00,Recovery mentioned in synthetic progress note.,36903
+C,372,392,16,Initial Assessment,2026-02-25 23:30:00,Synthetic initial evaluation.,36969
+C,373,393,11,Discharge Summary,2026-02-08 20:00:00,Recovery documented in synthetic summary.,37043
+C,374,394,21,Discharge Summary,2026-03-02 13:00:00,Follow-up documented in synthetic summary.,37106
+C,375,395,36,Progress Note,2026-02-07 23:30:00,Recovery mentioned in synthetic progress note.,37190
+C,376,396,1,Initial Assessment,2026-02-27 23:30:00,Synthetic initial evaluation.,37252
+C,377,397,11,Discharge Summary,2026-02-13 15:00:00,Recovery documented in synthetic summary.,37328
+C,378,398,1,Discharge Summary,2026-03-04 13:00:00,Follow-up documented in synthetic summary.,37388
+C,379,399,16,Progress Note,2026-02-09 23:30:00,Recovery mentioned in synthetic progress note.,37462
+C,380,400,16,Initial Assessment,2026-02-10 23:30:00,Synthetic initial evaluation.,37544
+C,381,401,1,Discharge Summary,2026-02-12 15:00:00,Recovery documented in synthetic summary.,37617
+C,382,402,26,Discharge Summary,2026-03-06 19:00:00,Follow-up documented in synthetic summary.,37685
+C,384,404,46,Initial Assessment,2026-03-04 23:30:00,Synthetic initial evaluation.,37820
+C,385,405,16,Discharge Summary,2026-02-16 08:00:00,Recovery documented in synthetic summary.,37901
+C,386,406,31,Discharge Summary,2026-02-17 03:00:00,Follow-up documented in synthetic summary.,37983
+C,387,407,26,Progress Note,2026-03-06 23:30:00,Recovery mentioned in synthetic progress note.,38049
+C,389,410,11,Discharge Summary,2026-02-19 22:00:00,Recovery documented in synthetic summary.,38236
+C,390,411,6,Discharge Summary,2026-03-13 23:00:00,Follow-up documented in synthetic summary.,38304
+C,391,412,36,Progress Note,2026-02-17 23:30:00,Recovery mentioned in synthetic progress note.,38386
+D,1,1,26,Discharge Summary,2026-06-22 22:00:00,Recovery documented in synthetic summary.,$[0].admissions[0].clinicalNotes[0]
+D,412,1,11,Discharge Summary,2026-06-22 22:00:00,Synthetic discharge addendum with revised follow-up.,$[0].admissions[0].clinicalNotes[1]
+D,2,2,11,Discharge Summary,2026-07-11 22:00:00,Follow-up documented in synthetic summary.,$[0].admissions[1].clinicalNotes[0]
+D,3,3,6,Progress Note,2026-07-24 22:30:00,Recovery mentioned in synthetic progress note.,$[0].admissions[2].clinicalNotes[0]
+D,4,4,21,Initial Assessment,2026-08-13 22:30:00,Synthetic initial evaluation.,$[0].admissions[3].clinicalNotes[0]
+D,5,5,6,Discharge Summary,2026-06-17 00:00:00,Recovery documented in synthetic summary.,$[1].admissions[0].clinicalNotes[0]
+D,6,6,41,Discharge Summary,2026-06-21 16:00:00,Follow-up documented in synthetic summary.,$[2].admissions[0].clinicalNotes[0]
+D,7,7,1,Progress Note,2026-07-06 22:30:00,Recovery mentioned in synthetic progress note.,$[2].admissions[1].clinicalNotes[0]
+D,8,8,41,Initial Assessment,2026-06-17 22:30:00,Synthetic initial evaluation.,$[3].admissions[0].clinicalNotes[0]
+D,9,9,46,Discharge Summary,2026-07-10 09:00:00,Recovery documented in synthetic summary.,$[3].admissions[1].clinicalNotes[0]
+D,10,10,36,Discharge Summary,2026-06-20 09:00:00,Follow-up documented in synthetic summary.,$[4].admissions[0].clinicalNotes[0]
+D,11,11,46,Progress Note,2026-06-19 22:30:00,Recovery mentioned in synthetic progress note.,$[5].admissions[0].clinicalNotes[0]
+D,12,12,26,Initial Assessment,2026-07-09 22:30:00,Synthetic initial evaluation.,$[5].admissions[1].clinicalNotes[0]
+D,13,13,11,Discharge Summary,2026-06-25 08:00:00,Recovery documented in synthetic summary.,$[6].admissions[0].clinicalNotes[0]
+D,14,14,46,Discharge Summary,2026-07-11 21:00:00,Follow-up documented in synthetic summary.,$[6].admissions[1].clinicalNotes[0]
+D,15,15,11,Progress Note,2026-06-21 22:30:00,Recovery mentioned in synthetic progress note.,$[7].admissions[0].clinicalNotes[0]
+D,16,17,36,Initial Assessment,2026-06-22 22:30:00,Synthetic initial evaluation.,$[8].admissions[0].clinicalNotes[0]
+D,17,18,41,Discharge Summary,2026-07-16 09:00:00,Recovery documented in synthetic summary.,$[8].admissions[1].clinicalNotes[0]
+D,18,19,16,Discharge Summary,2026-06-26 07:00:00,Follow-up documented in synthetic summary.,$[9].admissions[0].clinicalNotes[0]
+D,19,20,21,Progress Note,2026-07-13 22:30:00,Recovery mentioned in synthetic progress note.,$[9].admissions[1].clinicalNotes[0]
+D,20,21,46,Initial Assessment,2026-06-24 22:30:00,Synthetic initial evaluation.,$[10].admissions[0].clinicalNotes[0]
+D,21,22,26,Discharge Summary,2026-07-17 05:00:00,Recovery documented in synthetic summary.,$[10].admissions[1].clinicalNotes[0]
+D,22,23,46,Discharge Summary,2026-06-30 21:00:00,Follow-up documented in synthetic summary.,$[11].admissions[0].clinicalNotes[0]
+D,23,24,21,Progress Note,2026-06-26 22:30:00,Recovery mentioned in synthetic progress note.,$[12].admissions[0].clinicalNotes[0]
+D,24,25,1,Initial Assessment,2026-07-16 22:30:00,Synthetic initial evaluation.,$[12].admissions[1].clinicalNotes[0]
+D,25,26,51,Discharge Summary,2026-07-02 00:00:00,Recovery documented in synthetic summary.,$[13].admissions[0].clinicalNotes[0]
+D,26,27,6,Discharge Summary,2026-07-21 05:00:00,Follow-up documented in synthetic summary.,$[13].admissions[1].clinicalNotes[0]
+D,27,28,31,Progress Note,2026-06-28 22:30:00,Recovery mentioned in synthetic progress note.,$[14].admissions[0].clinicalNotes[0]
+D,28,29,26,Initial Assessment,2026-07-18 22:30:00,Synthetic initial evaluation.,$[14].admissions[1].clinicalNotes[0]
+D,29,30,6,Discharge Summary,2026-07-02 16:00:00,Recovery documented in synthetic summary.,$[15].admissions[0].clinicalNotes[0]
+D,30,31,11,Discharge Summary,2026-07-20 23:00:00,Follow-up documented in synthetic summary.,$[15].admissions[1].clinicalNotes[0]
+D,31,32,1,Progress Note,2026-06-30 22:30:00,Recovery mentioned in synthetic progress note.,$[16].admissions[0].clinicalNotes[0]
+D,32,33,1,Initial Assessment,2026-07-20 22:30:00,Synthetic initial evaluation.,$[16].admissions[1].clinicalNotes[0]
+D,33,34,51,Discharge Summary,2026-07-06 09:00:00,Recovery documented in synthetic summary.,$[17].admissions[0].clinicalNotes[0]
+D,34,35,1,Discharge Summary,2026-07-22 10:00:00,Follow-up documented in synthetic summary.,$[17].admissions[1].clinicalNotes[0]
+D,35,36,31,Progress Note,2026-07-02 22:30:00,Recovery mentioned in synthetic progress note.,$[18].admissions[0].clinicalNotes[0]
+D,36,37,11,Initial Assessment,2026-07-22 22:30:00,Synthetic initial evaluation.,$[18].admissions[1].clinicalNotes[0]
+D,37,38,11,Discharge Summary,2026-07-05 15:00:00,Recovery documented in synthetic summary.,$[19].admissions[0].clinicalNotes[0]
+D,39,40,16,Progress Note,2026-07-04 22:30:00,Recovery mentioned in synthetic progress note.,$[20].admissions[0].clinicalNotes[0]
+D,40,41,36,Initial Assessment,2026-07-24 22:30:00,Synthetic initial evaluation.,$[20].admissions[1].clinicalNotes[0]
+D,41,42,11,Discharge Summary,2026-07-10 17:00:00,Recovery documented in synthetic summary.,$[21].admissions[0].clinicalNotes[0]
+D,42,43,26,Discharge Summary,2026-07-30 02:00:00,Follow-up documented in synthetic summary.,$[21].admissions[1].clinicalNotes[0]
+D,43,44,6,Progress Note,2026-07-06 22:30:00,Recovery mentioned in synthetic progress note.,$[22].admissions[0].clinicalNotes[0]
+D,44,45,1,Initial Assessment,2026-07-26 22:30:00,Synthetic initial evaluation.,$[22].admissions[1].clinicalNotes[0]
+D,45,46,31,Discharge Summary,2026-07-08 10:00:00,Recovery documented in synthetic summary.,$[23].admissions[0].clinicalNotes[0]
+D,46,47,16,Discharge Summary,2026-07-30 07:00:00,Follow-up documented in synthetic summary.,$[23].admissions[1].clinicalNotes[0]
+D,47,48,31,Progress Note,2026-07-08 22:30:00,Recovery mentioned in synthetic progress note.,$[24].admissions[0].clinicalNotes[0]
+D,48,49,16,Initial Assessment,2026-07-09 22:30:00,Synthetic initial evaluation.,$[25].admissions[0].clinicalNotes[0]
+D,49,50,16,Discharge Summary,2026-07-31 07:00:00,Recovery documented in synthetic summary.,$[25].admissions[1].clinicalNotes[0]
+D,50,51,46,Discharge Summary,2026-07-12 17:00:00,Follow-up documented in synthetic summary.,$[26].admissions[0].clinicalNotes[0]
+D,51,52,51,Progress Note,2026-07-30 22:30:00,Recovery mentioned in synthetic progress note.,$[26].admissions[1].clinicalNotes[0]
+D,52,53,16,Initial Assessment,2026-07-11 22:30:00,Synthetic initial evaluation.,$[27].admissions[0].clinicalNotes[0]
+D,53,54,41,Discharge Summary,2026-08-05 00:00:00,Recovery documented in synthetic summary.,$[27].admissions[1].clinicalNotes[0]
+D,54,55,6,Discharge Summary,2026-07-15 00:00:00,Follow-up documented in synthetic summary.,$[28].admissions[0].clinicalNotes[0]
+D,55,56,1,Progress Note,2026-08-01 22:30:00,Recovery mentioned in synthetic progress note.,$[28].admissions[1].clinicalNotes[0]
+D,56,57,51,Initial Assessment,2026-07-13 22:30:00,Synthetic initial evaluation.,$[29].admissions[0].clinicalNotes[0]
+D,57,58,31,Discharge Summary,2026-07-15 14:00:00,Recovery documented in synthetic summary.,$[30].admissions[0].clinicalNotes[0]
+D,58,59,6,Discharge Summary,2026-08-06 05:00:00,Follow-up documented in synthetic summary.,$[30].admissions[1].clinicalNotes[0]
+D,59,60,11,Progress Note,2026-07-15 22:30:00,Recovery mentioned in synthetic progress note.,$[31].admissions[0].clinicalNotes[0]
+D,60,61,26,Initial Assessment,2026-07-16 22:30:00,Synthetic initial evaluation.,$[32].admissions[0].clinicalNotes[0]
+D,61,62,21,Discharge Summary,2026-07-20 12:00:00,Recovery documented in synthetic summary.,$[33].admissions[0].clinicalNotes[0]
+D,62,63,26,Discharge Summary,2026-08-09 04:00:00,Follow-up documented in synthetic summary.,$[33].admissions[1].clinicalNotes[0]
+D,63,64,16,Progress Note,2026-07-18 22:30:00,Recovery mentioned in synthetic progress note.,$[34].admissions[0].clinicalNotes[0]
+D,64,65,1,Initial Assessment,2026-08-07 22:30:00,Synthetic initial evaluation.,$[34].admissions[1].clinicalNotes[0]
+D,65,66,1,Discharge Summary,2026-07-22 05:00:00,Recovery documented in synthetic summary.,$[35].admissions[0].clinicalNotes[0]
+D,66,67,1,Discharge Summary,2026-08-11 08:00:00,Follow-up documented in synthetic summary.,$[35].admissions[1].clinicalNotes[0]
+D,67,68,31,Progress Note,2026-07-20 22:30:00,Recovery mentioned in synthetic progress note.,$[36].admissions[0].clinicalNotes[0]
+D,68,69,51,Initial Assessment,2026-08-09 22:30:00,Synthetic initial evaluation.,$[36].admissions[1].clinicalNotes[0]
+D,69,70,11,Discharge Summary,2026-07-24 18:00:00,Recovery documented in synthetic summary.,$[37].admissions[0].clinicalNotes[0]
+D,70,72,46,Discharge Summary,2026-07-25 04:00:00,Follow-up documented in synthetic summary.,$[38].admissions[0].clinicalNotes[0]
+D,71,73,51,Progress Note,2026-07-23 22:30:00,Recovery mentioned in synthetic progress note.,$[39].admissions[0].clinicalNotes[0]
+D,72,74,36,Initial Assessment,2026-08-12 22:30:00,Synthetic initial evaluation.,$[39].admissions[1].clinicalNotes[0]
+D,73,75,1,Discharge Summary,2026-07-28 03:00:00,Recovery documented in synthetic summary.,$[40].admissions[0].clinicalNotes[0]
+D,74,76,36,Discharge Summary,2026-08-18 13:00:00,Follow-up documented in synthetic summary.,$[40].admissions[1].clinicalNotes[0]
+D,75,77,16,Progress Note,2026-07-25 22:30:00,Recovery mentioned in synthetic progress note.,$[41].admissions[0].clinicalNotes[0]
+D,76,78,46,Initial Assessment,2026-08-14 22:30:00,Synthetic initial evaluation.,$[41].admissions[1].clinicalNotes[0]
+D,77,80,16,Discharge Summary,2026-07-30 18:00:00,Recovery documented in synthetic summary.,$[43].admissions[0].clinicalNotes[0]
+D,78,81,16,Discharge Summary,2026-08-17 06:00:00,Follow-up documented in synthetic summary.,$[43].admissions[1].clinicalNotes[0]
+D,79,82,51,Progress Note,2026-07-28 22:30:00,Recovery mentioned in synthetic progress note.,$[44].admissions[0].clinicalNotes[0]
+D,80,83,11,Initial Assessment,2026-07-29 22:30:00,Synthetic initial evaluation.,$[45].admissions[0].clinicalNotes[0]
+D,81,84,51,Discharge Summary,2026-08-22 21:00:00,Recovery documented in synthetic summary.,$[45].admissions[1].clinicalNotes[0]
+D,82,85,26,Discharge Summary,2026-08-04 19:00:00,Follow-up documented in synthetic summary.,$[46].admissions[0].clinicalNotes[0]
+D,83,86,21,Progress Note,2026-07-31 22:30:00,Recovery mentioned in synthetic progress note.,$[47].admissions[0].clinicalNotes[0]
+D,84,87,16,Initial Assessment,2026-08-20 22:30:00,Synthetic initial evaluation.,$[47].admissions[1].clinicalNotes[0]
+D,85,88,26,Discharge Summary,2026-08-04 19:00:00,Recovery documented in synthetic summary.,$[48].admissions[0].clinicalNotes[0]
+D,86,89,1,Discharge Summary,2026-08-07 03:00:00,Follow-up documented in synthetic summary.,$[49].admissions[0].clinicalNotes[0]
+D,87,90,6,Progress Note,2026-08-03 22:30:00,Recovery mentioned in synthetic progress note.,$[50].admissions[0].clinicalNotes[0]
+D,88,91,41,Initial Assessment,2026-08-04 22:30:00,Synthetic initial evaluation.,$[51].admissions[0].clinicalNotes[0]
+D,89,92,6,Discharge Summary,2026-08-29 11:00:00,Recovery documented in synthetic summary.,$[51].admissions[1].clinicalNotes[0]
+D,90,93,51,Discharge Summary,2026-08-06 09:00:00,Follow-up documented in synthetic summary.,$[52].admissions[0].clinicalNotes[0]
+D,91,94,51,Progress Note,2026-08-25 22:30:00,Recovery mentioned in synthetic progress note.,$[52].admissions[1].clinicalNotes[0]
+D,92,95,11,Initial Assessment,2026-08-06 22:30:00,Synthetic initial evaluation.,$[53].admissions[0].clinicalNotes[0]
+D,93,96,21,Discharge Summary,2026-08-30 16:00:00,Recovery documented in synthetic summary.,$[53].admissions[1].clinicalNotes[0]
+D,94,97,16,Discharge Summary,2026-08-11 14:00:00,Follow-up documented in synthetic summary.,$[54].admissions[0].clinicalNotes[0]
+D,96,99,31,Initial Assessment,2026-08-08 22:30:00,Synthetic initial evaluation.,$[55].admissions[0].clinicalNotes[0]
+D,97,100,16,Discharge Summary,2026-08-31 15:00:00,Recovery documented in synthetic summary.,$[55].admissions[1].clinicalNotes[0]
+D,98,101,16,Discharge Summary,2026-08-11 09:00:00,Follow-up documented in synthetic summary.,$[56].admissions[0].clinicalNotes[0]
+D,99,102,51,Progress Note,2026-08-29 22:30:00,Recovery mentioned in synthetic progress note.,$[56].admissions[1].clinicalNotes[0]
+D,100,103,21,Initial Assessment,2026-08-10 22:30:00,Synthetic initial evaluation.,$[57].admissions[0].clinicalNotes[0]
+D,101,105,46,Discharge Summary,2026-08-15 17:00:00,Recovery documented in synthetic summary.,$[58].admissions[0].clinicalNotes[0]
+D,102,106,21,Discharge Summary,2026-08-17 11:00:00,Follow-up documented in synthetic summary.,$[59].admissions[0].clinicalNotes[0]
+D,103,107,36,Progress Note,2026-09-01 22:30:00,Recovery mentioned in synthetic progress note.,$[59].admissions[1].clinicalNotes[0]
+D,104,108,31,Initial Assessment,2026-08-13 22:30:00,Synthetic initial evaluation.,$[60].admissions[0].clinicalNotes[0]
+D,105,109,6,Discharge Summary,2026-08-17 06:00:00,Recovery documented in synthetic summary.,$[61].admissions[0].clinicalNotes[0]
+D,106,110,26,Discharge Summary,2026-09-07 21:00:00,Follow-up documented in synthetic summary.,$[61].admissions[1].clinicalNotes[0]
+D,107,111,31,Progress Note,2026-08-15 22:30:00,Recovery mentioned in synthetic progress note.,$[62].admissions[0].clinicalNotes[0]
+D,108,113,46,Initial Assessment,2026-08-16 22:30:00,Synthetic initial evaluation.,$[63].admissions[0].clinicalNotes[0]
+D,109,114,41,Discharge Summary,2026-08-20 18:00:00,Recovery documented in synthetic summary.,$[64].admissions[0].clinicalNotes[0]
+D,110,115,1,Discharge Summary,2026-08-21 07:00:00,Follow-up documented in synthetic summary.,$[65].admissions[0].clinicalNotes[0]
+D,111,116,16,Progress Note,2026-08-19 22:30:00,Recovery mentioned in synthetic progress note.,$[66].admissions[0].clinicalNotes[0]
+D,112,117,21,Initial Assessment,2026-09-08 22:30:00,Synthetic initial evaluation.,$[66].admissions[1].clinicalNotes[0]
+D,113,118,41,Discharge Summary,2026-08-24 09:00:00,Recovery documented in synthetic summary.,$[67].admissions[0].clinicalNotes[0]
+D,114,120,51,Discharge Summary,2026-08-24 18:00:00,Follow-up documented in synthetic summary.,$[68].admissions[0].clinicalNotes[0]
+D,115,121,51,Progress Note,2026-08-22 22:30:00,Recovery mentioned in synthetic progress note.,$[69].admissions[0].clinicalNotes[0]
+D,116,122,31,Initial Assessment,2026-09-11 22:30:00,Synthetic initial evaluation.,$[69].admissions[1].clinicalNotes[0]
+D,117,123,41,Discharge Summary,2026-08-28 10:00:00,Recovery documented in synthetic summary.,$[70].admissions[0].clinicalNotes[0]
+D,118,124,51,Discharge Summary,2026-09-15 05:00:00,Follow-up documented in synthetic summary.,$[70].admissions[1].clinicalNotes[0]
+D,119,125,11,Progress Note,2026-08-24 22:30:00,Recovery mentioned in synthetic progress note.,$[71].admissions[0].clinicalNotes[0]
+D,120,126,21,Initial Assessment,2026-08-25 22:30:00,Synthetic initial evaluation.,$[72].admissions[0].clinicalNotes[0]
+D,121,127,46,Discharge Summary,2026-08-31 04:00:00,Recovery documented in synthetic summary.,$[73].admissions[0].clinicalNotes[0]
+D,122,128,16,Discharge Summary,2026-09-19 04:00:00,Follow-up documented in synthetic summary.,$[73].admissions[1].clinicalNotes[0]
+D,123,129,31,Progress Note,2026-08-27 22:30:00,Recovery mentioned in synthetic progress note.,$[74].admissions[0].clinicalNotes[0]
+D,124,130,41,Initial Assessment,2026-08-28 22:30:00,Synthetic initial evaluation.,$[75].admissions[0].clinicalNotes[0]
+D,125,131,21,Discharge Summary,2026-09-22 07:00:00,Recovery documented in synthetic summary.,$[75].admissions[1].clinicalNotes[0]
+D,126,132,41,Discharge Summary,2026-08-30 13:00:00,Follow-up documented in synthetic summary.,$[76].admissions[0].clinicalNotes[0]
+D,127,133,16,Progress Note,2026-09-18 22:30:00,Recovery mentioned in synthetic progress note.,$[76].admissions[1].clinicalNotes[0]
+D,128,134,11,Initial Assessment,2026-08-30 22:30:00,Synthetic initial evaluation.,$[77].admissions[0].clinicalNotes[0]
+D,129,135,21,Discharge Summary,2026-09-23 17:00:00,Recovery documented in synthetic summary.,$[77].admissions[1].clinicalNotes[0]
+D,130,136,36,Discharge Summary,2026-09-05 09:00:00,Follow-up documented in synthetic summary.,$[78].admissions[0].clinicalNotes[0]
+D,131,137,16,Progress Note,2026-09-20 22:30:00,Recovery mentioned in synthetic progress note.,$[78].admissions[1].clinicalNotes[0]
+D,132,138,21,Initial Assessment,2026-09-01 22:30:00,Synthetic initial evaluation.,$[79].admissions[0].clinicalNotes[0]
+D,133,139,21,Discharge Summary,2026-09-25 03:00:00,Recovery documented in synthetic summary.,$[79].admissions[1].clinicalNotes[0]
+D,134,140,6,Discharge Summary,2026-09-04 08:00:00,Follow-up documented in synthetic summary.,$[80].admissions[0].clinicalNotes[0]
+D,135,141,6,Progress Note,2026-09-03 22:30:00,Recovery mentioned in synthetic progress note.,$[81].admissions[0].clinicalNotes[0]
+D,136,142,26,Initial Assessment,2026-09-23 22:30:00,Synthetic initial evaluation.,$[81].admissions[1].clinicalNotes[0]
+D,137,143,36,Discharge Summary,2026-09-07 09:00:00,Recovery documented in synthetic summary.,$[82].admissions[0].clinicalNotes[0]
+D,138,144,31,Discharge Summary,2026-09-25 14:00:00,Follow-up documented in synthetic summary.,$[82].admissions[1].clinicalNotes[0]
+D,139,145,11,Progress Note,2026-09-05 22:30:00,Recovery mentioned in synthetic progress note.,$[83].admissions[0].clinicalNotes[0]
+D,140,146,21,Initial Assessment,2026-09-25 22:30:00,Synthetic initial evaluation.,$[83].admissions[1].clinicalNotes[0]
+D,141,147,16,Discharge Summary,2026-09-08 11:00:00,Recovery documented in synthetic summary.,$[84].admissions[0].clinicalNotes[0]
+D,142,148,21,Discharge Summary,2026-09-28 09:00:00,Follow-up documented in synthetic summary.,$[84].admissions[1].clinicalNotes[0]
+D,143,149,26,Progress Note,2026-09-07 22:30:00,Recovery mentioned in synthetic progress note.,$[85].admissions[0].clinicalNotes[0]
+D,144,150,1,Initial Assessment,2026-09-08 22:30:00,Synthetic initial evaluation.,$[86].admissions[0].clinicalNotes[0]
+D,145,151,1,Discharge Summary,2026-09-12 17:00:00,Recovery documented in synthetic summary.,$[87].admissions[0].clinicalNotes[0]
+D,146,152,46,Discharge Summary,2026-10-01 23:00:00,Follow-up documented in synthetic summary.,$[87].admissions[1].clinicalNotes[0]
+D,147,153,11,Progress Note,2026-09-10 22:30:00,Recovery mentioned in synthetic progress note.,$[88].admissions[0].clinicalNotes[0]
+D,148,154,46,Initial Assessment,2026-09-30 22:30:00,Synthetic initial evaluation.,$[88].admissions[1].clinicalNotes[0]
+D,149,155,26,Discharge Summary,2026-09-12 20:00:00,Recovery documented in synthetic summary.,$[89].admissions[0].clinicalNotes[0]
+D,150,156,46,Discharge Summary,2026-09-13 10:00:00,Follow-up documented in synthetic summary.,$[90].admissions[0].clinicalNotes[0]
+D,151,157,36,Progress Note,2026-10-02 22:30:00,Recovery mentioned in synthetic progress note.,$[90].admissions[1].clinicalNotes[0]
+D,152,158,46,Initial Assessment,2026-09-13 22:30:00,Synthetic initial evaluation.,$[91].admissions[0].clinicalNotes[0]
+D,153,159,16,Discharge Summary,2026-09-19 15:00:00,Recovery documented in synthetic summary.,$[92].admissions[0].clinicalNotes[0]
+D,154,160,26,Discharge Summary,2026-10-06 10:00:00,Follow-up documented in synthetic summary.,$[92].admissions[1].clinicalNotes[0]
+D,155,161,16,Progress Note,2026-09-15 22:30:00,Recovery mentioned in synthetic progress note.,$[93].admissions[0].clinicalNotes[0]
+D,156,162,51,Initial Assessment,2026-10-05 21:30:00,Synthetic initial evaluation.,$[93].admissions[1].clinicalNotes[0]
+D,157,164,16,Discharge Summary,2026-09-22 13:00:00,Recovery documented in synthetic summary.,$[95].admissions[0].clinicalNotes[0]
+D,158,165,21,Discharge Summary,2026-10-11 11:00:00,Follow-up documented in synthetic summary.,$[95].admissions[1].clinicalNotes[0]
+D,159,166,46,Progress Note,2026-09-18 22:30:00,Recovery mentioned in synthetic progress note.,$[96].admissions[0].clinicalNotes[0]
+D,160,167,1,Initial Assessment,2026-10-08 21:30:00,Synthetic initial evaluation.,$[96].admissions[1].clinicalNotes[0]
+D,161,168,41,Discharge Summary,2026-09-20 07:00:00,Recovery documented in synthetic summary.,$[97].admissions[0].clinicalNotes[0]
+D,162,169,16,Discharge Summary,2026-09-21 16:00:00,Follow-up documented in synthetic summary.,$[98].admissions[0].clinicalNotes[0]
+D,163,170,46,Progress Note,2026-10-10 21:30:00,Recovery mentioned in synthetic progress note.,$[98].admissions[1].clinicalNotes[0]
+D,164,171,31,Initial Assessment,2026-06-13 22:30:00,Synthetic initial evaluation.,$[99].admissions[0].clinicalNotes[0]
+D,165,172,41,Discharge Summary,2026-06-19 00:00:00,Recovery documented in synthetic summary.,$[100].admissions[0].clinicalNotes[0]
+D,166,173,46,Discharge Summary,2026-07-09 17:00:00,Follow-up documented in synthetic summary.,$[100].admissions[1].clinicalNotes[0]
+D,167,174,41,Progress Note,2026-06-15 22:30:00,Recovery mentioned in synthetic progress note.,$[101].admissions[0].clinicalNotes[0]
+D,168,175,26,Initial Assessment,2026-07-05 22:30:00,Synthetic initial evaluation.,$[101].admissions[1].clinicalNotes[0]
+D,169,176,51,Discharge Summary,2026-06-20 05:00:00,Recovery documented in synthetic summary.,$[102].admissions[0].clinicalNotes[0]
+D,170,177,36,Discharge Summary,2026-07-09 14:00:00,Follow-up documented in synthetic summary.,$[102].admissions[1].clinicalNotes[0]
+D,171,178,16,Progress Note,2026-06-17 22:30:00,Recovery mentioned in synthetic progress note.,$[103].admissions[0].clinicalNotes[0]
+D,172,179,51,Initial Assessment,2026-06-18 22:30:00,Synthetic initial evaluation.,$[104].admissions[0].clinicalNotes[0]
+D,173,180,11,Discharge Summary,2026-06-20 16:00:00,Recovery documented in synthetic summary.,$[105].admissions[0].clinicalNotes[0]
+D,174,181,31,Discharge Summary,2026-07-12 23:00:00,Follow-up documented in synthetic summary.,$[105].admissions[1].clinicalNotes[0]
+D,175,182,21,Progress Note,2026-06-20 22:30:00,Recovery mentioned in synthetic progress note.,$[106].admissions[0].clinicalNotes[0]
+D,176,183,21,Initial Assessment,2026-07-10 22:30:00,Synthetic initial evaluation.,$[106].admissions[1].clinicalNotes[0]
+D,177,184,41,Discharge Summary,2026-06-25 11:00:00,Recovery documented in synthetic summary.,$[107].admissions[0].clinicalNotes[0]
+D,178,185,51,Discharge Summary,2026-07-14 05:00:00,Follow-up documented in synthetic summary.,$[107].admissions[1].clinicalNotes[0]
+D,179,186,1,Progress Note,2026-06-22 22:30:00,Recovery mentioned in synthetic progress note.,$[108].admissions[0].clinicalNotes[0]
+D,180,187,51,Initial Assessment,2026-06-23 22:30:00,Synthetic initial evaluation.,$[109].admissions[0].clinicalNotes[0]
+D,181,188,41,Discharge Summary,2026-07-15 02:00:00,Recovery documented in synthetic summary.,$[109].admissions[1].clinicalNotes[0]
+D,182,189,11,Discharge Summary,2026-06-29 11:00:00,Follow-up documented in synthetic summary.,$[110].admissions[0].clinicalNotes[0]
+D,183,190,36,Progress Note,2026-06-25 22:30:00,Recovery mentioned in synthetic progress note.,$[111].admissions[0].clinicalNotes[0]
+D,184,191,36,Initial Assessment,2026-07-15 22:30:00,Synthetic initial evaluation.,$[111].admissions[1].clinicalNotes[0]
+D,185,192,26,Discharge Summary,2026-06-30 07:00:00,Recovery documented in synthetic summary.,$[112].admissions[0].clinicalNotes[0]
+D,186,193,21,Discharge Summary,2026-07-19 05:00:00,Follow-up documented in synthetic summary.,$[112].admissions[1].clinicalNotes[0]
+D,187,194,41,Progress Note,2026-06-27 22:30:00,Recovery mentioned in synthetic progress note.,$[113].admissions[0].clinicalNotes[0]
+D,188,195,6,Initial Assessment,2026-06-28 22:30:00,Synthetic initial evaluation.,$[114].admissions[0].clinicalNotes[0]
+D,189,196,51,Discharge Summary,2026-07-19 19:00:00,Recovery documented in synthetic summary.,$[114].admissions[1].clinicalNotes[0]
+D,190,197,21,Discharge Summary,2026-06-30 06:00:00,Follow-up documented in synthetic summary.,$[115].admissions[0].clinicalNotes[0]
+D,191,199,16,Progress Note,2026-06-30 22:30:00,Recovery mentioned in synthetic progress note.,$[116].admissions[0].clinicalNotes[0]
+D,192,200,21,Initial Assessment,2026-07-01 22:30:00,Synthetic initial evaluation.,$[117].admissions[0].clinicalNotes[0]
+D,193,201,16,Discharge Summary,2026-07-24 19:00:00,Recovery documented in synthetic summary.,$[117].admissions[1].clinicalNotes[0]
+D,194,202,36,Discharge Summary,2026-07-04 10:00:00,Follow-up documented in synthetic summary.,$[118].admissions[0].clinicalNotes[0]
+D,195,203,46,Progress Note,2026-07-22 22:30:00,Recovery mentioned in synthetic progress note.,$[118].admissions[1].clinicalNotes[0]
+D,196,204,31,Initial Assessment,2026-07-03 22:30:00,Synthetic initial evaluation.,$[119].admissions[0].clinicalNotes[0]
+D,197,205,26,Discharge Summary,2026-07-26 04:00:00,Recovery documented in synthetic summary.,$[119].admissions[1].clinicalNotes[0]
+D,198,206,26,Discharge Summary,2026-07-06 06:00:00,Follow-up documented in synthetic summary.,$[120].admissions[0].clinicalNotes[0]
+D,199,207,16,Progress Note,2026-07-24 22:30:00,Recovery mentioned in synthetic progress note.,$[120].admissions[1].clinicalNotes[0]
+D,200,208,1,Initial Assessment,2026-07-05 22:30:00,Synthetic initial evaluation.,$[121].admissions[0].clinicalNotes[0]
+D,201,210,16,Discharge Summary,2026-07-11 04:00:00,Recovery documented in synthetic summary.,$[123].admissions[0].clinicalNotes[0]
+D,203,213,41,Progress Note,2026-07-09 22:30:00,Recovery mentioned in synthetic progress note.,$[125].admissions[0].clinicalNotes[0]
+D,204,214,26,Initial Assessment,2026-07-29 22:30:00,Synthetic initial evaluation.,$[125].admissions[1].clinicalNotes[0]
+D,205,215,11,Discharge Summary,2026-07-15 18:00:00,Recovery documented in synthetic summary.,$[126].admissions[0].clinicalNotes[0]
+D,206,216,31,Discharge Summary,2026-07-31 05:00:00,Follow-up documented in synthetic summary.,$[126].admissions[1].clinicalNotes[0]
+D,207,217,31,Progress Note,2026-07-11 22:30:00,Recovery mentioned in synthetic progress note.,$[127].admissions[0].clinicalNotes[0]
+D,208,218,6,Initial Assessment,2026-07-31 22:30:00,Synthetic initial evaluation.,$[127].admissions[1].clinicalNotes[0]
+D,209,219,11,Discharge Summary,2026-07-16 03:00:00,Recovery documented in synthetic summary.,$[128].admissions[0].clinicalNotes[0]
+D,210,220,16,Discharge Summary,2026-08-03 19:00:00,Follow-up documented in synthetic summary.,$[128].admissions[1].clinicalNotes[0]
+D,211,221,36,Progress Note,2026-07-13 22:30:00,Recovery mentioned in synthetic progress note.,$[129].admissions[0].clinicalNotes[0]
+D,212,222,36,Initial Assessment,2026-08-02 22:30:00,Synthetic initial evaluation.,$[129].admissions[1].clinicalNotes[0]
+D,213,223,46,Discharge Summary,2026-07-17 09:00:00,Recovery documented in synthetic summary.,$[130].admissions[0].clinicalNotes[0]
+D,214,225,1,Discharge Summary,2026-07-20 20:00:00,Follow-up documented in synthetic summary.,$[131].admissions[0].clinicalNotes[0]
+D,215,226,41,Progress Note,2026-08-04 22:30:00,Recovery mentioned in synthetic progress note.,$[131].admissions[1].clinicalNotes[0]
+D,216,227,36,Initial Assessment,2026-07-16 22:30:00,Synthetic initial evaluation.,$[132].admissions[0].clinicalNotes[0]
+D,217,228,11,Discharge Summary,2026-07-19 17:00:00,Recovery documented in synthetic summary.,$[133].admissions[0].clinicalNotes[0]
+D,218,229,21,Discharge Summary,2026-08-10 00:00:00,Follow-up documented in synthetic summary.,$[133].admissions[1].clinicalNotes[0]
+D,219,230,31,Progress Note,2026-07-18 22:30:00,Recovery mentioned in synthetic progress note.,$[134].admissions[0].clinicalNotes[0]
+D,220,231,21,Initial Assessment,2026-07-19 22:30:00,Synthetic initial evaluation.,$[135].admissions[0].clinicalNotes[0]
+D,221,232,31,Discharge Summary,2026-08-10 22:00:00,Recovery documented in synthetic summary.,$[135].admissions[1].clinicalNotes[0]
+D,222,233,31,Discharge Summary,2026-07-23 13:00:00,Follow-up documented in synthetic summary.,$[136].admissions[0].clinicalNotes[0]
+D,223,234,6,Progress Note,2026-07-21 22:30:00,Recovery mentioned in synthetic progress note.,$[137].admissions[0].clinicalNotes[0]
+D,224,235,1,Initial Assessment,2026-08-10 22:30:00,Synthetic initial evaluation.,$[137].admissions[1].clinicalNotes[0]
+D,225,236,1,Discharge Summary,2026-07-26 23:00:00,Recovery documented in synthetic summary.,$[138].admissions[0].clinicalNotes[0]
+D,226,237,41,Discharge Summary,2026-08-15 15:00:00,Follow-up documented in synthetic summary.,$[138].admissions[1].clinicalNotes[0]
+D,227,238,16,Progress Note,2026-07-23 22:30:00,Recovery mentioned in synthetic progress note.,$[139].admissions[0].clinicalNotes[0]
+D,228,239,6,Initial Assessment,2026-08-12 22:30:00,Synthetic initial evaluation.,$[139].admissions[1].clinicalNotes[0]
+D,229,240,46,Discharge Summary,2026-07-28 00:00:00,Recovery documented in synthetic summary.,$[140].admissions[0].clinicalNotes[0]
+D,230,241,6,Discharge Summary,2026-08-18 14:00:00,Follow-up documented in synthetic summary.,$[140].admissions[1].clinicalNotes[0]
+D,231,242,6,Progress Note,2026-07-25 22:30:00,Recovery mentioned in synthetic progress note.,$[141].admissions[0].clinicalNotes[0]
+D,232,243,21,Initial Assessment,2026-07-26 22:30:00,Synthetic initial evaluation.,$[142].admissions[0].clinicalNotes[0]
+D,233,244,26,Discharge Summary,2026-08-19 20:00:00,Recovery documented in synthetic summary.,$[142].admissions[1].clinicalNotes[0]
+D,234,245,1,Discharge Summary,2026-07-28 06:00:00,Follow-up documented in synthetic summary.,$[143].admissions[0].clinicalNotes[0]
+D,235,246,6,Progress Note,2026-08-16 22:30:00,Recovery mentioned in synthetic progress note.,$[143].admissions[1].clinicalNotes[0]
+D,236,247,36,Initial Assessment,2026-07-28 22:30:00,Synthetic initial evaluation.,$[144].admissions[0].clinicalNotes[0]
+D,237,248,41,Discharge Summary,2026-08-01 01:00:00,Recovery documented in synthetic summary.,$[145].admissions[0].clinicalNotes[0]
+D,238,249,1,Discharge Summary,2026-08-01 06:00:00,Follow-up documented in synthetic summary.,$[146].admissions[0].clinicalNotes[0]
+D,239,250,1,Progress Note,2026-08-19 22:30:00,Recovery mentioned in synthetic progress note.,$[146].admissions[1].clinicalNotes[0]
+D,240,251,1,Initial Assessment,2026-07-31 22:30:00,Synthetic initial evaluation.,$[147].admissions[0].clinicalNotes[0]
+D,241,252,1,Discharge Summary,2026-08-21 09:00:00,Recovery documented in synthetic summary.,$[147].admissions[1].clinicalNotes[0]
+D,242,253,36,Discharge Summary,2026-08-06 21:00:00,Follow-up documented in synthetic summary.,$[148].admissions[0].clinicalNotes[0]
+D,243,254,16,Progress Note,2026-08-02 22:30:00,Recovery mentioned in synthetic progress note.,$[149].admissions[0].clinicalNotes[0]
+D,245,256,6,Discharge Summary,2026-08-28 22:00:00,Recovery documented in synthetic summary.,$[150].admissions[1].clinicalNotes[0]
+D,246,257,46,Discharge Summary,2026-08-05 03:00:00,Follow-up documented in synthetic summary.,$[151].admissions[0].clinicalNotes[0]
+D,247,258,46,Progress Note,2026-08-24 22:30:00,Recovery mentioned in synthetic progress note.,$[151].admissions[1].clinicalNotes[0]
+D,248,259,41,Initial Assessment,2026-08-05 22:30:00,Synthetic initial evaluation.,$[152].admissions[0].clinicalNotes[0]
+D,249,260,46,Discharge Summary,2026-08-11 08:00:00,Recovery documented in synthetic summary.,$[153].admissions[0].clinicalNotes[0]
+D,250,261,11,Discharge Summary,2026-08-31 10:00:00,Follow-up documented in synthetic summary.,$[153].admissions[1].clinicalNotes[0]
+D,251,262,41,Progress Note,2026-08-07 22:30:00,Recovery mentioned in synthetic progress note.,$[154].admissions[0].clinicalNotes[0]
+D,252,263,26,Initial Assessment,2026-08-27 22:30:00,Synthetic initial evaluation.,$[154].admissions[1].clinicalNotes[0]
+D,253,264,11,Discharge Summary,2026-08-09 19:00:00,Recovery documented in synthetic summary.,$[155].admissions[0].clinicalNotes[0]
+D,254,265,41,Discharge Summary,2026-08-29 14:00:00,Follow-up documented in synthetic summary.,$[155].admissions[1].clinicalNotes[0]
+D,255,266,21,Progress Note,2026-08-09 22:30:00,Recovery mentioned in synthetic progress note.,$[156].admissions[0].clinicalNotes[0]
+D,256,267,26,Initial Assessment,2026-08-29 22:30:00,Synthetic initial evaluation.,$[156].admissions[1].clinicalNotes[0]
+D,257,268,21,Discharge Summary,2026-08-11 17:00:00,Recovery documented in synthetic summary.,$[157].admissions[0].clinicalNotes[0]
+D,258,269,41,Discharge Summary,2026-08-14 23:00:00,Follow-up documented in synthetic summary.,$[158].admissions[0].clinicalNotes[0]
+D,259,270,21,Progress Note,2026-08-31 22:30:00,Recovery mentioned in synthetic progress note.,$[158].admissions[1].clinicalNotes[0]
+D,260,271,41,Initial Assessment,2026-08-12 22:30:00,Synthetic initial evaluation.,$[159].admissions[0].clinicalNotes[0]
+D,261,272,46,Discharge Summary,2026-09-03 06:00:00,Recovery documented in synthetic summary.,$[159].admissions[1].clinicalNotes[0]
+D,262,273,16,Discharge Summary,2026-08-18 07:00:00,Follow-up documented in synthetic summary.,$[160].admissions[0].clinicalNotes[0]
+D,263,274,21,Progress Note,2026-08-14 22:30:00,Recovery mentioned in synthetic progress note.,$[161].admissions[0].clinicalNotes[0]
+D,264,275,21,Initial Assessment,2026-09-03 22:30:00,Synthetic initial evaluation.,$[161].admissions[1].clinicalNotes[0]
+D,265,276,36,Discharge Summary,2026-08-16 18:00:00,Recovery documented in synthetic summary.,$[162].admissions[0].clinicalNotes[0]
+D,266,277,11,Discharge Summary,2026-09-05 03:00:00,Follow-up documented in synthetic summary.,$[162].admissions[1].clinicalNotes[0]
+D,267,278,36,Progress Note,2026-08-16 22:30:00,Recovery mentioned in synthetic progress note.,$[163].admissions[0].clinicalNotes[0]
+D,268,279,31,Initial Assessment,2026-09-05 22:30:00,Synthetic initial evaluation.,$[163].admissions[1].clinicalNotes[0]
+D,269,280,11,Discharge Summary,2026-08-18 13:00:00,Recovery documented in synthetic summary.,$[164].admissions[0].clinicalNotes[0]
+D,270,281,41,Discharge Summary,2026-09-07 21:00:00,Follow-up documented in synthetic summary.,$[164].admissions[1].clinicalNotes[0]
+D,271,282,31,Progress Note,2026-08-18 22:30:00,Recovery mentioned in synthetic progress note.,$[165].admissions[0].clinicalNotes[0]
+D,273,284,11,Discharge Summary,2026-08-24 08:00:00,Recovery documented in synthetic summary.,$[166].admissions[0].clinicalNotes[0]
+D,274,286,41,Discharge Summary,2026-08-21 11:00:00,Follow-up documented in synthetic summary.,$[167].admissions[0].clinicalNotes[0]
+D,275,287,51,Progress Note,2026-09-09 22:30:00,Recovery mentioned in synthetic progress note.,$[167].admissions[1].clinicalNotes[0]
+D,276,288,16,Initial Assessment,2026-08-21 22:30:00,Synthetic initial evaluation.,$[168].admissions[0].clinicalNotes[0]
+D,277,289,6,Discharge Summary,2026-08-23 23:00:00,Recovery documented in synthetic summary.,$[169].admissions[0].clinicalNotes[0]
+D,278,290,36,Discharge Summary,2026-09-14 13:00:00,Follow-up documented in synthetic summary.,$[169].admissions[1].clinicalNotes[0]
+D,279,291,11,Progress Note,2026-08-23 22:30:00,Recovery mentioned in synthetic progress note.,$[170].admissions[0].clinicalNotes[0]
+D,280,292,36,Initial Assessment,2026-09-12 22:30:00,Synthetic initial evaluation.,$[170].admissions[1].clinicalNotes[0]
+D,281,293,46,Discharge Summary,2026-08-28 19:00:00,Recovery documented in synthetic summary.,$[171].admissions[0].clinicalNotes[0]
+D,282,294,21,Discharge Summary,2026-09-15 08:00:00,Follow-up documented in synthetic summary.,$[171].admissions[1].clinicalNotes[0]
+D,283,295,41,Progress Note,2026-08-25 22:30:00,Recovery mentioned in synthetic progress note.,$[172].admissions[0].clinicalNotes[0]
+D,284,296,6,Initial Assessment,2026-08-26 22:30:00,Synthetic initial evaluation.,$[173].admissions[0].clinicalNotes[0]
+D,285,297,26,Discharge Summary,2026-09-18 17:00:00,Recovery documented in synthetic summary.,$[173].admissions[1].clinicalNotes[0]
+D,286,298,26,Discharge Summary,2026-08-30 06:00:00,Follow-up documented in synthetic summary.,$[174].admissions[0].clinicalNotes[0]
+D,287,299,36,Progress Note,2026-09-16 22:30:00,Recovery mentioned in synthetic progress note.,$[174].admissions[1].clinicalNotes[0]
+D,288,300,1,Initial Assessment,2026-08-28 22:30:00,Synthetic initial evaluation.,$[175].admissions[0].clinicalNotes[0]
+D,289,301,31,Discharge Summary,2026-09-20 10:00:00,Recovery documented in synthetic summary.,$[175].admissions[1].clinicalNotes[0]
+D,290,302,31,Discharge Summary,2026-09-03 03:00:00,Follow-up documented in synthetic summary.,$[176].admissions[0].clinicalNotes[0]
+D,291,303,41,Progress Note,2026-09-18 22:30:00,Recovery mentioned in synthetic progress note.,$[176].admissions[1].clinicalNotes[0]
+D,292,305,26,Initial Assessment,2026-08-31 22:30:00,Synthetic initial evaluation.,$[178].admissions[0].clinicalNotes[0]
+D,294,307,46,Discharge Summary,2026-09-02 19:00:00,Follow-up documented in synthetic summary.,$[179].admissions[0].clinicalNotes[0]
+D,295,308,51,Progress Note,2026-09-21 22:30:00,Recovery mentioned in synthetic progress note.,$[179].admissions[1].clinicalNotes[0]
+D,296,309,26,Initial Assessment,2026-09-02 22:30:00,Synthetic initial evaluation.,$[180].admissions[0].clinicalNotes[0]
+D,297,310,31,Discharge Summary,2026-09-04 17:00:00,Recovery documented in synthetic summary.,$[181].admissions[0].clinicalNotes[0]
+D,298,311,1,Discharge Summary,2026-09-28 13:00:00,Follow-up documented in synthetic summary.,$[181].admissions[1].clinicalNotes[0]
+D,299,312,11,Progress Note,2026-09-04 22:30:00,Recovery mentioned in synthetic progress note.,$[182].admissions[0].clinicalNotes[0]
+D,300,314,26,Initial Assessment,2026-09-05 22:30:00,Synthetic initial evaluation.,$[183].admissions[0].clinicalNotes[0]
+D,302,316,11,Discharge Summary,2026-09-08 21:00:00,Follow-up documented in synthetic summary.,$[184].admissions[0].clinicalNotes[0]
+D,303,317,1,Progress Note,2026-09-26 22:30:00,Recovery mentioned in synthetic progress note.,$[184].admissions[1].clinicalNotes[0]
+D,304,318,51,Initial Assessment,2026-09-07 22:30:00,Synthetic initial evaluation.,$[185].admissions[0].clinicalNotes[0]
+D,305,319,11,Discharge Summary,2026-09-12 15:00:00,Recovery documented in synthetic summary.,$[186].admissions[0].clinicalNotes[0]
+D,306,321,26,Discharge Summary,2026-09-14 08:00:00,Follow-up documented in synthetic summary.,$[187].admissions[0].clinicalNotes[0]
+D,307,322,21,Progress Note,2026-09-29 22:30:00,Recovery mentioned in synthetic progress note.,$[187].admissions[1].clinicalNotes[0]
+D,308,323,21,Initial Assessment,2026-09-10 22:30:00,Synthetic initial evaluation.,$[188].admissions[0].clinicalNotes[0]
+D,309,324,21,Discharge Summary,2026-10-04 02:00:00,Recovery documented in synthetic summary.,$[188].admissions[1].clinicalNotes[0]
+D,310,325,16,Discharge Summary,2026-09-14 23:00:00,Follow-up documented in synthetic summary.,$[189].admissions[0].clinicalNotes[0]
+D,311,326,26,Progress Note,2026-10-01 22:30:00,Recovery mentioned in synthetic progress note.,$[189].admissions[1].clinicalNotes[0]
+D,312,327,11,Initial Assessment,2026-09-12 22:30:00,Synthetic initial evaluation.,$[190].admissions[0].clinicalNotes[0]
+D,313,328,21,Discharge Summary,2026-10-07 12:00:00,Recovery documented in synthetic summary.,$[190].admissions[1].clinicalNotes[0]
+D,314,329,26,Discharge Summary,2026-09-15 17:00:00,Follow-up documented in synthetic summary.,$[191].admissions[0].clinicalNotes[0]
+D,315,330,41,Progress Note,2026-10-03 21:30:00,Recovery mentioned in synthetic progress note.,$[191].admissions[1].clinicalNotes[0]
+D,316,331,31,Initial Assessment,2026-09-14 22:30:00,Synthetic initial evaluation.,$[192].admissions[0].clinicalNotes[0]
+D,317,332,11,Discharge Summary,2026-10-06 03:00:00,Recovery documented in synthetic summary.,$[192].admissions[1].clinicalNotes[0]
+D,318,333,11,Discharge Summary,2026-09-19 02:00:00,Follow-up documented in synthetic summary.,$[193].admissions[0].clinicalNotes[0]
+D,319,334,6,Progress Note,2026-09-16 22:30:00,Recovery mentioned in synthetic progress note.,$[194].admissions[0].clinicalNotes[0]
+D,320,335,31,Initial Assessment,2026-09-17 22:30:00,Synthetic initial evaluation.,$[195].admissions[0].clinicalNotes[0]
+D,321,336,16,Discharge Summary,2026-10-08 02:00:00,Recovery documented in synthetic summary.,$[195].admissions[1].clinicalNotes[0]
+D,322,337,1,Discharge Summary,2026-09-19 16:00:00,Follow-up documented in synthetic summary.,$[196].admissions[0].clinicalNotes[0]
+D,323,338,21,Progress Note,2026-10-08 21:30:00,Recovery mentioned in synthetic progress note.,$[196].admissions[1].clinicalNotes[0]
+D,324,339,31,Initial Assessment,2026-09-19 22:30:00,Synthetic initial evaluation.,$[197].admissions[0].clinicalNotes[0]
+D,325,340,11,Discharge Summary,2026-10-12 03:00:00,Recovery documented in synthetic summary.,$[197].admissions[1].clinicalNotes[0]
+D,326,341,16,Discharge Summary,2026-09-25 08:00:00,Follow-up documented in synthetic summary.,$[198].admissions[0].clinicalNotes[0]
+D,328,343,41,Initial Assessment,2026-06-13 22:30:00,Synthetic initial evaluation.,$[199].admissions[0].clinicalNotes[0]
+D,329,345,41,Discharge Summary,2026-06-15 20:00:00,Recovery documented in synthetic summary.,$[200].admissions[0].clinicalNotes[0]
+D,330,346,11,Discharge Summary,2026-06-20 08:00:00,Follow-up documented in synthetic summary.,$[201].admissions[0].clinicalNotes[0]
+D,331,347,21,Progress Note,2026-06-16 22:30:00,Recovery mentioned in synthetic progress note.,$[202].admissions[0].clinicalNotes[0]
+D,332,348,11,Initial Assessment,2026-07-06 22:30:00,Synthetic initial evaluation.,$[202].admissions[1].clinicalNotes[0]
+D,333,349,1,Discharge Summary,2026-06-21 15:00:00,Recovery documented in synthetic summary.,$[203].admissions[0].clinicalNotes[0]
+D,334,350,31,Discharge Summary,2026-07-10 09:00:00,Follow-up documented in synthetic summary.,$[203].admissions[1].clinicalNotes[0]
+D,335,351,6,Progress Note,2026-06-18 22:30:00,Recovery mentioned in synthetic progress note.,$[204].admissions[0].clinicalNotes[0]
+D,336,352,11,Initial Assessment,2026-06-19 22:30:00,Synthetic initial evaluation.,$[205].admissions[0].clinicalNotes[0]
+D,337,353,51,Discharge Summary,2026-07-12 16:00:00,Recovery documented in synthetic summary.,$[205].admissions[1].clinicalNotes[0]
+D,338,354,1,Discharge Summary,2026-06-23 09:00:00,Follow-up documented in synthetic summary.,$[206].admissions[0].clinicalNotes[0]
+D,339,355,21,Progress Note,2026-06-21 22:30:00,Recovery mentioned in synthetic progress note.,$[207].admissions[0].clinicalNotes[0]
+D,340,356,41,Initial Assessment,2026-06-22 22:30:00,Synthetic initial evaluation.,$[208].admissions[0].clinicalNotes[0]
+D,341,357,11,Discharge Summary,2026-06-26 20:00:00,Recovery documented in synthetic summary.,$[209].admissions[0].clinicalNotes[0]
+D,342,358,41,Discharge Summary,2026-07-14 11:00:00,Follow-up documented in synthetic summary.,$[209].admissions[1].clinicalNotes[0]
+D,343,359,36,Progress Note,2026-06-24 22:30:00,Recovery mentioned in synthetic progress note.,$[210].admissions[0].clinicalNotes[0]
+D,344,360,36,Initial Assessment,2026-07-14 22:30:00,Synthetic initial evaluation.,$[210].admissions[1].clinicalNotes[0]
+D,345,361,16,Discharge Summary,2026-06-29 23:00:00,Recovery documented in synthetic summary.,$[211].admissions[0].clinicalNotes[0]
+D,346,362,1,Discharge Summary,2026-07-19 08:00:00,Follow-up documented in synthetic summary.,$[211].admissions[1].clinicalNotes[0]
+D,347,363,36,Progress Note,2026-06-26 22:30:00,Recovery mentioned in synthetic progress note.,$[212].admissions[0].clinicalNotes[0]
+D,348,364,26,Initial Assessment,2026-07-16 22:30:00,Synthetic initial evaluation.,$[212].admissions[1].clinicalNotes[0]
+D,349,365,21,Discharge Summary,2026-06-29 05:00:00,Recovery documented in synthetic summary.,$[213].admissions[0].clinicalNotes[0]
+D,350,366,36,Discharge Summary,2026-07-02 20:00:00,Follow-up documented in synthetic summary.,$[214].admissions[0].clinicalNotes[0]
+D,351,367,36,Progress Note,2026-06-29 22:30:00,Recovery mentioned in synthetic progress note.,$[215].admissions[0].clinicalNotes[0]
+D,352,368,46,Initial Assessment,2026-07-19 22:30:00,Synthetic initial evaluation.,$[215].admissions[1].clinicalNotes[0]
+D,353,369,11,Discharge Summary,2026-07-05 17:00:00,Recovery documented in synthetic summary.,$[216].admissions[0].clinicalNotes[0]
+D,354,370,16,Discharge Summary,2026-07-03 10:00:00,Follow-up documented in synthetic summary.,$[217].admissions[0].clinicalNotes[0]
+D,355,371,21,Progress Note,2026-07-02 22:30:00,Recovery mentioned in synthetic progress note.,$[218].admissions[0].clinicalNotes[0]
+D,356,372,41,Initial Assessment,2026-07-22 22:30:00,Synthetic initial evaluation.,$[218].admissions[1].clinicalNotes[0]
+D,357,373,36,Discharge Summary,2026-07-08 12:00:00,Recovery documented in synthetic summary.,$[219].admissions[0].clinicalNotes[0]
+D,358,374,36,Discharge Summary,2026-07-24 18:00:00,Follow-up documented in synthetic summary.,$[219].admissions[1].clinicalNotes[0]
+D,359,375,16,Progress Note,2026-07-04 22:30:00,Recovery mentioned in synthetic progress note.,$[220].admissions[0].clinicalNotes[0]
+D,360,376,41,Initial Assessment,2026-07-24 22:30:00,Synthetic initial evaluation.,$[220].admissions[1].clinicalNotes[0]
+D,361,377,11,Discharge Summary,2026-07-10 02:00:00,Recovery documented in synthetic summary.,$[221].admissions[0].clinicalNotes[0]
+D,362,378,36,Discharge Summary,2026-07-26 07:00:00,Follow-up documented in synthetic summary.,$[221].admissions[1].clinicalNotes[0]
+D,363,379,6,Progress Note,2026-07-06 22:30:00,Recovery mentioned in synthetic progress note.,$[222].admissions[0].clinicalNotes[0]
+D,364,380,36,Initial Assessment,2026-07-07 22:30:00,Synthetic initial evaluation.,$[223].admissions[0].clinicalNotes[0]
+D,365,381,21,Discharge Summary,2026-07-30 04:00:00,Recovery documented in synthetic summary.,$[223].admissions[1].clinicalNotes[0]
+D,366,382,51,Discharge Summary,2026-07-11 02:00:00,Follow-up documented in synthetic summary.,$[224].admissions[0].clinicalNotes[0]
+D,367,383,1,Progress Note,2026-07-28 22:30:00,Recovery mentioned in synthetic progress note.,$[224].admissions[1].clinicalNotes[0]
+D,368,384,31,Initial Assessment,2026-07-09 22:30:00,Synthetic initial evaluation.,$[225].admissions[0].clinicalNotes[0]
+D,369,385,1,Discharge Summary,2026-08-02 09:00:00,Recovery documented in synthetic summary.,$[225].admissions[1].clinicalNotes[0]
+D,370,386,1,Discharge Summary,2026-07-11 23:00:00,Follow-up documented in synthetic summary.,$[226].admissions[0].clinicalNotes[0]
+D,371,387,26,Progress Note,2026-07-30 22:30:00,Recovery mentioned in synthetic progress note.,$[226].admissions[1].clinicalNotes[0]
+D,372,388,16,Initial Assessment,2026-07-11 22:30:00,Synthetic initial evaluation.,$[227].admissions[0].clinicalNotes[0]
+D,373,389,36,Discharge Summary,2026-07-15 00:00:00,Recovery documented in synthetic summary.,$[228].admissions[0].clinicalNotes[0]
+D,374,390,21,Discharge Summary,2026-07-16 02:00:00,Follow-up documented in synthetic summary.,$[229].admissions[0].clinicalNotes[0]
+D,375,391,6,Progress Note,2026-08-02 22:30:00,Recovery mentioned in synthetic progress note.,$[229].admissions[1].clinicalNotes[0]
+D,376,393,11,Initial Assessment,2026-07-15 22:30:00,Synthetic initial evaluation.,$[231].admissions[0].clinicalNotes[0]
+D,377,394,6,Discharge Summary,2026-07-19 13:00:00,Recovery documented in synthetic summary.,$[232].admissions[0].clinicalNotes[0]
+D,378,395,41,Discharge Summary,2026-07-20 12:00:00,Follow-up documented in synthetic summary.,$[233].admissions[0].clinicalNotes[0]
+D,379,396,1,Progress Note,2026-08-06 22:30:00,Recovery mentioned in synthetic progress note.,$[233].admissions[1].clinicalNotes[0]
+D,380,397,6,Initial Assessment,2026-07-18 22:30:00,Synthetic initial evaluation.,$[234].admissions[0].clinicalNotes[0]
+D,381,398,6,Discharge Summary,2026-08-10 21:00:00,Recovery documented in synthetic summary.,$[234].admissions[1].clinicalNotes[0]
+D,382,399,41,Discharge Summary,2026-07-24 21:00:00,Follow-up documented in synthetic summary.,$[235].admissions[0].clinicalNotes[0]
+D,383,400,21,Progress Note,2026-07-20 22:30:00,Recovery mentioned in synthetic progress note.,$[236].admissions[0].clinicalNotes[0]
+D,384,401,1,Initial Assessment,2026-07-21 22:30:00,Synthetic initial evaluation.,$[237].admissions[0].clinicalNotes[0]
+D,385,403,6,Discharge Summary,2026-07-25 12:00:00,Recovery documented in synthetic summary.,$[238].admissions[0].clinicalNotes[0]
+D,386,404,41,Discharge Summary,2026-08-12 04:00:00,Follow-up documented in synthetic summary.,$[238].admissions[1].clinicalNotes[0]
+D,387,405,21,Progress Note,2026-07-23 22:30:00,Recovery mentioned in synthetic progress note.,$[239].admissions[0].clinicalNotes[0]
+D,388,407,51,Initial Assessment,2026-07-24 22:30:00,Synthetic initial evaluation.,$[240].admissions[0].clinicalNotes[0]
+D,389,408,41,Discharge Summary,2026-08-17 12:00:00,Recovery documented in synthetic summary.,$[240].admissions[1].clinicalNotes[0]
+D,390,409,16,Discharge Summary,2026-07-29 19:00:00,Follow-up documented in synthetic summary.,$[241].admissions[0].clinicalNotes[0]
+D,391,410,31,Progress Note,2026-08-14 22:30:00,Recovery mentioned in synthetic progress note.,$[241].admissions[1].clinicalNotes[0]
+D,392,411,36,Initial Assessment,2026-07-26 22:30:00,Synthetic initial evaluation.,$[242].admissions[0].clinicalNotes[0]
+D,393,412,1,Discharge Summary,2026-08-20 01:00:00,Recovery documented in synthetic summary.,$[242].admissions[1].clinicalNotes[0]
+D,394,413,21,Discharge Summary,2026-07-28 05:00:00,Follow-up documented in synthetic summary.,$[243].admissions[0].clinicalNotes[0]
+D,395,414,36,Progress Note,2026-07-28 22:30:00,Recovery mentioned in synthetic progress note.,$[244].admissions[0].clinicalNotes[0]
+D,396,415,36,Initial Assessment,2026-08-17 22:30:00,Synthetic initial evaluation.,$[244].admissions[1].clinicalNotes[0]
+D,397,417,6,Discharge Summary,2026-08-02 02:00:00,Recovery documented in synthetic summary.,$[246].admissions[0].clinicalNotes[0]
+D,398,418,6,Discharge Summary,2026-08-24 09:00:00,Follow-up documented in synthetic summary.,$[246].admissions[1].clinicalNotes[0]
+D,399,419,51,Progress Note,2026-07-31 22:30:00,Recovery mentioned in synthetic progress note.,$[247].admissions[0].clinicalNotes[0]
+D,400,420,51,Initial Assessment,2026-08-20 22:30:00,Synthetic initial evaluation.,$[247].admissions[1].clinicalNotes[0]
+D,401,421,16,Discharge Summary,2026-08-02 14:00:00,Recovery documented in synthetic summary.,$[248].admissions[0].clinicalNotes[0]
+D,402,422,1,Discharge Summary,2026-08-04 00:00:00,Follow-up documented in synthetic summary.,$[249].admissions[0].clinicalNotes[0]
+D,403,423,6,Progress Note,2026-08-03 22:30:00,Recovery mentioned in synthetic progress note.,$[250].admissions[0].clinicalNotes[0]
+D,404,424,41,Initial Assessment,2026-08-23 22:30:00,Synthetic initial evaluation.,$[250].admissions[1].clinicalNotes[0]
+D,405,425,16,Discharge Summary,2026-08-07 18:00:00,Recovery documented in synthetic summary.,$[251].admissions[0].clinicalNotes[0]
+D,406,426,36,Discharge Summary,2026-08-29 08:00:00,Follow-up documented in synthetic summary.,$[251].admissions[1].clinicalNotes[0]
+D,407,427,31,Progress Note,2026-08-05 22:30:00,Recovery mentioned in synthetic progress note.,$[252].admissions[0].clinicalNotes[0]
+D,408,428,6,Initial Assessment,2026-08-25 22:30:00,Synthetic initial evaluation.,$[252].admissions[1].clinicalNotes[0]
+D,409,429,26,Discharge Summary,2026-08-07 23:00:00,Recovery documented in synthetic summary.,$[253].admissions[0].clinicalNotes[0]
+D,410,430,51,Discharge Summary,2026-08-28 10:00:00,Follow-up documented in synthetic summary.,$[253].admissions[1].clinicalNotes[0]
+D,411,431,31,Progress Note,2026-08-07 22:30:00,Recovery mentioned in synthetic progress note.,$[254].admissions[0].clinicalNotes[0]

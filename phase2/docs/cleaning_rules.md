@@ -259,7 +259,7 @@ The source-specific labels below map to the Phase 1 value shown. `value_maps.py`
 
 ## How SA-3 applies these rules (`phase2/clean.py`)
 
-Run from the repository root: `python phase2/clean.py` (sample) or `python phase2/clean.py --scale full`.
+Run from the repository root: `python phase2/clean.py` (full frozen data, the real run) or `python phase2/clean.py --scale sample` (quick check). The committed outputs come from the full data.
 Each run reads the raw files through LA-1's `load_all()` and rebuilds every output from scratch, so a rerun gives byte-identical files.
 
 | Handout item | Where in `clean.py` | What happens |
