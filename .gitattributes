@@ -1,0 +1,2 @@
+# Raw sources and their checksum manifest must retain their exact bytes.
+data/raw/** -text

@@ -1,0 +1,382 @@
+# Synthetic hospital data: source A, clinical_notes
+NOTE_ID|ADM_ID|AUTHOR_ID|NOTE_TYPE|NOTE_DATETIME|NOTE_CONTENTS
+1|1|41|Discharge Summary|2026-01-14 08:00|Recovery documented in synthetic summary.
+2|2|11|Discharge Summary|2026-02-02 08:00|Follow-up documented in synthetic summary.
+3|3|11|Progress Note|2026-02-15 08:30|Recovery mentioned in synthetic progress note.
+4|4|31|Initial Assessment|2026-03-07 08:30|Synthetic initial evaluation.
+5|5|26|Discharge Summary|2026-01-11 11:00|Recovery documented in synthetic summary.
+6|6|26|Discharge Summary|2026-01-30 13:00|Follow-up documented in synthetic summary.
+7|7|16|Progress Note|2026-01-08 08:30|Recovery mentioned in synthetic progress note.
+8|8|16|Initial Assessment|2026-01-28 08:30|Synthetic initial evaluation.
+9|9|46|Discharge Summary|2026-01-14 00:00|Recovery documented in synthetic summary.
+10|10|6|Discharge Summary|2026-01-31 13:00|Follow-up documented in synthetic summary.
+11|11|26|Progress Note|2026-01-10 08:30|Recovery mentioned in synthetic progress note.
+12|12|41|Initial Assessment|2026-01-30 08:30|Synthetic initial evaluation.
+13|13|36|Discharge Summary|2026-01-15 13:00|Recovery documented in synthetic summary.
+14|14|6|Discharge Summary|2026-01-16 10:00|Follow-up documented in synthetic summary.
+15|15|26|Progress Note|2026-01-13 08:30|Recovery mentioned in synthetic progress note.
+16|16|21|Initial Assessment|2026-02-02 08:30|Synthetic initial evaluation.
+17|17|6|Discharge Summary|2026-01-17 17:00|Recovery documented in synthetic summary.
+18|18|31|Discharge Summary|2026-01-17 02:00|Follow-up documented in synthetic summary.
+19|19|6|Progress Note|2026-02-04 08:30|Recovery mentioned in synthetic progress note.
+20|20|36|Initial Assessment|2026-01-16 08:30|Synthetic initial evaluation.
+21|22|31|Discharge Summary|2026-01-19 23:00|Recovery documented in synthetic summary.
+22|23|11|Discharge Summary|2026-01-18 16:00|Follow-up documented in synthetic summary.
+23|25|16|Progress Note|2026-01-19 08:30|Recovery mentioned in synthetic progress note.
+24|26|21|Initial Assessment|2026-02-08 08:30|Synthetic initial evaluation.
+25|27|6|Discharge Summary|2026-01-23 19:00|Recovery documented in synthetic summary.
+26|29|31|Discharge Summary|2026-01-22 09:00|Follow-up documented in synthetic summary.
+27|30|41|Progress Note|2026-02-10 08:30|Recovery mentioned in synthetic progress note.
+28|31|46|Initial Assessment|2026-01-22 08:30|Synthetic initial evaluation.
+29|32|11|Discharge Summary|2026-01-27 15:00|Recovery documented in synthetic summary.
+30|33|1|Discharge Summary|2026-01-26 15:00|Follow-up documented in synthetic summary.
+31|34|41|Progress Note|2026-02-13 08:30|Recovery mentioned in synthetic progress note.
+32|35|31|Initial Assessment|2026-01-25 08:30|Synthetic initial evaluation.
+33|36|26|Discharge Summary|2026-02-18 15:00|Recovery documented in synthetic summary.
+34|37|31|Discharge Summary|2026-01-31 01:00|Follow-up documented in synthetic summary.
+35|38|6|Progress Note|2026-02-15 08:30|Recovery mentioned in synthetic progress note.
+36|39|21|Initial Assessment|2026-01-27 08:30|Synthetic initial evaluation.
+37|40|11|Discharge Summary|2026-02-16 16:00|Recovery documented in synthetic summary.
+38|41|36|Discharge Summary|2026-01-29 11:00|Follow-up documented in synthetic summary.
+39|42|21|Progress Note|2026-02-17 08:30|Recovery mentioned in synthetic progress note.
+40|43|31|Initial Assessment|2026-01-29 08:30|Synthetic initial evaluation.
+41|44|26|Discharge Summary|2026-02-21 02:00|Recovery documented in synthetic summary.
+42|45|46|Discharge Summary|2026-01-30 22:00|Follow-up documented in synthetic summary.
+43|46|31|Progress Note|2026-01-31 08:30|Recovery mentioned in synthetic progress note.
+44|47|1|Initial Assessment|2026-02-20 08:30|Synthetic initial evaluation.
+45|49|26|Discharge Summary|2026-02-04 19:00|Recovery documented in synthetic summary.
+46|50|16|Discharge Summary|2026-02-26 11:00|Follow-up documented in synthetic summary.
+47|51|11|Progress Note|2026-02-03 08:30|Recovery mentioned in synthetic progress note.
+48|52|21|Initial Assessment|2026-02-23 08:30|Synthetic initial evaluation.
+49|53|11|Discharge Summary|2026-02-08 08:00|Recovery documented in synthetic summary.
+50|54|1|Discharge Summary|2026-02-27 00:00|Follow-up documented in synthetic summary.
+51|55|6|Progress Note|2026-02-05 08:30|Recovery mentioned in synthetic progress note.
+52|56|21|Initial Assessment|2026-02-25 08:30|Synthetic initial evaluation.
+53|57|41|Discharge Summary|2026-02-07 02:00|Recovery documented in synthetic summary.
+54|58|41|Discharge Summary|2026-03-01 18:00|Follow-up documented in synthetic summary.
+55|59|31|Progress Note|2026-02-30T09:00:00|Recovery mentioned in synthetic progress note.
+56|60|21|Initial Assessment|2026-02-27 08:30|Synthetic initial evaluation.
+57|61|6|Discharge Summary|2026-02-10 21:00|Recovery documented in synthetic summary.
+58|62|46|Discharge Summary|2026-02-14 06:00|Follow-up documented in synthetic summary.
+59|63|6|Progress Note|2026-03-01 08:30|Recovery mentioned in synthetic progress note.
+60|64|21|Initial Assessment|2026-02-10 08:30|Synthetic initial evaluation.
+61|65|6|Discharge Summary|2026-03-05 07:00|Recovery documented in synthetic summary.
+62|66|16|Discharge Summary|2026-02-13 18:00|Follow-up documented in synthetic summary.
+63|67|36|Progress Note|2026-03-03 08:30|Recovery mentioned in synthetic progress note.
+64|68|1|Initial Assessment|2026-02-12 08:30|Synthetic initial evaluation.
+65|69|26|Discharge Summary|2026-03-09 08:00|Recovery documented in synthetic summary.
+66|70|31|Discharge Summary|2026-02-17 13:00|Follow-up documented in synthetic summary.
+67|71|46|Progress Note|2026-03-05 08:30|Recovery mentioned in synthetic progress note.
+68|72|1|Initial Assessment|2026-02-14 08:30|Synthetic initial evaluation.
+69|73|16|Discharge Summary|2026-03-09 15:00|Recovery documented in synthetic summary.
+70|74|6|Discharge Summary|2026-02-18 21:00|Follow-up documented in synthetic summary.
+71|75|1|Progress Note|2026-03-07 08:30|Recovery mentioned in synthetic progress note.
+72|76|16|Initial Assessment|2026-02-16 08:30|Synthetic initial evaluation.
+73|77|31|Discharge Summary|2026-03-09 10:00|Recovery documented in synthetic summary.
+74|78|1|Discharge Summary|2026-02-20 13:00|Follow-up documented in synthetic summary.
+75|80|11|Progress Note|2026-02-18 08:30|Recovery mentioned in synthetic progress note.
+76|81|26|Initial Assessment|2026-02-19 08:30|Synthetic initial evaluation.
+77|82|6|Discharge Summary|2026-02-24 16:00|Recovery documented in synthetic summary.
+78|83|31|Discharge Summary|2026-03-12 15:00|Follow-up documented in synthetic summary.
+79|84|6|Progress Note|2026-02-21 08:30|Recovery mentioned in synthetic progress note.
+80|85|46|Initial Assessment|2026-03-13 08:30|Synthetic initial evaluation.
+81|86|46|Discharge Summary|2026-02-26 14:00|Recovery documented in synthetic summary.
+82|87|16|Discharge Summary|2026-03-16 02:00|Follow-up documented in synthetic summary.
+83|88|16|Progress Note|2026-02-23 08:30|Recovery mentioned in synthetic progress note.
+84|89|31|Initial Assessment|2026-03-15 08:30|Synthetic initial evaluation.
+85|90|16|Discharge Summary|2026-02-24 15:00|Recovery documented in synthetic summary.
+86|91|31|Discharge Summary|2026-03-18 15:00|Follow-up documented in synthetic summary.
+87|92|1|Progress Note|2026-02-25 08:30|Recovery mentioned in synthetic progress note.
+88|93|11|Initial Assessment|2026-03-17 08:30|Synthetic initial evaluation.
+89|94|41|Discharge Summary|2026-02-28 18:00|Recovery documented in synthetic summary.
+90|95|46|Discharge Summary|2026-03-22 14:00|Follow-up documented in synthetic summary.
+91|96|1|Progress Note|2026-02-27 08:30|Recovery mentioned in synthetic progress note.
+92|97|16|Initial Assessment|2026-03-19 08:30|Synthetic initial evaluation.
+93|98|21|Discharge Summary|2026-03-05 01:00|Recovery documented in synthetic summary.
+94|99|11|Discharge Summary|2026-03-23 20:00|Follow-up documented in synthetic summary.
+95|100|6|Progress Note|2026-03-01 08:30|Recovery mentioned in synthetic progress note.
+96|101|31|Initial Assessment|2026-03-02 08:30|Synthetic initial evaluation.
+97|102|31|Discharge Summary|2026-02-30T09:00:00|Recovery documented in synthetic summary.
+98|103|11|Discharge Summary|2026-03-06 16:00|Follow-up documented in synthetic summary.
+99|104|11|Progress Note|2026-03-04 08:30|Recovery mentioned in synthetic progress note.
+100|105|16|Initial Assessment|2026-03-05 08:30|Synthetic initial evaluation.
+101|106|1|Discharge Summary|2026-03-08 03:00|Recovery documented in synthetic summary.
+102|107|11|Discharge Summary|2026-03-11 01:00|Follow-up documented in synthetic summary.
+103|108|26|Progress Note|2026-03-27 08:30|Recovery mentioned in synthetic progress note.
+104|109|46|Initial Assessment|2026-03-08 08:30|Synthetic initial evaluation.
+105|110|6|Discharge Summary|2026-03-13 23:00|Recovery documented in synthetic summary.
+106|111|46|Discharge Summary|2026-04-02 13:00|Follow-up documented in synthetic summary.
+107|112|16|Progress Note|2026-03-10 08:30|Recovery mentioned in synthetic progress note.
+108|113|6|Initial Assessment|2026-03-30 08:30|Synthetic initial evaluation.
+109|114|1|Discharge Summary|2026-03-13 02:00|Recovery documented in synthetic summary.
+110|115|6|Discharge Summary|2026-04-01 05:00|Follow-up documented in synthetic summary.
+111|116|31|Progress Note|2026-03-12 08:30|Recovery mentioned in synthetic progress note.
+112|117|26|Initial Assessment|2026-04-01 08:30|Synthetic initial evaluation.
+113|118|6|Discharge Summary|2026-03-16 22:00|Recovery documented in synthetic summary.
+114|119|41|Discharge Summary|2026-02-30T09:00:00|Follow-up documented in synthetic summary.
+115|120|36|Progress Note|2026-03-14 08:30|Recovery mentioned in synthetic progress note.
+116|121|1|Initial Assessment|2026-04-03 08:30|Synthetic initial evaluation.
+117|122|1|Discharge Summary|2026-03-17 17:00|Recovery documented in synthetic summary.
+118|124|31|Discharge Summary|2026-03-21 08:00|Follow-up documented in synthetic summary.
+119|125|31|Progress Note|2026-04-05 08:30|Recovery mentioned in synthetic progress note.
+120|126|46|Initial Assessment|2026-03-17 08:30|Synthetic initial evaluation.
+121|127|1|Discharge Summary|2026-04-07 16:00|Recovery documented in synthetic summary.
+122|128|1|Discharge Summary|2026-03-19 09:00|Follow-up documented in synthetic summary.
+123|129|41|Progress Note|2026-04-07 08:30|Recovery mentioned in synthetic progress note.
+124|130|26|Initial Assessment|2026-03-19 08:30|Synthetic initial evaluation.
+125|131|41|Discharge Summary|2026-04-11 11:00|Recovery documented in synthetic summary.
+126|132|36|Discharge Summary|2026-03-24 19:00|Follow-up documented in synthetic summary.
+127|134|1|Progress Note|2026-03-21 08:30|Recovery mentioned in synthetic progress note.
+128|135|26|Initial Assessment|2026-04-10 08:30|Synthetic initial evaluation.
+129|136|16|Discharge Summary|2026-03-22 13:00|Recovery documented in synthetic summary.
+130|137|6|Discharge Summary|2026-04-16 08:00|Follow-up documented in synthetic summary.
+131|138|46|Progress Note|2026-03-23 08:30|Recovery mentioned in synthetic progress note.
+132|139|46|Initial Assessment|2026-04-12 08:30|Synthetic initial evaluation.
+133|140|11|Discharge Summary|2026-03-27 02:00|Recovery documented in synthetic summary.
+134|142|46|Discharge Summary|2026-03-26 07:00|Follow-up documented in synthetic summary.
+135|144|16|Progress Note|2026-03-26 08:30|Recovery mentioned in synthetic progress note.
+136|145|46|Initial Assessment|2026-03-27 08:30|Synthetic initial evaluation.
+137|146|1|Discharge Summary|2026-04-20 22:00|Recovery documented in synthetic summary.
+138|147|46|Discharge Summary|2026-03-30 11:00|Follow-up documented in synthetic summary.
+139|148|31|Progress Note|2026-03-29 08:30|Recovery mentioned in synthetic progress note.
+140|149|21|Initial Assessment|2026-04-18 08:30|Synthetic initial evaluation.
+141|150|31|Discharge Summary|2026-04-02 19:00|Recovery documented in synthetic summary.
+142|151|31|Discharge Summary|2026-04-03 10:00|Follow-up documented in synthetic summary.
+143|152|26|Progress Note|2026-04-20 08:30|Recovery mentioned in synthetic progress note.
+144|153|36|Initial Assessment|2026-04-01 08:30|Synthetic initial evaluation.
+145|154|36|Discharge Summary|2026-04-23 15:00|Recovery documented in synthetic summary.
+146|155|11|Discharge Summary|2026-04-07 08:00|Follow-up documented in synthetic summary.
+147|156|16|Progress Note|2026-04-22 08:30|Recovery mentioned in synthetic progress note.
+148|157|46|Initial Assessment|2026-04-03 08:30|Synthetic initial evaluation.
+149|158|46|Discharge Summary|2026-04-05 14:00|Recovery documented in synthetic summary.
+150|159|16|Discharge Summary|2026-04-26 18:00|Follow-up documented in synthetic summary.
+151|160|11|Progress Note|2026-04-05 08:30|Recovery mentioned in synthetic progress note.
+152|161|11|Initial Assessment|2026-04-25 08:30|Synthetic initial evaluation.
+153|162|16|Discharge Summary|2026-04-10 09:00|Recovery documented in synthetic summary.
+154|163|11|Discharge Summary|2026-04-29 06:00|Follow-up documented in synthetic summary.
+155|164|21|Progress Note|2026-04-07 08:30|Recovery mentioned in synthetic progress note.
+156|165|1|Initial Assessment|2026-04-08 08:30|Synthetic initial evaluation.
+157|166|36|Discharge Summary|2026-05-01 03:00|Recovery documented in synthetic summary.
+158|167|6|Discharge Summary|2026-04-12 11:00|Follow-up documented in synthetic summary.
+159|168|1|Progress Note|2026-04-29 08:30|Recovery mentioned in synthetic progress note.
+160|169|41|Initial Assessment|2026-04-10 08:30|Synthetic initial evaluation.
+161|170|46|Discharge Summary|2026-05-02 16:00|Recovery documented in synthetic summary.
+162|171|46|Discharge Summary|2026-04-16 01:00|-
+163|172|1|Progress Note|2026-05-01 08:30|Recovery mentioned in synthetic progress note.
+164|173|21|Initial Assessment|2026-04-12 08:30|Synthetic initial evaluation.
+165|175|1|Discharge Summary|2026-04-18 22:00|Recovery documented in synthetic summary.
+166|176|46|Discharge Summary|2026-05-08 12:00|Follow-up documented in synthetic summary.
+167|177|11|Progress Note|2026-01-05 08:30|Recovery mentioned in synthetic progress note.
+168|178|36|Initial Assessment|2026-01-25 08:30|Synthetic initial evaluation.
+169|179|1|Discharge Summary|2026-01-09 11:00|Recovery documented in synthetic summary.
+170|180|1|Discharge Summary|2026-01-29 09:00|Follow-up documented in synthetic summary.
+171|181|11|Progress Note|2026-01-07 08:30|Recovery mentioned in synthetic progress note.
+172|182|21|Initial Assessment|2026-01-27 08:30|Synthetic initial evaluation.
+173|183|36|Discharge Summary|2026-01-11 14:00|Recovery documented in synthetic summary.
+174|184|41|Discharge Summary|2026-01-12 14:00|Follow-up documented in synthetic summary.
+175|185|36|Progress Note|2026-01-29 08:30|Recovery mentioned in synthetic progress note.
+176|186|26|Initial Assessment|2026-01-10 08:30|Synthetic initial evaluation.
+177|188|16|Discharge Summary|2026-01-12 13:00|Recovery documented in synthetic summary.
+178|189|36|Discharge Summary|2026-01-14 11:00|Follow-up documented in synthetic summary.
+179|190|41|Progress Note|2026-02-01 08:30|Recovery mentioned in synthetic progress note.
+180|191|11|Initial Assessment|2026-01-13 08:30|Synthetic initial evaluation.
+181|192|41|Discharge Summary|2026-02-05 08:00|Recovery documented in synthetic summary.
+182|194|41|Discharge Summary|2026-01-19 21:00|Follow-up documented in synthetic summary.
+183|195|26|Progress Note|2026-02-04 08:30|Recovery mentioned in synthetic progress note.
+184|196|46|Initial Assessment|2026-01-16 08:30|Synthetic initial evaluation.
+185|197|26|Discharge Summary|2026-01-19 23:00|Recovery documented in synthetic summary.
+186|198|1|Discharge Summary|2026-01-20 10:00|Follow-up documented in synthetic summary.
+187|199|41|Progress Note|2026-01-19 08:30|Recovery mentioned in synthetic progress note.
+188|200|1|Initial Assessment|2026-01-20 08:30|Synthetic initial evaluation.
+189|201|36|Discharge Summary|2026-02-10 10:00|Recovery documented in synthetic summary.
+190|202|46|Discharge Summary|2026-01-22 02:00|Follow-up documented in synthetic summary.
+191|203|16|Progress Note|2026-01-22 08:30|NULL
+192|204|41|Initial Assessment|2026-01-23 08:30|Synthetic initial evaluation.
+193|205|41|Discharge Summary|2026-02-13 15:00|Recovery documented in synthetic summary.
+194|207|36|Discharge Summary|2026-01-27 15:00|Follow-up documented in synthetic summary.
+195|208|36|Progress Note|2026-02-14 08:30|Recovery mentioned in synthetic progress note.
+196|209|6|Initial Assessment|2026-01-26 08:30|Synthetic initial evaluation.
+197|210|1|Discharge Summary|2026-01-27 20:00|Recovery documented in synthetic summary.
+198|211|26|Discharge Summary|2026-02-16 13:00|Follow-up documented in synthetic summary.
+199|212|31|Progress Note|2026-01-28 08:30|Recovery mentioned in synthetic progress note.
+200|213|36|Initial Assessment|2026-02-17 08:30|Synthetic initial evaluation.
+201|214|1|Discharge Summary|2026-01-30 05:00|Recovery documented in synthetic summary.
+202|215|6|Discharge Summary|2026-02-22 19:00|Follow-up documented in synthetic summary.
+203|216|11|Progress Note|2026-01-30 08:30|Recovery mentioned in synthetic progress note.
+204|217|16|Initial Assessment|2026-01-31 08:30|Synthetic initial evaluation.
+205|218|1|Discharge Summary|2026-02-24 00:00|Recovery documented in synthetic summary.
+206|219|41|Discharge Summary|2026-02-06 06:00|Follow-up documented in synthetic summary.
+207|220|46|Progress Note|2026-02-02 08:30|Recovery mentioned in synthetic progress note.
+208|221|26|Initial Assessment|2026-02-22 08:30|Synthetic initial evaluation.
+209|222|36|Discharge Summary|2026-02-05 09:00|Recovery documented in synthetic summary.
+210|223|41|Discharge Summary|2026-02-26 15:00|Follow-up documented in synthetic summary.
+211|224|31|Progress Note|2026-02-04 08:30|Recovery mentioned in synthetic progress note.
+212|225|6|Initial Assessment|2026-02-24 08:30|Synthetic initial evaluation.
+213|226|21|Discharge Summary|2026-02-09 10:00|Recovery documented in synthetic summary.
+214|228|11|Discharge Summary|2026-02-08 01:00|Follow-up documented in synthetic summary.
+215|229|41|Progress Note|2026-02-26 08:30|Recovery mentioned in synthetic progress note.
+216|230|1|Initial Assessment|2026-02-07 08:30|Synthetic initial evaluation.
+217|231|31|Discharge Summary|2026-03-01 08:00|Recovery documented in synthetic summary.
+218|232|1|Discharge Summary|2026-02-08 19:00|Follow-up documented in synthetic summary.
+219|234|26|Progress Note|2026-02-10 08:30|Recovery mentioned in synthetic progress note.
+220|235|11|Initial Assessment|2026-03-02 08:30|Synthetic initial evaluation.
+221|236|6|Discharge Summary|2026-02-16 03:00|Recovery documented in synthetic summary.
+222|237|31|Discharge Summary|2026-03-03 18:00|Follow-up documented in synthetic summary.
+223|238|21|Progress Note|2026-02-12 08:30|Recovery mentioned in synthetic progress note.
+224|239|46|Initial Assessment|2026-03-04 08:30|Synthetic initial evaluation.
+225|240|1|Discharge Summary|2026-02-15 16:00|Recovery documented in synthetic summary.
+226|241|11|Discharge Summary|2026-02-15 09:00|Follow-up documented in synthetic summary.
+227|242|41|Progress Note|2026-02-15 08:30|Recovery mentioned in synthetic progress note.
+228|243|31|Initial Assessment|2026-03-07 08:30|Synthetic initial evaluation.
+229|244|11|Discharge Summary|2026-02-19 02:00|Recovery documented in synthetic summary.
+230|245|46|Discharge Summary|2026-03-12 06:00|Follow-up documented in synthetic summary.
+231|246|11|Progress Note|2026-02-17 08:30|Recovery mentioned in synthetic progress note.
+232|247|31|Initial Assessment|2026-03-09 08:30|Synthetic initial evaluation.
+233|248|31|Discharge Summary|2026-02-22 18:00|Recovery documented in synthetic summary.
+234|249|1|Discharge Summary|2026-02-30T09:00:00|Follow-up documented in synthetic summary.
+235|250|36|Progress Note|2026-02-19 08:30|Recovery mentioned in synthetic progress note.
+236|251|46|Initial Assessment|2026-03-11 08:30|Synthetic initial evaluation.
+237|252|11|Discharge Summary|2026-02-24 10:00
+238|253|21|Discharge Summary|2026-03-15 02:00|Follow-up documented in synthetic summary.
+239|254|41|Progress Note|2026-02-21 08:30|Recovery mentioned in synthetic progress note.
+240|255|26|Initial Assessment|2026-03-13 08:30|Synthetic initial evaluation.
+241|256|16|Discharge Summary|2026-02-25 07:00|Recovery documented in synthetic summary.
+242|257|46|Discharge Summary|2026-02-24 16:00|Follow-up documented in synthetic summary.
+243|258|46|Progress Note|2026-03-15 08:30|Recovery mentioned in synthetic progress note.
+244|259|6|Initial Assessment|2026-02-24 08:30|Synthetic initial evaluation.
+245|260|31|Discharge Summary|2026-02-27 07:00|Recovery documented in synthetic summary.
+246|261|16|Discharge Summary|2026-03-18 22:00|Follow-up documented in synthetic summary.
+247|262|11|Progress Note|2026-02-26 08:30|Recovery mentioned in synthetic progress note.
+248|263|16|Initial Assessment|2026-02-27 08:30|Synthetic initial evaluation.
+249|265|26|Discharge Summary|2026-03-04 22:00|Recovery documented in synthetic summary.
+250|266|26|Discharge Summary|2026-03-23 05:00|Follow-up documented in synthetic summary.
+251|267|26|Progress Note|2026-03-01 08:30|Recovery mentioned in synthetic progress note.
+252|269|36|Initial Assessment|2026-03-02 08:30|Synthetic initial evaluation.
+253|270|16|Discharge Summary|2026-03-24 20:00|Recovery documented in synthetic summary.
+254|271|41|Discharge Summary|2026-03-05 03:00|Follow-up documented in synthetic summary.
+255|272|6|Progress Note|2026-03-04 08:30|Recovery mentioned in synthetic progress note.
+256|273|21|Initial Assessment|2026-03-24 08:30|Synthetic initial evaluation.
+257|274|21|Discharge Summary|2026-03-06 23:00|Recovery documented in synthetic summary.
+258|275|46|Discharge Summary|2026-03-28 10:00|Follow-up documented in synthetic summary.
+259|276|16|Progress Note|2026-03-06 08:30|Recovery mentioned in synthetic progress note.
+260|277|46|Initial Assessment|2026-03-07 08:30|Synthetic initial evaluation.
+261|278|41|Discharge Summary|2026-03-29 19:00|Recovery documented in synthetic summary.
+262|279|46|Discharge Summary|2026-03-09 04:00|Follow-up documented in synthetic summary.
+263|280|46|Progress Note|2026-03-28 08:30|Recovery mentioned in synthetic progress note.
+264|281|41|Initial Assessment|2026-03-09 08:30|Synthetic initial evaluation.
+265|282|1|Discharge Summary|2026-03-10 15:00|Recovery documented in synthetic summary.
+266|283|46|Discharge Summary|2026-04-02 15:00|Follow-up documented in synthetic summary.
+267|284|36|Progress Note|2026-03-11 08:30|Recovery mentioned in synthetic progress note.
+268|285|16|Initial Assessment|2026-03-31 08:30|Synthetic initial evaluation.
+269|286|41|Discharge Summary|2026-03-17 08:00|Recovery documented in synthetic summary.
+270|287|41|Discharge Summary|2026-04-05 23:00|Follow-up documented in synthetic summary.
+271|288|46|Progress Note|2026-03-13 08:30|Recovery mentioned in synthetic progress note.
+272|289|46|Initial Assessment|2026-04-02 08:30|Synthetic initial evaluation.
+273|290|1|Discharge Summary|2026-03-19 07:00|Recovery documented in synthetic summary.
+274|291|41|Discharge Summary|2026-03-20 04:00|Follow-up documented in synthetic summary.
+275|292|6|Progress Note|2026-04-04 08:30|Recovery mentioned in synthetic progress note.
+276|293|31|Initial Assessment|2026-03-16 08:30|Synthetic initial evaluation.
+277|294|41|Discharge Summary|2026-04-10 04:00|Recovery documented in synthetic summary.
+278|295|6|Discharge Summary|2026-03-19 09:00|Follow-up documented in synthetic summary.
+279|296|26|Progress Note|2026-03-18 08:30|Recovery mentioned in synthetic progress note.
+280|297|26|Initial Assessment|2026-04-07 08:30|Synthetic initial evaluation.
+281|298|1|Discharge Summary|2026-03-21 19:00|Recovery documented in synthetic summary.
+282|299|16|Discharge Summary|2026-03-22 11:00|Follow-up documented in synthetic summary.
+283|300|1|Progress Note|2026-03-21 08:30|Recovery mentioned in synthetic progress note.
+284|301|21|Initial Assessment|2026-03-22 08:30|Synthetic initial evaluation.
+285|302|46|Discharge Summary|2026-03-23 23:00|Recovery documented in synthetic summary.
+286|303|46|Discharge Summary|2026-03-27 01:00|Follow-up documented in synthetic summary.
+287|304|21|Progress Note|2026-04-13 08:30|Recovery mentioned in synthetic progress note.
+288|305|11|Initial Assessment|2026-03-25 08:30|Synthetic initial evaluation.
+289|306|26|Discharge Summary|2026-04-17 15:00|Recovery documented in synthetic summary.
+290|307|26|Discharge Summary|2026-03-29 16:00|Follow-up documented in synthetic summary.
+291|308|26|Progress Note|2026-04-15 08:30|Recovery mentioned in synthetic progress note.
+292|309|6|Initial Assessment|2026-03-27 08:30|Synthetic initial evaluation.
+293|310|1|Discharge Summary|2026-04-19 11:00|NULL
+294|311|16|Discharge Summary|2026-04-01 15:00|Follow-up documented in synthetic summary.
+295|312|46|Progress Note|2026-04-17 08:30|Recovery mentioned in synthetic progress note.
+296|313|21|Initial Assessment|2026-03-29 08:30|Synthetic initial evaluation.
+297|314|26|Discharge Summary|2026-03-30 19:00|Recovery documented in synthetic summary.
+298|315|1|Discharge Summary|2026-04-23 18:00|Follow-up documented in synthetic summary.
+299|316|16|Progress Note|2026-03-31 08:30|Recovery mentioned in synthetic progress note.
+300|317|26|Initial Assessment|2026-04-01 08:30|Synthetic initial evaluation.
+301|318|6|Discharge Summary|2026-04-21 21:00|Recovery documented in synthetic summary.
+302|319|16|Discharge Summary|2026-04-04 12:00|Follow-up documented in synthetic summary.
+303|320|11|Progress Note|2026-04-22 08:30|Recovery mentioned in synthetic progress note.
+304|321|11|Initial Assessment|2026-04-03 08:30|Synthetic initial evaluation.
+305|322|1|Discharge Summary|2026-04-25 09:00|Recovery documented in synthetic summary.
+306|324|41|Discharge Summary|2026-04-06 02:00|Follow-up documented in synthetic summary.
+307|325|31|Progress Note|2026-04-25 08:30|Recovery mentioned in synthetic progress note.
+308|326|11|Initial Assessment|2026-04-06 08:30|Synthetic initial evaluation.
+309|327|31|Discharge Summary|2026-04-08 17:00|Recovery documented in synthetic summary.
+310|328|36|Discharge Summary|2026-04-29 04:00|Follow-up documented in synthetic summary.
+311|329|31|Progress Note|2026-04-08 08:30|Recovery mentioned in synthetic progress note.
+312|330|36|Initial Assessment|2026-04-09 08:30|Synthetic initial evaluation.
+313|331|11|Discharge Summary|2026-04-12 12:00|Recovery documented in synthetic summary.
+314|332|46|Discharge Summary|2026-05-04 08:00|Follow-up documented in synthetic summary.
+315|334|11|Progress Note|2026-04-12 08:30|Recovery mentioned in synthetic progress note.
+316|335|1|Initial Assessment|2026-05-02 08:30|Synthetic initial evaluation.
+317|336|36|Discharge Summary|2026-04-17 17:00|Recovery documented in synthetic summary.
+318|337|21|Discharge Summary|2026-04-16 01:00|Follow-up documented in synthetic summary.
+319|338|46|Progress Note|2026-05-04 08:30|Recovery mentioned in synthetic progress note.
+320|339|46|Initial Assessment|2026-01-05 08:30|Synthetic initial evaluation.
+321|340|1|Discharge Summary|2026-01-10 03:00|Recovery documented in synthetic summary.
+322|341|6|Discharge Summary|2026-01-29 16:00|Follow-up documented in synthetic summary.
+323|342|46|Progress Note|2026-01-07 08:30|Recovery mentioned in synthetic progress note.
+324|343|31|Initial Assessment|2026-01-08 08:30|Synthetic initial evaluation.
+325|344|21|Discharge Summary|2026-01-11 23:00|Recovery documented in synthetic summary.
+326|345|31|Discharge Summary|2026-01-12 09:00|Follow-up documented in synthetic summary.
+327|346|41|Progress Note|2026-01-30 08:30|Recovery mentioned in synthetic progress note.
+328|347|26|Initial Assessment|2026-01-11 08:30|Synthetic initial evaluation.
+329|349|16|Discharge Summary|2026-01-15 04:00|Recovery documented in synthetic summary.
+330|350|41|Discharge Summary|2026-02-03 08:00|Follow-up documented in synthetic summary.
+331|351|36|Progress Note|2026-01-13 08:30|Recovery mentioned in synthetic progress note.
+332|352|46|Initial Assessment|2026-02-02 08:30|Synthetic initial evaluation.
+333|353|31|Discharge Summary|2026-01-18 01:00|Recovery documented in synthetic summary.
+334|354|26|Discharge Summary|2026-02-05 06:00|Follow-up documented in synthetic summary.
+335|355|16|Progress Note|2026-01-15 08:30|Recovery mentioned in synthetic progress note.
+336|356|1|Initial Assessment|2026-02-04 08:30|Synthetic initial evaluation.
+337|357|46|Discharge Summary|2026-01-18 11:00|Recovery documented in synthetic summary.
+338|358|6|Discharge Summary|2026-01-17 20:00|Follow-up documented in synthetic summary.
+339|359|41|Progress Note|2026-02-06 08:30|Recovery mentioned in synthetic progress note.
+340|360|46|Initial Assessment|2026-01-18 08:30|Synthetic initial evaluation.
+341|361|21|Discharge Summary|2026-01-21 09:00|Recovery documented in synthetic summary.
+342|362|21|Discharge Summary|2026-02-08 15:00|Follow-up documented in synthetic summary.
+343|363|36|Progress Note|2026-01-20 08:30|Recovery mentioned in synthetic progress note.
+344|364|1|Initial Assessment|2026-02-09 08:30|Synthetic initial evaluation.
+345|365|36|Discharge Summary|2026-01-24 08:00|Recovery documented in synthetic summary.
+346|366|26|Discharge Summary|2026-01-24 00:00|Follow-up documented in synthetic summary.
+347|367|16|Progress Note|2026-02-11 08:30|Recovery mentioned in synthetic progress note.
+348|368|31|Initial Assessment|2026-01-23 08:30|Synthetic initial evaluation.
+349|369|26|Discharge Summary|2026-02-14 10:00|Recovery documented in synthetic summary.
+350|370|11|Discharge Summary|2026-01-26 23:00|Follow-up documented in synthetic summary.
+351|371|31|Progress Note|2026-01-25 08:30|Recovery mentioned in synthetic progress note.
+352|372|11|Initial Assessment|2026-02-14 08:30|Synthetic initial evaluation.
+353|373|21|Discharge Summary|2026-01-28 05:00|Recovery documented in synthetic summary.
+354|375|11|Discharge Summary|2026-02-01 00:00|Follow-up documented in synthetic summary.
+355|376|21|Progress Note|2026-02-16 08:30|Recovery mentioned in synthetic progress note.
+356|377|46|Initial Assessment|2026-01-28 08:30|Synthetic initial evaluation.
+357|378|6|Discharge Summary|2026-02-18 00:00|Recovery documented in synthetic summary.
+358|379|16|Discharge Summary|2026-02-02 11:00|Follow-up documented in synthetic summary.
+359|380|16|Progress Note|2026-02-18 08:30|Recovery mentioned in synthetic progress note.
+360|381|41|Initial Assessment|2026-01-30 08:30|Synthetic initial evaluation.
+361|382|41|Discharge Summary|2026-02-21 22:00|Recovery documented in synthetic summary.
+362|383|16|Discharge Summary|2026-02-01 15:00|Follow-up documented in synthetic summary.
+363|384|36|Progress Note|2026-02-20 08:30|Recovery mentioned in synthetic progress note.
+364|385|36|Initial Assessment|2026-02-01 08:30|Synthetic initial evaluation.
+365|386|1|Discharge Summary|2026-02-26 00:00|Recovery documented in synthetic summary.
+366|387|36|Discharge Summary|2026-02-04 23:00|Follow-up documented in synthetic summary.
+367|388|31|Progress Note|2026-02-03 08:30|Recovery mentioned in synthetic progress note.
+368|389|21|Initial Assessment|2026-02-23 08:30|Synthetic initial evaluation.
+369|390|1|Discharge Summary|2026-02-09 00:00|Recovery documented in synthetic summary.
+370|391|31|Discharge Summary|2026-02-26 08:00|Follow-up documented in synthetic summary.
+371|392|26|Progress Note|2026-02-05 08:30|NULL
+372|393|31|Initial Assessment|2026-02-25 08:30|Synthetic initial evaluation.
+373|394|6|Discharge Summary|2026-02-06 14:00|Recovery documented in synthetic summary.
+374|395|1|Discharge Summary|2026-03-01 10:00|Follow-up documented in synthetic summary.
+375|396|1|Progress Note|2026-02-07 08:30|Recovery mentioned in synthetic progress note.
+376|397|11|Initial Assessment|2026-02-08 08:30|Synthetic initial evaluation.
+377|398|11|Discharge Summary|2026-03-02 03:00|Recovery documented in synthetic summary.
+378|399|1|Discharge Summary|2026-02-11 07:00|Follow-up documented in synthetic summary.
+379|400|21|Progress Note|2026-03-01 08:30|Recovery mentioned in synthetic progress note.
+380|1|41|Discharge Summary|2026-01-14 08:00|Synthetic discharge addendum with revised follow-up.
