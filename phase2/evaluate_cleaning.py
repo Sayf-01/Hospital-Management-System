@@ -77,28 +77,32 @@ def evaluate(scale: str = "full", report_dir: Path = ROOT / "reports",
     cleaning["detected_as"] = matches.map(lambda hits: "; ".join(sorted(set(hits["problem_type"]))))
     cleaning["action"] = matches.map(lambda hits: "; ".join(sorted(set(hits["action"]))))
 
-    table = cleaning.groupby(["issue", "source"]).agg(
-        planted=("detected", "size"),
-        detected=("detected", "sum"),
-        detected_as=("detected_as", join_unique),
-        action=("action", join_unique),
-    ).reset_index()
+    # Count per problem type and hospital with groupby().sum(), as in the slides.
+    cleaning["planted"] = 1
+    cleaning["detected"] = cleaning["detected"].astype(int)
+    counts = cleaning.groupby(["issue", "source"])[["planted", "detected"]].sum().reset_index()
+    detected_as = cleaning.groupby(["issue", "source"])["detected_as"].apply(join_unique).reset_index()
+    actions = cleaning.groupby(["issue", "source"])["action"].apply(join_unique).reset_index()
+    table = pd.merge(counts, detected_as, on=["issue", "source"], how="left")
+    table = pd.merge(table, actions, on=["issue", "source"], how="left")
     table["detected"] = table["detected"].astype("Int64")
     table["missed"] = table["planted"] - table["detected"]
-    integration = truth[truth["issue"].isin(INTEGRATION_ISSUES)].groupby(["issue", "source"]).size()
-    integration = integration.rename("planted").reset_index()
+
+    integration = truth[truth["issue"].isin(INTEGRATION_ISSUES)].copy()
+    integration["planted"] = 1
+    integration = integration.groupby(["issue", "source"])[["planted"]].sum().reset_index()
     integration["detected_as"] = "not a cleaning problem: matched across hospitals in DA-3"
     table = pd.concat([table, integration], ignore_index=True)
     table = table[["issue", "source", "planted", "detected", "missed", "detected_as", "action"]]
 
-    # False rejections: every quarantined record must be explained by a planted problem.
+    # False rejections: LEFT JOIN each quarantined record to the answer key.
+    # A record with no planted problem (and not a broken line from loading) is unexplained.
     quarantine = pd.concat([read_csv(path) for path in sorted(quarantine_dir.glob("*.csv"))], ignore_index=True)
-    planted_records = set(zip(truth["source"], truth["entity"], truth["local_id"]))
-    explained = [
-        row.stage == "load" or (row.source_code, row.entity, row.source_local_id) in planted_records
-        for row in quarantine.itertuples()
-    ]
-    unplanted = quarantine[[not value for value in explained]]
+    planted_records = truth[["source", "entity", "local_id"]].drop_duplicates()
+    planted_records = planted_records.rename(columns={"source": "source_code", "local_id": "source_local_id"})
+    planted_records["_planted"] = True
+    joined = pd.merge(quarantine, planted_records, on=["source_code", "entity", "source_local_id"], how="left")
+    unplanted = quarantine[(joined["_planted"].isna() & (joined["stage"] != "load")).values]
 
     table.to_csv(report_dir / "planted_vs_detected.csv", index=False)
     unplanted.to_csv(report_dir / "unplanted_rejections.csv", index=False)

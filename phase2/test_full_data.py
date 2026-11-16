@@ -77,26 +77,33 @@ class FullData(unittest.TestCase):
         # D writes DD/MM/YYYY; flagged only when both parts are <= 12 and differ.
         flagged = self.log[self.log["problem_type"] == "ambiguous_day_first_assumed"]
         self.assertTrue((flagged["source_code"] == "D").all())
-        for raw_value in flagged["raw_value"]:
-            day, month = (int(part) for part in raw_value.split("/")[:2])
-            self.assertTrue(day <= 12 and month <= 12 and day != month, raw_value)
+        day = flagged["raw_value"].apply(lambda x: int(x.split("/")[0]))
+        month = flagged["raw_value"].apply(lambda x: int(x.split("/")[1]))
+        not_ambiguous = flagged[(day > 12) | (month > 12) | (day == month)]
+        self.assertTrue(not_ambiguous.empty, not_ambiguous.to_string())
 
     def test_extra_missing_primary_flags_lost_their_primary_in_cleaning(self):
+        # Reason 1: Krish planted it (the admission is in the answer key).
         answer_key = read(REPORTS / "ground_truth" / "injected_errors.csv")
-        planted = {(row.source, str(json.loads(row.original_value)["admission_id"]))
-                   for row in answer_key[answer_key["issue"] == "missing_primary"].itertuples()}
-        flagged = self.log[self.log["problem_type"] == "missing_primary_diagnosis"]
-        rejected_diagnoses = read(self.quarantine_dir / "diagnoses.csv")
-        rejected_admissions = set()
-        for row in rejected_diagnoses.itertuples():
-            raw = {key.casefold(): str(value) for key, value in json.loads(row.raw_record).items()}
-            admission = next(value for key, value in raw.items() if "adm" in key)
-            kind = next(value for key, value in raw.items() if "type" in key)
-            if "prim" in kind.casefold():
-                rejected_admissions.add((row.source_code, str(int(admission))))
-        for source, admission in zip(flagged["source_code"], flagged["source_local_id"]):
-            self.assertTrue((source, admission) in planted or (source, admission) in rejected_admissions,
-                            f"{source} admission {admission} flagged without a reason")
+        planted = answer_key[answer_key["issue"] == "missing_primary"].copy()
+        planted["source_local_id"] = planted["original_value"].apply(lambda x: str(json.loads(x)["admission_id"]))
+        planted = planted.rename(columns={"source": "source_code"})[["source_code", "source_local_id"]]
+        planted["_planted"] = True
+
+        # Reason 2: its Primary diagnosis was rejected during cleaning.
+        rejected = read(self.quarantine_dir / "diagnoses.csv")
+        raw = rejected["raw_record"].apply(lambda x: {k.casefold(): str(v) for k, v in json.loads(x).items()})
+        rejected["source_local_id"] = raw.apply(lambda x: str(int(next(v for k, v in x.items() if "adm" in k))))
+        rejected["_primary"] = raw.apply(lambda x: "prim" in next(v for k, v in x.items() if "type" in k).casefold())
+        lost_primary = rejected.loc[rejected["_primary"], ["source_code", "source_local_id"]].drop_duplicates()
+        lost_primary["_lost_primary"] = True
+
+        # LEFT JOIN every flagged admission to both reasons; each needs at least one.
+        flagged = self.log[self.log["problem_type"] == "missing_primary_diagnosis"][["source_code", "source_local_id"]]
+        joined = pd.merge(flagged, planted, on=["source_code", "source_local_id"], how="left")
+        joined = pd.merge(joined, lost_primary, on=["source_code", "source_local_id"], how="left")
+        unexplained = joined[joined["_planted"].isna() & joined["_lost_primary"].isna()]
+        self.assertTrue(unexplained.empty, unexplained.to_string())
 
     def test_committed_outputs_match_a_fresh_run(self):
         pairs = [(self.clean_dir, ROOT / "data" / "clean"), (self.quarantine_dir, ROOT / "data" / "quarantine")]
