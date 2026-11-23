@@ -17,4 +17,25 @@
 | 10 | `patients.health_insurance_number` keeps `UNIQUE` | Two hospitals could issue the same number to different people. | Krish's generator already writes each source's numbers with a source prefix (`P2-A-…`, `P2-B-…`), and cleaning keeps them as they are, so ordinary numbers cannot collide. A number shared across sources is merged (M1) or handled by rule U2 in the integration rules, so the constraint still holds. |
 | 11 | The `radiology_exam_details` view also shows `source_code` | Radiology queries could not show which hospital an exam came from. | The column is passed through from `radiology_examinations`, so traceability works in the view as well. |
 
-Constraints and triggers that check rules across tables (DA-4) will be added to this table when they are written.
+## Triggers (DA-4)
+
+**File:** [`sql/triggers.sql`](../../sql/triggers.sql), run after `schema_v2.sql` and before the import, so every imported row is checked. Tests: [`sql/triggers_test.sql`](../../sql/triggers_test.sql), one bad row per rule; each must fail.
+
+A `CHECK` constraint can only see one row of one table. Each rule below compares a row with its parent in another table, so it needs a trigger. Every trigger raises error code 23514 (`check_violation`, the same code as a `CHECK`) and names the rejected row by its source, for example `A:1024`.
+
+| # | Change | Integration problem it solves | How it solves it |
+|---|---|---|---|
+| 12 | **T1** `t1_unit_stay_in_admission` on `unit_stays` | Four hospitals' timestamps were converted to UTC separately, so a wrong time zone or a typo could place a unit stay before the patient arrived or after they left. | Before a stay is inserted or changed, the trigger looks up its admission: entry must be at or after the admission time, and exit at or before the discharge, when there is one. |
+| 13 | **T2** `t2_examination_in_admission` on `diagnostic_examinations` and `t2_procedure_in_admission` on `surgical_procedures` | An examination or surgery could be linked to the wrong visit, or dated outside it, after IDs were re-linked across sources. | The trigger finds the admission (for an examination, through its diagnostic order) and rejects an event that falls outside the admission period. |
+| 14 | **T3** `t3_report_after_examination` on `radiology_reports` | A radiologist cannot report on images that do not exist yet, but nothing stopped a report dated before its exam. | The trigger follows report → radiology examination → diagnostic examination and rejects a report time earlier than the examination time. |
+| 15 | **T4** `t4_discharge_matches_admission` on `discharge_records` | A discharge record could exist for a patient who is still admitted, or say `Deceased` for a patient discharged alive, because the status and the record come from different tables. | The trigger allows a discharge record only for a `Discharged` or `Deceased` admission, and requires the condition to be `Deceased` exactly when the admission is `Deceased`. |
+| 16 | Shared function `within_admission(admission_id, moment)` | T1 and T2 repeat the same "is this moment inside the stay?" test. | One function holds the rule, so both triggers apply it the same way. An admission without a discharge yet has no end. |
+
+### Rules enforced another way
+
+- **Diagnosis or order patient = admission patient:** already enforced by the composite foreign key `(admission_id, patient_id) REFERENCES admissions`. No trigger needed.
+- **Every completed admission has at least one Primary diagnosis:** not a trigger. Diagnoses are inserted after their admission, so a row-by-row check would reject every admission at the moment it is inserted. Youssef checks it after the import. (A deferred constraint trigger, checked at commit time, would also work, but it is optional in the guide.)
+
+### Limit of the triggers
+
+The triggers check the child row when it is inserted or changed. Changing an admission's own times afterwards does not re-check its existing stays and events; in this project, admissions are loaded once by the import and not edited.
