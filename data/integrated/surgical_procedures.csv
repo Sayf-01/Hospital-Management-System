@@ -1,0 +1,482 @@
+procedure_id,source_code,source_local_id,admission_id,surgeon_id,procedure_name,procedure_datetime,operating_room,procedure_notes
+1,A,1,1,17,Coronary artery bypass grafting,2026-01-06 14:00:00+00:00,OR-1,Synthetic procedure note
+2,A,2,2,7,Laparoscopic appendectomy,2026-01-26 14:00:00+00:00,OR-1,Synthetic procedure note
+3,A,3,3,42,Internal fixation of femoral neck fracture,2026-02-15 14:00:00+00:00,OR-1,Synthetic procedure note
+4,A,4,4,22,Coronary artery bypass grafting,2026-03-07 14:00:00+00:00,OR-1,Synthetic procedure note
+5,A,5,5,47,Laparoscopic appendectomy,2026-01-07 14:00:00+00:00,OR-1,Synthetic procedure note
+6,A,6,6,12,Internal fixation of femoral neck fracture,2026-01-27 14:00:00+00:00,OR-1,Synthetic procedure note
+7,A,7,7,32,Coronary artery bypass grafting,2026-01-08 14:00:00+00:00,OR-1,Synthetic procedure note
+8,A,8,8,47,Laparoscopic appendectomy,2026-01-28 14:00:00+00:00,OR-1,Synthetic procedure note
+9,A,9,9,27,Internal fixation of femoral neck fracture,2026-01-09 14:00:00+00:00,OR-1,Synthetic procedure note
+10,A,10,10,37,Coronary artery bypass grafting,2026-01-29 14:00:00+00:00,OR-1,Synthetic procedure note
+11,A,11,11,17,Laparoscopic appendectomy,2026-01-10 14:00:00+00:00,OR-1,Synthetic procedure note
+12,A,12,12,7,Internal fixation of femoral neck fracture,2026-01-30 14:00:00+00:00,OR-1,Synthetic procedure note
+13,A,13,13,47,Coronary artery bypass grafting,2026-01-11 14:00:00+00:00,OR-1,Synthetic procedure note
+14,A,14,14,2,Laparoscopic appendectomy,2026-01-12 14:00:00+00:00,OR-1,Synthetic procedure note
+15,A,15,15,27,Internal fixation of femoral neck fracture,2026-01-13 14:00:00+00:00,OR-1,Synthetic procedure note
+16,A,16,16,37,Coronary artery bypass grafting,2026-02-02 14:00:00+00:00,OR-1,Synthetic procedure note
+17,A,17,17,27,Laparoscopic appendectomy,2026-01-14 14:00:00+00:00,OR-1,Synthetic procedure note
+18,A,18,18,22,Internal fixation of femoral neck fracture,2026-01-15 14:00:00+00:00,OR-1,Synthetic procedure note
+19,A,19,19,37,Coronary artery bypass grafting,2026-02-04 14:00:00+00:00,OR-1,Synthetic procedure note
+20,A,20,20,22,Laparoscopic appendectomy,2026-01-16 14:00:00+00:00,OR-1,Synthetic procedure note
+21,A,21,22,17,Internal fixation of femoral neck fracture,2026-01-17 14:00:00+00:00,OR-1,Synthetic procedure note
+22,A,22,23,27,Coronary artery bypass grafting,2026-01-18 14:00:00+00:00,OR-1,Synthetic procedure note
+23,A,23,25,42,Laparoscopic appendectomy,2026-01-19 14:00:00+00:00,OR-1,Synthetic procedure note
+24,A,24,26,47,Internal fixation of femoral neck fracture,2026-02-08 14:00:00+00:00,OR-1,Synthetic procedure note
+25,A,25,27,37,Coronary artery bypass grafting,2026-01-20 14:00:00+00:00,OR-1,Synthetic procedure note
+26,A,26,29,2,Laparoscopic appendectomy,2026-01-21 14:00:00+00:00,OR-1,Synthetic procedure note
+27,A,27,30,42,Internal fixation of femoral neck fracture,2026-02-10 14:00:00+00:00,OR-1,Synthetic procedure note
+28,A,28,31,47,Coronary artery bypass grafting,2026-01-22 14:00:00+00:00,OR-1,Synthetic procedure note
+29,A,29,32,22,Laparoscopic appendectomy,2026-01-23 14:00:00+00:00,OR-1,Synthetic procedure note
+30,A,30,33,32,Internal fixation of femoral neck fracture,2026-01-24 14:00:00+00:00,OR-1,Synthetic procedure note
+31,A,31,34,12,Coronary artery bypass grafting,2026-02-13 14:00:00+00:00,OR-1,Synthetic procedure note
+32,A,32,35,47,Laparoscopic appendectomy,2026-01-25 14:00:00+00:00,OR-1,Synthetic procedure note
+33,A,33,36,42,Internal fixation of femoral neck fracture,2026-02-14 14:00:00+00:00,OR-1,Synthetic procedure note
+34,A,34,37,47,Coronary artery bypass grafting,2026-01-26 14:00:00+00:00,OR-1,Synthetic procedure note
+35,A,35,38,27,Laparoscopic appendectomy,2026-02-15 14:00:00+00:00,OR-1,Synthetic procedure note
+36,A,36,39,2,Internal fixation of femoral neck fracture,2026-01-27 14:00:00+00:00,OR-1,Synthetic procedure note
+37,A,37,40,22,Coronary artery bypass grafting,2026-02-16 14:00:00+00:00,OR-1,Synthetic procedure note
+38,A,38,41,27,Laparoscopic appendectomy,2026-01-28 14:00:00+00:00,OR-1,Synthetic procedure note
+39,A,39,42,12,Internal fixation of femoral neck fracture,2026-02-17 14:00:00+00:00,OR-1,Synthetic procedure note
+40,A,40,43,27,Coronary artery bypass grafting,2026-01-29 14:00:00+00:00,OR-1,Synthetic procedure note
+41,A,41,44,32,Laparoscopic appendectomy,2026-02-18 14:00:00+00:00,OR-1,Synthetic procedure note
+42,A,42,45,12,Internal fixation of femoral neck fracture,2026-01-30 14:00:00+00:00,OR-1,Synthetic procedure note
+43,A,43,46,37,Coronary artery bypass grafting,2026-01-31 14:00:00+00:00,OR-1,Synthetic procedure note
+44,A,44,47,22,Laparoscopic appendectomy,2026-02-20 14:00:00+00:00,OR-1,Synthetic procedure note
+45,A,45,49,12,Internal fixation of femoral neck fracture,2026-02-02 14:00:00+00:00,OR-1,Synthetic procedure note
+46,A,46,50,37,Coronary artery bypass grafting,2026-02-22 14:00:00+00:00,OR-1,Synthetic procedure note
+47,A,47,51,2,Laparoscopic appendectomy,2026-02-03 14:00:00+00:00,OR-1,Synthetic procedure note
+48,A,48,52,27,Internal fixation of femoral neck fracture,2026-02-23 14:00:00+00:00,OR-1,Synthetic procedure note
+49,A,49,53,32,Coronary artery bypass grafting,2026-02-04 14:00:00+00:00,OR-1,Synthetic procedure note
+50,A,50,54,32,Laparoscopic appendectomy,2026-02-24 14:00:00+00:00,OR-1,Synthetic procedure note
+51,A,51,55,17,Internal fixation of femoral neck fracture,2026-02-05 14:00:00+00:00,OR-1,Synthetic procedure note
+52,A,52,56,47,Coronary artery bypass grafting,2026-02-25 14:00:00+00:00,OR-1,Synthetic procedure note
+53,A,53,57,47,Laparoscopic appendectomy,2026-02-06 14:00:00+00:00,OR-1,Synthetic procedure note
+54,A,54,58,42,Internal fixation of femoral neck fracture,2026-02-26 14:00:00+00:00,OR-1,Synthetic procedure note
+55,A,55,59,2,Coronary artery bypass grafting,2026-02-07 14:00:00+00:00,OR-1,Synthetic procedure note
+56,A,56,60,17,Laparoscopic appendectomy,2026-02-27 14:00:00+00:00,OR-1,Synthetic procedure note
+57,A,57,61,12,Internal fixation of femoral neck fracture,2026-02-08 14:00:00+00:00,OR-1,Synthetic procedure note
+58,A,58,62,47,Coronary artery bypass grafting,2026-02-09 14:00:00+00:00,OR-1,Synthetic procedure note
+59,A,59,63,12,Laparoscopic appendectomy,2026-03-01 14:00:00+00:00,OR-1,Synthetic procedure note
+60,A,60,64,2,Internal fixation of femoral neck fracture,2026-02-10 14:00:00+00:00,OR-1,Synthetic procedure note
+61,A,61,65,42,Coronary artery bypass grafting,2026-03-02 14:00:00+00:00,OR-1,Synthetic procedure note
+62,A,62,66,17,Laparoscopic appendectomy,2026-02-11 14:00:00+00:00,OR-1,Synthetic procedure note
+63,A,63,67,47,Internal fixation of femoral neck fracture,2026-03-03 14:00:00+00:00,OR-1,Synthetic procedure note
+64,A,64,68,17,Coronary artery bypass grafting,2026-02-12 14:00:00+00:00,OR-1,Synthetic procedure note
+65,A,65,69,32,Laparoscopic appendectomy,2026-03-04 14:00:00+00:00,OR-1,Synthetic procedure note
+66,A,66,70,22,Internal fixation of femoral neck fracture,2026-02-13 14:00:00+00:00,OR-1,Synthetic procedure note
+67,A,67,71,17,Coronary artery bypass grafting,2026-03-05 14:00:00+00:00,OR-1,Synthetic procedure note
+68,A,68,72,22,Laparoscopic appendectomy,2026-02-14 14:00:00+00:00,OR-1,Synthetic procedure note
+69,A,69,73,7,Internal fixation of femoral neck fracture,2026-03-06 14:00:00+00:00,OR-1,Synthetic procedure note
+70,A,70,74,27,Coronary artery bypass grafting,2026-02-15 14:00:00+00:00,OR-1,Synthetic procedure note
+71,A,71,75,17,Laparoscopic appendectomy,2026-03-07 14:00:00+00:00,OR-1,Synthetic procedure note
+72,A,72,76,2,Internal fixation of femoral neck fracture,2026-02-16 14:00:00+00:00,OR-1,Synthetic procedure note
+73,A,73,77,12,Coronary artery bypass grafting,2026-03-08 13:00:00+00:00,OR-1,Synthetic procedure note
+74,A,74,78,32,Laparoscopic appendectomy,2026-02-17 14:00:00+00:00,OR-1,Synthetic procedure note
+75,A,75,80,7,Internal fixation of femoral neck fracture,2026-02-18 14:00:00+00:00,OR-1,Synthetic procedure note
+76,A,76,81,22,Coronary artery bypass grafting,2026-02-19 14:00:00+00:00,OR-1,Synthetic procedure note
+77,A,77,82,37,Laparoscopic appendectomy,2026-02-20 14:00:00+00:00,OR-1,Synthetic procedure note
+78,A,78,83,37,Internal fixation of femoral neck fracture,2026-03-12 13:00:00+00:00,OR-1,Synthetic procedure note
+79,A,79,84,42,Coronary artery bypass grafting,2026-02-21 14:00:00+00:00,OR-1,Synthetic procedure note
+80,A,80,85,47,Laparoscopic appendectomy,2026-03-13 13:00:00+00:00,OR-1,Synthetic procedure note
+81,A,81,86,12,Internal fixation of femoral neck fracture,2026-02-22 14:00:00+00:00,OR-1,Synthetic procedure note
+82,A,82,87,22,Coronary artery bypass grafting,2026-03-14 13:00:00+00:00,OR-1,Synthetic procedure note
+83,A,83,88,2,Laparoscopic appendectomy,2026-02-23 14:00:00+00:00,OR-1,Synthetic procedure note
+84,A,84,89,42,Internal fixation of femoral neck fracture,2026-03-15 13:00:00+00:00,OR-1,Synthetic procedure note
+85,A,85,90,2,Coronary artery bypass grafting,2026-02-24 14:00:00+00:00,OR-1,Synthetic procedure note
+86,A,86,91,2,Laparoscopic appendectomy,2026-03-16 13:00:00+00:00,OR-1,Synthetic procedure note
+87,A,87,92,37,Internal fixation of femoral neck fracture,2026-02-25 14:00:00+00:00,OR-1,Synthetic procedure note
+88,A,88,93,27,Coronary artery bypass grafting,2026-03-17 13:00:00+00:00,OR-1,Synthetic procedure note
+89,A,89,94,32,Laparoscopic appendectomy,2026-02-26 14:00:00+00:00,OR-1,Synthetic procedure note
+90,A,90,95,17,Internal fixation of femoral neck fracture,2026-03-18 13:00:00+00:00,OR-1,Synthetic procedure note
+91,A,91,96,2,Coronary artery bypass grafting,2026-02-27 14:00:00+00:00,OR-1,Synthetic procedure note
+92,A,92,97,22,Laparoscopic appendectomy,2026-03-19 13:00:00+00:00,OR-1,Synthetic procedure note
+93,A,93,98,2,Internal fixation of femoral neck fracture,2026-02-28 14:00:00+00:00,OR-1,Synthetic procedure note
+94,A,94,99,2,Coronary artery bypass grafting,2026-03-20 13:00:00+00:00,OR-1,Synthetic procedure note
+95,A,95,100,32,Laparoscopic appendectomy,2026-03-01 14:00:00+00:00,OR-1,Synthetic procedure note
+96,A,96,101,42,Internal fixation of femoral neck fracture,2026-03-02 14:00:00+00:00,OR-1,Synthetic procedure note
+97,A,97,102,2,Coronary artery bypass grafting,2026-03-22 13:00:00+00:00,OR-1,Synthetic procedure note
+98,A,98,103,42,Laparoscopic appendectomy,2026-03-03 14:00:00+00:00,OR-1,Synthetic procedure note
+99,A,99,104,37,Internal fixation of femoral neck fracture,2026-03-04 14:00:00+00:00,OR-1,Synthetic procedure note
+100,A,100,105,32,Coronary artery bypass grafting,2026-03-05 14:00:00+00:00,OR-1,Synthetic procedure note
+101,A,101,106,27,Laparoscopic appendectomy,2026-03-06 14:00:00+00:00,OR-1,Synthetic procedure note
+102,A,102,107,22,Internal fixation of femoral neck fracture,2026-03-07 14:00:00+00:00,OR-1,Synthetic procedure note
+103,A,103,108,32,Coronary artery bypass grafting,2026-03-27 13:00:00+00:00,OR-1,Synthetic procedure note
+104,A,104,109,42,Laparoscopic appendectomy,2026-03-08 13:00:00+00:00,OR-1,Synthetic procedure note
+105,A,105,110,7,Internal fixation of femoral neck fracture,2026-03-09 13:00:00+00:00,OR-1,Synthetic procedure note
+106,A,106,111,7,Coronary artery bypass grafting,2026-03-29 13:00:00+00:00,OR-1,Synthetic procedure note
+107,A,107,112,12,Laparoscopic appendectomy,2026-03-10 13:00:00+00:00,OR-1,Synthetic procedure note
+108,A,108,113,12,Internal fixation of femoral neck fracture,2026-03-30 13:00:00+00:00,OR-1,Synthetic procedure note
+109,A,109,114,2,Coronary artery bypass grafting,2026-03-11 13:00:00+00:00,OR-1,Synthetic procedure note
+110,A,110,115,7,Laparoscopic appendectomy,2026-03-31 13:00:00+00:00,OR-1,Synthetic procedure note
+111,A,111,116,32,Internal fixation of femoral neck fracture,2026-03-12 13:00:00+00:00,OR-1,Synthetic procedure note
+112,A,112,117,42,Coronary artery bypass grafting,2026-04-01 13:00:00+00:00,OR-1,Synthetic procedure note
+113,A,113,118,27,Laparoscopic appendectomy,2026-03-13 13:00:00+00:00,OR-1,Synthetic procedure note
+114,A,114,119,7,Internal fixation of femoral neck fracture,2026-04-02 13:00:00+00:00,OR-1,Synthetic procedure note
+115,B,1,951,100,Coronary artery bypass grafting,2026-06-15 07:00:00+00:00,OR-1,Synthetic procedure note
+116,B,2,952,50,Laparoscopic appendectomy,2026-07-05 07:00:00+00:00,OR-1,Synthetic procedure note
+117,B,3,953,80,Internal fixation of femoral neck fracture,2026-07-25 07:00:00+00:00,OR-1,Synthetic procedure note
+118,B,4,954,95,Coronary artery bypass grafting,2026-08-14 07:00:00+00:00,OR-1,Synthetic procedure note
+119,B,5,955,95,Laparoscopic appendectomy,2026-06-16 07:00:00+00:00,OR-1,Synthetic procedure note
+120,B,6,956,50,Internal fixation of femoral neck fracture,2026-07-06 07:00:00+00:00,OR-1,Synthetic procedure note
+121,B,7,957,65,Coronary artery bypass grafting,2026-06-17 07:00:00+00:00,OR-1,Synthetic procedure note
+122,B,8,958,75,Laparoscopic appendectomy,2026-06-18 07:00:00+00:00,OR-1,Synthetic procedure note
+123,B,9,959,50,Internal fixation of femoral neck fracture,2026-07-08 07:00:00+00:00,OR-1,Synthetic procedure note
+124,B,10,960,75,Coronary artery bypass grafting,2026-06-19 07:00:00+00:00,OR-1,Synthetic procedure note
+125,B,11,961,55,Laparoscopic appendectomy,2026-07-09 07:00:00+00:00,OR-1,Synthetic procedure note
+126,B,12,962,75,Internal fixation of femoral neck fracture,2026-06-20 07:00:00+00:00,OR-1,Synthetic procedure note
+127,B,13,963,80,Coronary artery bypass grafting,2026-07-10 07:00:00+00:00,OR-1,Synthetic procedure note
+128,B,14,964,50,Laparoscopic appendectomy,2026-06-21 07:00:00+00:00,OR-1,Synthetic procedure note
+129,B,15,966,75,Internal fixation of femoral neck fracture,2026-06-22 07:00:00+00:00,OR-1,Synthetic procedure note
+130,B,16,967,55,Coronary artery bypass grafting,2026-06-23 07:00:00+00:00,OR-1,Synthetic procedure note
+131,B,17,968,80,Laparoscopic appendectomy,2026-07-13 07:00:00+00:00,OR-1,Synthetic procedure note
+132,B,18,969,60,Internal fixation of femoral neck fracture,2026-06-24 07:00:00+00:00,OR-1,Synthetic procedure note
+133,B,19,970,55,Coronary artery bypass grafting,2026-06-25 07:00:00+00:00,OR-1,Synthetic procedure note
+134,B,20,971,85,Laparoscopic appendectomy,2026-06-26 07:00:00+00:00,OR-1,Synthetic procedure note
+135,B,21,972,75,Internal fixation of femoral neck fracture,2026-06-27 07:00:00+00:00,OR-1,Synthetic procedure note
+136,B,22,973,95,Coronary artery bypass grafting,2026-07-17 07:00:00+00:00,OR-1,Synthetic procedure note
+137,B,23,974,85,Laparoscopic appendectomy,2026-06-28 07:00:00+00:00,OR-1,Synthetic procedure note
+138,B,24,976,95,Internal fixation of femoral neck fracture,2026-06-29 07:00:00+00:00,OR-1,Synthetic procedure note
+139,B,25,977,50,Coronary artery bypass grafting,2026-06-30 07:00:00+00:00,OR-1,Synthetic procedure note
+140,B,26,978,95,Laparoscopic appendectomy,2026-07-20 07:00:00+00:00,OR-1,Synthetic procedure note
+141,B,27,979,55,Internal fixation of femoral neck fracture,2026-07-01 07:00:00+00:00,OR-1,Synthetic procedure note
+142,B,28,980,55,Coronary artery bypass grafting,2026-07-02 07:00:00+00:00,OR-1,Synthetic procedure note
+143,B,29,981,60,Laparoscopic appendectomy,2026-07-22 07:00:00+00:00,OR-1,Synthetic procedure note
+144,B,30,982,75,Internal fixation of femoral neck fracture,2026-07-03 07:00:00+00:00,OR-1,Synthetic procedure note
+145,B,31,983,50,Coronary artery bypass grafting,2026-07-04 07:00:00+00:00,OR-1,Synthetic procedure note
+146,B,32,984,80,Laparoscopic appendectomy,2026-07-05 07:00:00+00:00,OR-1,Synthetic procedure note
+147,B,33,985,50,Internal fixation of femoral neck fracture,2026-07-25 07:00:00+00:00,OR-1,Synthetic procedure note
+148,B,34,986,85,Coronary artery bypass grafting,2026-07-06 07:00:00+00:00,OR-1,Synthetic procedure note
+149,B,35,987,65,Laparoscopic appendectomy,2026-07-26 07:00:00+00:00,OR-1,Synthetic procedure note
+150,B,36,988,75,Internal fixation of femoral neck fracture,2026-07-07 07:00:00+00:00,OR-1,Synthetic procedure note
+151,B,37,989,85,Coronary artery bypass grafting,2026-07-27 07:00:00+00:00,OR-1,Synthetic procedure note
+152,B,38,990,90,Laparoscopic appendectomy,2026-07-08 07:00:00+00:00,OR-1,Synthetic procedure note
+153,B,39,991,85,Internal fixation of femoral neck fracture,2026-07-28 07:00:00+00:00,OR-1,Synthetic procedure note
+154,B,40,992,65,Coronary artery bypass grafting,2026-07-09 07:00:00+00:00,OR-1,Synthetic procedure note
+155,B,41,993,75,Laparoscopic appendectomy,2026-07-10 07:00:00+00:00,OR-1,Synthetic procedure note
+156,B,42,994,55,Internal fixation of femoral neck fracture,2026-07-30 07:00:00+00:00,OR-1,Synthetic procedure note
+157,B,43,995,75,Coronary artery bypass grafting,2026-07-11 07:00:00+00:00,OR-1,Synthetic procedure note
+158,B,44,997,60,Laparoscopic appendectomy,2026-07-12 07:00:00+00:00,OR-1,Synthetic procedure note
+159,B,45,998,85,Internal fixation of femoral neck fracture,2026-07-13 07:00:00+00:00,OR-1,Synthetic procedure note
+160,B,46,999,95,Coronary artery bypass grafting,2026-07-14 07:00:00+00:00,OR-1,Synthetic procedure note
+161,B,47,1000,60,Laparoscopic appendectomy,2026-08-03 07:00:00+00:00,OR-1,Synthetic procedure note
+162,B,48,1001,100,Internal fixation of femoral neck fracture,2026-07-15 07:00:00+00:00,OR-1,Synthetic procedure note
+163,B,49,1002,100,Coronary artery bypass grafting,2026-08-04 07:00:00+00:00,OR-1,Synthetic procedure note
+164,B,50,1003,100,Laparoscopic appendectomy,2026-07-16 07:00:00+00:00,OR-1,Synthetic procedure note
+165,B,51,1004,50,Internal fixation of femoral neck fracture,2026-08-05 07:00:00+00:00,OR-1,Synthetic procedure note
+166,B,52,1005,60,Coronary artery bypass grafting,2026-07-17 07:00:00+00:00,OR-1,Synthetic procedure note
+167,B,53,1006,65,Laparoscopic appendectomy,2026-08-06 07:00:00+00:00,OR-1,Synthetic procedure note
+168,B,54,1008,50,Internal fixation of femoral neck fracture,2026-07-19 07:00:00+00:00,OR-1,Synthetic procedure note
+169,B,55,1009,75,Coronary artery bypass grafting,2026-07-20 07:00:00+00:00,OR-1,Synthetic procedure note
+170,B,56,1010,85,Laparoscopic appendectomy,2026-08-09 07:00:00+00:00,OR-1,Synthetic procedure note
+171,B,57,1011,75,Internal fixation of femoral neck fracture,2026-07-21 07:00:00+00:00,OR-1,Synthetic procedure note
+172,B,58,1012,60,Coronary artery bypass grafting,2026-08-10 07:00:00+00:00,OR-1,Synthetic procedure note
+173,B,59,1013,55,Laparoscopic appendectomy,2026-07-22 07:00:00+00:00,OR-1,Synthetic procedure note
+174,B,60,1014,100,Internal fixation of femoral neck fracture,2026-08-11 07:00:00+00:00,OR-1,Synthetic procedure note
+175,B,61,1015,60,Coronary artery bypass grafting,2026-07-23 07:00:00+00:00,OR-1,Synthetic procedure note
+176,B,62,1016,70,Laparoscopic appendectomy,2026-08-12 07:00:00+00:00,OR-1,Synthetic procedure note
+177,B,63,1017,75,Internal fixation of femoral neck fracture,2026-07-24 07:00:00+00:00,OR-1,Synthetic procedure note
+178,B,64,1018,85,Coronary artery bypass grafting,2026-08-13 07:00:00+00:00,OR-1,Synthetic procedure note
+179,B,65,1019,65,Laparoscopic appendectomy,2026-07-25 07:00:00+00:00,OR-1,Synthetic procedure note
+180,B,66,1020,80,Internal fixation of femoral neck fracture,2026-08-14 07:00:00+00:00,OR-1,Synthetic procedure note
+181,B,67,1021,55,Coronary artery bypass grafting,2026-07-26 07:00:00+00:00,OR-1,Synthetic procedure note
+182,B,68,1022,80,Laparoscopic appendectomy,2026-08-15 07:00:00+00:00,OR-1,Synthetic procedure note
+183,B,69,1023,50,Internal fixation of femoral neck fracture,2026-07-27 07:00:00+00:00,OR-1,Synthetic procedure note
+184,B,70,1024,95,Coronary artery bypass grafting,2026-07-28 07:00:00+00:00,OR-1,Synthetic procedure note
+185,B,71,1025,80,Laparoscopic appendectomy,2026-07-29 07:00:00+00:00,OR-1,Synthetic procedure note
+186,B,72,1026,50,Internal fixation of femoral neck fracture,2026-08-18 07:00:00+00:00,OR-1,Synthetic procedure note
+187,B,73,1027,90,Coronary artery bypass grafting,2026-07-30 07:00:00+00:00,OR-1,Synthetic procedure note
+188,B,74,1028,65,Laparoscopic appendectomy,2026-08-19 07:00:00+00:00,OR-1,Synthetic procedure note
+189,B,75,1029,50,Internal fixation of femoral neck fracture,2026-07-31 07:00:00+00:00,OR-1,Synthetic procedure note
+190,B,76,1030,75,Coronary artery bypass grafting,2026-08-01 07:00:00+00:00,OR-1,Synthetic procedure note
+191,B,77,1031,55,Laparoscopic appendectomy,2026-08-21 07:00:00+00:00,OR-1,Synthetic procedure note
+192,B,78,1032,65,Internal fixation of femoral neck fracture,2026-08-02 07:00:00+00:00,OR-1,Synthetic procedure note
+193,B,79,1033,100,Coronary artery bypass grafting,2026-08-22 07:00:00+00:00,OR-1,Synthetic procedure note
+194,B,80,1034,65,Laparoscopic appendectomy,2026-08-03 07:00:00+00:00,OR-1,Synthetic procedure note
+195,B,81,1035,65,Internal fixation of femoral neck fracture,2026-08-23 07:00:00+00:00,OR-1,Synthetic procedure note
+196,B,82,1036,75,Coronary artery bypass grafting,2026-08-04 07:00:00+00:00,OR-1,Synthetic procedure note
+197,B,83,1037,55,Laparoscopic appendectomy,2026-08-24 07:00:00+00:00,OR-1,Synthetic procedure note
+198,B,84,1038,65,Internal fixation of femoral neck fracture,2026-08-05 07:00:00+00:00,OR-1,Synthetic procedure note
+199,B,85,1039,60,Coronary artery bypass grafting,2026-08-25 07:00:00+00:00,OR-1,Synthetic procedure note
+200,B,86,1041,95,Laparoscopic appendectomy,2026-08-07 07:00:00+00:00,OR-1,Synthetic procedure note
+201,B,87,1042,75,Internal fixation of femoral neck fracture,2026-08-27 07:00:00+00:00,OR-1,Synthetic procedure note
+202,B,88,1043,80,Coronary artery bypass grafting,2026-08-08 07:00:00+00:00,OR-1,Synthetic procedure note
+203,B,89,1044,60,Laparoscopic appendectomy,2026-08-28 07:00:00+00:00,OR-1,Synthetic procedure note
+204,B,90,1045,70,Internal fixation of femoral neck fracture,2026-08-09 07:00:00+00:00,OR-1,Synthetic procedure note
+205,B,91,1046,80,Coronary artery bypass grafting,2026-08-29 07:00:00+00:00,OR-1,Synthetic procedure note
+206,B,92,1048,50,Laparoscopic appendectomy,2026-08-11 07:00:00+00:00,OR-1,Synthetic procedure note
+207,B,93,1049,100,Internal fixation of femoral neck fracture,2026-08-12 07:00:00+00:00,OR-1,Synthetic procedure note
+208,B,94,1050,85,Coronary artery bypass grafting,2026-09-01 07:00:00+00:00,OR-1,Synthetic procedure note
+209,B,95,1051,50,Laparoscopic appendectomy,2026-08-13 07:00:00+00:00,OR-1,Synthetic procedure note
+210,B,96,1052,65,Internal fixation of femoral neck fracture,2026-08-14 07:00:00+00:00,OR-1,Synthetic procedure note
+211,B,97,1053,75,Coronary artery bypass grafting,2026-09-03 07:00:00+00:00,OR-1,Synthetic procedure note
+212,B,98,1054,70,Laparoscopic appendectomy,2026-08-15 07:00:00+00:00,OR-1,Synthetic procedure note
+213,B,99,1055,60,Internal fixation of femoral neck fracture,2026-09-04 07:00:00+00:00,OR-1,Synthetic procedure note
+214,B,100,1056,55,Coronary artery bypass grafting,2026-08-16 07:00:00+00:00,OR-1,Synthetic procedure note
+215,B,101,1057,70,Laparoscopic appendectomy,2026-09-05 07:00:00+00:00,OR-1,Synthetic procedure note
+216,B,102,1058,70,Internal fixation of femoral neck fracture,2026-08-17 07:00:00+00:00,OR-1,Synthetic procedure note
+217,B,103,1059,75,Coronary artery bypass grafting,2026-09-06 07:00:00+00:00,OR-1,Synthetic procedure note
+218,B,104,1060,75,Laparoscopic appendectomy,2026-08-18 07:00:00+00:00,OR-1,Synthetic procedure note
+219,B,105,1061,50,Internal fixation of femoral neck fracture,2026-09-07 07:00:00+00:00,OR-1,Synthetic procedure note
+220,B,106,1062,60,Coronary artery bypass grafting,2026-08-19 07:00:00+00:00,OR-1,Synthetic procedure note
+221,B,107,1063,50,Laparoscopic appendectomy,2026-09-08 07:00:00+00:00,OR-1,Synthetic procedure note
+222,B,108,1064,80,Internal fixation of femoral neck fracture,2026-08-20 07:00:00+00:00,OR-1,Synthetic procedure note
+223,B,109,1065,95,Coronary artery bypass grafting,2026-09-09 07:00:00+00:00,OR-1,Synthetic procedure note
+224,B,110,1066,95,Laparoscopic appendectomy,2026-08-21 07:00:00+00:00,OR-1,Synthetic procedure note
+225,B,111,1067,100,Internal fixation of femoral neck fracture,2026-09-10 07:00:00+00:00,OR-1,Synthetic procedure note
+226,B,112,1068,100,Coronary artery bypass grafting,2026-08-22 07:00:00+00:00,OR-1,Synthetic procedure note
+227,B,113,1069,90,Laparoscopic appendectomy,2026-09-11 07:00:00+00:00,OR-1,Synthetic procedure note
+228,B,114,1070,95,Internal fixation of femoral neck fracture,2026-08-23 07:00:00+00:00,OR-1,Synthetic procedure note
+229,B,115,1071,75,Coronary artery bypass grafting,2026-09-12 07:00:00+00:00,OR-1,Synthetic procedure note
+230,B,116,1072,85,Laparoscopic appendectomy,2026-08-24 07:00:00+00:00,OR-1,Synthetic procedure note
+231,B,117,1073,60,Internal fixation of femoral neck fracture,2026-09-13 07:00:00+00:00,OR-1,Synthetic procedure note
+232,B,118,1075,95,Coronary artery bypass grafting,2026-08-26 07:00:00+00:00,OR-1,Synthetic procedure note
+233,B,119,1076,65,Laparoscopic appendectomy,2026-09-15 07:00:00+00:00,OR-1,Synthetic procedure note
+234,B,120,1077,70,Internal fixation of femoral neck fracture,2026-08-27 07:00:00+00:00,OR-1,Synthetic procedure note
+235,B,121,1078,90,Coronary artery bypass grafting,2026-09-16 07:00:00+00:00,OR-1,Synthetic procedure note
+236,B,122,1079,80,Laparoscopic appendectomy,2026-08-28 07:00:00+00:00,OR-1,Synthetic procedure note
+237,B,123,1080,70,Internal fixation of femoral neck fracture,2026-09-17 07:00:00+00:00,OR-1,Synthetic procedure note
+238,B,124,1081,60,Coronary artery bypass grafting,2026-08-29 07:00:00+00:00,OR-1,Synthetic procedure note
+239,B,125,1082,55,Laparoscopic appendectomy,2026-08-30 07:00:00+00:00,OR-1,Synthetic procedure note
+240,C,1,1991,102,Coronary artery bypass grafting,2026-01-06 00:00:00+00:00,OR-1,Synthetic procedure note
+241,C,2,1992,132,Laparoscopic appendectomy,2026-01-26 00:00:00+00:00,OR-1,Synthetic procedure note
+242,C,3,1993,147,Internal fixation of femoral neck fracture,2026-02-15 00:00:00+00:00,OR-1,Synthetic procedure note
+243,C,4,1994,107,Coronary artery bypass grafting,2026-03-07 00:00:00+00:00,OR-1,Synthetic procedure note
+244,C,5,1995,102,Laparoscopic appendectomy,2026-01-07 00:00:00+00:00,OR-1,Synthetic procedure note
+245,C,6,1996,132,Internal fixation of femoral neck fracture,2026-01-27 00:00:00+00:00,OR-1,Synthetic procedure note
+246,C,7,1997,107,Coronary artery bypass grafting,2026-01-08 00:00:00+00:00,OR-1,Synthetic procedure note
+247,C,8,1998,122,Laparoscopic appendectomy,2026-01-09 00:00:00+00:00,OR-1,Synthetic procedure note
+248,C,9,1999,142,Internal fixation of femoral neck fracture,2026-01-10 00:00:00+00:00,OR-1,Synthetic procedure note
+249,C,10,2000,142,Coronary artery bypass grafting,2026-01-11 00:00:00+00:00,OR-1,Synthetic procedure note
+250,C,11,2001,112,Laparoscopic appendectomy,2026-01-31 00:00:00+00:00,OR-1,Synthetic procedure note
+251,C,12,2002,127,Internal fixation of femoral neck fracture,2026-01-12 00:00:00+00:00,OR-1,Synthetic procedure note
+252,C,13,2003,117,Coronary artery bypass grafting,2026-02-01 00:00:00+00:00,OR-1,Synthetic procedure note
+253,C,14,2004,147,Laparoscopic appendectomy,2026-01-13 00:00:00+00:00,OR-1,Synthetic procedure note
+254,C,15,2005,137,Internal fixation of femoral neck fracture,2026-02-02 00:00:00+00:00,OR-1,Synthetic procedure note
+255,C,16,2006,142,Coronary artery bypass grafting,2026-01-14 00:00:00+00:00,OR-1,Synthetic procedure note
+256,C,17,2007,112,Laparoscopic appendectomy,2026-02-03 00:00:00+00:00,OR-1,Synthetic procedure note
+257,C,18,2008,147,Internal fixation of femoral neck fracture,2026-01-15 00:00:00+00:00,OR-1,Synthetic procedure note
+258,C,19,2009,107,Coronary artery bypass grafting,2026-01-16 00:00:00+00:00,OR-1,Synthetic procedure note
+259,C,20,2010,117,Laparoscopic appendectomy,2026-02-05 00:00:00+00:00,OR-1,Synthetic procedure note
+260,C,21,2011,107,Internal fixation of femoral neck fracture,2026-01-17 00:00:00+00:00,OR-1,Synthetic procedure note
+261,C,22,2012,127,Coronary artery bypass grafting,2026-02-06 00:00:00+00:00,OR-1,Synthetic procedure note
+262,C,23,2013,132,Laparoscopic appendectomy,2026-01-18 00:00:00+00:00,OR-1,Synthetic procedure note
+263,C,24,2014,137,Internal fixation of femoral neck fracture,2026-02-07 00:00:00+00:00,OR-1,Synthetic procedure note
+264,C,25,2015,147,Coronary artery bypass grafting,2026-01-19 00:00:00+00:00,OR-1,Synthetic procedure note
+265,C,26,2016,132,Laparoscopic appendectomy,2026-02-08 00:00:00+00:00,OR-1,Synthetic procedure note
+266,C,27,2017,112,Internal fixation of femoral neck fracture,2026-01-20 00:00:00+00:00,OR-1,Synthetic procedure note
+267,C,28,2018,147,Coronary artery bypass grafting,2026-02-09 00:00:00+00:00,OR-1,Synthetic procedure note
+268,C,29,2019,122,Laparoscopic appendectomy,2026-01-21 00:00:00+00:00,OR-1,Synthetic procedure note
+269,C,30,2020,127,Internal fixation of femoral neck fracture,2026-01-22 00:00:00+00:00,OR-1,Synthetic procedure note
+270,C,31,2021,122,Coronary artery bypass grafting,2026-01-23 00:00:00+00:00,OR-1,Synthetic procedure note
+271,C,32,2023,107,Laparoscopic appendectomy,2026-01-24 00:00:00+00:00,OR-1,Synthetic procedure note
+272,C,33,2024,102,Internal fixation of femoral neck fracture,2026-02-13 00:00:00+00:00,OR-1,Synthetic procedure note
+273,C,34,2025,142,Coronary artery bypass grafting,2026-01-25 00:00:00+00:00,OR-1,Synthetic procedure note
+274,C,35,2026,132,Laparoscopic appendectomy,2026-01-26 00:00:00+00:00,OR-1,Synthetic procedure note
+275,C,36,2027,132,Internal fixation of femoral neck fracture,2026-02-15 00:00:00+00:00,OR-1,Synthetic procedure note
+276,C,37,2028,112,Coronary artery bypass grafting,2026-01-27 00:00:00+00:00,OR-1,Synthetic procedure note
+277,C,38,2029,117,Laparoscopic appendectomy,2026-02-16 00:00:00+00:00,OR-1,Synthetic procedure note
+278,C,39,2030,132,Internal fixation of femoral neck fracture,2026-01-28 00:00:00+00:00,OR-1,Synthetic procedure note
+279,C,40,2031,147,Coronary artery bypass grafting,2026-02-17 00:00:00+00:00,OR-1,Synthetic procedure note
+280,C,41,2032,107,Laparoscopic appendectomy,2026-01-29 00:00:00+00:00,OR-1,Synthetic procedure note
+281,C,42,2033,122,Internal fixation of femoral neck fracture,2026-02-18 00:00:00+00:00,OR-1,Synthetic procedure note
+282,C,43,2034,142,Coronary artery bypass grafting,2026-01-30 00:00:00+00:00,OR-1,Synthetic procedure note
+283,C,44,2035,117,Laparoscopic appendectomy,2026-02-19 00:00:00+00:00,OR-1,Synthetic procedure note
+284,C,45,2036,142,Internal fixation of femoral neck fracture,2026-01-31 00:00:00+00:00,OR-1,Synthetic procedure note
+285,C,46,2037,122,Coronary artery bypass grafting,2026-02-20 00:00:00+00:00,OR-1,Synthetic procedure note
+286,C,47,2038,117,Laparoscopic appendectomy,2026-02-01 00:00:00+00:00,OR-1,Synthetic procedure note
+287,C,48,2039,122,Internal fixation of femoral neck fracture,2026-02-21 00:00:00+00:00,OR-1,Synthetic procedure note
+288,C,49,2040,142,Coronary artery bypass grafting,2026-02-02 00:00:00+00:00,OR-1,Synthetic procedure note
+289,C,50,2041,142,Laparoscopic appendectomy,2026-02-22 00:00:00+00:00,OR-1,Synthetic procedure note
+290,C,51,2042,142,Internal fixation of femoral neck fracture,2026-02-03 00:00:00+00:00,OR-1,Synthetic procedure note
+291,C,52,2043,137,Coronary artery bypass grafting,2026-02-04 00:00:00+00:00,OR-1,Synthetic procedure note
+292,C,53,2044,137,Laparoscopic appendectomy,2026-02-24 00:00:00+00:00,OR-1,Synthetic procedure note
+293,C,54,2045,132,Internal fixation of femoral neck fracture,2026-02-05 00:00:00+00:00,OR-1,Synthetic procedure note
+294,C,55,2046,117,Coronary artery bypass grafting,2026-02-25 00:00:00+00:00,OR-1,Synthetic procedure note
+295,C,56,2047,117,Laparoscopic appendectomy,2026-02-06 00:00:00+00:00,OR-1,Synthetic procedure note
+296,C,57,2048,142,Internal fixation of femoral neck fracture,2026-02-26 00:00:00+00:00,OR-1,Synthetic procedure note
+297,C,58,2049,117,Coronary artery bypass grafting,2026-02-07 00:00:00+00:00,OR-1,Synthetic procedure note
+298,C,59,2050,122,Laparoscopic appendectomy,2026-02-27 00:00:00+00:00,OR-1,Synthetic procedure note
+299,C,60,2051,142,Internal fixation of femoral neck fracture,2026-02-08 00:00:00+00:00,OR-1,Synthetic procedure note
+300,C,61,2052,132,Coronary artery bypass grafting,2026-02-28 00:00:00+00:00,OR-1,Synthetic procedure note
+301,C,62,2053,142,Laparoscopic appendectomy,2026-02-09 00:00:00+00:00,OR-1,Synthetic procedure note
+302,C,63,2054,102,Internal fixation of femoral neck fracture,2026-03-01 00:00:00+00:00,OR-1,Synthetic procedure note
+303,C,64,2055,132,Coronary artery bypass grafting,2026-02-10 00:00:00+00:00,OR-1,Synthetic procedure note
+304,C,65,2056,102,Laparoscopic appendectomy,2026-03-02 00:00:00+00:00,OR-1,Synthetic procedure note
+305,C,66,2057,127,Internal fixation of femoral neck fracture,2026-02-11 00:00:00+00:00,OR-1,Synthetic procedure note
+306,C,67,2058,122,Coronary artery bypass grafting,2026-03-03 00:00:00+00:00,OR-1,Synthetic procedure note
+307,C,68,2060,102,Laparoscopic appendectomy,2026-02-13 00:00:00+00:00,OR-1,Synthetic procedure note
+308,C,69,2061,117,Internal fixation of femoral neck fracture,2026-03-05 00:00:00+00:00,OR-1,Synthetic procedure note
+309,C,70,2062,112,Coronary artery bypass grafting,2026-02-14 00:00:00+00:00,OR-1,Synthetic procedure note
+310,C,71,2063,137,Laparoscopic appendectomy,2026-03-06 00:00:00+00:00,OR-1,Synthetic procedure note
+311,C,72,2064,117,Internal fixation of femoral neck fracture,2026-02-15 00:00:00+00:00,OR-1,Synthetic procedure note
+312,C,73,2065,127,Coronary artery bypass grafting,2026-03-07 00:00:00+00:00,OR-1,Synthetic procedure note
+313,C,74,2066,142,Laparoscopic appendectomy,2026-02-16 00:00:00+00:00,OR-1,Synthetic procedure note
+314,C,75,2067,112,Internal fixation of femoral neck fracture,2026-02-17 00:00:00+00:00,OR-1,Synthetic procedure note
+315,C,76,2068,147,Coronary artery bypass grafting,2026-02-18 00:00:00+00:00,OR-1,Synthetic procedure note
+316,C,77,2070,122,Laparoscopic appendectomy,2026-02-19 00:00:00+00:00,OR-1,Synthetic procedure note
+317,C,78,2072,107,Internal fixation of femoral neck fracture,2026-02-20 00:00:00+00:00,OR-1,Synthetic procedure note
+318,C,79,2073,122,Coronary artery bypass grafting,2026-02-21 00:00:00+00:00,OR-1,Synthetic procedure note
+319,C,80,2074,147,Laparoscopic appendectomy,2026-02-22 00:00:00+00:00,OR-1,Synthetic procedure note
+320,C,81,2075,142,Internal fixation of femoral neck fracture,2026-03-14 00:00:00+00:00,OR-1,Synthetic procedure note
+321,C,82,2076,127,Coronary artery bypass grafting,2026-02-23 00:00:00+00:00,OR-1,Synthetic procedure note
+322,C,83,2077,142,Laparoscopic appendectomy,2026-03-15 00:00:00+00:00,OR-1,Synthetic procedure note
+323,C,84,2078,117,Internal fixation of femoral neck fracture,2026-02-24 00:00:00+00:00,OR-1,Synthetic procedure note
+324,C,85,2079,132,Coronary artery bypass grafting,2026-03-16 00:00:00+00:00,OR-1,Synthetic procedure note
+325,C,86,2080,147,Laparoscopic appendectomy,2026-02-25 00:00:00+00:00,OR-1,Synthetic procedure note
+326,C,87,2081,112,Internal fixation of femoral neck fracture,2026-02-26 00:00:00+00:00,OR-1,Synthetic procedure note
+327,C,88,2082,137,Coronary artery bypass grafting,2026-02-27 00:00:00+00:00,OR-1,Synthetic procedure note
+328,C,89,2083,122,Laparoscopic appendectomy,2026-03-19 00:00:00+00:00,OR-1,Synthetic procedure note
+329,C,90,2084,112,Internal fixation of femoral neck fracture,2026-02-28 00:00:00+00:00,OR-1,Synthetic procedure note
+330,C,91,2085,137,Coronary artery bypass grafting,2026-03-20 00:00:00+00:00,OR-1,Synthetic procedure note
+331,C,92,2086,137,Laparoscopic appendectomy,2026-03-01 00:00:00+00:00,OR-1,Synthetic procedure note
+332,C,93,2087,107,Internal fixation of femoral neck fracture,2026-03-02 00:00:00+00:00,OR-1,Synthetic procedure note
+333,C,94,2088,132,Coronary artery bypass grafting,2026-03-22 00:00:00+00:00,OR-1,Synthetic procedure note
+334,C,95,2089,102,Laparoscopic appendectomy,2026-03-03 00:00:00+00:00,OR-1,Synthetic procedure note
+335,C,96,2090,112,Internal fixation of femoral neck fracture,2026-03-23 00:00:00+00:00,OR-1,Synthetic procedure note
+336,C,97,2091,112,Coronary artery bypass grafting,2026-03-04 00:00:00+00:00,OR-1,Synthetic procedure note
+337,C,98,2092,102,Laparoscopic appendectomy,2026-03-24 00:00:00+00:00,OR-1,Synthetic procedure note
+338,C,99,2093,147,Internal fixation of femoral neck fracture,2026-03-05 00:00:00+00:00,OR-1,Synthetic procedure note
+339,C,100,2094,142,Coronary artery bypass grafting,2026-03-25 00:00:00+00:00,OR-1,Synthetic procedure note
+340,C,101,2095,107,Laparoscopic appendectomy,2026-03-06 00:00:00+00:00,OR-1,Synthetic procedure note
+341,C,102,2096,102,Internal fixation of femoral neck fracture,2026-03-26 00:00:00+00:00,OR-1,Synthetic procedure note
+342,C,103,2097,127,Coronary artery bypass grafting,2026-03-07 00:00:00+00:00,OR-1,Synthetic procedure note
+343,C,104,2098,122,Laparoscopic appendectomy,2026-03-27 00:00:00+00:00,OR-1,Synthetic procedure note
+344,C,105,2099,102,Internal fixation of femoral neck fracture,2026-03-08 00:00:00+00:00,OR-1,Synthetic procedure note
+345,C,106,2100,127,Coronary artery bypass grafting,2026-03-28 00:00:00+00:00,OR-1,Synthetic procedure note
+346,C,107,2102,142,Laparoscopic appendectomy,2026-03-10 00:00:00+00:00,OR-1,Synthetic procedure note
+347,C,108,2103,122,Internal fixation of femoral neck fracture,2026-03-30 00:00:00+00:00,OR-1,Synthetic procedure note
+348,C,109,2104,107,Coronary artery bypass grafting,2026-03-11 00:00:00+00:00,OR-1,Synthetic procedure note
+349,C,110,2105,112,Laparoscopic appendectomy,2026-03-31 00:00:00+00:00,OR-1,Synthetic procedure note
+350,C,111,2106,102,Internal fixation of femoral neck fracture,2026-03-12 00:00:00+00:00,OR-1,Synthetic procedure note
+351,C,112,2107,127,Coronary artery bypass grafting,2026-03-13 00:00:00+00:00,OR-1,Synthetic procedure note
+352,C,113,2108,127,Laparoscopic appendectomy,2026-04-02 00:00:00+00:00,OR-1,Synthetic procedure note
+353,C,114,2109,147,Internal fixation of femoral neck fracture,2026-03-14 00:00:00+00:00,OR-1,Synthetic procedure note
+354,C,115,2110,137,Coronary artery bypass grafting,2026-04-03 00:00:00+00:00,OR-1,Synthetic procedure note
+355,C,116,2111,117,Laparoscopic appendectomy,2026-03-15 00:00:00+00:00,OR-1,Synthetic procedure note
+356,C,117,2112,117,Internal fixation of femoral neck fracture,2026-04-04 00:00:00+00:00,OR-1,Synthetic procedure note
+357,C,118,2113,107,Coronary artery bypass grafting,2026-03-16 00:00:00+00:00,OR-1,Synthetic procedure note
+358,D,1,2971,201,Coronary artery bypass grafting,2026-06-14 23:00:00+00:00,OR-1,Synthetic procedure note
+359,D,2,2972,151,Laparoscopic appendectomy,2026-07-04 23:00:00+00:00,OR-1,Synthetic procedure note
+360,D,3,2973,161,Internal fixation of femoral neck fracture,2026-07-24 23:00:00+00:00,OR-1,Synthetic procedure note
+361,D,4,2974,166,Coronary artery bypass grafting,2026-08-13 23:00:00+00:00,OR-1,Synthetic procedure note
+362,D,5,2975,196,Laparoscopic appendectomy,2026-06-15 23:00:00+00:00,OR-1,Synthetic procedure note
+363,D,6,2976,166,Internal fixation of femoral neck fracture,2026-06-16 23:00:00+00:00,OR-1,Synthetic procedure note
+364,D,7,2977,156,Coronary artery bypass grafting,2026-07-06 23:00:00+00:00,OR-1,Synthetic procedure note
+365,D,8,2978,151,Laparoscopic appendectomy,2026-06-17 23:00:00+00:00,OR-1,Synthetic procedure note
+366,D,9,2979,176,Internal fixation of femoral neck fracture,2026-07-07 23:00:00+00:00,OR-1,Synthetic procedure note
+367,D,10,2980,156,Coronary artery bypass grafting,2026-06-18 23:00:00+00:00,OR-1,Synthetic procedure note
+368,D,11,2981,191,Laparoscopic appendectomy,2026-06-19 23:00:00+00:00,OR-1,Synthetic procedure note
+369,D,12,2982,171,Internal fixation of femoral neck fracture,2026-07-09 23:00:00+00:00,OR-1,Synthetic procedure note
+370,D,13,2983,181,Coronary artery bypass grafting,2026-06-20 23:00:00+00:00,OR-1,Synthetic procedure note
+371,D,14,2984,156,Laparoscopic appendectomy,2026-07-10 23:00:00+00:00,OR-1,Synthetic procedure note
+372,D,15,2985,196,Internal fixation of femoral neck fracture,2026-06-21 23:00:00+00:00,OR-1,Synthetic procedure note
+373,D,16,2987,176,Coronary artery bypass grafting,2026-06-22 23:00:00+00:00,OR-1,Synthetic procedure note
+374,D,17,2988,166,Laparoscopic appendectomy,2026-07-12 23:00:00+00:00,OR-1,Synthetic procedure note
+375,D,18,2989,161,Internal fixation of femoral neck fracture,2026-06-23 23:00:00+00:00,OR-1,Synthetic procedure note
+376,D,19,2990,196,Coronary artery bypass grafting,2026-07-13 23:00:00+00:00,OR-1,Synthetic procedure note
+377,D,20,2991,186,Laparoscopic appendectomy,2026-06-24 23:00:00+00:00,OR-1,Synthetic procedure note
+378,D,21,2992,151,Internal fixation of femoral neck fracture,2026-07-14 23:00:00+00:00,OR-1,Synthetic procedure note
+379,D,22,2993,191,Coronary artery bypass grafting,2026-06-25 23:00:00+00:00,OR-1,Synthetic procedure note
+380,D,23,2994,191,Laparoscopic appendectomy,2026-06-26 23:00:00+00:00,OR-1,Synthetic procedure note
+381,D,24,2995,191,Internal fixation of femoral neck fracture,2026-07-16 23:00:00+00:00,OR-1,Synthetic procedure note
+382,D,25,2996,151,Coronary artery bypass grafting,2026-06-27 23:00:00+00:00,OR-1,Synthetic procedure note
+383,D,26,2997,171,Laparoscopic appendectomy,2026-07-17 23:00:00+00:00,OR-1,Synthetic procedure note
+384,D,27,2998,156,Internal fixation of femoral neck fracture,2026-06-28 23:00:00+00:00,OR-1,Synthetic procedure note
+385,D,28,2999,156,Coronary artery bypass grafting,2026-07-18 23:00:00+00:00,OR-1,Synthetic procedure note
+386,D,29,3000,186,Laparoscopic appendectomy,2026-06-29 23:00:00+00:00,OR-1,Synthetic procedure note
+387,D,30,3001,151,Internal fixation of femoral neck fracture,2026-07-19 23:00:00+00:00,OR-1,Synthetic procedure note
+388,D,31,3002,176,Coronary artery bypass grafting,2026-06-30 23:00:00+00:00,OR-1,Synthetic procedure note
+389,D,32,3003,181,Laparoscopic appendectomy,2026-07-20 23:00:00+00:00,OR-1,Synthetic procedure note
+390,D,33,3004,161,Internal fixation of femoral neck fracture,2026-07-01 23:00:00+00:00,OR-1,Synthetic procedure note
+391,D,34,3005,201,Coronary artery bypass grafting,2026-07-21 23:00:00+00:00,OR-1,Synthetic procedure note
+392,D,35,3006,196,Laparoscopic appendectomy,2026-07-02 23:00:00+00:00,OR-1,Synthetic procedure note
+393,D,36,3007,191,Internal fixation of femoral neck fracture,2026-07-22 23:00:00+00:00,OR-1,Synthetic procedure note
+394,D,37,3008,151,Coronary artery bypass grafting,2026-07-03 23:00:00+00:00,OR-1,Synthetic procedure note
+395,D,38,3009,196,Laparoscopic appendectomy,2026-07-23 23:00:00+00:00,OR-1,Synthetic procedure note
+396,D,39,3010,191,Internal fixation of femoral neck fracture,2026-07-04 23:00:00+00:00,OR-1,Synthetic procedure note
+397,D,40,3011,171,Coronary artery bypass grafting,2026-07-24 23:00:00+00:00,OR-1,Synthetic procedure note
+398,D,41,3012,156,Laparoscopic appendectomy,2026-07-05 23:00:00+00:00,OR-1,Synthetic procedure note
+399,D,42,3013,171,Internal fixation of femoral neck fracture,2026-07-25 23:00:00+00:00,OR-1,Synthetic procedure note
+400,D,43,3014,166,Coronary artery bypass grafting,2026-07-06 23:00:00+00:00,OR-1,Synthetic procedure note
+401,D,44,3015,191,Laparoscopic appendectomy,2026-07-26 23:00:00+00:00,OR-1,Synthetic procedure note
+402,D,45,3016,156,Internal fixation of femoral neck fracture,2026-07-07 23:00:00+00:00,OR-1,Synthetic procedure note
+403,D,46,3017,201,Coronary artery bypass grafting,2026-07-27 23:00:00+00:00,OR-1,Synthetic procedure note
+404,D,47,3018,196,Laparoscopic appendectomy,2026-07-08 23:00:00+00:00,OR-1,Synthetic procedure note
+405,D,48,3019,166,Internal fixation of femoral neck fracture,2026-07-09 23:00:00+00:00,OR-1,Synthetic procedure note
+406,D,49,3020,166,Coronary artery bypass grafting,2026-07-29 23:00:00+00:00,OR-1,Synthetic procedure note
+407,D,50,3021,181,Laparoscopic appendectomy,2026-07-10 23:00:00+00:00,OR-1,Synthetic procedure note
+408,D,51,3022,191,Internal fixation of femoral neck fracture,2026-07-30 23:00:00+00:00,OR-1,Synthetic procedure note
+409,D,52,3023,156,Coronary artery bypass grafting,2026-07-11 23:00:00+00:00,OR-1,Synthetic procedure note
+410,D,53,3024,201,Laparoscopic appendectomy,2026-07-31 23:00:00+00:00,OR-1,Synthetic procedure note
+411,D,54,3025,191,Internal fixation of femoral neck fracture,2026-07-12 23:00:00+00:00,OR-1,Synthetic procedure note
+412,D,55,3026,196,Coronary artery bypass grafting,2026-08-01 23:00:00+00:00,OR-1,Synthetic procedure note
+413,D,56,3027,201,Laparoscopic appendectomy,2026-07-13 23:00:00+00:00,OR-1,Synthetic procedure note
+414,D,57,3028,151,Internal fixation of femoral neck fracture,2026-07-14 23:00:00+00:00,OR-1,Synthetic procedure note
+415,D,58,3029,166,Coronary artery bypass grafting,2026-08-03 23:00:00+00:00,OR-1,Synthetic procedure note
+416,D,59,3030,186,Laparoscopic appendectomy,2026-07-15 23:00:00+00:00,OR-1,Synthetic procedure note
+417,D,60,3031,156,Internal fixation of femoral neck fracture,2026-07-16 23:00:00+00:00,OR-1,Synthetic procedure note
+418,D,61,3032,201,Coronary artery bypass grafting,2026-07-17 23:00:00+00:00,OR-1,Synthetic procedure note
+419,D,62,3033,156,Laparoscopic appendectomy,2026-08-06 23:00:00+00:00,OR-1,Synthetic procedure note
+420,D,63,3034,176,Internal fixation of femoral neck fracture,2026-07-18 23:00:00+00:00,OR-1,Synthetic procedure note
+421,D,64,3035,176,Coronary artery bypass grafting,2026-08-07 23:00:00+00:00,OR-1,Synthetic procedure note
+422,D,65,3036,156,Laparoscopic appendectomy,2026-07-19 23:00:00+00:00,OR-1,Synthetic procedure note
+423,D,66,3037,176,Internal fixation of femoral neck fracture,2026-08-08 23:00:00+00:00,OR-1,Synthetic procedure note
+424,D,67,3038,151,Coronary artery bypass grafting,2026-07-20 23:00:00+00:00,OR-1,Synthetic procedure note
+425,D,68,3039,171,Laparoscopic appendectomy,2026-08-09 23:00:00+00:00,OR-1,Synthetic procedure note
+426,D,69,3040,176,Internal fixation of femoral neck fracture,2026-07-21 23:00:00+00:00,OR-1,Synthetic procedure note
+427,D,70,3042,176,Coronary artery bypass grafting,2026-07-22 23:00:00+00:00,OR-1,Synthetic procedure note
+428,D,71,3043,201,Laparoscopic appendectomy,2026-07-23 23:00:00+00:00,OR-1,Synthetic procedure note
+429,D,72,3044,186,Internal fixation of femoral neck fracture,2026-08-12 23:00:00+00:00,OR-1,Synthetic procedure note
+430,D,73,3045,201,Coronary artery bypass grafting,2026-07-24 23:00:00+00:00,OR-1,Synthetic procedure note
+431,D,74,3046,161,Laparoscopic appendectomy,2026-08-13 23:00:00+00:00,OR-1,Synthetic procedure note
+432,D,75,3047,181,Internal fixation of femoral neck fracture,2026-07-25 23:00:00+00:00,OR-1,Synthetic procedure note
+433,D,76,3048,191,Coronary artery bypass grafting,2026-08-14 23:00:00+00:00,OR-1,Synthetic procedure note
+434,D,77,3050,181,Laparoscopic appendectomy,2026-07-27 23:00:00+00:00,OR-1,Synthetic procedure note
+435,D,78,3051,156,Internal fixation of femoral neck fracture,2026-08-16 23:00:00+00:00,OR-1,Synthetic procedure note
+436,D,79,3052,196,Coronary artery bypass grafting,2026-07-28 23:00:00+00:00,OR-1,Synthetic procedure note
+437,D,80,3053,186,Laparoscopic appendectomy,2026-07-29 23:00:00+00:00,OR-1,Synthetic procedure note
+438,D,81,3054,151,Internal fixation of femoral neck fracture,2026-08-18 23:00:00+00:00,OR-1,Synthetic procedure note
+439,D,82,3055,156,Coronary artery bypass grafting,2026-07-30 23:00:00+00:00,OR-1,Synthetic procedure note
+440,D,83,3056,186,Laparoscopic appendectomy,2026-07-31 23:00:00+00:00,OR-1,Synthetic procedure note
+441,D,84,3057,176,Internal fixation of femoral neck fracture,2026-08-20 23:00:00+00:00,OR-1,Synthetic procedure note
+442,D,85,3058,166,Coronary artery bypass grafting,2026-08-01 23:00:00+00:00,OR-1,Synthetic procedure note
+443,D,86,3059,166,Laparoscopic appendectomy,2026-08-02 23:00:00+00:00,OR-1,Synthetic procedure note
+444,D,87,3060,171,Internal fixation of femoral neck fracture,2026-08-03 23:00:00+00:00,OR-1,Synthetic procedure note
+445,D,88,3061,201,Coronary artery bypass grafting,2026-08-04 23:00:00+00:00,OR-1,Synthetic procedure note
+446,D,89,3062,186,Laparoscopic appendectomy,2026-08-24 23:00:00+00:00,OR-1,Synthetic procedure note
+447,D,90,3063,176,Internal fixation of femoral neck fracture,2026-08-05 23:00:00+00:00,OR-1,Synthetic procedure note
+448,D,91,3064,201,Coronary artery bypass grafting,2026-08-25 23:00:00+00:00,OR-1,Synthetic procedure note
+449,D,92,3065,156,Laparoscopic appendectomy,2026-08-06 23:00:00+00:00,OR-1,Synthetic procedure note
+450,D,93,3066,161,Internal fixation of femoral neck fracture,2026-08-26 23:00:00+00:00,OR-1,Synthetic procedure note
+451,D,94,3067,176,Coronary artery bypass grafting,2026-08-07 23:00:00+00:00,OR-1,Synthetic procedure note
+452,D,95,3068,186,Laparoscopic appendectomy,2026-08-27 23:00:00+00:00,OR-1,Synthetic procedure note
+453,D,96,3069,156,Internal fixation of femoral neck fracture,2026-08-08 23:00:00+00:00,OR-1,Synthetic procedure note
+454,D,97,3070,186,Coronary artery bypass grafting,2026-08-28 23:00:00+00:00,OR-1,Synthetic procedure note
+455,D,98,3071,201,Laparoscopic appendectomy,2026-08-09 23:00:00+00:00,OR-1,Synthetic procedure note
+456,D,99,3072,186,Internal fixation of femoral neck fracture,2026-08-29 23:00:00+00:00,OR-1,Synthetic procedure note
+457,D,100,3073,161,Coronary artery bypass grafting,2026-08-10 23:00:00+00:00,OR-1,Synthetic procedure note
+458,D,101,3075,166,Laparoscopic appendectomy,2026-08-11 23:00:00+00:00,OR-1,Synthetic procedure note
+459,D,102,3076,201,Internal fixation of femoral neck fracture,2026-08-12 23:00:00+00:00,OR-1,Synthetic procedure note
+460,D,103,3077,176,Coronary artery bypass grafting,2026-09-01 23:00:00+00:00,OR-1,Synthetic procedure note
+461,D,104,3078,191,Laparoscopic appendectomy,2026-08-13 23:00:00+00:00,OR-1,Synthetic procedure note
+462,D,105,3079,181,Internal fixation of femoral neck fracture,2026-08-14 23:00:00+00:00,OR-1,Synthetic procedure note
+463,D,106,3080,171,Coronary artery bypass grafting,2026-09-03 23:00:00+00:00,OR-1,Synthetic procedure note
+464,D,107,3081,191,Laparoscopic appendectomy,2026-08-15 23:00:00+00:00,OR-1,Synthetic procedure note
+465,D,108,3083,161,Internal fixation of femoral neck fracture,2026-08-16 23:00:00+00:00,OR-1,Synthetic procedure note
+466,D,109,3084,176,Coronary artery bypass grafting,2026-08-17 23:00:00+00:00,OR-1,Synthetic procedure note
+467,D,110,3085,181,Laparoscopic appendectomy,2026-08-18 23:00:00+00:00,OR-1,Synthetic procedure note
+468,D,111,3086,191,Internal fixation of femoral neck fracture,2026-08-19 23:00:00+00:00,OR-1,Synthetic procedure note
+469,D,112,3087,171,Coronary artery bypass grafting,2026-09-08 23:00:00+00:00,OR-1,Synthetic procedure note
+470,D,113,3088,191,Laparoscopic appendectomy,2026-08-20 23:00:00+00:00,OR-1,Synthetic procedure note
+471,D,114,3090,186,Internal fixation of femoral neck fracture,2026-08-21 23:00:00+00:00,OR-1,Synthetic procedure note
+472,D,115,3091,176,Coronary artery bypass grafting,2026-08-22 23:00:00+00:00,OR-1,Synthetic procedure note
+473,D,116,3092,176,Laparoscopic appendectomy,2026-09-11 23:00:00+00:00,OR-1,Synthetic procedure note
+474,D,117,3093,161,Internal fixation of femoral neck fracture,2026-08-23 23:00:00+00:00,OR-1,Synthetic procedure note
+475,D,118,3094,191,Coronary artery bypass grafting,2026-09-12 23:00:00+00:00,OR-1,Synthetic procedure note
+476,D,119,3095,181,Laparoscopic appendectomy,2026-08-24 23:00:00+00:00,OR-1,Synthetic procedure note
+477,D,120,3096,161,Internal fixation of femoral neck fracture,2026-08-25 23:00:00+00:00,OR-1,Synthetic procedure note
+478,D,121,3097,191,Coronary artery bypass grafting,2026-08-26 23:00:00+00:00,OR-1,Synthetic procedure note
+479,D,122,3098,171,Laparoscopic appendectomy,2026-09-15 23:00:00+00:00,OR-1,Synthetic procedure note
+480,D,123,3099,196,Internal fixation of femoral neck fracture,2026-08-27 23:00:00+00:00,OR-1,Synthetic procedure note
+481,D,124,3100,181,Coronary artery bypass grafting,2026-08-28 23:00:00+00:00,OR-1,Synthetic procedure note
