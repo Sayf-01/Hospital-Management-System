@@ -1,0 +1,11 @@
+candidate_id,patient_id_1,patient_id_2,match_rule,reason,decision
+1,345,1071,U1,same name and date of birth; insurance number missing on one side,Not merged
+2,349,591,U1,same name and date of birth; insurance number missing on one side,Not merged
+3,356,1061,U1,same name and date of birth; insurance number missing on one side,Not merged
+4,402,791,U1,same name and date of birth; insurance number missing on one side,Not merged
+5,478,1175,U1,same name and date of birth; insurance number missing on one side,Not merged
+6,1364,2268,U1,same name and date of birth; insurance number missing on one side,Not merged
+7,1600,2072,U1,same name and date of birth; insurance number missing on one side,Not merged
+8,1649,2220,U1,same name and date of birth; insurance number missing on one side,Not merged
+9,1704,1850,U1,same name and date of birth; insurance number missing on one side,Not merged
+10,1761,1862,U1,same name and date of birth; insurance number missing on one side,Not merged

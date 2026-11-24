@@ -1,0 +1,5 @@
+source_code,hospital_name,continent,file_format,time_zone
+A,Maple Ridge General,North America,TXT,America/Toronto
+B,Rhine Valley Klinikum,Europe,CSV,Europe/Berlin
+C,Sakura Bay Medical Center,Asia,XML,Asia/Tokyo
+D,Southern Cross Hospital,Oceania,JSON,Australia/Sydney
