@@ -2,6 +2,8 @@
 
 import argparse
 import csv
+from collections import Counter
+from dataclasses import dataclass
 from importlib import import_module
 from pathlib import Path
 import sys
@@ -10,6 +12,8 @@ from tempfile import mkdtemp
 
 ROOT = Path(__file__).resolve().parent
 STAGES = ("Load", "Profile", "Clean", "Check", "Integrate", "Import", "Validate")
+VALIDATION_RULES = tuple(range(1, 12))
+MISSING_PRIMARY_RULE = 9
 DEPENDENCIES = {
     "Load": ("phase2/load.py",),
     "Profile": ("reports/counts_raw.csv",),
@@ -19,6 +23,16 @@ DEPENDENCIES = {
     "Import": ("pipeline/import_db.py",),
     "Validate": ("sql/validation.sql",),
 }
+
+
+@dataclass(frozen=True)
+class ValidationResult:
+    violations: int
+    missing_primary: int
+
+    @property
+    def unexpected(self):
+        return self.violations - self.missing_primary
 
 
 class Pipeline:
@@ -132,21 +146,21 @@ class Pipeline:
             if cursor.fetchone() != ("hospital_phase2",):
                 raise ValueError("Validation requires the hospital_phase2 database.")
             cursor.execute(script, prepare=False)
-            result_sets = rows = 0
-            while True:
-                if cursor.description is not None:
-                    result_sets += 1
-                    results = cursor.fetchall()
-                    rows += len(results)
-                    print(f"  Result {result_sets} ({len(results):,} rows)")
-                    print("  " + " | ".join(column.name for column in cursor.description))
-                    for result in results:
-                        print("  " + " | ".join("NULL" if value is None else str(value) for value in result))
-                if not cursor.nextset():
-                    break
-            if not result_sets:
-                raise ValueError("validation.sql returned no query results.")
-        return f"{result_sets} result sets, {rows:,} result rows"
+            columns = tuple(column.name for column in cursor.description or ())
+            if columns != ("rule_id", "entity", "record_key", "detail"):
+                raise ValueError("validation.sql returned an unexpected result shape.")
+            results = cursor.fetchall()
+            if cursor.nextset():
+                raise ValueError("validation.sql must return one result set.")
+        counts = Counter(row[0] for row in results)
+        if set(counts).difference(VALIDATION_RULES):
+            raise ValueError("validation.sql returned an unknown rule ID.")
+        for rule in VALIDATION_RULES:
+            note = " (documented data-quality limitation)" if rule == MISSING_PRIMARY_RULE and counts[rule] else ""
+            print(f"  Rule {rule:02}: {counts[rule]:,} violation(s){note}")
+        for rule, entity, key, detail in results:
+            print(f"  Rule {rule:02} | {entity} | {key} | {detail}")
+        return ValidationResult(len(results), counts[MISSING_PRIMARY_RULE])
 
 
 def verify_import(conn, expected, reports):
@@ -211,6 +225,7 @@ def verify_import(conn, expected, reports):
 
 def run_pipeline(pipeline, *, skip_import, authorized):
     statuses = dict.fromkeys(STAGES, "not run")
+    validation = None
     for name, files in DEPENDENCIES.items():
         missing = [file for file in files if not (pipeline.root / file).is_file()]
         if missing:
@@ -248,21 +263,37 @@ def run_pipeline(pipeline, *, skip_import, authorized):
                     error = str(exc)
                 statuses[name] = f"failed ({error})"
                 break
-            statuses[name] = f"succeeded ({counts})"
-            print(f"[{name}] {counts}")
+            if name == "Validate":
+                validation = counts
+                if validation.unexpected:
+                    statuses[name] = f"violations found ({validation.unexpected} outside Rule 9)"
+                elif validation.missing_primary:
+                    statuses[name] = (
+                        f"completed with {validation.missing_primary} documented Rule 9 violation(s)"
+                    )
+                else:
+                    statuses[name] = "succeeded (0 violations)"
+            else:
+                statuses[name] = f"succeeded ({counts})"
+                print(f"[{name}] {counts}")
 
     print("\nPipeline summary")
     for name, status in statuses.items():
         print(f"  {name:<10} {status}")
-    expected = STAGES[:5] if skip_import else STAGES
-    complete = all(statuses[name].startswith("succeeded") for name in expected)
-    if complete and skip_import:
+    if skip_import and all(statuses[name].startswith("succeeded") for name in STAGES[:5]):
         print("Data-processing stages completed. PostgreSQL stages were skipped.")
-    elif complete:
-        print("Full pipeline completed and validation queries ran.")
-    else:
-        print("Requested pipeline run is incomplete.")
-    return 0 if complete else 1
+        return 0
+    if validation is not None:
+        if validation.unexpected:
+            print("Pipeline ran, with integrity violations outside the documented Rule 9 limitation.")
+            return 2
+        if validation.missing_primary:
+            print("Pipeline completed with documented Rule 9 violations.")
+        else:
+            print("Pipeline completed and all 11 validation rules passed.")
+        return 0
+    print("Requested pipeline run is incomplete.")
+    return 1
 
 
 def main(argv=None):
