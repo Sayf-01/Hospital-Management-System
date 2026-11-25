@@ -1,0 +1,955 @@
+patient_name,note_type,note_datetime,note_contents
+GivenA0001 PatientA0001,Initial Assessment,2026-03-07 13:30:00+00,Synthetic initial evaluation.
+GivenA0002 PatientA0002,Discharge Summary,2026-01-30 18:00:00+00,Follow-up documented in synthetic summary.
+GivenA0003 PatientA0003,Initial Assessment,2026-01-28 13:30:00+00,Synthetic initial evaluation.
+GivenA0004 PatientA0004,Discharge Summary,2026-01-31 18:00:00+00,Follow-up documented in synthetic summary.
+GivenA0005 PatientA0005,Initial Assessment,2026-01-30 13:30:00+00,Synthetic initial evaluation.
+GivenA0006 PatientA0006,Discharge Summary,2026-01-15 18:00:00+00,Recovery documented in synthetic summary.
+GivenA0007 PatientA0007,Discharge Summary,2026-01-16 15:00:00+00,Follow-up documented in synthetic summary.
+GivenA0008 PatientA0008,Initial Assessment,2026-02-02 13:30:00+00,Synthetic initial evaluation.
+GivenA0009 PatientA0009,Discharge Summary,2026-01-17 22:00:00+00,Recovery documented in synthetic summary.
+GivenA0010 PatientA0010,Progress Note,2026-02-04 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0011 PatientA0011,Initial Assessment,2026-01-16 13:30:00+00,Synthetic initial evaluation.
+GivenA0012 PatientA0012,Discharge Summary,2026-01-20 04:00:00+00,Recovery documented in synthetic summary.
+GivenA0013 PatientA0013,Discharge Summary,2026-01-18 21:00:00+00,Follow-up documented in synthetic summary.
+GivenA0014 PatientA0014,Initial Assessment,2026-02-08 13:30:00+00,Synthetic initial evaluation.
+GivenA0015 PatientA0015,Discharge Summary,2026-01-24 00:00:00+00,Recovery documented in synthetic summary.
+GivenA0016 PatientA0016,Progress Note,2026-02-10 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0017 PatientA0017,Initial Assessment,2026-01-22 13:30:00+00,Synthetic initial evaluation.
+GivenA0018 PatientA0018,Discharge Summary,2026-01-27 20:00:00+00,Recovery documented in synthetic summary.
+GivenA0019 PatientA0019,Progress Note,2026-02-13 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0020 PatientA0020,Discharge Summary,2026-02-18 20:00:00+00,Recovery documented in synthetic summary.
+GivenA0021 PatientA0021,Progress Note,2026-02-15 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0022 PatientA0022,Discharge Summary,2026-02-16 21:00:00+00,Recovery documented in synthetic summary.
+GivenA0023 PatientA0023,Progress Note,2026-02-17 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0024 PatientA0024,Discharge Summary,2026-02-21 07:00:00+00,Recovery documented in synthetic summary.
+GivenA0025 PatientA0025,Discharge Summary,2026-01-31 03:00:00+00,Follow-up documented in synthetic summary.
+GivenA0026 PatientA0026,Initial Assessment,2026-02-20 13:30:00+00,Synthetic initial evaluation.
+GivenA0028 PatientA0028,Discharge Summary,2026-02-26 16:00:00+00,Follow-up documented in synthetic summary.
+GivenA0029 PatientA0029,Initial Assessment,2026-02-23 13:30:00+00,Synthetic initial evaluation.
+GivenA0030 PatientA0030,Discharge Summary,2026-02-27 05:00:00+00,Follow-up documented in synthetic summary.
+GivenA0031 PatientA0031,Initial Assessment,2026-02-25 13:30:00+00,Synthetic initial evaluation.
+GivenA0032 PatientA0032,Discharge Summary,2026-03-01 23:00:00+00,Follow-up documented in synthetic summary.
+GivenA0033 PatientA0033,Initial Assessment,2026-02-27 13:30:00+00,Synthetic initial evaluation.
+GivenA0034 PatientA0034,Discharge Summary,2026-02-11 02:00:00+00,Recovery documented in synthetic summary.
+GivenA0035 PatientA0035,Progress Note,2026-03-01 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0036 PatientA0036,Discharge Summary,2026-03-05 12:00:00+00,Recovery documented in synthetic summary.
+GivenA0037 PatientA0037,Progress Note,2026-03-03 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0038 PatientA0038,Discharge Summary,2026-03-09 12:00:00+00,Recovery documented in synthetic summary.
+GivenA0039 PatientA0039,Progress Note,2026-03-05 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0040 PatientA0040,Discharge Summary,2026-03-09 19:00:00+00,Recovery documented in synthetic summary.
+GivenA0041 PatientA0041,Progress Note,2026-03-07 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0042 PatientA0042,Discharge Summary,2026-08-05 09:00:00+00,Recovery documented in synthetic summary.
+GivenA0043 PatientA0043,Discharge Summary,2026-02-20 18:00:00+00,Follow-up documented in synthetic summary.
+GivenA0044 PatientA0044,Progress Note,2026-02-18 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0045 PatientA0045,Initial Assessment,2026-02-19 13:30:00+00,Synthetic initial evaluation.
+GivenA0046 PatientA0046,Discharge Summary,2026-03-12 19:00:00+00,Follow-up documented in synthetic summary.
+GivenA0047 PatientA0047,Initial Assessment,2026-03-13 12:30:00+00,Synthetic initial evaluation.
+GivenA0048 PatientA0048,Discharge Summary,2026-03-16 06:00:00+00,Follow-up documented in synthetic summary.
+GivenA0049 PatientA0049,Initial Assessment,2026-03-15 12:30:00+00,Synthetic initial evaluation.
+GivenA0050 PatientA0050,Discharge Summary,2026-03-18 19:00:00+00,Follow-up documented in synthetic summary.
+GivenA0051 PatientA0051,Initial Assessment,2026-03-17 12:30:00+00,Synthetic initial evaluation.
+GivenA0052 PatientA0052,Discharge Summary,2026-03-22 18:00:00+00,Follow-up documented in synthetic summary.
+GivenA0053 PatientA0053,Initial Assessment,2026-03-19 12:30:00+00,Synthetic initial evaluation.
+GivenA0054 PatientA0054,Discharge Summary,2026-03-24 00:00:00+00,Follow-up documented in synthetic summary.
+GivenA0055 PatientA0055,Progress Note,2026-03-01 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0056 PatientA0056,Initial Assessment,2026-03-02 13:30:00+00,Synthetic initial evaluation.
+GivenA0057 PatientA0057,Discharge Summary,2026-03-06 21:00:00+00,Follow-up documented in synthetic summary.
+GivenA0058 PatientA0058,Progress Note,2026-03-04 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0059 PatientA0059,Initial Assessment,2026-03-05 13:30:00+00,Synthetic initial evaluation.
+GivenA0060 PatientA0060,Discharge Summary,2026-03-08 07:00:00+00,Recovery documented in synthetic summary.
+GivenA0061 PatientA0061,Progress Note,2026-03-27 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0062 PatientA0062,Initial Assessment,2026-03-08 12:30:00+00,Synthetic initial evaluation.
+GivenA0063 PatientA0063,Discharge Summary,2026-04-02 17:00:00+00,Follow-up documented in synthetic summary.
+GivenA0064 PatientA0064,Initial Assessment,2026-03-30 12:30:00+00,Synthetic initial evaluation.
+GivenA0065 PatientA0065,Discharge Summary,2026-04-01 09:00:00+00,Follow-up documented in synthetic summary.
+GivenA0066 PatientA0066,Initial Assessment,2026-04-01 12:30:00+00,Synthetic initial evaluation.
+GivenA0067 PatientA0067,Discharge Summary,2026-03-17 02:00:00+00,Recovery documented in synthetic summary.
+GivenA0068 PatientA0068,Initial Assessment,2026-04-03 12:30:00+00,Synthetic initial evaluation.
+GivenA0069 PatientA0069,Discharge Summary,2026-03-17 21:00:00+00,Recovery documented in synthetic summary.
+GivenA0070 PatientA0070,Progress Note,2026-04-05 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0071 PatientA0071,Discharge Summary,2026-04-07 20:00:00+00,Recovery documented in synthetic summary.
+GivenA0072 PatientA0072,Progress Note,2026-04-07 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0073 PatientA0073,Discharge Summary,2026-04-11 15:00:00+00,Recovery documented in synthetic summary.
+GivenA0074 PatientA0074,Discharge Summary,2026-03-24 23:00:00+00,Follow-up documented in synthetic summary.
+GivenA0075 PatientA0075,Initial Assessment,2026-04-10 12:30:00+00,Synthetic initial evaluation.
+GivenA0076 PatientA0076,Discharge Summary,2026-04-16 12:00:00+00,Follow-up documented in synthetic summary.
+GivenA0077 PatientA0077,Initial Assessment,2026-04-12 12:30:00+00,Synthetic initial evaluation.
+GivenA0078 PatientA0078,Discharge Summary,2026-03-27 06:00:00+00,Recovery documented in synthetic summary.
+GivenA0079 PatientA0079,Discharge Summary,2026-03-26 11:00:00+00,Follow-up documented in synthetic summary.
+GivenA0080 PatientA0080,Progress Note,2026-03-26 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0081 PatientA0081,Discharge Summary,2026-04-21 02:00:00+00,Recovery documented in synthetic summary.
+GivenA0082 PatientA0082,Discharge Summary,2026-03-30 15:00:00+00,Follow-up documented in synthetic summary.
+GivenA0083 PatientA0083,Initial Assessment,2026-04-18 12:30:00+00,Synthetic initial evaluation.
+GivenA0084 PatientA0084,Discharge Summary,2026-04-02 23:00:00+00,Recovery documented in synthetic summary.
+GivenA0085 PatientA0085,Progress Note,2026-04-20 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0086 PatientA0086,Discharge Summary,2026-04-23 19:00:00+00,Recovery documented in synthetic summary.
+GivenA0087 PatientA0087,Progress Note,2026-04-22 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0088 PatientA0088,Initial Assessment,2026-04-03 12:30:00+00,Synthetic initial evaluation.
+GivenA0089 PatientA0089,Discharge Summary,2026-04-26 22:00:00+00,Follow-up documented in synthetic summary.
+GivenA0090 PatientA0090,Initial Assessment,2026-04-25 12:30:00+00,Synthetic initial evaluation.
+GivenA0091 PatientA0091,Discharge Summary,2026-04-29 10:00:00+00,Follow-up documented in synthetic summary.
+GivenA0092 PatientA0092,Progress Note,2026-04-07 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0093 PatientA0093,Discharge Summary,2026-05-01 07:00:00+00,Recovery documented in synthetic summary.
+GivenA0094 PatientA0094,Progress Note,2026-04-29 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0095 PatientA0095,Discharge Summary,2026-05-02 20:00:00+00,Recovery documented in synthetic summary.
+GivenA0096 PatientA0096,Progress Note,2026-05-01 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0097 PatientA0097,Initial Assessment,2026-04-12 12:30:00+00,Synthetic initial evaluation.
+GivenA0099 PatientA0099,Discharge Summary,2026-05-08 16:00:00+00,Follow-up documented in synthetic summary.
+GivenA0100 PatientA0100,Initial Assessment,2026-01-25 13:30:00+00,Synthetic initial evaluation.
+GivenA0101 PatientA0101,Discharge Summary,2026-01-29 14:00:00+00,Follow-up documented in synthetic summary.
+GivenA0102 PatientA0102,Initial Assessment,2026-01-27 13:30:00+00,Synthetic initial evaluation.
+GivenA0103 PatientA0103,Discharge Summary,2026-01-11 19:00:00+00,Recovery documented in synthetic summary.
+GivenA0104 PatientA0104,Progress Note,2026-01-29 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0105 PatientA0105,Initial Assessment,2026-01-10 13:30:00+00,Synthetic initial evaluation.
+GivenA0106 PatientA0106,Discharge Summary,2026-01-12 18:00:00+00,Recovery documented in synthetic summary.
+GivenA0107 PatientA0107,Progress Note,2026-02-01 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0108 PatientA0108,Discharge Summary,2026-02-05 13:00:00+00,Recovery documented in synthetic summary.
+GivenA0110 PatientA0110,Progress Note,2026-02-04 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0111 PatientA0111,Initial Assessment,2026-01-16 13:30:00+00,Synthetic initial evaluation.
+GivenA0112 PatientA0112,Discharge Summary,2026-01-20 04:00:00+00,Recovery documented in synthetic summary.
+GivenA0113 PatientA0113,Discharge Summary,2026-01-20 15:00:00+00,Follow-up documented in synthetic summary.
+GivenA0114 PatientA0114,Progress Note,2026-01-19 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0115 PatientA0115,Discharge Summary,2026-02-10 15:00:00+00,Recovery documented in synthetic summary.
+GivenA0116 PatientA0116,Discharge Summary,2026-01-22 07:00:00+00,Follow-up documented in synthetic summary.
+GivenA0118 PatientA0118,Discharge Summary,2026-02-13 20:00:00+00,Recovery documented in synthetic summary.
+GivenA0120 PatientA0120,Progress Note,2026-02-14 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0121 PatientA0121,Initial Assessment,2026-01-26 13:30:00+00,Synthetic initial evaluation.
+GivenA0122 PatientA0122,Discharge Summary,2026-02-16 18:00:00+00,Follow-up documented in synthetic summary.
+GivenA0123 PatientA0123,Initial Assessment,2026-02-17 13:30:00+00,Synthetic initial evaluation.
+GivenA0124 PatientA0124,Discharge Summary,2026-02-23 00:00:00+00,Follow-up documented in synthetic summary.
+GivenA0125 PatientA0125,Progress Note,2026-01-30 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0126 PatientA0126,Discharge Summary,2026-02-24 05:00:00+00,Recovery documented in synthetic summary.
+GivenA0127 PatientA0127,Discharge Summary,2026-02-06 11:00:00+00,Follow-up documented in synthetic summary.
+GivenA0128 PatientA0128,Initial Assessment,2026-02-22 13:30:00+00,Synthetic initial evaluation.
+GivenA0129 PatientA0129,Discharge Summary,2026-02-26 20:00:00+00,Follow-up documented in synthetic summary.
+GivenA0130 PatientA0130,Initial Assessment,2026-02-24 13:30:00+00,Synthetic initial evaluation.
+GivenA0131 PatientA0131,Discharge Summary,2026-02-09 15:00:00+00,Recovery documented in synthetic summary.
+GivenA0132 PatientA0132,Progress Note,2026-02-26 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0133 PatientA0133,Discharge Summary,2026-03-01 13:00:00+00,Recovery documented in synthetic summary.
+GivenA0134 PatientA0134,Discharge Summary,2026-02-09 00:00:00+00,Follow-up documented in synthetic summary.
+GivenA0136 PatientA0136,Initial Assessment,2026-03-02 13:30:00+00,Synthetic initial evaluation.
+GivenA0137 PatientA0137,Discharge Summary,2026-03-03 23:00:00+00,Follow-up documented in synthetic summary.
+GivenA0138 PatientA0138,Initial Assessment,2026-03-04 13:30:00+00,Synthetic initial evaluation.
+GivenA0139 PatientA0139,Discharge Summary,2026-02-15 21:00:00+00,Recovery documented in synthetic summary.
+GivenA0140 PatientA0140,Discharge Summary,2026-02-15 14:00:00+00,Follow-up documented in synthetic summary.
+GivenA0141 PatientA0141,Initial Assessment,2026-03-07 13:30:00+00,Synthetic initial evaluation.
+GivenA0142 PatientA0142,Discharge Summary,2026-03-12 10:00:00+00,Follow-up documented in synthetic summary.
+GivenA0143 PatientA0143,Initial Assessment,2026-03-09 12:30:00+00,Synthetic initial evaluation.
+GivenA0144 PatientA0144,Discharge Summary,2026-02-22 23:00:00+00,Recovery documented in synthetic summary.
+GivenA0145 PatientA0145,Initial Assessment,2026-03-11 12:30:00+00,Synthetic initial evaluation.
+GivenA0146 PatientA0146,Discharge Summary,2026-03-15 06:00:00+00,Follow-up documented in synthetic summary.
+GivenA0147 PatientA0147,Initial Assessment,2026-03-13 12:30:00+00,Synthetic initial evaluation.
+GivenA0148 PatientA0148,Discharge Summary,2026-02-25 12:00:00+00,Recovery documented in synthetic summary.
+GivenA0149 PatientA0149,Progress Note,2026-03-15 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0150 PatientA0150,Initial Assessment,2026-02-24 13:30:00+00,Synthetic initial evaluation.
+GivenA0151 PatientA0151,Discharge Summary,2026-03-19 02:00:00+00,Follow-up documented in synthetic summary.
+GivenA0152 PatientA0152,Progress Note,2026-02-26 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0153 PatientA0153,Initial Assessment,2026-02-27 13:30:00+00,Synthetic initial evaluation.
+GivenA0154 PatientA0154,Discharge Summary,2026-03-23 09:00:00+00,Follow-up documented in synthetic summary.
+GivenA0155 PatientA0155,Progress Note,2026-03-01 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0156 PatientA0156,Discharge Summary,2026-03-25 00:00:00+00,Recovery documented in synthetic summary.
+GivenA0157 PatientA0157,Discharge Summary,2026-03-05 08:00:00+00,Follow-up documented in synthetic summary.
+GivenA0158 PatientA0158,Initial Assessment,2026-03-24 12:30:00+00,Synthetic initial evaluation.
+GivenA0159 PatientA0159,Discharge Summary,2026-03-28 14:00:00+00,Follow-up documented in synthetic summary.
+GivenA0160 PatientA0160,Progress Note,2026-03-06 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0161 PatientA0161,Discharge Summary,2026-03-29 23:00:00+00,Recovery documented in synthetic summary.
+GivenA0162 PatientA0162,Progress Note,2026-03-28 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0163 PatientA0163,Initial Assessment,2026-03-09 12:30:00+00,Synthetic initial evaluation.
+GivenA0164 PatientA0164,Discharge Summary,2026-04-02 19:00:00+00,Follow-up documented in synthetic summary.
+GivenA0165 PatientA0165,Initial Assessment,2026-03-31 12:30:00+00,Synthetic initial evaluation.
+GivenA0166 PatientA0166,Discharge Summary,2026-04-06 03:00:00+00,Follow-up documented in synthetic summary.
+GivenA0167 PatientA0167,Initial Assessment,2026-04-02 12:30:00+00,Synthetic initial evaluation.
+GivenA0168 PatientA0168,Discharge Summary,2026-03-19 11:00:00+00,Recovery documented in synthetic summary.
+GivenA0169 PatientA0169,Progress Note,2026-04-04 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0170 PatientA0170,Discharge Summary,2026-04-10 08:00:00+00,Recovery documented in synthetic summary.
+GivenA0171 PatientA0171,Discharge Summary,2026-03-19 13:00:00+00,Follow-up documented in synthetic summary.
+GivenA0172 PatientA0172,Initial Assessment,2026-04-07 12:30:00+00,Synthetic initial evaluation.
+GivenA0173 PatientA0173,Discharge Summary,2026-03-21 23:00:00+00,Recovery documented in synthetic summary.
+GivenA0174 PatientA0174,Discharge Summary,2026-03-22 15:00:00+00,Follow-up documented in synthetic summary.
+GivenA0175 PatientA0175,Progress Note,2026-03-21 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0176 PatientA0176,Initial Assessment,2026-03-22 12:30:00+00,Synthetic initial evaluation.
+GivenA0177 PatientA0177,Discharge Summary,2026-03-24 03:00:00+00,Recovery documented in synthetic summary.
+GivenA0178 PatientA0178,Progress Note,2026-04-13 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0179 PatientA0179,Initial Assessment,2026-10-08 06:30:00+00,Synthetic initial evaluation.
+GivenA0180 PatientA0180,Progress Note,2026-04-15 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0181 PatientA0181,Initial Assessment,2026-03-27 12:30:00+00,Synthetic initial evaluation.
+GivenA0182 PatientA0182,Progress Note,2026-04-17 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0183 PatientA0183,Initial Assessment,2026-03-29 12:30:00+00,Synthetic initial evaluation.
+GivenA0184 PatientA0184,Discharge Summary,2026-04-23 22:00:00+00,Follow-up documented in synthetic summary.
+GivenA0185 PatientA0185,Progress Note,2026-03-31 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0186 PatientA0186,Discharge Summary,2026-04-22 01:00:00+00,Recovery documented in synthetic summary.
+GivenA0187 PatientA0187,Progress Note,2026-04-22 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0188 PatientA0188,Discharge Summary,2026-04-25 13:00:00+00,Recovery documented in synthetic summary.
+GivenA0190 PatientA0190,Progress Note,2026-04-25 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0191 PatientA0191,Initial Assessment,2026-04-06 12:30:00+00,Synthetic initial evaluation.
+GivenA0192 PatientA0192,Discharge Summary,2026-04-29 08:00:00+00,Follow-up documented in synthetic summary.
+GivenA0193 PatientA0193,Progress Note,2026-04-08 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0194 PatientA0194,Initial Assessment,2026-04-09 12:30:00+00,Synthetic initial evaluation.
+GivenA0195 PatientA0195,Discharge Summary,2026-05-04 12:00:00+00,Follow-up documented in synthetic summary.
+GivenA0197 PatientA0197,Initial Assessment,2026-05-02 12:30:00+00,Synthetic initial evaluation.
+GivenA0198 PatientA0198,Discharge Summary,2026-04-17 21:00:00+00,Recovery documented in synthetic summary.
+GivenA0199 PatientA0199,Progress Note,2026-05-04 12:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0200 PatientA0200,Initial Assessment,2026-01-05 13:30:00+00,Synthetic initial evaluation.
+GivenA0201 PatientA0201,Discharge Summary,2026-01-29 21:00:00+00,Follow-up documented in synthetic summary.
+GivenA0202 PatientA0202,Progress Note,2026-01-07 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0203 PatientA0203,Initial Assessment,2026-01-08 13:30:00+00,Synthetic initial evaluation.
+GivenA0204 PatientA0204,Discharge Summary,2026-01-12 04:00:00+00,Recovery documented in synthetic summary.
+GivenA0205 PatientA0205,Progress Note,2026-01-30 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0206 PatientA0206,Initial Assessment,2026-01-11 13:30:00+00,Synthetic initial evaluation.
+GivenA0207 PatientA0207,Discharge Summary,2026-02-03 13:00:00+00,Follow-up documented in synthetic summary.
+GivenA0208 PatientA0208,Initial Assessment,2026-02-02 13:30:00+00,Synthetic initial evaluation.
+GivenA0209 PatientA0209,Discharge Summary,2026-02-05 11:00:00+00,Follow-up documented in synthetic summary.
+GivenA0210 PatientA0210,Initial Assessment,2026-02-04 13:30:00+00,Synthetic initial evaluation.
+GivenA0211 PatientA0211,Discharge Summary,2026-01-18 16:00:00+00,Recovery documented in synthetic summary.
+GivenA0212 PatientA0212,Progress Note,2026-02-06 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0213 PatientA0213,Initial Assessment,2026-01-18 13:30:00+00,Synthetic initial evaluation.
+GivenA0214 PatientA0214,Discharge Summary,2026-02-08 20:00:00+00,Follow-up documented in synthetic summary.
+GivenA0215 PatientA0215,Initial Assessment,2026-02-09 13:30:00+00,Synthetic initial evaluation.
+GivenA0216 PatientA0216,Discharge Summary,2026-01-24 13:00:00+00,Recovery documented in synthetic summary.
+GivenA0217 PatientA0217,Progress Note,2026-02-11 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0218 PatientA0218,Discharge Summary,2026-02-14 15:00:00+00,Recovery documented in synthetic summary.
+GivenA0219 PatientA0219,Discharge Summary,2026-01-27 04:00:00+00,Follow-up documented in synthetic summary.
+GivenA0220 PatientA0220,Initial Assessment,2026-02-14 13:30:00+00,Synthetic initial evaluation.
+GivenA0221 PatientA0221,Discharge Summary,2026-01-28 10:00:00+00,Recovery documented in synthetic summary.
+GivenA0222 PatientA0222,Progress Note,2026-02-16 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0223 PatientA0223,Discharge Summary,2026-02-18 05:00:00+00,Recovery documented in synthetic summary.
+GivenA0224 PatientA0224,Progress Note,2026-02-18 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0225 PatientA0225,Discharge Summary,2026-02-22 03:00:00+00,Recovery documented in synthetic summary.
+GivenA0226 PatientA0226,Progress Note,2026-02-20 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0227 PatientA0227,Discharge Summary,2026-02-26 05:00:00+00,Recovery documented in synthetic summary.
+GivenA0228 PatientA0228,Discharge Summary,2026-02-05 04:00:00+00,Follow-up documented in synthetic summary.
+GivenA0229 PatientA0229,Initial Assessment,2026-02-23 13:30:00+00,Synthetic initial evaluation.
+GivenA0230 PatientA0230,Discharge Summary,2026-02-26 13:00:00+00,Follow-up documented in synthetic summary.
+GivenA0231 PatientA0231,Initial Assessment,2026-02-25 13:30:00+00,Synthetic initial evaluation.
+GivenA0232 PatientA0232,Discharge Summary,2026-03-01 15:00:00+00,Follow-up documented in synthetic summary.
+GivenA0233 PatientA0233,Progress Note,2026-02-07 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0234 PatientA0234,Discharge Summary,2026-03-02 08:00:00+00,Recovery documented in synthetic summary.
+GivenA0235 PatientA0235,Progress Note,2026-03-01 13:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0461 PatientA0461,Progress Note,2026-07-24 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0497 PatientA0497,Discharge Summary,2026-07-13 18:00:00+00,Recovery documented in synthetic summary.
+GivenA0524 PatientA0524,Discharge Summary,2026-07-07 21:00:00+00,Follow-up documented in synthetic summary.
+GivenA0537 PatientA0537,Initial Assessment,2026-09-01 06:30:00+00,Synthetic initial evaluation.
+GivenB0001 PatientB0001,Initial Assessment,2026-08-14 06:30:00+00,Synthetic initial evaluation.
+GivenB0002 PatientB0002,Discharge Summary,2026-07-06 21:00:00+00,Follow-up documented in synthetic summary.
+GivenA0264 PatientA0264,Progress Note,2026-06-17 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0004 PatientB0004,Discharge Summary,2026-07-12 11:00:00+00,Recovery documented in synthetic summary.
+GivenB0005 PatientB0005,Progress Note,2026-07-09 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0006 PatientB0006,Discharge Summary,2026-07-10 15:00:00+00,Recovery documented in synthetic summary.
+GivenB0007 PatientB0007,Discharge Summary,2026-06-26 01:00:00+00,Follow-up documented in synthetic summary.
+GivenB0008 PatientB0008,Progress Note,2026-06-22 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0010 PatientB0010,Discharge Summary,2026-06-28 05:00:00+00,Follow-up documented in synthetic summary.
+GivenB0011 PatientB0011,Progress Note,2026-06-25 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0012 PatientB0012,Initial Assessment,2026-06-26 06:30:00+00,Synthetic initial evaluation.
+GivenB0013 PatientB0013,Discharge Summary,2026-07-20 20:00:00+00,Follow-up documented in synthetic summary.
+GivenB0014 PatientB0014,Progress Note,2026-06-28 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0015 PatientB0015,Initial Assessment,2026-06-29 06:30:00+00,Synthetic initial evaluation.
+GivenB0016 PatientB0016,Discharge Summary,2026-07-23 02:00:00+00,Follow-up documented in synthetic summary.
+GivenB0017 PatientB0017,Progress Note,2026-07-01 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0018 PatientB0018,Discharge Summary,2026-07-25 04:00:00+00,Recovery documented in synthetic summary.
+GivenB0020 PatientB0020,Progress Note,2026-07-04 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0021 PatientB0021,Discharge Summary,2026-07-29 22:00:00+00,Recovery documented in synthetic summary.
+GivenB0022 PatientB0022,Progress Note,2026-07-26 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0349 PatientA0349,Discharge Summary,2026-07-31 21:00:00+00,Recovery documented in synthetic summary.
+GivenB0024 PatientB0024,Progress Note,2026-07-28 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0025 PatientB0025,Initial Assessment,2026-07-09 06:30:00+00,Synthetic initial evaluation.
+GivenB0026 PatientB0026,Discharge Summary,2026-08-03 14:00:00+00,Follow-up documented in synthetic summary.
+GivenB0027 PatientB0027,Progress Note,2026-07-11 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0028 PatientB0028,Initial Assessment,2026-07-12 06:30:00+00,Synthetic initial evaluation.
+GivenB0029 PatientB0029,Discharge Summary,2026-07-15 02:00:00+00,Recovery documented in synthetic summary.
+GivenB0030 PatientB0030,Progress Note,2026-08-03 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0032 PatientB0032,Progress Note,2026-08-05 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0033 PatientB0033,Discharge Summary,2026-08-07 18:00:00+00,Recovery documented in synthetic summary.
+GivenB0035 PatientB0035,Discharge Summary,2026-07-21 20:00:00+00,Follow-up documented in synthetic summary.
+GivenB0036 PatientB0036,Initial Assessment,2026-08-09 06:30:00+00,Synthetic initial evaluation.
+GivenB0037 PatientB0037,Discharge Summary,2026-08-13 00:00:00+00,Follow-up documented in synthetic summary.
+GivenB0038 PatientB0038,Initial Assessment,2026-08-11 06:30:00+00,Synthetic initial evaluation.
+GivenB0039 PatientB0039,Discharge Summary,2026-08-14 15:00:00+00,Follow-up documented in synthetic summary.
+GivenB0040 PatientB0040,Initial Assessment,2026-08-13 06:30:00+00,Synthetic initial evaluation.
+GivenB0041 PatientB0041,Discharge Summary,2026-08-16 10:00:00+00,Follow-up documented in synthetic summary.
+GivenB0042 PatientB0042,Progress Note,2026-07-26 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0043 PatientB0043,Discharge Summary,2026-07-31 10:00:00+00,Recovery documented in synthetic summary.
+GivenB0044 PatientB0044,Discharge Summary,2026-07-31 23:00:00+00,Follow-up documented in synthetic summary.
+GivenB0045 PatientB0045,Initial Assessment,2026-08-18 06:30:00+00,Synthetic initial evaluation.
+GivenB0046 PatientB0046,Discharge Summary,2026-08-20 09:00:00+00,Follow-up documented in synthetic summary.
+GivenB0047 PatientB0047,Progress Note,2026-07-31 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0048 PatientB0048,Discharge Summary,2026-08-22 12:00:00+00,Recovery documented in synthetic summary.
+GivenB0049 PatientB0049,Progress Note,2026-08-22 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0050 PatientB0050,Discharge Summary,2026-08-25 14:00:00+00,Recovery documented in synthetic summary.
+GivenB0051 PatientB0051,Progress Note,2026-08-24 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0052 PatientB0052,Discharge Summary,2026-08-27 21:00:00+00,Recovery documented in synthetic summary.
+GivenB0054 PatientB0054,Progress Note,2026-08-27 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0055 PatientB0055,Discharge Summary,2026-09-02 05:00:00+00,Recovery documented in synthetic summary.
+GivenB0056 PatientB0056,Progress Note,2026-08-29 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0058 PatientB0058,Initial Assessment,2026-08-11 06:30:00+00,Synthetic initial evaluation.
+GivenB0059 PatientB0059,Discharge Summary,2026-09-01 14:00:00+00,Follow-up documented in synthetic summary.
+GivenB0060 PatientB0060,Progress Note,2026-08-13 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0061 PatientB0061,Discharge Summary,2026-09-04 17:00:00+00,Recovery documented in synthetic summary.
+GivenB0062 PatientB0062,Progress Note,2026-09-04 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0063 PatientB0063,Discharge Summary,2026-09-06 10:00:00+00,Recovery documented in synthetic summary.
+GivenB0064 PatientB0064,Progress Note,2026-09-06 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0065 PatientB0065,Discharge Summary,2026-09-09 06:00:00+00,Recovery documented in synthetic summary.
+GivenB0066 PatientB0066,Discharge Summary,2026-08-21 21:00:00+00,Follow-up documented in synthetic summary.
+GivenB0067 PatientB0067,Discharge Summary,2026-09-14 05:00:00+00,Recovery documented in synthetic summary.
+GivenB0068 PatientB0068,Progress Note,2026-09-10 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0069 PatientB0069,Discharge Summary,2026-09-15 04:00:00+00,Recovery documented in synthetic summary.
+GivenB0070 PatientB0070,Progress Note,2026-09-12 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0071 PatientB0071,Discharge Summary,2026-09-14 04:00:00+00,Recovery documented in synthetic summary.
+GivenB0073 PatientB0073,Progress Note,2026-09-15 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0074 PatientB0074,Discharge Summary,2026-09-17 20:00:00+00,Recovery documented in synthetic summary.
+GivenB0075 PatientB0075,Progress Note,2026-09-17 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0076 PatientB0076,Initial Assessment,2026-08-29 06:30:00+00,Synthetic initial evaluation.
+GivenB0077 PatientB0077,Discharge Summary,2026-09-04 05:00:00+00,Recovery documented in synthetic summary.
+GivenB0078 PatientB0078,Discharge Summary,2026-09-01 03:00:00+00,Follow-up documented in synthetic summary.
+GivenB0079 PatientB0079,Initial Assessment,2026-09-21 06:30:00+00,Synthetic initial evaluation.
+GivenB0080 PatientB0080,Discharge Summary,2026-09-24 08:00:00+00,Follow-up documented in synthetic summary.
+GivenB0081 PatientB0081,Initial Assessment,2026-09-23 06:30:00+00,Synthetic initial evaluation.
+GivenB0082 PatientB0082,Discharge Summary,2026-09-25 11:00:00+00,Follow-up documented in synthetic summary.
+GivenB0083 PatientB0083,Initial Assessment,2026-09-25 06:30:00+00,Synthetic initial evaluation.
+GivenB0084 PatientB0084,Discharge Summary,2026-09-06 18:00:00+00,Recovery documented in synthetic summary.
+GivenB0085 PatientB0085,Progress Note,2026-09-27 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0086 PatientB0086,Discharge Summary,2026-10-02 13:00:00+00,Recovery documented in synthetic summary.
+GivenB0087 PatientB0087,Discharge Summary,2026-09-11 05:00:00+00,Follow-up documented in synthetic summary.
+GivenB0089 PatientB0089,Progress Note,2026-09-11 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0090 PatientB0090,Initial Assessment,2026-09-12 06:30:00+00,Synthetic initial evaluation.
+GivenB0091 PatientB0091,Progress Note,2026-10-03 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0092 PatientB0092,Discharge Summary,2026-10-07 05:00:00+00,Recovery documented in synthetic summary.
+GivenB0093 PatientB0093,Progress Note,2026-10-05 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0094 PatientB0094,Initial Assessment,2026-09-16 06:30:00+00,Synthetic initial evaluation.
+GivenB0095 PatientB0095,Discharge Summary,2026-10-09 16:00:00+00,Follow-up documented in synthetic summary.
+GivenB0097 PatientB0097,Discharge Summary,2026-10-09 14:00:00+00,Follow-up documented in synthetic summary.
+GivenB0098 PatientB0098,Initial Assessment,2026-10-10 06:30:00+00,Synthetic initial evaluation.
+GivenB0099 PatientB0099,Discharge Summary,2026-09-25 20:00:00+00,Recovery documented in synthetic summary.
+GivenB0100 PatientB0100,Progress Note,2026-07-04 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0101 PatientB0101,Discharge Summary,2026-07-05 23:00:00+00,Recovery documented in synthetic summary.
+GivenB0102 PatientB0102,Progress Note,2026-07-06 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0103 PatientB0103,Initial Assessment,2026-06-17 06:30:00+00,Synthetic initial evaluation.
+GivenB0104 PatientB0104,Discharge Summary,2026-07-13 01:00:00+00,Follow-up documented in synthetic summary.
+GivenB0105 PatientB0105,Progress Note,2026-06-19 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0106 PatientB0106,Discharge Summary,2026-07-13 06:00:00+00,Recovery documented in synthetic summary.
+GivenB0107 PatientB0107,Progress Note,2026-07-11 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0108 PatientB0108,Discharge Summary,2026-07-14 21:00:00+00,Recovery documented in synthetic summary.
+GivenB0109 PatientB0109,Progress Note,2026-07-13 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0110 PatientB0110,Discharge Summary,2026-07-15 23:00:00+00,Recovery documented in synthetic summary.
+GivenB0111 PatientB0111,Discharge Summary,2026-06-27 02:00:00+00,Follow-up documented in synthetic summary.
+GivenB0112 PatientB0112,Initial Assessment,2026-07-16 06:30:00+00,Synthetic initial evaluation.
+GivenB0113 PatientB0113,Discharge Summary,2026-07-20 00:00:00+00,Follow-up documented in synthetic summary.
+GivenB0114 PatientB0114,Progress Note,2026-06-28 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0115 PatientB0115,Initial Assessment,2026-06-29 06:30:00+00,Synthetic initial evaluation.
+GivenB0116 PatientB0116,Discharge Summary,2026-07-05 01:00:00+00,Recovery documented in synthetic summary.
+GivenB0117 PatientB0117,Progress Note,2026-07-21 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0118 PatientB0118,Initial Assessment,2026-07-02 06:30:00+00,Synthetic initial evaluation.
+GivenB0119 PatientB0119,Discharge Summary,2026-07-28 06:00:00+00,Follow-up documented in synthetic summary.
+GivenB0120 PatientB0120,Initial Assessment,2026-07-24 06:30:00+00,Synthetic initial evaluation.
+GivenB0121 PatientB0121,Discharge Summary,2026-07-29 18:00:00+00,Follow-up documented in synthetic summary.
+GivenB0122 PatientB0122,Initial Assessment,2026-07-26 06:30:00+00,Synthetic initial evaluation.
+GivenB0123 PatientB0123,Discharge Summary,2026-07-28 18:00:00+00,Follow-up documented in synthetic summary.
+GivenB0124 PatientB0124,Progress Note,2026-07-08 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0125 PatientB0125,Initial Assessment,2026-07-09 06:30:00+00,Synthetic initial evaluation.
+GivenB0126 PatientB0126,Discharge Summary,2026-08-01 14:00:00+00,Follow-up documented in synthetic summary.
+GivenB0127 PatientB0127,Initial Assessment,2026-07-31 06:30:00+00,Synthetic initial evaluation.
+GivenB0128 PatientB0128,Discharge Summary,2026-08-04 06:00:00+00,Follow-up documented in synthetic summary.
+GivenB0129 PatientB0129,Initial Assessment,2026-08-02 06:30:00+00,Synthetic initial evaluation.
+GivenB0130 PatientB0130,Discharge Summary,2026-08-05 08:00:00+00,Follow-up documented in synthetic summary.
+GivenB0131 PatientB0131,Initial Assessment,2026-08-04 06:30:00+00,Synthetic initial evaluation.
+GivenB0132 PatientB0132,Discharge Summary,2026-08-09 00:00:00+00,Follow-up documented in synthetic summary.
+GivenB0133 PatientB0133,Initial Assessment,2026-08-06 06:30:00+00,Synthetic initial evaluation.
+GivenB0135 PatientB0135,Discharge Summary,2026-07-20 11:00:00+00,Recovery documented in synthetic summary.
+GivenB0136 PatientB0136,Discharge Summary,2026-07-21 16:00:00+00,Follow-up documented in synthetic summary.
+GivenB0137 PatientB0137,Initial Assessment,2026-08-10 06:30:00+00,Synthetic initial evaluation.
+GivenB0138 PatientB0138,Discharge Summary,2026-08-16 05:00:00+00,Follow-up documented in synthetic summary.
+GivenB0139 PatientB0139,Initial Assessment,2026-08-12 06:30:00+00,Synthetic initial evaluation.
+GivenB0141 PatientB0141,Discharge Summary,2026-07-29 21:00:00+00,Recovery documented in synthetic summary.
+GivenB0142 PatientB0142,Progress Note,2026-08-15 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0143 PatientB0143,Initial Assessment,2026-07-27 06:30:00+00,Synthetic initial evaluation.
+GivenB0144 PatientB0144,Discharge Summary,2026-07-29 09:00:00+00,Recovery documented in synthetic summary.
+GivenB0146 PatientB0146,Discharge Summary,2026-08-03 19:00:00+00,Follow-up documented in synthetic summary.
+GivenB0147 PatientB0147,Progress Note,2026-07-31 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0148 PatientB0148,Initial Assessment,2026-08-01 06:30:00+00,Synthetic initial evaluation.
+GivenB0149 PatientB0149,Discharge Summary,2026-08-23 03:00:00+00,Follow-up documented in synthetic summary.
+GivenB0150 PatientB0150,Initial Assessment,2026-08-23 06:30:00+00,Synthetic initial evaluation.
+GivenB0151 PatientB0151,Discharge Summary,2026-08-27 06:00:00+00,Follow-up documented in synthetic summary.
+GivenB0152 PatientB0152,Initial Assessment,2026-08-25 06:30:00+00,Synthetic initial evaluation.
+GivenB0153 PatientB0153,Discharge Summary,2026-08-10 08:00:00+00,Recovery documented in synthetic summary.
+GivenB0154 PatientB0154,Progress Note,2026-08-27 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0155 PatientB0155,Discharge Summary,2026-08-29 22:00:00+00,Recovery documented in synthetic summary.
+GivenB0156 PatientB0156,Progress Note,2026-08-29 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0157 PatientB0157,Initial Assessment,2026-08-10 06:30:00+00,Synthetic initial evaluation.
+GivenB0159 PatientB0159,Discharge Summary,2026-09-02 11:00:00+00,Follow-up documented in synthetic summary.
+GivenB0160 PatientB0160,Initial Assessment,2026-09-02 06:30:00+00,Synthetic initial evaluation.
+GivenB0161 PatientB0161,Discharge Summary,2026-09-05 06:00:00+00,Follow-up documented in synthetic summary.
+GivenB0162 PatientB0162,Progress Note,2026-08-15 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0163 PatientB0163,Discharge Summary,2026-09-08 00:00:00+00,Recovery documented in synthetic summary.
+GivenB0164 PatientB0164,Progress Note,2026-09-06 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0165 PatientB0165,Discharge Summary,2026-09-11 00:00:00+00,Recovery documented in synthetic summary.
+GivenB0166 PatientB0166,Progress Note,2026-09-08 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0167 PatientB0167,Initial Assessment,2026-08-20 06:30:00+00,Synthetic initial evaluation.
+GivenB0168 PatientB0168,Discharge Summary,2026-09-10 13:00:00+00,Follow-up documented in synthetic summary.
+GivenB0169 PatientB0169,Initial Assessment,2026-09-11 06:30:00+00,Synthetic initial evaluation.
+GivenB0170 PatientB0170,Discharge Summary,2026-08-28 02:00:00+00,Recovery documented in synthetic summary.
+GivenA0083 PatientA0083,Progress Note,2026-09-13 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0172 PatientB0172,Discharge Summary,2026-09-15 21:00:00+00,Recovery documented in synthetic summary.
+GivenB0173 PatientB0173,Progress Note,2026-09-15 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0174 PatientB0174,Initial Assessment,2026-08-27 06:30:00+00,Synthetic initial evaluation.
+GivenB0176 PatientB0176,Discharge Summary,2026-09-01 00:00:00+00,Recovery documented in synthetic summary.
+GivenB0177 PatientB0177,Progress Note,2026-09-19 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0178 PatientB0178,Discharge Summary,2026-09-21 16:00:00+00,Recovery documented in synthetic summary.
+GivenB0179 PatientB0179,Progress Note,2026-09-21 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0180 PatientB0180,Discharge Summary,2026-09-23 01:00:00+00,Recovery documented in synthetic summary.
+GivenB0181 PatientB0181,Progress Note,2026-09-23 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0182 PatientB0182,Initial Assessment,2026-09-04 06:30:00+00,Synthetic initial evaluation.
+GivenB0183 PatientB0183,Discharge Summary,2026-09-09 12:00:00+00,Recovery documented in synthetic summary.
+GivenB0184 PatientB0184,Progress Note,2026-09-26 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0185 PatientB0185,Initial Assessment,2026-09-07 06:30:00+00,Synthetic initial evaluation.
+GivenB0187 PatientB0187,Discharge Summary,2026-09-10 08:00:00+00,Follow-up documented in synthetic summary.
+GivenB0188 PatientB0188,Initial Assessment,2026-09-30 06:30:00+00,Synthetic initial evaluation.
+GivenB0189 PatientB0189,Discharge Summary,2026-10-05 10:00:00+00,Follow-up documented in synthetic summary.
+GivenB0190 PatientB0190,Progress Note,2026-09-12 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0191 PatientB0191,Discharge Summary,2026-10-06 22:00:00+00,Recovery documented in synthetic summary.
+GivenB0192 PatientB0192,Discharge Summary,2026-09-15 20:00:00+00,Follow-up documented in synthetic summary.
+GivenB0193 PatientB0193,Progress Note,2026-09-15 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0194 PatientB0194,Discharge Summary,2026-10-06 13:00:00+00,Recovery documented in synthetic summary.
+GivenB0195 PatientB0195,Progress Note,2026-10-07 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0196 PatientB0196,Initial Assessment,2026-09-18 06:30:00+00,Synthetic initial evaluation.
+GivenB0197 PatientB0197,Discharge Summary,2026-10-10 05:00:00+00,Follow-up documented in synthetic summary.
+GivenB0198 PatientB0198,Progress Note,2026-09-20 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0199 PatientB0199,Discharge Summary,2026-10-13 03:00:00+00,Recovery documented in synthetic summary.
+GivenB0200 PatientB0200,Progress Note,2026-07-04 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0201 PatientB0201,Initial Assessment,2026-06-15 06:30:00+00,Synthetic initial evaluation.
+GivenB0202 PatientB0202,Discharge Summary,2026-06-20 03:00:00+00,Recovery documented in synthetic summary.
+GivenB0203 PatientB0203,Initial Assessment,2026-07-07 06:30:00+00,Synthetic initial evaluation.
+GivenB0204 PatientB0204,Discharge Summary,2026-06-18 15:00:00+00,Recovery documented in synthetic summary.
+GivenB0205 PatientB0205,Progress Note,2026-07-09 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0206 PatientB0206,Initial Assessment,2026-06-20 06:30:00+00,Synthetic initial evaluation.
+GivenB0207 PatientB0207,Discharge Summary,2026-06-25 12:00:00+00,Recovery documented in synthetic summary.
+GivenB0208 PatientB0208,Discharge Summary,2026-06-25 04:00:00+00,Follow-up documented in synthetic summary.
+GivenB0209 PatientB0209,Initial Assessment,2026-07-13 06:30:00+00,Synthetic initial evaluation.
+GivenB0210 PatientB0210,Discharge Summary,2026-07-15 15:00:00+00,Follow-up documented in synthetic summary.
+GivenB0211 PatientB0211,Initial Assessment,2026-07-15 06:30:00+00,Synthetic initial evaluation.
+GivenB0212 PatientB0212,Discharge Summary,2026-07-19 04:00:00+00,Follow-up documented in synthetic summary.
+GivenB0213 PatientB0213,Initial Assessment,2026-07-17 06:30:00+00,Synthetic initial evaluation.
+GivenB0214 PatientB0214,Discharge Summary,2026-07-22 13:00:00+00,Follow-up documented in synthetic summary.
+GivenB0215 PatientB0215,Progress Note,2026-06-29 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0216 PatientB0216,Initial Assessment,2026-06-30 06:30:00+00,Synthetic initial evaluation.
+GivenB0217 PatientB0217,Discharge Summary,2026-07-23 00:00:00+00,Follow-up documented in synthetic summary.
+GivenB0218 PatientB0218,Progress Note,2026-07-02 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0219 PatientB0219,Discharge Summary,2026-07-27 18:00:00+00,Recovery documented in synthetic summary.
+GivenB0222 PatientB0222,Initial Assessment,2026-07-06 06:30:00+00,Synthetic initial evaluation.
+GivenB0223 PatientB0223,Discharge Summary,2026-07-07 14:00:00+00,Recovery documented in synthetic summary.
+GivenB0224 PatientB0224,Discharge Summary,2026-07-09 18:00:00+00,Follow-up documented in synthetic summary.
+GivenB0225 PatientB0225,Progress Note,2026-07-09 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenA0402 PatientA0402,Discharge Summary,2026-08-02 19:00:00+00,Recovery documented in synthetic summary.
+GivenB0227 PatientB0227,Progress Note,2026-07-31 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0228 PatientB0228,Initial Assessment,2026-07-12 06:30:00+00,Synthetic initial evaluation.
+GivenB0229 PatientB0229,Discharge Summary,2026-08-03 23:00:00+00,Follow-up documented in synthetic summary.
+GivenB0230 PatientB0230,Initial Assessment,2026-08-03 06:30:00+00,Synthetic initial evaluation.
+GivenB0233 PatientB0233,Discharge Summary,2026-07-21 22:00:00+00,Recovery documented in synthetic summary.
+GivenB0234 PatientB0234,Progress Note,2026-07-18 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0235 PatientB0235,Initial Assessment,2026-07-19 06:30:00+00,Synthetic initial evaluation.
+GivenB0236 PatientB0236,Discharge Summary,2026-08-10 15:00:00+00,Follow-up documented in synthetic summary.
+GivenB0237 PatientB0237,Initial Assessment,2026-08-10 06:30:00+00,Synthetic initial evaluation.
+GivenB0238 PatientB0238,Discharge Summary,2026-07-26 07:00:00+00,Recovery documented in synthetic summary.
+GivenB0239 PatientB0239,Progress Note,2026-08-12 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0240 PatientB0240,Initial Assessment,2026-07-24 06:30:00+00,Synthetic initial evaluation.
+GivenB0241 PatientB0241,Discharge Summary,2026-08-18 21:00:00+00,Follow-up documented in synthetic summary.
+GivenB0242 PatientB0242,Progress Note,2026-07-26 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0243 PatientB0243,Initial Assessment,2026-07-27 06:30:00+00,Synthetic initial evaluation.
+GivenB0244 PatientB0244,Discharge Summary,2026-08-01 11:00:00+00,Recovery documented in synthetic summary.
+GivenB0245 PatientB0245,Progress Note,2026-08-18 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0246 PatientB0246,Discharge Summary,2026-08-23 10:00:00+00,Recovery documented in synthetic summary.
+GivenB0247 PatientB0247,Discharge Summary,2026-08-04 04:00:00+00,Follow-up documented in synthetic summary.
+GivenB0249 PatientB0249,Progress Note,2026-08-02 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0250 PatientB0250,Initial Assessment,2026-08-03 06:30:00+00,Synthetic initial evaluation.
+GivenB0251 PatientB0251,Discharge Summary,2026-08-04 14:00:00+00,Recovery documented in synthetic summary.
+GivenB0252 PatientB0252,Progress Note,2026-08-25 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0253 PatientB0253,Initial Assessment,2026-08-06 06:30:00+00,Synthetic initial evaluation.
+GivenB0254 PatientB0254,Discharge Summary,2026-08-31 20:00:00+00,Follow-up documented in synthetic summary.
+GivenB0255 PatientB0255,Initial Assessment,2026-08-28 06:30:00+00,Synthetic initial evaluation.
+GivenB0256 PatientB0256,Discharge Summary,2026-08-31 14:00:00+00,Follow-up documented in synthetic summary.
+GivenB0257 PatientB0257,Initial Assessment,2026-08-30 06:30:00+00,Synthetic initial evaluation.
+GivenB0258 PatientB0258,Discharge Summary,2026-09-05 02:00:00+00,Follow-up documented in synthetic summary.
+GivenB0260 PatientB0260,Discharge Summary,2026-09-04 07:00:00+00,Follow-up documented in synthetic summary.
+GivenB0261 PatientB0261,Progress Note,2026-08-14 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0262 PatientB0262,Discharge Summary,2026-09-08 07:00:00+00,Recovery documented in synthetic summary.
+GivenB0263 PatientB0263,Discharge Summary,2026-08-17 11:00:00+00,Follow-up documented in synthetic summary.
+GivenB0264 PatientB0264,Progress Note,2026-08-17 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenB0265 PatientB0265,Discharge Summary,2026-09-07 16:00:00+00,Recovery documented in synthetic summary.
+GivenB0266 PatientB0266,Progress Note,2026-09-08 06:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0001 PatientC0001,Initial Assessment,2026-03-06 23:30:00+00,Synthetic initial evaluation.
+GivenC0002 PatientC0002,Discharge Summary,2026-01-31 14:00:00+00,Follow-up documented in synthetic summary.
+GivenC0003 PatientC0003,Progress Note,2026-01-07 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0004 PatientC0004,Initial Assessment,2026-01-08 23:30:00+00,Synthetic initial evaluation.
+GivenC0005 PatientC0005,Discharge Summary,2026-01-13 21:00:00+00,Recovery documented in synthetic summary.
+GivenC0006 PatientC0006,Progress Note,2026-01-30 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0007 PatientC0007,Discharge Summary,2026-02-02 00:00:00+00,Recovery documented in synthetic summary.
+GivenC0008 PatientC0008,Progress Note,2026-02-01 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0009 PatientC0009,Discharge Summary,2026-02-03 18:00:00+00,Recovery documented in synthetic summary.
+GivenC0010 PatientC0010,Discharge Summary,2026-01-17 08:00:00+00,Follow-up documented in synthetic summary.
+GivenC0011 PatientC0011,Initial Assessment,2026-02-04 23:30:00+00,Synthetic initial evaluation.
+GivenC0012 PatientC0012,Discharge Summary,2026-02-06 18:00:00+00,Follow-up documented in synthetic summary.
+GivenC0013 PatientC0013,Initial Assessment,2026-02-06 23:30:00+00,Synthetic initial evaluation.
+GivenC0014 PatientC0014,Discharge Summary,2026-02-12 02:00:00+00,Follow-up documented in synthetic summary.
+GivenC0015 PatientC0015,Initial Assessment,2026-02-08 23:30:00+00,Synthetic initial evaluation.
+GivenC0016 PatientC0016,Discharge Summary,2026-01-25 20:00:00+00,Recovery documented in synthetic summary.
+GivenC0017 PatientC0017,Discharge Summary,2026-01-23 06:00:00+00,Follow-up documented in synthetic summary.
+GivenC0018 PatientC0018,Progress Note,2026-01-22 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0019 PatientC0019,Discharge Summary,2026-02-15 04:00:00+00,Recovery documented in synthetic summary.
+GivenC0020 PatientC0020,Discharge Summary,2026-01-27 00:00:00+00,Follow-up documented in synthetic summary.
+GivenC0021 PatientC0021,Initial Assessment,2026-02-14 23:30:00+00,Synthetic initial evaluation.
+GivenC0022 PatientC0022,Discharge Summary,2026-02-17 23:00:00+00,Follow-up documented in synthetic summary.
+GivenC0023 PatientC0023,Initial Assessment,2026-02-16 23:30:00+00,Synthetic initial evaluation.
+GivenC0024 PatientC0024,Discharge Summary,2026-02-21 10:00:00+00,Follow-up documented in synthetic summary.
+GivenC0025 PatientC0025,Initial Assessment,2026-02-18 23:30:00+00,Synthetic initial evaluation.
+GivenC0026 PatientC0026,Discharge Summary,2026-02-24 22:00:00+00,Follow-up documented in synthetic summary.
+GivenC0027 PatientC0027,Initial Assessment,2026-02-20 23:30:00+00,Synthetic initial evaluation.
+GivenC0028 PatientC0028,Discharge Summary,2026-02-26 16:00:00+00,Follow-up documented in synthetic summary.
+GivenC0029 PatientC0029,Progress Note,2026-02-02 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0030 PatientC0030,Discharge Summary,2026-02-25 10:00:00+00,Recovery documented in synthetic summary.
+GivenC0031 PatientC0031,Progress Note,2026-02-24 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0032 PatientC0032,Discharge Summary,2026-03-01 02:00:00+00,Recovery documented in synthetic summary.
+GivenC0033 PatientC0033,Progress Note,2026-02-26 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0034 PatientC0034,Discharge Summary,2026-03-03 10:00:00+00,Recovery documented in synthetic summary.
+GivenC0035 PatientC0035,Progress Note,2026-02-28 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0036 PatientC0036,Discharge Summary,2026-03-02 07:00:00+00,Recovery documented in synthetic summary.
+GivenC0037 PatientC0037,Progress Note,2026-03-02 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0039 PatientC0039,Discharge Summary,2026-03-05 21:00:00+00,Recovery documented in synthetic summary.
+GivenC0040 PatientC0040,Progress Note,2026-03-05 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0041 PatientC0041,Discharge Summary,2026-03-09 18:00:00+00,Recovery documented in synthetic summary.
+GivenC0042 PatientC0042,Discharge Summary,2026-02-20 12:00:00+00,Follow-up documented in synthetic summary.
+GivenC0043 PatientC0043,Progress Note,2026-02-16 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0045 PatientC0045,Discharge Summary,2026-02-22 11:00:00+00,Recovery documented in synthetic summary.
+GivenC0046 PatientC0046,Discharge Summary,2026-02-24 20:00:00+00,Follow-up documented in synthetic summary.
+GivenC0047 PatientC0047,Progress Note,2026-02-20 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0048 PatientC0048,Discharge Summary,2026-03-15 00:00:00+00,Recovery documented in synthetic summary.
+GivenC0049 PatientC0049,Progress Note,2026-03-14 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0050 PatientC0050,Discharge Summary,2026-03-16 14:00:00+00,Recovery documented in synthetic summary.
+GivenC0051 PatientC0051,Discharge Summary,2026-02-27 08:00:00+00,Follow-up documented in synthetic summary.
+GivenC0052 PatientC0052,Progress Note,2026-02-25 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0053 PatientC0053,Discharge Summary,2026-03-21 02:00:00+00,Recovery documented in synthetic summary.
+GivenC0054 PatientC0054,Progress Note,2026-03-19 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0055 PatientC0055,Initial Assessment,2026-02-28 23:30:00+00,Synthetic initial evaluation.
+GivenC0056 PatientC0056,Discharge Summary,2026-03-24 08:00:00+00,Follow-up documented in synthetic summary.
+GivenC0057 PatientC0057,Initial Assessment,2026-03-22 23:30:00+00,Synthetic initial evaluation.
+GivenC0058 PatientC0058,Discharge Summary,2026-03-26 17:00:00+00,Follow-up documented in synthetic summary.
+GivenC0059 PatientC0059,Initial Assessment,2026-03-24 23:30:00+00,Synthetic initial evaluation.
+GivenC0060 PatientC0060,Discharge Summary,2026-03-26 16:00:00+00,Follow-up documented in synthetic summary.
+GivenC0061 PatientC0061,Initial Assessment,2026-03-26 23:30:00+00,Synthetic initial evaluation.
+GivenC0062 PatientC0062,Discharge Summary,2026-03-31 23:00:00+00,Follow-up documented in synthetic summary.
+GivenC0064 PatientC0064,Discharge Summary,2026-10-11 11:00:00+00,Follow-up documented in synthetic summary.
+GivenC0065 PatientC0065,Discharge Summary,2026-03-31 20:00:00+00,Follow-up documented in synthetic summary.
+GivenC0066 PatientC0066,Progress Note,2026-03-11 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0067 PatientC0067,Discharge Summary,2026-04-02 17:00:00+00,Recovery documented in synthetic summary.
+GivenC0068 PatientC0068,Progress Note,2026-04-02 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0069 PatientC0069,Discharge Summary,2026-04-04 20:00:00+00,Recovery documented in synthetic summary.
+GivenC0070 PatientC0070,Progress Note,2026-04-04 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0071 PatientC0071,Discharge Summary,2026-04-08 22:00:00+00,Recovery documented in synthetic summary.
+GivenC0072 PatientC0072,Progress Note,2026-04-06 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0073 PatientC0073,Discharge Summary,2026-04-08 12:00:00+00,Recovery documented in synthetic summary.
+GivenC0074 PatientC0074,Progress Note,2026-04-08 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0075 PatientC0075,Discharge Summary,2026-04-14 23:00:00+00,Recovery documented in synthetic summary.
+GivenC0076 PatientC0076,Progress Note,2026-04-10 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0077 PatientC0077,Initial Assessment,2026-03-22 23:30:00+00,Synthetic initial evaluation.
+GivenC0079 PatientC0079,Discharge Summary,2026-04-15 03:00:00+00,Follow-up documented in synthetic summary.
+GivenC0080 PatientC0080,Initial Assessment,2026-04-14 23:30:00+00,Synthetic initial evaluation.
+GivenC0081 PatientC0081,Discharge Summary,2026-04-17 13:00:00+00,Follow-up documented in synthetic summary.
+GivenC0082 PatientC0082,Initial Assessment,2026-04-16 23:30:00+00,Synthetic initial evaluation.
+GivenC0083 PatientC0083,Discharge Summary,2026-03-31 10:00:00+00,Recovery documented in synthetic summary.
+GivenC0084 PatientC0084,Progress Note,2026-04-18 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0085 PatientC0085,Initial Assessment,2026-03-30 23:30:00+00,Synthetic initial evaluation.
+GivenC0086 PatientC0086,Discharge Summary,2026-04-05 03:00:00+00,Recovery documented in synthetic summary.
+GivenC0087 PatientC0087,Progress Note,2026-04-01 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0088 PatientC0088,Discharge Summary,2026-04-25 21:00:00+00,Recovery documented in synthetic summary.
+GivenC0089 PatientC0089,Progress Note,2026-04-23 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0090 PatientC0090,Discharge Summary,2026-04-29 12:00:00+00,Recovery documented in synthetic summary.
+GivenC0091 PatientC0091,Progress Note,2026-04-25 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0092 PatientC0092,Discharge Summary,2026-05-01 22:00:00+00,Recovery documented in synthetic summary.
+GivenC0093 PatientC0093,Discharge Summary,2026-04-09 14:00:00+00,Follow-up documented in synthetic summary.
+GivenC0094 PatientC0094,Progress Note,2026-04-08 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0095 PatientC0095,Discharge Summary,2026-05-01 11:00:00+00,Recovery documented in synthetic summary.
+GivenC0096 PatientC0096,Progress Note,2026-04-30 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0097 PatientC0097,Discharge Summary,2026-05-06 12:00:00+00,Recovery documented in synthetic summary.
+GivenC0098 PatientC0098,Discharge Summary,2026-04-13 14:00:00+00,Follow-up documented in synthetic summary.
+GivenC0099 PatientC0099,Initial Assessment,2026-05-03 23:30:00+00,Synthetic initial evaluation.
+GivenC0100 PatientC0100,Discharge Summary,2026-01-25 06:00:00+00,Follow-up documented in synthetic summary.
+GivenC0101 PatientC0101,Initial Assessment,2026-09-11 22:30:00+00,Synthetic initial evaluation.
+GivenC0102 PatientC0102,Initial Assessment,2026-01-06 23:30:00+00,Synthetic initial evaluation.
+GivenC0103 PatientC0103,Discharge Summary,2026-02-01 16:00:00+00,Follow-up documented in synthetic summary.
+GivenC0104 PatientC0104,Progress Note,2026-01-08 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0105 PatientC0105,Discharge Summary,2026-01-31 07:00:00+00,Recovery documented in synthetic summary.
+GivenC0106 PatientC0106,Progress Note,2026-01-30 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0107 PatientC0107,Discharge Summary,2026-02-04 05:00:00+00,Recovery documented in synthetic summary.
+GivenC0108 PatientC0108,Discharge Summary,2026-01-14 19:00:00+00,Follow-up documented in synthetic summary.
+GivenC0109 PatientC0109,Progress Note,2026-01-13 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0110 PatientC0110,Initial Assessment,2026-01-14 23:30:00+00,Synthetic initial evaluation.
+GivenC0112 PatientC0112,Discharge Summary,2026-02-06 23:00:00+00,Follow-up documented in synthetic summary.
+GivenC0113 PatientC0113,Initial Assessment,2026-02-06 23:30:00+00,Synthetic initial evaluation.
+GivenC0114 PatientC0114,Discharge Summary,2026-02-11 08:00:00+00,Follow-up documented in synthetic summary.
+GivenC0115 PatientC0115,Initial Assessment,2026-02-08 23:30:00+00,Synthetic initial evaluation.
+GivenC0116 PatientC0116,Discharge Summary,2026-01-22 10:00:00+00,Recovery documented in synthetic summary.
+GivenC0117 PatientC0117,Discharge Summary,2026-01-24 16:00:00+00,Follow-up documented in synthetic summary.
+GivenC0118 PatientC0118,Progress Note,2026-01-22 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0120 PatientC0120,Initial Assessment,2026-01-24 23:30:00+00,Synthetic initial evaluation.
+GivenC0121 PatientC0121,Discharge Summary,2026-01-29 06:00:00+00,Recovery documented in synthetic summary.
+GivenC0122 PatientC0122,Discharge Summary,2026-01-27 11:00:00+00,Follow-up documented in synthetic summary.
+GivenC0123 PatientC0123,Initial Assessment,2026-02-16 23:30:00+00,Synthetic initial evaluation.
+GivenC0124 PatientC0124,Discharge Summary,2026-02-01 18:00:00+00,Recovery documented in synthetic summary.
+GivenC0125 PatientC0125,Discharge Summary,2026-01-31 10:00:00+00,Follow-up documented in synthetic summary.
+GivenC0126 PatientC0126,Progress Note,2026-01-30 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0127 PatientC0127,Discharge Summary,2026-02-25 01:00:00+00,Recovery documented in synthetic summary.
+GivenC0128 PatientC0128,Progress Note,2026-02-21 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0129 PatientC0129,Discharge Summary,2026-02-27 12:00:00+00,Recovery documented in synthetic summary.
+GivenC0130 PatientC0130,Progress Note,2026-02-23 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0131 PatientC0131,Initial Assessment,2026-02-04 23:30:00+00,Synthetic initial evaluation.
+GivenC0132 PatientC0132,Discharge Summary,2026-02-27 09:00:00+00,Follow-up documented in synthetic summary.
+GivenC0133 PatientC0133,Initial Assessment,2026-02-26 23:30:00+00,Synthetic initial evaluation.
+GivenC0134 PatientC0134,Discharge Summary,2026-03-01 03:00:00+00,Follow-up documented in synthetic summary.
+GivenC0135 PatientC0135,Initial Assessment,2026-02-28 23:30:00+00,Synthetic initial evaluation.
+GivenC0136 PatientC0136,Discharge Summary,2026-03-03 00:00:00+00,Follow-up documented in synthetic summary.
+GivenC0137 PatientC0137,Initial Assessment,2026-03-02 23:30:00+00,Synthetic initial evaluation.
+GivenC0138 PatientC0138,Discharge Summary,2026-02-12 09:00:00+00,Recovery documented in synthetic summary.
+GivenC0139 PatientC0139,Progress Note,2026-03-04 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0140 PatientC0140,Discharge Summary,2026-03-07 11:00:00+00,Recovery documented in synthetic summary.
+GivenC0141 PatientC0141,Progress Note,2026-03-06 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0142 PatientC0142,Discharge Summary,2026-03-11 14:00:00+00,Recovery documented in synthetic summary.
+GivenC0143 PatientC0143,Progress Note,2026-03-08 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0144 PatientC0144,Discharge Summary,2026-03-13 20:00:00+00,Recovery documented in synthetic summary.
+GivenC0146 PatientC0146,Discharge Summary,2026-02-24 04:00:00+00,Follow-up documented in synthetic summary.
+GivenC0147 PatientC0147,Progress Note,2026-02-20 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0148 PatientC0148,Discharge Summary,2026-03-17 07:00:00+00,Recovery documented in synthetic summary.
+GivenC0149 PatientC0149,Discharge Summary,2026-02-24 12:00:00+00,Follow-up documented in synthetic summary.
+GivenC0150 PatientC0150,Progress Note,2026-02-23 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0151 PatientC0151,Discharge Summary,2026-03-21 00:00:00+00,Recovery documented in synthetic summary.
+GivenC0152 PatientC0152,Discharge Summary,2026-02-27 17:00:00+00,Follow-up documented in synthetic summary.
+GivenC0153 PatientC0153,Initial Assessment,2026-03-18 23:30:00+00,Synthetic initial evaluation.
+GivenC0154 PatientC0154,Discharge Summary,2026-03-23 06:00:00+00,Follow-up documented in synthetic summary.
+GivenC0155 PatientC0155,Initial Assessment,2026-03-20 23:30:00+00,Synthetic initial evaluation.
+GivenC0156 PatientC0156,Discharge Summary,2026-03-06 11:00:00+00,Recovery documented in synthetic summary.
+GivenC0158 PatientC0158,Initial Assessment,2026-03-23 23:30:00+00,Synthetic initial evaluation.
+GivenC0159 PatientC0159,Discharge Summary,2026-03-29 02:00:00+00,Follow-up documented in synthetic summary.
+GivenC0160 PatientC0160,Progress Note,2026-03-05 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0161 PatientC0161,Discharge Summary,2026-03-30 13:00:00+00,Recovery documented in synthetic summary.
+GivenC0162 PatientC0162,Discharge Summary,2026-03-10 06:00:00+00,Follow-up documented in synthetic summary.
+GivenC0163 PatientC0163,Progress Note,2026-03-08 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0164 PatientC0164,Discharge Summary,2026-04-03 01:00:00+00,Recovery documented in synthetic summary.
+GivenC0165 PatientC0165,Discharge Summary,2026-03-13 07:00:00+00,Follow-up documented in synthetic summary.
+GivenC0166 PatientC0166,Progress Note,2026-03-11 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0167 PatientC0167,Discharge Summary,2026-04-03 22:00:00+00,Recovery documented in synthetic summary.
+GivenC0168 PatientC0168,Discharge Summary,2026-03-16 02:00:00+00,Follow-up documented in synthetic summary.
+GivenC0169 PatientC0169,Initial Assessment,2026-04-03 23:30:00+00,Synthetic initial evaluation.
+GivenC0170 PatientC0170,Discharge Summary,2026-04-05 20:00:00+00,Follow-up documented in synthetic summary.
+GivenC0171 PatientC0171,Initial Assessment,2026-04-05 23:30:00+00,Synthetic initial evaluation.
+GivenC0172 PatientC0172,Discharge Summary,2026-04-10 11:00:00+00,Follow-up documented in synthetic summary.
+GivenC0173 PatientC0173,Progress Note,2026-03-18 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0174 PatientC0174,Discharge Summary,2026-04-11 11:00:00+00,Recovery documented in synthetic summary.
+GivenC0175 PatientC0175,Progress Note,2026-04-09 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0176 PatientC0176,Discharge Summary,2026-04-15 03:00:00+00,Recovery documented in synthetic summary.
+GivenC0177 PatientC0177,Progress Note,2026-04-11 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0178 PatientC0178,Initial Assessment,2026-03-23 23:30:00+00,Synthetic initial evaluation.
+GivenC0179 PatientC0179,Discharge Summary,2026-04-15 03:00:00+00,Follow-up documented in synthetic summary.
+GivenC0180 PatientC0180,Progress Note,2026-03-25 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0181 PatientC0181,Initial Assessment,2026-03-26 23:30:00+00,Synthetic initial evaluation.
+GivenC0182 PatientC0182,Discharge Summary,2026-04-21 20:00:00+00,Follow-up documented in synthetic summary.
+GivenC0183 PatientC0183,Initial Assessment,2026-04-17 23:30:00+00,Synthetic initial evaluation.
+GivenC0185 PatientC0185,Discharge Summary,2026-04-01 18:00:00+00,Recovery documented in synthetic summary.
+GivenC0186 PatientC0186,Progress Note,2026-04-20 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0187 PatientC0187,Initial Assessment,2026-04-01 23:30:00+00,Synthetic initial evaluation.
+GivenC0188 PatientC0188,Discharge Summary,2026-04-27 20:00:00+00,Follow-up documented in synthetic summary.
+GivenC0189 PatientC0189,Progress Note,2026-04-03 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0190 PatientC0190,Discharge Summary,2026-04-28 10:00:00+00,Recovery documented in synthetic summary.
+GivenC0191 PatientC0191,Discharge Summary,2026-04-08 08:00:00+00,Follow-up documented in synthetic summary.
+GivenC0192 PatientC0192,Initial Assessment,2026-04-26 23:30:00+00,Synthetic initial evaluation.
+GivenC0193 PatientC0193,Discharge Summary,2026-05-01 18:00:00+00,Follow-up documented in synthetic summary.
+GivenC0194 PatientC0194,Initial Assessment,2026-04-28 23:30:00+00,Synthetic initial evaluation.
+GivenC0195 PatientC0195,Discharge Summary,2026-05-01 17:00:00+00,Follow-up documented in synthetic summary.
+GivenC0196 PatientC0196,Progress Note,2026-04-10 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0197 PatientC0197,Discharge Summary,2026-05-03 02:00:00+00,Recovery documented in synthetic summary.
+GivenC0198 PatientC0198,Progress Note,2026-05-02 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0199 PatientC0199,Discharge Summary,2026-05-06 13:00:00+00,Recovery documented in synthetic summary.
+GivenC0200 PatientC0200,Discharge Summary,2026-01-07 15:00:00+00,Follow-up documented in synthetic summary.
+GivenC0201 PatientC0201,Progress Note,2026-01-05 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0202 PatientC0202,Initial Assessment,2026-01-06 23:30:00+00,Synthetic initial evaluation.
+GivenC0203 PatientC0203,Initial Assessment,2026-07-16 22:30:00+00,Synthetic initial evaluation.
+GivenC0204 PatientC0204,Initial Assessment,2026-01-28 23:30:00+00,Synthetic initial evaluation.
+GivenC0205 PatientC0205,Discharge Summary,2026-01-30 04:00:00+00,Follow-up documented in synthetic summary.
+GivenC0206 PatientC0206,Progress Note,2026-01-10 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0207 PatientC0207,Discharge Summary,2026-02-01 21:00:00+00,Recovery documented in synthetic summary.
+GivenC0208 PatientC0208,Discharge Summary,2026-01-14 22:00:00+00,Follow-up documented in synthetic summary.
+GivenC0209 PatientC0209,Progress Note,2026-01-13 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0210 PatientC0210,Discharge Summary,2026-02-05 14:00:00+00,Recovery documented in synthetic summary.
+GivenC0211 PatientC0211,Discharge Summary,2026-01-20 19:00:00+00,Follow-up documented in synthetic summary.
+GivenC0213 PatientC0213,Initial Assessment,2026-02-06 23:30:00+00,Synthetic initial evaluation.
+GivenC0214 PatientC0214,Discharge Summary,2026-01-23 05:00:00+00,Recovery documented in synthetic summary.
+GivenC0215 PatientC0215,Progress Note,2026-02-08 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0216 PatientC0216,Initial Assessment,2026-01-20 23:30:00+00,Synthetic initial evaluation.
+GivenC0217 PatientC0217,Discharge Summary,2026-01-24 05:00:00+00,Recovery documented in synthetic summary.
+GivenC0218 PatientC0218,Discharge Summary,2026-01-24 05:00:00+00,Follow-up documented in synthetic summary.
+GivenC0219 PatientC0219,Discharge Summary,2026-02-13 06:00:00+00,Recovery documented in synthetic summary.
+GivenC0220 PatientC0220,Progress Note,2026-02-13 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0221 PatientC0221,Initial Assessment,2026-01-25 23:30:00+00,Synthetic initial evaluation.
+GivenC0222 PatientC0222,Discharge Summary,2026-02-19 15:00:00+00,Follow-up documented in synthetic summary.
+GivenC0223 PatientC0223,Initial Assessment,2026-02-16 23:30:00+00,Synthetic initial evaluation.
+GivenC0224 PatientC0224,Discharge Summary,2026-02-19 18:00:00+00,Follow-up documented in synthetic summary.
+GivenC0225 PatientC0225,Progress Note,2026-01-29 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0226 PatientC0226,Discharge Summary,2026-02-24 21:00:00+00,Recovery documented in synthetic summary.
+GivenC0227 PatientC0227,Progress Note,2026-02-20 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0228 PatientC0228,Initial Assessment,2026-02-01 23:30:00+00,Synthetic initial evaluation.
+GivenC0229 PatientC0229,Discharge Summary,2026-02-24 03:00:00+00,Follow-up documented in synthetic summary.
+GivenC0230 PatientC0230,Initial Assessment,2026-02-23 23:30:00+00,Synthetic initial evaluation.
+GivenC0231 PatientC0231,Discharge Summary,2026-03-01 11:00:00+00,Follow-up documented in synthetic summary.
+GivenC0232 PatientC0232,Initial Assessment,2026-02-25 23:30:00+00,Synthetic initial evaluation.
+GivenC0233 PatientC0233,Discharge Summary,2026-03-02 13:00:00+00,Follow-up documented in synthetic summary.
+GivenC0234 PatientC0234,Initial Assessment,2026-02-27 23:30:00+00,Synthetic initial evaluation.
+GivenC0235 PatientC0235,Discharge Summary,2026-03-04 13:00:00+00,Follow-up documented in synthetic summary.
+GivenC0236 PatientC0236,Progress Note,2026-02-09 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0237 PatientC0237,Initial Assessment,2026-02-10 23:30:00+00,Synthetic initial evaluation.
+GivenC0238 PatientC0238,Discharge Summary,2026-03-06 19:00:00+00,Follow-up documented in synthetic summary.
+GivenC0239 PatientC0239,Initial Assessment,2026-03-04 23:30:00+00,Synthetic initial evaluation.
+GivenC0240 PatientC0240,Discharge Summary,2026-02-16 08:00:00+00,Recovery documented in synthetic summary.
+GivenC0241 PatientC0241,Progress Note,2026-03-06 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0243 PatientC0243,Discharge Summary,2026-03-13 23:00:00+00,Follow-up documented in synthetic summary.
+GivenC0244 PatientC0244,Progress Note,2026-02-17 23:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0354 PatientC0354,Progress Note,2026-08-14 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0497 PatientC0497,Discharge Summary,2026-08-29 14:00:00+00,Follow-up documented in synthetic summary.
+GivenD0001 PatientD0001,Initial Assessment,2026-08-13 22:30:00+00,Synthetic initial evaluation.
+GivenD0002 PatientD0002,Discharge Summary,2026-06-17 00:00:00+00,Recovery documented in synthetic summary.
+GivenD0003 PatientD0003,Progress Note,2026-07-06 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0004 PatientD0004,Discharge Summary,2026-07-10 09:00:00+00,Recovery documented in synthetic summary.
+GivenC0023 PatientC0023,Discharge Summary,2026-06-20 09:00:00+00,Follow-up documented in synthetic summary.
+GivenD0006 PatientD0006,Initial Assessment,2026-07-09 22:30:00+00,Synthetic initial evaluation.
+GivenD0007 PatientD0007,Discharge Summary,2026-07-11 21:00:00+00,Follow-up documented in synthetic summary.
+GivenD0008 PatientD0008,Progress Note,2026-06-21 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0009 PatientD0009,Discharge Summary,2026-07-16 09:00:00+00,Recovery documented in synthetic summary.
+GivenD0010 PatientD0010,Progress Note,2026-07-13 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0011 PatientD0011,Discharge Summary,2026-07-17 05:00:00+00,Recovery documented in synthetic summary.
+GivenD0012 PatientD0012,Discharge Summary,2026-06-30 21:00:00+00,Follow-up documented in synthetic summary.
+GivenD0013 PatientD0013,Initial Assessment,2026-07-16 22:30:00+00,Synthetic initial evaluation.
+GivenD0014 PatientD0014,Discharge Summary,2026-07-21 05:00:00+00,Follow-up documented in synthetic summary.
+GivenD0015 PatientD0015,Initial Assessment,2026-07-18 22:30:00+00,Synthetic initial evaluation.
+GivenD0016 PatientD0016,Discharge Summary,2026-07-20 23:00:00+00,Follow-up documented in synthetic summary.
+GivenD0017 PatientD0017,Initial Assessment,2026-07-20 22:30:00+00,Synthetic initial evaluation.
+GivenD0018 PatientD0018,Discharge Summary,2026-07-22 10:00:00+00,Follow-up documented in synthetic summary.
+GivenD0019 PatientD0019,Initial Assessment,2026-07-22 22:30:00+00,Synthetic initial evaluation.
+GivenD0020 PatientD0020,Discharge Summary,2026-07-05 15:00:00+00,Recovery documented in synthetic summary.
+GivenD0021 PatientD0021,Initial Assessment,2026-07-24 22:30:00+00,Synthetic initial evaluation.
+GivenD0022 PatientD0022,Discharge Summary,2026-07-30 02:00:00+00,Follow-up documented in synthetic summary.
+GivenD0023 PatientD0023,Initial Assessment,2026-07-26 22:30:00+00,Synthetic initial evaluation.
+GivenD0024 PatientD0024,Discharge Summary,2026-07-30 07:00:00+00,Follow-up documented in synthetic summary.
+GivenD0025 PatientD0025,Progress Note,2026-07-08 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0026 PatientD0026,Discharge Summary,2026-07-31 07:00:00+00,Recovery documented in synthetic summary.
+GivenD0027 PatientD0027,Progress Note,2026-07-30 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0028 PatientD0028,Discharge Summary,2026-08-05 00:00:00+00,Recovery documented in synthetic summary.
+GivenD0029 PatientD0029,Progress Note,2026-08-01 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0030 PatientD0030,Initial Assessment,2026-07-13 22:30:00+00,Synthetic initial evaluation.
+GivenD0031 PatientD0031,Discharge Summary,2026-08-06 05:00:00+00,Follow-up documented in synthetic summary.
+GivenD0032 PatientD0032,Progress Note,2026-07-15 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0033 PatientD0033,Initial Assessment,2026-07-16 22:30:00+00,Synthetic initial evaluation.
+GivenD0034 PatientD0034,Discharge Summary,2026-08-09 04:00:00+00,Follow-up documented in synthetic summary.
+GivenD0035 PatientD0035,Initial Assessment,2026-08-07 22:30:00+00,Synthetic initial evaluation.
+GivenD0036 PatientD0036,Discharge Summary,2026-08-11 08:00:00+00,Follow-up documented in synthetic summary.
+GivenD0037 PatientD0037,Initial Assessment,2026-08-09 22:30:00+00,Synthetic initial evaluation.
+GivenD0038 PatientD0038,Discharge Summary,2026-07-24 18:00:00+00,Recovery documented in synthetic summary.
+GivenD0039 PatientD0039,Discharge Summary,2026-07-25 04:00:00+00,Follow-up documented in synthetic summary.
+GivenD0040 PatientD0040,Initial Assessment,2026-08-12 22:30:00+00,Synthetic initial evaluation.
+GivenD0041 PatientD0041,Discharge Summary,2026-08-18 13:00:00+00,Follow-up documented in synthetic summary.
+GivenD0042 PatientD0042,Initial Assessment,2026-08-14 22:30:00+00,Synthetic initial evaluation.
+GivenD0044 PatientD0044,Discharge Summary,2026-08-17 06:00:00+00,Follow-up documented in synthetic summary.
+GivenD0045 PatientD0045,Progress Note,2026-07-28 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0046 PatientD0046,Discharge Summary,2026-08-22 21:00:00+00,Recovery documented in synthetic summary.
+GivenD0047 PatientD0047,Discharge Summary,2026-08-04 19:00:00+00,Follow-up documented in synthetic summary.
+GivenD0048 PatientD0048,Initial Assessment,2026-08-20 22:30:00+00,Synthetic initial evaluation.
+GivenD0049 PatientD0049,Discharge Summary,2026-08-04 19:00:00+00,Recovery documented in synthetic summary.
+GivenD0050 PatientD0050,Discharge Summary,2026-08-07 03:00:00+00,Follow-up documented in synthetic summary.
+GivenD0051 PatientD0051,Progress Note,2026-08-03 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0052 PatientD0052,Discharge Summary,2026-08-29 11:00:00+00,Recovery documented in synthetic summary.
+GivenD0053 PatientD0053,Progress Note,2026-08-25 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0054 PatientD0054,Discharge Summary,2026-08-30 16:00:00+00,Recovery documented in synthetic summary.
+GivenD0055 PatientD0055,Discharge Summary,2026-08-11 14:00:00+00,Follow-up documented in synthetic summary.
+GivenD0056 PatientD0056,Discharge Summary,2026-08-31 15:00:00+00,Recovery documented in synthetic summary.
+GivenD0057 PatientD0057,Progress Note,2026-08-29 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0058 PatientD0058,Initial Assessment,2026-08-10 22:30:00+00,Synthetic initial evaluation.
+GivenD0059 PatientD0059,Discharge Summary,2026-08-15 17:00:00+00,Recovery documented in synthetic summary.
+GivenD0060 PatientD0060,Progress Note,2026-09-01 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0061 PatientD0061,Initial Assessment,2026-08-13 22:30:00+00,Synthetic initial evaluation.
+GivenD0062 PatientD0062,Discharge Summary,2026-09-07 21:00:00+00,Follow-up documented in synthetic summary.
+GivenD0063 PatientD0063,Progress Note,2026-08-15 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0064 PatientD0064,Initial Assessment,2026-08-16 22:30:00+00,Synthetic initial evaluation.
+GivenC0547 PatientC0547,Discharge Summary,2026-08-20 18:00:00+00,Recovery documented in synthetic summary.
+GivenD0066 PatientD0066,Discharge Summary,2026-08-21 07:00:00+00,Follow-up documented in synthetic summary.
+GivenD0067 PatientD0067,Initial Assessment,2026-09-08 22:30:00+00,Synthetic initial evaluation.
+GivenD0068 PatientD0068,Discharge Summary,2026-08-24 09:00:00+00,Recovery documented in synthetic summary.
+GivenD0069 PatientD0069,Discharge Summary,2026-08-24 18:00:00+00,Follow-up documented in synthetic summary.
+GivenD0071 PatientD0071,Discharge Summary,2026-09-15 05:00:00+00,Follow-up documented in synthetic summary.
+GivenD0072 PatientD0072,Progress Note,2026-08-24 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0073 PatientD0073,Initial Assessment,2026-08-25 22:30:00+00,Synthetic initial evaluation.
+GivenD0074 PatientD0074,Discharge Summary,2026-09-19 04:00:00+00,Follow-up documented in synthetic summary.
+GivenD0075 PatientD0075,Progress Note,2026-08-27 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenC0294 PatientC0294,Discharge Summary,2026-09-22 07:00:00+00,Recovery documented in synthetic summary.
+GivenD0077 PatientD0077,Progress Note,2026-09-18 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0078 PatientD0078,Discharge Summary,2026-09-23 17:00:00+00,Recovery documented in synthetic summary.
+GivenD0079 PatientD0079,Progress Note,2026-09-20 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0080 PatientD0080,Discharge Summary,2026-09-25 03:00:00+00,Recovery documented in synthetic summary.
+GivenD0081 PatientD0081,Discharge Summary,2026-09-04 08:00:00+00,Follow-up documented in synthetic summary.
+GivenC0523 PatientC0523,Initial Assessment,2026-09-23 22:30:00+00,Synthetic initial evaluation.
+GivenD0083 PatientD0083,Discharge Summary,2026-09-25 14:00:00+00,Follow-up documented in synthetic summary.
+GivenD0084 PatientD0084,Initial Assessment,2026-09-25 22:30:00+00,Synthetic initial evaluation.
+GivenD0085 PatientD0085,Discharge Summary,2026-09-28 09:00:00+00,Follow-up documented in synthetic summary.
+GivenD0086 PatientD0086,Progress Note,2026-09-07 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0087 PatientD0087,Initial Assessment,2026-09-08 22:30:00+00,Synthetic initial evaluation.
+GivenD0088 PatientD0088,Discharge Summary,2026-10-01 23:00:00+00,Follow-up documented in synthetic summary.
+GivenD0089 PatientD0089,Initial Assessment,2026-09-30 22:30:00+00,Synthetic initial evaluation.
+GivenD0090 PatientD0090,Discharge Summary,2026-09-12 20:00:00+00,Recovery documented in synthetic summary.
+GivenD0091 PatientD0091,Progress Note,2026-10-02 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0092 PatientD0092,Initial Assessment,2026-09-13 22:30:00+00,Synthetic initial evaluation.
+GivenD0093 PatientD0093,Discharge Summary,2026-10-06 10:00:00+00,Follow-up documented in synthetic summary.
+GivenC0580 PatientC0580,Initial Assessment,2026-10-05 21:30:00+00,Synthetic initial evaluation.
+GivenD0097 PatientD0097,Initial Assessment,2026-10-08 21:30:00+00,Synthetic initial evaluation.
+GivenD0098 PatientD0098,Discharge Summary,2026-09-20 07:00:00+00,Recovery documented in synthetic summary.
+GivenD0099 PatientD0099,Progress Note,2026-10-10 21:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0100 PatientD0100,Initial Assessment,2026-06-13 22:30:00+00,Synthetic initial evaluation.
+GivenD0101 PatientD0101,Discharge Summary,2026-07-09 17:00:00+00,Follow-up documented in synthetic summary.
+GivenD0102 PatientD0102,Initial Assessment,2026-07-05 22:30:00+00,Synthetic initial evaluation.
+GivenD0103 PatientD0103,Discharge Summary,2026-07-09 14:00:00+00,Follow-up documented in synthetic summary.
+GivenD0104 PatientD0104,Progress Note,2026-06-17 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0105 PatientD0105,Initial Assessment,2026-06-18 22:30:00+00,Synthetic initial evaluation.
+GivenD0106 PatientD0106,Discharge Summary,2026-07-12 23:00:00+00,Follow-up documented in synthetic summary.
+GivenD0107 PatientD0107,Initial Assessment,2026-07-10 22:30:00+00,Synthetic initial evaluation.
+GivenD0108 PatientD0108,Discharge Summary,2026-07-14 05:00:00+00,Follow-up documented in synthetic summary.
+GivenD0109 PatientD0109,Progress Note,2026-06-22 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0110 PatientD0110,Discharge Summary,2026-07-15 02:00:00+00,Recovery documented in synthetic summary.
+GivenD0111 PatientD0111,Discharge Summary,2026-06-29 11:00:00+00,Follow-up documented in synthetic summary.
+GivenD0112 PatientD0112,Initial Assessment,2026-07-15 22:30:00+00,Synthetic initial evaluation.
+GivenD0113 PatientD0113,Discharge Summary,2026-07-19 05:00:00+00,Follow-up documented in synthetic summary.
+GivenD0114 PatientD0114,Progress Note,2026-06-27 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0115 PatientD0115,Discharge Summary,2026-07-19 19:00:00+00,Recovery documented in synthetic summary.
+GivenD0116 PatientD0116,Discharge Summary,2026-06-30 06:00:00+00,Follow-up documented in synthetic summary.
+GivenD0117 PatientD0117,Progress Note,2026-06-30 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0118 PatientD0118,Discharge Summary,2026-07-24 19:00:00+00,Recovery documented in synthetic summary.
+GivenD0119 PatientD0119,Progress Note,2026-07-22 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0120 PatientD0120,Discharge Summary,2026-07-26 04:00:00+00,Recovery documented in synthetic summary.
+GivenD0121 PatientD0121,Progress Note,2026-07-24 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0122 PatientD0122,Initial Assessment,2026-07-05 22:30:00+00,Synthetic initial evaluation.
+GivenD0124 PatientD0124,Discharge Summary,2026-07-11 04:00:00+00,Recovery documented in synthetic summary.
+GivenD0126 PatientD0126,Initial Assessment,2026-07-29 22:30:00+00,Synthetic initial evaluation.
+GivenD0127 PatientD0127,Discharge Summary,2026-07-31 05:00:00+00,Follow-up documented in synthetic summary.
+GivenD0128 PatientD0128,Initial Assessment,2026-07-31 22:30:00+00,Synthetic initial evaluation.
+GivenD0129 PatientD0129,Discharge Summary,2026-08-03 19:00:00+00,Follow-up documented in synthetic summary.
+GivenD0130 PatientD0130,Initial Assessment,2026-08-02 22:30:00+00,Synthetic initial evaluation.
+GivenD0131 PatientD0131,Discharge Summary,2026-07-17 09:00:00+00,Recovery documented in synthetic summary.
+GivenD0132 PatientD0132,Progress Note,2026-08-04 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0133 PatientD0133,Initial Assessment,2026-07-16 22:30:00+00,Synthetic initial evaluation.
+GivenD0134 PatientD0134,Discharge Summary,2026-08-10 00:00:00+00,Follow-up documented in synthetic summary.
+GivenD0135 PatientD0135,Progress Note,2026-07-18 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0136 PatientD0136,Discharge Summary,2026-08-10 22:00:00+00,Recovery documented in synthetic summary.
+GivenD0137 PatientD0137,Discharge Summary,2026-07-23 13:00:00+00,Follow-up documented in synthetic summary.
+GivenD0138 PatientD0138,Initial Assessment,2026-08-10 22:30:00+00,Synthetic initial evaluation.
+GivenD0139 PatientD0139,Discharge Summary,2026-08-15 15:00:00+00,Follow-up documented in synthetic summary.
+GivenD0140 PatientD0140,Initial Assessment,2026-08-12 22:30:00+00,Synthetic initial evaluation.
+GivenD0141 PatientD0141,Discharge Summary,2026-08-18 14:00:00+00,Follow-up documented in synthetic summary.
+GivenD0142 PatientD0142,Progress Note,2026-07-25 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0143 PatientD0143,Discharge Summary,2026-08-19 20:00:00+00,Recovery documented in synthetic summary.
+GivenD0144 PatientD0144,Progress Note,2026-08-16 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0145 PatientD0145,Initial Assessment,2026-07-28 22:30:00+00,Synthetic initial evaluation.
+GivenD0146 PatientD0146,Discharge Summary,2026-08-01 01:00:00+00,Recovery documented in synthetic summary.
+GivenD0147 PatientD0147,Progress Note,2026-08-19 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0148 PatientD0148,Discharge Summary,2026-08-21 09:00:00+00,Recovery documented in synthetic summary.
+GivenD0149 PatientD0149,Discharge Summary,2026-08-06 21:00:00+00,Follow-up documented in synthetic summary.
+GivenD0150 PatientD0150,Progress Note,2026-08-02 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0151 PatientD0151,Discharge Summary,2026-08-28 22:00:00+00,Recovery documented in synthetic summary.
+GivenD0152 PatientD0152,Progress Note,2026-08-24 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0153 PatientD0153,Initial Assessment,2026-08-05 22:30:00+00,Synthetic initial evaluation.
+GivenD0154 PatientD0154,Discharge Summary,2026-08-31 10:00:00+00,Follow-up documented in synthetic summary.
+GivenD0155 PatientD0155,Initial Assessment,2026-08-27 22:30:00+00,Synthetic initial evaluation.
+GivenD0157 PatientD0157,Initial Assessment,2026-08-29 22:30:00+00,Synthetic initial evaluation.
+GivenD0158 PatientD0158,Discharge Summary,2026-08-11 17:00:00+00,Recovery documented in synthetic summary.
+GivenD0159 PatientD0159,Progress Note,2026-08-31 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0160 PatientD0160,Discharge Summary,2026-09-03 06:00:00+00,Recovery documented in synthetic summary.
+GivenD0161 PatientD0161,Discharge Summary,2026-08-18 07:00:00+00,Follow-up documented in synthetic summary.
+GivenD0162 PatientD0162,Initial Assessment,2026-09-03 22:30:00+00,Synthetic initial evaluation.
+GivenD0163 PatientD0163,Discharge Summary,2026-09-05 03:00:00+00,Follow-up documented in synthetic summary.
+GivenD0164 PatientD0164,Initial Assessment,2026-09-05 22:30:00+00,Synthetic initial evaluation.
+GivenD0165 PatientD0165,Discharge Summary,2026-09-07 21:00:00+00,Follow-up documented in synthetic summary.
+GivenD0166 PatientD0166,Progress Note,2026-08-18 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0167 PatientD0167,Discharge Summary,2026-08-24 08:00:00+00,Recovery documented in synthetic summary.
+GivenD0168 PatientD0168,Progress Note,2026-09-09 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0169 PatientD0169,Initial Assessment,2026-08-21 22:30:00+00,Synthetic initial evaluation.
+GivenD0170 PatientD0170,Discharge Summary,2026-09-14 13:00:00+00,Follow-up documented in synthetic summary.
+GivenD0171 PatientD0171,Initial Assessment,2026-09-12 22:30:00+00,Synthetic initial evaluation.
+GivenD0172 PatientD0172,Discharge Summary,2026-09-15 08:00:00+00,Follow-up documented in synthetic summary.
+GivenD0173 PatientD0173,Progress Note,2026-08-25 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0174 PatientD0174,Discharge Summary,2026-09-18 17:00:00+00,Recovery documented in synthetic summary.
+GivenD0175 PatientD0175,Progress Note,2026-09-16 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0176 PatientD0176,Discharge Summary,2026-09-20 10:00:00+00,Recovery documented in synthetic summary.
+GivenD0177 PatientD0177,Progress Note,2026-09-18 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0179 PatientD0179,Initial Assessment,2026-08-31 22:30:00+00,Synthetic initial evaluation.
+GivenD0180 PatientD0180,Progress Note,2026-09-21 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0181 PatientD0181,Initial Assessment,2026-09-02 22:30:00+00,Synthetic initial evaluation.
+GivenD0182 PatientD0182,Discharge Summary,2026-09-28 13:00:00+00,Follow-up documented in synthetic summary.
+GivenD0183 PatientD0183,Progress Note,2026-09-04 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0184 PatientD0184,Initial Assessment,2026-09-05 22:30:00+00,Synthetic initial evaluation.
+GivenD0185 PatientD0185,Progress Note,2026-09-26 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0186 PatientD0186,Initial Assessment,2026-09-07 22:30:00+00,Synthetic initial evaluation.
+GivenD0187 PatientD0187,Discharge Summary,2026-09-12 15:00:00+00,Recovery documented in synthetic summary.
+GivenD0188 PatientD0188,Progress Note,2026-09-29 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0189 PatientD0189,Discharge Summary,2026-10-04 02:00:00+00,Recovery documented in synthetic summary.
+GivenD0190 PatientD0190,Progress Note,2026-10-01 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0191 PatientD0191,Discharge Summary,2026-10-07 12:00:00+00,Recovery documented in synthetic summary.
+GivenD0192 PatientD0192,Progress Note,2026-10-03 21:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0193 PatientD0193,Discharge Summary,2026-10-06 03:00:00+00,Recovery documented in synthetic summary.
+GivenD0194 PatientD0194,Discharge Summary,2026-09-19 02:00:00+00,Follow-up documented in synthetic summary.
+GivenD0195 PatientD0195,Progress Note,2026-09-16 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0196 PatientD0196,Discharge Summary,2026-10-08 02:00:00+00,Recovery documented in synthetic summary.
+GivenD0197 PatientD0197,Progress Note,2026-10-08 21:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0198 PatientD0198,Discharge Summary,2026-10-12 03:00:00+00,Recovery documented in synthetic summary.
+GivenD0199 PatientD0199,Discharge Summary,2026-09-25 08:00:00+00,Follow-up documented in synthetic summary.
+GivenD0200 PatientD0200,Initial Assessment,2026-06-13 22:30:00+00,Synthetic initial evaluation.
+GivenD0201 PatientD0201,Discharge Summary,2026-06-15 20:00:00+00,Recovery documented in synthetic summary.
+GivenD0202 PatientD0202,Discharge Summary,2026-06-20 08:00:00+00,Follow-up documented in synthetic summary.
+GivenD0203 PatientD0203,Initial Assessment,2026-07-06 22:30:00+00,Synthetic initial evaluation.
+GivenD0204 PatientD0204,Discharge Summary,2026-07-10 09:00:00+00,Follow-up documented in synthetic summary.
+GivenD0205 PatientD0205,Progress Note,2026-06-18 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0206 PatientD0206,Discharge Summary,2026-07-12 16:00:00+00,Recovery documented in synthetic summary.
+GivenD0207 PatientD0207,Discharge Summary,2026-06-23 09:00:00+00,Follow-up documented in synthetic summary.
+GivenD0208 PatientD0208,Progress Note,2026-06-21 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0209 PatientD0209,Initial Assessment,2026-06-22 22:30:00+00,Synthetic initial evaluation.
+GivenD0210 PatientD0210,Discharge Summary,2026-07-14 11:00:00+00,Follow-up documented in synthetic summary.
+GivenD0211 PatientD0211,Initial Assessment,2026-07-14 22:30:00+00,Synthetic initial evaluation.
+GivenD0212 PatientD0212,Discharge Summary,2026-07-19 08:00:00+00,Follow-up documented in synthetic summary.
+GivenD0214 PatientD0214,Discharge Summary,2026-06-29 05:00:00+00,Recovery documented in synthetic summary.
+GivenD0215 PatientD0215,Discharge Summary,2026-07-02 20:00:00+00,Follow-up documented in synthetic summary.
+GivenD0216 PatientD0216,Initial Assessment,2026-07-19 22:30:00+00,Synthetic initial evaluation.
+GivenD0217 PatientD0217,Discharge Summary,2026-07-05 17:00:00+00,Recovery documented in synthetic summary.
+GivenD0218 PatientD0218,Discharge Summary,2026-07-03 10:00:00+00,Follow-up documented in synthetic summary.
+GivenD0219 PatientD0219,Initial Assessment,2026-07-22 22:30:00+00,Synthetic initial evaluation.
+GivenD0220 PatientD0220,Discharge Summary,2026-07-24 18:00:00+00,Follow-up documented in synthetic summary.
+GivenD0221 PatientD0221,Initial Assessment,2026-07-24 22:30:00+00,Synthetic initial evaluation.
+GivenD0222 PatientD0222,Discharge Summary,2026-07-26 07:00:00+00,Follow-up documented in synthetic summary.
+GivenD0223 PatientD0223,Progress Note,2026-07-06 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0224 PatientD0224,Discharge Summary,2026-07-30 04:00:00+00,Recovery documented in synthetic summary.
+GivenD0225 PatientD0225,Progress Note,2026-07-28 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0226 PatientD0226,Discharge Summary,2026-08-02 09:00:00+00,Recovery documented in synthetic summary.
+GivenD0227 PatientD0227,Progress Note,2026-07-30 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0228 PatientD0228,Initial Assessment,2026-07-11 22:30:00+00,Synthetic initial evaluation.
+GivenD0229 PatientD0229,Discharge Summary,2026-07-15 00:00:00+00,Recovery documented in synthetic summary.
+GivenD0230 PatientD0230,Progress Note,2026-08-02 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0232 PatientD0232,Initial Assessment,2026-07-15 22:30:00+00,Synthetic initial evaluation.
+GivenD0233 PatientD0233,Discharge Summary,2026-07-19 13:00:00+00,Recovery documented in synthetic summary.
+GivenD0234 PatientD0234,Progress Note,2026-08-06 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0235 PatientD0235,Discharge Summary,2026-08-10 21:00:00+00,Recovery documented in synthetic summary.
+GivenD0236 PatientD0236,Discharge Summary,2026-07-24 21:00:00+00,Follow-up documented in synthetic summary.
+GivenD0237 PatientD0237,Progress Note,2026-07-20 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0238 PatientD0238,Initial Assessment,2026-07-21 22:30:00+00,Synthetic initial evaluation.
+GivenD0239 PatientD0239,Discharge Summary,2026-08-12 04:00:00+00,Follow-up documented in synthetic summary.
+GivenD0240 PatientD0240,Progress Note,2026-07-23 22:30:00+00,Recovery mentioned in synthetic progress note.
+GivenD0241 PatientD0241,Discharge Summary,2026-08-17 12:00:00+00,Recovery documented in synthetic summary.
+GivenD0243 PatientD0243,Discharge Summary,2026-08-20 01:00:00+00,Recovery documented in synthetic summary.
+GivenD0244 PatientD0244,Discharge Summary,2026-07-28 05:00:00+00,Follow-up documented in synthetic summary.
+GivenD0245 PatientD0245,Initial Assessment,2026-08-17 22:30:00+00,Synthetic initial evaluation.
+GivenD0247 PatientD0247,Discharge Summary,2026-08-24 09:00:00+00,Follow-up documented in synthetic summary.
+GivenD0248 PatientD0248,Initial Assessment,2026-08-20 22:30:00+00,Synthetic initial evaluation.
+GivenD0249 PatientD0249,Discharge Summary,2026-08-02 14:00:00+00,Recovery documented in synthetic summary.
+GivenD0250 PatientD0250,Discharge Summary,2026-08-04 00:00:00+00,Follow-up documented in synthetic summary.
+GivenD0251 PatientD0251,Initial Assessment,2026-08-23 22:30:00+00,Synthetic initial evaluation.
+GivenD0252 PatientD0252,Discharge Summary,2026-08-29 08:00:00+00,Follow-up documented in synthetic summary.
+GivenD0253 PatientD0253,Initial Assessment,2026-08-25 22:30:00+00,Synthetic initial evaluation.
+GivenD0254 PatientD0254,Discharge Summary,2026-08-28 10:00:00+00,Follow-up documented in synthetic summary.
+GivenD0255 PatientD0255,Progress Note,2026-08-07 22:30:00+00,Recovery mentioned in synthetic progress note.
