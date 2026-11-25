@@ -201,32 +201,26 @@ class RelationChecks:
             for index in self.active["diagnoses"].values()
             if (row := self.rows["diagnoses"][index])["diagnosis_type"] == "Primary"
         }
-        for key, index in list(self.active["admissions"].items()):
+        for key, index in self.active["admissions"].items():
             row = self.rows["admissions"][index]
             if row["admission_status"] in COMPLETED and key not in primary:
-                self.reject("admissions", index, "completed admission has no valid Primary diagnosis")
+                self.flags.append({
+                    **{column: row[column] for column in IDENTIFIERS},
+                    "entity": "admissions", "field": "diagnosis_type", "value": "",
+                    "reason": "completed admission has no valid Primary diagnosis",
+                })
 
     def run(self):
-        # Validate diagnoses immediately after admissions, then enforce the
-        # primary diagnosis rule before checking the other descendants.
-        order = list(ENTITY_ORDER)
-        order.remove("diagnoses")
-        order.insert(order.index("admissions") + 1, "diagnoses")
-        for entity in order:
+        for entity in ENTITY_ORDER:
             for index, row in enumerate(self.rows[entity]):
                 reason = self.check_references(entity, index, row)
                 if reason:
                     self.reject(entity, index, reason)
                 elif reason := self.check_chronology(entity, index, row):
                     self.reject(entity, index, reason, stage="chronology")
-            if entity == "diagnoses":
-                self.require_primary()
-                for index in list(self.active[entity].values()):
-                    row = self.rows[entity][index]
-                    if self.parent(row, "admissions", "source_admission_id") is None:
-                        self.reject(entity, index, "parent quarantined")
             if entity == "unit_stays":
                 self.check_overlaps()
+        self.require_primary()
         return self.build_outputs()
 
     def build_outputs(self):
