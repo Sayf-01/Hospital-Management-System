@@ -1,0 +1,196 @@
+"""Run the Phase 2 pipeline against the frozen full dataset."""
+
+import argparse
+from importlib import import_module
+from pathlib import Path
+import sys
+from tempfile import mkdtemp
+
+
+ROOT = Path(__file__).resolve().parent
+STAGES = ("Load", "Profile", "Clean", "Check", "Integrate", "Import", "Validate")
+DEPENDENCIES = {
+    "Load": ("phase2/load.py",),
+    "Profile": ("reports/counts_raw.csv",),
+    "Clean": ("phase2/clean.py", "schema/schema.sql"),
+    "Check": ("pipeline/check_relations.py",),
+    "Integrate": ("phase2/integrate.py", "sql/schema_v2.sql"),
+    "Import": ("pipeline/import_db.py",),
+    "Validate": ("sql/validation.sql",),
+}
+
+
+class Pipeline:
+    def __init__(self, root, output):
+        self.root = root
+        self.output = output
+        self.reports = output / "reports"
+        self.reports.mkdir(parents=True, exist_ok=True)
+        self.malformed = self.reports / "malformed_records.csv"
+        self.cleaned = output / "data" / "clean"
+        self.checked = output / "data" / "checked"
+        self.quarantine = output / "data" / "quarantine"
+        self.integrated = output / "data" / "integrated"
+
+    def load(self):
+        self.loader = import_module("phase2.load")
+        self.data = self.loader.load_all(self.root / "data" / "raw" / "full", self.malformed)
+        return f"{sum(len(frame) for tables in self.data.values() for frame in tables.values()):,} parsed records"
+
+    def profile(self):
+        # LA-1 provides the repository's existing source/entity volume profile.
+        profile = self.loader.count_check(self.data, self.root / "reports" / "counts_raw.csv",
+                                          self.malformed)
+        profile.to_csv(self.reports / "counts_profile.csv", index=False, lineterminator="\n")
+        if not profile["ok"].all():
+            raise ValueError("Raw counts did not reconcile. See reports/counts_profile.csv.")
+        return (f"{profile['loaded'].sum():,} parsed and {profile['malformed'].sum():,} malformed "
+                f"across {len(profile)} source/entity groups (LA-1 count profile)")
+
+    def clean(self):
+        import pandas as pd
+
+        cleaner = import_module("phase2.clean")
+        malformed = pd.read_csv(self.malformed, dtype=str, keep_default_na=False)
+        results = cleaner.clean_all(self.data, malformed)
+        counts = cleaner.write_outputs(*results, self.cleaned, self.quarantine, self.reports)
+        if not counts["reconciles"].all():
+            raise ValueError("Clean counts did not reconcile. See reports/counts_clean.csv.")
+        return f"{counts['rows_out'].sum():,} clean records"
+
+    def check(self):
+        checker = import_module("pipeline.check_relations")
+        counts = checker.run(self.cleaned, self.checked, self.quarantine, self.reports)
+        if not counts["reconciles"].all():
+            raise ValueError("Check counts did not reconcile. See reports/counts_checked.csv.")
+        return f"{counts['rows_out'].sum():,} accepted, {counts['quarantined'].sum():,} quarantined"
+
+    def integrate(self):
+        import pandas as pd
+
+        integrator = import_module("phase2.integrate")
+        # DA-3 exposes --input and uses module constants for its output paths.
+        original = integrator.ROOT, integrator.CLEAN_DIR, integrator.OUT_DIR, integrator.REPORT_DIR
+        argv = sys.argv
+        try:
+            integrator.ROOT = self.output
+            integrator.OUT_DIR = self.integrated
+            integrator.REPORT_DIR = self.reports
+            sys.argv = [argv[0], "--input", str(self.checked)]
+            integrator.main()
+        finally:
+            integrator.ROOT, integrator.CLEAN_DIR, integrator.OUT_DIR, integrator.REPORT_DIR = original
+            sys.argv = argv
+        counts = pd.read_csv(self.reports / "counts_integrated.csv")
+        return f"{counts['rows_out'].sum():,} output rows, {counts['quarantined'].sum():,} integration rejections"
+
+    def import_db(self, *, authorized):
+        if not authorized:
+            raise PermissionError("Database rebuild requires --allow-destructive-rebuild.")
+        importer = import_module("pipeline.import_db")
+        missing = [f"{table}.csv" for table in importer.LOAD_ORDER
+                   if not (self.integrated / f"{table}.csv").is_file()]
+        if missing:
+            raise FileNotFoundError(f"Import inputs missing from DA-3 output: {', '.join(missing)}")
+        with importer.connect() as conn:
+            counts = importer.import_database(conn, self.integrated, allow_destructive=True)
+        return f"{sum(counts.values()):,} rows imported across {len(counts)} tables"
+
+    def validate(self):
+        importer = import_module("pipeline.import_db")
+        script = (self.root / "sql" / "validation.sql").read_text(encoding="utf-8")
+        with importer.connect() as conn, conn.transaction(), conn.cursor() as cursor:
+            cursor.execute("SET TRANSACTION READ ONLY")
+            cursor.execute("SELECT current_database()")
+            if cursor.fetchone() != ("hospital_phase2",):
+                raise ValueError("Validation requires the hospital_phase2 database.")
+            cursor.execute(script, prepare=False)
+            result_sets = rows = 0
+            while True:
+                if cursor.description is not None:
+                    result_sets += 1
+                    results = cursor.fetchall()
+                    rows += len(results)
+                    print(f"  Result {result_sets} ({len(results):,} rows)")
+                    print("  " + " | ".join(column.name for column in cursor.description))
+                    for result in results:
+                        print("  " + " | ".join("NULL" if value is None else str(value) for value in result))
+                if not cursor.nextset():
+                    break
+            if not result_sets:
+                raise ValueError("validation.sql returned no query results.")
+        return f"{result_sets} result sets, {rows:,} result rows"
+
+
+def run_pipeline(pipeline, *, skip_import, authorized):
+    statuses = dict.fromkeys(STAGES, "not run")
+    for name, files in DEPENDENCIES.items():
+        missing = [file for file in files if not (pipeline.root / file).is_file()]
+        if missing:
+            detail = "pending" if name == "Validate" else "unavailable"
+            statuses[name] = f"{detail} ({', '.join(missing)})"
+
+    if skip_import:
+        statuses["Import"] = "skipped (--skip-import)"
+        if statuses["Validate"] == "not run":
+            statuses["Validate"] = "skipped (--skip-import)"
+    elif not authorized:
+        status = statuses["Import"]
+        reason = "blocked (requires --allow-destructive-rebuild)"
+        statuses["Import"] = reason if status == "not run" else f"{status}; {reason}"
+
+    plan = (
+        ("Load", pipeline.load), ("Profile", pipeline.profile), ("Clean", pipeline.clean),
+        ("Check", pipeline.check), ("Integrate", pipeline.integrate),
+        ("Import", lambda: pipeline.import_db(authorized=authorized)),
+        ("Validate", pipeline.validate),
+    )
+    # Check required dependencies and authorization before starting work.
+    required = STAGES[:5] if skip_import else STAGES[:6]
+    if all(statuses[name] == "not run" for name in required):
+        for name, execute in plan:
+            if statuses[name] != "not run":
+                continue
+            print(f"[{name}] Running", flush=True)
+            try:
+                counts = execute()
+            except Exception as exc:
+                if name in ("Import", "Validate") and hasattr(exc, "sqlstate"):
+                    error = f"{type(exc).__name__}, SQLSTATE {exc.sqlstate or 'unavailable'}"
+                else:
+                    error = str(exc)
+                statuses[name] = f"failed ({error})"
+                break
+            statuses[name] = f"succeeded ({counts})"
+            print(f"[{name}] {counts}")
+
+    print("\nPipeline summary")
+    for name, status in statuses.items():
+        print(f"  {name:<10} {status}")
+    expected = STAGES[:5] if skip_import else STAGES
+    complete = all(statuses[name].startswith("succeeded") for name in expected)
+    if complete and skip_import:
+        print("Data-processing stages completed. PostgreSQL stages were skipped.")
+    elif complete:
+        print("Full pipeline completed and validation queries ran.")
+    else:
+        print("Requested pipeline run is incomplete.")
+    return 0 if complete else 1
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    database = parser.add_mutually_exclusive_group()
+    database.add_argument("--skip-import", action="store_true",
+                          help="Run data-processing stages only, without connecting to PostgreSQL")
+    database.add_argument("--allow-destructive-rebuild", action="store_true",
+                          help="Authorize dropping and recreating Phase 2 objects in hospital_phase2")
+    args = parser.parse_args(argv)
+    output = Path(mkdtemp(prefix="hospital-phase2-"))
+    print(f"Run outputs: {output}")
+    return run_pipeline(Pipeline(ROOT, output), skip_import=args.skip_import,
+                        authorized=args.allow_destructive_rebuild)
+
+
+if __name__ == "__main__":
+    sys.exit(main())
