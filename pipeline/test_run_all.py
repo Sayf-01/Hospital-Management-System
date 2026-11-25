@@ -7,7 +7,7 @@ from tempfile import TemporaryDirectory
 import unittest
 from unittest.mock import MagicMock, call, patch
 
-from run_all import DEPENDENCIES, Pipeline, run_pipeline
+from run_all import DEPENDENCIES, ROOT, Pipeline, ValidationResult, run_pipeline
 
 
 class PipelineTests(unittest.TestCase):
@@ -22,6 +22,7 @@ class PipelineTests(unittest.TestCase):
                 path.touch()
         self.pipeline = MagicMock()
         self.pipeline.root = self.root
+        self.pipeline.validate.return_value = ValidationResult(0, 0)
 
     def run_plan(self, *, skip_import=False, authorized=True):
         output = io.StringIO()
@@ -92,26 +93,54 @@ class PipelineTests(unittest.TestCase):
                 pipeline.import_db(authorized=True)
         importer.connect.assert_not_called()
 
-    def test_validation_displays_all_result_sets_in_read_only_transaction(self):
+    def test_validation_distinguishes_documented_and_other_violations(self):
+        self.pipeline.validate.return_value = ValidationResult(43, 43)
+        code, output = self.run_plan()
+        self.assertEqual(code, 0)
+        self.assertIn("43 documented Rule 9 violation(s)", output)
+        self.assertNotIn("all 11 validation rules passed", output)
+        self.pipeline.validate.return_value = ValidationResult(44, 43)
+        code, output = self.run_plan()
+        self.assertEqual(code, 2)
+        self.assertIn("violations found (1 outside Rule 9)", output)
+
+    def test_validation_sql_error_remains_an_execution_failure(self):
+        from psycopg.errors import SyntaxError
+
+        self.pipeline.validate.side_effect = SyntaxError()
+        code, output = self.run_plan()
+        self.assertEqual(code, 1)
+        self.assertIn("failed (SyntaxError, SQLSTATE 42601)", output)
+
+    def test_validation_and_query_six_share_the_same_rule_definitions(self):
+        detail = (ROOT / "sql" / "validation.sql").read_text(encoding="utf-8")
+        summary = (ROOT / "sql" / "task6_queries.sql").read_text(encoding="utf-8")
+        rules = detail.split("WITH records AS MATERIALIZED (")[1].split("\nSELECT rule_id,")[0]
+        self.assertIn("WITH records AS MATERIALIZED (" + rules + "\nSELECT check_name,", summary)
+
+    def test_validation_displays_details_and_counts_in_read_only_transaction(self):
         path = self.root / "sql/validation.sql"
-        script = "SELECT 'ok' AS status; SELECT 2 AS count;"
+        script = "SELECT 9 AS rule_id;"
         path.write_text(script, encoding="utf-8")
         pipeline = Pipeline(self.root, self.root / "work")
         importer = MagicMock()
         conn = importer.connect.return_value.__enter__.return_value
         cursor = conn.cursor.return_value.__enter__.return_value
         cursor.fetchone.return_value = ("hospital_phase2",)
-        cursor.fetchall.side_effect = [[("ok",)], [(2,)]]
-        column = MagicMock()
-        column.name = "value"
-        cursor.description = [column]
-        cursor.nextset.side_effect = [True, None]
+        cursor.fetchall.return_value = [(9, "admissions", [17], "No Primary diagnosis")]
+        columns = ("rule_id", "entity", "record_key", "detail")
+        cursor.description = [MagicMock() for _ in columns]
+        for description, name in zip(cursor.description, columns):
+            description.name = name
+        cursor.nextset.return_value = None
         output = io.StringIO()
         with patch("run_all.import_module", return_value=importer), redirect_stdout(output):
-            self.assertEqual(pipeline.validate(), "2 result sets, 2 result rows")
+            self.assertEqual(pipeline.validate(), ValidationResult(1, 1))
         conn.transaction.assert_called_once_with()
         self.assertEqual(cursor.execute.call_args_list, [
             call("SET TRANSACTION READ ONLY"), call("SELECT current_database()"),
             call(script, prepare=False),
         ])
-        self.assertIn("Result 2 (1 rows)", output.getvalue())
+        self.assertIn("Rule 01: 0 violation(s)", output.getvalue())
+        self.assertIn("Rule 09: 1 violation(s) (documented data-quality limitation)", output.getvalue())
+        self.assertIn("Rule 09 | admissions | [17] | No Primary diagnosis", output.getvalue())
