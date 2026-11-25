@@ -1,0 +1,47 @@
+patient_name,note_type,note_datetime,note_contents
+Avelin Testwell01,Progress Note,2026-09-01 21:00:00,Fictional final review at the same timestamp as the discharge summary.
+Mireva Testwell02,Discharge Summary,2026-08-13 09:00:00,"Fictional discharge summary for encounter 9. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Tarin Testwell03,Discharge Summary,2026-07-07 09:00:00,"Fictional discharge summary for encounter 12. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Selora Testwell04,Discharge Summary,2026-07-10 18:00:00,"Fictional discharge summary for encounter 14. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Kavren Testwell05,Discharge Summary,2026-08-01 12:00:00,"Fictional discharge summary for encounter 15. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Nerali Testwell06,Discharge Summary,2026-09-07 09:00:00,"Fictional discharge summary for encounter 17. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Dovian Testwell07,Discharge Summary,2026-08-13 09:00:00,Fictional encounter 18: clinical deterioration despite care. Death recorded at 2026-08-13 09:00:00. Family contact documented.
+Elvani Testwell08,Discharge Summary,2026-08-19 09:00:00,Fictional encounter 19: clinical deterioration despite care. Death recorded at 2026-08-19 09:00:00. Family contact documented.
+Lunara Testwell10,Discharge Summary,2026-09-05 09:00:00,Fictional discharge summary for encounter 25. recovery was satisfactory. Follow-up information and medication review provided.
+Navira Testwell11,Discharge Summary,2026-09-03 09:00:00,"Fictional discharge summary for encounter 22. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Corven Testwell12,Discharge Summary,2026-09-05 09:00:00,"Fictional discharge summary for encounter 23. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Amelith Testwell13,Discharge Summary,2026-09-06 09:00:00,"Fictional discharge summary for encounter 24. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Delrin Testwell15,Discharge Summary,2026-09-05 13:00:00,"Fictional discharge summary for encounter 26. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Vivora Testwell16,Progress Note,2026-09-07 09:00:00,Fictional progress review for encounter 27. Observations and response to care reviewed.
+Talven Testwell17,Discharge Summary,2026-09-11 09:00:00,"Fictional discharge summary for encounter 28. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Marinel Testwell18,Progress Note,2026-03-02 09:00:00,Fictional progress review for encounter 29. Observations and response to care reviewed.
+Orelia Testwell19,Discharge Summary,2026-09-08 21:00:00,Fictional discharge summary for encounter 30. recovery was satisfactory. Follow-up information and medication review provided.
+Fenric Testwell20,Discharge Summary,2026-08-16 03:00:00,"Fictional discharge summary for encounter 34. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Anvori Testwell21,Discharge Summary,2026-08-17 15:00:00,"Fictional discharge summary for encounter 38. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Belora Testwell22,Discharge Summary,2026-08-16 15:00:00,"Fictional discharge summary for encounter 42. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Cedrin Testwell23,Discharge Summary,2026-07-13 15:00:00,Fictional discharge summary for encounter 45. recovery was satisfactory. Follow-up information and medication review provided.
+Dareli Testwell24,Discharge Summary,2026-07-15 03:00:00,"Fictional discharge summary for encounter 48. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Esvara Testwell25,Discharge Summary,2026-07-16 15:00:00,"Fictional discharge summary for encounter 51. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Fioren Testwell26,Discharge Summary,2026-07-18 03:00:00,"Fictional discharge summary for encounter 54. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Gavira Testwell27,Discharge Summary,2026-07-19 15:00:00,"Fictional discharge summary for encounter 57. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Helori Testwell28,Discharge Summary,2026-07-18 15:00:00,Fictional discharge summary for encounter 60. recovery was satisfactory. Follow-up information and medication review provided.
+Iveran Testwell29,Discharge Summary,2026-07-20 03:00:00,"Fictional discharge summary for encounter 63. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Jorali Testwell30,Discharge Summary,2026-07-21 15:00:00,"Fictional discharge summary for encounter 66. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Kelora Testwell31,Discharge Summary,2026-07-23 03:00:00,"Fictional discharge summary for encounter 69. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Lorven Testwell32,Discharge Summary,2026-07-24 15:00:00,"Fictional discharge summary for encounter 72. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Maveli Testwell33,Discharge Summary,2026-07-23 15:00:00,Fictional discharge summary for encounter 75. recovery was satisfactory. Follow-up information and medication review provided.
+Noreth Testwell34,Discharge Summary,2026-07-25 03:00:00,"Fictional discharge summary for encounter 78. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Osvira Testwell35,Discharge Summary,2026-07-26 15:00:00,"Fictional discharge summary for encounter 81. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Peralin Testwell36,Discharge Summary,2026-07-28 03:00:00,"Fictional discharge summary for encounter 84. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Quenora Testwell37,Discharge Summary,2026-07-29 15:00:00,"Fictional discharge summary for encounter 87. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Relvin Testwell38,Discharge Summary,2026-07-28 15:00:00,Fictional discharge summary for encounter 90. recovery was satisfactory. Follow-up information and medication review provided.
+Savari Testwell39,Discharge Summary,2026-07-30 03:00:00,"Fictional discharge summary for encounter 93. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Toriel Testwell40,Discharge Summary,2026-07-11 15:00:00,"Fictional discharge summary for encounter 96. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Uvella Testwell41,Discharge Summary,2026-07-13 03:00:00,"Fictional discharge summary for encounter 99. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Valrin Testwell42,Discharge Summary,2026-07-14 15:00:00,"Fictional discharge summary for encounter 102. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Wenora Testwell43,Discharge Summary,2026-07-13 15:00:00,Fictional discharge summary for encounter 105. recovery was satisfactory. Follow-up information and medication review provided.
+Xaveli Testwell44,Discharge Summary,2026-07-15 03:00:00,"Fictional discharge summary for encounter 108. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Yorven Testwell45,Discharge Summary,2026-07-16 15:00:00,"Fictional discharge summary for encounter 111. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Zelari Testwell46,Discharge Summary,2026-07-18 03:00:00,"Fictional discharge summary for encounter 114. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Arvella Testwell47,Discharge Summary,2026-07-19 15:00:00,"Fictional discharge summary for encounter 117. Condition stable at discharge. Assessment findings, treatment and follow-up reviewed."
+Brinori Testwell48,Discharge Summary,2026-07-18 15:00:00,Fictional discharge summary for encounter 120. recovery was satisfactory. Follow-up information and medication review provided.
