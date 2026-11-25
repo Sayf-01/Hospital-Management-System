@@ -1,6 +1,7 @@
 """Run the Phase 2 pipeline against the frozen full dataset."""
 
 import argparse
+import csv
 from importlib import import_module
 from pathlib import Path
 import sys
@@ -81,7 +82,20 @@ class Pipeline:
         finally:
             integrator.ROOT, integrator.CLEAN_DIR, integrator.OUT_DIR, integrator.REPORT_DIR = original
             sys.argv = argv
-        counts = pd.read_csv(self.reports / "counts_integrated.csv")
+        counts = pd.read_csv(self.reports / "counts_integrated.csv",
+                             dtype={"rows_in": str}, keep_default_na=False)
+        # DA-3 writes integration rejections separately. Include the cleaner's
+        # per-entity files and YO-2's sidecar in the database audit table too.
+        quarantine_paths = sorted(self.quarantine.glob("*.csv"))
+        quarantine_paths.append(self.integrated / "quarantine_integrate.csv")
+        quarantine = pd.concat(
+            [pd.read_csv(path, dtype=str, keep_default_na=False)[integrator.QUARANTINE_COLUMNS]
+             for path in quarantine_paths],
+            ignore_index=True,
+        )
+        quarantine.to_csv(self.integrated / "quarantine_records.csv", index=False, lineterminator="\n")
+        counts.loc[len(counts)] = ["quarantine_records", str(len(quarantine)), len(quarantine), 0]
+        counts.to_csv(self.reports / "counts_integrated.csv", index=False, lineterminator="\n")
         return f"{counts['rows_out'].sum():,} output rows, {counts['quarantined'].sum():,} integration rejections"
 
     def import_db(self, *, authorized):
@@ -92,9 +106,22 @@ class Pipeline:
                    if not (self.integrated / f"{table}.csv").is_file()]
         if missing:
             raise FileNotFoundError(f"Import inputs missing from DA-3 output: {', '.join(missing)}")
+        with (self.reports / "counts_integrated.csv").open(encoding="utf-8", newline="") as stream:
+            report = list(csv.DictReader(stream))
+        expected = {row["table"]: int(row["rows_out"]) for row in report}
+        if len(expected) != len(report) or set(expected) != set(importer.LOAD_ORDER):
+            raise ValueError("counts_integrated.csv must list each import table exactly once.")
         with importer.connect() as conn:
-            counts = importer.import_database(conn, self.integrated, allow_destructive=True)
-        return f"{sum(counts.values()):,} rows imported across {len(counts)} tables"
+            # Keep the rebuild and verification in one transaction, so a
+            # count or sequence mismatch leaves the previous database intact.
+            with conn.transaction():
+                with conn.cursor() as cursor:
+                    cursor.execute("SELECT current_database()")
+                    if cursor.fetchone() != ("hospital_phase2",):
+                        raise ValueError("Import requires the hospital_phase2 database.")
+                importer.import_database(conn, self.integrated, allow_destructive=True)
+                verify_import(conn, expected, self.reports)
+        return f"{sum(expected.values()):,} rows imported across {len(expected)} tables"
 
     def validate(self):
         importer = import_module("pipeline.import_db")
@@ -120,6 +147,66 @@ class Pipeline:
             if not result_sets:
                 raise ValueError("validation.sql returned no query results.")
         return f"{result_sets} result sets, {rows:,} result rows"
+
+
+def verify_import(conn, expected, reports):
+    """Compare exact table counts and inspect identity state without advancing it."""
+    from psycopg import sql
+
+    counts = []
+    identities = []
+    with conn.cursor() as cursor:
+        for table, target in expected.items():
+            cursor.execute(sql.SQL("SELECT count(*) FROM {}").format(sql.Identifier("public", table)))
+            (actual,) = cursor.fetchone()
+            counts.append((table, target, actual))
+
+        # The other tables enforce unique source keys or their corresponding
+        # business keys. Quarantine only enforces uniqueness on its identity.
+        cursor.execute(
+            """SELECT count(*) - count(DISTINCT
+                   (stage, source_code, entity, source_local_id, source_line, reason, raw_record))
+               FROM public.quarantine_records"""
+        )
+        (duplicates,) = cursor.fetchone()
+        cursor.execute(
+            """SELECT table_name, column_name, identity_start, identity_increment,
+                      parse_ident(pg_get_serial_sequence(
+                          quote_ident(table_schema) || '.' || quote_ident(table_name), column_name))
+               FROM information_schema.columns
+               WHERE table_schema = 'public' AND table_name = ANY(%s) AND is_identity = 'YES'
+               ORDER BY table_name, column_name""",
+            (list(expected),),
+        )
+        for table, column, start, increment, sequence in cursor.fetchall():
+            start, increment = int(start), int(increment)
+            aggregate, limit = (sql.SQL("MAX"), max) if increment > 0 else (sql.SQL("MIN"), min)
+            cursor.execute(sql.SQL("SELECT {}({}) FROM {}").format(
+                aggregate, sql.Identifier(column), sql.Identifier("public", table),
+            ))
+            (value,) = cursor.fetchone()
+            wanted = start if value is None else limit(start, value + increment)
+            cursor.execute(sql.SQL("SELECT last_value, is_called FROM {}").format(sql.Identifier(*sequence)))
+            last, called = cursor.fetchone()
+            actual_next = last + increment if called else last
+            identities.append((table, column, wanted, actual_next))
+
+    for filename, header, rows in (
+        ("counts_database.csv", ("table", "expected", "actual"), counts),
+        ("identity_database.csv", ("table", "column", "expected_next", "actual_next"), identities),
+    ):
+        with (reports / filename).open("w", encoding="utf-8", newline="") as stream:
+            writer = csv.writer(stream, lineterminator="\n")
+            writer.writerow(header)
+            writer.writerows(rows)
+    mismatches = [f"{table}: expected {wanted}, got {actual}"
+                  for table, wanted, actual in counts if wanted != actual]
+    mismatches.extend(f"{table}.{column}: expected next ID {wanted}, got {actual}"
+                      for table, column, wanted, actual in identities if wanted != actual)
+    if duplicates:
+        mismatches.append(f"quarantine_records contains {duplicates} duplicate audit rows")
+    if mismatches:
+        raise ValueError("Database reconciliation failed. " + "; ".join(mismatches))
 
 
 def run_pipeline(pipeline, *, skip_import, authorized):
