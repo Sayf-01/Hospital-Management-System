@@ -90,19 +90,27 @@ class RelationTests(unittest.TestCase):
         self.add("radiology_reports", "2", source_radiology_id="2", source_radiologist_id="1",
                  report_datetime="2026-01-02 02:00:00")
 
-    def test_invalid_primary_leaves_no_primary_and_rejection_cascades(self):
+    def test_invalid_primary_flags_admission_and_keeps_valid_children(self):
         self.records["admissions"][0].update(admission_status="Discharged",
                                               discharge_datetime="2026-01-02 06:00:00")
         self.add("diagnoses", "2", source_admission_id="1", source_patient_id="1",
                  diagnosis_type="Primary", icd9_code="999", diagnosis_datetime="2026-01-02 01:00")
+        secondary = self.add("diagnoses", "3", source_admission_id="1", source_patient_id="1",
+                             diagnosis_type="Secondary", icd9_code="038.9",
+                             diagnosis_datetime="2026-01-02 01:00")
         self.add_order_chain()
-        _, quarantine, _, counts = self.check()
-        reasons = quarantine.set_index("entity")["reason"]
-        self.assertIn("missing parent", reasons["diagnoses"])
-        self.assertIn("no valid Primary diagnosis", reasons["admissions"])
-        for entity in ("diagnostic_orders", "diagnostic_examinations",
+        checked, quarantine, flags, counts = self.check()
+        self.assertEqual(quarantine["entity"].tolist(), ["diagnoses"])
+        self.assertIn("missing parent", quarantine.iloc[0]["reason"])
+        self.assertEqual(checked["diagnoses"].to_dict("records"), [secondary])
+        self.assertEqual(len(flags), 1)
+        self.assertEqual(flags.iloc[0][["entity", "source_code", "source_local_id", "source_line",
+                                        "field", "reason"]].tolist(),
+                         ["admissions", "A", "1", "2", "diagnosis_type",
+                          "completed admission has no valid Primary diagnosis"])
+        for entity in ("admissions", "diagnostic_orders", "diagnostic_examinations",
                        "radiology_examinations", "radiology_reports"):
-            self.assertEqual(reasons[entity], "parent quarantined")
+            self.assertEqual(checked[entity].to_dict("records"), self.records[entity])
         self.assertTrue(counts["reconciles"].all())
 
     def test_invalid_examination_propagates_to_radiology(self):
