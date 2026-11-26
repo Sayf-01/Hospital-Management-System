@@ -1,0 +1,3 @@
+patient_name,admission_datetime,discharge_datetime,length_of_stay
+Avelin Testwell01,2026-05-01 09:00:00,2026-05-31 09:00:00,30 days
+Mireva Testwell02,2026-05-02 09:00:00,2026-06-01 09:00:00,30 days

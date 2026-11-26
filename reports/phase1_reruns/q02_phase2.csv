@@ -1,0 +1,16 @@
+patient_id,patient_name,total_admissions
+1,GivenA0001 PatientA0001,4
+42,GivenA0042 PatientA0042,4
+179,GivenA0179 PatientA0179,4
+371,GivenA0371 PatientA0371,4
+461,GivenA0461 PatientA0461,4
+497,GivenA0497 PatientA0497,4
+537,GivenA0537 PatientA0537,4
+571,GivenB0001 PatientB0001,4
+1182,GivenC0001 PatientC0001,4
+1245,GivenC0064 PatientC0064,4
+1340,GivenC0159 PatientC0159,4
+1384,GivenC0203 PatientC0203,4
+1496,GivenC0315 PatientC0315,4
+1512,GivenC0331 PatientC0331,4
+1770,GivenD0001 PatientD0001,4

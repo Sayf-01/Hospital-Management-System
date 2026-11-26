@@ -1,0 +1,5 @@
+patient_name,admission_id,critical_care_types
+GivenA0001 PatientA0001,4,2
+GivenB0001 PatientB0001,954,2
+GivenC0001 PatientC0001,1994,2
+GivenD0001 PatientD0001,2974,2
