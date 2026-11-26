@@ -1,0 +1,8 @@
+patient_name,procedure_datetime,unit_type,entry_datetime
+Avelin Testwell01,2026-05-01 12:00:00,CCU,2026-05-09 13:00:00
+Avelin Testwell01,2026-05-01 12:00:00,ICU,2026-05-01 13:00:00
+Avelin Testwell01,2026-05-01 16:00:00,CCU,2026-05-09 13:00:00
+Mireva Testwell02,2026-05-02 12:00:00,CCU,2026-05-04 13:00:00
+Mireva Testwell02,2026-05-02 12:00:00,ICU,2026-05-02 13:00:00
+Talven Testwell17,2026-09-07 12:00:00,CCU,2026-09-08 13:00:00
+Talven Testwell17,2026-09-07 12:00:00,ICU,2026-09-07 13:00:00

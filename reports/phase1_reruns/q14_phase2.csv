@@ -1,0 +1,5 @@
+patient_name,admission_datetime,discharge_datetime,length_of_stay
+GivenA0001 PatientA0001,2026-01-06 13:00:00+00,2026-01-14 13:00:00+00,8 days
+GivenB0001 PatientB0001,2026-06-15 06:00:00+00,2026-06-23 06:00:00+00,8 days
+GivenC0001 PatientC0001,2026-01-05 23:00:00+00,2026-01-13 23:00:00+00,8 days
+GivenD0001 PatientD0001,2026-06-14 22:00:00+00,2026-06-22 22:00:00+00,8 days

@@ -1,0 +1,3 @@
+patient_name,admission_datetime,date_of_death,icd9_code,diagnosis_title
+Dovian Testwell07,2026-08-10 09:00:00,2026-08-13 09:00:00,038.9,Unspecified septicemia
+Elvani Testwell08,2026-08-15 09:00:00,2026-08-19 09:00:00,486,"Pneumonia, organism unspecified"

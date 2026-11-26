@@ -95,3 +95,113 @@ FROM    ranked_notes r
 JOIN    patients p ON p.patient_id = r.patient_id
 WHERE   r.rn = 1
 ORDER BY p.patient_id;
+
+-- =====================================================================
+-- Q10 (rerun by Dany, DA-5): runs unchanged on the Phase 2 schema.
+-- =====================================================================
+-- Query 10
+-- List all patients who underwent a surgical procedure before entering an ICU or CCU during the same admission. Display the patient name, procedure date and time, critical care unit type, and unit entry time.
+--
+-- Find patients who had surgery before entering the ICU or CCU.
+-- The surgery and unit stay must belong to the same admission.
+-- Only procedures performed before unit entry are included.
+ 
+SELECT
+    p.first_name || ' ' || p.last_name AS patient_name,
+    sp.procedure_datetime,
+    hu.unit_type,
+    us.entry_datetime
+FROM patients p
+JOIN admissions a
+    ON p.patient_id = a.patient_id
+JOIN surgical_procedures sp
+    ON a.admission_id = sp.admission_id
+JOIN unit_stays us
+    ON a.admission_id = us.admission_id
+JOIN hospital_units hu
+    ON us.unit_id = hu.unit_id
+WHERE hu.unit_type IN ('ICU', 'CCU')
+  AND sp.procedure_datetime < us.entry_datetime;
+
+
+-- =====================================================================
+-- Q14 (rerun by Dany, DA-5): runs unchanged on the Phase 2 schema.
+-- =====================================================================
+-- Query 14
+-- Retrieve the patient or patients with the longest completed hospital stay, calculated from admission time to discharge time. If multiple patients have the same maximum length of stay, display all of them.
+--
+-- A subquery finds the maximum length among completed stays.
+-- The outer query returns all stays matching that length, including ties.
+ 
+SELECT
+    p.first_name || ' ' || p.last_name AS patient_name,
+    a.admission_datetime,
+    a.discharge_datetime,
+    a.discharge_datetime - a.admission_datetime AS length_of_stay
+FROM admissions a
+JOIN patients p
+    ON a.patient_id = p.patient_id
+WHERE a.discharge_datetime IS NOT NULL
+  AND (a.discharge_datetime - a.admission_datetime) = (
+      SELECT MAX(discharge_datetime - admission_datetime)
+      FROM admissions
+      WHERE discharge_datetime IS NOT NULL
+  );
+
+
+-- =====================================================================
+-- Q16 (rerun by Dany, DA-5): runs unchanged on the Phase 2 schema.
+-- =====================================================================
+-- Query 16
+-- List all patients who stayed in more than one type of critical care unit during the same admission. For example, a patient may have been transferred from an ICU to a CCU.
+--
+-- Find patients who stayed in more than one critical care unit type
+-- during the same admission. COUNT(DISTINCT) ensures that repeated
+-- stays in the same unit type are counted only once.
+ 
+SELECT
+    p.first_name || ' ' || p.last_name AS patient_name,
+    a.admission_id,
+    COUNT(DISTINCT hu.unit_type) AS critical_care_types
+FROM patients p
+JOIN admissions a
+    ON p.patient_id = a.patient_id
+JOIN unit_stays us
+    ON a.admission_id = us.admission_id
+JOIN hospital_units hu
+    ON us.unit_id = hu.unit_id
+WHERE hu.unit_type IN ('MICU', 'SICU', 'ICU', 'CCU')
+GROUP BY
+    p.patient_id,
+    p.first_name,
+    p.last_name,
+    a.admission_id
+HAVING COUNT(DISTINCT hu.unit_type) > 1;
+
+
+-- =====================================================================
+-- Q19 (rerun by Dany, DA-5): runs unchanged on the Phase 2 schema.
+-- =====================================================================
+-- Query 19
+-- List all admissions where the patient’s discharge status or discharge condition indicates that the patient died during the hospital stay. Display the patient name, admission date, recorded date of death, and associated primary ICD-9 diagnosis.
+--
+-- Find patients who died during their hospital stay.
+-- Join deceased admissions with their primary diagnoses,
+-- then use the ICD-9 dictionary to display the diagnosis title.
+ 
+SELECT
+    p.first_name || ' ' || p.last_name AS patient_name,
+    a.admission_datetime,
+    p.date_of_death,
+    d.icd9_code,
+    icd.official_title AS diagnosis_title
+FROM patients p
+JOIN admissions a
+    ON p.patient_id = a.patient_id
+JOIN diagnoses d
+    ON a.admission_id = d.admission_id
+JOIN icd9_dictionary icd
+    ON d.icd9_code = icd.icd9_code
+WHERE a.admission_status = 'Deceased'
+  AND d.diagnosis_type = 'Primary';
+
